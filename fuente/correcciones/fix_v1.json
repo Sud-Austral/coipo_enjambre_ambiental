@@ -1,0 +1,1306 @@
+{
+ "cambios": [
+  {
+   "id": "ley-19372",
+   "campo": "id_norma_bcn",
+   "valor": 30739,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/30739.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-19372",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=30739",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "id_norma_bcn",
+   "valor": 259412,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/259412.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=259412",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "id_norma_bcn",
+   "valor": 1133780,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1133780.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1133780",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "id_norma_bcn",
+   "valor": 1141461,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1141461.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1141461",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "id_norma_bcn",
+   "valor": 1176903,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1176903.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1176903",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "id_norma_bcn",
+   "valor": 1177286,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1177286.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1177286",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-21660",
+   "campo": "id_norma_bcn",
+   "valor": 1202472,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1202472.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ley-21660",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1202472",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1227602,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1227602.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1227602",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-32-2015-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1083574,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1083574.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-32-2015-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1083574",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-6-2024-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1214493,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1214493.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-6-2024-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1214493",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-29-2011-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1039460,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1039460.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-29-2011-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1039460",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-30-2012-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1048783,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1048783.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-30-2012-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1048783",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-31-2012-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1048784,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1048784.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-31-2012-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1048784",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-25-2011-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1031470,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1031470.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-25-2011-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1031470",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1060366,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1060366.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1060366",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-39-2013-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1060367,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1060367.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-39-2013-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1060367",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-15-2020-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1152029,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1152029.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-15-2020-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1152029",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "trat-convenio-169-oit",
+   "campo": "id_norma_bcn",
+   "valor": 279441,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/279441.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "trat-convenio-169-oit",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=279441",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "id_norma_bcn",
+   "valor": 1076172,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1076172.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1076172",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1060523,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1060523.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1060523",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1067876,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1067876.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1067876",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1200689,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1200689.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1200689",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1220588,
+   "motivo": "El idNorma 1222128 es la Res. Ex. 202699101205 del SEA (D.O. 09-03-2026); el DS 17/2025 MMA es idNorma 1220588 (prom. 17-06-2025, D.O. 21-01-2026, artículo único)."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1220588",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1076437,
+   "motivo": "idNorma confirmado en BCN (XML /home/claude/verif/xml/1076437.xml): tipo, número, organismo y fecha coinciden; BCN lo muestra no derogado."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1076437",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "res-202699101169-2026-sea",
+   "campo": "id_norma_bcn",
+   "valor": 1222127,
+   "motivo": "La resolución del SEA está en BCN como extracto publicado en el Diario Oficial (XML 1222127.xml). El PDF de sea.gob.cl debe quedar en fuentes_consultadas."
+  },
+  {
+   "id": "res-202699101169-2026-sea",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1222127",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "res-202499101887-2024-sea",
+   "campo": "id_norma_bcn",
+   "valor": 1209979,
+   "motivo": "La resolución del SEA está en BCN como extracto publicado en el Diario Oficial (XML 1209979.xml). El PDF de sea.gob.cl debe quedar en fuentes_consultadas."
+  },
+  {
+   "id": "res-202499101887-2024-sea",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1209979",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "res-20259910137-2025-sea",
+   "campo": "id_norma_bcn",
+   "valor": 1212357,
+   "motivo": "La resolución del SEA está en BCN como extracto publicado en el Diario Oficial (XML 1212357.xml). El PDF de sea.gob.cl debe quedar en fuentes_consultadas."
+  },
+  {
+   "id": "res-20259910137-2025-sea",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1212357",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "res-202599101674-2025-sea",
+   "campo": "id_norma_bcn",
+   "valor": 1221232,
+   "motivo": "La resolución del SEA está en BCN como extracto publicado en el Diario Oficial (XML 1221232.xml). El PDF de sea.gob.cl debe quedar en fuentes_consultadas."
+  },
+  {
+   "id": "res-202599101674-2025-sea",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1221232",
+   "motivo": "Enlace canónico BCN coherente con id_norma_bcn."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "titulo_oficial",
+   "valor": "Crea el cargo de Presidente de la Comisión Nacional del Medio Ambiente y le confiere rango de Ministro de Estado",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "titulo_oficial",
+   "valor": "Modifica la Ley Nº 19.300, que aprueba Ley sobre Bases Generales del Medio Ambiente, para exigir la elaboración de un Estudio de Impacto Ambiental en los proyectos que puedan generar contaminación lumínica en las zonas que indica",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "titulo_oficial",
+   "valor": "Modifica el artículo 30 bis de la Ley N° 19.300, sobre Bases Generales del Medio Ambiente, en lo relativo a Declaración de Impacto Ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba reglamento que regula el Registro Público de Sanciones de conformidad con lo mandatado por el artículo 140 de la Ley N° 21.600, que “crea el Servicio de Biodiversidad y Áreas Protegidas y el Sistema Nacional de Áreas Protegidas”",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "trat-convenio-169-oit",
+   "campo": "titulo_oficial",
+   "valor": "Promulga el Convenio Nº 169 sobre Pueblos Indígenas y Tribales en Países Independientes de la Organización Internacional del Trabajo",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "titulo_oficial",
+   "valor": "Dicta instrucciones generales sobre la elaboración del plan de seguimiento de variables ambientales, los informes de seguimiento ambiental y la remisión de información al sistema electrónico de seguimiento ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "titulo_oficial",
+   "valor": "Modifica Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "titulo_oficial",
+   "valor": "Modifica Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba modificación al decreto supremo Nº 40, de 2012, del Ministerio del Medio Ambiente, que establece el Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba modificación al decreto supremo Nº 40, de 2012, del Ministerio del Medio Ambiente, que establece el Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba Reglamento del Registro Público de Consultores Certificados para la realización de Declaraciones y Estudios de Impacto Ambiental",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción."
+  },
+  {
+   "id": "res-202699101169-2026-sea",
+   "campo": "titulo_oficial",
+   "valor": "Tiene presente la observancia de la Guía áreas de influencia en el SEIA",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción. La edición de la guía queda en nombre_corto."
+  },
+  {
+   "id": "res-202499101887-2024-sea",
+   "campo": "titulo_oficial",
+   "valor": "Tiene presente la observancia de la Guía metodológica para la consideración del cambio climático en el SEIA",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción. La edición de la guía queda en nombre_corto."
+  },
+  {
+   "id": "res-20259910137-2025-sea",
+   "campo": "titulo_oficial",
+   "valor": "Tiene presente la observancia de la Guía para la predicción y evaluación de impactos sobre los sistemas de vida y costumbres de grupos humanos en el SEIA",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción. La edición de la guía queda en nombre_corto."
+  },
+  {
+   "id": "res-202599101674-2025-sea",
+   "campo": "titulo_oficial",
+   "valor": "Tiene presente la observancia de la Guía para la predicción y evaluación de impactos sobre ecosistemas terrestres",
+   "motivo": "Título oficial según ficha BCN (TituloNorma); el JSON lo tenía nulo, abreviado o con otra redacción. La edición de la guía queda en nombre_corto."
+  },
+  {
+   "id": "ds-31-2012-mma",
+   "campo": "fecha_publicacion",
+   "valor": "2013-02-11",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202)."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "campo": "fecha_publicacion",
+   "valor": "2014-03-18",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202)."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "fecha_publicacion",
+   "valor": "2020-01-23",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202)."
+  },
+  {
+   "id": "trat-convenio-169-oit",
+   "campo": "fecha_publicacion",
+   "valor": "2008-10-14",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202)."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "fecha_publicacion",
+   "valor": "2015-04-15",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202)."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "fecha_publicacion",
+   "valor": "2015-04-17",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202)."
+  },
+  {
+   "id": "res-202699101169-2026-sea",
+   "campo": "fecha_publicacion",
+   "valor": "2026-03-09",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202). Corresponde al extracto de la resolución, no a la fecha de la guía."
+  },
+  {
+   "id": "res-202499101887-2024-sea",
+   "campo": "fecha_publicacion",
+   "valor": "2025-01-06",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202). Corresponde al extracto de la resolución, no a la fecha de la guía."
+  },
+  {
+   "id": "res-20259910137-2025-sea",
+   "campo": "fecha_publicacion",
+   "valor": "2025-04-07",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202). Corresponde al extracto de la resolución, no a la fecha de la guía."
+  },
+  {
+   "id": "res-202599101674-2025-sea",
+   "campo": "fecha_publicacion",
+   "valor": "2026-02-09",
+   "motivo": "Fecha de publicación en el Diario Oficial según BCN; en el JSON estaba nula (en un lote, para ley-21202). Corresponde al extracto de la resolución, no a la fecha de la guía."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "organismo",
+   "valor": "Ministerio Secretaría General de la Presidencia",
+   "motivo": "Organismo según ficha BCN; nulo o incompleto en al menos un lote."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Organismo según ficha BCN; nulo o incompleto en al menos un lote."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Organismo según ficha BCN; nulo o incompleto en al menos un lote."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Organismo según ficha BCN; nulo o incompleto en al menos un lote."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Organismo según ficha BCN; nulo o incompleto en al menos un lote."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente; Superintendencia del Medio Ambiente",
+   "motivo": "Organismo según ficha BCN; nulo o incompleto en al menos un lote."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.755, publicada 2025-07-11 (versión vigente BCN de esa fecha)",
+   "motivo": "El lote r1 lo deja nulo; BCN registra versión 2025-07-11, coincidente con lo anotado en r6."
+  },
+  {
+   "id": "ds-39-2013-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Modificado por DS 77/2014 MMA (D.O. 2015-02-05) y DS 50/2015 MMA (D.O. 2015-12-31); versión vigente BCN de 2015-12-31",
+   "motivo": "BCN registra versión 2015-12-31; el buscador BCN muestra ambos decretos modificatorios (idNorma 1074523 y 1085922)."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "ultima_modificacion",
+   "valor": "Modificada por Res. Ex. 921/2015 SMA (D.O. 2015-10-14). BCN registra además una versión de 2026-01-06 que afecta al artículo séptimo (ubicación y georreferenciación de puntos de muestreo); la resolución modificatoria de 2026 no fue identificada",
+   "motivo": "Versión BCN 2026-01-06; Res. 921/2015 es idNorma 1082662."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "notas_verificacion",
+   "valor": "Texto leído en BCN (idNorma 1076172, versión 2026-01-06, no derogada): resuelvo primero con 28 artículos más artículo final; el resuelvo segundo deja sin efecto la Res. Ex. 844/2012 SMA. No se identificó la resolución que la modificó en enero de 2026.",
+   "motivo": "Reemplaza la nota que declaraba no haber visto el texto."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Identidad y texto verificados en BCN."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "art": null,
+   "epigrafe_actual": "Plan de seguimiento de variables ambientales",
+   "campo": "num",
+   "valor": "tercero a décimo tercero",
+   "motivo": "El JSON trae num nulo; numeración tomada del texto BCN (artículos en ordinales). Se identifica el artículo por su epígrafe actual porque num es null."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "art": null,
+   "epigrafe_actual": "Informes de seguimiento",
+   "campo": "num",
+   "valor": "décimo cuarto a vigésimo cuarto",
+   "motivo": "El JSON trae num nulo; numeración tomada del texto BCN (artículos en ordinales). Se identifica el artículo por su epígrafe actual porque num es null."
+  },
+  {
+   "id": "res-223-2015-sma",
+   "art": null,
+   "epigrafe_actual": "Remisión electrónica",
+   "campo": "num",
+   "valor": "vigésimo quinto a vigésimo octavo",
+   "motivo": "El JSON trae num nulo; numeración tomada del texto BCN (artículos en ordinales). Se identifica el artículo por su epígrafe actual porque num es null."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "art": null,
+   "epigrafe_actual": "Administración del registro",
+   "campo": "num",
+   "valor": "3°, 4° y 7°",
+   "motivo": "El JSON trae num nulo; numeración tomada del texto BCN (10 artículos). Se identifica el artículo por su epígrafe actual."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "art": null,
+   "epigrafe_actual": "Contenido de la inscripción",
+   "campo": "num",
+   "valor": "5°",
+   "motivo": "El JSON trae num nulo; numeración tomada del texto BCN (10 artículos). Se identifica el artículo por su epígrafe actual."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "art": null,
+   "epigrafe_actual": "Eliminación de inscripciones",
+   "campo": "num",
+   "valor": "8°",
+   "motivo": "El JSON trae num nulo; numeración tomada del texto BCN (10 artículos). Se identifica el artículo por su epígrafe actual."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "art": null,
+   "epigrafe_actual": "Eliminación de inscripciones",
+   "campo": "resumen",
+   "valor": "El SBAP elimina la inscripción, de oficio o a petición de parte, cuando han pasado cinco años desde que se incluyó. La Contraloría cursó el decreto con el alcance de que esta regla rige desde el 1 de diciembre de 2026; el resto del reglamento rige desde su publicación (art. 10).",
+   "motivo": "La fecha 01-12-2026 no está en el articulado sino en el alcance de toma de razón reproducido por BCN; se precisa."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "notas_verificacion",
+   "valor": "Texto oficial leído en BCN (idNorma 1227602): DS 10 MMA, promulgado 2025-04-22, publicado 2026-08-28, 10 artículos, no derogado. La vigencia diferida del art. 8° proviene del alcance de la Contraloría.",
+   "motivo": "Reemplaza la nota basada en fuentes secundarias."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Verificado en BCN."
+  },
+  {
+   "id": "trat-convenio-169-oit",
+   "campo": "notas_verificacion",
+   "valor": "Ficha BCN verificada (idNorma 279441): Decreto 236 de Relaciones Exteriores, promulgado 2008-10-02, publicado 2008-10-14, no derogado. El contenido del art. 6 del Convenio no fue recontrastado en esta verificación.",
+   "motivo": "Reemplaza la nota que suponía la fecha sin verificar."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "notas_verificacion",
+   "valor": "idNorma 1220588 confirmado en BCN (Decreto 17 MMA, promulgado 2025-06-17, publicado 2026-01-21, artículo único, no derogado). El idNorma 1222128 antes enlazado corresponde a la Res. Ex. 202699101205 del SEA (D.O. 2026-03-09), que adecua guías y criterios por la entrada en vigencia de este decreto.",
+   "motivo": "Corrige el enlace erróneo."
+  },
+  {
+   "id": "res-1227-2015-sma",
+   "campo": "estado",
+   "valor": "derogada",
+   "motivo": "BCN la marca derogada desde 2021-12-11: el resuelvo tercero de la Res. Ex. 2547/2021 SMA (idNorma 1169593, D.O. 2021-12-11) la revoca desde su entrada en vigencia."
+  },
+  {
+   "id": "res-1227-2015-sma",
+   "campo": "ultima_modificacion",
+   "valor": "Revocada por la Res. Ex. 2547/2021 SMA (D.O. 2021-12-11, idNorma BCN 1169593), que fija las instrucciones vigentes de remisión de información de fuentes reguladas por normas de emisión atmosférica y planes mediante el Sistema de Seguimiento Atmosférico (SISAT)",
+   "motivo": "Identifica la norma que la reemplazó."
+  },
+  {
+   "id": "res-1227-2015-sma",
+   "campo": "nombre_corto",
+   "valor": "Res. Ex. 1227/2015 SMA: reporte de fuentes fijas (revocada en 2021)",
+   "motivo": "Evita presentar como vigente una instrucción revocada."
+  },
+  {
+   "id": "res-1227-2015-sma",
+   "campo": "resumen",
+   "valor": "Instrucción general de la SMA, hoy sin vigencia, que canalizaba por la Ventanilla Única del RETC los reportes de fuentes estacionarias sujetas a normas de emisión atmosférica y a planes de prevención o descontaminación. Fue revocada el 11-12-2021 por la Res. Ex. 2547/2021 SMA, que trasladó estos reportes al Sistema de Seguimiento Atmosférico (SISAT).",
+   "motivo": "El resumen la describía en presente como instrucción aplicable."
+  },
+  {
+   "id": "res-1227-2015-sma",
+   "campo": "notas_verificacion",
+   "valor": "BCN (idNorma 1086044) la muestra derogada con fecha 2021-12-11. Se leyó la Res. Ex. 2547/2021 SMA (idNorma 1169593), cuyo resuelvo tercero la revoca. La Res. 2547/2021 no existe como norma en ningún lote: se recomienda incorporarla.",
+   "motivo": "Actualiza verificación."
+  },
+  {
+   "id": "ds-15-2013-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Derogado por el art. 69 del DS 1/2021 MMA (D.O. 2023-03-29), que mantiene las resoluciones dictadas para su cumplimiento en lo que no se opongan al nuevo plan y, solo para la hipótesis de su artículo único transitorio, los arts. 34 y siguientes sobre episodios críticos",
+   "motivo": "Se leyó el art. 69 del DS 1/2021 (idNorma 1190758): deroga expresamente el DS 15/2013. El estado 'reemplazada' del JSON es correcto; la marca 'no derogado' es un desfase de la ficha BCN."
+  },
+  {
+   "id": "ds-15-2013-mma",
+   "campo": "notas_verificacion",
+   "valor": "Derogación expresa confirmada en el art. 69 del DS 1/2021 MMA (texto BCN). La ficha BCN del DS 15/2013 (idNorma 1053451) sigue marcándolo 'no derogado' y sin fecha de derogación: discrepancia atribuible a BCN.",
+   "motivo": "Precisa el resultado de la verificación."
+  },
+  {
+   "id": "dl-701-1974",
+   "campo": "ultima_modificacion",
+   "valor": "Texto íntegramente sustituido por el artículo primero del DL 2.565 (D.O. 1979-04-03), que conservó el número 701; última modificación: Ley 21.210, artículo trigésimo (D.O. 2020-02-24), que reemplazó el inciso primero del art. 13 (exención de impuesto territorial)",
+   "motivo": "La norma modificatoria de 2020 es la Ley 21.210 (verificado en su texto, idNorma 1142667, y en la versión 2020-02-24 del art. 13)."
+  },
+  {
+   "id": "dl-701-1974",
+   "campo": "notas_verificacion",
+   "valor": "fecha_publicacion 1974-10-28 corresponde al DL 701 original (idNorma 6294, verificada en BCN) y se mantiene. id_norma_bcn 6954 es el DL 2.565/1979 (D.O. 1979-04-03), que BCN usa como texto vigente del DL 701 (versión 2020-02-24, no derogado); la numeración de artículos del JSON es la del texto sustituido contenido en su artículo primero.",
+   "motivo": "Deja explícita la doble identidad (norma original / texto sustitutivo)."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "id_norma_bcn",
+   "valor": 1229250,
+   "motivo": "Confirmado con obtxml?opt=7&idLey=21850: normaId 1229250."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1229250",
+   "motivo": "Enlace canónico BCN."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "organismo",
+   "valor": "Ministerio de Hacienda",
+   "motivo": "Organismo según ficha BCN; nulo en r1 y r3."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "titulo_oficial",
+   "valor": "Para la Reconstrucción Nacional y el Desarrollo Económico y Social",
+   "motivo": "Título oficial BCN; r1 traía una denominación de prensa."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "fecha_publicacion",
+   "valor": "2026-10-17",
+   "motivo": "Confirmada en BCN (promulgada 2026-10-09)."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "fecha_promulgacion",
+   "valor": "2026-10-09",
+   "motivo": "Según ficha BCN."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "estado",
+   "valor": "vigente",
+   "motivo": "BCN: no derogado; versión única 2026-10-17."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "resumen",
+   "valor": "Ley miscelánea de 34 artículos permanentes y 24 transitorios, mayoritariamente tributaria y de reconstrucción. En lo ambiental: el art. 11 reforma la Ley 19.300 (ingreso de centrales y de modificaciones de proyectos, recurso especial de reclamación contra la RCA, régimen voluntario de evaluación, plazos de reclamaciones PAC y rectoría técnica del SEA); el art. 14 modifica la Ley 20.600 (competencias, legitimación, cautelares y apelación); el art. 4 baja a un año la invalidación de la Ley 19.880; el art. 15 extiende plazos de la Ley 21.600; el art. 16 cambia el régimen de hallazgos de la Ley 17.288; y los arts. 5 y 6 modifican la Ley 20.434 y la Ley General de Pesca y Acuicultura. Rige en general desde el 1 de noviembre de 2026, con vigencias especiales.",
+   "motivo": "Resumen unificado redactado a partir del texto oficial BCN (idNorma 1229250)."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "notas_verificacion",
+   "valor": "Texto oficial leído completo en BCN (idNorma 1229250, versión 2026-10-17) para los arts. 4, 5, 6, 11 a 17 y transitorios noveno, décimo tercero a décimo quinto, vigésimo y vigésimo primero. Los arts. 12 y 13 subsisten como fragmentos sin el artículo que les daba sentido: el oficio de la Contraloría reproducido al final del texto BCN explica que el Tribunal Constitucional declaró inconstitucional el precepto orgánico constitucional previo y que estas normas carecen de objeto. Además de las leyes ambientales, modifica las leyes 21.681, 17.235, 21.045, 21.091, 20.948, 21.659, 19.518, 19.886 y 21.713, el DL 3.063, el DFL 2/1959, la Ley sobre Impuesto a la Renta, el Código Tributario, la Ordenanza de Aduanas, el DS 104/1977 de Interior y el DFL 106/1960 de Hacienda.",
+   "motivo": "Sustituye las notas de los cuatro lotes, que declaraban no haber visto el texto oficial."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Contrastada con el texto oficial."
+  }
+ ],
+ "art_eliminar": [
+  {
+   "id": "ley-21850",
+   "art": "11",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r1 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "14",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r1 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "15",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r1 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "12 y 13",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r1 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "13° transitorio",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r1 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 10",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 arts. 20, 24 bis, 29 y 30 bis",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 25 septies",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 81",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "4",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 20.600 arts. 17, 18, 24 y 26",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 17.288 arts. 26 y 26 bis",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Transitorio 13°",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "12, 13 y transitorio 14°",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r2 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.300 art. 10 letra c)",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.300 art. 10 inciso final",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.300 arts. 20 y 24 bis",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.300 art. 25 septies",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.300 arts. 29 y 30 bis",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.300 art. 81 letra a)",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 20.600 arts. 17, 18, 24 y 26",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 17.288 arts. 22, 26 y 26 bis",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 21.600 art. 15 y transitorios",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 19.880 art. 53",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "transitorios 9° y 13°",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r3 usaba numeración no oficial o del artículo modificado)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "6",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r5 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "16",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r5 usaba numeración de la propia ley)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Décimo tercero transitorio",
+   "motivo": "Se reemplaza por el articulado canónico verificado en BCN (lote r5 usaba numeración no oficial o del artículo modificado)."
+  }
+ ],
+ "art_agregar": [
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "4",
+    "epigrafe": "Invalidación administrativa (Ley 19.880)",
+    "resumen": "En el inciso primero del art. 53 de la Ley 19.880 el plazo para que la Administración invalide sus actos baja de dos años a uno.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "5",
+    "epigrafe": "Relocalización de concesiones de acuicultura (Ley 20.434)",
+    "resumen": "Cambia el art. 5° de la Ley 20.434: toda relocalización de concesiones acuícolas pasa por el SEIA según la Ley 19.300 y su reglamento, y debe acompañar ante la Subsecretaría de Pesca un plan de abandono y cierre. La Subsecretaría informa cada año al Congreso las relocalizaciones aprobadas y rechazadas.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "6",
+    "epigrafe": "Ley General de Pesca y Acuicultura",
+    "resumen": "Modifica el DS 430/1991: en el art. 67 permite validar información de terceros y encargar a inscritos el informe de banco natural; en el art. 84 crea un recargo progresivo de la patente por no uso del centro (60% más por hectárea entre los años 3 y 5, triple entre los años 6 y 10 y séxtuple desde el año 11, duplicándose cada quinquenio), con exenciones por evento ambiental, emergencia sanitaria o suspensión obligatoria; suprime el art. 87 ter; rehace el art. 122 bis sobre información ambiental e inspección de bancos naturales a costo del titular; y elimina del art. 142 letra e) la caducidad por paralizar más de dos años.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 1",
+    "epigrafe": "Ley 19.300, art. 10: centrales y modificación de proyectos",
+    "resumen": "La letra c) queda como 'centrales generadoras de energía', sin umbral legal (cambio que rige al publicarse el nuevo reglamento). Un inciso final nuevo dispone que la modificación de un proyecto con RCA favorable, ejecutada en la misma área evaluada, solo se reevalúa si cambia sustantivamente la magnitud o extensión de los impactos; las mejoras tecnológicas quedan liberadas. El reglamento del art. 13 fijará las circunstancias.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 2 y 3",
+    "epigrafe": "Ley 19.300, arts. 18 quáter y 19: resolución fundada",
+    "resumen": "La decisión de que un proyecto requiere EIA (art. 18 quáter letra a) y el rechazo de una DIA por esa causa o por no acreditar cumplimiento normativo (art. 19 inciso tercero) deben constar en resolución fundada de la autoridad.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 4",
+    "epigrafe": "Ley 19.300, art. 20: recurso especial de reclamación",
+    "resumen": "Reemplaza el art. 20. Contra la RCA de una DIA se reclama ante el Director Ejecutivo y contra la de un EIA ante el Comité de Ministros (que sesiona al menos diez veces al año). Pueden recurrir el titular, los observantes PAC y cualquier interesado del art. 21 de la Ley 19.880, dentro de 30 días desde la notificación o publicación; la RCA se publica en el sitio del SEA dentro de cinco días hábiles. La autoridad resuelve en plazo fatal de 30 días (DIA) o 60 días (EIA); vencido, y tras un requerimiento de cinco días, puede certificarse el rechazo tácito. Lo resuelto solo se reclama ante el Tribunal Ambiental en 20 días, sin que procedan la invalidación del art. 53 ni los recursos del art. 59 de la Ley 19.880, y la reclamación judicial se limita a lo alegado en sede administrativa.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 5",
+    "epigrafe": "Ley 19.300, art. 24 bis (nuevo)",
+    "resumen": "Contra la RCA no proceden recursos administrativos ni mecanismos de revisión del Capítulo IV de la Ley 19.880 respecto de las materias conocidas mediante el recurso del art. 20; se mantiene la aclaración o rectificación del art. 62 de esa ley.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 6",
+    "epigrafe": "Ley 19.300, art. 25 septies (nuevo): régimen especial voluntario",
+    "resumen": "El titular puede acogerse, declarándolo al ingresar el proyecto, a una tramitación con una sola instancia de aclaraciones, rectificaciones o ampliaciones en DIA y hasta dos en EIA (la segunda excepcional y fundada); luego el SEA elabora el informe consolidado. Los servicios deben ceñirse a lo presentado, sin nuevos requerimientos. Si el proyecto fue planificado en un instrumento con evaluación ambiental estratégica, el SEA reconoce esa información y acorta plazos.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 7 y 8",
+    "epigrafe": "Ley 19.300, arts. 29 y 30 bis: reclamaciones de participación ciudadana",
+    "resumen": "Las reclamaciones por observaciones no consideradas deben resolverse por resolución fundada en 60 días (art. 29, EIA) o 30 días (art. 30 bis, DIA), contados desde la interposición.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "11 N° 9",
+    "epigrafe": "Ley 19.300, art. 81 letra a): rectoría técnica del SEA",
+    "resumen": "El SEA ejerce la rectoría técnica de la evaluación, instruye el procedimiento y coordina a los órganos con competencia ambiental; solo considera pronunciamientos pertinentes, dentro de competencia y en plazo, y puede dictar instrucciones generales obligatorias.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "12 y 13",
+    "epigrafe": "Indemnización por RCA anulada (normas sin objeto)",
+    "resumen": "Fragmentos de un mecanismo de indemnización por anulación de RCA: pago por Hacienda del monto fijado por un tribunal arbitral y reclamación ante la Corte de Apelaciones. El artículo que creaba el tribunal y el plazo fue eliminado tras el control del Tribunal Constitucional; la Contraloría, al cursar el decreto promulgatorio, advirtió que estas reglas carecen de objeto.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "14",
+    "epigrafe": "Ley 20.600: Tribunales Ambientales",
+    "resumen": "Reemplaza el art. 17 N° 6) (reclamaciones contra lo resuelto por el Comité de Ministros o el Director Ejecutivo según arts. 29 y 30 bis en relación con el 20) y el N° 8) (excluye a la RCA de la reclamación por invalidación y suprime su párrafo cuarto); ajusta la legitimación del art. 18 N° 5). En el art. 24, las cautelares que suspenden una RCA duran hasta 30 días corridos, renovables, con tope de seis meses, salvo nueva cautelar excepcional por riesgo grave e irreversible o incumplimiento manifiesto, y son apelables en diez días. El art. 26 hace apelables también las resoluciones sobre cautelares y sus prórrogas.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "15",
+    "epigrafe": "Ley 21.600: plazos del SBAP",
+    "resumen": "El decreto de sitios prioritarios (octavo transitorio) se dictará dentro de cinco años y previa dictación del reglamento del art. 29; se permite relocalizar concesiones desde un parque nacional a reservas o áreas de conservación de múltiples usos aunque no tengan plan de manejo (décimo transitorio); y el plazo para dictar los reglamentos sube a cuatro años desde la publicación de esa ley (duodécimo transitorio).",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "16",
+    "epigrafe": "Ley 17.288: hallazgos e intervenciones menores",
+    "resumen": "Reemplaza el art. 6° N° 6 (permisos de excavación), exige asesoría de un profesional de arqueología o paleontología para solicitar autorización (art. 22) y sustituye el art. 26: quien halle restos debe avisar de inmediato a la Secretaría Técnica del CMN y resguardarlos, paralizando solo el área del hallazgo si es indispensable; el Consejo tiene 20 días corridos para decidir si se requiere autorización y, vencidos, puede certificarse el vencimiento, salvo restos humanos. Multa de 5 a 200 UTM. El nuevo art. 26 bis exime de autorización a las intervenciones menores, que se informan por aviso electrónico, y sanciona la declaración falsa con multa de 10 a 500 UTM.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "17",
+    "epigrafe": "Ley 21.045: Secretaría Técnica del CMN",
+    "resumen": "Agrega los arts. 26 y 26 bis de la Ley 17.288 a la enumeración del art. 30 N° 5 de la Ley 21.045.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "Noveno transitorio",
+    "epigrafe": "Vigencia general",
+    "resumen": "Las modificaciones sin fecha especial rigen desde el primer día del mes siguiente a la publicación, esto es, el 1 de noviembre de 2026; las excepciones enumeradas son tributarias y habitacionales (1 de enero de 2027).",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "Décimo tercero transitorio",
+    "epigrafe": "Nuevos reglamentos del SEIA y de la EAE",
+    "resumen": "El Ministerio del Medio Ambiente debe dictar, dentro de un año desde la publicación (hasta el 17 de octubre de 2027), nuevos reglamentos de evaluación ambiental estratégica y del SEIA. El cambio a la letra c) del art. 10 de la Ley 19.300 rige solo al publicarse el nuevo reglamento, que no puede fijar un umbral inferior a 3 MW y debe distinguir por tipo de generación.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "Décimo cuarto transitorio",
+    "epigrafe": "Aplicación de los arts. 12 y 13",
+    "resumen": "Limita el procedimiento de los arts. 12 y 13 a las RCA otorgadas y anuladas después de publicados los reglamentos del transitorio anterior; comparte la falta de objeto de esos artículos.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "Décimo quinto transitorio",
+    "epigrafe": "Reglamento de intervenciones menores",
+    "resumen": "El Ministerio de las Culturas debe dictar el reglamento del art. 26 bis de la Ley 17.288 dentro de seis meses desde la entrada en vigencia.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ley-21850",
+   "articulo": {
+    "num": "Vigésimo y vigésimo primero transitorios",
+    "epigrafe": "Acuicultura: reglas de transición",
+    "resumen": "Los titulares con causal de caducidad por falta de operación aún no firme pueden optar por la patente aumentada del art. 84 de la LGPA, cobrada retroactivamente. La supresión del art. 87 ter rige al año siguiente de la publicación.",
+    "obliga_titular": true
+   }
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-20600",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-21600",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-19880",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-17288",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "remite",
+   "destino": "ds-40-2012-mma",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "remite",
+   "destino": "ds-32-2015-mma",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ds-430-1991-economia",
+   "motivo": "Se sustituyen todas las relaciones de los cuatro lotes por el conjunto canónico con art_origen y art_destino verificados."
+  },
+  {
+   "id": "ds-430-1991-economia",
+   "tipo": "reemplaza",
+   "destino": "ley-18892",
+   "motivo": "Queda autorreferente si se aplica el alias ley-18892 -> ds-430-1991-economia."
+  },
+  {
+   "id": "ley-18892",
+   "tipo": "remite",
+   "destino": "ds-430-1991-economia",
+   "motivo": "Queda autorreferente si se aplica el alias ley-18892 -> ds-430-1991-economia."
+  }
+ ],
+ "rel_agregar": [
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 1",
+    "art_destino": "10 letra c) e inciso final (nuevo)",
+    "nota": "Centrales sin umbral legal (vigencia diferida al nuevo reglamento) y regla para modificaciones de proyectos con RCA."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 2",
+    "art_destino": "18 quáter letra a)",
+    "nota": "Exige resolución fundada."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 3",
+    "art_destino": "19 inciso tercero",
+    "nota": "Exige resolución fundada."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 4",
+    "art_destino": "20",
+    "nota": "Reemplaza el artículo: recurso especial de reclamación."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 5",
+    "art_destino": "24 bis (nuevo)",
+    "nota": "Excluye otras vías administrativas contra la RCA."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 6",
+    "art_destino": "25 septies (nuevo)",
+    "nota": "Régimen especial voluntario de tramitación."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 7",
+    "art_destino": "29 inciso final (nuevo)",
+    "nota": "Plazo de 60 días para resolver."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 8",
+    "art_destino": "30 bis inciso quinto",
+    "nota": "Plazo de 30 días para resolver."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11 N° 9",
+    "art_destino": "81 letra a)",
+    "nota": "Rectoría técnica del SEA."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-20600",
+    "art_origen": "14",
+    "art_destino": "17 N° 6) y N° 8), 18 N° 5), 24 (incisos finales nuevos) y 26 inciso primero",
+    "nota": "Competencia, legitimación, cautelares sobre RCA y apelación."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19880",
+    "art_origen": "4",
+    "art_destino": "53 inciso primero",
+    "nota": "Plazo de invalidación de un año."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-21600",
+    "art_origen": "15",
+    "art_destino": "octavo transitorio inciso segundo, décimo transitorio y duodécimo transitorio inciso primero",
+    "nota": "Sitios prioritarios, relocalización de concesiones y plazo reglamentario de cuatro años."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-17288",
+    "art_origen": "16",
+    "art_destino": "6° N° 6, 22 (inciso segundo nuevo), 26 y 26 bis (nuevo)",
+    "nota": "Excavaciones, hallazgos e intervenciones menores."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ds-430-1991-economia",
+    "art_origen": "6",
+    "art_destino": "67 incisos quinto y sexto, 84, 87 ter (suprimido), 122 bis y 142 letra e)",
+    "nota": "Acuicultura: bancos naturales, patente por no uso, información ambiental y caducidad."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "Décimo tercero transitorio",
+    "art_destino": null,
+    "nota": "Ordena dictar un nuevo Reglamento del SEIA dentro de un año."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ds-32-2015-mma",
+    "art_origen": "Décimo tercero transitorio",
+    "art_destino": null,
+    "nota": "Ordena dictar un nuevo reglamento de evaluación ambiental estratégica dentro de un año."
+   }
+  }
+ ],
+ "alias": {
+  "trat-acuerdo-de-escazu": "trat-escazu",
+  "ds-531-1967-minrel": "trat-convencion-washington",
+  "ds-236-2008-minrel": "trat-convenio-169-oit",
+  "convenio-169-oit": "trat-convenio-169-oit",
+  "ley-18892": "ds-430-1991-economia",
+  "dl-2565-1979": "dl-701-1974"
+ }
+}

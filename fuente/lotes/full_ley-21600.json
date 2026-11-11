@@ -1,0 +1,1570 @@
+{
+ "id": "ley-21600",
+ "articulos": [
+  {
+   "num": "1",
+   "epigrafe": "Objeto",
+   "resumen": "La ley busca conservar la diversidad biológica y proteger el patrimonio natural mediante preservación, restauración y uso sustentable de genes, especies y ecosistemas. Quedan fuera la sanidad animal y vegetal y los incendios forestales (prevención y combate), aunque esas acciones deben priorizar el resguardo de la biodiversidad.",
+   "obliga_titular": false,
+   "titulo": "Título I. Disposiciones generales",
+   "derogado": false
+  },
+  {
+   "num": "2",
+   "epigrafe": "Principios",
+   "resumen": "Fija diez principios rectores para políticas, normas y actos dictados al amparo de la ley: coordinación, jerarquía (evitar, mitigar, reparar y solo al final compensar), no regresión, participación, precaución, prevención, responsabilidad, sustentabilidad, información y valoración de servicios ecosistémicos.",
+   "obliga_titular": false,
+   "titulo": "Título I. Disposiciones generales",
+   "derogado": false
+  },
+  {
+   "num": "3",
+   "epigrafe": "Definiciones",
+   "resumen": "Define 34 conceptos, entre ellos área protegida (estatal y privada), área degradada, ecosistema amenazado, especie exótica invasora, humedal, paisaje de conservación, tipos de plan de manejo, sitio prioritario, zona de amortiguación y turismo ambientalmente responsable.",
+   "obliga_titular": false,
+   "titulo": "Título I. Disposiciones generales",
+   "derogado": false
+  },
+  {
+   "num": "4",
+   "epigrafe": "Servicio de Biodiversidad y Áreas Protegidas",
+   "resumen": "Crea el SBAP como servicio funcionalmente descentralizado, con personalidad jurídica y patrimonio propio, supervigilado por el Presidente a través del MMA, desconcentrado en direcciones regionales y afecto al Sistema de Alta Dirección Pública.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 1° Normas generales",
+   "derogado": false
+  },
+  {
+   "num": "5",
+   "epigrafe": "Funciones y atribuciones",
+   "resumen": "Enumera las funciones del SBAP: gestionar el SNAP y administrar las áreas del Estado, monitorear e informar sobre biodiversidad, elaborar y fiscalizar planes de especies, de ecosistemas y de restauración, pronunciarse en el SEIA sobre impactos en biodiversidad, administrar el Fondo, certificar, fiscalizar pesca, caza y bosque nativo dentro de áreas protegidas, y (letras s y t) proponer mejoras a las autorizaciones del SNAP y llevar un registro de profesionales y entidades técnicas conforme a la Ley Marco de Autorizaciones Sectoriales.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 1° Normas generales",
+   "derogado": false,
+   "nota_verificacion": "El XML registra este artículo con fechaVersion 29-09-2025; las letras s) y t) remiten a la Ley Marco de Autorizaciones Sectoriales."
+  },
+  {
+   "num": "6",
+   "epigrafe": "Administración y dirección superior",
+   "resumen": "El Servicio lo dirige un Director Nacional elegido por Alta Dirección Pública, que es su jefe superior y representante legal. Un reglamento del MMA fija la organización interna y las funciones de sus unidades.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 2° De la organización del Servicio",
+   "derogado": false
+  },
+  {
+   "num": "7",
+   "epigrafe": "Atribuciones y funciones del Director Nacional",
+   "resumen": "Entrega al Director Nacional la gestión de personal, la representación judicial y extrajudicial, la delegación de funciones, la coordinación con otros servicios ambientales, la celebración de contratos (incluida la contratación de apoyo técnico para analizar solicitudes de autorización) y la creación de comités.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 2° De la organización del Servicio",
+   "derogado": false,
+   "nota_verificacion": "fechaVersion 29-09-2025 en el XML; la letra f) remite a la Ley Marco de Autorizaciones Sectoriales."
+  },
+  {
+   "num": "8",
+   "epigrafe": "Direcciones Regionales",
+   "resumen": "El Servicio se desconcentra en Direcciones Regionales; cada región tiene un Director Regional de segundo nivel jerárquico de Alta Dirección Pública.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 2° De la organización del Servicio",
+   "derogado": false
+  },
+  {
+   "num": "9",
+   "epigrafe": "Comité Científico Asesor",
+   "resumen": "Crea un comité asesor paritario de nueve integrantes de instituciones académicas y científicas, al menos seis de regiones distintas de la Metropolitana, que sirven ad honorem por tres años renovables y deben inhabilitarse ante conflictos. Un reglamento del MMA regula su conformación y funcionamiento.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 2° De la organización del Servicio",
+   "derogado": false
+  },
+  {
+   "num": "10",
+   "epigrafe": "Patrimonio del Servicio",
+   "resumen": "Integra el patrimonio del SBAP con aportes de la Ley de Presupuestos, bienes transferidos o adquiridos, donaciones y herencias exentas de insinuación e impuesto, cooperación internacional, tarifas de acceso, concesiones y permisos en áreas del Estado y otros ingresos propios. Queda sujeto al DL 1.263.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 3° Del patrimonio",
+   "derogado": false
+  },
+  {
+   "num": "11",
+   "epigrafe": "Régimen laboral",
+   "resumen": "El personal se rige por el Código del Trabajo, la escala única de sueldos del DL 249 y las reglas especiales de esta ley.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "12",
+   "epigrafe": "Distribución de la jornada laboral",
+   "resumen": "Quienes trabajen en lugares apartados, aislados o en funciones de riesgo pueden tener una distribución horaria distinta, regulada por resolución del Director Nacional, y pactar jornada bisemanal según el Código del Trabajo.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "13",
+   "epigrafe": "Normas de probidad",
+   "resumen": "Somete al personal a las normas de probidad de la Ley 18.575 y de la Ley 20.880, a responsabilidad administrativa y a determinados artículos del Estatuto Administrativo.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "14",
+   "epigrafe": "Del ingreso al Servicio",
+   "resumen": "El ingreso es por concurso público; por resolución fundada caben concursos internos de promoción y, excepcionalmente, contratos a plazo fijo o por obra sin concurso, sobre todo para áreas protegidas.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "15",
+   "epigrafe": "Del sistema de evaluación",
+   "resumen": "El personal queda sujeto a evaluación de desempeño según un reglamento del MMA suscrito también por Hacienda; sus resultados inciden en capacitación, carrera y término del contrato.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "16",
+   "epigrafe": "De la destinación y la subrogación",
+   "resumen": "Faculta al Director Nacional para aplicar destinaciones fundadas y sin menoscabo, comisiones de servicio y cometidos del Estatuto Administrativo, con pago de viáticos, y las reglas de subrogación.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "17",
+   "epigrafe": "Capacitación",
+   "resumen": "El Director Nacional aprueba cada año, por resolución, los programas de capacitación y perfeccionamiento, ajustados al presupuesto; cuentan para la carrera funcionaria.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "18",
+   "epigrafe": "Del Servicio de Bienestar",
+   "resumen": "El personal puede afiliarse a servicios de bienestar. Quienes sean traspasados desde CONAF (o su sucesor legal) o desde el MMA conservan el derecho a seguir en el bienestar de su institución de origen, con aportes a cargo del SBAP.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "19",
+   "epigrafe": "De la responsabilidad disciplinaria",
+   "resumen": "La responsabilidad disciplinaria se persigue con el procedimiento sumarial del Estatuto Administrativo, sin perjuicio de reclamos ante Contraloría y tribunales.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "20",
+   "epigrafe": "De las infracciones cometidas por el personal y sus sanciones",
+   "resumen": "Sanciona las faltas del personal con censura, multa, suspensión de treinta días a tres meses (con goce de 50% a 70% de remuneración) o remoción, esta última ante vulneración grave de la probidad o causales del art. 160 del Código del Trabajo.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "21",
+   "epigrafe": "Del término de la relación laboral",
+   "resumen": "La relación laboral termina por las causales de los arts. 159, 160 y 161 del Código del Trabajo; la del art. 161 debe fundarse en el buen funcionamiento del Servicio y no pueden pactarse indemnizaciones distintas de las legales.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "22",
+   "epigrafe": "Del reglamento de concursos y promoción",
+   "resumen": "Encarga a un reglamento del MMA las normas que aseguren objetividad, transparencia y no discriminación en los concursos de ingreso y promoción.",
+   "obliga_titular": false,
+   "titulo": "Título II. Del Servicio de Biodiversidad y Áreas Protegidas / Párrafo 4° Del régimen del personal",
+   "derogado": false
+  },
+  {
+   "num": "23",
+   "epigrafe": "Instrumentos de conservación de la biodiversidad",
+   "resumen": "Habilita al Servicio para diseñar, implementar y dar seguimiento a los instrumentos de conservación del Título III, dentro y fuera de áreas protegidas, con enfoque ecosistémico.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 1° Disposiciones generales",
+   "derogado": false
+  },
+  {
+   "num": "24",
+   "epigrafe": "Sistema de Información de la Biodiversidad",
+   "resumen": "El Servicio administra un sistema público de información con datos de especies y ecosistemas, inventarios (incluidos humedales y glaciares), áreas protegidas, sitios prioritarios y áreas degradadas, interoperable con el SINIA. Puede reservar fundadamente datos de distribución de especies cuya difusión las ponga en riesgo.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 2° Sistema de información y monitoreo de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "25",
+   "epigrafe": "Monitoreo de la biodiversidad",
+   "resumen": "El Servicio define e implementa programas de monitoreo de ecosistemas, especies y variabilidad genética, con protocolos propios, considerando conocimiento tradicional indígena y local; puede encomendarlo a otros órganos o convenirlo con instituciones académicas.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 2° Sistema de información y monitoreo de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "26",
+   "epigrafe": "Requerimiento de información",
+   "resumen": "El Servicio puede pedir información a otros órganos del Estado para el sistema de información, y a privados cuando esta se haya generado con fondos públicos.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 2° Sistema de información y monitoreo de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "27",
+   "epigrafe": "Informes sobre el estado de la biodiversidad",
+   "resumen": "El Servicio colabora con el MMA en el informe cuatrienal y el reporte anual del art. 70 letra ñ) de la Ley 19.300, en lo relativo a biodiversidad.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 2° Sistema de información y monitoreo de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "28",
+   "epigrafe": "Planificación ecológica",
+   "resumen": "El MMA elabora periódicamente una planificación ecológica que identifica sitios prioritarios, usos del territorio, actividades con efectos perjudiciales y buenas prácticas. Debe considerarse al elaborar o actualizar los instrumentos de ordenamiento territorial del art. 7° bis de la Ley 19.300.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 3° Planificación para la conservación de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "29",
+   "epigrafe": "Sitios prioritarios",
+   "resumen": "Los sitios prioritarios se determinan por decreto supremo del MMA con criterios técnico-científicos y el Servicio lleva su registro espacial. Un reglamento fija procedimiento y criterios de declaración, con participación científica, local e indígena, y define qué son los cambios significativos en las características ecológicas del sitio que configuran la infracción del art. 116 letra a).",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 3° Planificación para la conservación de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "30",
+   "epigrafe": "Clasificación de ecosistemas según estado de conservación",
+   "resumen": "El Servicio propone al MMA la clasificación de los ecosistemas según su estado de conservación. Un reglamento fija categorías (con una o más de amenaza) y el procedimiento, que incluye pronunciamiento del Consejo de Ministros para la Sustentabilidad y el Cambio Climático.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "31",
+   "epigrafe": "Planes de manejo para la conservación de ecosistemas amenazados",
+   "resumen": "El Servicio dicta planes de manejo para ecosistemas amenazados, obligatorios para los servicios públicos, que pueden fijar requisitos a permisos sectoriales y condiciones al uso de suelo, químicos, aguas y especies. Pueden alcanzar proyectos con RCA, que en tal caso se someten a la revisión del art. 25 quinquies de la Ley 19.300; si involucran bosque nativo o recursos pesqueros se trabaja con el servicio sectorial.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "32",
+   "epigrafe": "Áreas degradadas",
+   "resumen": "El Servicio puede declarar por resolución áreas degradadas para recuperar su estructura, composición y funciones, según criterios y procedimiento de un reglamento del MMA suscrito además por Agricultura y Economía.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "33",
+   "epigrafe": "Planes de restauración ecológica",
+   "resumen": "El Servicio elabora y ejecuta planes de restauración para las áreas declaradas degradadas, con medidas, metas, plazos, monitoreo y costos estimados. En predios privados se necesita consentimiento y participación del propietario; fuera de áreas del Estado el procedimiento incluye participación local, municipal y regional.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "34",
+   "epigrafe": "Iniciativas privadas de conservación marina",
+   "resumen": "El Servicio presta apoyo técnico, según su presupuesto, a iniciativas en ecosistemas marinos, costeros e islas oceánicas bajo concesión o destinación del Ministerio de Defensa cuyo instrumento de manejo tenga por objetivo la conservación.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "35",
+   "epigrafe": "Paisajes de conservación",
+   "resumen": "Las municipalidades, solas o asociadas, pueden pedir al Servicio el reconocimiento de un paisaje de conservación acompañando informe técnico y cartas de consentimiento de los adherentes; luego proponen un plan de manejo que el Servicio aprueba por resolución.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "36",
+   "epigrafe": "Reservas de la biósfera",
+   "resumen": "El Servicio promueve el uso sustentable y los instrumentos de conservación en las reservas de la biósfera UNESCO, mediante un plan de gestión actualizado cada cinco años, y puede formar comités de gestión público-comunitarios.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "37",
+   "epigrafe": "Humedales de importancia internacional o sitios Ramsar",
+   "resumen": "Los sitios Ramsar se adscriben a una categoría del art. 56 por decreto supremo del MMA, bastando un informe técnico del Servicio; si el sitio es privado se requiere el consentimiento del dueño para afectarlo como área protegida privada.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "38",
+   "epigrafe": "Compensaciones de biodiversidad",
+   "resumen": "Un reglamento del MMA define criterios y estándares para juzgar, en el SEIA, si las compensaciones propuestas son apropiadas. Deben ser restauración ecológica (preservación solo excepcionalmente y con adicionalidad), recaer en impactos residuales, lograr al menos pérdida neta cero con equivalencia y adicionalidad, y no proceden sobre componentes irreemplazables o vulnerables.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 4° Instrumentos para la conservación de ecosistemas",
+   "derogado": false
+  },
+  {
+   "num": "39",
+   "epigrafe": "Inventario de humedales",
+   "resumen": "El Servicio lleva un inventario nacional de humedales que registra como mínimo ubicación georreferenciada, límites en coordenadas del cuerpo de agua y de la cuenca, superficie y tipo de humedal.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 5° Instrumentos para la protección y manejo sustentable de humedales",
+   "derogado": false
+  },
+  {
+   "num": "40",
+   "epigrafe": "Criterios para el uso sustentable de humedales",
+   "resumen": "El Servicio fija criterios indicativos de uso sustentable de humedales para resguardar sus características ecológicas y su régimen hidrológico; los humedales deben reconocerse en los instrumentos de ordenamiento territorial.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 5° Instrumentos para la protección y manejo sustentable de humedales",
+   "derogado": false
+  },
+  {
+   "num": "41",
+   "epigrafe": "Permiso para la alteración física de humedales",
+   "resumen": "Prohíbe alterar físicamente los humedales que sean sitios prioritarios y exige permiso previo del Servicio para alterar otros humedales inventariados. Alteración física incluye extraer caudales o áridos, intervenir la barra terminal o la vegetación azonal y ripariana, retirar cubierta de turberas o modificar la superficie de humedales urbanos.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 5° Instrumentos para la protección y manejo sustentable de humedales",
+   "derogado": false
+  },
+  {
+   "num": "42",
+   "epigrafe": "Planes de recuperación, conservación y gestión de especies",
+   "resumen": "El Servicio elabora planes para especies clasificadas en alguna categoría de conservación conforme al art. 37 de la Ley 19.300; un reglamento del MMA define categorías cubiertas, contenido y procedimiento.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 6° Instrumentos para la conservación de especies y su variabilidad genética",
+   "derogado": false
+  },
+  {
+   "num": "43",
+   "epigrafe": "Contenido mínimo del plan de especies",
+   "resumen": "El plan de recuperación, conservación o gestión debe incluir al menos diagnóstico de la especie, su hábitat, amenazas, acciones y un plan de metas medibles.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 6° Instrumentos para la conservación de especies y su variabilidad genética",
+   "derogado": false
+  },
+  {
+   "num": "44",
+   "epigrafe": "Monumentos naturales para la protección de especies",
+   "resumen": "El MMA, en consulta con Agricultura o Economía, puede declarar monumento natural a especies o especímenes por su interés estético o valor histórico o científico. Queda prohibido capturarlos, dañarlos, cazarlos, pescarlos, cortarlos o extraerlos, salvo autorización excepcional del Servicio para investigación o inspección gubernamental.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 6° Instrumentos para la conservación de especies y su variabilidad genética",
+   "derogado": false
+  },
+  {
+   "num": "45",
+   "epigrafe": "Prevención, control y erradicación de especies exóticas y exóticas invasoras",
+   "resumen": "El Servicio puede proponer la nómina de exóticas invasoras, ejecutar planes de control que toda persona debe facilitar (con ingreso a inmuebles y registro de vehículos, naves y equipaje, y auxilio de la fuerza pública), instalar barreras de bioseguridad con decomiso, y autorizar o denegar, junto al SAG o Subpesca, la internación y el traslado de estas especies. No rige para poblaciones en cultivo o crianza.",
+   "obliga_titular": true,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 6° Instrumentos para la conservación de especies y su variabilidad genética",
+   "derogado": false
+  },
+  {
+   "num": "46",
+   "epigrafe": "Fondo Nacional de la Biodiversidad",
+   "resumen": "Crea el Fondo para financiar proyectos de conservación, principalmente fuera de las áreas protegidas del Estado: investigación, capacitación, monitoreo, restauración, control de amenazas y prácticas productivas sustentables.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 7° Fondo Nacional de la Biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "47",
+   "epigrafe": "Beneficiarios",
+   "resumen": "Pueden acceder al Fondo las personas naturales y las personas jurídicas sin fines de lucro.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 7° Fondo Nacional de la Biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "48",
+   "epigrafe": "Administración",
+   "resumen": "El Fondo lo administra el Servicio y su funcionamiento se regula por resolución; el Servicio puede establecer líneas de financiamiento según prioridades de conservación.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 7° Fondo Nacional de la Biodiversidad",
+   "derogado": false,
+   "nota_verificacion": "El XML de la versión vigente corta el inciso segundo en «El Servicio podrá»; el inciso se completó con el XML oficial BCN de la versión 06-09-2023 (el artículo conserva esa fechaVersion, sin modificaciones)."
+  },
+  {
+   "num": "49",
+   "epigrafe": "Patrimonio",
+   "resumen": "El Fondo se forma con donaciones, herencias y legados exentos de insinuación e impuesto, recursos de la Ley de Presupuestos y de otras leyes, y aportes públicos o privados, nacionales o extranjeros.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 7° Fondo Nacional de la Biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "50",
+   "epigrafe": "Prácticas sustentables",
+   "resumen": "El Servicio promueve prácticas sustentables en actividades productivas mediante certificación y ecoetiquetado, contratos de retribución por servicios ecosistémicos, criterios ambientales para subsidios y acuerdos de producción limpia, con énfasis en sitios prioritarios, zonas de amortiguación y paisajes de conservación.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 8° Instrumentos económicos de conservación de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "51",
+   "epigrafe": "Sistema de Certificación de Biodiversidad y Servicios Ecosistémicos",
+   "resumen": "Crea un sistema voluntario, administrado por el Servicio y regulado por reglamento, que certifica actividades, prácticas o sitios por su aporte a la conservación; puede conllevar obligaciones cuyo incumplimiento hace perder la certificación.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 8° Instrumentos económicos de conservación de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "52",
+   "epigrafe": "Contrato de retribución por servicios ecosistémicos",
+   "resumen": "Regula el contrato escrito por el cual una parte se obliga a preservar, restaurar o usar sustentablemente un ecosistema a cambio de una contraprestación; el Servicio registra los que cumplan los contenidos mínimos reglamentarios.",
+   "obliga_titular": false,
+   "titulo": "Título III. Instrumentos de conservación de la biodiversidad / Párrafo 8° Instrumentos económicos de conservación de la biodiversidad",
+   "derogado": false
+  },
+  {
+   "num": "53",
+   "epigrafe": "Sistema Nacional de Áreas Protegidas",
+   "resumen": "Crea el SNAP, integrado por las áreas protegidas estatales y privadas, terrestres y acuáticas, y encarga su gestión al Servicio con participación ciudadana e instrumentos de financiamiento.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 1° Del Sistema Nacional de Áreas Protegidas",
+   "derogado": false
+  },
+  {
+   "num": "54",
+   "epigrafe": "Objetivos del Sistema",
+   "resumen": "Fija nueve objetivos: conservación permanente y representativa de ecosistemas y especies, mantención de servicios ecosistémicos, integración con el ordenamiento territorial, conectividad mediante corredores y zonas de amortiguación, participación local e indígena, respeto de conocimientos tradicionales y adaptación al cambio climático.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 1° Del Sistema Nacional de Áreas Protegidas",
+   "derogado": false
+  },
+  {
+   "num": "55",
+   "epigrafe": "Gestión del Sistema",
+   "resumen": "El Servicio gestiona y supervisa el SNAP y elabora un plan estratégico con prioridades de creación y ampliación de áreas, financiamiento, capacidades, turismo (junto a la Subsecretaría de Turismo) y participación. Puede crear comités consultivos regionales público-privados, regulados por reglamento.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 1° Del Sistema Nacional de Áreas Protegidas",
+   "derogado": false
+  },
+  {
+   "num": "56",
+   "epigrafe": "Categorías de áreas protegidas",
+   "resumen": "Establece seis categorías: Reserva de Región Virgen, Parque Nacional, Monumento Natural, Reserva Nacional, Área de Conservación de Múltiples Usos y Área de Conservación de Pueblos Indígenas.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "57",
+   "epigrafe": "Reserva de Región Virgen",
+   "resumen": "Categoría de preservación estricta de áreas en condiciones primitivas. Prohíbe la explotación comercial de recursos naturales y toda actividad distinta de la investigación científica autorizada.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "58",
+   "epigrafe": "Parque Nacional",
+   "resumen": "Área generalmente amplia con ambientes únicos o representativos, destinada a preservar el patrimonio natural y su valor escénico o cultural. Prohíbe la explotación comercial de recursos naturales; en parques exclusivamente marinos solo caben investigación, educación o turismo de baja escala autorizados.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "59",
+   "epigrafe": "Monumento Natural",
+   "resumen": "Área generalmente reducida que preserva un componente específico de la biodiversidad o sitios de interés geológico, paisajístico, educativo o científico. Prohíbe la explotación comercial de recursos naturales.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "60",
+   "epigrafe": "Reserva Nacional",
+   "resumen": "Área destinada a conservar comunidades biológicas, especies y hábitats mediante gestión activa. Admite actividades de uso sustentable que no arriesguen los servicios ecosistémicos del área.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "61",
+   "epigrafe": "Área de Conservación de Múltiples Usos",
+   "resumen": "Área caracterizada por una interacción tradicional entre personas y naturaleza, cuyo fin es el uso sustentable mediante manejo integrado. Permite actividades de uso sustentable que no pongan en riesgo los servicios ecosistémicos.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "62",
+   "epigrafe": "Área de Conservación de Pueblos Indígenas",
+   "resumen": "Área en tierras indígenas o espacios costeros marinos de pueblos originarios, destinada y administrada voluntariamente para conservar biodiversidad, valores culturales y prácticas tradicionales. Permite usos ancestrales o consuetudinarios y uso sustentable sin riesgo para los servicios ecosistémicos.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "63",
+   "epigrafe": "Proyectos o actividades al interior de las áreas protegidas",
+   "resumen": "Todo proyecto o actividad dentro de un área protegida debe respetar su categoría y objeto de protección y ser compatible con el plan de manejo. Define explotación comercial de recursos naturales como la extracción de recursos y las actividades o infraestructura industrial.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 2° Categorías de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "64",
+   "epigrafe": "Creación de las áreas protegidas del Estado",
+   "resumen": "Se crean por decreto supremo del MMA, firmado además por Bienes Nacionales si recae en inmuebles fiscales y por Defensa si afecta áreas bajo control de la Subsecretaría para las Fuerzas Armadas. El decreto indica categoría, superficie, ubicación, objetos de protección y cartografía con coordenadas.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 3° De la creación y modificación de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "65",
+   "epigrafe": "Procedimiento para la creación de las áreas protegidas del Estado",
+   "resumen": "La creación procede de oficio o a solicitud de persona o comunidad, con informe técnico del Servicio, informes de dominio de Bienes Nacionales o Defensa y de órganos sectoriales. El reglamento debe contemplar participación ciudadana, consulta a gobiernos regionales y municipios, consulta indígena (Convenio 169) y pronunciamiento favorable del Consejo de Ministros.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 3° De la creación y modificación de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "66",
+   "epigrafe": "Modificación y desafectación de las áreas protegidas del Estado",
+   "resumen": "Superficie, categoría, límites u objeto solo se modifican con el procedimiento de creación y previo informe favorable del Comité Científico; la desafectación exige decreto supremo fundado, es excepcional y debe mantener la superficie y representatividad del Sistema. Parques nacionales y reservas de región virgen solo se modifican o desafectan por ley.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 3° De la creación y modificación de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "67",
+   "epigrafe": "Administración",
+   "resumen": "La administración de las áreas del Estado corresponde al Servicio e incluye planes de manejo y de uso público, permisos, concesiones, cesiones de uso y convenios de gestión.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 4° De la administración de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "68",
+   "epigrafe": "Participación en la gestión de las áreas protegidas del Estado",
+   "resumen": "El Servicio puede celebrar, por resolución fundada, convenios de gestión con autoridades u organizaciones locales y asociaciones o comunidades indígenas de la Ley 19.253, con estructura de gestión, derechos y obligaciones, reportes y una duración máxima de cinco años renovables.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 4° De la administración de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "69",
+   "epigrafe": "Administrador de área protegida del Estado",
+   "resumen": "Cada área estatal tiene un administrador, funcionario del Servicio, que cumple el plan de manejo, supervisa guardaparques, aplica medidas provisionales, denuncia infracciones y supervisa concesiones, cesiones de uso y permisos.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 4° De la administración de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "70",
+   "epigrafe": "Tarifa",
+   "resumen": "El Servicio fija tarifas de ingreso y de servicios en las áreas que administra, con escalas por residencia y edad, y puede rebajarlas o eximirlas. Están exentos los miembros de comunidades indígenas en usos ancestrales reconocidos, estudiantes en educación ambiental y Guías y Scouts.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 4° De la administración de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "71",
+   "epigrafe": "Planes de manejo de áreas protegidas del Estado",
+   "resumen": "Toda área protegida debe tener un plan de manejo obligatorio, coherente con su categoría y objetos de protección, que es el marco regulatorio del área y define las actividades permitidas y prohibidas.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 5° Planes de manejo de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "72",
+   "epigrafe": "Contenidos de un plan de manejo",
+   "resumen": "El plan debe contener objetos de protección, diagnóstico de amenazas y estrategias, monitoreo con metas, normativa y zonificación, zona de amortiguación si procede, usos ancestrales, actividades compatibles e incompatibles y, si corresponde, un plan de prevención y contingencia contra incendios.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 5° Planes de manejo de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "73",
+   "epigrafe": "Aprobación del plan de manejo",
+   "resumen": "El Servicio elabora y aprueba el plan por resolución dentro de dos años desde la creación del área y lo revisa al menos cada cinco años; el cumplimiento se incorpora al convenio de desempeño del Director Nacional.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 5° Planes de manejo de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "74",
+   "epigrafe": "Reglamento para la elaboración y revisión de planes de manejo",
+   "resumen": "Un reglamento del MMA fija el procedimiento y los contenidos por categoría, con participación de comunidades, organizaciones indígenas, gobiernos regionales y municipios, y consulta a Subpesca y a la Subsecretaría de Turismo en los programas respectivos.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 5° Planes de manejo de áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "75",
+   "epigrafe": "Cuerpo de guardaparques para áreas protegidas del Estado",
+   "resumen": "El Servicio cuenta con un cuerpo de guardaparques, autoridad competente para el manejo y la fiscalización de las áreas protegidas del Estado.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 6° De las funciones y atribuciones de los guardaparques dentro de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "76",
+   "epigrafe": "Funciones y atribuciones de los guardaparques",
+   "resumen": "Los guardaparques apoyan el plan de manejo, exigen a los visitantes el cumplimiento de normas y restricciones, monitorean, educan, y controlan y fiscalizan las actividades y las obligaciones de concesionarios, cesionarios y titulares de permisos, entregando copia del acta al presunto infractor.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 6° De las funciones y atribuciones de los guardaparques dentro de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "77",
+   "epigrafe": "Funciones de fiscalización",
+   "resumen": "El Director Nacional designa a los guardaparques fiscalizadores, que requieren enseñanza media, dos años de desempeño y cursos aprobados. Pueden fiscalizar en áreas privadas a requerimiento fundado de su administrador.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 6° De las funciones y atribuciones de los guardaparques dentro de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "78",
+   "epigrafe": "Formación y capacitación de los guardaparques",
+   "resumen": "El Servicio mantiene programas de formación con énfasis en pertinencia cultural y puede reconocer cursos externos aprobados por guardaparques.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 6° De las funciones y atribuciones de los guardaparques dentro de las áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "79",
+   "epigrafe": "Concesiones en áreas protegidas del Estado",
+   "resumen": "El Servicio solo puede concesionar, en áreas situadas en bienes fiscales, actividades de investigación científica, educación o turismo que requieran infraestructura y duren más de un año; en bienes bajo control de Defensa cede el uso previo informe de la Subsecretaría para las FF.AA. Exige plan de manejo vigente y un plazo máximo de treinta años.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "80",
+   "epigrafe": "Criterios para el otorgamiento de concesiones",
+   "resumen": "Las concesiones deben ajustarse a la categoría, objeto de protección y plan de manejo, evaluar la consulta indígena, respetar lugares de usos ancestrales y, según su tipo, cumplir exigencias de turismo accesible y de bajo impacto, de aporte científico a la gestión o de educación ambiental.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "81",
+   "epigrafe": "Comité Técnico",
+   "resumen": "Crea un comité consultivo presidido por el Director Nacional, con representantes de siete ministerios o subsecretarías más el consejo regional y la municipalidad del caso, que participa en el otorgamiento de concesiones y propone la renta concesional.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "82",
+   "epigrafe": "Fijación y distribución de la renta concesional",
+   "resumen": "El Servicio fija la renta según renta bruta anual de la actividad, inversión y factibilidad económica; lo recaudado se destina, entre otros fines, a la gestión del SNAP y al monitoreo del área concesionada.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "83",
+   "epigrafe": "Concesiones a título gratuito",
+   "resumen": "Excepcional y fundadamente pueden otorgarse concesiones gratuitas de investigación o educación a municipalidades, organismos estatales con patrimonio propio y personas jurídicas sin fines de lucro; no son transferibles conforme al art. 88 y el Servicio puede extinguirlas por razones fundadas.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "84",
+   "epigrafe": "Concesionario",
+   "resumen": "Solo las personas jurídicas pueden ser concesionarias; en turismo, el concesionario debe operar con un RUT exclusivo para la concesión.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "85",
+   "epigrafe": "Procedimiento para el otorgamiento de concesión",
+   "resumen": "Las concesiones se otorgan por licitación pública o privada, salvo las turísticas, que siempre exigen licitación pública; la asignación directa solo cabe si son gratuitas y en casos fundados. Un reglamento del MMA regula procedimiento y requisitos.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "86",
+   "epigrafe": "Bases de licitación",
+   "resumen": "El Servicio conduce la licitación y elabora bases ajustadas a la categoría, objeto de protección y plan de manejo, que pueden restringir la actividad a concesionar.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "87",
+   "epigrafe": "Adjudicación de la concesión",
+   "resumen": "Se adjudica por resolución cuyo extracto se publica en el Diario Oficial y se perfecciona con un contrato por escritura pública, del que se remite copia a Bienes Nacionales o, en cesiones de uso, a la Subsecretaría para las FF.AA.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "88",
+   "epigrafe": "Transferencia de la concesión",
+   "resumen": "La concesión puede transferirse solo en forma total y con aprobación del Servicio, previa verificación de que el adquirente cumple los requisitos del concesionario original; lo contrario es nulo.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "89",
+   "epigrafe": "Extinción de la concesión",
+   "resumen": "La concesión termina por vencimiento del plazo, mutuo acuerdo, pérdida de requisitos, incumplimiento sancionado, imposibilidad del objeto, extinción de la persona jurídica u otras causales de las bases, declaradas por resolución fundada del Servicio.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "90",
+   "epigrafe": "Mejoras",
+   "resumen": "Salvo pacto distinto, lo edificado, plantado y las mejoras hechas por el concesionario en el inmueble fiscal pasan al Fisco sin indemnización al extinguirse la concesión.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "91",
+   "epigrafe": "Otros permisos o autorizaciones",
+   "resumen": "La adjudicación no exime al concesionario de obtener los demás permisos o autorizaciones que la legislación exija para su proyecto.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "92",
+   "epigrafe": "Concesiones sectoriales",
+   "resumen": "Las concesiones con otros fines que recaigan en áreas protegidas se rigen por sus leyes, pero solo pueden otorgarse si el área tiene plan de manejo, la actividad es compatible con la categoría, el objeto de protección y dicho plan, y existe informe favorable del Servicio.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "93",
+   "epigrafe": "Prohibición de concesiones sectoriales extractivas",
+   "resumen": "Prohíbe, en reservas de región virgen, parques nacionales y monumentos naturales, las concesiones sectoriales necesarias para la explotación comercial de recursos naturales definida en el art. 63.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "94",
+   "epigrafe": "Permiso",
+   "resumen": "Toda actividad transitoria o sin infraestructura permanente en un área protegida del Estado, que no sea de las del art. 10 de la Ley 19.300, necesita permiso del Servicio, salvo las exceptuadas en el plan de manejo o el decreto de creación. Dura hasta un año renovable, puede llevar condiciones y, si tiene fines comerciales, una retribución; un reglamento regula el procedimiento.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "95",
+   "epigrafe": "Acceso a recursos genéticos",
+   "resumen": "El Servicio regula, mediante convenios con los solicitantes, las condiciones de acceso a recursos genéticos en áreas protegidas del Estado y los beneficios derivados de su uso.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "96",
+   "epigrafe": "Fiscalización de la concesión o permiso",
+   "resumen": "El Servicio verifica, fiscaliza y exige el cumplimiento de las obligaciones del contrato de concesión o del permiso.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 7° De las concesiones y permisos en áreas protegidas del Estado",
+   "derogado": false
+  },
+  {
+   "num": "97",
+   "epigrafe": "Áreas protegidas privadas",
+   "resumen": "Las áreas protegidas privadas integran el SNAP y deben adscribirse a una categoría del art. 56. Un reglamento del MMA regula su creación, modificación y desafectación, las transferencias de dominio, las obligaciones de propietario y administrador y el acceso a beneficios.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "98",
+   "epigrafe": "Solicitud de creación",
+   "resumen": "El propietario presenta voluntariamente la solicitud al Director Regional con ubicación, título de dominio, características ecológicas, categoría propuesta, objetos de protección, lineamientos de manejo, administrador y antecedentes técnicos; si no subsana omisiones se le tiene por desistido. El Servicio informa y el MMA resuelve.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "99",
+   "epigrafe": "Creación de las áreas protegidas privadas",
+   "resumen": "Se crean por decreto supremo del MMA; el propietario debe reducirlo a escritura pública, inscribirlo en el Registro de Hipotecas y Gravámenes del Conservador de Bienes Raíces y anotarlo al margen de la inscripción de dominio.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "100",
+   "epigrafe": "Modificación y desafectación",
+   "resumen": "Se rigen por el reglamento del art. 97; al desafectar, el propietario debe restituir íntegramente los beneficios tributarios del art. 105 letras a) y b). Los parques nacionales y reservas de región virgen en predios privados solo se modifican o desafectan por ley.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "101",
+   "epigrafe": "Transferencia de dominio",
+   "resumen": "La enajenación no altera la calidad de área protegida; el acto debe decirlo expresamente, bajo sanción de nulidad absoluta y rechazo de inscripción por el Conservador, y el propietario debe informar la transferencia al Servicio.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "102",
+   "epigrafe": "Administración y supervisión",
+   "resumen": "Administran el área sus propietarios o quienes designen, bajo supervisión del Servicio, que puede pedir antecedentes e inspeccionar en terreno. Todo cambio de administrador se informa al Servicio y el propietario responde solidariamente por los actos del administrador.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "103",
+   "epigrafe": "Planes de manejo de áreas protegidas privadas",
+   "resumen": "Los elaboran los propietarios o administradores y los aprueba el Servicio por resolución; deben contener al menos lo exigido en el art. 72.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "104",
+   "epigrafe": "Apoyo técnico",
+   "resumen": "El Servicio puede apoyar técnicamente a los administradores, elaborar un formato tipo de plan de manejo, capacitar y fomentar programas de cooperación con instituciones públicas o privadas.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "105",
+   "epigrafe": "Incentivos",
+   "resumen": "Otorga a las áreas privadas exención de impuesto territorial mientras cumplan el plan de manejo, exención del impuesto a la herencia, capacitación gratuita de guardaparques, bonificación al postular al Fondo y exención de aranceles notariales, de conservadores y archiveros.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 8° Áreas protegidas privadas",
+   "derogado": false
+  },
+  {
+   "num": "106",
+   "epigrafe": "Integración de las áreas protegidas",
+   "resumen": "Forman parte del área protegida el suelo, subsuelo, fondo marino, porciones de mar, playas, glaciares, embalses, ríos, lagos, estuarios y demás humedales dentro de su perímetro.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 9° Disposiciones comunes a las áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "107",
+   "epigrafe": "Áreas libres de organismos genéticamente modificados",
+   "resumen": "Las áreas del SNAP se declaran áreas libres de organismos genéticamente modificados, en concordancia con la letra r) del art. 10 de la Ley 19.300.",
+   "obliga_titular": false,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 9° Disposiciones comunes a las áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "108",
+   "epigrafe": "Prohibiciones en áreas protegidas",
+   "resumen": "Prohíbe a quienes no administran el área 21 conductas, entre ellas extraer tierra, leña o áridos, dañar fauna o flora, introducir especies o ganado, contaminar, verter residuos o sustancias peligrosas, drenar o bloquear cursos de agua, portar armas, hacer fuego o acampar fuera de sitios habilitados, ingresar sin pagar y volar drones. No rige para titulares del permiso del art. 94 ni para proyectos ejecutados conforme a la legislación aplicable.",
+   "obliga_titular": true,
+   "titulo": "Título IV. Del Sistema Nacional de Áreas Protegidas / Párrafo 9° Disposiciones comunes a las áreas protegidas",
+   "derogado": false
+  },
+  {
+   "num": "109",
+   "epigrafe": "Alcance de la fiscalización",
+   "resumen": "El Servicio fiscaliza planes de manejo de áreas protegidas, obligaciones de propietarios y administradores privados, contratos de concesión, permisos y toda actividad en las áreas; también los planes de conservación, restauración y de exóticas invasoras (previo convenio con SAG o SERNAPESCA) y las labores que la SMA le encomiende en sus programas.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 1° De la fiscalización",
+   "derogado": false
+  },
+  {
+   "num": "110",
+   "epigrafe": "Ministros de fe",
+   "resumen": "Los fiscalizadores son ministros de fe sobre los hechos constatados en el acta de fiscalización, que generan presunción legal de haberse cometido la infracción.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 1° De la fiscalización",
+   "derogado": false
+  },
+  {
+   "num": "111",
+   "epigrafe": "Convenios de encomendamiento de funciones de fiscalización",
+   "resumen": "El Servicio puede fiscalizar fuera de las áreas protegidas en virtud de un convenio con el servicio público competente, que precise tareas y recursos.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 1° De la fiscalización",
+   "derogado": false
+  },
+  {
+   "num": "112",
+   "epigrafe": "Alcance de las infracciones",
+   "resumen": "Las sanciones de esta ley se aplican sin perjuicio de la responsabilidad civil o penal del infractor.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "113",
+   "epigrafe": "Responsabilidad solidaria",
+   "resumen": "Si participan varias personas en una infracción y no puede determinarse el grado de cada una, responden solidariamente.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "114",
+   "epigrafe": "Potestad sancionadora",
+   "resumen": "Las infracciones a la ley son sancionadas administrativamente por el Servicio.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "115",
+   "epigrafe": "Infracciones en las áreas protegidas",
+   "resumen": "Son infracciones contravenir las prohibiciones del art. 108, los planes de manejo, los contratos de concesión, operar sin el permiso del art. 94 o fuera de sus condiciones, incumplir obligaciones de propietario o administrador privado, obstaculizar la fiscalización y entregar información falsa. Se exceptúan usos ancestrales reconocidos, la normativa de sanidad y el combate de incendios forestales.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "116",
+   "epigrafe": "Infracciones fuera de las áreas protegidas",
+   "resumen": "Sanciona, en sitios prioritarios, extraer tierra de hoja o turba, dañar fauna nativa, destruir nidos o cortar flora nativa cuando causen cambios significativos (salvo proyectos conformes a la ley o con RCA favorable); además incumplir planes de restauración o de exóticas invasoras, alterar humedales contra el art. 41, vulnerar el art. 44, usar indebidamente la certificación e impedir la fiscalización.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "117",
+   "epigrafe": "Concurso de infracciones",
+   "resumen": "Si un hecho infringe a la vez esta y otra ley, se aplica el procedimiento y la sanción del cuerpo que imponga la mayor; pero si constituye incumplimiento de una RCA, solo la SMA es competente para sancionar.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "118",
+   "epigrafe": "Categorías de infracciones",
+   "resumen": "Clasifica las infracciones en gravísimas (daño ambiental no reparable, afectación grave de servicios ecosistémicos u obstrucción deliberada de un plan de manejo), graves (daño reparable o afectación del plan de manejo) y leves (las demás).",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "119",
+   "epigrafe": "Prescripción",
+   "resumen": "Las infracciones prescriben a los tres años desde su comisión o, si hubo daño ambiental, desde la manifestación evidente de sus efectos; la formulación de cargos interrumpe el plazo.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 2° De las infracciones",
+   "derogado": false
+  },
+  {
+   "num": "120",
+   "epigrafe": "Sanciones",
+   "resumen": "Multas de hasta 15.000 UTM (gravísimas), 10.000 UTM (graves) y 1.000 UTM (leves), además de restitución de beneficios de área privada, extinción o suspensión de concesión o permiso, prohibición de ingreso de cinco a quince años y decomiso. La sanción se gradúa por gravedad, beneficio económico, capacidad económica, intencionalidad, conducta anterior, reparación y vulnerabilidad de lo afectado.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 3° De las sanciones",
+   "derogado": false
+  },
+  {
+   "num": "121",
+   "epigrafe": "Pago de multa",
+   "resumen": "Las multas son a beneficio fiscal y se pagan en Tesorería dentro de diez días desde la notificación; las resoluciones que las imponen tienen mérito ejecutivo.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 3° De las sanciones",
+   "derogado": false
+  },
+  {
+   "num": "122",
+   "epigrafe": "Acta de fiscalización",
+   "resumen": "El fiscalizador que constate posibles infracciones levanta un acta objetiva y detallada que identifica a los presuntos infractores; con su solo mérito puede iniciarse el procedimiento sancionador.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "123",
+   "epigrafe": "Denuncias",
+   "resumen": "Cualquier persona puede denunciar por escrito ante el Servicio, identificándose y describiendo hechos, lugar y fecha y, de ser posible, al presunto infractor.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "124",
+   "epigrafe": "Admisión del acta o denuncia",
+   "resumen": "El procedimiento se inicia por el acta comunicada al Director Regional o por denuncia seria y con mérito; si carece de ellos, se archiva por resolución fundada notificada al denunciante.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "125",
+   "epigrafe": "Medidas provisionales",
+   "resumen": "El Director Regional puede ordenar corrección o control de impactos, retención o inmovilización de bienes y vehículos, sellos, clausura, suspensión de instalaciones, incautación y prohibición de ingreso, solo si son indispensables y proporcionales. La clausura y la suspensión requieren autorización previa del Tribunal Ambiental, y el afectado puede reclamar ante este en quince días.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "126",
+   "epigrafe": "Cese de las medidas provisionales",
+   "resumen": "Las medidas duran mientras sean necesarias, deben confirmarse, modificarse o levantarse al iniciarse el procedimiento, caducan si este no se inicia en el plazo del art. 129 y se extinguen con la resolución final.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "127",
+   "epigrafe": "Medidas correctivas",
+   "resumen": "Ante infracciones flagrantes el Servicio puede ordenar restablecer la legalidad exigiendo el cumplimiento de la norma o instrumento infringido en un plazo de hasta cinco días corridos.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "128",
+   "epigrafe": "Incumplimientos menores",
+   "resumen": "El Servicio puede calificar faltas menores como disconformidades, que deben subsanarse en un máximo de diez días corridos; si persisten se cursa la infracción. No procede para infracciones gravísimas o graves.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 4° Actos previos al procedimiento sancionatorio",
+   "derogado": false
+  },
+  {
+   "num": "129",
+   "epigrafe": "Inicio de instrucción del procedimiento",
+   "resumen": "El Director Regional inicia la instrucción dentro de diez días, designa instructor y formula cargos precisos, notificados por carta certificada o correo electrónico; el presunto infractor tiene hasta quince días para descargos y prueba. Si no es habido, se publica un extracto y dispone de diez días para comparecer.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 5° Del procedimiento sancionador",
+   "derogado": false
+  },
+  {
+   "num": "130",
+   "epigrafe": "Examen de los antecedentes",
+   "resumen": "Tras los descargos el instructor puede ordenar pericias, inspecciones y otras pruebas, que deben practicarse en un máximo de treinta días.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 5° Del procedimiento sancionador",
+   "derogado": false
+  },
+  {
+   "num": "131",
+   "epigrafe": "Medios de prueba",
+   "resumen": "Los hechos se acreditan por cualquier medio admisible, apreciado según la sana crítica; se presume legalmente la veracidad de lo constatado en el acta de fiscalización.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 5° Del procedimiento sancionador",
+   "derogado": false
+  },
+  {
+   "num": "132",
+   "epigrafe": "Expediente",
+   "resumen": "El instructor lleva un expediente escrito o electrónico con documentos, actuaciones, resoluciones y notificaciones en orden cronológico.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 5° Del procedimiento sancionador",
+   "derogado": false
+  },
+  {
+   "num": "133",
+   "epigrafe": "Informe del instructor y resolución sobre la sanción",
+   "resumen": "El instructor informa y propone sanción o absolución; el Director Regional puede pedir diligencias adicionales dentro de diez días y resuelve fundadamente en diez días, notificando por carta certificada o correo electrónico.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 5° Del procedimiento sancionador",
+   "derogado": false
+  },
+  {
+   "num": "134",
+   "epigrafe": "Reclamación",
+   "resumen": "Pueden reclamarse ante los Tribunales Ambientales (art. 17 N° 11 de la Ley 20.600) las sanciones y archivos del Director Regional, la aprobación de planes de conservación, restauración y exóticas invasoras, los decretos que crean, modifican o desafectan áreas, los planes de manejo de áreas, las resoluciones sobre concesiones y permisos y el decreto que determina sitios prioritarios.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 6° De las reclamaciones",
+   "derogado": false
+  },
+  {
+   "num": "135",
+   "epigrafe": "Competencia",
+   "resumen": "Conoce el Tribunal Ambiental del lugar de la infracción, del lugar donde se aplica el instrumento o donde se ubica el área protegida, según el acto reclamado.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 6° De las reclamaciones",
+   "derogado": false
+  },
+  {
+   "num": "136",
+   "epigrafe": "Legitimación activa",
+   "resumen": "Pueden reclamar el sancionado y el denunciante; cualquier persona que estime que el instrumento, decreto o resolución infringe la ley y, en ciertos casos, le causa perjuicio; y el directamente afectado cuando se le deniega un permiso.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 6° De las reclamaciones",
+   "derogado": false
+  },
+  {
+   "num": "137",
+   "epigrafe": "Plazo",
+   "resumen": "La reclamación debe interponerse dentro de treinta días hábiles desde la notificación de la resolución o la publicación del decreto.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 6° De las reclamaciones",
+   "derogado": false
+  },
+  {
+   "num": "138",
+   "epigrafe": "Procedimiento",
+   "resumen": "La reclamación se tramita conforme al Párrafo 2° del Título III de la Ley 20.600.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 6° De las reclamaciones",
+   "derogado": false
+  },
+  {
+   "num": "139",
+   "epigrafe": "Recursos contra la resolución del Tribunal Ambiental",
+   "resumen": "Procede apelación, en diez días y ante la Corte de Apelaciones, solo contra resoluciones de inadmisibilidad, las que reciben la causa a prueba y las que ponen término al proceso; contra la sentencia definitiva caben casación en el fondo y en la forma ante la Corte Suprema.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 6° De las reclamaciones",
+   "derogado": false
+  },
+  {
+   "num": "140",
+   "epigrafe": "Registro público de sanciones",
+   "resumen": "El Servicio publica en su sitio electrónico un registro con la identidad de los sancionados y la naturaleza de infracciones y sanciones; un reglamento del MMA regula su elaboración y actualización.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 7° Normas generales",
+   "derogado": false
+  },
+  {
+   "num": "141",
+   "epigrafe": "Plan de corrección",
+   "resumen": "El presunto infractor puede proponer voluntariamente un plan para corregir la pérdida o degradación causada, que aprueba el MMA previo informe del Director Nacional y suspende la prescripción mientras se ejecuta. Los costos son de su cargo; si hay daño ambiental y no presenta o no cumple el plan, debe ejercerse la acción por daño ambiental.",
+   "obliga_titular": true,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 7° Normas generales",
+   "derogado": false
+  },
+  {
+   "num": "142",
+   "epigrafe": "Regla supletoria",
+   "resumen": "En lo no previsto rige supletoriamente la Ley 19.880 de procedimiento administrativo.",
+   "obliga_titular": false,
+   "titulo": "Título V. De la fiscalización, infracciones, sanciones y reclamaciones / Párrafo 7° Normas generales",
+   "derogado": false
+  },
+  {
+   "num": "143",
+   "epigrafe": "Deroga la Ley 18.362",
+   "resumen": "Deroga la Ley 18.362, que creaba el Sistema Nacional de Áreas Silvestres Protegidas del Estado (SNASPE).",
+   "obliga_titular": false,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false
+  },
+  {
+   "num": "144",
+   "epigrafe": "Modifica la Ley 19.300",
+   "resumen": "Modifica la Ley 19.300: reemplaza el art. 10 letra p) (ingreso al SEIA de obras en áreas del SNAP, humedales urbanos y otras áreas bajo protección oficial); sustituye los arts. 34 y 35 (SNAP administrado por el SBAP y áreas privadas regidas por esta ley) y el art. 37 (clasificación de especies por el MMA a propuesta del SBAP, según categorías UICN); en el art. 42 pone al SBAP en lugar del MMA para exigir planes de manejo de recursos naturales y en el art. 64 retira esos planes de la fiscalización de la SMA; en el art. 70 reemplaza las letras b) y j), deroga la c) y adecua la i); y en el art. 71 suma al Ministro de Bienes Nacionales al Consejo de Ministros y reemplaza su letra c) (pronunciarse sobre propuestas de creación de áreas del Estado).",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false,
+   "nota_verificacion": "El XML de la versión vigente (17-10-2026) trunca este artículo dentro del N° 4 (nuevo art. 37). Los N° 4 a 8 se leyeron completos en el XML oficial BCN de la versión 06-09-2023 (obtxml con idVersion=2023-09-06); el artículo mantiene fechaVersion 06-09-2023 en el texto vigente, es decir, no registra modificaciones posteriores."
+  },
+  {
+   "num": "145",
+   "epigrafe": "Modifica la Ley 20.417 (LOSMA)",
+   "resumen": "Modifica la ley orgánica de la SMA (artículo segundo de la Ley 20.417): elimina la referencia a los planes de manejo en los arts. 2° y 3° letras c) y m), y suprime la letra i) del art. 35, que enumera las infracciones de potestad sancionadora exclusiva de la SMA. Con ello los planes de manejo salen del ámbito de la Superintendencia.",
+   "obliga_titular": false,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false
+  },
+  {
+   "num": "146",
+   "epigrafe": "Modifica el DL 1.939",
+   "resumen": "En el DL 1.939 de 1977 sobre bienes del Estado deroga el art. 15 y reemplaza el art. 21: los predios declarados áreas protegidas del Estado no pueden destinarse a otro objeto ni perder esa calidad sino conforme a la Ley 21.600.",
+   "obliga_titular": false,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false
+  },
+  {
+   "num": "147",
+   "epigrafe": "Modifica la Ley 18.892 (LGPA)",
+   "resumen": "En la Ley General de Pesca y Acuicultura: las reservas marinas pasan a llamarse reservas de interés pesquero (arts. 2° N° 42 y 3° letra e); deroga el art. 3° letra d) y el art. 159; y agrega en los arts. 122 y 125 que los funcionarios del SBAP fiscalizan esa ley en áreas protegidas, sitios prioritarios, ecosistemas amenazados y áreas degradadas, previo convenio con SERNAPESCA, y deben denunciar las infracciones que conozcan.",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false,
+   "nota_verificacion": "El contenido de la letra d) derogada (declaración de parques marinos) se consultó en una versión anterior del DS 430 (XML BCN idVersion 2020-01-01); el art. 159 ya figuraba derogado en esa versión."
+  },
+  {
+   "num": "148",
+   "epigrafe": "Modifica la Ley 20.256 (Pesca Recreativa)",
+   "resumen": "En la Ley de Pesca Recreativa: excluye de la pesca recreativa a las especies en peligro crítico, en peligro o vulnerables (art. 7°); suma la firma del Ministro del Medio Ambiente (art. 11) y la intervención del SBAP (arts. 13, 25, 42 y 46); sustituye el art. 38 para exigir compatibilidad con la categoría, objeto y plan de manejo del área protegida; deroga el inciso cuarto del art. 39 y elimina las referencias a guardaparques del SNASPE (arts. 46 y 47).",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false
+  },
+  {
+   "num": "149",
+   "epigrafe": "Modifica la Ley 4.601 (Ley de Caza)",
+   "resumen": "En la Ley de Caza (texto de la Ley 19.473): actualiza las categorías de conservación por remisión al art. 37 de la Ley 19.300 (arts. 2°, 3° y 22); deroga las letras k) a n) del art. 2°; reemplaza el inciso primero del art. 7° para prohibir la caza o captura en áreas del SNAP, reservas de la biósfera, sitios prioritarios y corredores biológicos, entre otros lugares, y radica en el SBAP la autorización dentro de áreas protegidas; incorpora al SBAP en los arts. 25 y 28; y en el art. 39 elimina «Silvestres» y deroga el inciso segundo.",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false
+  },
+  {
+   "num": "150",
+   "epigrafe": "Modifica la Ley 20.283 (Bosque Nativo)",
+   "resumen": "En la Ley 20.283: redefine el bosque nativo de preservación por remisión al art. 37 de la Ley 19.300 e incluye siempre los bosques dentro del SNAP (art. 2° N° 4); adecua los arts. 15 y 16; en el art. 19 actualiza categorías y exige informe favorable del SBAP para las intervenciones excepcionales, en cuanto a que no amenacen la continuidad de la especie en la cuenca; integra al Director Nacional del SBAP en el art. 33; y faculta al SBAP para denunciar y, con convenio, fiscalizar (arts. 46 y 47).",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false,
+   "nota_verificacion": "El art. 19 de la Ley 20.283 fue modificado después (fechaVersion 29-09-2025 en su XML): hoy menciona las categorías en peligro crítico, en peligro y vulnerables, y no las cinco que introdujo este artículo."
+  },
+  {
+   "num": "151",
+   "epigrafe": "Modifica la Ley de Bosques",
+   "resumen": "En el DS 4.363 de 1931 (Ley de Bosques) elimina las referencias a los parques nacionales de turismo y a los parques nacionales en los arts. 10 y 11, que quedan referidos solo a reservas.",
+   "obliga_titular": false,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false,
+   "nota_verificacion": "El alcance «quedan referidos solo a reservas» se infiere de las expresiones suprimidas; el texto resultante de los arts. 10 y 11 no se revisó en el XML de la Ley de Bosques."
+  },
+  {
+   "num": "152",
+   "epigrafe": "Modifica la Ley 17.288 (Monumentos Nacionales)",
+   "resumen": "En la Ley 17.288 elimina del art. 1° las formaciones naturales y los santuarios de la naturaleza, ajusta la denominación del Título VII y deroga el art. 31, que regula los santuarios de la naturaleza. Su vigencia está diferida: según el artículo cuarto transitorio letra h), solo rige una vez concluida la reclasificación de los santuarios.",
+   "obliga_titular": false,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false,
+   "nota_verificacion": "El XML vigente de la Ley 17.288 (versión 17-10-2026) aún muestra el art. 31 y la mención a santuarios en el art. 1° como no derogados, lo que es consistente con la vigencia diferida."
+  },
+  {
+   "num": "153",
+   "epigrafe": "Modifica la Ley 20.423 (Turismo)",
+   "resumen": "En la Ley 20.423 reemplaza el N° 6 del inciso segundo del art. 7° por el Ministro del Medio Ambiente, deroga el N° 8 del art. 8° y los arts. 19 a 21, y sustituye el art. 18: solo cabe turismo en áreas protegidas si es compatible con su objeto y con el plan de manejo, y las concesiones turísticas se rigen por la Ley 21.600.",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false
+  },
+  {
+   "num": "154",
+   "epigrafe": "Modifica el Código de Minería",
+   "resumen": "Suprime el numeral 2° del art. 17 del Código de Minería, que exigía permiso del Intendente para ejecutar labores mineras en parques nacionales, reservas nacionales o monumentos naturales.",
+   "obliga_titular": true,
+   "titulo": "Título VI. Modificaciones a diversos cuerpos legales",
+   "derogado": false,
+   "nota_verificacion": "El contenido del numeral suprimido se leyó en una versión anterior del Código de Minería (XML BCN idVersion 2014-01-01); el texto vigente solo indica «Suprimido»."
+  },
+  {
+   "num": "Transitorio 1°",
+   "epigrafe": "Delegación para fijar plantas y traspasar personal",
+   "resumen": "Faculta al Presidente para dictar, dentro de un año desde la publicación, DFL que fijen grados, planta directiva, dotación y fecha de inicio del Servicio, y que ordenen el traspaso sin solución de continuidad del personal de CONAF dedicado exclusivamente a áreas silvestres protegidas (dentro del tercer año de funcionamiento del Servicio) y de 28 funcionarios a contrata de la Subsecretaría del Medio Ambiente. El traspaso no puede implicar pérdida de empleo, rebaja de remuneraciones ni cambio de región sin consentimiento, y conserva antigüedad; también se traspasan bienes y recursos de CONAF ligados a las áreas.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false,
+   "nota_verificacion": "fechaVersion 11-07-2025 en el XML."
+  },
+  {
+   "num": "Transitorio 2°",
+   "epigrafe": "Primer presupuesto del Servicio",
+   "resumen": "El Presidente, por decreto de Hacienda, conforma el primer presupuesto del SBAP y le transfiere los fondos de las entidades que traspasan personal o bienes.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 3°",
+   "epigrafe": "Financiamiento",
+   "resumen": "El mayor gasto del primer año se cubre con reasignaciones del MMA y, en lo que falte, con el Tesoro Público; después, con las leyes de presupuestos.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 4°",
+   "epigrafe": "Áreas existentes y vigencia diferida para santuarios",
+   "resumen": "Las áreas creadas hasta la publicación de la ley integran el SNAP y, mientras no se modifiquen, se asimilan así: parques marinos, nacionales y de turismo a Parque Nacional; monumentos naturales a Monumento Natural; reservas marinas, nacionales y forestales a Reserva Nacional; áreas marinas y costeras protegidas a Área de Conservación de Múltiples Usos; los sitios Ramsar toman la categoría del área que los contiene o la que proponga el Servicio; los bienes nacionales protegidos siguen sus decretos. Letra h): para los santuarios de la naturaleza, el art. 152 (que deroga el art. 31 de la Ley 17.288) solo rige al concluir la reclasificación, y entretanto mantienen plenamente su protección.",
+   "obliga_titular": true,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 5°",
+   "epigrafe": "Homologación de reservas marinas, santuarios y bienes nacionales protegidos",
+   "resumen": "Ordena homologar esas áreas dentro de cinco años desde la entrada en funcionamiento del Servicio: las reservas marinas pasan a Reserva de Interés Pesquero o Reserva Nacional (MMA y Economía); los santuarios se adscriben a una categoría por el MMA con consentimiento del propietario si son privados y, si este no se obtiene en el plazo, decide el MMA según el decreto de creación, objeto y plan de manejo; los bienes nacionales protegidos, junto a Bienes Nacionales. La homologación nunca reduce protección, jerarquía ni superficie.",
+   "obliga_titular": true,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 6°",
+   "epigrafe": "Concesiones, contratos y RCA preexistentes",
+   "resumen": "Las concesiones o contratos otorgados antes de la creación de un área protegida siguen vigentes en su interior hasta su relocalización, salvo caducidad por incumplimiento; igual regla rige para los contratos de CONAF en áreas silvestres bajo el art. 10 de la Ley de Bosques, con el SBAP como sucesor legal. La creación de un área tampoco impide actividades que cuenten con RCA favorable.",
+   "obliga_titular": true,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 7°",
+   "epigrafe": "Pueblo Rapa Nui",
+   "resumen": "Los actos, contratos y convenios vigentes con comunidades u organizaciones Rapa Nui sobre administración de áreas protegidas se mantienen, al igual que la colaboración de la Comisión de Desarrollo de Isla de Pascua en el Parque Nacional (art. 67 de la Ley 19.253).",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 8°",
+   "epigrafe": "Sitios prioritarios preexistentes",
+   "resumen": "Los sitios prioritarios de la Estrategia Nacional y de las Estrategias Regionales de Biodiversidad conservan los efectos legales que tenían antes de la ley. El MMA debe dictar, dentro de cinco años desde la publicación y solo después del reglamento del art. 29, el decreto supremo que determine cuáles pasan a regirse por esta ley (inciso fijado por el art. 15 N° 1 de la Ley 21.850).",
+   "obliga_titular": true,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false,
+   "nota_verificacion": "fechaVersion 17-10-2026; modificación verificada en el XML de la Ley 21.850 (art. 15)."
+  },
+  {
+   "num": "Transitorio 9°",
+   "epigrafe": "Vigencia diferida de la administración de áreas del Estado",
+   "resumen": "Las funciones del art. 5° letra b) sobre parques nacionales, reservas nacionales y monumentos naturales del Estado entran en vigor dentro del tercer año de funcionamiento del Servicio, en la fecha que fijen decretos del MMA, la que debe coincidir con el traspaso del personal de CONAF del artículo primero transitorio N° 3.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false,
+   "nota_verificacion": "fechaVersion 11-07-2025 en el XML."
+  },
+  {
+   "num": "Transitorio 10°",
+   "epigrafe": "Relocalización de concesiones de acuicultura",
+   "resumen": "El titular de una concesión de acuicultura situada en un área protegida puede relocalizarla conforme a las Leyes 20.434 y 21.183, con preferencia sobre otras solicitudes aun sin suspensión de otorgamiento en Los Lagos y Aysén. Puede relocalizarse desde un Parque Nacional hacia una Reserva Nacional o un Área de Conservación de Múltiples Usos, o entre estas dos, aunque el área de destino carezca de plan de manejo (oración agregada por el art. 15 N° 2 de la Ley 21.850).",
+   "obliga_titular": true,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false,
+   "nota_verificacion": "fechaVersion 17-10-2026; modificación verificada en el XML de la Ley 21.850 (art. 15)."
+  },
+  {
+   "num": "Transitorio 11°",
+   "epigrafe": "Guardaparques traspasados",
+   "resumen": "Exime del requisito de licencia de enseñanza media para fiscalizar (art. 77) a los guardaparques traspasados desde CONAF o su sucesor legal.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false
+  },
+  {
+   "num": "Transitorio 12°",
+   "epigrafe": "Plazo para dictar los reglamentos",
+   "resumen": "Los reglamentos de la ley deben dictarse dentro de cuatro años desde su publicación (plazo fijado por el art. 15 N° 3 de la Ley 21.850). Los de evaluación y de concursos (arts. 15 y 22) requieren una etapa de participación de los trabajadores traspasados, y el de concursos debe valorar la experiencia en biodiversidad.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false,
+   "nota_verificacion": "fechaVersion 17-10-2026; modificación verificada en el XML de la Ley 21.850 (art. 15)."
+  },
+  {
+   "num": "Transitorio 13°",
+   "epigrafe": "Primer Director Nacional",
+   "resumen": "El Presidente puede nombrar al primer Director Nacional sin concurso de Alta Dirección Pública, quien ejerce mientras se realiza el proceso de selección; su remuneración se financia con el presupuesto del MMA hasta que el Servicio entre en funcionamiento.",
+   "obliga_titular": false,
+   "titulo": "Disposiciones transitorias",
+   "derogado": false,
+   "nota_verificacion": "Artículo incorporado con posterioridad a la publicación (fechaVersion 23-12-2023); no existe en la versión original de 06-09-2023."
+  }
+ ],
+ "estructura": [
+  {
+   "titulo": "Título I",
+   "nombre": "Disposiciones generales",
+   "arts": "1–3",
+   "parrafos": []
+  },
+  {
+   "titulo": "Título II",
+   "nombre": "Del Servicio de Biodiversidad y Áreas Protegidas",
+   "arts": "4–22",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Normas generales",
+     "arts": "4–5"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De la organización del Servicio",
+     "arts": "6–9"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Del patrimonio",
+     "arts": "10"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "Del régimen del personal",
+     "arts": "11–22"
+    }
+   ]
+  },
+  {
+   "titulo": "Título III",
+   "nombre": "Instrumentos de conservación de la biodiversidad",
+   "arts": "23–52",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Disposiciones generales",
+     "arts": "23"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "Sistema de información y monitoreo de la biodiversidad",
+     "arts": "24–27"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Planificación para la conservación de la biodiversidad",
+     "arts": "28–29"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "Instrumentos para la conservación de ecosistemas",
+     "arts": "30–38"
+    },
+    {
+     "parrafo": "Párrafo 5°",
+     "nombre": "Instrumentos para la protección y manejo sustentable de humedales",
+     "arts": "39–41"
+    },
+    {
+     "parrafo": "Párrafo 6°",
+     "nombre": "Instrumentos para la conservación de especies y su variabilidad genética",
+     "arts": "42–45"
+    },
+    {
+     "parrafo": "Párrafo 7°",
+     "nombre": "Fondo Nacional de la Biodiversidad",
+     "arts": "46–49"
+    },
+    {
+     "parrafo": "Párrafo 8°",
+     "nombre": "Instrumentos económicos de conservación de la biodiversidad",
+     "arts": "50–52"
+    }
+   ]
+  },
+  {
+   "titulo": "Título IV",
+   "nombre": "Del Sistema Nacional de Áreas Protegidas",
+   "arts": "53–108",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Del Sistema Nacional de Áreas Protegidas",
+     "arts": "53–55"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "Categorías de áreas protegidas",
+     "arts": "56–63"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "De la creación y modificación de las áreas protegidas del Estado",
+     "arts": "64–66"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "De la administración de las áreas protegidas del Estado",
+     "arts": "67–70"
+    },
+    {
+     "parrafo": "Párrafo 5°",
+     "nombre": "Planes de manejo de áreas protegidas",
+     "arts": "71–74"
+    },
+    {
+     "parrafo": "Párrafo 6°",
+     "nombre": "De las funciones y atribuciones de los guardaparques dentro de las áreas protegidas del Estado",
+     "arts": "75–78"
+    },
+    {
+     "parrafo": "Párrafo 7°",
+     "nombre": "De las concesiones y permisos en áreas protegidas del Estado",
+     "arts": "79–96"
+    },
+    {
+     "parrafo": "Párrafo 8°",
+     "nombre": "Áreas protegidas privadas",
+     "arts": "97–105"
+    },
+    {
+     "parrafo": "Párrafo 9°",
+     "nombre": "Disposiciones comunes a las áreas protegidas",
+     "arts": "106–108"
+    }
+   ]
+  },
+  {
+   "titulo": "Título V",
+   "nombre": "De la fiscalización, infracciones, sanciones y reclamaciones",
+   "arts": "109–142",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "De la fiscalización",
+     "arts": "109–111"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De las infracciones",
+     "arts": "112–119"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "De las sanciones",
+     "arts": "120–121"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "Actos previos al procedimiento sancionatorio",
+     "arts": "122–128"
+    },
+    {
+     "parrafo": "Párrafo 5°",
+     "nombre": "Del procedimiento sancionador",
+     "arts": "129–133"
+    },
+    {
+     "parrafo": "Párrafo 6°",
+     "nombre": "De las reclamaciones",
+     "arts": "134–139"
+    },
+    {
+     "parrafo": "Párrafo 7°",
+     "nombre": "Normas generales",
+     "arts": "140–142"
+    }
+   ]
+  },
+  {
+   "titulo": "Título VI",
+   "nombre": "Modificaciones a diversos cuerpos legales",
+   "arts": "143–154",
+   "parrafos": []
+  },
+  {
+   "titulo": "Disposiciones transitorias",
+   "nombre": "Disposiciones transitorias",
+   "arts": "Transitorios 1° a 13°",
+   "parrafos": []
+  }
+ ],
+ "fuera_del_visor": [
+  {
+   "norma": "DL 1.939 de 1977 (bienes del Estado)",
+   "motivo": "modificado por el art. 146"
+  },
+  {
+   "norma": "Ley 20.423 (Sistema Institucional para el Desarrollo del Turismo)",
+   "motivo": "modificada por el art. 153"
+  },
+  {
+   "norma": "Leyes 20.434 y 21.183 (relocalización de concesiones de acuicultura)",
+   "motivo": "citadas en el artículo décimo transitorio"
+  },
+  {
+   "norma": "Ley 19.253 (Ley Indígena)",
+   "motivo": "citada en arts. 68 y 80 y séptimo transitorio"
+  }
+ ],
+ "verificacion": {
+  "fuente": "XML BCN idNorma 1195666, versión 17-10-2026",
+  "articulos_xml": 167,
+  "permanentes": 154,
+  "transitorios": 13,
+  "derogados": 0,
+  "complemento": "Arts. 48 y 144 truncados en el XML vigente; completados con XML BCN de la versión 06-09-2023 (/home/claude/verif2/c3/dl/1195666_v2023-09-06.xml)."
+ }
+}

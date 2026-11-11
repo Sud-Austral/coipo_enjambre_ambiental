@@ -1,0 +1,992 @@
+{
+ "cambios": [
+  {
+   "id": "dl-701-1974",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.210, publicada el 2020-02-24 (art. trigésimo: reemplaza el inciso primero del art. 13, sobre exención de impuesto territorial de predios forestales)",
+   "motivo": "BCN: el único artículo con versión 2020-02-24 es el 13 y el art. trigésimo de la Ley 21.210 (idNorma 1142667) lo modifica expresamente; la norma modificatoria sí es identificable."
+  },
+  {
+   "id": "ley-18248",
+   "art": "17",
+   "campo": "resumen",
+   "valor": "Exige permiso escrito de la autoridad que cada numeral indica para ejecutar labores mineras en ciudades, cementerios, playas de puertos y sitios de captación de agua, o a menos de 50 m de edificios, caminos, ferrocarriles, líneas de alta tensión, cursos de agua y lagos, y a menos de 200 m de embalses y antenas (N°1, gobernador); en zonas fronterizas (N°3, DIFROL); a menos de 500 m de depósitos de explosivos o inflamables (N°4, Defensa); en zonas y recintos militares y terrenos adyacentes declarados necesarios para la defensa (N°5, Defensa); y en covaderas o lugares declarados de interés histórico o científico (N°6, Presidente de la República). El N°2, sobre parques, reservas y monumentos naturales, figura suprimido.",
+   "motivo": "El N°4 del art. 17 no trata de recintos militares sino de depósitos de explosivos o inflamables (500 m); el resumen anterior agrupaba N°4 y 5 como 'recintos militares'. Texto BCN idNorma 29668, versión 2023-09-06."
+  },
+  {
+   "id": "ley-18248",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.853, publicada el 2026-11-05 (art. 1: modifica los arts. 9, 142, 142 bis, 144 y 147, entre otros, sobre patente de amparo; los cambios de los arts. 142 bis y 142 ter rigen cuando se publique la modificación del Reglamento del Código, y los de los arts. 147, 150, 152 y 155 desde el proceso de pago de patente de 2027)",
+   "motivo": "Precisión verificada en el texto de la Ley 21.853 (idNorma 1229799): arts. 1 y segundo transitorio."
+  },
+  {
+   "id": "ley-17288",
+   "campo": "notas_verificacion",
+   "valor": "No hay nueva ley de patrimonio cultural publicada (BCN solo muestra actos de consulta de 2023 y 2026). El art. 152 N°3 de la Ley 21.600 deroga el art. 31 (santuarios de la naturaleza) y sus artículos transitorios no difieren esa derogación; sin embargo, el texto consolidado de BCN al 10-11-2026 no la refleja (art. 31 con versión 2010 y sin marca de derogación, y el art. 1 aún menciona los santuarios). Es una inconsistencia del texto refundido de BCN, no una vigencia diferida comprobable; los santuarios existentes se rigen por los arts. cuarto y quinto transitorios de la Ley 21.600. El reglamento del art. 26 bis debía dictarse en seis meses.",
+   "motivo": "La nota afirmaba 'vigencia diferida' del art. 31; revisados los 13 artículos transitorios de la Ley 21.600 (idNorma 1195666) ninguno posterga el art. 152."
+  },
+  {
+   "id": "ley-20551",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.770, publicada el 2025-09-29 (art. 97: reemplaza el art. 4); modificación aún no vigente: según el art. vigésimo tercero transitorio de esa ley rige desde el primer día del mes subsiguiente a la publicación de la modificación del DS 41/2012 de Minería, que BCN no registra (última versión del DS 41: 2020-06-23). Texto vigente BCN: versión 2019-07-18",
+   "motivo": "Se confirma con texto expreso la vigencia diferida que la ficha solo presumía."
+  },
+  {
+   "id": "ley-20551",
+   "campo": "notas_verificacion",
+   "valor": "El nuevo art. 4 (Ley 21.770, art. 97) permitirá elaborar el plan conforme a la Ley 19.300 aunque no exista RCA. Su vigencia está diferida por el art. vigésimo tercero transitorio de la Ley 21.770 hasta que se publique la adecuación del reglamento (DS 41/2012), lo que no había ocurrido al 10-11-2026; por eso BCN mantiene el art. 4 original, que es el resumido aquí.",
+   "motivo": "Reemplaza 'su vigencia parece diferida' por la regla transitoria verificada."
+  },
+  {
+   "id": "ley-21752",
+   "art": "Texto",
+   "campo": "resumen",
+   "valor": "Fija, para los recursos hidrobiológicos y áreas que enumera, cómo se reparte la cuota global de captura entre el sector artesanal y el industrial.",
+   "motivo": "Resumen ajustado al art. 1 leído en BCN."
+  },
+  {
+   "id": "ley-21752",
+   "art": "Texto",
+   "campo": "num",
+   "valor": "1",
+   "motivo": "BCN divide la ley en arts. 1 a 7 y transitorios; el fraccionamiento está en el art. 1 (idNorma 1214470)."
+  },
+  {
+   "id": "ley-21752",
+   "art": "1",
+   "campo": "epigrafe",
+   "valor": "Fraccionamiento de la cuota global",
+   "motivo": "Epígrafe acorde al art. 1 (aplicar después del cambio de número)."
+  },
+  {
+   "id": "ley-21752",
+   "campo": "notas_verificacion",
+   "valor": "Articulado leído en BCN (idNorma 1214470): el art. 1 fija el fraccionamiento, el art. 2 deroga el art. sexto transitorio de la Ley 20.657, el art. 3 priva de acrecimiento de cuota a industriales sancionados y el art. 4 modifica el art. 139 ter de la LGPA. No reemplaza la LGPA.",
+   "motivo": "La ficha declaraba que el articulado no había sido leído."
+  },
+  {
+   "id": "ley-21752",
+   "campo": "resumen",
+   "valor": "Redistribuye las cuotas globales de captura entre los sectores artesanal e industrial para las principales pesquerías, deroga el art. sexto transitorio de la Ley 20.657 y modifica el art. 139 ter de la Ley General de Pesca y Acuicultura.",
+   "motivo": "Completa el resumen con contenido verificado (arts. 2 y 4)."
+  },
+  {
+   "id": "dfl-1122-1981",
+   "campo": "notas_verificacion",
+   "valor": "El art. 294 figura con versión 2026-03-02 porque la Ley 21.759 (tranques agrícolas, D.O. 2025-08-09) entró en vigor el primer día hábil del séptimo mes siguiente a su publicación. La versión 2026-10-09 corresponde a la Ley 21.841, cuyo art. 2 sustituye el inciso segundo del art. 141 (verificado en su texto). Las modificaciones del art. 85 de la Ley 21.770 (arts. 41, 129 bis 2, 171 y otros) rigen desde el 2026-09-29, un año después de su publicación (art. décimo noveno transitorio), salvo sus números 18, 19 y 23, sujetos a la adecuación del DS 50/2015 MOP y a una resolución de la DGA.",
+   "motivo": "Confirma con texto lo que la ficha infería por fechas y agrega la regla de vigencia de la Ley 21.770."
+  },
+  {
+   "id": "dfl-1122-1981",
+   "art": "294",
+   "campo": "resumen",
+   "valor": "Requieren aprobación del Director General de Aguas los embalses en cauce natural de más de 50.000 m3 o con muro de más de 5 m (fuera de cauce: más de 150.000 m3 o muro de más de 7 m), los acueductos de más de 2 m3/s (o más de 0,5 m3/s próximos a zonas urbanas) y los sifones y canoas equivalentes que crucen cauces naturales. Las obras fuera de cauce que superen 50.000 m3 o 5 m de muro y queden exentas de aprobación deben informarse a la DGA mediante declaración jurada antes de construirse y remitir el proyecto definitivo dentro de seis meses de terminadas.",
+   "motivo": "Agrega la obligación de declaración jurada incorporada por la Ley 21.759 (inciso final vigente desde 2026-03-02), que afecta directamente a titulares."
+  },
+  {
+   "id": "ley-21435",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.841, publicada el 2026-10-09 (art. 1: modifica los artículos primero, segundo y décimo tercero transitorios)",
+   "motivo": "Verificado en el texto de la Ley 21.841 (idNorma 1228972); ya no es inferencia."
+  },
+  {
+   "id": "ley-21435",
+   "art": "Primero transitorio",
+   "campo": "resumen",
+   "valor": "Los derechos reconocidos o constituidos antes de la ley siguen vigentes y solo se extinguen o caducan según las nuevas reglas; las regularizaciones de los arts. 2 y 5 transitorios del Código solo pueden iniciarse dentro de diez años desde la publicación de la ley (plazo ampliado por la Ley 21.841), salvo las de indígenas y comunidades indígenas.",
+   "motivo": "Incorpora el plazo vigente tras la Ley 21.841 (antes cinco años)."
+  },
+  {
+   "id": "ley-21435",
+   "art": "Segundo transitorio",
+   "campo": "resumen",
+   "valor": "Los derechos constituidos por acto de autoridad que no estaban inscritos deben inscribirse en el Registro de Propiedad de Aguas del Conservador de Bienes Raíces antes del 6 de abril de 2032 (fecha fijada por la Ley 21.841); vencido el plazo caducan por el solo ministerio de la ley.",
+   "motivo": "'Dentro del plazo legal' se reemplaza por la fecha que hoy fija el texto BCN (versión 2026-10-09)."
+  },
+  {
+   "id": "ley-21770",
+   "campo": "notas_verificacion",
+   "valor": "Norma transversal al lote; aparece también en otros lotes. El órgano coordinador se llama Oficina de Autorizaciones Sectoriales e Inversión (arts. octavo, noveno y duodécimo transitorios). Rige desde su publicación con excepciones (art. primero transitorio): el art. 85 (Código de Aguas) entró en vigor el 2026-09-29; el art. 86 (DFL 382) y el art. 97 (Ley 20.551) quedan diferidos hasta que se publiquen las adecuaciones del DS 1.199/2004 MOP y del DS 41/2012 de Minería; el art. 88 N°2 (art. 7 LGUC) hasta la adecuación de la OGUC. Los artículos modificatorios van del 78 al 123; el 105 modifica la Ley 21.600 y el 123 la Ley 21.595.",
+   "motivo": "La ficha pedía confirmar el nombre del órgano y no recogía las reglas de vigencia diferida de las modificaciones sectoriales (arts. décimo noveno a vigésimo tercero transitorios)."
+  },
+  {
+   "id": "ley-21100",
+   "campo": "ultima_modificacion",
+   "valor": "Sin modificaciones; BCN registra una única versión, de 2018-08-03",
+   "motivo": "La ficha citaba una 'versión BCN 2019-02-03' que el XML oficial no contiene (todas las partes tienen versión 2018-08-03)."
+  },
+  {
+   "id": "ds-29-2024-minsal",
+   "campo": "notas_verificacion",
+   "valor": "Publicación y título verificados en BCN (versión única 2026-01-14). El art. 45 dispone que el reglamento entra en vigencia seis meses después de su publicación, esto es, el 14-07-2026. Los plazos transitorios para instalaciones existentes están en los arts. 1° y 2° transitorios, no revisados en detalle.",
+   "motivo": "La fecha de vigencia no 'coincide con la versión BCN' (que es 2026-01-14): surge del art. 45."
+  },
+  {
+   "id": "ley-20780",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.806, publicada el 2026-02-05 (art. 74: agrega un inciso al art. 3, impuesto a vehículos nuevos); el art. 8 conserva el texto fijado por la Ley 21.210 (versión 2020-02-24)",
+   "motivo": "BCN: la única parte con versión 2026-02-05 es el art. 3 y el art. 74 de la Ley 21.806 (idNorma 1221118) lo modifica; no afecta al art. 8."
+  },
+  {
+   "id": "ley-20780",
+   "campo": "notas_verificacion",
+   "valor": "Texto del art. 8° leído completo en el XML BCN vigente (versión 2020-02-24). La versión de 05-02-2026 de la ley proviene de la Ley 21.806 y solo toca el art. 3.",
+   "motivo": "Se identificó la norma modificatoria."
+  },
+  {
+   "id": "ley-21210",
+   "art": "-",
+   "campo": "num",
+   "valor": "Décimo sexto",
+   "motivo": "El artículo que modifica el art. 8 de la Ley 20.780 es el 'Artículo décimo sexto' de la Ley 21.210 (idNorma 1142667)."
+  },
+  {
+   "id": "ley-21210",
+   "campo": "notas_verificacion",
+   "valor": "El art. décimo sexto de la Ley 21.210 introduce las modificaciones al art. 8 de la Ley 20.780 (umbral de 100 t de MP o 25.000 t de CO2 y compensación de emisiones); su art. trigésimo modifica además el art. 13 del DL 701 (DL 2.565). La versión BCN de 2024-10-24 no fue atribuida a una norma determinada.",
+   "motivo": "La ficha indicaba que no se había ubicado el artículo."
+  },
+  {
+   "id": "ley-20698",
+   "art": "único N° 1",
+   "campo": "num",
+   "valor": "1 N° 1",
+   "motivo": "La ley tiene arts. 1 y 2 más uno transitorio; no es de artículo único (idNorma 1055402)."
+  },
+  {
+   "id": "ley-20698",
+   "art": "único N° 2",
+   "campo": "num",
+   "valor": "1 N° 2",
+   "motivo": "Ídem: el art. 150 ter se incorpora por el N° 2 del art. 1."
+  },
+  {
+   "id": "ley-21505",
+   "art": "1 (arts. 72°-18 y 149 LGSE)",
+   "campo": "num",
+   "valor": "único N° 3 y 4 (arts. 72°-18 y 149 LGSE)",
+   "motivo": "La Ley 21.505 es de artículo único (más tres transitorios); los arts. 72°-18 y 149 se modifican en sus números 3 y 4."
+  },
+  {
+   "id": "ley-21595",
+   "art": "transitorios",
+   "campo": "epigrafe",
+   "valor": "Entrada en vigencia",
+   "motivo": "El art. 60 fija la entrada en vigor diferida (aplicar antes del cambio de número)."
+  },
+  {
+   "id": "ley-21595",
+   "art": "transitorios",
+   "campo": "num",
+   "valor": "60",
+   "motivo": "La regla de entrada en vigor está en el art. 60 (disposición final); BCN no registra artículos transitorios en esta ley."
+  },
+  {
+   "id": "ley-21595",
+   "art": "2",
+   "campo": "resumen",
+   "valor": "Delitos que son económicos si se cometen en ejercicio de un cargo o en beneficio de una empresa; incluye los arts. 305 a 311 del Código Penal, delitos de la Ley de Bosques, de la Ley 20.283, de pesca, de caza y de la ley CITES, y los arts. 37 bis y 37 ter de la ley orgánica de la SMA.",
+   "motivo": "El catálogo del art. 2 llega hasta el art. 311 del Código Penal y comprende también los arts. 49 y 50 de la Ley 20.283 y 11 y 12 de la Ley 20.962."
+  },
+  {
+   "id": "ley-21595",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.770 (Ley Marco de Autorizaciones Sectoriales), publicada 2025-09-29: su art. 123 modifica los arts. 2 y 3",
+   "motivo": "BCN muestra versión 2025-09-29 en los arts. 2 y 3; el art. 123 de la Ley 21.770 agrega el N°33 al art. 2 y el N°6 al art. 3."
+  },
+  {
+   "id": "trat-ramsar",
+   "campo": "ultima_modificacion",
+   "valor": "Protocolo modificatorio promulgado por DTO 971 MINREL (D.O. 1987-02-24, fecha de la versión BCN); enmiendas a los arts. 6 y 7 promulgadas por DTO 1.338 MINREL (D.O. 1995-11-22, idNorma 17586); corrección de texto por Decreto 148 MINREL (D.O. 2016-02-18)",
+   "motivo": "La versión BCN 1987-02-24 corresponde al DTO 971 (idNorma 16399), no al DS 1.338/1995; ambos existen en BCN."
+  },
+  {
+   "id": "trat-basilea",
+   "campo": "notas_verificacion",
+   "valor": "El reglamento general de movimiento transfronterizo previsto en el art. 8 de la Ley 20.920 no figura publicado en BCN. El DS 2/2010 (idNorma 1014982) es del Ministerio de Salud (Subsecretaría de Salud Pública), publicado el 2010-07-03, y cita el Convenio de Basilea; no está incluido como norma del conjunto. El DS 148/2003 no menciona el Convenio en su texto.",
+   "motivo": "Se confirmó en BCN el ministerio de origen del DS 2/2010, que la ficha dejaba pendiente."
+  },
+  {
+   "id": "ds-47-2023-mma",
+   "campo": "notas_verificacion",
+   "valor": "BCN lo marca como 'derogado' con fecha 2026-09-24. En rigor es una anulación judicial: la Res. Ex. MMA 5.193 (idNorma 1228452, de 11-09-2026, D.O. 24-09-2026) deja constancia de la anulación total dispuesta por sentencia del Segundo Tribunal Ambiental de 6 de agosto de 2026 (rol R-490-2024 y acumulados) y retrotrae el procedimiento. No se verificó si existe casación pendiente.",
+   "motivo": "Fecha de sentencia, roles y resolución verificados en el texto oficial de la Res. Ex. 5.193."
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "campo": "notas_verificacion",
+   "valor": "Leídos en BCN los arts. 1, 29, 36, 44, 52 y 80. El DS 40/2012 (RSEIA) remite expresamente a este reglamento en sus arts. 142 (art. 29), 143 (art. 36), 144 (art. 44) y 145 (art. 52). El reglamento no cita el Convenio de Basilea. Versión única en BCN.",
+   "motivo": "Los artículos PAS quedaron verificados contra el texto del DS 40."
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ds-193-1998-minagri",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "29",
+   "art_destino": "149",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-82-2010-minagri",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": null,
+   "art_destino": "148",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-68-2009-minagri",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": null,
+   "art_destino": "148",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ley-18755",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "46",
+   "art_destino": "160",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-203-2013-mop",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "47",
+   "art_destino": "158",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-203-2013-mop",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "1",
+   "art_destino": "154",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-5-1998-minagri",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "16",
+   "art_destino": "146",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-320-2001-economia",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "17",
+   "art_destino": "116",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-484-1990-mineduc",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "5",
+   "art_destino": "132",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-47-1992-minvu",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "2.1.19 y 3.1.7",
+   "art_destino": "160",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-41-2012-mineria",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "13",
+   "art_destino": "137",
+   "motivo": "El artículo PAS del DS 40/2012 no cita esta norma (solo cita la norma de rango legal o el reglamento base); la relación 'pas' no tiene sustento textual. Se conserva el vínculo como 'complementa'."
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "tipo": "pas",
+   "destino": "ds-40-2012-mma",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "Relación genérica sin artículos; se reemplaza por las cuatro remisiones expresas del RSEIA verificadas en su texto."
+  },
+  {
+   "id": "ley-18378",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": "4",
+   "art_destino": "10 letra p)",
+   "motivo": "Marcada como no verificada. La letra p) del art. 10 alude a áreas del SNAP, humedales urbanos y 'otras áreas colocadas bajo protección oficial'; la ley no califica textualmente las zonas de prohibición de corta como tales."
+  },
+  {
+   "id": "dl-3557-1980",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": "11",
+   "art_destino": "11 letra b)",
+   "motivo": "Marcada como interpretativa. La letra b) del art. 11 (efectos adversos sobre recursos naturales renovables) no guarda remisión textual con el art. 11 del DL 3.557."
+  },
+  {
+   "id": "ds-490-1976-minagri",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": "Segundo",
+   "art_destino": "10 letra p)",
+   "motivo": "Marcada como interpretativa. La letra p) se refiere a áreas, no a especies declaradas monumento natural."
+  },
+  {
+   "id": "ley-20249",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": null,
+   "art_destino": "11 letra d)",
+   "motivo": "Marcada como interpretativa. La letra d) del art. 11 menciona poblaciones, recursos y áreas protegidas, sitios prioritarios, humedales y glaciares; no alude a pueblos indígenas ni a los ECMPO."
+  },
+  {
+   "id": "dl-3516-1980",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": "1",
+   "art_destino": "10 letra g)",
+   "motivo": "Marcada como interpretativa. La letra g) del art. 10 trata de proyectos de desarrollo urbano o turístico en zonas sin planes evaluados; no menciona la división de predios rústicos."
+  },
+  {
+   "id": "ley-18362",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": null,
+   "art_destino": "10 letra p)",
+   "motivo": "Relación 'histórica' de una ley derogada (y que nunca rigió) con la letra p), cuyo texto vigente ya no alude al SNASPE."
+  },
+  {
+   "id": "ley-21074",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": "1",
+   "art_destino": "7 bis",
+   "motivo": "Se reemplaza por una remisión verificada."
+  },
+  {
+   "id": "dfl-4-2006",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "art_origen": null,
+   "art_destino": "10",
+   "motivo": "Se precisa el artículo de destino, antes genérico y no verificado."
+  },
+  {
+   "id": "trat-convencion-washington",
+   "tipo": "implementa_tratado",
+   "destino": "ley-19300",
+   "art_origen": null,
+   "art_destino": "10 letra p)",
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-convencion-washington",
+   "tipo": "implementa_tratado",
+   "destino": "ley-20283",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-patrimonio-mundial",
+   "tipo": "implementa_tratado",
+   "destino": "ley-19300",
+   "art_origen": null,
+   "art_destino": "11 letras d) y f)",
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-patrimonio-mundial",
+   "tipo": "implementa_tratado",
+   "destino": "ley-21600",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-protocolo-kioto",
+   "tipo": "implementa_tratado",
+   "destino": "ds-4-2023-mma",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-bbnj",
+   "tipo": "implementa_tratado",
+   "destino": "ley-21600",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-cdb",
+   "tipo": "implementa_tratado",
+   "destino": "ds-40-2012-mma",
+   "art_origen": "14",
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-estocolmo",
+   "tipo": "implementa_tratado",
+   "destino": "ds-57-2019-minsal",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-rotterdam",
+   "tipo": "implementa_tratado",
+   "destino": "ds-57-2019-minsal",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-cms",
+   "tipo": "implementa_tratado",
+   "destino": "ley-18892",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-cites",
+   "tipo": "implementa_tratado",
+   "destino": "ley-18892",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-desertificacion",
+   "tipo": "implementa_tratado",
+   "destino": "ley-20283",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-ramsar",
+   "tipo": "implementa_tratado",
+   "destino": "ley-21202",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-ramsar",
+   "tipo": "implementa_tratado",
+   "destino": "ley-21660",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena no cita el tratado ni fue dictada para ejecutarlo (verificado en su texto BCN); la relación 'implementa_tratado' no se sostiene."
+  },
+  {
+   "id": "trat-escazu",
+   "tipo": "implementa_tratado",
+   "destino": "ley-19300",
+   "art_origen": "5 y 7",
+   "art_destino": "26 a 31 quáter",
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-escazu",
+   "tipo": "implementa_tratado",
+   "destino": "ley-20600",
+   "art_origen": "8",
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-escazu",
+   "tipo": "implementa_tratado",
+   "destino": "ds-17-2023-mma",
+   "art_origen": "5 y 6",
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-convencion-washington",
+   "tipo": "implementa_tratado",
+   "destino": "ley-21600",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-ramsar",
+   "tipo": "implementa_tratado",
+   "destino": "ley-19300",
+   "art_origen": null,
+   "art_destino": "10 letra p) y 11 letra d)",
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-cites",
+   "tipo": "implementa_tratado",
+   "destino": "ley-19473",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-cdb",
+   "tipo": "implementa_tratado",
+   "destino": "ley-19300",
+   "art_origen": "14",
+   "art_destino": "10, 11 y 37",
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-basilea",
+   "tipo": "implementa_tratado",
+   "destino": "ds-148-2003-minsal",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "tipo": "implementa_tratado",
+   "destino": "trat-basilea",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-estocolmo",
+   "tipo": "implementa_tratado",
+   "destino": "ds-148-2003-minsal",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-minamata",
+   "tipo": "implementa_tratado",
+   "destino": "ds-148-2003-minsal",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-patrimonio-mundial",
+   "tipo": "implementa_tratado",
+   "destino": "ley-17288",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-convenio-londres",
+   "tipo": "implementa_tratado",
+   "destino": "ds-40-2012-mma",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-desertificacion",
+   "tipo": "implementa_tratado",
+   "destino": "dl-701-1974",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-marpol",
+   "tipo": "implementa_tratado",
+   "destino": "dl-2222-1978",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  },
+  {
+   "id": "trat-marpol",
+   "tipo": "implementa_tratado",
+   "destino": "ds-1-1992-defensa",
+   "art_origen": null,
+   "art_destino": null,
+   "motivo": "La norma chilena es anterior al tratado o no lo cita; el vínculo es temático y no de ejecución, por lo que se rebaja a 'complementa'."
+  }
+ ],
+ "rel_agregar": [
+  {
+   "id": "ds-193-1998-minagri",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "29",
+    "art_destino": "149",
+    "nota": "Contenidos del plan de manejo exigido por el art. 21 del DL 701, base del PAS 149; el art. 149 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-82-2010-minagri",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": null,
+    "art_destino": "148",
+    "nota": "Sus exigencias de protección se incorporan al plan de manejo del PAS 148; el art. 148 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-68-2009-minagri",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": null,
+    "art_destino": "148",
+    "nota": "Nómina de especies que sirve para determinar si hay bosque nativo (PAS 148); el art. 148 del RSEIA no la cita."
+   }
+  },
+  {
+   "id": "ley-18755",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "46",
+    "art_destino": "160",
+    "nota": "Informe del SAG en el cambio de uso de suelo; el art. 160 del RSEIA cita los incisos 3° y 4° del art. 55 de la LGUC, no esta ley."
+   }
+  },
+  {
+   "id": "ds-203-2013-mop",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "47",
+    "art_destino": "158",
+    "nota": "Desarrolla la recarga artificial del art. 66 del Código de Aguas (PAS 158); el art. 158 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-203-2013-mop",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "1",
+    "art_destino": "154",
+    "nota": "Detalla la restricción de exploración del art. 58 del Código de Aguas (PAS 154); el art. 154 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-5-1998-minagri",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "16",
+    "art_destino": "146",
+    "nota": "Procedimiento del permiso de captura del art. 9 de la Ley de Caza (PAS 146); el art. 146 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-320-2001-economia",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "17",
+    "art_destino": "116",
+    "nota": "Fija la exigencia técnica (condiciones aeróbicas) para otorgar el permiso del art. 87 de la LGPA (PAS 116); el art. 116 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-484-1990-mineduc",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "5",
+    "art_destino": "132",
+    "nota": "Procedimiento de los permisos de los arts. 22 y 23 de la Ley 17.288 (PAS 132); el art. 132 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-47-1992-minvu",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "2.1.19 y 3.1.7",
+    "art_destino": "160",
+    "nota": "Detalle procedimental del art. 55 de la LGUC (PAS 160); el art. 160 del RSEIA no cita la Ordenanza."
+   }
+  },
+  {
+   "id": "ds-41-2012-mineria",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "13",
+    "art_destino": "137",
+    "nota": "Contenido técnico del plan de cierre del art. 6 de la Ley 20.551 (PAS 137); el art. 137 del RSEIA no cita este reglamento."
+   }
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "relacion": {
+    "tipo": "pas",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "29",
+    "art_destino": "142",
+    "nota": "PAS 142: sitios de almacenamiento de residuos peligrosos; el art. 142 del RSEIA remite al art. 29 de este reglamento."
+   }
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "relacion": {
+    "tipo": "pas",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "36",
+    "art_destino": "143",
+    "nota": "PAS 143: transporte de residuos peligrosos e instalaciones asociadas; el art. 143 del RSEIA remite al art. 36 de este reglamento."
+   }
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "relacion": {
+    "tipo": "pas",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "44",
+    "art_destino": "144",
+    "nota": "PAS 144: instalaciones de eliminación de residuos peligrosos; el art. 144 del RSEIA remite al art. 44 de este reglamento."
+   }
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "relacion": {
+    "tipo": "pas",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "52",
+    "art_destino": "145",
+    "nota": "PAS 145: sitios de reciclaje de residuos peligrosos; el art. 145 del RSEIA remite al art. 52 de este reglamento."
+   }
+  },
+  {
+   "id": "ley-21074",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ley-19300",
+    "art_origen": "1",
+    "art_destino": "7 bis",
+    "nota": "El texto que la ley incorpora a la LOC de gobiernos regionales ordena diseñar el plan regional de ordenamiento territorial conforme al Párrafo 1° bis del Título II de la Ley 19.300; el art. 7 bis somete siempre esos planes a evaluación ambiental estratégica (ambos textos verificados)."
+   }
+  },
+  {
+   "id": "dfl-4-2006",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "10 letras b) y c)",
+    "nota": "La letra b) somete al SEIA las líneas de transmisión de alto voltaje y sus subestaciones y la letra c) las centrales generadoras mayores a 3 MW (texto vigente; el reemplazo de la letra c) por la Ley 21.850 aún no rige)."
+   }
+  },
+  {
+   "id": "ley-21752",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ds-430-1991-economia",
+    "art_origen": "4",
+    "art_destino": "139 ter",
+    "nota": "Reemplaza una frase del inciso primero del art. 139 ter de la LGPA."
+   }
+  },
+  {
+   "id": "ley-21770",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-21595",
+    "art_origen": "123",
+    "art_destino": "2 y 3",
+    "nota": "Ajusta el N°7 y agrega el N°33 al art. 2 y el N°6 al art. 3 de la Ley de Delitos Económicos."
+   }
+  },
+  {
+   "id": "ley-21770",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-21600",
+    "art_origen": "105",
+    "art_destino": "5",
+    "nota": "Incorpora nuevos literales al art. 5 de la Ley 21.600."
+   }
+  },
+  {
+   "id": "trat-escazu",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19300",
+    "art_origen": "5 y 7",
+    "art_destino": "26 a 31 quáter",
+    "nota": "Los arts. 26 a 31 quáter regulan participación ciudadana en el SEIA y acceso a la información ambiental; son anteriores al Acuerdo y no lo citan."
+   }
+  },
+  {
+   "id": "trat-escazu",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-20600",
+    "art_origen": "8",
+    "art_destino": null,
+    "nota": "Los Tribunales Ambientales son la vía nacional de acceso a la justicia ambiental; la ley es de 2012 y no cita el Acuerdo."
+   }
+  },
+  {
+   "id": "trat-escazu",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-17-2023-mma",
+    "art_origen": "5 y 6",
+    "art_destino": null,
+    "nota": "Sistema de acceso a información y participación en materia climática; el reglamento no cita el Acuerdo."
+   }
+  },
+  {
+   "id": "trat-convencion-washington",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-21600",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Las categorías de áreas protegidas de la Ley 21.600 recogen las de la Convención, pero la ley no la cita."
+   }
+  },
+  {
+   "id": "trat-ramsar",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "10 letra p) y 11 letra d)",
+    "nota": "Vínculo temático con la letra p) del art. 10 (áreas bajo protección oficial) y la letra d) del art. 11 (humedales protegidos); la ley no cita la Convención."
+   }
+  },
+  {
+   "id": "trat-cites",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19473",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "La Ley de Caza regula la fauna silvestre terrestre; no cita CITES (la ley de aplicación es la 20.962)."
+   }
+  },
+  {
+   "id": "trat-cdb",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19300",
+    "art_origen": "14",
+    "art_destino": "10, 11 y 37",
+    "nota": "La Ley 19.300 define diversidad biológica y regula el SEIA y la clasificación de especies, sin citar el Convenio."
+   }
+  },
+  {
+   "id": "trat-basilea",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-148-2003-minsal",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Régimen interno de manejo de residuos peligrosos; el reglamento no cita el Convenio."
+   }
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "trat-basilea",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Régimen interno de manejo de residuos peligrosos; el reglamento no cita el Convenio."
+   }
+  },
+  {
+   "id": "trat-estocolmo",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-148-2003-minsal",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Los desechos con COP se manejan como residuos peligrosos; el reglamento es anterior al Convenio y no lo cita."
+   }
+  },
+  {
+   "id": "trat-minamata",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-148-2003-minsal",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Los desechos de mercurio se manejan como residuos peligrosos; el reglamento es de 2003 y no cita el Convenio."
+   }
+  },
+  {
+   "id": "trat-patrimonio-mundial",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-17288",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "La Ley de Monumentos Nacionales (1970) es anterior a la Convención (1972) y no la cita."
+   }
+  },
+  {
+   "id": "trat-convenio-londres",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-40-2012-mma",
+    "art_origen": null,
+    "art_destino": "111",
+    "nota": "El permiso de vertimiento del art. 108 del DS 1/1992 se tramita como PAS 111; el RSEIA no cita el Convenio."
+   }
+  },
+  {
+   "id": "trat-desertificacion",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "dl-701-1974",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "El DL 701 bonifica la forestación en áreas en proceso de desertificación, sin citar la Convención."
+   }
+  },
+  {
+   "id": "trat-marpol",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "dl-2222-1978",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "El Título IX de la Ley de Navegación cita el convenio de 1954 sobre hidrocarburos, no MARPOL 73/78."
+   }
+  },
+  {
+   "id": "trat-marpol",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-1-1992-defensa",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "El reglamento cita el convenio de 1954 sobre hidrocarburos, no MARPOL 73/78."
+   }
+  }
+ ],
+ "eliminar": [
+  "ds-531-1967-minrel"
+ ],
+ "alias": {
+  "ds-531-1967-minrel": "trat-convencion-washington"
+ }
+}

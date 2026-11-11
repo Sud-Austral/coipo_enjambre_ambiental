@@ -1,0 +1,71 @@
+{
+ "avisos": {
+  "ley-19300": "Texto actualizado al 17-10-2026. La Ley 21.850 cambió el régimen de reclamación de la RCA (art. 20), agregó los arts. 24 bis y 25 septies y ordenó dictar un nuevo Reglamento del SEIA antes del 17-10-2027. La letra c) del art. 10 sigue diciendo «mayores a 3 MW» hasta que ese reglamento se publique.",
+  "ds-14-2024-mma": "Publicado el 27-02-2026 con vigencia diferida: rige desde el 27-08-2028, o desde el 27-08-2027 para los proyectos que ingresen al SEIA después de su publicación. Hasta entonces sigue aplicándose el DS 38/2011.",
+  "ds-38-2011-mma": "Sigue vigente. El DS 14/2024 lo deroga recién cuando entre en vigor (27-08-2028; 27-08-2027 para proyectos que ingresen al SEIA desde el 27-02-2026).",
+  "ds-40-2012-mma": "La Ley 21.850 ordena dictar un nuevo Reglamento del SEIA antes del 17-10-2027; mientras tanto, sus reglas sobre recursos contra la RCA deben leerse junto al nuevo art. 20 de la Ley 19.300.",
+  "ds-5-2021-mma": "Plan anulado por el Primer Tribunal Ambiental (sentencia de 07-06-2023, publicada en el Diario Oficial el 14-02-2024). Calama no tiene plan vigente.",
+  "ds-1-2015-mma": "Norma anulada por el Tercer Tribunal Ambiental (Diario Oficial de 09-08-2017). La norma secundaria vigente del río Valdivia es el DS 21/2024.",
+  "ds-47-2023-mma": "Decreto anulado totalmente por el Segundo Tribunal Ambiental (sentencia de 06-08-2026); BCN lo registra derogado desde el 24-09-2026.",
+  "ds-15-2013-mma": "Derogado expresamente por el art. 69 del DS 1/2021 del MMA, aunque la ficha de BCN todavía no lo marca.",
+  "ley-18362": "Derogada por el art. 143 de la Ley 21.600 desde el 06-09-2023.",
+  "ley-21744": "Crea el Servicio Nacional Forestal como continuador y sucesor legal de CONAF. No se encontró en BCN el decreto con fuerza de ley que fija su fecha de entrada en funcionamiento.",
+  "ley-17288": "La Ley 21.600 derogó el art. 31 (santuarios de la naturaleza) y la Ley 21.850 modificó los arts. 6, 22 y 26 y agregó el 26 bis. El texto consolidado de BCN aún muestra el art. 31.",
+  "ley-18248": "El N° 2 del art. 17 fue suprimido por la Ley 21.600, por lo que el permiso del art. 121 del Reglamento del SEIA quedó sin base legal vigente.",
+  "res-1227-2015-sma": "Revocada desde el 11-12-2021 por la Res. Ex. 2547/2021 de la SMA, que trasladó los reportes al SISAT.",
+  "ds-38-2012-mma": "Reemplazado por el DS 6/2024 del MMA (Diario Oficial de 26-06-2025)."
+ },
+ "novedades": [
+  {
+   "hecho": "Ley 21.850 (17-10-2026): reforma el SEIA. Recurso único y previo contra la RCA, 20 días para reclamar ante el Tribunal Ambiental, invalidación administrativa en un año y nuevo Reglamento del SEIA antes del 17-10-2027.",
+   "id": "ley-21850"
+  },
+  {
+   "hecho": "Ley 21.770 (29-09-2025): Ley Marco de Autorizaciones Sectoriales. Modifica el Código de Aguas, el Código Sanitario, la Ley 20.283 y otras leyes; excluye de su ámbito los permisos tramitados dentro del SEIA.",
+   "id": "ley-21770"
+  },
+  {
+   "hecho": "Ley 21.744 (23-05-2025): crea el Servicio Nacional Forestal, continuador legal de CONAF.",
+   "id": "ley-21744"
+  },
+  {
+   "hecho": "DS 14/2024 MMA (27-02-2026): nueva norma de ruido, con vigencia diferida a 2027-2028.",
+   "id": "ds-14-2024-mma"
+  },
+  {
+   "hecho": "DS 17/2025 MMA (21-01-2026): última modificación del Reglamento del SEIA (umbrales del art. 3).",
+   "id": "ds-17-2025-mma"
+  },
+  {
+   "hecho": "DS 12/2025 MMA (13-08-2026): plan de descontaminación del lago Villarrica.",
+   "id": "ds-12-2025-mma"
+  },
+  {
+   "hecho": "En trámite, sin ser ley: reforma al SEIA (boletín 16552-12, segundo trámite en la Cámara) y ley de incendios forestales y rurales (no publicada al 10-11-2026).",
+   "id": null
+  }
+ ],
+ "pas_grupo": {
+  "126": "SEREMI Salud",
+  "116": "Subsecretaría de Pesca y Acuicultura",
+  "117": "Subsecretaría de Pesca y Acuicultura",
+  "118": "Subsecretaría de Pesca y Acuicultura",
+  "119": "Subsecretaría de Pesca y Acuicultura",
+  "159": "Municipalidad",
+  "121": "Sin base legal vigente",
+  "160": "SEREMI MINVU y Agricultura"
+ },
+ "fuente_sea": "https://www.sea.gob.cl/instructivos-para-la-evaluacion-del-impacto-ambiental",
+ "categoria": {
+  "ley-19372": "nucleo",
+  "ley-20173": "nucleo",
+  "ley-21162": "nucleo",
+  "ley-21449": "nucleo",
+  "ley-21562": "nucleo"
+ },
+ "pas_nota": {
+  "155": "La Ley 21.759 modificó el art. 294 del Código de Aguas, con vigencia desde el 02-03-2026. La Ley 21.770 (art. 85 N° 18) dispone además sustituirlo por un texto con nuevos umbrales, pero ese cambio rige recién desde el mes subsiguiente a la publicación de la modificación del DS 50/2015 del MOP. El art. 155 del reglamento sigue remitiendo al art. 294.",
+  "150": "La Ley 21.770 (art. 119) modificó el inciso quinto del art. 19 de la Ley 20.283.",
+  "118": "El DS 314/2004 que funda este permiso fue dejado sin efecto por el DS 96/2015 del Ministerio de Economía (Diario Oficial de 27-01-2016), cuyo art. 9 regula hoy la solicitud."
+ }
+}

@@ -1,0 +1,11 @@
+/.env
+/.env.*
+/.git
+/.github
+/.venv
+/.pytest_cache
+/tests
+/fuente
+/insumos
+__pycache__
+*.md

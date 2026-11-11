@@ -1,0 +1,5 @@
+{"cambios":[
+ {"id":"ley-21202","art":null,"epigrafe_actual":"Modifica art. 10 Ley 19.300, letras p), q) y s)","campo":"num","valor":"4","motivo":"Numeración oficial BCN idNorma 1141461: el art. 4 modifica el art. 10 de la Ley 19.300."},
+ {"id":"ley-21202","art":null,"epigrafe_actual":"Modifica LGUC, arts. 60 y 64","campo":"num","valor":"5","motivo":"Numeración oficial BCN idNorma 1141461: el art. 5 modifica la LGUC."},
+ {"id":"ley-21752","art":"1","campo":"epigrafe","valor":"Fraccionamiento de la cuota global","motivo":"Cambio de V5 que dependía de la renumeración previa."}
+]}

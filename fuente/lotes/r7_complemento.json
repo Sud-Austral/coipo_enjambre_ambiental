@@ -1,0 +1,271 @@
+{
+ "normas": [
+  {
+   "id": "ley-11402",
+   "tipo": "Ley",
+   "numero": "11.402",
+   "anio": 1953,
+   "organismo": "Ministerio de Obras Públicas",
+   "titulo_oficial": "Dispone que las obras de defensa y regularización de las riberas y cauces de los ríos, lagunas y esteros que se realicen con participación fiscal solamente podrán ser ejecutadas y proyectadas por la Dirección de Obras Sanitarias del Ministerio de Obras Públicas",
+   "nombre_corto": "Ley de defensas fluviales y extracción de áridos",
+   "fecha_publicacion": "1953-12-16",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 26654,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=26654",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=26654",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=26654"
+   ],
+   "categoria": "territorio-patrimonio",
+   "resumen": "Regula las obras de defensa y regularización de riberas y cauces de ríos, lagunas y esteros, y somete a permiso la extracción de áridos desde los cauces.",
+   "relevancia_titulares": "Quien extraiga ripio o arena de un cauce necesita permiso municipal con informe favorable previo del Ministerio de Obras Públicas; dentro del SEIA ese permiso es el del artículo 159 del Reglamento.",
+   "organismos_competentes": [
+    "Municipalidades",
+    "DOH",
+    "MOP"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Obras de defensa fluvial",
+     "resumen": "Las obras de defensa y regularización de riberas y cauces con aporte fiscal las proyecta y ejecuta el Ministerio de Obras Públicas; las que financian otras entidades o particulares requieren su autorización y quedan bajo su vigilancia.",
+     "obliga_titular": true
+    },
+    {
+     "num": "11",
+     "epigrafe": "Extracción de ripio y arena",
+     "resumen": "Extraer ripio y arena de cauces de ríos y esteros exige permiso de la municipalidad, previo informe favorable de la Dirección General de Obras Públicas, que además fija las zonas donde la extracción queda prohibida.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": []
+  },
+  {
+   "id": "ley-18302",
+   "tipo": "Ley",
+   "numero": "18.302",
+   "anio": 1984,
+   "organismo": "Ministerio de Minería",
+   "titulo_oficial": "Ley de Seguridad Nuclear",
+   "nombre_corto": "Ley de Seguridad Nuclear",
+   "fecha_publicacion": "1984-05-02",
+   "estado": "vigente",
+   "ultima_modificacion": "Texto con versión BCN de 05-02-2026",
+   "id_norma_bcn": 29719,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=29719",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=29719",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=29719"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Somete a control las actividades vinculadas a los usos pacíficos de la energía nuclear y a las instalaciones, sustancias nucleares y materiales radiactivos, para proteger a las personas, los bienes y el medio ambiente.",
+   "relevancia_titulares": "El emplazamiento, construcción, operación y cierre de instalaciones nucleares requiere autorización de la Comisión Chilena de Energía Nuclear; en el SEIA el emplazamiento corresponde al permiso del artículo 134 del Reglamento.",
+   "organismos_competentes": [
+    "CCHEN",
+    "SEREMI Salud"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Sujeta a la ley todas las actividades relacionadas con los usos pacíficos de la energía nuclear y con las sustancias nucleares y materiales radiactivos, con fines de protección de la salud, la seguridad, los bienes y el medio ambiente.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Autorización de la Comisión",
+     "resumen": "Emplazar, construir, poner en servicio, operar, cerrar y desmantelar instalaciones nucleares, así como ingresar o transitar con sustancias nucleares o materiales radiactivos, requiere autorización de la Comisión Chilena de Energía Nuclear.",
+     "obliga_titular": true
+    },
+    {
+     "num": "67",
+     "epigrafe": "Instalaciones radiactivas",
+     "resumen": "La Comisión dicta las normas sobre instalaciones radiactivas; la autorización y control de su uso corresponde a la autoridad sanitaria, salvo las que están dentro de una instalación nuclear, que quedan bajo la Comisión.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": []
+  },
+  {
+   "id": "ley-20256",
+   "tipo": "Ley",
+   "numero": "20.256",
+   "anio": 2008,
+   "organismo": "Ministerio de Economía, Fomento y Reconstrucción; Subsecretaría de Pesca",
+   "titulo_oficial": "Establece normas sobre pesca recreativa",
+   "nombre_corto": "Ley de Pesca Recreativa",
+   "fecha_publicacion": "2008-04-12",
+   "estado": "vigente",
+   "ultima_modificacion": "Texto con versión BCN de 06-09-2023",
+   "id_norma_bcn": 270429,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=270429",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=270429",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=270429"
+   ],
+   "categoria": "pesca-costa",
+   "resumen": "Regula la pesca recreativa en aguas terrestres, aguas interiores, mar territorial y zona económica exclusiva, incluidas la siembra y repoblación de especies para ese fin.",
+   "relevancia_titulares": "Sembrar o repoblar especies hidrobiológicas con fines de pesca recreativa requiere autorización de la Subsecretaría de Pesca o del Director Zonal; en el SEIA corresponde al permiso del artículo 117 del Reglamento.",
+   "organismos_competentes": [
+    "Subsecretaría de Pesca y Acuicultura",
+    "SERNAPESCA"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Ámbito de aplicación",
+     "resumen": "La ley rige la pesca recreativa, entendida como la captura sin fines de lucro, con aparejos de uso personal y con propósito de deporte, turismo o entretención, en aguas continentales y marítimas del país.",
+     "obliga_titular": false
+    },
+    {
+     "num": "11",
+     "epigrafe": "Repoblación y siembra",
+     "resumen": "Un reglamento fija cómo se puede sembrar y repoblar especies para pesca recreativa resguardando el patrimonio sanitario y ambiental; los interesados deben pedir autorización a la Subsecretaría o al Director Zonal, que resuelve fundadamente.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": []
+  },
+  {
+   "id": "ley-21255",
+   "tipo": "Ley",
+   "numero": "21.255",
+   "anio": 2020,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Establece el Estatuto Chileno Antártico",
+   "nombre_corto": "Estatuto Chileno Antártico",
+   "fecha_publicacion": "2020-09-17",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1149631,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1149631",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1149631",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1149631"
+   ],
+   "categoria": "biodiversidad-areas",
+   "resumen": "Fija los objetivos y principios de la política antártica nacional y regula las actividades en la Antártica, incluida la protección de su medio ambiente y de sus ecosistemas dependientes y asociados.",
+   "relevancia_titulares": "Toda actividad planificada en la Antártica debe someterse a una evaluación de impacto ambiental propia, en la categoría que corresponda según la magnitud del impacto esperado.",
+   "organismos_competentes": [
+    "MINREL",
+    "MMA",
+    "INACH"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objetivos",
+     "resumen": "Entre sus objetivos están resguardar los derechos soberanos antárticos de Chile, fijar los principios de la política antártica y promover la protección del medio ambiente antártico.",
+     "obliga_titular": false
+    },
+    {
+     "num": "37",
+     "epigrafe": "Evaluación ambiental de actividades antárticas",
+     "resumen": "Las actividades científicas, turísticas, gubernamentales y no gubernamentales, y su apoyo logístico, deben evaluarse ambientalmente durante su etapa de planificación.",
+     "obliga_titular": true
+    },
+    {
+     "num": "38",
+     "epigrafe": "Categorías de evaluación",
+     "resumen": "Distingue evaluación preliminar, inicial y global según si la actividad causará menos que un impacto mínimo o transitorio, un impacto mínimo o transitorio, o uno mayor.",
+     "obliga_titular": true
+    },
+    {
+     "num": "39",
+     "epigrafe": "Información a los operadores",
+     "resumen": "Los operadores acceden a la información sobre protección del medio ambiente antártico a través del Sistema Nacional de Información Ambiental de la Ley 19.300.",
+     "obliga_titular": false
+    },
+    {
+     "num": "40",
+     "epigrafe": "Deber de informar daños",
+     "resumen": "Quien conozca un daño al medio ambiente antártico, participe o no en él, debe comunicarlo a la brevedad a las autoridades nacionales competentes.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "remite",
+     "destino": "ley-19300",
+     "art_origen": "39",
+     "art_destino": "31 ter",
+     "nota": "Usa el Sistema Nacional de Información Ambiental."
+    }
+   ]
+  },
+  {
+   "id": "res-2547-2021-sma",
+   "tipo": "Resolución",
+   "numero": "2547 exenta",
+   "anio": 2021,
+   "organismo": "Superintendencia del Medio Ambiente",
+   "titulo_oficial": "Establece instrucciones generales sobre deberes de remisión de información para fuentes reguladas por normas de emisión de contaminantes a la atmósfera y por planes de prevención y/o descontaminación atmosférica",
+   "nombre_corto": "Instrucción SMA de reporte atmosférico (SISAT)",
+   "fecha_publicacion": "2021-12-11",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1169593,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1169593",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1169593",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1169593"
+   ],
+   "categoria": "fiscalizacion-justicia",
+   "resumen": "Instrucción general de la SMA que crea el Sistema de Seguimiento Atmosférico (SISAT) como canal para los reportes de fuentes sujetas a normas de emisión al aire y a planes de prevención o descontaminación atmosférica.",
+   "relevancia_titulares": "Los titulares de fuentes afectas deben catastrar cada fuente en el SISAT y remitir por esa vía, a través de la ventanilla única del RETC, los informes de seguimiento que exigen las normas y planes.",
+   "organismos_competentes": [
+    "SMA"
+   ],
+   "articulos": [
+    {
+     "num": "primero",
+     "epigrafe": "Sistema de Seguimiento Atmosférico",
+     "resumen": "El SISAT recibe los reportes de los titulares de fuentes sujetas a normas de emisión atmosférica y a planes de prevención o descontaminación.",
+     "obliga_titular": false
+    },
+    {
+     "num": "segundo",
+     "epigrafe": "Destinatarios",
+     "resumen": "Se aplica a todos los titulares de fuentes sujetas a esas normas y planes, incluidos los que se dicten con posterioridad.",
+     "obliga_titular": true
+    },
+    {
+     "num": "tercero",
+     "epigrafe": "Forma de entrega",
+     "resumen": "Los informes de seguimiento se remiten en formato digital mediante el SISAT, ingresando por la ventanilla única del RETC o por el acceso que disponga la SMA.",
+     "obliga_titular": true
+    },
+    {
+     "num": "cuarto",
+     "epigrafe": "Catastro de fuentes",
+     "resumen": "Cada fuente afecta, como calderas, grupos electrógenos u hornos, debe registrarse en el módulo de catastro del sistema.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reemplaza",
+     "destino": "res-1227-2015-sma",
+     "art_origen": "resuelvo tercero",
+     "art_destino": null,
+     "nota": "Revoca la instrucción de 2015 desde el 11-12-2021."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ds-1-2013-mma",
+     "art_origen": "tercero",
+     "art_destino": null,
+     "nota": "Los reportes ingresan por la ventanilla única del RETC."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-20417",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Instrucción de carácter general dictada por la SMA."
+    }
+   ]
+  }
+ ]
+}

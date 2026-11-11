@@ -1,0 +1,751 @@
+{
+ "cambios": [
+  {
+   "id": "ley-19300",
+   "art": "8",
+   "campo": "resumen",
+   "valor": "Los proyectos del art. 10 solo pueden ejecutarse o modificarse previa evaluación de su impacto ambiental; los permisos y pronunciamientos ambientales se otorgan dentro del SEIA, cuya administración y coordinación corresponde al SEA. Siempre se requiere informe de compatibilidad territorial del Gobierno Regional, del municipio y, si procede, de la autoridad marítima, y el proyecto debe considerar las políticas y planes sometidos a EAE.",
+   "motivo": "Resumen omitía dos exigencias expresas de los incisos 3° y 4° (compatibilidad territorial y consideración de instrumentos con EAE)."
+  },
+  {
+   "id": "ley-19300",
+   "art": "10",
+   "campo": "resumen",
+   "valor": "Lista de proyectos que deben ingresar al SEIA (letras a a s): obras hidráulicas, transmisión eléctrica, centrales generadoras mayores a 3 MW, instalaciones nucleares, infraestructura de transporte, puertos, desarrollo urbano o turístico, minería y áridos, ductos, industria, agroindustria, forestal y celulosa, recursos hidrobiológicos, sustancias peligrosas, saneamiento, obras en áreas protegidas y humedales urbanos, aplicación masiva de químicos, OGM y alteración de humedales dentro del límite urbano. La Ley 21.850 agregó un inciso final: la modificación de un proyecto con RCA en la misma área evaluada solo se reevalúa si varía sustantivamente la magnitud o extensión de los impactos, y las meras mejoras tecnológicas no reingresan. La misma ley reemplazó la letra c) por 'centrales generadoras de energía' sin umbral legal, pero ese cambio regirá recién al publicarse el nuevo Reglamento del SEIA, que no podrá fijar un umbral inferior a 3 MW; hasta entonces el texto vigente mantiene 'mayores a 3 MW'.",
+   "motivo": "Verificado con texto BCN (versión 17-10-2026) y con art. 11 N° 1 y art. 13° transitorio de la Ley 21.850: la letra c) vigente sigue diciendo 'mayores a 3 MW'; el reemplazo está diferido. Se precisa el alcance del inciso final."
+  },
+  {
+   "id": "ley-19300",
+   "art": "10",
+   "campo": "habilita",
+   "valor": "Letra r): el reglamento puede fijar la lista de OGM de bajo riesgo excluidos y debe regular la declaración de áreas libres de OGM. Inciso final (Ley 21.850): el reglamento del art. 13 (RSEIA) debe regular cuándo una modificación es sustantiva o constituye mera mejora tecnológica. El detalle y los umbrales de cada tipología están en el art. 3 del Reglamento del SEIA (DS 40/2012 MMA), dictado en virtud del art. 13.",
+   "motivo": "El art. 10 solo menciona reglamento en la letra r) y en el inciso final; los umbrales del RSEIA derivan del art. 13, no de una orden del art. 10."
+  },
+  {
+   "id": "ley-19300",
+   "art": "12",
+   "campo": "resumen",
+   "valor": "Contenidos mínimos del Estudio: descripción del proyecto; línea de base (que incluye proyectos con RCA aunque no operen); descripción de los efectos del art. 11 que lo originan; predicción y evaluación de impactos, incluidas situaciones de riesgo y los efectos adversos del cambio climático (agregado por la Ley 21.455) y un capítulo de riesgo para la salud cuando falten normas de referencia; medidas para eliminar o minimizar efectos adversos y acciones de reparación; plan de seguimiento y plan de cumplimiento de la legislación ambiental.",
+   "motivo": "Faltaba la exigencia de la letra d) sobre cambio climático (Ley 21.455, art. 46 N° 4) y el capítulo de salud."
+  },
+  {
+   "id": "ley-19300",
+   "art": "14 bis",
+   "campo": "resumen",
+   "valor": "El procedimiento y sus actos pueden expresarse por medios electrónicos conforme a la Ley 19.799; se entiende que el titular los acepta desde el ingreso, salvo que pida expresamente lo contrario. Las fallas del medio electrónico no se imputan al titular, las observaciones ciudadanas también pueden presentarse por esa vía y se exceptúan las actuaciones que por su naturaleza o por ley exigen otro medio.",
+   "motivo": "El resumen afirmaba una excepción 'para quienes carezcan de medios tecnológicos' que el texto vigente no contiene."
+  },
+  {
+   "id": "ley-19300",
+   "art": "15",
+   "campo": "habilita",
+   "valor": "Reglamento (RSEIA) que fija requisitos, formas y condiciones para solicitar y aprobar la calificación de urgencia, y su publicidad (inciso final).",
+   "motivo": "El inciso final ordena expresamente esa regulación reglamentaria; faltaba 'habilita'."
+  },
+  {
+   "id": "ley-19300",
+   "art": "19",
+   "campo": "habilita",
+   "valor": "Reglamento (RSEIA) que establece la forma de notificar al interesado la decisión sobre la DIA (inciso final).",
+   "motivo": "Mandato reglamentario expreso en el inciso final; faltaba 'habilita'."
+  },
+  {
+   "id": "ley-19300",
+   "art": "20",
+   "campo": "resumen",
+   "valor": "Recurso especial de reclamación contra la RCA: ante el Director Ejecutivo del SEA si se trata de una DIA y ante el Comité de Ministros (Medio Ambiente, Salud, Economía, Agricultura, Energía y Minería) si es un EIA. Tras la Ley 21.850 pueden interponerlo el titular, los observantes de la participación ciudadana y quienes tengan calidad de interesado, dentro de 30 días desde la notificación o publicación electrónica de la RCA; todos los recursos se resuelven en un solo acto fundado, en plazo fatal de 30 días (DIA) o 60 días (EIA). Lo resuelto solo puede reclamarse ante el Tribunal Ambiental dentro de 20 días, sin que procedan la invalidación ni los recursos del art. 59 de la Ley 19.880, y la reclamación judicial queda limitada a lo alegado en sede administrativa. Si la autoridad no resuelve, puede certificarse el rechazo tácito tras un requerimiento de 5 días.",
+   "motivo": "Texto reemplazado íntegramente por la Ley 21.850 (art. 11 N° 4). Se agregan plazos verificados: 30 días para recurrir, 30/60 para resolver y 20 días (ya no 30) para reclamar al Tribunal Ambiental."
+  },
+  {
+   "id": "ley-19300",
+   "art": "20",
+   "campo": "habilita",
+   "valor": "Reglamento que regula la organización y funcionamiento del Comité de Ministros y el procedimiento de las reclamaciones de su competencia (inciso 2°); el Comité debe sesionar al menos diez veces al año.",
+   "motivo": "El campo describía un órgano; el texto vigente ordena dictar un reglamento del Comité de Ministros."
+  },
+  {
+   "id": "ley-19300",
+   "art": "24 bis",
+   "campo": "nota",
+   "valor": null,
+   "motivo": "Contenido confirmado con el texto oficial BCN (versión 17-10-2026); la nota 'texto oficial no consultado' ya no corresponde."
+  },
+  {
+   "id": "ley-19300",
+   "art": "25 septies",
+   "campo": "resumen",
+   "valor": "Régimen especial y voluntario de tramitación (Ley 21.850): el titular debe declarar expresamente, al presentar el proyecto, que se acoge a él. Solo se admite una ronda de aclaraciones, rectificaciones o ampliaciones en las DIA y hasta dos en los EIA (la segunda excepcional y fundada); luego el SEA elabora el Informe Consolidado de Evaluación. Los servicios deben ceñirse al contenido presentado, sin nuevos requerimientos y respetando las directrices del SEA. Si el proyecto fue planificado mediante un instrumento con EAE, el SEA reconoce la información de su informe ambiental y reduce plazos.",
+   "motivo": "Confirmado con texto oficial; se agregan la declaración expresa de acogimiento y el límite a los pronunciamientos sectoriales."
+  },
+  {
+   "id": "ley-19300",
+   "art": "25 septies",
+   "campo": "nota",
+   "valor": null,
+   "motivo": "Contenido confirmado con el texto oficial BCN (versión 17-10-2026)."
+  },
+  {
+   "id": "ley-19300",
+   "art": "25 quáter",
+   "campo": "obliga_titular",
+   "valor": true,
+   "motivo": "El inciso 2° obliga a los titulares a informar regularmente el estado de sus proyectos para el registro público de RCA de la SMA."
+  },
+  {
+   "id": "ley-19300",
+   "art": "30",
+   "campo": "resumen",
+   "valor": "La Comisión de Evaluación o el Director Ejecutivo publica mensualmente (primer día hábil), tanto en el Diario Oficial como en un periódico regional o nacional, la lista de proyectos ingresados por DIA en el mes anterior (responsable, ubicación y tipo). Si la DIA es objeto de aclaraciones o ampliaciones sustantivas conforme al art. 30 bis, el proponente debe publicar en las condiciones del art. 28.",
+   "motivo": "Faltaba la carga de publicación del proponente (inciso final)."
+  },
+  {
+   "id": "ley-19300",
+   "art": "30",
+   "campo": "obliga_titular",
+   "valor": true,
+   "motivo": "El inciso final impone al proponente una publicación a su costa cuando hay aclaraciones o ampliaciones sustantivas."
+  },
+  {
+   "id": "ley-19300",
+   "art": "30 bis",
+   "campo": "resumen",
+   "valor": "Puede decretarse participación ciudadana por 20 días en DIA de proyectos que generen cargas ambientales, si lo solicitan por escrito al menos dos organizaciones ciudadanas con personalidad jurídica o diez personas naturales directamente afectadas, dentro de 30 días desde la publicación del proyecto en el Diario Oficial (plazo ampliado de 10 a 30 días por la Ley 21.449). Cambios sustantivos abren una nueva etapa de 10 días. Quien estime que sus observaciones no fueron debidamente consideradas puede reclamar conforme al art. 20, y la Ley 21.850 fija 30 días para resolver fundadamente.",
+   "motivo": "Se precisa con el texto oficial el plazo de solicitud (30 días, Ley 21.449 artículo único) y la nueva etapa de 10 días."
+  },
+  {
+   "id": "ley-19300",
+   "art": "30 bis",
+   "campo": "habilita",
+   "valor": "Definición reglamentaria (RSEIA) de qué aclaraciones, rectificaciones o ampliaciones constituyen modificaciones sustantivas según el tipo de proyecto (inciso 2°).",
+   "motivo": "Mandato reglamentario expreso, igual al del art. 29; faltaba 'habilita'."
+  },
+  {
+   "id": "ley-19300",
+   "art": "32",
+   "campo": "resumen",
+   "valor": "Las normas primarias de calidad se dictan por decreto supremo firmado por los ministros del Medio Ambiente y de Salud, rigen en todo el país y definen los niveles de emergencia; las secundarias, por decreto del MMA y del ministro sectorial. Un reglamento fija el procedimiento de dictación y los criterios de revisión. Toda norma se revisa al menos cada cuatro años (antes cinco; Ley 21.455) y cualquier persona puede pedir fundadamente una norma para contaminantes no regulados, con respuesta del MMA en 30 días.",
+   "motivo": "Se precisa lo que efectivamente cambió la Ley 21.455 (art. 46 N° 5): plazo de cuatro años y derecho a solicitar normas."
+  },
+  {
+   "id": "ley-19300",
+   "art": "34",
+   "campo": "resumen",
+   "valor": "El Estado administra un Sistema Nacional de Áreas Protegidas para asegurar la conservación de la biodiversidad y la protección del patrimonio natural; su administración corresponde al Servicio de Biodiversidad y Áreas Protegidas (texto fijado por la Ley 21.600).",
+   "motivo": "Ajuste al texto vigente (finalidad reformulada por la Ley 21.600)."
+  },
+  {
+   "id": "ley-19300",
+   "art": "34",
+   "campo": "habilita",
+   "valor": null,
+   "motivo": "El artículo no ordena dictar ningún reglamento ni norma; solo asigna la administración del SNAP al SBAP (la remisión a la Ley 21.600 ya está en 'relaciones')."
+  },
+  {
+   "id": "ley-19300",
+   "art": "37",
+   "campo": "habilita",
+   "valor": "Reglamento del MMA que fija el procedimiento de clasificación de especies según estado de conservación (DS 29/2011 MMA) y decretos de cada proceso de clasificación. Los planes de recuperación, conservación y gestión de especies se rigen hoy por la Ley 21.600, no por un reglamento ordenado en este artículo.",
+   "motivo": "El texto vigente solo ordena el reglamento de clasificación; los planes RECOGE quedaron remitidos a la ley del SBAP."
+  },
+  {
+   "id": "ley-19300",
+   "art": "40",
+   "campo": "resumen",
+   "valor": "Las normas de emisión se establecen por decreto supremo firmado por el Ministro del Medio Ambiente y el ministro sectorial, con indicación de su ámbito territorial. El MMA propone y coordina su dictación siguiendo las etapas del art. 32 y puede usar las mejores técnicas disponibles como criterio para fijar los valores exigibles. La Ley 21.455 agregó el derecho de cualquier persona a solicitar fundadamente normas de emisión para fuentes no reguladas, con respuesta del MMA en 30 días.",
+   "motivo": "Error de fondo: el resumen atribuía a la Ley 21.455 las mejores técnicas disponibles y una 'revisión periódica'. El art. 40 no establece revisión periódica y las MTD vienen de la Ley 20.417; la Ley 21.455 (art. 46 N° 6) solo agregó el inciso final sobre solicitud ciudadana."
+  },
+  {
+   "id": "ley-19300",
+   "art": "43",
+   "campo": "resumen",
+   "valor": "La zona latente o saturada se declara por decreto supremo del MMA (con firma de Salud o del ministro sectorial según la norma), que precisa el área geográfica y se funda en mediciones realizadas o certificadas por organismos públicos; el procedimiento lo lleva la SEREMI del Medio Ambiente, o el Ministerio si abarca varias regiones. Se deja sin efecto del mismo modo, pudiendo mantenerse hasta por dos años ciertas restricciones del plan de descontaminación para permitir dictar el plan de prevención. La Ley 21.562 agrega contenidos mínimos del decreto (fuentes emisoras, datos demográficos, grupos y ecosistemas vulnerables) y nuevas reglas de mantención de medidas, pero esos incisos tienen vigencia diferida y no figuran aún en el texto BCN.",
+   "motivo": "Se distingue el texto vigente (versión BCN 17-10-2026, artículo con versión 2010) de los incisos de la Ley 21.562 aún no incorporados."
+  },
+  {
+   "id": "ley-19300",
+   "art": "43",
+   "campo": "habilita",
+   "valor": "Decretos supremos que declaran o dejan sin efecto zonas latentes o saturadas. El inciso que agregará la Ley 21.562 (vigencia diferida) remite a un reglamento el procedimiento de mantención, revisión y extinción de medidas.",
+   "motivo": "El texto vigente del art. 43 no menciona reglamento; el mandato reglamentario está en el inciso diferido de la Ley 21.562."
+  },
+  {
+   "id": "ley-19300",
+   "art": "44",
+   "campo": "resumen",
+   "valor": "Los planes de prevención y de descontaminación se establecen por decreto supremo del MMA con firma del ministro sectorial y son obligatorios en las zonas latentes o saturadas. Los elabora el MMA con el procedimiento del art. 32, en un plazo máximo de cuatro años desde el decreto que declara la zona (Ley 21.455). La Ley 21.562 añadió su revisión al menos cada cinco años y una multa disciplinaria de media remuneración mensual para la jefatura que incumpla los plazos, que se duplica con suspensión de cinco días si persiste.",
+   "motivo": "Faltaba el plazo máximo de cuatro años (Ley 21.455, art. 46 N° 7) y el detalle de la sanción."
+  },
+  {
+   "id": "ley-19300",
+   "art": "45",
+   "campo": "resumen",
+   "valor": "Contenido mínimo de los planes: relación entre emisiones totales y niveles de contaminantes, plazo de reducción, responsables, autoridades fiscalizadoras, instrumentos de gestión, proporción de reducción (igual para todas las actividades emisoras), costos económicos y sociales y, cuando sea posible, mecanismos de compensación. Las actividades contaminantes de la zona quedan obligadas a reducir sus emisiones en el plazo fijado. La Ley 21.455 agregó que los planes de prevención deben prever medidas que operen si la zona pasa a saturada.",
+   "motivo": "Se incorpora el inciso 2° (obligación de reducir emisiones) y se precisa lo agregado por la Ley 21.455."
+  },
+  {
+   "id": "ley-19300",
+   "art": "45",
+   "campo": "obliga_titular",
+   "valor": true,
+   "motivo": "El inciso 2° obliga directamente a las actividades contaminantes ubicadas en zonas con plan a reducir sus emisiones."
+  },
+  {
+   "id": "ley-19300",
+   "art": "48 ter",
+   "campo": "resumen",
+   "valor": "El MMA otorga certificados, rótulos o etiquetas respecto de tecnologías, procesos, productos, servicios o actividades que cumplan criterios de sustentabilidad, sean voluntariamente solicitados u obligatoriamente requeridos (esto último desde la Ley 21.368). El solicitante debe acompañar un informe favorable de una entidad autorizada por la SMA, que fiscaliza y puede sancionar incluso con la revocación; la falsificación o uso malicioso se castiga conforme al Código Penal. Incorporado por la Ley 20.920.",
+   "motivo": "Error de fondo: el resumen los describía como 'voluntarios' y decía 'otorgar o reconocer'; el texto vigente incluye los obligatoriamente requeridos y solo habla de otorgar."
+  },
+  {
+   "id": "ley-19300",
+   "art": "64",
+   "campo": "habilita",
+   "valor": null,
+   "motivo": "El artículo no ordena dictar norma alguna; se limita a remitir a la ley (LOSMA), relación que ya consta en 'relaciones'."
+  },
+  {
+   "id": "ley-19300",
+   "art": "68",
+   "campo": "resumen",
+   "valor": "El Fondo se integra con herencias, legados y donaciones (la Ley 21.455 sujetó las donaciones al art. 4° de la Ley 19.896 y les extendió los beneficios tributarios del art. 37 del DL 1.939), recursos de la Ley de Presupuestos, recursos asignados por otras leyes y cualquier otro aporte público o privado, nacional o extranjero.",
+   "motivo": "Error: la Ley 21.455 (art. 46 N° 9) modificó la letra a) sobre donaciones, no la letra de recursos asignados por otras leyes."
+  },
+  {
+   "id": "ley-19300",
+   "art": "70",
+   "campo": "resumen",
+   "valor": "Enumera las atribuciones del Ministerio (letras a a z): políticas ambientales, supervigilancia del Sistema Nacional de Áreas Protegidas, convenciones internacionales, residuos y suelos contaminados, cambio climático, recursos hídricos y biodiversidad, coordinación de normas y planes e interpretación administrativa de ellos, informes del estado del medio ambiente, RETC, información pública, EAE, certificación (t bis), educación y participación. La Ley 21.600 reemplazó las letras b) y j), derogó la c) y ajustó la i).",
+   "motivo": "Se agrega el ajuste de la letra i) (verificado comparando versiones BCN 29-05-2023 y 06-09-2023)."
+  },
+  {
+   "id": "ley-19300",
+   "art": "78",
+   "campo": "habilita",
+   "valor": "Reglamento de funcionamiento de los Consejos Consultivos Regionales (inciso 2°).",
+   "motivo": "Mandato reglamentario expreso; faltaba 'habilita'."
+  },
+  {
+   "id": "ley-19300",
+   "art": "86",
+   "campo": "resumen",
+   "valor": "Los proyectos se califican por una Comisión presidida por la autoridad regional (el texto dice Intendente) e integrada por los SEREMI del Medio Ambiente, Salud, Economía, Energía, Obras Públicas, Agricultura, Vivienda y Urbanismo, Transportes y Telecomunicaciones, Minería y Planificación, con el Director Regional del SEA como secretario. Un comité técnico, presidido por el SEREMI del Medio Ambiente e integrado por los directores regionales de servicios con competencia ambiental, el Gobernador Marítimo y el Consejo de Monumentos Nacionales, elabora un acta de evaluación de libre acceso.",
+   "motivo": "Se detalla la integración según el texto oficial."
+  },
+  {
+   "id": "ley-19300",
+   "art": "86",
+   "campo": "habilita",
+   "valor": null,
+   "motivo": "El artículo crea un órgano (Comisión de Evaluación); no ordena ni permite dictar reglamento o norma."
+  },
+  {
+   "id": "ley-19300",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Articulado completo contrastado con el XML oficial BCN idNorma 30667, versión 17-10-2026."
+  },
+  {
+   "id": "ley-19300",
+   "campo": "notas_verificacion",
+   "valor": "Articulado contrastado artículo por artículo con el texto oficial BCN (idNorma 30667, versión 17-10-2026, que ya incorpora la Ley 21.850): 120 artículos permanentes (8 derogados: 17, 23, 56 a 59, 61 y 62) y 7 transitorios. Las modificaciones de la Ley 21.562 a los arts. 11, 16, 43 y 46 siguen sin incorporarse al texto BCN (vigencia sujeta a la publicación de reglamentos). El reemplazo de la letra c) del art. 10 por la Ley 21.850 rige desde la publicación del nuevo Reglamento del SEIA; el texto vigente mantiene 'mayores a 3 MW'. El XML vigente trae truncado el art. 71 (se leyó completo en la versión 06-09-2023, sin cambios posteriores). Los decretos citados en 'habilita' (DS 40/2012, DS 32/2015, DS 6/2024, DS 29/2011, DS 31/2012, DS 39/2012, DS 1/2013) no se verificaron en esta auditoría.",
+   "motivo": "Reemplaza la nota anterior, que declaraba no haber leído el texto BCN."
+  },
+  {
+   "id": "ley-19300",
+   "campo": "fuentes_consultadas",
+   "valor": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=30667",
+    "https://geo.cepal.org/kbtx/auxwim84jdna7n95PoDqhG/Chile-19300.pdf",
+    "https://iura.cl/19300/",
+    "https://iura.cl/19300/2",
+    "https://iura.cl/19300/10",
+    "https://iura.cl/19300/11",
+    "https://iura.cl/19300/70",
+    "https://www.interior.gob.cl/transparencia/doc/VinculosInstitucionales/600/9908.pdf",
+    "https://www.interior.gob.cl/transparencia/doc/VinculosInstitucionales/600/10317.pdf",
+    "https://www.interior.gob.cl/transparenciaactiva/doc/VinculosInstitucionales/600/10916.pdf",
+    "https://www.ecolex.org/details/legislation/ley-no-19300-ley-sobre-bases-generales-del-medio-ambiente-lex-faoc004873/",
+    "https://www.prieto.cl/ley-n21-850-para-la-reconstruccion-nacional-y-el-desarrollo-economico-y-social-principales-modificaciones-en-materia-ambiental/",
+    "https://www.diariooficial.interior.gob.cl/publicaciones/2023/05/29/43563/01/2322073.pdf",
+    "https://www.diariooficial.interior.gob.cl/publicaciones/2024/04/10/43822/01/2477657.pdf",
+    "https://faolex.fao.org/docs/pdf/chi223563.pdf"
+   ],
+   "motivo": "Se antepone la fuente oficial efectivamente consultada (XML BCN); el resto de la lista se conserva."
+  },
+  {
+   "id": "ley-19372",
+   "campo": "id_norma_bcn",
+   "valor": 30739,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-19372",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=30739",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-19372",
+   "campo": "titulo_oficial",
+   "valor": "Modifica artículo 71 de la Ley N° 19.300, sobre Bases Generales del Medio Ambiente",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-19372",
+   "campo": "organismo",
+   "valor": "Ministerio Secretaría General de la Presidencia",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "id_norma_bcn",
+   "valor": 259412,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=259412",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "titulo_oficial",
+   "valor": "Crea el cargo de Presidente de la Comisión Nacional del Medio Ambiente y le confiere rango de Ministro de Estado",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "organismo",
+   "valor": "Ministerio Secretaría General de la Presidencia",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "id_norma_bcn",
+   "valor": 1133780,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1133780",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "titulo_oficial",
+   "valor": "Modifica la Ley N° 19.300, que aprueba Ley sobre Bases Generales del Medio Ambiente, para exigir la elaboración de un Estudio de Impacto Ambiental en los proyectos que puedan generar contaminación lumínica en las zonas que indica",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21162",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "id_norma_bcn",
+   "valor": 1141461,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1141461",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "id_norma_bcn",
+   "valor": 1176903,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1176903",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "titulo_oficial",
+   "valor": "Modifica el artículo 30 bis de la Ley N° 19.300, sobre Bases Generales del Medio Ambiente, en lo relativo a Declaración de Impacto Ambiental",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "id_norma_bcn",
+   "valor": 1177286,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1177286",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21455",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21660",
+   "campo": "id_norma_bcn",
+   "valor": 1202472,
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21660",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1202472",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21660",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Verificado en XML BCN."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "titulo_oficial",
+   "valor": "Para la Reconstrucción Nacional y el Desarrollo Económico y Social",
+   "motivo": "Título según ficha BCN idNorma 1229250."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "organismo",
+   "valor": "Ministerio de Hacienda",
+   "motivo": "Organismo según ficha BCN."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Art. 11 (nueve numerales), arts. 14 y 15 y art. 13° transitorio leídos en el XML BCN; coinciden con lo registrado."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "notas_verificacion",
+   "valor": "Texto oficial leído en BCN (idNorma 1229250, versión 17-10-2026). Art. 11 modifica en la Ley 19.300 los arts. 10 (letra c e inciso final), 18 quáter, 19, 20, 24 bis (nuevo), 25 septies (nuevo), 29, 30 bis y 81 a). Vigencia general: primer día del mes siguiente a la publicación (art. 9° transitorio), salvo la letra c) del art. 10, que rige al publicarse el nuevo RSEIA (art. 13° transitorio). El texto publicado conserva los arts. 12 y 13 sobre pago y reclamación de la indemnización por anulación de RCA, con remisiones a un artículo que no figura; la declaración de inconstitucionalidad del TC y el oficio de Contraloría no se verificaron en esta auditoría.",
+   "motivo": "Reemplaza la nota que declaraba no haber leído el texto oficial."
+  },
+  {
+   "id": "ley-20473",
+   "campo": "organismo",
+   "valor": "Ministerio del Medio Ambiente",
+   "motivo": "Organismo según ficha BCN idNorma 1019312."
+  },
+  {
+   "id": "ley-20473",
+   "art": "único",
+   "campo": "resumen",
+   "valor": "Mientras no entraran en funciones la SMA y los Tribunales Ambientales, los órganos sectoriales que participan en el SEIA fiscalizan el cumplimiento de las RCA y, ante incumplimientos, piden a la Comisión del art. 86 o al Director Ejecutivo del SEA amonestar, multar hasta 500 UTM o revocar la aprobación; lo resuelto es reclamable ante el juez de letras en lo civil dentro de diez días. No altera el texto de la Ley 19.300.",
+   "motivo": "El resumen atribuía la fiscalización a la Comisión; según el texto, fiscalizan los órganos sectoriales y la Comisión o el Director Ejecutivo sancionan."
+  },
+  {
+   "id": "ley-21162",
+   "art": "1",
+   "campo": "resumen",
+   "valor": "Dos cambios a la Ley 19.300: agrega la 'luminosidad artificial' a la definición de contaminante (art. 2 letra d) e incorpora en la letra d) del art. 11 las áreas con valor para la observación astronómica con fines de investigación científica como causal de EIA.",
+   "motivo": "El resumen citaba letras d/e del art. 2 y d/e/f del art. 11; el texto solo modifica la letra d) de cada artículo."
+  },
+  {
+   "id": "ley-21449",
+   "art": "único",
+   "campo": "resumen",
+   "valor": "Sustituye en el inciso primero del art. 30 bis el plazo de 10 por 30 días para solicitar la apertura de participación ciudadana en las Declaraciones de Impacto Ambiental.",
+   "motivo": "Número de días e inciso verificados en el texto oficial."
+  },
+  {
+   "id": "ley-21449",
+   "art": "único",
+   "campo": "obliga_titular",
+   "valor": false,
+   "motivo": "La norma amplía un plazo en favor de la ciudadanía; no impone una obligación directa al titular."
+  },
+  {
+   "id": "ley-21455",
+   "art": "46",
+   "campo": "resumen",
+   "valor": "Diecisiete numerales: reemplaza la letra g) del art. 2; modifica los arts. 7 bis, 12 d), 32, 40, 44, 45, 68 a), 71, 72, 73, 76, 77 y 78; agrega el Párrafo 1° ter con el art. 7 quinquies y cambia la denominación de los Párrafos 2° y 4° del Título Final.",
+   "motivo": "El resumen incluía la letra h) del art. 2 (no modificada) y omitía los arts. 12 y 44."
+  },
+  {
+   "id": "ley-20173",
+   "art": "1",
+   "campo": "resumen",
+   "valor": "Modifica los arts. 69, 70, 71, 72, 75, 76, 80 y 88, sustituye el art. 73 e intercala un nuevo Párrafo 3° con los arts. 74 bis y 74 ter sobre el Presidente de la Comisión.",
+   "motivo": "Faltaba el art. 73 (N° 5 del artículo 1°)."
+  },
+  {
+   "id": "ley-20417",
+   "art": "primero",
+   "campo": "resumen",
+   "valor": "Sus 63 numerales modifican la mayor parte de la ley: definiciones (art. 2) y art. 4; nuevo Párrafo 1° bis de EAE (7 bis a 7 quáter); SEIA (arts. 8 a 25 sexies); participación (26 a 31); nuevo Párrafo 3° bis de acceso a la información (31 bis a 31 quáter); normas, áreas protegidas y planes (32 a 38, 40 a 44, 46 y 48 bis); reclamo (50); daño ambiental (53 y 60); fiscalización y Fondo (64 a 67) y nuevo Título Final (69 a 88). Deroga los arts. 17, 23, 56 a 59, 61 y 62.",
+   "motivo": "Rango de artículos ajustado a los numerales del artículo primero y a la comparación de versiones BCN 2008/2010."
+  },
+  {
+   "id": "__raiz__",
+   "campo": "leyes_modificatorias_verificadas",
+   "valor": [
+    "19.372 (1995)",
+    "20.173 (2007)",
+    "20.283 (2008)",
+    "20.417 (2010)",
+    "20.920 (2016)",
+    "21.162 (2019)",
+    "21.202 (2020)",
+    "21.368 (2021)",
+    "21.449 (2022)",
+    "21.455 (2022)",
+    "21.562 (2023)",
+    "21.600 (2023)",
+    "21.660 (2024)",
+    "21.850 (2026)"
+   ],
+   "motivo": "Lista confirmada leyendo cada ley modificatoria y comparando 18 versiones históricas BCN de la Ley 19.300. Se agrega la Ley 20.283 (art. 63, modificó el art. 35) y se retira la Ley 20.473, que no altera el texto."
+  },
+  {
+   "id": "__raiz__",
+   "campo": "leyes_listadas_sin_modificacion_directa_verificada",
+   "valor": [
+    "20.473 (2010)",
+    "21.595 (2023)",
+    "21.770 (2025)"
+   ],
+   "motivo": "Ninguna de las tres contiene instrucciones de modificación del texto de la Ley 19.300 (verificado en sus XML BCN)."
+  }
+ ],
+ "art_eliminar": [
+  {
+   "id": "ley-19300",
+   "art": "89 a 92",
+   "motivo": "No existen en el texto vigente: el XML BCN termina en el art. 88 (el antiguo Título Final fue sustituido por la Ley 20.417). No es un artículo, sino un rango inexistente."
+  },
+  {
+   "id": "ley-19300",
+   "art": "1° a 7° transitorios",
+   "motivo": "Entrada agrupada sin número exacto; se reemplaza por los siete artículos transitorios individuales."
+  }
+ ],
+ "art_agregar": [
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "1 transitorio",
+    "epigrafe": "Vigencia del SEIA",
+    "resumen": "El SEIA del Párrafo 2° del Título II comenzó a regir al publicarse en el Diario Oficial el reglamento del art. 13.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "SEIA"
+   }
+  },
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "2 transitorio",
+    "epigrafe": "Constitución de las COREMA",
+    "resumen": "Fijó plazos de 1994 para constituir las Comisiones Regionales del Medio Ambiente (180 días; dos años en la Región Metropolitana) y asignó entretanto sus funciones a la CONAMA y a la Comisión Especial de Descontaminación.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "otros"
+   }
+  },
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "3 transitorio",
+    "epigrafe": "Estudio sobre permisos transables",
+    "resumen": "Encargó a la CONAMA presentar, dentro de un año, el estudio técnico para el proyecto de ley de permisos de emisión transables del art. 48.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "planes"
+   }
+  },
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "4 transitorio",
+    "epigrafe": "Financiamiento 1994",
+    "resumen": "Regla presupuestaria sobre el mayor gasto fiscal de 1994 y la creación del capítulo presupuestario de la CONAMA.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "otros"
+   }
+  },
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "5 transitorio",
+    "epigrafe": "Dotación 1994",
+    "resumen": "Fijó en 90 cargos la dotación máxima de la CONAMA durante 1994 y la eximió de una limitación del Estatuto Administrativo.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "otros"
+   }
+  },
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "6 transitorio",
+    "epigrafe": "Vigencia diferida del art. 3",
+    "resumen": "La obligación de reparar del art. 3 se aplica desde los noventa días siguientes a la publicación de la ley.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "responsabilidad-dano"
+   }
+  },
+  {
+   "id": "ley-19300",
+   "articulo": {
+    "num": "7 transitorio",
+    "epigrafe": "Sucesión legal de la CONAMA",
+    "resumen": "Declaró a la CONAMA continuadora legal de los bienes, derechos y obligaciones de la comisión creada por el DS 240/1990 de Bienes Nacionales.",
+    "obliga_titular": false,
+    "titulo": "Artículos transitorios",
+    "instrumento": "otros"
+   }
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ley-20173",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se reemplaza por relación con art_destino corregido (faltaba el art. 73)."
+  },
+  {
+   "id": "ley-20417",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se reemplaza: el rango '32–46' y '64–88' incluía artículos que la ley no tocó (39, 45, 47, 48, 49, 68)."
+  },
+  {
+   "id": "ley-21162",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se reemplazan las dos relaciones por otras con letras exactas (art. 2 d y art. 11 d)."
+  },
+  {
+   "id": "ley-21449",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se reemplaza: la modificación recae en el inciso primero del art. 30 bis, no en el segundo."
+  },
+  {
+   "id": "ley-21455",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se reemplaza: no modifica la letra h) del art. 2 y sí modifica los arts. 12 y 44."
+  }
+ ],
+ "rel_agregar": [
+  {
+   "id": "ley-20173",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "1",
+    "art_destino": "69, 70, 71, 72, 73, 74 bis, 74 ter, 75, 76, 80, 88",
+    "nota": "Texto del antiguo Título Final (CONAMA), sustituido en 2010 por la Ley 20.417."
+   }
+  },
+  {
+   "id": "ley-20417",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "primero",
+    "art_destino": "2, 4, 7 bis–7 quáter, 8–31 quáter, 32–38, 40–44, 46, 48 bis, 50, 53, 60, 64–67, 69–88",
+    "nota": "Reforma integral en 63 numerales; deroga arts. 17, 23, 56–59, 61 y 62 y sustituye el Título Final."
+   }
+  },
+  {
+   "id": "ley-21162",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "1 a)",
+    "art_destino": "2 d)",
+    "nota": "Agrega la luminosidad artificial a la definición de contaminante."
+   }
+  },
+  {
+   "id": "ley-21162",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "1 b)",
+    "art_destino": "11 d)",
+    "nota": "Suma las áreas con valor para la observación astronómica como causal de EIA."
+   }
+  },
+  {
+   "id": "ley-21449",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "único",
+    "art_destino": "30 bis inc. 1°",
+    "nota": "Amplía de 10 a 30 días el plazo para solicitar participación ciudadana en DIA."
+   }
+  },
+  {
+   "id": "ley-21455",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "46",
+    "art_destino": "2 g), 7 bis, 7 quinquies, 12 d), 32, 40, 44, 45, 68 a), 71, 72, 73, 76, 77, 78",
+    "nota": "Art. 46 N° 1 a 17; además renombra los Párrafos 2° y 4° del Título Final."
+   }
+  },
+  {
+   "id": "ley-20283",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "63",
+    "art_destino": "35 inc. 2°",
+    "nota": "En 2008 radicó en CONAF la supervisión de las áreas silvestres protegidas privadas; texto reemplazado después por las Leyes 20.417 y 21.600."
+   }
+  },
+  {
+   "id": "ley-21595",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ley-19300",
+    "art_origen": "3 N° 4",
+    "art_destino": "48 ter",
+    "nota": "Incluye el art. 48 ter entre los delitos económicos de tercera categoría; no modifica el texto de la Ley 19.300."
+   }
+  },
+  {
+   "id": "ley-19300",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ley-19880",
+    "art_origen": "20, 24 bis, 81 a)",
+    "art_destino": "21, 38, 53, 59, 62",
+    "nota": "Calidad de interesado, valor de los informes y exclusión de invalidación y recurso jerárquico contra la RCA (Ley 21.850)."
+   }
+  }
+ ]
+}

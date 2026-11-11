@@ -1,0 +1,30 @@
+{
+ "norma": [
+  {
+   "id": "ds-14-2024-mma",
+   "campo": "etapas_sustento",
+   "valor": {
+    "evaluacion": "Desde su entrada en vigencia (2027-2028; hoy rige el DS 38/2011). arts. 13 y 31: usa el ruido de fondo fijado en la evaluación y se adelanta para proyectos que ingresen al SEIA",
+    "construccion": "Desde su entrada en vigencia (2027-2028; hoy rige el DS 38/2011). art. 3: las faenas constructivas son fuente fija regulada",
+    "operacion": "Desde su entrada en vigencia (2027-2028; hoy rige el DS 38/2011). arts. 6, 11 y 24: límites urbanos y rurales y control de la SMA"
+   }
+  },
+  {
+   "id": "ley-19880",
+   "campo": "etapas_sustento",
+   "valor": {
+    "evaluacion": "arts. 53 y 59: la invalidación y los recursos administrativos generales rigen supletoriamente, salvo contra la RCA en las materias del recurso especial del art. 20 de la Ley 19.300."
+   }
+  },
+  {
+   "id": "ley-21202",
+   "campo": "etapas_sustento",
+   "valor": {
+    "diseno": "art. 4: incorpora al art. 10 de la Ley 19.300 las obras que alteren humedales dentro del límite urbano (letra s) y los humedales urbanos como área protegida (letra p)."
+   }
+  }
+ ],
+ "organismos_normalizar": {
+  "SUBPESCA": "Subsecretaría de Pesca y Acuicultura"
+ }
+}

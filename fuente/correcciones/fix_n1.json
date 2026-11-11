@@ -1,0 +1,361 @@
+{
+ "norma": [
+  {
+   "id": "ley-21562",
+   "campo": "aviso",
+   "valor": "Vigencia parcial. Solo rigen desde el 29-05-2023 los cambios a los arts. 2 (definiciones), 43 bis (medidas provisionales) y 44 (revisión de planes) de la Ley 19.300. El EIA obligatorio, el rechazo por impacto crítico, los contenidos del decreto de zona y la compensación de emisiones (arts. 11, 16, 43 y 46) empezarán a regir cuando se publiquen las modificaciones reglamentarias que ordena su art. primero transitorio; el texto vigente de la Ley 19.300 en BCN todavía no los contiene.",
+   "motivo": "GRAVE. Arts. segundo y tercero transitorios de la Ley 21.562; los arts. 11 y 46 vigentes de la Ley 19.300 (XML BCN, versión 17-10-2026) no contienen los incisos nuevos. La ficha no tenía aviso y describía esas reglas en presente."
+  },
+  {
+   "id": "ley-21562",
+   "campo": "resumen",
+   "valor": "Reforma la Ley 19.300 para endurecer la evaluación en zonas declaradas latentes o saturadas: define impacto crítico, plan de prevención y plan de descontaminación, habilita medidas provisionales del Ministro y obliga a revisar los planes cada cinco años (reglas ya vigentes). Además prevé EIA obligatorio, rechazo de los estudios con impacto crítico y compensación de emisiones mientras no exista plan, pero esa parte aún no rige: depende de la publicación de las modificaciones reglamentarias.",
+   "motivo": "GRAVE. El resumen presentaba como vigentes obligaciones con vigencia diferida (art. segundo transitorio)."
+  },
+  {
+   "id": "ley-21562",
+   "campo": "relevancia_titulares",
+   "valor": "Hoy solo alcanzan al titular las medidas provisionales que el Ministro puede dictar tras la declaración de zona y la revisión periódica de los planes. La exigencia de EIA por emisiones significativas, la compensación en el porcentaje del decreto de zona y el rechazo por impacto crítico todavía no son exigibles; conviene anticiparlas en proyectos de larga tramitación ubicados en zonas latentes o saturadas sin plan.",
+   "motivo": "GRAVE. Decía que los proyectos «deben ingresar por EIA, compensar emisiones» y «arriesgan rechazo»; el simulador (zona-saturada) y los arts. 11, 16 y 46 de la ficha de la Ley 19.300 dicen, correctamente, que eso aún no rige."
+  },
+  {
+   "id": "ley-17288",
+   "campo": "resumen",
+   "valor": "Protege los monumentos históricos, públicos y arqueológicos (estos últimos por el solo ministerio de la ley) y las zonas típicas, bajo la tuición del Consejo de Monumentos Nacionales. Mantiene además, de forma transitoria, la categoría de santuario de la naturaleza (art. 31): su custodia corresponde al Ministerio del Medio Ambiente y las intervenciones requieren autorización previa del Servicio de Biodiversidad y Áreas Protegidas, hasta que concluya la reclasificación ordenada por la Ley 21.600.",
+   "motivo": "MEDIA. El art. 31 vigente radica la custodia en el MMA y la autorización en «el Servicio»; el resumen ponía los santuarios bajo tuición del CMN, en contradicción con el PAS 120 (organismo SBAP) y con el simulador."
+  },
+  {
+   "id": "ds-14-2024-mma",
+   "campo": "aviso",
+   "valor": "Publicado el 27-02-2026 con vigencia diferida: rige desde el 27-08-2028, o desde el 27-08-2027 para los proyectos que ingresen al SEIA a contar del 27-02-2026. Hasta entonces sigue aplicándose el DS 38/2011.",
+   "motivo": "LEVE. El art. 31 dice «a contar de la fecha de dicha publicación»; el aviso decía «después de su publicación», distinto de la fórmula usada en el aviso del DS 38/2011, en el art. 31 de la ficha y en el simulador."
+  },
+  {
+   "id": "ley-21744",
+   "campo": "organismos_competentes",
+   "valor": [
+    "CONAF",
+    "Servicio Nacional Forestal (sin fecha de funcionamiento verificada)",
+    "Ministerio de Agricultura",
+    "SENAPRED",
+    "SBAP"
+   ],
+   "motivo": "MEDIA. El art. segundo transitorio letra c) deja la fecha de funcionamiento del Servicio a un DFL no hallado en BCN; mientras tanto actúa la Corporación."
+  },
+  {
+   "id": "ley-21744",
+   "campo": "relevancia_titulares",
+   "valor": "Las autorizaciones forestales (planes de manejo, PAS 127 a 129 y 148 a 153) pasarán a un servicio público con potestades propias cuando este entre en funcionamiento; hasta entonces las sigue resolviendo CONAF. Los planes reguladores deberán reconocer áreas de riesgo.",
+   "motivo": "MEDIA. Alinea la ficha con su propio aviso, con la tabla de permisos (CONAF) y con los motivos del simulador."
+  },
+  {
+   "id": "ley-19880",
+   "campo": "relevancia_titulares",
+   "valor": "Define cómo se cuentan los plazos, cómo se notifican los actos y qué recursos proceden cuando la ley ambiental calla. Desde noviembre de 2026 la Administración solo puede invalidar un acto dentro de un año; respecto de la RCA, la Ley 19.300 excluye la invalidación y los demás recursos administrativos en las materias conocidas mediante el recurso especial de su art. 20 y contra la resolución que lo falla.",
+   "motivo": "LEVE. Los arts. 20 letra e) y 24 bis de la Ley 19.300 no excluyen la invalidación de la RCA en términos absolutos, sino por las mismas materias conocidas en el recurso especial y contra la resolución que lo resuelve."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "relevancia_titulares",
+   "valor": "Desde el 01-11-2026 el recurso especial del art. 20 es paso obligatorio previo al Tribunal Ambiental (20 días para reclamar de lo resuelto); la invalidación y los demás recursos administrativos quedan cerrados para las materias conocidas en ese recurso; existe una vía voluntaria con adendas acotadas y solo las modificaciones sustantivas de proyectos con RCA se reevalúan.",
+   "motivo": "LEVE. Misma precisión que en la Ley 19.880 (arts. 20 letra e) y 24 bis)."
+  },
+  {
+   "id": "ley-11402",
+   "campo": "categoria",
+   "valor": "agua",
+   "motivo": "LEVE. Regula defensas fluviales y extracción de áridos en cauces (base del PAS 159); figura en territorio-patrimonio."
+  },
+  {
+   "id": "ley-21744",
+   "campo": "categoria",
+   "valor": "bosques-suelo",
+   "motivo": "LEVE. Ley orgánica de la autoridad forestal; el resto de la normativa forestal está en bosques-suelo."
+  },
+  {
+   "id": "ds-146-1997-minsegpres",
+   "campo": "aviso",
+   "valor": "Derogado desde el 13-06-2014, al entrar en vigencia el DS 38/2011 del MMA, que es la norma de ruido aplicable hoy.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-59-1998-minsegpres",
+   "campo": "aviso",
+   "valor": "Derogado desde el 04-06-2022 por el DS 12/2021 del MMA, norma primaria de MP10 vigente.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-136-2000-minsegpres",
+   "campo": "aviso",
+   "valor": "Derogado desde el 10-06-2026 por el DS 43/2025 del MMA, norma primaria de plomo vigente.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-113-2002-minsegpres",
+   "campo": "aviso",
+   "valor": "Derogado desde el 16-05-2019 por el DS 104/2018 del MMA, norma primaria de SO2 vigente.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-114-2002-minsegpres",
+   "campo": "aviso",
+   "valor": "Derogado desde el 23-09-2024 por el DS 40/2023 del MMA, norma primaria de NO2 vigente.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-37-2012-mma",
+   "campo": "aviso",
+   "valor": "Derogado desde el 02-06-2026 por el DS 50/2024 del MMA, norma de olores (TRS) de celulosa kraft vigente.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-43-2012-mma",
+   "campo": "aviso",
+   "valor": "Derogado desde el 19-10-2024 por el DS 1/2022 del MMA, norma lumínica vigente.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-20-2013-mma",
+   "campo": "aviso",
+   "valor": "Norma anulada por el Segundo Tribunal Ambiental (sentencia publicada en el Diario Oficial el 17-10-2015). La norma primaria de MP10 vigente es el DS 12/2021 del MMA.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  },
+  {
+   "id": "ds-8-2015-mma",
+   "campo": "aviso",
+   "valor": "Derogado desde el 07-03-2025 por el DS 8/2023 del MMA, plan vigente de Temuco y Padre Las Casas.",
+   "motivo": "MEDIA (coherencia). Norma no vigente sin aviso, a diferencia de las otras siete no vigentes. Fecha de derogación según la ficha BCN (FechaDerogacion del XML) y norma sucesora según la relación «reemplaza» del propio visor."
+  }
+ ],
+ "articulo": [
+  {
+   "id": "ds-40-2012-mma",
+   "art": "77",
+   "campo": "resumen",
+   "valor": "Texto reglamentario no adecuado a la Ley 21.850: limita la reclamación al titular y a las resoluciones que rechazan o imponen condiciones, dentro de treinta días, ante el Director Ejecutivo (Declaración) o el Comité de Ministros (Estudio), con admisión en cinco días y fallo en plazo fatal de treinta o sesenta días. Desde el 01-11-2026 prevalece el art. 20 de la Ley 19.300: el recurso especial también procede contra la RCA favorable y pueden interponerlo, además del titular, los observantes de la participación ciudadana y los interesados.",
+   "motivo": "GRAVE. Contradice el art. 20 vigente de la Ley 19.300 (quién reclama y contra qué resolución) sin advertencia en el artículo; el aviso general de la ficha no basta para quien lee solo el artículo."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "79",
+   "campo": "resumen",
+   "valor": "Texto reglamentario no adecuado a la Ley 21.850: ordena al Comité de Ministros pedir siempre informe a los organismos sectoriales en reclamaciones de Estudios y lo deja facultativo para el Director Ejecutivo en las de Declaraciones; la interposición se rige por el art. 57 de la Ley 19.880. El art. 20 letra c) vigente de la Ley 19.300 hace excepcional esa solicitud de informes en ambos casos, y esa regla legal prevalece.",
+   "motivo": "GRAVE. El art. 20 letra c) de la Ley 19.300 dice «excepcionalmente... podrá solicitar informe»; el resumen daba por obligatoria la consulta a los servicios."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "81",
+   "campo": "resumen",
+   "valor": "Vencido el plazo de los informes, la reclamación se resuelve dentro del remanente de los sesenta o treinta días, sobre el mérito del expediente, lo aportado por el reclamante y los informes recibidos, y la decisión se notifica a reclamante, titular y comunidad. El reglamento aún indica treinta días para acudir al Tribunal Ambiental, pero desde el 01-11-2026 rige el plazo de veinte días del art. 20 letra e) de la Ley 19.300, y la reclamación judicial solo puede fundarse en lo alegado en el recurso administrativo.",
+   "motivo": "GRAVE. Plazo contradictorio: 30 días en este artículo frente a 20 días en el art. 20 de la Ley 19.300, en la Ley 21.850 y en las novedades."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "121",
+   "campo": "resumen",
+   "valor": "Permiso para ejecutar labores mineras en parques nacionales, reservas nacionales o monumentos naturales, que el reglamento funda en el art. 17 N° 2 del Código de Minería. Ese numeral fue suprimido por el art. 154 de la Ley 21.600, de modo que el permiso carece hoy de base legal y de órgano otorgante, aunque el texto del reglamento no ha sido ajustado. Sus requisitos apuntaban a preservar los ecosistemas intervenidos.",
+   "motivo": "MEDIA. El artículo lo describía como permiso operativo; la ficha del Código de Minería, su aviso y la tabla de permisos (PAS 121) dicen que quedó sin base legal."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "120",
+   "campo": "resumen",
+   "valor": "Permiso para construir, excavar o desarrollar actividades que puedan alterar el estado natural de un Santuario de la Naturaleza, fundado en el inciso 3° del art. 31 de la Ley 17.288, que hoy radica la autorización en el Servicio de Biodiversidad y Áreas Protegidas. Exige preservar ese estado natural, identificando el santuario y la zona a intervenir, las obras o actividades, los componentes alterables, el tipo y duración de la alteración y las medidas de preservación. Su base legal subsiste hasta que termine la reclasificación de los santuarios (Ley 21.600, art. cuarto transitorio letra h).",
+   "motivo": "LEVE. Alinea el artículo con el PAS 120 y con el aviso de la Ley 17.288."
+  },
+  {
+   "id": "ley-20600",
+   "art": "17 N° 6",
+   "campo": "resumen",
+   "valor": "Conocen las reclamaciones contra lo que resuelvan el Comité de Ministros o el Director Ejecutivo en los recursos de los arts. 29 y 30 bis de la Ley 19.300, en relación con su art. 20 (numeral reemplazado por la Ley 21.850); es competente el tribunal del lugar donde se evaluó el proyecto.",
+   "motivo": "MEDIA. El numeral vigente no dice que ya no deba acreditarse la falta de consideración de las observaciones; los arts. 29 y 30 bis siguen exigiéndola y el art. 20 letra a) limita los fundamentos del observante."
+  },
+  {
+   "id": "ley-21770",
+   "art": "85",
+   "campo": "resumen",
+   "valor": "Modifica el Código de Aguas: reemplaza el art. 171 (aprobación de modificaciones de cauce, con plazos de 60 o 40 días hábiles para la DGA), agrega el art. 139 bis sobre obras con declaración jurada y dispone sustituir el art. 294 con nuevos umbrales para embalses. Rige desde el 29-09-2026, salvo los N° 18 y 19 (art. 294), que regirán el primer día del mes subsiguiente a la publicación de la modificación del DS 50/2015 del MOP, y el N° 23, sujeto a una resolución de la DGA. Afecta la base legal de los PAS 155, 156 y 157.",
+   "motivo": "MEDIA. Decía que todo el artículo, incluidos los nuevos umbrales del art. 294, rige al año de publicada la ley; el art. décimo noveno transitorio difiere los N° 18 y 19, como indican el PAS 155 y el simulador. El art. 294 vigente en BCN es el de la Ley 21.759."
+  },
+  {
+   "id": "ley-21202",
+   "art": "5",
+   "campo": "epigrafe",
+   "valor": "Modifica la LGUC (regla hoy ubicada en los arts. 60 bis y 64)",
+   "motivo": "LEVE. La ley modificó el art. 60; en el texto vigente de la LGUC el inciso sobre humedales urbanos está en el art. 60 bis (verificado en el XML), que es el que cita el simulador."
+  },
+  {
+   "id": "ley-21202",
+   "art": "5",
+   "campo": "resumen",
+   "valor": "Todo instrumento de planificación territorial debe incluir los humedales urbanos declarados por el MMA como área de protección de valor natural y fijar las normas para los permisos de urbanización o construcción en ellos; en áreas urbanas, los terrenos de humedales que sean bienes nacionales de uso público se usan conforme al plan regulador. En el texto vigente de la LGUC la primera regla figura en el art. 60 bis.",
+   "motivo": "LEVE. Coherencia con el art. 60 bis vigente de la LGUC y con el simulador (humedal)."
+  },
+  {
+   "id": "dfl-458-1975",
+   "art": "60",
+   "campo": "resumen",
+   "valor": "El plan regulador o seccional debe señalar los terrenos afectados por riesgos y cuáles no son edificables, además de las zonas o franjas de restricción por infraestructura o actividades peligrosas. Las reglas sobre inmuebles y zonas de conservación histórica y sobre humedales urbanos declarados, antes contenidas en este artículo, están hoy en el art. 60 bis.",
+   "motivo": "MEDIA. El simulador cita los arts. 60 bis y 64 (humedal, patrimonio, borde costero), que no existen en la ficha; mientras no se agreguen, este artículo debe remitir al 60 bis."
+  },
+  {
+   "id": "ley-19300",
+   "art": "24 bis",
+   "campo": "resumen",
+   "valor": "Agregado por la Ley 21.850: contra la RCA no proceden recursos administrativos ni mecanismos de revisión (como la invalidación) por las mismas materias que se hayan conocido mediante el recurso especial del art. 20; siempre cabe la aclaración o rectificación del art. 62 de la Ley 19.880.",
+   "motivo": "LEVE. El texto dice «por las mismas materias que se hubieren conocido», no «materias propias» del recurso."
+  },
+  {
+   "id": "ley-18248",
+   "art": "17",
+   "campo": "resumen",
+   "valor": "Exige permiso escrito de la autoridad que cada numeral indica para ejecutar labores mineras en ciudades, cementerios, playas de puertos y sitios de captación de agua, o a menos de 50 m de edificios, caminos, ferrocarriles, líneas de alta tensión, cursos de agua y lagos, y a menos de 200 m de embalses y antenas (N°1, gobernador); en zonas fronterizas (N°3, DIFROL); a menos de 500 m de depósitos de explosivos o inflamables (N°4, Defensa); en zonas y recintos militares y terrenos adyacentes declarados necesarios para la defensa (N°5, Defensa); y en covaderas o lugares declarados de interés histórico o científico (N°6, Presidente de la República). El N° 2, sobre parques nacionales, reservas nacionales y monumentos naturales, fue suprimido por el art. 154 de la Ley 21.600; por eso el PAS 121 quedó sin base legal.",
+   "motivo": "LEVE. Vincula el artículo con el aviso de la ficha y con el PAS 121."
+  },
+  {
+   "id": "dfl-1122-1981",
+   "art": "171",
+   "campo": "resumen",
+   "valor": "Quien quiera ejecutar las modificaciones de cauce del art. 41 debe someter el proyecto a aprobación previa de la DGA. En el texto fijado por la Ley 21.770 (vigente desde el 29-09-2026), las obras de regularización o defensa de cauces naturales requieren además la aprobación de la DOH, la DGA resuelve en 60 días hábiles (40 con informe de pre revisión) y recibe las obras terminadas; quedan exceptuados los servicios dependientes del MOP y ciertos proyectos públicos.",
+   "motivo": "LEVE. El resumen no reflejaba el reemplazo del artículo que anuncian los PAS 156 y 157 y el simulador."
+  }
+ ],
+ "articulo_agregar": [
+  {
+   "id": "ley-17288",
+   "art": "31",
+   "epigrafe": "Santuarios de la naturaleza",
+   "resumen": "Define los santuarios de la naturaleza, los deja bajo custodia del Ministerio del Medio Ambiente y prohíbe construir, excavar o realizar actividades que alteren su estado natural sin autorización previa del Servicio; la declaración exige informe del Consejo de Monumentos Nacionales y la infracción se multa con 50 a 500 UTM. Rige hasta que concluya la reclasificación de los santuarios (Ley 21.600, arts. 152 y cuarto transitorio letra h).",
+   "obliga_titular": true,
+   "motivo": "MEDIA. El aviso de la ficha, el PAS 120 y el simulador (area-protegida) citan el art. 31, pero la ficha no lo contiene. Clave adicional al formato: aplicar solo si el integrador admite altas."
+  },
+  {
+   "id": "dfl-458-1975",
+   "art": "60 bis",
+   "epigrafe": "Conservación histórica y humedales urbanos",
+   "resumen": "El plan regulador señala los inmuebles y zonas de conservación histórica, cuyos edificios no pueden demolerse ni refaccionarse sin autorización de la SEREMI. Todo instrumento de planificación debe incluir los humedales urbanos declarados por el MMA como área de protección de valor natural; si ya está vigente, debe iniciarse su enmienda dentro de treinta días desde la declaración.",
+   "obliga_titular": true,
+   "motivo": "MEDIA. Citado por el simulador (humedal y patrimonio) sin artículo en la ficha."
+  },
+  {
+   "id": "dfl-458-1975",
+   "art": "64",
+   "epigrafe": "Bienes nacionales de uso público en áreas urbanas",
+   "resumen": "En áreas urbanas, los terrenos de playa, riberas de mar, de humedales, de ríos y de lagos navegables que sean bienes nacionales de uso público se usan según el plan regulador; las concesiones sobre ellos requieren informe previo favorable de la Dirección de Obras Municipales.",
+   "obliga_titular": true,
+   "motivo": "MEDIA. Citado por el simulador (humedal y borde costero) sin artículo en la ficha."
+  }
+ ],
+ "pas": [
+  {
+   "art": 116,
+   "campo": "nota",
+   "valor": "Cuenta con guía trámite del SEA (2021). La Ley 21.850 modificó normas de concesiones de acuicultura (arts. 67, 84, 122 bis y 142 de la LGPA) y dispuso suprimir el art. 87 ter, supresión que rige desde el año siguiente al de su publicación; el art. 87 ter sigue en el texto vigente.",
+   "motivo": "MEDIA. Art. vigésimo primero transitorio de la Ley 21.850; el XML BCN de la LGPA conserva el art. 87 ter. La nota lo daba por suprimido."
+  },
+  {
+   "art": 122,
+   "campo": "nota",
+   "valor": "El art. 17 N° 6 del Código de Minería radica el permiso en el Presidente de la República; solo se exige si la declaración de interés histórico o científico se hizo expresamente para efectos mineros (salvo covaderas).",
+   "motivo": "LEVE. La nota decía que la autoridad otorgante no se había visto en las fuentes, pese a que el organismo figura como verificado y el art. 17 N° 6 la nombra."
+  },
+  {
+   "art": 157,
+   "campo": "norma_fundante",
+   "valor": "Art. 171 del DFL 1.122/1981, Código de Aguas (el reglamento cita sus incisos 1° y 2°; en el texto de la Ley 21.770 la regla está en el inciso primero, N° 1)",
+   "motivo": "LEVE. El art. 171 fue reemplazado y la aprobación de la DOH ya no está en un inciso segundo."
+  },
+  {
+   "art": 146,
+   "campo": "norma_fundante",
+   "valor": "Art. 9 inciso 1° del artículo primero de la Ley 19.473 (Ley de Caza) y art. 609 del Código Civil",
+   "motivo": "LEVE. Misma norma citada de dos maneras (PAS 124 la cita por la Ley 19.473 y este por la Ley 4.601)."
+  },
+  {
+   "art": 120,
+   "campo": "nota",
+   "valor": "El art. 31 inciso 3° vigente de la Ley 17.288 exige autorización previa del Servicio (SBAP). El art. 6° transitorio del DS 40 mantenía la potestad del Consejo de Monumentos Nacionales solo hasta la publicación de la Ley 21.600 (06-09-2023). El art. 31 sigue rigiendo hasta que concluya la reclasificación de los santuarios (art. cuarto transitorio, letra h, de esa ley).",
+   "motivo": "LEVE. Explicita la fuente del órgano otorgante."
+  }
+ ],
+ "sim_normas": [
+  {
+   "bloque": "area-protegida",
+   "id": "ley-19300",
+   "art_actual": "10 p) y e); 11 d); 34, 35 y 36",
+   "accion": "corregir",
+   "fuerza": "siempre",
+   "art": "10 p) y e); 11 d); 34, 35 y 36",
+   "motivo": "Causal de ingreso y de EIA. El Sistema Nacional de Áreas Protegidas está a cargo del SBAP e incluye las aguas, playas, glaciares y humedales situados en su perímetro; la administración de parques nacionales, reservas nacionales y monumentos naturales del Estado sigue transitoriamente en CONAF hasta el traspaso.",
+   "razon": "MEDIA. El art. noveno transitorio de la Ley 21.600 difiere esa función del SBAP; el mismo bloque lista a CONAF como administrador transitorio."
+  }
+ ],
+ "novedades": [
+  {
+   "hecho": "Ley 21.850 (17-10-2026): ley miscelánea de reconstrucción y desarrollo económico que, entre otras materias, reforma el SEIA desde el 01-11-2026. Recurso especial de reclamación único y previo contra la RCA (30 días), 20 días para reclamar después ante el Tribunal Ambiental, plazo general de invalidación administrativa reducido a un año (art. 53 de la Ley 19.880) y nuevo Reglamento del SEIA antes del 17-10-2027.",
+   "id": "ley-21850"
+  },
+  {
+   "hecho": "Ley 21.770 (29-09-2025): Ley Marco de Autorizaciones Sectoriales. Modifica el Código de Aguas, el Código Sanitario, la Ley 20.283 y otras leyes; excluye de su ámbito las autorizaciones tramitadas íntegramente dentro del SEIA.",
+   "id": "ley-21770"
+  },
+  {
+   "hecho": "Ley 21.744 (23-05-2025): crea el Servicio Nacional Forestal como continuador legal de CONAF. No se halló en BCN el decreto con fuerza de ley que fija su entrada en funcionamiento, por lo que las normas forestales siguen nombrando a la Corporación.",
+   "id": "ley-21744"
+  },
+  {
+   "hecho": "DS 14/2024 MMA (27-02-2026): nueva norma de ruido, con vigencia diferida a 2027-2028.",
+   "id": "ds-14-2024-mma"
+  },
+  {
+   "hecho": "DS 17/2025 MMA (21-01-2026): última modificación del Reglamento del SEIA (umbrales del art. 3).",
+   "id": "ds-17-2025-mma"
+  },
+  {
+   "hecho": "DS 12/2025 MMA (13-08-2026): plan de descontaminación del lago Villarrica.",
+   "id": "ds-12-2025-mma"
+  },
+  {
+   "hecho": "En trámite, sin ser ley: reforma al SEIA (boletín 16552-12, segundo trámite en la Cámara) y ley de incendios forestales y rurales (no publicada al 10-11-2026).",
+   "id": null
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ds-1-2013-mma",
+   "tipo": "complementa",
+   "destino": "res-1227-2015-sma",
+   "motivo": "MEDIA. La Res. Ex. 1227/2015 fue revocada el 11-12-2021 (Res. Ex. 2547/2021 SMA); la relación la presenta como instrucción operativa del RETC."
+  }
+ ],
+ "organismos_normalizar": {
+  "SERNAFOR": "CONAF",
+  "CONAF / SERNAFOR": "CONAF",
+  "CONAF / SERNAFOR (administración transitoria)": "CONAF (administración transitoria)",
+  "CONAF (transitorio, mientras se completa el traspaso)": "CONAF (administración transitoria)",
+  "Subsecretaría de Pesca y Acuicultura": "SUBPESCA",
+  "Ministerio de Salud": "MINSAL",
+  "Ministerio de Salud (firma en normas primarias)": "MINSAL (firma en normas primarias)",
+  "SEREMI de Salud": "SEREMI Salud",
+  "SEREMI de Salud (Autoridad Sanitaria)": "SEREMI Salud",
+  "SEREMI de Salud (calificación industrial)": "SEREMI Salud (calificación industrial)",
+  "Aduanas": "Servicio Nacional de Aduanas",
+  "Ministerio de Defensa": "Ministerio de Defensa Nacional",
+  "Ministerio de las Culturas": "Ministerio de las Culturas, las Artes y el Patrimonio",
+  "SEREMI Vivienda y Urbanismo": "SEREMI MINVU",
+  "SEREMI de Agricultura": "SEREMI Agricultura",
+  "SEREMI del Medio Ambiente": "SEREMI Medio Ambiente",
+  "Consejo de Ministros para la Sustentabilidad": "Consejo de Ministros para la Sustentabilidad y el Cambio Climático",
+  "Consejo de Monumentos Nacionales": "CMN",
+  "Consejo de Monumentos Nacionales (informe en santuarios)": "CMN (informe en santuarios)",
+  "Consejo de Monumentos Nacionales y su Secretaría Técnica": "CMN y su Secretaría Técnica",
+  "Comisión Regional de Uso del Borde Costero": "Comisiones Regionales de Uso del Borde Costero",
+  "Gobierno Regional": "Gobiernos Regionales",
+  "Municipalidad": "Municipalidades",
+  "Tribunales": "Tribunales ordinarios de justicia",
+  "organismos sectoriales": "Organismos sectoriales con competencia ambiental",
+  "organismos sectoriales con competencia ambiental": "Organismos sectoriales con competencia ambiental",
+  "Delegación Presidencial": "Delegación Presidencial Regional",
+  "DIRECTEMAR (Autoridad Marítima)": "DIRECTEMAR"
+ }
+}

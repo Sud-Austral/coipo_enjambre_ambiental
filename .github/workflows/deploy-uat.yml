@@ -1,0 +1,25 @@
+name: Deploy UAT
+
+# vm3 (runner conaf-uat) con el workflow compartido de infra-docker-base.
+# Requiere /opt/apps/coipo_enjambre_regulatorio/.env en vm3. El deploy espera vars.UAT_LISTO.
+on:
+  push:
+    branches: [uat]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    uses: Sud-Austral/coipo_jueces/.github/workflows/verificar.yml@v2
+    with: { modo: advisory, perfil: aplicacion, runner: conaf-ci }
+  suite:
+    uses: ./.github/workflows/ci.yml
+  deploy:
+    needs: [verificar, suite]
+    if: ${{ vars.UAT_LISTO == 'true' }}
+    uses: Sud-Austral/infra-docker-base/.github/workflows/deploy-uat.yml@main
+    with:
+      app_name: ${{ github.event.repository.name }}
+      esperar_salud: true

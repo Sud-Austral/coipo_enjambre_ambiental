@@ -1,0 +1,641 @@
+{
+ "id": "ley-20283",
+ "articulos": [
+  {
+   "num": "1",
+   "epigrafe": "Objetivos de la ley",
+   "resumen": "Fija como fines proteger, recuperar y mejorar los bosques nativos, para asegurar la sustentabilidad forestal y la política ambiental.",
+   "obliga_titular": false,
+   "titulo": "Título Preliminar",
+   "derogado": false
+  },
+  {
+   "num": "2",
+   "epigrafe": "Definiciones",
+   "resumen": "Define 26 conceptos. Bosque: al menos 5.000 m², ancho mínimo de 40 m y cobertura de copas sobre 10% (zonas áridas y semiáridas) o 25%. Bosque nativo de preservación (hábitat de especies en peligro crítico, en peligro o vulnerables, ambientes únicos y bosques en áreas protegidas), de conservación y protección (pendiente de 45% o más, suelos frágiles o a menos de 200 m de aguas naturales) y de uso múltiple. También 'Corporación' (la Corporación Nacional Forestal), corta no autorizada, formación xerofítica, interesado, pequeño propietario forestal (hasta 200, 500 u 800 ha según zona y activos de hasta 3.500 UF) y plan de manejo, en sus modalidades forestal y de preservación.",
+   "obliga_titular": false,
+   "titulo": "Título Preliminar",
+   "derogado": false
+  },
+  {
+   "num": "3",
+   "epigrafe": "Tipos forestales",
+   "resumen": "Un decreto supremo del Ministerio de Agricultura establece los tipos forestales del bosque nativo y sus métodos de regeneración, previo sustento en estudios científico-técnicos y consulta a organismos públicos y privados competentes.",
+   "obliga_titular": false,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "4",
+   "epigrafe": "Catastro forestal",
+   "resumen": "La Corporación debe mantener un catastro forestal permanente y público, con cartografía de los tipos forestales por región y de las áreas de interés especial para conservación o preservación, y actualizarlo al menos cada 10 años. El Consejo Consultivo lo usa como base para proponer criterios de focalización de las bonificaciones.",
+   "obliga_titular": false,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "5",
+   "epigrafe": "Plan de manejo obligatorio",
+   "resumen": "Toda corta de bosque nativo, sea cual sea el terreno, exige un plan de manejo aprobado previamente por la Corporación y debe cumplir además el DL 701. Los planes aprobados son públicos y deben estar disponibles en el sitio web de la Corporación.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "6",
+   "epigrafe": "Contenido del plan",
+   "resumen": "El plan debe informar en general sobre los recursos naturales del predio y, con el detalle que fije el reglamento, sobre el área que se intervendrá.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "7",
+   "epigrafe": "Quién presenta y quién elabora",
+   "resumen": "El interesado presenta el plan, firmado por él y por el profesional que lo elabora: ingeniero forestal, agrónomo especializado o afín con posgrado (plan forestal), o ingeniero forestal, en conservación o en recursos naturales o afín (plan de preservación), con carrera de al menos 10 semestres. Si la corta deriva de caminos, concesiones o servidumbres mineras, de gas, eléctricas, de ductos u otras legales, lo presentan y responden los concesionarios, titulares o quienes tramitan esos derechos; la regla alcanza a proyectos del Plan de Emergencia Habitacional que alteren hábitat de especies en categoría de conservación. En bosques fiscales firma el concesionario o arrendatario y la Seremi de Bienes Nacionales. Un plan puede abarcar varios predios y propietarios.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "8",
+   "epigrafe": "Plazo, silencio y reclamo",
+   "resumen": "La Corporación tiene 90 días desde el ingreso para aprobar o rechazar el plan; si calla, se entiende aprobado, salvo en las áreas con las situaciones del art. 17. Solo puede rechazar por incumplimiento de requisitos legales y el interesado puede reclamar ante el juez según el art. 5° del DL 701, con sentencia apelable. Aprobado el plan, el interesado debe avisar el inicio de faenas y, desde el primer año de ejecución, informar anualmente el avance.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "9",
+   "epigrafe": "Registro público de planes",
+   "resumen": "La Corporación lleva una nómina o sistema de información público, consolidado por provincias, de los planes aprobados, y certifica a quien lo pida si un predio cuenta con uno.",
+   "obliga_titular": false,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "10",
+   "epigrafe": "Invalidación por antecedentes falsos",
+   "resumen": "Si el plan se aprobó con antecedentes falsos, o inexactos que incidieron sustancialmente, la Corporación puede invalidar los actos respectivos y perseguir responsabilidades civiles o penales. El reclamo (art. 5° DL 701) no suspende lo resuelto.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "11",
+   "epigrafe": "Normas generales y planes tipo",
+   "resumen": "La Corporación puede dictar normas de manejo generales y planes de manejo tipo; quien se acoge a ellos cumple la obligación de presentar plan forestal, y debe fomentarse su uso por pequeños propietarios. No sustituyen el plan en los casos de los arts. 7° y 19.",
+   "obliga_titular": false,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "12",
+   "epigrafe": "Modificación del plan",
+   "resumen": "Un plan vigente puede modificarse con un estudio técnico de profesional habilitado; la Corporación resuelve en 60 días hábiles y rige el silencio del art. 8°. No puede cambiarse el objetivo de manejo salvo que el nuevo sea alcanzable desde el estado actual del bosque. Postergar cortas sin deterioro del bosque solo requiere comunicación previa y no aumenta los beneficios de concurso.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "13",
+   "epigrafe": "Efecto sobre el predio y desistimiento",
+   "resumen": "El plan aprobado obliga al interesado y a quien adquiera después el predio; se anota gratuitamente al margen de la inscripción de dominio. Para desistirse hay que reintegrar franquicias tributarias y bonificaciones con reajustes e intereses, y no procede si quedan actividades de regeneración o reforestación pendientes.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "14",
+   "epigrafe": "Cumplimiento de la reforestación",
+   "resumen": "Los compromisos de regeneración o reforestación (de planes de manejo o de medidas ordenadas judicialmente) se dan por cumplidos con una sobrevivencia verificada en terreno de 75% o más de los individuos comprometidos, medida no antes de los 2 años de vida.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "15",
+   "epigrafe": "Marco de protección ambiental",
+   "resumen": "La corta de bosque nativo debe sujetarse a las normas de este Título, además de las de la Ley 19.300 y de la ley que crea el Servicio de Biodiversidad y Áreas Protegidas, para resguardar la calidad de las aguas, los suelos y la diversidad biológica.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "16",
+   "epigrafe": "Bosques de conservación y protección",
+   "resumen": "Para cortar bosque nativo de conservación y protección el plan debe justificar técnicamente los métodos de corta e incluir medidas para proteger suelos, calidad y cantidad de los caudales y biodiversidad, y de prevención y combate de incendios. Debe respetar los corredores biológicos definidos conforme a la ley del SBAP.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "17",
+   "epigrafe": "Glaciares, suelos, aguas y humedales",
+   "resumen": "Prohíbe cortar, destruir, eliminar o menoscabar árboles y arbustos nativos a 500 m de glaciares (proyección horizontal). Encarga al reglamento la protección de suelos y de cuerpos y cursos naturales de agua (pendiente, pluviometría, fragilidad y erodabilidad, saturación, equipos de madereo, tamaño de cuenca y caudal) y de los humedales declarados sitios prioritarios de conservación o sitios Ramsar, atendiendo a las especies que los habitan y a las particularidades regionales.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "18",
+   "epigrafe": "Extensión a ciertas plantaciones",
+   "resumen": "Las normas de los arts. 15, 16 y 17 rigen también para las plantaciones acogidas al inciso segundo del art. 13 del DL 701.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "19",
+   "epigrafe": "Especies en categoría de conservación",
+   "resumen": "Prohíbe cortar, eliminar, destruir o descepar individuos de especies vegetales nativas clasificadas (art. 37 Ley 19.300) en peligro crítico, en peligro o vulnerables que integren un bosque nativo, y alterar su hábitat; no alcanza a ejemplares plantados, salvo plantaciones hechas como compensación, reparación o mitigación. Por excepción la Corporación puede autorizar, mediante resolución fundada, intervenciones imprescindibles que no amenacen la continuidad de la especie en la cuenca, para investigación científica, fines sanitarios u obras y actividades del art. 7° inciso cuarto que sean de interés nacional. Se requiere informe favorable del Servicio de Biodiversidad y Áreas Protegidas y un plan de manejo de preservación; para calificar el interés nacional la Corporación puede pedir informes a otros organismos del Estado.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "20",
+   "epigrafe": "Reglamento de las excepciones",
+   "resumen": "El reglamento fija la forma y condiciones en que la Corporación autoriza las intervenciones excepcionales de los arts. 7°, 17 y 19.",
+   "obliga_titular": false,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "21",
+   "epigrafe": "Corta para obras y cambio de uso",
+   "resumen": "Si la corta obedece a cambio de uso de suelo rural (LGUC), a la construcción de obras o a las actividades del art. 7° inciso cuarto, el interesado debe presentar un plan con objetivos de la corta, trazado de la obra, descripción del área y de la vegetación a eliminar, programas de corta, cartografía y programas de reforestación con especies del mismo tipo forestal intervenido.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "22",
+   "epigrafe": "Fondo concursable y montos",
+   "resumen": "Crea un fondo concursable que bonifica: a) regeneración, recuperación o protección de formaciones xerofíticas de alto valor ecológico o bosques de preservación (hasta 5 UTM/ha, excluido el SNASPE); b) silvicultura para productos no madereros (hasta 5 UTM/ha); y c) manejo y recuperación con fines madereros (hasta 10 UTM/ha). Una tabla anual de valores se fija por decreto de Agricultura, con firma de Hacienda, publicado en agosto; los pequeños propietarios pueden recibir hasta 15% adicional. Los seleccionados deben presentar el plan de manejo a la Corporación.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "23",
+   "epigrafe": "Bonificación a planes con ordenación",
+   "resumen": "Bonifica además la elaboración de planes de manejo forestal bajo criterio de ordenación seleccionados en concurso: hasta 0,3 UTM por hectárea con actividades de la letra c) del art. 22, pagadas tras ejecutarse estas, con tope de 700 UTM por interesado y por una sola vez.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "24",
+   "epigrafe": "Postulación por concurso público",
+   "resumen": "Los recursos se adjudican por concurso público; se postula con solicitud de bonificación y proyecto de plan de manejo que detalle actividades y superficie. Se puede volver a concursar por la misma superficie para otras actividades del mismo literal sin exceder el máximo por hectárea; no se admiten actividades de literales distintos ni ya bonificadas.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "25",
+   "epigrafe": "Dos concursos",
+   "resumen": "El Fondo se asigna en dos concursos, uno exclusivo para pequeños propietarios forestales. La Ley de Presupuestos fija los recursos y un decreto de Agricultura con firma de Hacienda, publicado en enero, reparte los porcentajes, con un mínimo de 25% para cada concurso.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "26",
+   "epigrafe": "Reglamento del Fondo",
+   "resumen": "El reglamento define las actividades bonificables de cada literal, la periodicidad de los concursos, los requisitos de las bases y los criterios de priorización, focalización y asignación (tamaño de la propiedad, monto pedido, cofinanciamiento y aporte a la diversidad ecológica).",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "27",
+   "epigrafe": "Criterios del Ministerio",
+   "resumen": "Corresponde al Ministerio de Agricultura definir los criterios de priorización, focalización y asignación de las bonificaciones, y los de evaluación técnica y ambiental, tras consultar al Consejo Consultivo (art. 33).",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "28",
+   "epigrafe": "Igualdad de acceso y bases",
+   "resumen": "El reglamento debe asegurar igualdad de participación y un trámite simplificado de postulación para pequeños propietarios. Las bases deben contener los criterios de evaluación y favorecer proyectos de recuperación, mejoramiento y preservación con claro beneficio social y urgencia.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "29",
+   "epigrafe": "Pago contra ejecución",
+   "resumen": "La bonificación solo se paga una vez acreditadas las actividades del plan de manejo aprobado, mediante informes de un profesional habilitado aprobados por la Corporación. Si la ejecución fue parcial se paga lo efectivamente hecho, siempre que no haya incumplimiento del plan.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "30",
+   "epigrafe": "Asignación directa y remanentes",
+   "resumen": "Si lo pedido en un concurso es menor que los recursos disponibles, estos pueden asignarse directamente a los proyectos que cumplan los criterios; el remanente de un concurso pasa al otro. Bases y resultados son públicos.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "31",
+   "epigrafe": "Administración del Fondo",
+   "resumen": "El Fondo lo administra el Ministerio de Agricultura, que puede delegar total o parcialmente los concursos en la Corporación Nacional Forestal. Debe hacerse una evaluación pública de su funcionamiento al menos cada 3 años.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "32",
+   "epigrafe": "Dictación del reglamento del Fondo",
+   "resumen": "El reglamento del Fondo se dicta por decreto supremo de Agricultura, con firma de Hacienda, oyendo al Consejo Consultivo.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "33",
+   "epigrafe": "Consejo Consultivo del Bosque Nativo",
+   "resumen": "Crea el Consejo Consultivo, presidido por el Ministro de Agricultura e integrado por académicos, ONG, propietarios grandes, medianos y pequeños, el Colegio de Ingenieros Forestales, áreas protegidas privadas, la Sociedad de Botánica, el Director Nacional del SBAP, el Director Ejecutivo del INFOR y el Director Ejecutivo de CONAF como secretario ejecutivo. Los consejeros duran 3 años y no reciben dieta. Absuelve consultas, se pronuncia sobre reglamentos y propone criterios para las bonificaciones y la investigación.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "34",
+   "epigrafe": "Transferencia y certificado de futura bonificación",
+   "resumen": "La bonificación puede transferirse por instrumento suscrito ante notario y cobrarla un tercero. La Corporación puede emitir un certificado de futura bonificación, endosable como garantía de créditos de enlace.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "35",
+   "epigrafe": "Régimen tributario",
+   "resumen": "La bonificación se trata como ingreso diferido y no es renta hasta la corta de cosecha o venta del bosque. Regula la tributación de la explotación de bosque nativo (límite de ventas de 24.000 UTM en tres años para renta presunta; pequeños propietarios siempre en renta presunta). Los bosques nativos quedan exentos de impuesto territorial y no se consideran para el impuesto a las herencias, previa declaración de bosque nativo con estudio técnico; la Corporación resuelve en 60 días y su silencio equivale a aprobación.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "36",
+   "epigrafe": "Financiamiento y pago",
+   "resumen": "La Ley de Presupuestos provee los recursos para las bonificaciones, que paga la Tesorería General de la República.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "37",
+   "epigrafe": "Acreditadores forestales",
+   "resumen": "Reconoce a acreditadores forestales, personas naturales o jurídicas, que colaboran con la Corporación en la certificación y fiscalización, sin restar facultades a esta.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "38",
+   "epigrafe": "Registro y funciones de los acreditadores",
+   "resumen": "Solo pueden acreditar los profesionales del art. 7° inscritos en el registro público que lleva y publica la Corporación; las personas jurídicas deben tener ese giro y personal de igual calidad profesional. Certifican la veracidad de los datos de los planes de manejo y la correcta ejecución de actividades bonificables (art. 22 de esta ley y art. 12 del DL 701), con lo cual la Corporación evalúa los planes y autoriza pagos.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "39",
+   "epigrafe": "Reglamento de acreditadores",
+   "resumen": "El reglamento fija requisitos de inscripción, contenido y funcionamiento del registro y demás normas de la actividad, cuidando que haya acreditadores disponibles en comunidades apartadas.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "40",
+   "epigrafe": "Certificación falsa",
+   "resumen": "El acreditador que certifique un hecho falso o inexistente recibe la pena del art. 193 del Código Penal; queda suspendido del registro desde la formalización e inhabilitado a perpetuidad si es condenado. Las entidades cuyos socios, gerentes o administradores participen pierden definitivamente su inscripción.",
+   "obliga_titular": true,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "41",
+   "epigrafe": "Sanciones administrativas a acreditadores",
+   "resumen": "Otras infracciones de los acreditadores se sancionan con suspensión por 6 meses, suspensión de hasta 2 años o cancelación por 5 años. Resuelve el Director Regional; se reclama dentro de 10 días hábiles para ante el Director Ejecutivo de la Corporación y luego ante el juez de letras en lo civil.",
+   "obliga_titular": true,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "42",
+   "epigrafe": "Fondo de investigación",
+   "resumen": "La Ley de Presupuestos debe contemplar cada año un fondo para investigación del bosque nativo, asignado siempre por concurso público y complementable con aportes privados.",
+   "obliga_titular": false,
+   "titulo": "Título VI",
+   "derogado": false
+  },
+  {
+   "num": "43",
+   "epigrafe": "Destino de los recursos de investigación",
+   "resumen": "Los recursos apoyan investigación científica y tecnológica sobre bosque nativo y su biodiversidad, proyectos de protección de suelo, agua, flora y fauna, capacitación y transferencia en áreas rurales, evaluación de los efectos de las intervenciones e iniciativas complementarias.",
+   "obliga_titular": false,
+   "titulo": "Título VI",
+   "derogado": false
+  },
+  {
+   "num": "44",
+   "epigrafe": "Políticas de investigación",
+   "resumen": "El Ministerio de Agricultura define las políticas de uso de estos recursos a propuesta del Consejo Consultivo; un reglamento norma su administración y la evaluación de proyectos.",
+   "obliga_titular": false,
+   "titulo": "Título VI",
+   "derogado": false
+  },
+  {
+   "num": "45",
+   "epigrafe": "Tribunal competente",
+   "resumen": "Las multas y sanciones las aplica el juez de policía local abogado de la comuna de la infracción, por denuncia de funcionarios de la Corporación o de Carabineros, con el procedimiento de la Ley 18.287; las multas sobre 5.000 UTM van al juez de la cabecera de provincia. La Corporación puede pedir apremios, ejercer acciones ejecutivas de cobro y percibir costas. Los delitos de los arts. 40, 49 y 50 corresponden a los jueces de garantía o tribunales orales.",
+   "obliga_titular": false,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "46",
+   "epigrafe": "Acta de infracción y denuncia",
+   "resumen": "Detectada una infracción, los funcionarios de la Corporación levantan un acta con hechos, día, lugar y normas infringidas, y el Director Regional denuncia ante el tribunal o el Ministerio Público. Los fiscalizadores del SBAP también pueden denunciar. En una primera infracción el tribunal puede rebajar la multa hasta 50% o absolver por ignorancia excusable o buena fe comprobada; se admiten fotografía aérea y sensores remotos como control.",
+   "obliga_titular": false,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "47",
+   "epigrafe": "Ministros de fe e ingreso a predios",
+   "resumen": "Los fiscalizadores de la Corporación, los del SBAP (según convenio de encomendamiento) y Carabineros actúan como ministros de fe. Para entrar a predios o centros de acopio necesitan autorización del administrador; ante negativa se puede pedir al juez de policía local el auxilio de la fuerza pública, y si este decide oír al afectado, debe comparecer en 48 horas.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "48",
+   "epigrafe": "Prescripción",
+   "resumen": "Las acciones por infracciones no penales prescriben en 5 años desde su comisión, o desde que cesa el incumplimiento si son permanentes; los delitos, según el Código Penal. Una nueva infracción en el mismo predio interrumpe las prescripciones en curso.",
+   "obliga_titular": false,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "49",
+   "epigrafe": "Plan basado en certificados falsos",
+   "resumen": "Quien a sabiendas presente o elabore un plan de manejo apoyado en certificados falsos arriesga presidio menor en grado máximo a presidio mayor en grado mínimo; si cobró bonificación, además multa del triple de lo percibido, reajustada por IPC. La Corporación deja sin efecto los actos fundados en la certificación falsa.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "50",
+   "epigrafe": "Antecedentes falsos para obtener bonificación",
+   "resumen": "Presentar a sabiendas un plan con otros antecedentes falsos, para acogerse a bonificaciones, se castiga con presidio menor en cualquiera de sus grados y, si hubo cobro, multa del doble de lo percibido reajustado.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "51",
+   "epigrafe": "Corta no autorizada",
+   "resumen": "La corta de bosque no autorizada acarrea al dueño del predio o a quien la ejecute una multa del doble del valor comercial de los productos, con mínimo de 5 UTM por hectárea, más el comiso de los productos en su poder. Si los productos fueron retirados del predio, la multa aumenta en 200%.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "52",
+   "epigrafe": "Daño a especies clasificadas",
+   "resumen": "Cortar, eliminar, destruir, descepar o dar muerte a ejemplares de especies en peligro crítico, en peligro o vulnerables sin la autorización del art. 19 se multa con 5 a 50 UTM por ejemplar sin valor comercial, o con el doble del valor comercial de cada ejemplar; hay comiso y aumento de 200% si los productos fueron retirados. Para ejemplares sin valor comercial el juez pondera número, valor científico y clasificación, con informe de la Corporación.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "53",
+   "epigrafe": "Infracción a normas de protección",
+   "resumen": "La corta no autorizada de bosque nativo que vulnere el art. 17 o los arts. 7° y 8° transitorios se sanciona con la multa del art. 52 aumentada hasta en 100%.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "54",
+   "epigrafe": "Otras infracciones y multas",
+   "resumen": "Multas por hectárea: 5 a 15 UTM por incumplir actividades de protección; 10 a 15 UTM por no reforestar (siempre falta grave); 2 a 5 UTM por otras obligaciones del plan forestal, salvo fuerza mayor; y 2 a 5 UTM por intervenir formaciones xerofíticas sin plan de trabajo o incumplirlo. No acreditar el origen legal de la madera: hasta 3 UTM. Incumplir un plan de preservación: el doble del costo de la acción omitida.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "55",
+   "epigrafe": "La multa no exime",
+   "resumen": "Pagar la multa no libera al infractor de cumplir las obligaciones correspondientes.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "56",
+   "epigrafe": "Bosque bonificado y reintegro",
+   "resumen": "El bosque nativo bonificado no puede cosecharse en un plazo distinto al del plan; anticipar o postergar la cosecha exige modificación aprobada y, si no calza con los objetivos del plan, reintegro total de los beneficios. Quien incumple un plan bonificado debe devolver lo percibido y pierde los beneficios del concurso.",
+   "obliga_titular": true,
+   "titulo": "Título VII",
+   "derogado": false
+  },
+  {
+   "num": "57",
+   "epigrafe": "Autorización simple de corta",
+   "resumen": "A petición del interesado, la Corporación puede autorizar de forma simple la corta de un número reducido de árboles, fijado caso a caso, para autoconsumo o mejoras prediales, lo que reemplaza al plan de manejo forestal.",
+   "obliga_titular": true,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "58",
+   "epigrafe": "Acreditación de origen y guías de libre tránsito",
+   "resumen": "Quien participe en cualquier etapa de la explotación del bosque nativo, incluido el transporte, debe acreditar ante la autoridad que los productos primarios provienen de corta autorizada por la Corporación. Esta puede emitir guías de libre tránsito también para productos de árboles nativos aislados que no requieren autorización de corta.",
+   "obliga_titular": true,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "59",
+   "epigrafe": "Incompatibilidad de bonificaciones",
+   "resumen": "La bonificación de esta ley no puede acumularse con la del DL 701.",
+   "obliga_titular": false,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "60",
+   "epigrafe": "Formaciones xerofíticas: plan de trabajo",
+   "resumen": "Cortar, destruir o descepar formaciones xerofíticas exige un plan de trabajo aprobado previamente por la Corporación, que debe considerar las normas de protección ambiental del Título III.",
+   "obliga_titular": true,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "61",
+   "epigrafe": "Postulaciones colectivas",
+   "resumen": "Los pequeños propietarios forestales pueden postular colectivamente a los beneficios, directamente o mediante sus organizaciones.",
+   "obliga_titular": false,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "62",
+   "epigrafe": "Supletoriedad de la Ley 19.880",
+   "resumen": "En lo no regulado expresamente se aplica supletoriamente la Ley 19.880 de procedimiento administrativo.",
+   "obliga_titular": false,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "63",
+   "epigrafe": "Modificación a la Ley 19.300",
+   "resumen": "Reemplaza, en el art. 35 inciso segundo de la Ley 19.300, la mención al organismo administrador del SNASPE por la Corporación Nacional Forestal.",
+   "obliga_titular": false,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "64",
+   "epigrafe": "Traspaso de competencias del SAG",
+   "resumen": "Traspasa a CONAF o a su Director Ejecutivo las atribuciones forestales que tenía el SAG en los arts. 14 y 28 de la Ley de Bosques (DS 4.363 de 1931), los arts. 6° a 10 del DFL 15 de 1968 y el art. 3° transitorio de la Ley 18.378.",
+   "obliga_titular": false,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "65",
+   "epigrafe": "Modificaciones al DL 701",
+   "resumen": "Modifica el DL 701 para regular los bosques fiscales: agrega un inciso al art. 17, ajusta el art. 24 bis A) e incorpora el art. 24 bis C), radicando la responsabilidad y la firma de los planes en el concesionario, arrendatario o autorizado para obras civiles.",
+   "obliga_titular": false,
+   "titulo": "Título VIII",
+   "derogado": false
+  },
+  {
+   "num": "1 transitorio",
+   "epigrafe": "Vigencia de reglamentos anteriores",
+   "resumen": "Los reglamentos preexistentes siguen rigiendo en lo compatible con la ley mientras no se dicten los nuevos.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "2 transitorio",
+   "epigrafe": "Aplicación anticipada del art. 19",
+   "resumen": "Mientras no haya clasificación, el art. 19 puede aplicarse a las especies nativas que el 'Libro Rojo' de CONAF identificaba como en peligro de extinción, vulnerables, raras o insuficientemente conocidas al entrar en vigencia la ley; en ejemplares plantados, solo si la plantación fue medida de compensación o reparación.",
+   "obliga_titular": true,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "3 transitorio",
+   "epigrafe": "Tipos forestales provisorios",
+   "resumen": "Hasta que se dicte el decreto del art. 3°, valen como tipos forestales los del art. 19 del Reglamento Técnico del DL 701 (DS 259 de 1980, Agricultura).",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "4 transitorio",
+   "epigrafe": "Primera tabla de valores",
+   "resumen": "Dentro de 90 días desde la publicación, la Corporación fija el valor de las actividades bonificables para el período previo a la primera temporada regida por la tabla del art. 22.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "5 transitorio",
+   "epigrafe": "Plazo para reglamentos y Consejo",
+   "resumen": "Los reglamentos deben dictarse dentro de 120 días desde la publicación, y los integrantes del Consejo Consultivo designarse en los 60 días siguientes.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "6 transitorio",
+   "epigrafe": "Plazo del reglamento del art. 17",
+   "resumen": "Las normas reglamentarias de protección de suelos, aguas y humedales del art. 17 debían dictarse dentro de 2 años desde la publicación de la ley.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "7 transitorio",
+   "epigrafe": "Normas provisorias para tres tipos forestales",
+   "resumen": "Mientras no rija la normativa del art. 17, las cortas de regeneración por método de protección en Lenga, los raleos de renovales de Roble-Raulí-Coihue y las cortas de regeneración en Siempreverde se guían, en protección de suelos y aguas, por las normas de manejo de CONAF.",
+   "obliga_titular": true,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "8 transitorio",
+   "epigrafe": "Reglas provisorias de suelos, aguas y humedales",
+   "resumen": "En los demás casos, y mientras no rija la normativa del art. 17: se prohíbe cortar bosque nativo en pendientes sobre 60% por más de 30 m (salvo cortas selectivas autorizadas) e intervenir árboles y arbustos nativos a 25 m de cauces permanentes con caudal medio anual mayor a 0,14 m³/s, a 15 m de cauces no permanentes de zonas áridas o semiáridas sobre 0,08 m³/s y a 5 m por lado en caudales menores; en otras aguas no permanentes rige una franja de 5 m con 60% de cobertura. La Corporación puede duplicar o reducir a la mitad esas distancias y autorizar excepciones. Se prohíbe además intervenir a 100 m de humedales Ramsar o sitios prioritarios, y el plan debe detallar medidas contra la erosión, sistemas de madereo y manejo de residuos.",
+   "obliga_titular": true,
+   "titulo": "Artículos Transitorios",
+   "derogado": false
+  }
+ ],
+ "estructura": [
+  {
+   "titulo": "Título Preliminar",
+   "nombre": "(sin denominación)",
+   "arts": "1–2"
+  },
+  {
+   "titulo": "Título I",
+   "nombre": "De los tipos forestales",
+   "arts": "3–4"
+  },
+  {
+   "titulo": "Título II",
+   "nombre": "Del plan de manejo",
+   "arts": "5–14"
+  },
+  {
+   "titulo": "Título III",
+   "nombre": "De las normas de protección ambiental",
+   "arts": "15–21"
+  },
+  {
+   "titulo": "Título IV",
+   "nombre": "Del fondo de conservación, recuperación y manejo sustentable del bosque nativo",
+   "arts": "22–36"
+  },
+  {
+   "titulo": "Título V",
+   "nombre": "De los acreditadores forestales",
+   "arts": "37–41"
+  },
+  {
+   "titulo": "Título VI",
+   "nombre": "De los recursos para la investigación del bosque nativo",
+   "arts": "42–44"
+  },
+  {
+   "titulo": "Título VII",
+   "nombre": "Del procedimiento y las sanciones",
+   "arts": "45–56"
+  },
+  {
+   "titulo": "Título VIII",
+   "nombre": "Disposiciones generales",
+   "arts": "57–65"
+  },
+  {
+   "titulo": "Artículos Transitorios",
+   "nombre": "Disposiciones transitorias",
+   "arts": "1 transitorio–8 transitorio"
+  }
+ ]
+}

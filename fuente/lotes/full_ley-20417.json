@@ -1,0 +1,752 @@
+{
+ "id": "ley-20417",
+ "articulos": [
+  {
+   "num": "primero",
+   "epigrafe": "Reforma a la Ley 19.300",
+   "resumen": "En 63 numerales modifica la Ley 19.300: agrega definiciones y el acceso a la información ambiental (párrafo 3° bis, arts. 31 bis y ss.), crea la Evaluación Ambiental Estratégica (párrafo 1° bis, arts. 7° bis y ss.) y reforma el SEIA (prohibición de fraccionar del art. 11 bis, contenido de la DIA, término anticipado por falta de información, permisos sectoriales, arts. 25 bis a 25 sexies y participación ciudadana ampliada). Traslada fiscalización y sanción a la SMA y lo contencioso al Tribunal Ambiental (arts. 50, 60 y 64) y sustituye el Título Final (arts. 69 a 88) para crear el Ministerio del Medio Ambiente, el Consejo de Ministros para la Sustentabilidad, los consejos consultivos y el Servicio de Evaluación Ambiental.",
+   "obliga_titular": true,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "segundo",
+   "epigrafe": "Creación de la SMA y su ley orgánica",
+   "resumen": "Crea la Superintendencia del Medio Ambiente y fija como su ley orgánica el articulado propio que sigue (LOSMA, arts. 1° a 62).",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 1",
+   "epigrafe": "Naturaleza de la SMA",
+   "resumen": "Crea la SMA como servicio público funcionalmente descentralizado, con personalidad jurídica y patrimonio propio, supervigilado por el Presidente de la República a través del MMA. Es institución fiscalizadora (DL 3.551), afecta a Alta Dirección Pública, con domicilio en Santiago y oficinas regionales que fije el Superintendente.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 2",
+   "epigrafe": "Objeto y competencia",
+   "resumen": "La SMA ejecuta, organiza y coordina el seguimiento y la fiscalización de las RCA, de los planes de prevención y descontaminación, de las normas de calidad y de emisión y de los demás instrumentos ambientales que fije la ley. Los organismos sectoriales conservan su fiscalización en lo que no sea competencia de la SMA, pero deben seguir los criterios que esta defina.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 3",
+   "epigrafe": "Funciones y atribuciones",
+   "resumen": "Agrupa las potestades de la SMA: fiscalizar RCA, planes, normas, riles y demás instrumentos sin otro fiscalizador (a, b, n, t), pudiendo contratar terceros certificados (c); exigir datos e información y normar su entrega (d, e, f, m); suspender transitoriamente autorizaciones de la RCA o adoptar medidas urgentes ante daño grave e inminente (g, h); requerir, previo informe del SEA, el ingreso al SEIA de proyectos sin RCA, de modificaciones o de proyectos fraccionados (i, j, k) y pedir al SEA la caducidad de la RCA tras más de cinco años sin inicio de ejecución (l). También dicta directrices técnicas e instrucciones generales (ñ, s), sanciona (o), aprueba programas de cumplimiento (r), asiste a los regulados (u) y administra sistemas de acreditación, certificación de conformidad y verificación, incluidos los del art. 48 ter de la Ley 19.300 y de reducciones o absorciones de emisiones (p, v, w).",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título I, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 4",
+   "epigrafe": "Superintendente",
+   "resumen": "El Superintendente es el jefe de servicio, nombrado por el Presidente de la República conforme a la Ley 19.882. Le corresponde, entre otras materias, dirigir la SMA, crear oficinas regionales, aprobar las medidas provisionales del art. 48, aplicar sanciones, resolver recursos y rendir cuenta anual; no puede delegar las materias de las letras e) a i).",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 5",
+   "epigrafe": "Inhabilidades del Superintendente",
+   "resumen": "No puede ser Superintendente quien, por sí, su cónyuge o parientes hasta el tercer grado de consanguinidad o segundo de afinidad, participe en sociedades de inspección, verificación y análisis ambiental, o haya sido titular de proyectos calificados en el SEIA en los últimos dos años.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 6",
+   "epigrafe": "Reserva funcionaria",
+   "resumen": "Los funcionarios deben guardar reserva de los antecedentes no públicos sobre los negocios de los fiscalizados y no usarlos en beneficio propio o ajeno; la infracción se castiga según el art. 247 del Código Penal, además de la responsabilidad administrativa.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 7",
+   "epigrafe": "Oficinas regionales y separación de funciones",
+   "resumen": "Las oficinas regionales ejercen las atribuciones que les delegue el Superintendente. Fiscalización e instrucción del sancionatorio, por un lado, y aplicación de sanciones, por otro, deben radicar en unidades distintas; sancionar es atribución privativa e indelegable del Superintendente.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 8",
+   "epigrafe": "Régimen del personal y ministros de fe",
+   "resumen": "El personal se rige por esta ley y sus reglamentos y, supletoriamente, por el Estatuto Administrativo. Los fiscalizadores habilitados son ministros de fe respecto de los hechos infraccionales que consten en el acta de fiscalización, y lo que establezcan constituye presunción legal.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título I, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 9",
+   "epigrafe": "Organización interna",
+   "resumen": "El Superintendente define la organización interna dentro de la planta y dotación máxima. Hasta el 7% del personal a contrata puede ejercer funciones directivas o de jefatura; quienes sirven a honorarios quedan comprendidos en el art. 260 del Código Penal.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 10",
+   "epigrafe": "Comisiones de servicio",
+   "resumen": "El Superintendente puede pedir en comisión de servicios a funcionarios especializados de otros órganos de la administración civil del Estado, sin las limitaciones legales o reglamentarias vigentes.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 11",
+   "epigrafe": "Prohibición de prestar servicios a fiscalizados",
+   "resumen": "El personal tiene prohibición absoluta de prestar a las entidades fiscalizadas servicios distintos de los legales, directa o indirectamente; infringirla es falta grave.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 12",
+   "epigrafe": "Causales especiales de vacancia",
+   "resumen": "Además de las causales del Estatuto Administrativo, puede declararse la vacancia de cargos de carrera por necesidades de la SMA, determinadas una vez al año sobre la base de una evaluación institucional, o por calificación en lista condicional; en el primer caso procede la indemnización del art. 154 del Estatuto.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 13",
+   "epigrafe": "Dedicación exclusiva",
+   "resumen": "Directivos y profesionales de los tres primeros niveles jerárquicos deben desempeñarse con dedicación exclusiva, con excepción de la docencia (art. 8° Ley 19.863) y de la administración de su patrimonio.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 14",
+   "epigrafe": "Patrimonio",
+   "resumen": "El patrimonio se compone de los aportes de la Ley de Presupuestos y otras leyes, cooperación internacional, bienes que adquiera, herencias y legados, y el producto de publicaciones, ventas, aranceles y derechos. Sus publicaciones deben poder obtenerse gratis en el sitio web.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 15",
+   "epigrafe": "Control de Contraloría",
+   "resumen": "La SMA queda sometida a la fiscalización de la Contraloría General de la República.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título I, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 16",
+   "epigrafe": "Programas y subprogramas de fiscalización",
+   "resumen": "La SMA debe fijar cada año programas regionales de fiscalización de RCA, de planes de prevención y descontaminación y de normas de calidad y emisión, junto con subprogramas sectoriales que identifican las actividades de cada organismo competente.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 17",
+   "epigrafe": "Elaboración de los programas",
+   "resumen": "Para elaborarlos se piden a los organismos con competencia fiscalizadora informes de prioridades, que deben evacuarse en 15 días hábiles; las propuestas se consultan y el Superintendente las fija por resolución exenta, con presupuestos sectoriales e indicadores de desempeño, evitando duplicidades.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 18",
+   "epigrafe": "Publicidad de programas y resultados",
+   "resumen": "Al cierre de cada año se publican los programas y subprogramas con sus resultados por instrumento y organismo ejecutor. Las metodologías y guías de fiscalización aprobadas por la SMA son públicas.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 19",
+   "epigrafe": "Fiscalización no programada",
+   "resumen": "La fiscalización se ciñe a los programas, pero la SMA puede ordenar inspecciones no previstas ante denuncias, reclamos o cualquier noticia de incumplimiento. Los programas pueden actualizarse una vez al año por razones fundadas de eficiencia.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título II, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 20",
+   "epigrafe": "Contenido de la ejecución",
+   "resumen": "Ejecutar los programas comprende la inspección misma, el análisis de la información obtenida y la adopción de las medidas que procedan.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 21",
+   "epigrafe": "Denuncia ciudadana",
+   "resumen": "Cualquier persona puede denunciar ante la SMA incumplimientos de instrumentos y normas ambientales; la SMA debe informar el resultado en un máximo de 60 días hábiles. Si se abre un sancionatorio, el denunciante tiene la calidad de interesado.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 22",
+   "epigrafe": "Ejecución y encomendación a sectoriales",
+   "resumen": "La SMA ejecuta inspecciones, mediciones y análisis o los encomienda a los organismos sectoriales, a los que imparte directrices sobre acciones, plazos y condiciones. Debe informarles sus propias actuaciones para evitar duplicidad.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 23",
+   "epigrafe": "Deberes de los jefes de servicios sectoriales",
+   "resumen": "Los jefes de los servicios sectoriales supervisan las acciones de fiscalización y reportan periódicamente a la SMA. Sus convenios de desempeño (Ley 19.882) deben incluir obligaciones con indicadores verificables sobre estos procedimientos.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 24",
+   "epigrafe": "Entidades técnicas acreditadas",
+   "resumen": "Si una acción programada no puede realizarse por insuficiencia operativa del organismo sectorial u otra causa justificada, la SMA la encarga a entidades técnicas acreditadas o la realiza con sus propios fiscalizadores.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 25",
+   "epigrafe": "Instrucciones técnicas comunes",
+   "resumen": "Toda acción de fiscalización, sea de la SMA, de entidades acreditadas o de organismos sectoriales, debe ajustarse a las instrucciones técnicas generales de la SMA sobre protocolos, procedimientos y métodos de análisis.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 26",
+   "epigrafe": "Remisión de resultados al SNIFA",
+   "resumen": "Los resultados de inspecciones, mediciones y análisis, con un informe técnico fundado y sus conclusiones, deben remitirse una vez finalizados al Sistema Nacional de Información de Fiscalización Ambiental.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 27",
+   "epigrafe": "Programas de evaluación y certificación de conformidad",
+   "resumen": "Cuando la SMA obliga a un fiscalizado a someterse a estos programas (art. 3° letra p), puede revisar sus instalaciones; los costos de informes, muestreos y análisis son del titular y deben encargarse a entidades registradas. El certificado es prueba suficiente de cumplimiento e impide iniciar un sancionatorio por los hechos certificados. Si el programa no está previsto en norma general, exigirlo requiere un procedimiento previo con audiencia que justifique su necesidad y proporcionalidad, y no puede usarse como sustituto de la fiscalización general.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 28",
+   "epigrafe": "Deber de colaboración y facultades de inspección",
+   "resumen": "Los responsables de empresas, proyectos y fuentes deben dar todas las facilidades y no pueden negar la información requerida. Los fiscalizadores pueden ingresar a recintos, tomar muestras y levantar actas, informando la materia fiscalizada y dejando copia; ante oposición certificada pueden pedir auxilio de la fuerza pública, incluso con descerrajamiento en lugares que no sean morada. La negativa a cumplir los requerimientos es infracción gravísima.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 29",
+   "epigrafe": "Citación a declarar",
+   "resumen": "La SMA puede citar a declarar a representantes, directores, administradores, asesores y dependientes de los fiscalizados y a testigos. Contra quien no concurra sin causa justificada puede pedir a la justicia ordinaria el apremio de los arts. 93 y 94 del Código Tributario.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 30",
+   "epigrafe": "Confidencialidad",
+   "resumen": "Quienes fiscalizan deben mantener la confidencialidad de la información sobre procesos y sistemas productivos u otra sujeta a propiedad industrial o reserva; la infracción se sanciona conforme al art. 247 del Código Penal.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 31",
+   "epigrafe": "Sistema Nacional de Información de Fiscalización Ambiental (SNIFA)",
+   "resumen": "La SMA administra el SNIFA, de acceso público, que reúne las RCA con sus antecedentes y permisos ambientales sectoriales, los planes de prevención y descontaminación, las acciones de fiscalización y sus resultados, los procesos sancionatorios, dictámenes de Contraloría, sentencias y resoluciones generales en materia ambiental.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 32",
+   "epigrafe": "Entrega de información al SNIFA",
+   "resumen": "El SEA, los organismos sectoriales, los titulares de RCA y demás fiscalizados deben remitir a la SMA, sin requerimiento previo y preferentemente por medios electrónicos, las RCA, planes, permisos ambientales sectoriales, resultados de fiscalización y los datos de mediciones, análisis y pruebas exigidos por RCA, planes y normas de calidad y emisión. La SMA puede pedir antecedentes adicionales y debe mantener la información actualizada en su web, con acceso digital directo y gratuito.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título II, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 33",
+   "epigrafe": "Plataforma electrónica",
+   "resumen": "La SMA debe contar con una plataforma electrónica para administrar el SNIFA, detectar tempranamente desviaciones y mantener un historial por sujeto fiscalizado que sirva para priorizar fiscalizaciones y resolver sancionatorios.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título II, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 34",
+   "epigrafe": "Inoponibilidad del secreto o reserva",
+   "resumen": "Las normas de secreto o reserva no impiden entregar a la SMA la información que requiera para fiscalizar; su personal queda sujeto a la misma reserva.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título II, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 35",
+   "epigrafe": "Catálogo de infracciones",
+   "resumen": "Reserva exclusivamente a la SMA la potestad sancionadora por: a) incumplir la RCA; b) ejecutar sin RCA o desoír los requerimientos de ingreso del art. 3° i), j) y k); c) incumplir planes de prevención o descontaminación y normas de calidad y emisión; d) incumplimientos de entidades técnicas acreditadas; e) normas e instrucciones generales de la SMA; f) medidas urgentes del art. 3° g) y h); g) normativa de riles; h) normas de emisión, incluidas las de gases de efecto invernadero; j) requerimientos de información; k) planes de manejo de la Ley 19.300; l) medidas provisionales del art. 48; m) deber de informar para el registro del art. 70 p) de la Ley 19.300; y n) toda otra norma ambiental sin sanción específica. La letra i) está suprimida.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 36",
+   "epigrafe": "Clasificación de las infracciones",
+   "resumen": "Son gravísimas las que causan daño ambiental no reparable, afectan gravemente la salud, obstaculizan deliberadamente un plan, entregan información falsa u ocultan antecedentes para encubrir una gravísima, impiden deliberadamente la fiscalización, eluden el SEIA con efectos del art. 11 de la Ley 19.300 o reiteran infracciones graves. Son graves las de daño reparable, riesgo significativo para la salud, afectación negativa de un plan, elusión sin efectos del art. 11, incumplimiento grave de medidas de la RCA, desacato de instrucciones o medidas urgentes, negativa a entregar información, reiteración persistente de una leve o ejecución sin autorización dentro de áreas silvestres protegidas del Estado. Son leves las demás contravenciones.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 37",
+   "epigrafe": "Prescripción de las infracciones",
+   "resumen": "Las infracciones prescriben a los tres años de cometidas; el plazo se interrumpe con la notificación de la formulación de cargos.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 37 bis",
+   "epigrafe": "Delitos de información falsa y fraccionamiento",
+   "resumen": "Sin perjuicio de la sanción administrativa, impone presidio menor (grados mínimo a medio) más multa de entre 100 y 1.000 UTM a quien maliciosamente: presente en la evaluación información que oculte o aminore impactos de modo que pueda llevar a aprobar incorrectamente la RCA; fraccione proyectos para eludir el SEIA o variar la vía de ingreso; o entregue a la SMA información falsa o incompleta para acreditar cumplimiento de RCA, normas de emisión, planes o programas de cumplimiento.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 37 ter",
+   "epigrafe": "Delitos de incumplimiento de clausura y obstrucción",
+   "resumen": "Castiga con presidio menor en su grado mínimo y multa de 50 a 500 UTM a quien incumpla una clausura impuesta por la SMA o las medidas provisionales de las letras b), c), d) y e) del art. 48, y a quien impida u obstaculice significativamente la fiscalización.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 38",
+   "epigrafe": "Tipos de sanción",
+   "resumen": "Las sanciones posibles son amonestación escrita, multa de 1 a 10.000 UTA, clausura temporal o definitiva y revocación de la RCA.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 39",
+   "epigrafe": "Rangos según gravedad",
+   "resumen": "Gravísimas: revocación de la RCA, clausura o multa de hasta 10.000 UTA. Graves: revocación de la RCA, clausura o multa de hasta 5.000 UTA. Leves: amonestación escrita o multa de 1 a 1.000 UTA.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 40",
+   "epigrafe": "Circunstancias para determinar la sanción",
+   "resumen": "La sanción específica pondera la importancia del daño o peligro, el número de personas cuya salud pudo afectarse, el beneficio económico, la intencionalidad y grado de participación, la conducta anterior, la capacidad económica, el cumplimiento del programa de cumplimiento, el detrimento de un área silvestre protegida del Estado y cualquier otro criterio fundado de la SMA.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 41",
+   "epigrafe": "Autodenuncia",
+   "resumen": "La SMA debe eximir de la multa a quien se autodenuncie por primera vez, siempre que ejecute íntegramente el programa de cumplimiento del art. 42; la segunda y tercera vez la rebaja es de hasta 75% y 50%. Exige información precisa, verídica y comprobable, cesar de inmediato los hechos y adoptar medidas para reducir o eliminar sus efectos; no produce efecto si la SMA ya había iniciado la investigación de los mismos hechos.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 42",
+   "epigrafe": "Programa de cumplimiento",
+   "resumen": "Iniciado el sancionatorio, el infractor tiene 10 días desde el acto que lo incoa para presentar un plan de acciones y metas que lo lleve a cumplir en el plazo que fije la SMA. No pueden usarlo quienes se acogieron a programas de gradualidad, fueron sancionados antes por infracciones gravísimas o ya presentaron un programa, salvo por infracciones leves. Aprobado, suspende el procedimiento; cumplido, lo concluye; incumplido, se reinicia y puede aplicarse hasta el doble de la multa original, salvo autodenuncia. Su presentación y duración interrumpen la prescripción del art. 37.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 43",
+   "epigrafe": "Plan de reparación",
+   "resumen": "Notificada la resolución que termina el sancionatorio, el infractor puede proponer voluntariamente a la SMA un plan de reparación respaldado por un estudio técnico ambiental; el SEA se pronuncia sobre sus aspectos técnicos y la SMA lo aprueba y fiscaliza, a costo del infractor. Durante su ejecución se suspende la prescripción de la acción por daño ambiental, que se extingue si el plan se cumple satisfactoriamente; si hay daño y no se presenta plan, debe ejercerse la acción ante el Tribunal Ambiental.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 44",
+   "epigrafe": "Prescripción de las sanciones",
+   "resumen": "Las sanciones prescriben a los tres años desde que la resolución sancionatoria queda firme; el plazo se interrumpe con la notificación del procedimiento de ejecución o de cargos por incumplimiento.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 45",
+   "epigrafe": "Pago de multas",
+   "resumen": "Las resoluciones que aplican multa tienen mérito ejecutivo. La multa es a beneficio fiscal y se paga en Tesorería dentro de 10 días desde la notificación, sin perjuicio del art. 56, acreditándose el pago ante la SMA en los 10 días siguientes; los representantes de una persona jurídica responden subsidiariamente.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 46",
+   "epigrafe": "Reajustes e intereses",
+   "resumen": "El retardo en el pago de las multas devenga los reajustes e intereses del art. 53 del Código Tributario.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 47",
+   "epigrafe": "Inicio del procedimiento sancionatorio",
+   "resumen": "El sancionatorio se inicia de oficio, a petición del órgano sectorial (sobre la base de sus informes de fiscalización) o por denuncia. La denuncia debe ser escrita, firmada, con individualización del denunciante y descripción de hechos, lugar y fecha; si es seria y tiene mérito origina el procedimiento, y si no, puede dar lugar a fiscalización o archivarse por resolución fundada notificada al interesado.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 48",
+   "epigrafe": "Medidas provisionales",
+   "resumen": "Para evitar daño inminente al medio ambiente o a la salud, el instructor puede pedir al Superintendente: a) medidas de corrección, seguridad o control; b) sellado de equipos; c) clausura temporal, parcial o total; d) detención del funcionamiento; e) suspensión temporal de la RCA; f) programas de monitoreo a cargo del infractor. Pueden dictarse antes del procedimiento con fines cautelares (art. 32 Ley 19.880), deben ser proporcionales y duran hasta 30 días corridos, renovables por resolución fundada. Las de las letras c), d) y e), y las suspensiones del art. 3° g) y h), requieren autorización previa del Tribunal Ambiental.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 49",
+   "epigrafe": "Instrucción y formulación de cargos",
+   "resumen": "Un funcionario instructor inicia el procedimiento con una formulación precisa de cargos, notificada por carta certificada, que describe los hechos y su fecha, la norma o condición infringida, la disposición que tipifica la infracción y la sanción asignada. El presunto infractor tiene 15 días para presentar descargos.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 50",
+   "epigrafe": "Prueba y diligencias",
+   "resumen": "Recibidos los descargos o vencido el plazo, la SMA examina los antecedentes y puede ordenar pericias, inspecciones y otras pruebas. Debe acoger las diligencias pertinentes y conducentes que pida el presunto infractor, o rechazarlas por resolución motivada.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 51",
+   "epigrafe": "Medios de prueba y valoración",
+   "resumen": "Los hechos y responsabilidades pueden acreditarse por cualquier medio admisible, apreciado según la sana crítica. Lo constatado por los ministros de fe y formalizado en el expediente tiene el valor del art. 8°, sin perjuicio de otras pruebas.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 52",
+   "epigrafe": "Informes de organismos sectoriales",
+   "resumen": "Terminadas las diligencias, la SMA puede pedir informes a otros organismos sectoriales con competencia ambiental para ilustrar su resolución.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 53",
+   "epigrafe": "Dictamen del instructor",
+   "resumen": "Cumplidos los trámites, el instructor emite dentro de cinco días un dictamen que individualiza a los infractores, relata los hechos y su comprobación y propone al Superintendente la sanción o la absolución.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 54",
+   "epigrafe": "Resolución final",
+   "resumen": "El Superintendente resuelve en 10 días, por resolución fundada, absolviendo o sancionando; puede ordenar nuevas diligencias o corregir vicios, con audiencia del investigado. Nadie puede ser sancionado por hechos que no fueron objeto de cargos.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 55",
+   "epigrafe": "Reposición",
+   "resumen": "Contra las resoluciones sancionatorias procede reposición dentro de cinco días hábiles desde el día siguiente a la notificación, que la SMA debe resolver en 30 días hábiles. Su interposición suspende el plazo para reclamar de ilegalidad.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 56",
+   "epigrafe": "Reclamación ante el Tribunal Ambiental",
+   "resumen": "Los afectados pueden reclamar de las resoluciones de la SMA ante el Tribunal Ambiental dentro de 15 días hábiles desde la notificación. Las multas son siempre reclamables y no son exigibles mientras penda el plazo o la reclamación. Si el infractor no reclama y paga dentro de cinco días hábiles desde la notificación, la multa se reduce en 25%.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 57",
+   "epigrafe": "Consulta obligatoria de clausura y revocación",
+   "resumen": "Las resoluciones que apliquen clausura o revocación de la RCA (art. 38 letras c y d) deben elevarse siempre en consulta al Tribunal Ambiental.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 58",
+   "epigrafe": "Registro público de sanciones",
+   "resumen": "La SMA debe llevar un registro público de sanciones con la identidad de los responsables y la naturaleza de infracciones y sanciones, consultable también por vía electrónica; un reglamento regula su elaboración y actualización.",
+   "obliga_titular": true,
+   "titulo": "LOSMA, Título III, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 59",
+   "epigrafe": "Exclusión de procedimientos sectoriales paralelos",
+   "resumen": "Iniciado un sancionatorio de la SMA, ningún organismo sectorial puede abrir otro por los mismos hechos ni denunciarlos a la justicia civil, salvo que la SMA se declare incompetente. Los sectoriales deben denunciar a la SMA las infracciones que conozcan, y esta puede pedirles que se declaren incompetentes y le remitan los antecedentes.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 60",
+   "epigrafe": "Concurso de sanciones y non bis in idem",
+   "resumen": "Si por los mismos hechos y fundamentos cabe sancionar conforme a esta y otras leyes, se impone la sanción de mayor gravedad; en ningún caso proceden dos o más sanciones administrativas.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 61",
+   "epigrafe": "Competencias de la SISS",
+   "resumen": "La ley no altera las facultades que la Ley 18.902 da a la Superintendencia de Servicios Sanitarios sobre los servicios de agua potable y alcantarillado prestados por concesionarias sanitarias.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "LOSMA 62",
+   "epigrafe": "Supletoriedad de la Ley 19.880",
+   "resumen": "En lo no previsto rige supletoriamente la Ley 19.880.",
+   "obliga_titular": false,
+   "titulo": "LOSMA, Título III, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "tercero",
+   "epigrafe": "Ley General de Pesca y Acuicultura",
+   "resumen": "Modifica el DS 430/1992 (Ley 18.892): los parques y reservas marinos se declaran por decreto del MMA; la determinación del art. 48 letra d) se hace por decreto firmado por los ministros del Medio Ambiente y de Economía; y en el art. 87 se suma al MMA junto a Economía.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "cuarto",
+   "epigrafe": "Santuarios de la naturaleza (Ley 17.288)",
+   "resumen": "Modifica el art. 31 de la Ley 17.288 sobre Monumentos Nacionales: sustituye menciones al Consejo de Monumentos Nacionales y al Ministerio de Agricultura por el MMA (y \"Consejo\" por \"Servicio\" en dos incisos) y exige informe previo del Consejo de Monumentos Nacionales para declarar un santuario de la naturaleza.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "quinto",
+   "epigrafe": "Bienes del Estado (DL 1.939)",
+   "resumen": "Modifica los arts. 16 y 21 del DL 1.939 de 1977 para incorporar el informe previo o la intervención del MMA, junto al Ministerio de Agricultura, según corresponda.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "sexto",
+   "epigrafe": "Unidad municipal de medio ambiente (Ley 18.695)",
+   "resumen": "Modifica el art. 25 de la LOC de Municipalidades: agrega \"medio ambiente\" a la unidad de aseo y ornato y le asigna proponer y ejecutar medidas y programas ambientales, aplicar las normas ambientales de competencia comunal y elaborar el anteproyecto de ordenanza ambiental, para cuya aprobación el concejo puede pedir informe técnico al MMA.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "séptimo",
+   "epigrafe": "Ministerio de Agricultura (DFL 294)",
+   "resumen": "Reemplaza en el art. 1° del DFL 294 de 1960 la referencia amplia a conservar, proteger y acrecentar los recursos naturales renovables por una acotada a la protección de los del ámbito silvoagropecuario, sin perjuicio de las atribuciones del MMA.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "octavo",
+   "epigrafe": "Caudal ecológico mínimo (Código de Aguas)",
+   "resumen": "Modifica el art. 129 bis 1 del Código de Aguas: un reglamento firmado por los ministros del Medio Ambiente y de Obras Públicas fijará los criterios del caudal ecológico mínimo, y el informe que antes emitía la COREMA o la CONAMA pasa al MMA.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "noveno",
+   "epigrafe": "Riles y SISS (Ley 18.902)",
+   "resumen": "Acota en el art. 2° de la Ley 18.902 el control de residuos líquidos industriales de la Superintendencia de Servicios Sanitarios a los vinculados a las prestaciones o servicios de las empresas sanitarias.",
+   "obliga_titular": false,
+   "titulo": "Artículos de la ley",
+   "derogado": false
+  },
+  {
+   "num": "primero transitorio",
+   "epigrafe": "Vigencia del SINIA, informe ambiental y proyectos en trámite",
+   "resumen": "El Sistema Nacional de Información Ambiental (art. 31 ter de la Ley 19.300) rige a los dos años de publicada la ley y el primer informe sobre el estado del medio ambiente debe hacerse en igual plazo. Los proyectos ingresados al SEIA antes de la publicación se tramitan y aprueban según las normas vigentes a su ingreso.",
+   "obliga_titular": true,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "segundo transitorio",
+   "epigrafe": "Delegación para plantas y traspaso de CONAMA",
+   "resumen": "Faculta al Presidente de la República para fijar por DFL las plantas del MMA, el SEA y la SMA, el régimen de remuneraciones de esta última, el traspaso sin solución de continuidad del personal, recursos y bienes de la CONAMA, y las fechas de inicio de actividades y de supresión de la CONAMA, con resguardos de empleo, remuneraciones, previsión y residencia del personal traspasado.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "tercero transitorio",
+   "epigrafe": "Sucesión legal de la CONAMA",
+   "resumen": "El MMA y el SEA son los sucesores legales de la CONAMA en las materias de su competencia; las menciones legales a esta se entienden hechas a uno u otro según corresponda.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "cuarto transitorio",
+   "epigrafe": "Financiamiento",
+   "resumen": "El mayor gasto de las nuevas plantas y encasillamientos no puede exceder de M$2.100.000 en año completo, reajustable. La implementación del MMA y el SEA se financia inicialmente con los recursos de la Partida 22, capítulo 02, y el mayor gasto con cargo al Tesoro Público.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "quinto transitorio",
+   "epigrafe": "Primer Superintendente",
+   "resumen": "El Presidente de la República nombra transitoria y provisionalmente al Superintendente, conforme a la Ley 19.882, mientras se realiza el concurso de Alta Dirección Pública.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "sexto transitorio",
+   "epigrafe": "Primer presupuesto",
+   "resumen": "Por decreto del Ministerio de Hacienda se conforma el primer presupuesto del MMA, el SEA y la SMA y se les transfieren los fondos de la entidad que traspase personal o bienes.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "séptimo transitorio",
+   "epigrafe": "Procedimientos en curso",
+   "resumen": "Las fiscalizaciones y sancionatorios iniciados antes de la vigencia de la ley continúan tramitándose conforme a sus normas hasta su término.",
+   "obliga_titular": true,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "octavo transitorio",
+   "epigrafe": "Mandato sobre el SBAP y CONAF",
+   "resumen": "Dentro de un año desde la publicación, el Presidente de la República debe enviar al Congreso uno o más proyectos de ley que creen el Servicio de Biodiversidad y Áreas Protegidas y transformen a la Corporación Nacional Forestal en servicio público descentralizado, resguardando los derechos de sus trabajadores.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "noveno transitorio",
+   "epigrafe": "Vigencia diferida de la fiscalización y sanción de la SMA",
+   "resumen": "Los Títulos II (salvo su párrafo 3°) y III de la LOSMA entran en vigencia el día en que comience a funcionar el Segundo Tribunal Ambiental.",
+   "obliga_titular": true,
+   "titulo": "Transitorios",
+   "derogado": false
+  },
+  {
+   "num": "décimo transitorio",
+   "epigrafe": "Competencia judicial transitoria",
+   "resumen": "Mientras no funcione el Tribunal Ambiental, las materias contenciosas de la Ley 19.300 siguen a cargo del juez de letras en lo civil que corresponda.",
+   "obliga_titular": false,
+   "titulo": "Transitorios",
+   "derogado": false
+  }
+ ],
+ "estructura": [
+  {
+   "titulo": "Título I",
+   "nombre": "De la Superintendencia del Medio Ambiente",
+   "arts": "1–15",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "De la Naturaleza y Funciones",
+     "arts": "1–3"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De la organización",
+     "arts": "4–7"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Del Personal",
+     "arts": "8–13"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "Del patrimonio",
+     "arts": "14–15"
+    }
+   ]
+  },
+  {
+   "titulo": "Título II",
+   "nombre": "De la Fiscalización Ambiental",
+   "arts": "16–34",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "De la Fiscalización Ambiental",
+     "arts": "16–21"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De las inspecciones, mediciones y análisis",
+     "arts": "22–30"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Del Sistema Nacional de Información de Fiscalización Ambiental",
+     "arts": "31–34"
+    }
+   ]
+  },
+  {
+   "titulo": "Título III",
+   "nombre": "De las Infracciones y Sanciones",
+   "arts": "35–62",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "De las infracciones",
+     "arts": "35–37 ter"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De las sanciones",
+     "arts": "38–46"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Del procedimiento sancionatorio",
+     "arts": "47–54"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "De los recursos",
+     "arts": "55–57"
+    },
+    {
+     "parrafo": "Párrafo 5°",
+     "nombre": "Normas generales",
+     "arts": "58–62"
+    }
+   ]
+  }
+ ]
+}

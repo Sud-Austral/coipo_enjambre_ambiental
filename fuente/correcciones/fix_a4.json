@@ -1,0 +1,213 @@
+{
+ "efecto_seia": [
+  {
+   "cond": "pueblos-indigenas",
+   "accion": "corregir",
+   "norma": "ds-40-2012-mma",
+   "art_actual": "7",
+   "art": "7",
+   "texto": "El traslado y reubicación de grupos indígenas exige, como regla, su consentimiento libre e informado; si este no se logra y hay causa legal, solo procede tras procedimientos adecuados en que esos grupos estén efectivamente representados. Además se pondera la alteración de sus formas de organización social."
+  },
+  {
+   "cond": "pueblos-indigenas",
+   "accion": "corregir",
+   "norma": "ds-40-2012-mma",
+   "art_actual": "5, 6, 9 y 10 (incisos finales)",
+   "art": "5, 6 y 9 (incisos sobre pueblos indígenas); 10 letras b) y c)",
+   "texto": "Si el riesgo para la salud, el efecto adverso sobre recursos naturales o la alteración del paisaje o del turismo recae en grupos indígenas o en lugares con su presencia, el proyecto se entiende susceptible de afectarlos conforme al art. 8. El art. 10 no trae esa regla: incluye el patrimonio cultural indígena y los sitios de manifestaciones culturales entre lo que se evalúa."
+  },
+  {
+   "cond": "cielos-ruido",
+   "accion": "corregir",
+   "norma": "ds-40-2012-mma",
+   "art_actual": "7 letra c) y 9",
+   "art": "5 y 7",
+   "texto": "Los arts. 5 a 10 no nombran los olores. Se evalúan como emisiones que pueden generar riesgo para la salud de la población (art. 5) o efectos adversos sobre la calidad de vida de grupos humanos (art. 7), con apoyo en las normas de emisión de olor sectoriales del catálogo."
+  }
+ ],
+ "normas": [
+  {
+   "cond": "zona-saturada",
+   "id": "ds-12-2011-mma",
+   "accion": "corregir",
+   "art_actual": "3, 4 y 9",
+   "fuerza": "segun_caso",
+   "art": "3, 4 y 9",
+   "motivo": "Norma primaria de MP2,5: fija los valores anual y de 24 horas, define cuándo se entiende sobrepasada y remite las medidas de episodios críticos al plan de la zona.",
+   "razon_auditoria": "El motivo afirmaba que su superación sustenta 'la mayoría' de las declaraciones de zona; ningún artículo leído contiene ese dato."
+  },
+  {
+   "cond": "zona-saturada",
+   "id": "ds-12-2025-mma",
+   "accion": "corregir",
+   "art_actual": "39 y 41",
+   "fuerza": "segun_caso",
+   "art": "1, 39 y 41",
+   "motivo": "Cuenca del lago Villarrica, saturada por clorofila a, transparencia y fósforo disuelto: los proyectos del SEIA cuyo aumento de emisiones alcance el umbral de 58 kg de fósforo del art. 39 compensan el 120%, con programa a presentar dentro de 60 días hábiles desde la RCA.",
+   "razon_auditoria": "El art. 39 exige un umbral (58 kg de fósforo) que el motivo omitía; el art. 1 identifica tres parámetros de saturación, no solo fósforo. La unidad temporal del umbral no se pudo leer completa en el XML."
+  },
+  {
+   "cond": "humedal",
+   "id": "ley-21600",
+   "accion": "corregir",
+   "art_actual": "41, 37 y 29",
+   "fuerza": "segun_caso",
+   "art": "29, 37 y 41",
+   "motivo": "Depende del tipo de humedal: si es sitio prioritario, su alteración física está prohibida; si está en el inventario, requiere permiso previo del SBAP; si es sitio Ramsar, debe quedar acogido a una categoría de área protegida.",
+   "razon_auditoria": "El art. 41 solo alcanza a humedales que sean sitio prioritario o estén inventariados y a su alteración física; el art. 37 solo a sitios Ramsar. No se activa con cualquier humedal, por lo que 'siempre' es excesivo."
+  },
+  {
+   "cond": "humedal",
+   "id": "codigo-penal",
+   "accion": "corregir",
+   "art_actual": "308 y 310",
+   "fuerza": "segun_caso",
+   "art": "305 N° 4, 308 y 310",
+   "motivo": "Es delito verter tierras u otros sólidos en un humedal eludiendo a sabiendas la evaluación ambiental; la afectación grave por esa vía se castiga con pena mayor, igual que la de un humedal de importancia internacional.",
+   "razon_auditoria": "El art. 308 no sanciona toda afectación grave de humedales, sino la causada vertiendo tierras u otros sólidos; faltaba el art. 305 N° 4, que tipifica la conducta base."
+  },
+  {
+   "cond": "pueblos-indigenas",
+   "id": "trat-convenio-169-oit",
+   "accion": "corregir",
+   "art_actual": "6 N° 1 letra a) y N° 2 (ejecutado por el art. 8 del DS 66/2013 y el art. 85 del DS 40/2012)",
+   "fuerza": "segun_caso",
+   "art": "6 N° 1 letra a) y N° 2 (ejecutado por el art. 8 del DS 66/2013 y el art. 85 del DS 40/2012)",
+   "motivo": "La consulta procede en el SEIA solo cuando el proyecto genera los efectos de los arts. 7, 8 o 10 del DS 40/2012 con afectación directa a grupos indígenas; la sola cercanía da lugar a las reuniones del art. 86.",
+   "razon_auditoria": "El art. 85 del DS 40/2012 y el art. 8 del DS 66/2013 condicionan la consulta a efectos significativos con afectación directa; marcar la condición no basta. El texto del Convenio no está en el XML de BCN (solo el decreto promulgatorio): artículo no verificado."
+  },
+  {
+   "cond": "pueblos-indigenas",
+   "id": "ds-66-2013-mds",
+   "accion": "corregir",
+   "art_actual": "8 y 16",
+   "fuerza": "segun_caso",
+   "art": "8 y 16",
+   "motivo": "Si el proyecto requiere consulta indígena según la Ley 19.300 y su reglamento, esta se hace con las reglas y plazos del SEIA, respetando las etapas del art. 16; el SEA puede pedir asistencia técnica a CONADI.",
+   "razon_auditoria": "El art. 8 se aplica a los proyectos 'que requieran' consulta conforme a la normativa del SEIA; no opera por la sola cercanía a comunidades."
+  },
+  {
+   "cond": "bosque-nativo",
+   "id": "ley-21600",
+   "accion": "corregir",
+   "art_actual": "42 a 45; 145 a 154",
+   "fuerza": "segun_caso",
+   "art": "42 a 44; 150",
+   "motivo": "Planes de recuperación, conservación y gestión de especies clasificadas, declaración de especies como monumento natural y, por la modificación al art. 19 de la Ley 20.283, informe favorable del SBAP para intervenir especies amenazadas.",
+   "razon_auditoria": "El rango 145 a 154 abarca modificaciones a leyes ajenas (Ley 20.417, DL 1.939, pesca, caza, turismo, Código de Minería); solo el art. 150 modifica la Ley 20.283. El art. 45 trata de especies exóticas invasoras, no de bosque nativo."
+  },
+  {
+   "cond": "bosque-nativo",
+   "id": "ds-29-2011-mma",
+   "accion": "corregir",
+   "art_actual": "5",
+   "fuerza": "segun_caso",
+   "art": "5",
+   "motivo": "Fija las categorías de conservación con que se clasifican las especies; de ellas, en peligro crítico, en peligro y vulnerable activan la prohibición del art. 19 de la Ley 20.283.",
+   "razon_auditoria": "La frase sobre su aplicación 'mientras no se dicte el nuevo reglamento' no tiene respaldo en el art. 5 ni en los transitorios de la Ley 21.600 leídos."
+  },
+  {
+   "cond": "bosque-nativo",
+   "id": "ley-20283",
+   "accion": "corregir",
+   "art_actual": "17",
+   "fuerza": "segun_caso",
+   "art": "2 N° 4 y 17",
+   "motivo": "Es bosque nativo de preservación el que alberga especies amenazadas, el de ambientes únicos o representativos y el situado en áreas protegidas (base del PAS 152); además se prohíbe intervenir árboles y arbustos nativos a menos de 500 m de glaciares.",
+   "razon_auditoria": "El PAS 152 figura en la condición, pero su norma fundante (art. 2 N° 4) no estaba citada."
+  },
+  {
+   "cond": "patrimonio",
+   "id": "ley-17288",
+   "accion": "corregir",
+   "art_actual": "11, 12, 30 y 26 bis",
+   "fuerza": "segun_caso",
+   "art": "11, 12, 30 y 26 bis",
+   "motivo": "Autorización previa del Consejo para intervenir monumentos históricos, construir en sus alrededores u obrar en zonas típicas. Aparte, el art. 26 bis libera de autorización las intervenciones menores sobre patrimonio arqueológico o paleontológico, según criterios que fijará un reglamento; nunca si hay restos humanos.",
+   "razon_auditoria": "El motivo vinculaba la exención de intervenciones menores a monumentos históricos y zonas típicas; el art. 26 bis se refiere al patrimonio arqueológico, antropológico o paleontológico."
+  },
+  {
+   "cond": "cauces-aguas",
+   "id": "dfl-1122-1981",
+   "accion": "corregir",
+   "art_actual": "294; 58 y 63; 47; 56 bis; 5 bis",
+   "fuerza": "segun_caso",
+   "art": "294; 58 y 63; 47; 56 bis; 66 bis; 5 bis",
+   "motivo": "Obras hidráulicas mayores, exploración y zonas de prohibición en acuíferos que alimentan vegas y bofedales, sistemas de drenaje, aguas halladas en labores mineras, recarga artificial de acuíferos y prioridad del consumo humano.",
+   "razon_auditoria": "El PAS 158 (recarga artificial) figura en la condición sin su base legal: el reglamento cita el art. 66, pero en el Código vigente la recarga está en el art. 66 bis."
+  },
+  {
+   "cond": "suelo-rural",
+   "id": "ds-47-1992-minvu",
+   "accion": "corregir",
+   "art_actual": "2.1.29",
+   "fuerza": "segun_caso",
+   "art": "2.1.29 y 4.14.2",
+   "motivo": "Define el uso de suelo infraestructura y dispone que la SEREMI de Salud califique caso a caso los establecimientos industriales o de bodegaje (base del PAS 161).",
+   "razon_auditoria": "El PAS 161 figura en la condición, pero el art. 4.14.2 que lo funda no estaba citado."
+  },
+  {
+   "cond": "area-protegida",
+   "id": "ley-20283",
+   "accion": "agregar",
+   "fuerza": "segun_caso",
+   "art": "2 N° 4",
+   "motivo": "Si el área contiene bosque nativo: todo bosque situado dentro del Sistema Nacional de Áreas Protegidas se considera de preservación y solo admite manejo para resguardar la diversidad biológica (base del PAS 152).",
+   "razon_auditoria": "Omisión: el PAS 152 está listado en la condición sin su norma fundante."
+  },
+  {
+   "cond": "area-protegida",
+   "id": "ds-93-2008-minagri",
+   "accion": "agregar",
+   "fuerza": "segun_caso",
+   "art": "4",
+   "motivo": "Intervenir un bosque de preservación obliga a contar antes con un plan de manejo de preservación aprobado.",
+   "razon_auditoria": "Omisión: segunda norma fundante del PAS 152 según el art. 152 del DS 40/2012."
+  },
+  {
+   "cond": "glaciares-turberas-fauna",
+   "id": "codigo-penal",
+   "accion": "agregar",
+   "fuerza": "segun_caso",
+   "art": "310",
+   "motivo": "Si hay glaciar: es delito afectarlo gravemente infringiendo la RCA o sin haberse sometido a evaluación ambiental estando obligado; también se castiga la comisión imprudente.",
+   "razon_auditoria": "Omisión: la condición cubre glaciares y el catálogo contiene el tipo penal específico (inciso segundo del art. 310)."
+  }
+ ],
+ "pas": [
+  {
+   "cond": "bosque-nativo",
+   "art": 148,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Corta de bosque nativo necesaria para ejecutar el proyecto, en cualquier tipo de terreno; no aplica a los proyectos de explotación forestal del literal m.1 del art. 3 ni cuando solo hay formaciones xerofíticas (PAS 151).",
+   "razon_auditoria": "El art. 148 del DS 40/2012 excluye los proyectos del literal m.1; 'cualquiera sea la superficie' no está en el art. 148 ni en el art. 5 de la Ley 20.283 (que dice tipo de terreno). La condición también se marca por xerofíticas o especies clasificadas, casos en que este permiso no opera."
+  },
+  {
+   "cond": "suelo-rural",
+   "art": 160,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Construcciones industriales, de equipamiento, turismo y poblaciones fuera del límite urbano, o subdivisión y urbanización rural para los fines del art. 55 de la LGUC; no alcanza a las obras necesarias para la explotación agrícola del predio ni a las viviendas del propietario y sus trabajadores.",
+   "razon_auditoria": "El art. 160 del DS 40/2012 enumera destinos específicos y el art. 55 de la LGUC exceptúa las construcciones agrícolas y la vivienda del propietario; no se gatilla con cualquier construcción rural."
+  },
+  {
+   "cond": "borde-costero",
+   "art": 119,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Pesca de investigación necesaria para el seguimiento de poblaciones de especies hidrobiológicas.",
+   "razon_auditoria": "El art. 119 del DS 40/2012 la circunscribe al seguimiento de poblaciones; 'habitual en líneas de base' no consta en el texto."
+  }
+ ],
+ "planes_por_zona": [
+  {
+   "id": "ds-12-2025-mma",
+   "accion": "corregir",
+   "territorio": "Cuenca del lago Villarrica (Región de La Araucanía)",
+   "contaminantes": "clorofila a, transparencia y fósforo disuelto (norma secundaria del lago)",
+   "razon_auditoria": "Territorio correcto; el título oficial y el art. 1 identifican tres parámetros de saturación, no solo fósforo."
+  }
+ ],
+ "organismos": []
+}

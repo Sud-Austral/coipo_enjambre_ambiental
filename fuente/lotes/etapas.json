@@ -1,0 +1,2312 @@
+{
+ "normas": {
+  "codigo-penal": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "diseno": "art. 305: es delito verter, emitir o extraer sabiendo que el proyecto debía evaluarse y no se sometió al SEIA",
+    "operacion": "art. 306: pena a quien, ya sancionado administrativamente, vuelve a contravenir normas de emisión, planes o su RCA",
+    "cierre": "art. 312: el tribunal puede imponer al condenado medidas para evitar o reparar el daño ambiental"
+   }
+  },
+  "ds-4363-1931-mintierras": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 5: veda la corta de árboles y arbustos nativos junto a manantiales y en pendientes superiores a 45%",
+    "operacion": "arts. 17 y 22: el uso del fuego en faenas exige permiso y su empleo ilegal tiene sanción penal"
+   }
+  },
+  "ley-11402": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 11: sacar ripio o arena de un cauce requiere permiso municipal con informe previo de Obras Públicas",
+    "operacion": "art. 11: el mismo permiso ampara la extracción continua de áridos"
+   }
+  },
+  "dfl-340-1960": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "art. 2: el uso particular de playa, fondo de mar o porciones de agua solo se obtiene por concesión del Ministerio de Defensa"
+   }
+  },
+  "ds-144-1961-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 1: toda emanación del establecimiento debe captarse o eliminarse para no causar daños o molestias"
+   }
+  },
+  "trat-tratado-antartico": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-convencion-washington": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "art. III: los parques nacionales son intangibles y sus riquezas no se explotan comercialmente, lo que condiciona la localización"
+   }
+  },
+  "dfl-725-1967": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "arts. 71 y 79: las obras de agua potable, alcantarillado, riles y plantas de basuras requieren proyecto aprobado por la autoridad sanitaria",
+    "operacion": "arts. 73 y 80: prohíbe descargas a aguas de uso humano o de riego y sujeta a autorización y vigilancia los sitios de residuos"
+   }
+  },
+  "ley-17288": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion"
+   ],
+   "sustento": {
+    "diseno": "art. 22: las excavaciones arqueológicas o paleontológicas requieren autorización previa del CMN",
+    "construccion": "arts. 26 y 30: ante un hallazgo hay que avisar y resguardarlo; construir en zona típica exige autorización"
+   }
+  },
+  "dl-701-1974": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 21: antes de cortar bosque nativo o plantaciones en terrenos forestales se necesita plan de manejo aprobado por CONAF",
+    "operacion": "arts. 22 y 17: obliga a reforestar al menos la superficie cortada y multa el incumplimiento del plan"
+   }
+  },
+  "trat-cites": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. III y IV: el comercio de especímenes de los Apéndices I y II exige permisos de exportación o importación"
+   }
+  },
+  "dfl-458-1975": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion"
+   ],
+   "sustento": {
+    "diseno": "art. 55: fuera del límite urbano no se puede construir ni subdividir salvo las excepciones con informe favorable",
+    "construccion": "art. 116: toda construcción, ampliación o demolición requiere permiso de la Dirección de Obras Municipales"
+   }
+  },
+  "ds-490-1976-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "art. segundo: la corta de alerce está prohibida salvo autorización expresa y fundada de CONAF"
+   }
+  },
+  "trat-convenio-londres": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. IV: verter al mar materiales como los de dragado exige permiso previo y solo para materias admitidas",
+    "operacion": "art. IV y Protocolo 1996 art. 4: todo vertimiento posterior queda prohibido salvo desechos listados y con permiso"
+   }
+  },
+  "dl-2222-1978": {
+   "rol": "directa",
+   "etapas": [
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "operacion": "art. 142: prohibición absoluta de arrojar o derramar materias nocivas en aguas de jurisdicción nacional",
+    "cierre": "arts. 144 y 147: responsabilidad civil por derrames; el dueño de la instalación terrestre responde siempre del daño"
+   }
+  },
+  "trat-patrimonio-mundial": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "dl-3516-1980": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "art. 1: la subdivisión de predios rústicos tiene lote mínimo y no puede derivar en uso urbano"
+   }
+  },
+  "dl-3557-1980": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 11: los establecimientos industriales y mineros deben adoptar medidas técnicas para no contaminar la agricultura"
+   }
+  },
+  "dfl-1122-1981": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "arts. 58 y 129 bis 1: la exploración de aguas subterráneas es restringida y los derechos se constituyen con caudal ecológico",
+    "construccion": "arts. 41, 171 y 294: modificaciones de cauce y obras hidráulicas mayores requieren aprobación previa de la DGA",
+    "operacion": "arts. 56 bis, 129 bis 2 y 173: informar aguas halladas en labores mineras; la DGA puede paralizar obras y multar"
+   }
+  },
+  "trat-ramsar": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-cms": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-18248": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "art. 15: en terrenos que no sean abiertos e incultos se necesita permiso escrito del dueño para catar y cavar",
+    "construccion": "art. 17: ejecutar labores mineras en los lugares que enumera exige permiso escrito de la autoridad respectiva",
+    "operacion": "art. 142: la concesión se mantiene con el pago de una patente anual"
+   }
+  },
+  "ley-18302": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "diseno": "art. 4: el emplazamiento de instalaciones nucleares requiere autorización de la Comisión",
+    "construccion": "art. 4: construir y poner en servicio la instalación requiere autorización",
+    "operacion": "art. 4: operar la instalación requiere autorización",
+    "cierre": "art. 4: el cierre y desmantelamiento también requieren autorización"
+   }
+  },
+  "ley-18362": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-18378": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "art. 4: en áreas con prohibición decretada, la corta de árboles junto a caminos y cauces queda sujeta a autorización"
+   }
+  },
+  "ley-18755": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "art. 46: el cambio de uso de suelo rural del art. 55 LGUC exige informe previo del SAG"
+   }
+  },
+  "dfl-382-1988": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 45: los usuarios no pueden descargar al alcantarillado sustancias que dañen la red o el tratamiento"
+   }
+  },
+  "ds-43-1990-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "art. 2: la corta de araucarias vivas solo se autoriza para los fines excepcionales que enumera"
+   }
+  },
+  "trat-protocolo-montreal": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-484-1990-mineduc": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion"
+   ],
+   "sustento": {
+    "diseno": "art. 5: las prospecciones con pozos de sondeo y las excavaciones de línea de base requieren autorización previa",
+    "construccion": "arts. 20 y 23: regula el salvataje y obliga a denunciar los hallazgos al excavar con cualquier fin"
+   }
+  },
+  "ds-211-1991-mtt": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 4: los vehículos livianos deben cumplir los niveles máximos de emisión para circular"
+   }
+  },
+  "ds-430-1991-economia": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "arts. 67 y 158: la acuicultura solo procede en áreas apropiadas y queda excluida de áreas protegidas",
+    "operacion": "arts. 87 y 118 ter: los centros deben operar conforme al reglamento ambiental y se sancionan sus incumplimientos"
+   }
+  },
+  "ds-47-1992-minvu": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion"
+   ],
+   "sustento": {
+    "diseno": "arts. 2.1.17 y 2.1.19: áreas de riesgo y reglas del área rural condicionan el emplazamiento",
+    "construccion": "art. 3.1.7: procedimiento de las solicitudes de subdivisión y urbanización fuera del límite urbano"
+   }
+  },
+  "trat-basilea": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 6: el movimiento transfronterizo de residuos peligrosos exige notificación escrita y consentimiento del Estado de importación"
+   }
+  },
+  "ds-1-1992-defensa": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 142: la autorización de descarga exige una evaluación de impacto ambiental que pronostique riesgos",
+    "construccion": "arts. 113 y 117: instalaciones de recepción, terminales marítimos y cañerías requieren aprobación de diseño e instalación",
+    "operacion": "arts. 108, 116 y 140: vertimientos y descargas con permiso de DIRECTEMAR; plantas con inspección anual"
+   }
+  },
+  "ley-19253": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "arts. 13 y 64: las tierras indígenas no pueden enajenarse ni gravarse y las aguas aimaras y atacameñas tienen protección especial"
+   }
+  },
+  "ley-19300": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion",
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "diseno": "arts. 8, 10 y 11 bis: los proyectos listados solo se ejecutan previa evaluación y no pueden fraccionarse",
+    "evaluacion": "arts. 9, 12, 12 bis y 20: presentar DIA o EIA con sus contenidos mínimos y reclamar contra la RCA",
+    "construccion": "arts. 25 bis y 25 ter: sin RCA acreditada no hay recepción municipal; la RCA caduca si no se inicia la ejecución en cinco años",
+    "operacion": "arts. 24, 46 y 64: sujeción a la RCA, a los planes de la zona y a la fiscalización de la SMA",
+    "cierre": "arts. 3, 51 y 53: quien cause daño ambiental con culpa o dolo debe repararlo; acción de reparación"
+   }
+  },
+  "ds-475-1994-defensa": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-19372": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-13-1995-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "art. 2: la corta de queule, pitao, ruil y bellotos solo procede con autorización excepcional de CONAF"
+   }
+  },
+  "trat-cmnucc": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-marpol": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-cdb": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-19473": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "art. 9: capturar ejemplares protegidos (rescate y relocalización) requiere autorización del SAG"
+   }
+  },
+  "trat-desertificacion": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-protocolo-madrid": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion"
+   ],
+   "sustento": {
+    "diseno": "art. 7: prohíbe toda actividad sobre recursos minerales antárticos salvo investigación científica",
+    "evaluacion": "art. 8: las actividades propuestas se someten a evaluación ambiental previa según su magnitud"
+   }
+  },
+  "ds-146-1997-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-59-1998-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-609-1998-mop": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "puntos 4.2-4.3 y 6.1: límites de las tablas 3 y 4 para riles al alcantarillado y control por la SISS"
+   }
+  },
+  "ds-193-1998-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 29: fija el contenido mínimo del plan de manejo que habilita la corta",
+    "operacion": "art. 33: reglas para cumplir la reforestación cuando se hace en otro terreno"
+   }
+  },
+  "ds-5-1998-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion"
+   ],
+   "sustento": {
+    "diseno": "art. 4: la nómina de especies de caza prohibida determina qué fauna de la línea de base está protegida",
+    "construccion": "art. 16: la captura para relocalización requiere permiso del SAG"
+   }
+  },
+  "ds-594-1999-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "arts. 3, 12 y 26: todo lugar de trabajo, sin distinguir fase, debe tener agua potable y disposición de aguas servidas",
+    "operacion": "arts. 18 a 20: acumular o disponer residuos industriales exige autorización sanitaria y declaración del destino"
+   }
+  },
+  "ds-136-2000-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-90-2000-minsegpres": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "puntos 4.1 a 4.4 y 6.2-6.3: límites por cuerpo receptor y autocontrol de la descarga"
+   }
+  },
+  "ds-320-2001-economia": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 15 y 17: la caracterización preliminar de sitio es requisito de la evaluación y condición del permiso ambiental sectorial",
+    "operacion": "arts. 4, 5 y 19: evitar vertimientos, tener plan de contingencias y presentar muestreos INFA"
+   }
+  },
+  "ds-115-2002-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-46-2002-minsegpres": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 8 a 11 y 20: límites de infiltración según vulnerabilidad del acuífero y monitoreo anual"
+   }
+  },
+  "ds-112-2002-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-113-2002-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-114-2002-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-19880": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 53 y 59: invalidación y recursos de reposición y jerárquico rigen supletoriamente en la evaluación"
+   }
+  },
+  "ds-132-2002-mineria": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "construccion": "arts. 21 y 22: aviso previo de inicio de obras y aprobación del método de explotación",
+    "operacion": "arts. 339 y 590: botaderos según proyecto aprobado; multas por contravenciones",
+    "cierre": "art. 23: junto al método debe presentarse un proyecto de plan de cierre"
+   }
+  },
+  "ds-148-2003-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "arts. 4 y 29: todo generador, sin distinguir fase, debe rotular sus residuos peligrosos y almacenarlos en sitio autorizado",
+    "operacion": "arts. 25, 43 y 80-81: plan de manejo sobre los umbrales, eliminación autorizada y declaración de cada traslado"
+   }
+  },
+  "trat-protocolo-kioto": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-estocolmo": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "trat-rotterdam": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "cpr-1980": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-138-2005-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 1: los titulares de fuentes fijas listadas declaran cada año sus emisiones"
+   }
+  },
+  "ley-20096": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 9 y 19: comercio de sustancias controladas sujeto a restricciones; protección de trabajadores expuestos a radiación UV"
+   }
+  },
+  "dfl-4-2006": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 150 bis: quienes retiran energía para comercializarla deben acreditar la cuota renovable"
+   }
+  },
+  "ley-20173": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-248-2006-mineria": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "construccion": "art. 9: ningún depósito de relaves se construye sin proyecto aprobado por el Servicio",
+    "operacion": "art. 10: los cambios durante la operación deben aprobarse antes de implementarse",
+    "cierre": "art. 46: el proyecto de cierre debe dejar el depósito estable en el largo plazo"
+   }
+  },
+  "ds-189-2005-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "diseno": "art. 10: distancias mínimas a captaciones y cursos de agua condicionan el emplazamiento",
+    "construccion": "art. 5: proyecto de ingeniería aprobado por la autoridad sanitaria, posterior a la calificación ambiental",
+    "operacion": "art. 56: la disposición de lodos requiere aprobación sanitaria",
+    "cierre": "art. 53: avisar el término de la disposición y ejecutar el cierre"
+   }
+  },
+  "ley-20249": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "art. 10: una solicitud de espacio costero suspende la tramitación de concesiones sobre la misma área"
+   }
+  },
+  "ley-20257": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-20256": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 11: sembrar o repoblar especies para pesca recreativa queda sujeto a las reglas y autorización reglamentarias"
+   }
+  },
+  "ley-20283": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "arts. 5, 19 y 21: toda corta de bosque nativo, incluida la que hacen las obras, exige plan de manejo; veda especies clasificadas",
+    "operacion": "arts. 51 y 54: multas por corta no autorizada y por no ejecutar la reforestación o las medidas del plan"
+   }
+  },
+  "ley-20285": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 20 y 21: el titular tiene tres días para oponerse a la entrega de antecedentes que afecten sus derechos"
+   }
+  },
+  "trat-convenio-169-oit": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-143-2008-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-144-2008-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-93-2008-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "arts. 3 y 19: plan de manejo aprobado para toda corta de bosque nativo, incluida la originada en obras"
+   }
+  },
+  "ds-4-2009-minsegpres": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 9 y 13: la planta debe tener proyecto de manejo de lodos aprobado y respetar los topes de almacenamiento"
+   }
+  },
+  "ds-68-2009-minagri": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-20393": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 3 y 4: la empresa responde penalmente salvo que tenga un modelo de prevención efectivamente implementado"
+   }
+  },
+  "ds-6-2009-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 24 y 35: los residuos de establecimientos de salud se eliminan en instalaciones y con transportistas autorizados"
+   }
+  },
+  "ley-20417": {
+   "rol": "directa",
+   "etapas": [
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "operacion": "LOSMA arts. 2, 3 y 35: fiscalización de RCA, normas y planes por la SMA, deberes de información e infracciones",
+    "cierre": "LOSMA art. 43: tras la sanción el infractor puede proponer un plan de reparación del daño"
+   }
+  },
+  "ds-75-2009-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-22-2009-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-122-2009-minsegpres": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-70-2010-minsegpres": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 18-19: los proyectos del SEIA que aumenten MP de combustión deben compensar",
+    "operacion": "arts. 4-5: límite de MP para termoeléctricas existentes y nuevas"
+   }
+  },
+  "ley-20473": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-82-2010-minagri": {
+   "rol": "directa",
+   "etapas": [
+    "construccion"
+   ],
+   "sustento": {
+    "construccion": "arts. 3 y 13: zona de exclusión junto a cauces y humedales y prohibición de transitar maquinaria por ellos"
+   }
+  },
+  "ds-12-2011-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 12: los responsables de redes y estaciones de monitoreo deben entregar sus resultados"
+   }
+  },
+  "ds-13-2011-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 4, 8 y 12: límites en chimenea, monitoreo continuo certificado y reporte trimestral a la SMA"
+   }
+  },
+  "ds-25-2011-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-20551": {
+   "rol": "directa",
+   "etapas": [
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "operacion": "art. 49: las faenas del procedimiento general deben constituir garantía de cumplimiento",
+    "cierre": "arts. 4 y 6: toda empresa minera debe tener plan de cierre aprobado, coherente con la RCA"
+   }
+  },
+  "ds-29-2011-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-3-2012-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 6 y 18: plan anual de aplicación de lodos e informe al SAG cada enero"
+   }
+  },
+  "ds-38-2011-mma": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 6 N° 12 y 13: las faenas constructivas son fuente emisora sujeta a los límites",
+    "operacion": "arts. 7 y 20: niveles máximos según la zona del receptor y fiscalización de la SMA"
+   }
+  },
+  "ley-20600": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "evaluacion": "art. 17 N° 5 y 6: reclamaciones contra lo resuelto sobre la RCA y por observaciones ciudadanas",
+    "operacion": "art. 17 N° 3: reclamación contra las resoluciones de la SMA",
+    "cierre": "arts. 17 N° 2 y 33: demanda de reparación por daño ambiental"
+   }
+  },
+  "ds-39-2011-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 2 y 4: solo pueden comercializarse calefactores nuevos que cumplan el límite de MP"
+   }
+  },
+  "ds-41-2012-mineria": {
+   "rol": "directa",
+   "etapas": [
+    "cierre"
+   ],
+   "sustento": {
+    "cierre": "arts. 13 y 16: antes de operar debe presentarse el proyecto de plan de cierre con los aspectos técnicos exigidos"
+   }
+  },
+  "ley-20653": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-30-2012-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "operacion": "arts. 6 y 10: programa de cumplimiento dentro de 10 días de los cargos; su incumplimiento reanuda el sancionatorio",
+    "cierre": "arts. 16-17 y 29: plan de reparación voluntario cuya ejecución extingue la acción por daño"
+   }
+  },
+  "ds-31-2012-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 8 y 10: remitir a la SMA RCA, permisos y mediciones en los plazos instruidos"
+   }
+  },
+  "ds-37-2012-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-1-2013-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "operacion": "arts. 17 y 25-27: reportes por Ventanilla Única y declaración anual de residuos",
+    "cierre": "arts. 29-30: el establecimiento debe informar el cese de funciones"
+   }
+  },
+  "ds-43-2012-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-38-2012-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-39-2012-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-15-2013-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-40-2012-mma": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion",
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "diseno": "arts. 3 y 14: contrastar el proyecto con las tipologías de ingreso; prohíbe fraccionar",
+    "evaluacion": "arts. 18, 19 y 38-57: contenidos de EIA y DIA, ICSARA y adendas hasta la calificación",
+    "construccion": "arts. 16, 71 y 73: definir el acto de inicio de ejecución, ceñirse a la RCA en la construcción y evitar su caducidad",
+    "operacion": "arts. 71 y 102-105: cumplimiento estricto de la RCA en operación, planes de contingencia y seguimiento",
+    "cierre": "art. 71: en la fase de cierre el titular también debe ajustarse exactamente a lo aprobado"
+   }
+  },
+  "ds-29-2013-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 3, 5 y 13: límites de emisión, medición anual e informe a la SMA cada enero"
+   }
+  },
+  "ds-19-2013-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-20698": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-28-2013-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 3, 4 y 16: cupos anuales de SO2 y arsénico, límites en chimenea e informes mensuales"
+   }
+  },
+  "ds-20-2013-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-66-2013-mds": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 8: la consulta indígena de proyectos en el SEIA se rige por las reglas y plazos de la evaluación"
+   }
+  },
+  "ds-203-2013-mop": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "arts. 5 y 20: antecedentes técnicos para explorar y constituir el derecho de aguas subterráneas",
+    "operacion": "art. 42: el cambio de punto de captación requiere autorización"
+   }
+  },
+  "ds-38-2013-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-39-2013-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 24: el certificado de conformidad acredita cumplimiento ante la SMA"
+   }
+  },
+  "ds-8-2014-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-53-2013-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-20780": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 8: los establecimientos sobre los umbrales pagan impuesto por MP, NOx, SO2 y CO2 emitidos"
+   }
+  },
+  "ds-63-2014-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-59-2014-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 9: proyectos nuevos y modificaciones en el SEIA deben cumplir condiciones de compensación",
+    "operacion": "art. 3: medidas de control de emisiones con cronograma para las mineras"
+   }
+  },
+  "of-150584-2015-sea": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "instructivo sin articulado en el visor: procedimiento de revisión de la RCA cuando las variables seguidas se apartan de lo proyectado"
+   }
+  },
+  "res-1010-2015-sea": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "guías sin articulado en el visor: antecedentes que la DIA o EIA debe entregar para los PAS 148 y 149"
+   }
+  },
+  "res-223-2015-sma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "resuelvos tercero a vigésimo octavo: diseño del plan de seguimiento, contenido de informes y envío electrónico"
+   }
+  },
+  "ds-78-2014-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-32-2015-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-8-2015-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-1-2015-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-9-2015-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "res-1227-2015-sma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-47-2015-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 56: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 40-41: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-48-2015-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 54: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 39-40: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-49-2015-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 47: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 36-38: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-43-2015-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "art. 10: restricciones de emplazamiento del almacenamiento",
+    "operacion": "arts. 5, 13 y 190: autorización sanitaria sobre los umbrales, capacitación anual y plan de emergencias"
+   }
+  },
+  "ley-20920": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 5: todo generador, sin distinguir fase, debe entregar sus residuos a un gestor autorizado",
+    "operacion": "arts. 9 y 12-13: obligaciones del productor de productos prioritarios y metas de recolección y valorización"
+   }
+  },
+  "ley-20930": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 6: el contrato fija restricciones u obligaciones que gravan el predio de forma permanente"
+   }
+  },
+  "ley-20962": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 11: introducir o extraer especímenes CITES por lugares no habilitados o sin permisos es contrabando"
+   }
+  },
+  "trat-acuerdo-paris": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-25-2016-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 53: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 34-35: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-38-2016-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 12: aumentos de MP sobre 5 t/año se compensan íntegramente",
+    "operacion": "art. 7: límites de MP en las chimeneas identificadas"
+   }
+  },
+  "ds-31-2016-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 64: proyectos que superen la tabla de emisiones máximas deben compensar",
+    "operacion": "arts. 36, 54 y 118-120: límite de MP, monitoreo continuo y medidas en episodios críticos"
+   }
+  },
+  "ds-8-2017-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "res-85-2018-sma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21074": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21075": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 3: el sistema de aguas grises requiere aprobación de proyecto",
+    "operacion": "arts. 3 y 9: autorización de funcionamiento y usos prohibidos del agua tratada"
+   }
+  },
+  "res-166-2018-sma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "resuelvos 4 y 6-12: carga del programa de cumplimiento en el sistema y reportes de avance y final"
+   }
+  },
+  "ds-9-2018-defensa": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "construccion"
+   ],
+   "sustento": {
+    "diseno": "art. 3: se necesita concesión u otro título antes de ocupar bienes bajo tuición de Defensa",
+    "construccion": "art. 3: sin ese título no puede hacerse construcción ni instalación alguna"
+   }
+  },
+  "ley-21100": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 3: los establecimientos de comercio no pueden entregar bolsas plásticas"
+   }
+  },
+  "trat-minamata": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "res-203-2019-sea": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion"
+   ],
+   "sustento": {
+    "diseno": "guía sin articulado en el visor: método para caracterizar el paisaje en la línea de base",
+    "evaluacion": "guía sin articulado en el visor: criterios para descartar o reconocer el efecto que obliga a EIA"
+   }
+  },
+  "ds-4-2017-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 48: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 30-32: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-105-2018-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 42: proyectos que aumenten emisiones sobre los umbrales deben compensar",
+    "operacion": "arts. 4, 10, 12-13 y 15-16: límites para calderas y topes anuales de las grandes fuentes"
+   }
+  },
+  "ds-104-2018-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 14: los propietarios de estaciones calificadas deben reportar a la SMA"
+   }
+  },
+  "res-894-2019-sma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "resuelvo segundo: entregar todos los datos brutos del monitoreo de aguas de la RCA"
+   }
+  },
+  "ley-21162": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-7-2018-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 31: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 25-27: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-6-2018-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 53: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 29-31: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-44-2017-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 28: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 20-21: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ley-21202": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "arts. 1 y 4: la declaración de humedal urbano hace ingresar al SEIA las obras que lo alteren"
+   }
+  },
+  "ley-21210": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21255": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 37 y 38: toda actividad antártica se somete a evaluación ambiental previa en tres categorías",
+    "operacion": "art. 40: deber de comunicar los daños al medio ambiente antártico"
+   }
+  },
+  "ds-15-2020-mma": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "art. 9: admitida la solicitud hay 15 días para aportar antecedentes sobre la delimitación del humedal"
+   }
+  },
+  "ds-8-2019-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 5-7 y 20-23: inscripción del productor, metas anuales y opción de los consumidores industriales"
+   }
+  },
+  "ds-57-2019-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 5 y 291: fabricantes e importadores clasifican y notifican sus sustancias peligrosas"
+   }
+  },
+  "ley-21305": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 2: las empresas con consumo de 50 teracalorías o más reportan cada año"
+   }
+  },
+  "ds-12-2020-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 7, 10 y 21: productores de envases sujetos a metas o, bajo el umbral, a informar"
+   }
+  },
+  "ley-21368": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 3 y 4: restringe los productos de un solo uso en expendios de alimentos"
+   }
+  },
+  "ds-38-2020-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 4-5 y 9: límites para equipos nuevos, horómetro y reporte anual de horas"
+   }
+  },
+  "res-2547-2021-sma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "resuelvos tercero y cuarto: catastro de cada fuente y envío de informes por el sistema de la SMA"
+   }
+  },
+  "res-202299101181-2022-sea": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "guía sin articulado en el visor: el EIA debe demostrar jerarquía de medidas y equivalencia de la compensación"
+   }
+  },
+  "ley-21435": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "art. segundo transitorio: los derechos de agua no inscritos deben inscribirse en los plazos fijados"
+   }
+  },
+  "ds-5-2021-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21449": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-12-2021-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 15: los propietarios de estaciones de MP10 informan sus resultados a la SMA"
+   }
+  },
+  "ley-21455": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 40: los proyectos evaluados deben considerar la variable de cambio climático",
+    "operacion": "arts. 14, 41 y 45: normas de emisión de GEI por establecimiento y reporte anual en el RETC"
+   }
+  },
+  "trat-escazu": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21505": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-9-2022-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 4, 5 y 11-12: límites de olor y reportes de cumplimiento a la SMA"
+   }
+  },
+  "ds-41-2021-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-1-2021-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 40: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "arts. 27-28: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-5-2023-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 14: los dueños de estaciones de COV deben reportar a la SMA"
+   }
+  },
+  "ley-21562": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21595": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 2: los delitos ambientales cometidos en beneficio de una empresa se tratan como delitos económicos"
+   }
+  },
+  "ley-21600": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "arts. 63 y 93-94: compatibilidad con la categoría y plan de manejo del área protegida; concesiones extractivas excluidas",
+    "evaluacion": "art. 38: reglas de las compensaciones de biodiversidad exigibles en el SEIA",
+    "construccion": "art. 41: intervenir humedales inventariados exige permiso del SBAP y se veda alterar los prioritarios",
+    "operacion": "arts. 108, 109-111 y 115-116: prohibiciones, fiscalización del SBAP e infracciones"
+   }
+  },
+  "ds-4-2023-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 27: la rebaja del impuesto requiere reducciones verificadas por auditor y certificadas"
+   }
+  },
+  "ds-1-2022-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 5, 12 y 16-17: límites para luminarias, certificación y declaración de fuentes"
+   }
+  },
+  "ds-16-2023-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "of-202499102834-2024-sea": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "instructivo sin articulado en el visor: reuniones con grupos indígenas del art. 86 del RSEIA durante la evaluación"
+   }
+  },
+  "ds-30-2023-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21660": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "art. 3: la extracción de turba está prohibida en todo el país",
+    "operacion": "art. 4: el manejo del musgo Sphagnum requiere plan de manejo"
+   }
+  },
+  "ds-30-2021-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 4, 8 y 20: operar según el proyecto aprobado y acreditar lodos libres de antibióticos"
+   }
+  },
+  "ds-40-2023-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 15: los dueños de estaciones calificadas informan sus mediciones a la SMA"
+   }
+  },
+  "ds-47-2023-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-17-2023-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21721": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "of-2025991021114-2025-sea": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "instructivo sin articulado en el visor: etapas y tiempos de la consulta indígena conducida por el SEA"
+   }
+  },
+  "of-202599102506-2025-sea": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "instructivo sin articulado en el visor: soportes de las actividades de participación en que el titular informa su proyecto"
+   }
+  },
+  "res-202499101887-2024-sea": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion"
+   ],
+   "sustento": {
+    "evaluacion": "guía sin articulado en el visor: metodología para justificar el efecto del cambio climático en impactos y medidas"
+   }
+  },
+  "ds-21-2024-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-8-2023-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 52 y 53: compensación de emisiones y plazo de 60 días hábiles para presentar el programa",
+    "operacion": "arts. 42 y 47: límites para calderas y procesos industriales"
+   }
+  },
+  "res-20259910137-2025-sea": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion"
+   ],
+   "sustento": {
+    "diseno": "guía sin articulado en el visor: estándar de la línea de base de medio humano",
+    "evaluacion": "guía sin articulado en el visor: criterios para evaluar la alteración de sistemas de vida"
+   }
+  },
+  "ley-21744": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 31 y 32: las entidades privadas de control de incendios deben estar inscritas en el registro"
+   }
+  },
+  "ley-21752": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-6-2024-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-12-2024-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ds-28-2025-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21770": {
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "arts. 9-12: en actividades de menor riesgo el aviso o declaración jurada habilita para ejecutar",
+    "operacion": "arts. 9-12 y 24-25: habilitación de funcionamiento por aviso y silencio positivo, con fiscalización posterior"
+   }
+  },
+  "ds-9-2024-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 13 y 14: las estaciones próximas a fundiciones se integran al seguimiento y sus titulares reportan"
+   }
+  },
+  "ds-18-2023-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 67: los proyectos del SEIA que superen el umbral del plan deben compensar sus emisiones",
+    "operacion": "art. 4: límites de emisión para calderas y otras fuentes estacionarias"
+   }
+  },
+  "ds-50-2024-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 5, 9, 10 y 19: límites por equipo, aviso y medición de venteos e informe mensual"
+   }
+  },
+  "ds-32-2024-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 20: las actividades de mitigación deben validarse y verificarse por entidades operacionales"
+   }
+  },
+  "ds-23-2024-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 4-5 y 7-8: límites de olor para plantas existentes y nuevas"
+   }
+  },
+  "of-20269910259-2026-sea": {
+   "rol": "directa",
+   "etapas": [
+    "diseno"
+   ],
+   "sustento": {
+    "diseno": "acápites de antecedentes y plazos: contenido de la consulta de pertinencia y plazos de subsanación"
+   }
+  },
+  "ds-30-2024-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 3 y 5: requisitos y trámite del certificado para plásticos"
+   }
+  },
+  "ds-29-2024-minsal": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 1, 4 y 6: autorización sanitaria simplificada y condiciones de operación de las instalaciones de recepción"
+   }
+  },
+  "ds-17-2025-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "res-202599101674-2025-sea": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion"
+   ],
+   "sustento": {
+    "diseno": "guía sin articulado en el visor: caracterización de vegetación, hábitat y fauna",
+    "evaluacion": "guía sin articulado en el visor: criterios de significancia de la pérdida de ecosistemas terrestres"
+   }
+  },
+  "ds-14-2024-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 13 y 31: usa el ruido de fondo fijado en la evaluación y se adelanta para proyectos que ingresen al SEIA",
+    "construccion": "art. 3: las faenas constructivas son fuente fija regulada",
+    "operacion": "arts. 6, 11 y 24: límites urbanos y rurales y control de la SMA"
+   }
+  },
+  "trat-bbnj": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "res-202699101169-2026-sea": {
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion"
+   ],
+   "sustento": {
+    "diseno": "guía sin articulado en el visor: delimitación del área de influencia antes del ingreso",
+    "evaluacion": "guía sin articulado en el visor: su mala delimitación es causal habitual de término anticipado"
+   }
+  },
+  "ds-7-2024-minsegpres": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 4 y 5-6: prohíbe producir sustancias controladas y limita los volúmenes de importación"
+   }
+  },
+  "ds-22-2025-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 6, 8 y 23: productores de pilas y aparatos sujetos a inscripción, sistema de gestión y metas"
+   }
+  },
+  "ds-43-2025-mma": {
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 13: los responsables de estaciones sumadas a la evaluación informan a la SMA"
+   }
+  },
+  "ds-12-2025-mma": {
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "arts. 39 y 41: los aumentos de carga se compensan en 120% con programa dentro de 60 días hábiles de la RCA",
+    "operacion": "arts. 4 y 5-6: límites de fósforo para pisciculturas y reporte trimestral a la SMA"
+   }
+  },
+  "ds-10-2025-mma": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  },
+  "ley-21850": {
+   "rol": "marco",
+   "etapas": [],
+   "sustento": {}
+  }
+ },
+ "pas": {
+  "111": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "ampara vertimientos al mar desde obras portuarias y naves, tanto de obra como recurrentes"
+  },
+  "112": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "autoriza emplazar la instalación terrestre de recepción de mezclas oleosas"
+  },
+  "113": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "autoriza instalar la planta de tratamiento cuyas aguas tratadas se descargarán al mar"
+  },
+  "114": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "autoriza instalar el terminal marítimo y las cañerías que luego transportan sustancias contaminantes"
+  },
+  "115": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "autoriza la descarga continua de materias o sustancias a aguas de jurisdicción nacional"
+  },
+  "116": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "habilita el ejercicio de la actividad de acuicultura"
+  },
+  "117": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "autoriza repoblar y sembrar especies hidrobiológicas con fines de pesca recreativa"
+  },
+  "118": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "habilita la acuicultura dentro de áreas de manejo de recursos bentónicos"
+  },
+  "119": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "autoriza capturas de investigación, propias del seguimiento del proyecto"
+  },
+  "120": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "cubre trabajos de construcción o excavación y actividades que alteren un santuario de la naturaleza"
+  },
+  "121": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "ejecución de labores mineras en parques, reservas o monumentos naturales; el MMA lo considera derogado por la Ley 21.600"
+  },
+  "122": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "ejecución de labores mineras en covaderas o lugares de interés histórico o científico"
+  },
+  "123": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "autoriza introducir fauna silvestre o material reproductivo donde no tiene presencia"
+  },
+  "124": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "autoriza la caza o captura de control de animales que dañan el ecosistema"
+  },
+  "125": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "ejecución de labores mineras donde se han alumbrado aguas subterráneas o se puede afectar su caudal o calidad"
+  },
+  "126": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "construcción, reparación, modificación o ampliación de instalaciones de manejo de lodos"
+  },
+  "127": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta y destrucción de alerce para ejecutar obras"
+  },
+  "128": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta o explotación de araucarias vivas"
+  },
+  "129": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta o explotación de queule, pitao, ruil y bellotos"
+  },
+  "130": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "nuevas explotaciones o mayores extracciones de aguas subterráneas en zonas de prohibición"
+  },
+  "131": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "trabajos de conservación, reparación o restauración sobre monumentos históricos"
+  },
+  "132": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "excavaciones arqueológicas, antropológicas o paleontológicas, incluidos rescates previos a las obras"
+  },
+  "133": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "construcciones nuevas u obras de reconstrucción en zona típica o pintoresca"
+  },
+  "134": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "se limita al emplazamiento de la instalación nuclear o radiactiva"
+  },
+  "135": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "su objeto es la construcción y la operación del depósito de relaves"
+  },
+  "136": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "establecer el botadero de estériles o acumulación de mineral, que se usa durante la explotación"
+  },
+  "137": {
+   "etapas": [
+    "evaluacion",
+    "cierre"
+   ],
+   "motivo": "aprueba el plan de cierre de la faena minera"
+  },
+  "138": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "construcción, reparación, modificación o ampliación de obras de aguas servidas"
+  },
+  "139": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "construcción, reparación, modificación o ampliación de obras de residuos industriales o mineros"
+  },
+  "140": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "construcción de plantas de tratamiento de basuras e instalación de lugares de acumulación o disposición"
+  },
+  "141": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "construcción, reparación, modificación o ampliación del relleno sanitario"
+  },
+  "142": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "todo sitio de almacenamiento de residuos peligrosos, sea de la faena de obra o de la operación"
+  },
+  "143": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "transporte de residuos peligrosos e instalaciones para operar ese sistema"
+  },
+  "144": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "instalaciones de eliminación de residuos peligrosos"
+  },
+  "145": {
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "motivo": "sitio de reciclaje de residuos peligrosos"
+  },
+  "146": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "captura de fauna protegida; ampara el rescate y la relocalización previos a las obras"
+  },
+  "147": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "recolección de huevos y crías con fines científicos o de reproducción"
+  },
+  "148": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta de bosque nativo para ejecutar el proyecto"
+  },
+  "149": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta de plantaciones en terrenos de aptitud preferentemente forestal"
+  },
+  "150": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "intervención de especies nativas clasificadas o alteración de su hábitat"
+  },
+  "151": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta, destrucción o descepado de formaciones xerofíticas"
+  },
+  "152": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "intervención de bosque nativo de preservación"
+  },
+  "153": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "corta de árboles o arbustos aislados en áreas declaradas de protección"
+  },
+  "154": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "trabajos de exploración en zonas que alimentan vegas o bofedales"
+  },
+  "155": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "construcción de obras hidráulicas mayores"
+  },
+  "156": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "ejecución de modificaciones de cauce"
+  },
+  "157": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "obras de regularización o defensa de cauces naturales"
+  },
+  "158": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "obras para la recarga artificial de acuíferos"
+  },
+  "159": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "extracción de ripio y arena en cauces, sea para la obra o como giro del proyecto"
+  },
+  "160": {
+   "etapas": [
+    "evaluacion",
+    "construccion"
+   ],
+   "motivo": "subdivisión, urbanización y construcciones fuera del límite urbano"
+  },
+  "161": {
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "la calificación de la instalación industrial o de bodegaje condiciona su edificación y su funcionamiento"
+  }
+ }
+}

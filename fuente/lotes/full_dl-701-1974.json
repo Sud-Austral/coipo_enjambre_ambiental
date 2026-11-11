@@ -1,0 +1,447 @@
+{
+ "id": "dl-701-1974",
+ "articulos": [
+  {
+   "num": "primero",
+   "epigrafe": "Sustitución del texto del DL 701",
+   "resumen": "Artículo primero del DL 2.565: reemplaza íntegramente el texto del DL 701 de 1974 y sus modificaciones, conservando el mismo número; contiene el articulado 1 a 36 que sigue.",
+   "obliga_titular": false,
+   "titulo": "DL 2.565 de 1979 (norma sustitutiva)",
+   "derogado": false
+  },
+  {
+   "num": "1",
+   "epigrafe": "Objeto",
+   "resumen": "Regula la actividad forestal tanto en suelos de aptitud preferentemente forestal como en suelos degradados, e incentiva la forestación, en especial la de pequeños propietarios y la necesaria para prevenir la degradación y recuperar suelos.",
+   "obliga_titular": false,
+   "titulo": "Título Preliminar",
+   "derogado": false
+  },
+  {
+   "num": "2",
+   "epigrafe": "Definiciones",
+   "resumen": "Define, entre otros: terrenos de aptitud preferentemente forestal (los que por clima y suelo no deben ararse de modo permanente), forestación, reforestación (repoblar terrenos explotados después del 28 de octubre de 1974), plan de manejo, 'Corporación' (la Corporación Nacional Forestal), bosque (5.000 m², 40 m de ancho, cobertura de 10% o 25%), corta no autorizada, desertificación, pequeño propietario forestal (hasta 12 hectáreas de riego básico) y mediano (ventas de hasta 100.000 UF anuales), suelos degradados y frágiles, y erosión moderada y severa.",
+   "obliga_titular": false,
+   "titulo": "Título Preliminar",
+   "derogado": false
+  },
+  {
+   "num": "3",
+   "epigrafe": "Derogado",
+   "resumen": "Artículo derogado; el texto vigente no contiene disposición.",
+   "obliga_titular": false,
+   "titulo": "Título Preliminar",
+   "derogado": true
+  },
+  {
+   "num": "4",
+   "epigrafe": "Calificación de terrenos",
+   "resumen": "La Corporación califica los terrenos de aptitud preferentemente forestal a solicitud del propietario, con estudio técnico de ingeniero forestal o agrónomo que indique la superficie por forestar y las medidas de protección. Debe resolver en 60 días (hasta 120 para épocas o zonas de difícil acceso); su silencio aprueba la solicitud, y emite un certificado de la calidad del terreno.",
+   "obliga_titular": true,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "5",
+   "epigrafe": "Reclamo judicial",
+   "resumen": "Si la Corporación deniega total o parcialmente, se puede reclamar ante el juez de letras en lo civil del lugar del inmueble dentro de 30 días desde el despacho de la carta certificada. Se tramita como incidente, en única instancia, y debe fallarse en 60 días.",
+   "obliga_titular": false,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "6",
+   "epigrafe": "Derogado",
+   "resumen": "Artículo derogado; el texto vigente no contiene disposición.",
+   "obliga_titular": false,
+   "titulo": "Título I",
+   "derogado": true
+  },
+  {
+   "num": "7",
+   "epigrafe": "Desafectación",
+   "resumen": "La Corporación puede, solo por excepción y con justificación, desafectar un terreno de su calidad de aptitud preferentemente forestal; el interesado debe reintegrar las franquicias tributarias y bonificaciones recibidas, con reajustes e intereses. La negativa es reclamable según el art. 5°.",
+   "obliga_titular": true,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "8",
+   "epigrafe": "Plan tras corta no autorizada",
+   "resumen": "Quien haya cortado sin autorización debe presentar, dentro de 60 días desde la denuncia, un plan de manejo de reforestación o de corrección elaborado por ingeniero forestal o agrónomo especializado, con los trabajos de reforestación en un máximo de 2 años desde su aprobación, salvo plazo mayor autorizado por la Corporación.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "9",
+   "epigrafe": "Planes tipo para pequeños propietarios",
+   "resumen": "Los pequeños propietarios forestales se liberan de presentar estudios técnicos y planes de manejo si se acogen a los estudios o planes tipo que elabore la Corporación.",
+   "obliga_titular": false,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "10",
+   "epigrafe": "Plazo para objetar y silencio",
+   "resumen": "La Corporación dispone de 120 días desde la presentación para objetar un plan de manejo; si no lo hace, se tiene por aprobado y se emite el certificado. Ante un rechazo rige el reclamo del art. 5°.",
+   "obliga_titular": false,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "11",
+   "epigrafe": "Contenido mínimo del reglamento",
+   "resumen": "El reglamento debe regular, al menos, la calificación de terrenos de aptitud preferentemente forestal y los planes de manejo.",
+   "obliga_titular": false,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "12",
+   "epigrafe": "Bonificaciones forestales",
+   "resumen": "Dispone que el Estado bonifique, por 17 años contados desde el 1 de enero de 1996 y una vez por superficie, un porcentaje de los costos netos de forestar suelos frágiles, ñadis, áreas en desertificación o suelos degradados, recuperar suelos, estabilizar dunas, establecer cortinas cortavientos y, para pequeños propietarios, la primera poda y raleo. Porcentajes: 90% para pequeños propietarios en las primeras 15 ha y 75% en el resto; 75% para medianos y 50% para otros; 90% en suelos degradados con pendiente sobre 100%; tope de 100 ha anuales. Fija el trato tributario de la bonificación como ingreso diferido y reglas especiales para tierras indígenas adquiridas bajo la Ley 19.253.",
+   "obliga_titular": false,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "13",
+   "epigrafe": "Exenciones tributarias",
+   "resumen": "Exime del impuesto territorial a los terrenos calificados cubiertos al menos en 30% por bosque nativo y a los bosques de protección (suelos frágiles con pendiente de 45% o más y franjas junto a aguas de hasta 400 m). El propietario debe pedir la declaración de bosque de protección con estudio técnico; la Corporación resuelve en 60 días y su silencio aprueba. Tampoco se consideran para el impuesto a las herencias; el SII aplica la exención con el certificado de la Corporación.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "14",
+   "epigrafe": "Impuesto a la renta",
+   "resumen": "Las utilidades de la explotación de bosques tributan según el régimen general de la Ley de la Renta; fija en 24.000 UTM de ventas acumuladas en tres años el límite para renta presunta respecto de productos forestales y la fecha de paso a renta efectiva.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "15",
+   "epigrafe": "Tabla de costos",
+   "resumen": "La Corporación fija cada julio, con aprobación previa de Agricultura y Hacienda, los costos de las actividades bonificables para la temporada siguiente, reajustables por IPC; si no lo hace rige la última tabla. La Tesorería General de la República paga las bonificaciones.",
+   "obliga_titular": false,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "16",
+   "epigrafe": "Pago y transferencia de la bonificación",
+   "resumen": "La bonificación se paga cuando el beneficiario acredita la superficie forestada o las intervenciones de manejo con un estudio técnico aprobado por la Corporación, que tiene 180 días para pronunciarse o se entiende aprobado. El beneficiario es el dueño del predio; puede transferirla ante notario y endosar el certificado de futura bonificación como garantía.",
+   "obliga_titular": true,
+   "titulo": "Título III",
+   "derogado": false
+  },
+  {
+   "num": "17",
+   "epigrafe": "Incumplimiento del plan de manejo",
+   "resumen": "Incumplir el plan de manejo por causa imputable al propietario o forestador se multa con 5 a 15 UTM por hectárea; no reforestar o incumplir las medidas de protección es siempre falta grave. En bosques fiscales responde el concesionario, arrendatario o autorizado para obras civiles.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "18",
+   "epigrafe": "Derogado",
+   "resumen": "Artículo derogado; el texto vigente no contiene disposición.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": true
+  },
+  {
+   "num": "19",
+   "epigrafe": "Derogado",
+   "resumen": "Artículo derogado; el texto vigente no contiene disposición.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": true
+  },
+  {
+   "num": "20",
+   "epigrafe": "Derogado",
+   "resumen": "Artículo derogado; el texto vigente no contiene disposición.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": true
+  },
+  {
+   "num": "21",
+   "epigrafe": "Plan de manejo previo a la corta",
+   "resumen": "Cortar o explotar bosque nativo, o plantaciones en terrenos de aptitud preferentemente forestal, exige plan de manejo aprobado por la Corporación; para plantaciones entre las regiones de Valparaíso y Los Lagos basta presentarlo y registrarlo, comprometiendo reforestar una superficie igual. Sobre 10 ha de bosque debe firmarlo un ingeniero forestal o agrónomo especializado. La infracción se multa con el doble del valor comercial de los productos (el triple si se enajenaron), con comiso, y la Corporación puede ordenar paralizar las faenas con auxilio de la fuerza pública.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "22",
+   "epigrafe": "Obligación de reforestar",
+   "resumen": "Quien corte o explote bosques en terrenos de aptitud preferentemente forestal debe reforestar al menos una superficie igual, según el plan de manejo; en otros terrenos solo si era bosque nativo, salvo corta para recuperar suelo agrícola prevista en el plan. Puede cumplirse en otro terreno si el plan lo contempla. El incumplimiento se sanciona con las multas del art. 17 aumentadas en 100%.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "23",
+   "epigrafe": "Zonas fronterizas",
+   "resumen": "Las cortas o explotaciones en zonas fronterizas requieren autorización de la Dirección de Fronteras y Límites del Estado, pedida a través de la Corporación; DIFROL tiene 30 días, tras los cuales se entiende otorgada, y su decisión no admite reclamo. Mientras se tramita se suspenden los plazos de los arts. 8° y 10.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "24",
+   "epigrafe": "Tribunal competente",
+   "resumen": "Las sanciones las aplica el juez de policía local abogado de la comuna de la infracción, por denuncia de funcionarios de la Corporación o de Carabineros; las multas sobre 5.000 UTM, o comunas sin juez abogado, corresponden al de la cabecera de provincia.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "24 bis",
+   "epigrafe": "Acta de infracción y procedimiento",
+   "resumen": "Los funcionarios de la Corporación levantan acta de la infracción y el Director Regional denuncia ante el tribunal, que aplica el procedimiento de la Ley 18.287. En primera infracción el juez puede rebajar la multa hasta 50% o absolver por ignorancia excusable o buena fe; se admiten fotografía aérea y sensores remotos.",
+   "obliga_titular": false,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "24 bis A",
+   "epigrafe": "Responsable del plan",
+   "resumen": "Del cumplimiento del plan responde el dueño del bosque cuando no es el dueño del predio; en bosques fiscales, el concesionario, arrendatario o autorizado para obras civiles.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "24 bis B",
+   "epigrafe": "Ingreso a predios",
+   "resumen": "Los funcionarios de la Corporación solo pueden entrar a predios o centros de acopio con autorización del administrador; ante negativa, el juez puede conceder el auxilio de la fuerza pública, de inmediato o tras oír al afectado, que debe comparecer en 48 horas.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "24 bis C",
+   "epigrafe": "Planes en bosques fiscales",
+   "resumen": "En bosques fiscales el plan lo firma el concesionario, arrendatario o autorizado para obras civiles, junto con el Seremi de Bienes Nacionales, cuya firma acredita esa calidad y la no oposición del Ministerio.",
+   "obliga_titular": true,
+   "titulo": "Título IV",
+   "derogado": false
+  },
+  {
+   "num": "25",
+   "epigrafe": "Comunicaciones al SII",
+   "resumen": "La Corporación debe efectuar al Servicio de Impuestos Internos las comunicaciones que procedan para los efectos tributarios del decreto ley.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "26",
+   "epigrafe": "Créditos de fomento",
+   "resumen": "Los créditos de origen estatal para ejecutar planes de manejo se consideran créditos de fomento para efectos del art. 8° del DL 280 de 1974.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "27",
+   "epigrafe": "Convenios de reforestación",
+   "resumen": "Las menciones a terrenos de aptitud preferentemente forestal en convenios de reforestación con la Corporación no valen para este decreto ley; siempre debe obtenerse la declaración conforme a sus normas.",
+   "obliga_titular": true,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "28",
+   "epigrafe": "Inversión de sociedades anónimas",
+   "resumen": "Las sociedades anónimas, salvo bancos y financieras, pueden adquirir acciones o derechos en sociedades dedicadas principalmente a plantar o explotar bosques, sin limitaciones legales o reglamentarias.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "29",
+   "epigrafe": "Normas de manejo y asistencia técnica",
+   "resumen": "La Corporación puede dictar normas de manejo generales por especie o tipo forestal, a las que los interesados pueden adherir, y prestar asistencia técnica gratuita a pequeños propietarios.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "30",
+   "epigrafe": "Concesionarios y sucesores",
+   "resumen": "En concesiones mineras, eléctricas o de gas, la obligación de reforestar del art. 22 recae en el concesionario. Las obligaciones del propietario pasan a quienes lo sucedan en el dominio, y la Corporación certifica si un predio está afecto al decreto ley.",
+   "obliga_titular": true,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "31",
+   "epigrafe": "Fiscalización",
+   "resumen": "Encarga a la Corporación fiscalizar el cumplimiento de los planes de manejo.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "32",
+   "epigrafe": "Prescripción",
+   "resumen": "Las acciones para perseguir las infracciones prescriben en 2 años desde la contravención.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "33",
+   "epigrafe": "Tributación de pequeños propietarios",
+   "resumen": "Los pequeños propietarios forestales tributan siempre por renta presunta, no llevan contabilidad forestal (DS 871 de 1981) ni se les aplican las normas tributarias del art. 12.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "34",
+   "epigrafe": "Postulaciones colectivas",
+   "resumen": "Los pequeños propietarios pueden organizarse y postular colectivamente a los beneficios, directamente o a través de sus organizaciones.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "35",
+   "epigrafe": "Antecedentes falsos",
+   "resumen": "Entregar antecedentes falsos o adulterados para obtener la bonificación se pena con presidio menor en grado mínimo a máximo y, si se cobró, con multa del triple de lo percibido indebidamente, reajustado; conoce el juez de letras.",
+   "obliga_titular": true,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "36",
+   "epigrafe": "Registro de Operadores Forestales",
+   "resumen": "Faculta a la Corporación Nacional Forestal para llevar un Registro de Operadores Forestales público, difundido en su sitio web y regulado por reglamento; el incumplimiento grave de este acarrea la eliminación del registro.",
+   "obliga_titular": false,
+   "titulo": "Título V",
+   "derogado": false
+  },
+  {
+   "num": "segundo",
+   "epigrafe": "Modificaciones a la Ley de Bosques",
+   "resumen": "Artículo segundo del DL 2.565: reemplaza los arts. 1° y 2° de la Ley de Bosques (DS 4.363 de 1931) para definir los terrenos de aptitud preferentemente forestal y sujetarlos, junto con los bosques, a planes de manejo aprobados por CONAF, y deroga su art. 3°.",
+   "obliga_titular": false,
+   "titulo": "DL 2.565 de 1979 (norma sustitutiva)",
+   "derogado": false
+  },
+  {
+   "num": "tercero",
+   "epigrafe": "Derogaciones",
+   "resumen": "Artículo tercero del DL 2.565: deroga el art. 27 de la Ley 16.640 y su reglamento, el decreto 275 de 1969 de Agricultura.",
+   "obliga_titular": false,
+   "titulo": "DL 2.565 de 1979 (norma sustitutiva)",
+   "derogado": false
+  },
+  {
+   "num": "cuarto",
+   "epigrafe": "Extinción de gravámenes",
+   "resumen": "Artículo cuarto del DL 2.565: declara extinguidos de pleno derecho los gravámenes reales constituidos bajo el antiguo art. 12 del DL 701 y ordena a los Conservadores cancelar las inscripciones, de oficio o a petición.",
+   "obliga_titular": false,
+   "titulo": "DL 2.565 de 1979 (norma sustitutiva)",
+   "derogado": false
+  },
+  {
+   "num": "quinto",
+   "epigrafe": "Contabilidad forestal simplificada",
+   "resumen": "Artículo quinto del DL 2.565: facultó al Presidente de la República, por 180 días, para fijar normas contables y métodos simplificados de determinación de la renta forestal para contribuyentes no obligados a llevar contabilidad.",
+   "obliga_titular": false,
+   "titulo": "DL 2.565 de 1979 (norma sustitutiva)",
+   "derogado": false
+  },
+  {
+   "num": "1 transitorio",
+   "epigrafe": "Poseedores en saneamiento",
+   "resumen": "Los poseedores de predios de aptitud preferentemente forestal con solicitud de saneamiento de título, que reúnan los requisitos del DFL 6 de 1968, pueden acogerse a los beneficios y percibir las bonificaciones del art. 12.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios (DL 2.565)",
+   "derogado": false
+  },
+  {
+   "num": "2 transitorio",
+   "epigrafe": "Reglamentos provisorios",
+   "resumen": "Mientras no se dicten los reglamentos de los arts. 11 y 12, rigen en lo compatible los decretos 346 de 1974 (Agricultura) y 958 de 1975 (Hacienda).",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios (DL 2.565)",
+   "derogado": false
+  },
+  {
+   "num": "3 transitorio",
+   "epigrafe": "Franquicias de la Ley de Bosques",
+   "resumen": "Las franquicias del derogado art. 3° de la Ley de Bosques subsisten hasta el vencimiento de sus plazos para plantaciones existentes al 28 de octubre de 1974, con un año para iniciar o continuar el trámite, certificación a cargo de CONAF y plazo reducido a 25 años.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios (DL 2.565)",
+   "derogado": false
+  },
+  {
+   "num": "4 transitorio",
+   "epigrafe": "Bonificaciones 1974-1986 no son renta",
+   "resumen": "Las bonificaciones percibidas entre el 28 de octubre de 1974 y el 31 de diciembre de 1986 no constituyen renta ni se cuentan para la tasa adicional del art. 21 de la Ley de la Renta, cualquiera sea la fecha de explotación o venta.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios (DL 2.565)",
+   "derogado": false
+  },
+  {
+   "num": "5 transitorio",
+   "epigrafe": "Bonificación de 90% en 1984-1987",
+   "resumen": "Elevó a 90% la bonificación para forestación, estabilización de dunas y manejo realizados en 1984 y 1985, extendida a 1986 y 1987 en la Región de Aysén y la provincia de Palena.",
+   "obliga_titular": false,
+   "titulo": "Artículos Transitorios (DL 2.565)",
+   "derogado": false
+  }
+ ],
+ "estructura": [
+  {
+   "titulo": "DL 2.565 de 1979 (norma sustitutiva)",
+   "nombre": "Artículo primero (fija el texto del DL 701) y artículos segundo a quinto",
+   "arts": "primero; segundo–quinto"
+  },
+  {
+   "titulo": "Título Preliminar",
+   "nombre": "(sin denominación)",
+   "arts": "1–3"
+  },
+  {
+   "titulo": "Título I",
+   "nombre": "De la calificación de terrenos forestales",
+   "arts": "4–7"
+  },
+  {
+   "titulo": "Título II",
+   "nombre": "De los planes de manejo",
+   "arts": "8–11"
+  },
+  {
+   "titulo": "Título III",
+   "nombre": "De los incentivos a la actividad forestal",
+   "arts": "12–16"
+  },
+  {
+   "titulo": "Título IV",
+   "nombre": "De las sanciones",
+   "arts": "17–24 bis C"
+  },
+  {
+   "titulo": "Título V",
+   "nombre": "Disposiciones generales",
+   "arts": "25–36"
+  },
+  {
+   "titulo": "Artículos Transitorios (DL 2.565)",
+   "nombre": "Disposiciones transitorias",
+   "arts": "1 transitorio–5 transitorio"
+  }
+ ]
+}

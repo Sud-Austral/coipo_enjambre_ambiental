@@ -1,0 +1,23 @@
+name: CI
+
+# Runner propio de CONAF; sin pull_request para no ejecutar codigo externo en la VM.
+on:
+  workflow_call:
+  workflow_dispatch:
+
+env:
+  VERSION_PYTHON: "3.12"
+
+jobs:
+  pruebas:
+    runs-on: conaf-ci
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.VERSION_PYTHON }}
+      - name: Tests
+        run: |
+          python -m pip install -q -r requirements-dev.txt
+          python -m pytest -q -p no:cacheprovider

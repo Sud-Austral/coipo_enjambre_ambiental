@@ -1,0 +1,322 @@
+{
+ "ingreso": [
+  {
+   "tip": "mineria",
+   "accion": "corregir",
+   "norma": "ley-19300",
+   "art_actual": "10 j)",
+   "art": "10 j)",
+   "texto": "Los ductos mineros (relaveductos, mineroductos) son tipología autónoma de la ley; el art. 3 j) del reglamento deja fuera dos casos: las redes de distribución y los ductos que mueven sustancias o residuos dentro de los propios centros de producción."
+  },
+  {
+   "tip": "acuicultura",
+   "accion": "corregir",
+   "norma": "ds-40-2012-mma",
+   "art_actual": "3 n.5)",
+   "art": "3 n.5)",
+   "texto": "Peces con 8 t anuales o más; y cultivo de microalgas o de juveniles de otros recursos que requieran suministro o evacuación de aguas continentales, marinas o estuarinas, sin importar la producción."
+  }
+ ],
+ "normas": [
+  {
+   "tip": "inmobiliario",
+   "id": "ds-47-1992-minvu",
+   "accion": "corregir",
+   "fuerza": "siempre",
+   "art": "1.1.1 y 5.1.1",
+   "motivo": "Ordenanza que reglamenta la LGUC: fija el proceso y los estándares de urbanización y construcción y exige permiso del Director de Obras para edificar. Las áreas de riesgo y de protección (arts. 2.1.17 y 2.1.18) solo inciden según el emplazamiento.",
+   "razon_auditoria": "Los arts. 2.1.17 y 2.1.18 citados regulan lo que el plan regulador puede definir (zonas no edificables, áreas de riesgo y de protección): dependen de la ubicación y no sustentan un 'siempre'. Los arts. 1.1.1 y 5.1.1, leídos en el XML 8201, sí alcanzan a todo proyecto de edificación."
+  },
+  {
+   "tip": "mineria",
+   "id": "ds-38-2011-mma",
+   "accion": "corregir",
+   "fuerza": "siempre",
+   "art": "5 letra f), 6 N° 1 y N° 13 y 7",
+   "motivo": "Chancado, carguío, transporte interno y plantas son actividad productiva extractiva comprendida como fuente emisora de ruido; las tronaduras y voladuras quedan fuera de esta norma.",
+   "razon_auditoria": "El motivo incluía las tronaduras como fuente regulada, pero el art. 5 letra f) excluye expresamente voladuras y tronaduras. La actividad minera sí figura en la definición de actividades productivas (art. 6 N° 1)."
+  },
+  {
+   "tip": "mineria",
+   "id": "ds-43-2015-minsal",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "3 y 5",
+   "motivo": "Si las instalaciones de apoyo almacenan sustancias peligrosas envasadas o líquidos y gases en estanques sobre 10 t de inflamables o 30 t de otras clases, requieren autorización sanitaria. No cubre graneles sólidos de la faena, explosivos ni combustibles usados como energético.",
+   "razon_auditoria": "El art. 3 excluye los sólidos a granel de faenas regidas por el DS 132/2002, los explosivos y los combustibles líquidos y gaseosos de uso energético; el motivo citaba combustibles y decía que 'normalmente' se superan los umbrales, lo que es un hecho del proyecto y no la naturaleza de la tipología."
+  },
+  {
+   "tip": "mineria",
+   "id": "ds-148-2003-minsal",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "25, 29 y 80-81",
+   "motivo": "Aceites usados, baterías, borras y envases de reactivos son residuos peligrosos: exigen sitio de almacenamiento autorizado, plan de manejo si se superan 12 t anuales (o 12 kg de tóxicos agudos) y documento de declaración en cada traslado.",
+   "razon_auditoria": "El art. 43 citado regula instalaciones de eliminación de residuos peligrosos, no al generador. Los arts. 25 y 29 se activan por cantidades generadas o almacenadas, por lo que la fuerza correcta bajo el criterio del archivo es 'segun_caso' (igual que en las demás tipologías)."
+  },
+  {
+   "tip": "mineria",
+   "id": "ley-18248",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "17",
+   "motivo": "Si las labores mineras se ejecutan en los lugares que lista el art. 17 (por ejemplo a menos de 50 m de caminos públicos, líneas de alta tensión, cursos de agua o defensas fluviales), se requiere además permiso escrito de la autoridad que allí se indica.",
+   "razon_auditoria": "Los arts. 14 y 15 tratan la facultad de catar y cavar (búsqueda de minerales), no la explotación; el art. 17 solo opera en lugares determinados. Ningún artículo citado alcanza a toda faena por su sola naturaleza."
+  },
+  {
+   "tip": "industrial",
+   "id": "ds-148-2003-minsal",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "25, 29 y 80-81",
+   "motivo": "Si la operación genera residuos peligrosos: sitio de almacenamiento con autorización sanitaria, plan de manejo sobre 12 t anuales (o 12 kg de tóxicos agudos) y declaración de cada traslado.",
+   "razon_auditoria": "Generar residuos peligrosos no es un elemento de la definición de la tipología (art. 3 k del DS 40) y los arts. 25 y 29 operan por umbral; corresponde 'segun_caso', como en las otras tipologías."
+  },
+  {
+   "tip": "forestal",
+   "id": "ley-20283",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "2, 5, 16, 17, 19, 51 y 54",
+   "motivo": "Si el proyecto corta bosque nativo (corta de regeneración por tala rasa): toda corta exige plan de manejo aprobado antes de ejecutarse, con normas de protección de suelos y aguas y prohibición de intervenir especies nativas clasificadas en categoría de amenaza.",
+   "razon_auditoria": "La tipología comprende también la cosecha final de plantaciones en suelos frágiles (art. 3 m, inciso 2°, DS 40), a la que la Ley 20.283 no se aplica: su art. 5 se refiere solo a corta de bosque nativo. No es 'siempre' para toda la tipología."
+  },
+  {
+   "tip": "forestal",
+   "id": "ds-93-2008-minagri",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "3, 4, 9 y 14",
+   "motivo": "Si hay corta de bosque nativo: define contenido, calendarización, avisos y formularios del plan de manejo forestal y del plan de manejo de preservación.",
+   "razon_auditoria": "Reglamento de la Ley 20.283; su art. 3 parte de 'toda acción de corta de bosque nativo'. No alcanza a la cosecha de plantaciones que también integra la tipología."
+  },
+  {
+   "tip": "forestal",
+   "id": "ds-82-2010-minagri",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "1, 3, 4, 8 y 13",
+   "motivo": "Si se corta bosque nativo, formaciones xerofíticas o plantaciones acogidas al art. 13 inciso 2° del DL 701: zonas de exclusión y de manejo limitado junto a cursos de agua, cobertura residual mínima y prohibición de usar cauces como vía de maquinaria.",
+   "razon_auditoria": "El art. 1 delimita el reglamento a esas tres clases de corta; la cosecha de una plantación no acogida a esa regla queda fuera, por lo que no aplica a todo proyecto de la tipología."
+  },
+  {
+   "tip": "forestal",
+   "id": "ley-21744",
+   "accion": "corregir",
+   "fuerza": "siempre",
+   "art": "1, 2 y 4 letra d)",
+   "motivo": "Crea el Servicio Nacional Forestal como continuador y sucesor legal de CONAF: las menciones legales a la Corporación se entienden hechas al Servicio, que fiscaliza la normativa forestal. La fecha de entrada en funcionamiento se fija por decreto con fuerza de ley.",
+   "razon_auditoria": "El motivo afirmaba en presente que el Servicio ya aprueba y fiscaliza planes de manejo. El texto leído (art. 1 y art. segundo transitorio, letra c) dice que es sucesor legal y que su fecha de funcionamiento la fija un DFL; no se pudo verificar que ya opere. La sucesión está en el art. 1, no en los arts. 2 y 4."
+  },
+  {
+   "tip": "forestal",
+   "id": "ds-13-1995-minagri",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "1 y 2",
+   "motivo": "Si en el predio hay queule, pitao, ruil o bellotos: cada ejemplar vivo es monumento natural y CONAF solo puede autorizar su corta para investigación científica, obras públicas o de defensa, o planes estatales de conservación; una cosecha comercial no califica, por lo que deben excluirse del área de corta.",
+   "razon_auditoria": "El motivo decía que la corta 'exige autorización excepcional', lo que sugiere que un proyecto forestal puede obtenerla. El numeral 2 limita la autorización a tres fines taxativos que no incluyen la explotación comercial."
+  },
+  {
+   "tip": "forestal",
+   "id": "ds-43-1990-minagri",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "1 y 2",
+   "motivo": "Si el rodal contiene araucaria: los ejemplares vivos son monumento natural y su corta solo puede autorizarse para investigación científica, obras públicas o de defensa, o planes de manejo de organismos del Estado destinados a conservar la especie; la explotación comercial no califica.",
+   "razon_auditoria": "Mismo defecto: el numeral 2 no contempla autorización para explotación forestal privada; presentar el permiso como obtenible induce a error."
+  },
+  {
+   "tip": "forestal",
+   "id": "ds-490-1976-minagri",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "Primero y Segundo",
+   "motivo": "Si el rodal contiene alerce: la especie es inviolable y su corta solo puede autorizarse para investigación científica, obras públicas, defensa nacional o planes de manejo de organismos forestales del Estado o en que este tenga interés; una cosecha comercial privada no califica.",
+   "razon_auditoria": "El decreto numera sus disposiciones como Primero, Segundo, etc. (no 'art. 2'). El artículo Segundo restringe la autorización a fines taxativos; el motivo original la presentaba como un trámite disponible."
+  },
+  {
+   "tip": "hidraulico",
+   "id": "dfl-1122-1981",
+   "accion": "corregir",
+   "fuerza": "siempre",
+   "art": "41, 129 bis 1, 129 bis 2, 171 y 294",
+   "motivo": "Código sectorial propio: aprobación previa de la DGA para modificaciones de cauce y para embalses, acueductos y sifones mayores, caudal ecológico mínimo en los derechos por otorgar y facultad de paralizar obras en cauces. El art. 171 rige con el texto de la Ley 21.770; la sustitución del art. 294 que esa ley dispone tiene vigencia diferida.",
+   "razon_auditoria": "El motivo daba por reemplazados los arts. 171 y 294. El XML 5605 (versión 09-10-2026) muestra el art. 171 con el texto nuevo, pero el art. 294 conserva los umbrales en sus letras a) a d), distinto del texto sustitutivo del art. 85 N° 18 de la Ley 21.770, cuya vigencia depende de la modificación del DS 50/2015 (art. décimo noveno transitorio)."
+  },
+  {
+   "tip": "hidraulico",
+   "id": "ds-38-2011-mma",
+   "accion": "corregir",
+   "fuerza": "siempre",
+   "art": "5 letra f), 6 N° 10 y N° 13 y 7",
+   "motivo": "Excavaciones, hormigonado y movimiento de maquinaria de presas y bocatomas son faenas constructivas prolongadas, y la casa de máquinas es infraestructura energética emisora de ruido; las tronaduras quedan fuera de esta norma.",
+   "razon_auditoria": "El motivo incluía las tronaduras, que el art. 5 letra f) excluye expresamente del ámbito de la norma."
+  },
+  {
+   "tip": "hidraulico",
+   "id": "ley-21770",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "85 N° 16 y N° 18 y décimo noveno transitorio",
+   "motivo": "Reemplazó el art. 171 del Código de Aguas (procedimiento y plazos de las modificaciones de cauce, ya vigente) y dispuso sustituir el art. 294 sobre obras hidráulicas mayores, cambio que regirá desde el primer día del mes subsiguiente a la publicación de la modificación del DS 50/2015 del MOP.",
+   "razon_auditoria": "El art. 85 entró a regir al año de la publicación (29-09-2025), salvo sus N° 18 y 19, sujetos a la modificación del DS 50/2015; el XML del Código de Aguas aún no refleja el art. 294 sustitutivo. Decir que el art. 294 'fue reemplazado' no está sustentado."
+  },
+  {
+   "tip": "saneamiento",
+   "id": "dfl-458-1975",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "116",
+   "motivo": "Las edificaciones de la planta o del relleno requieren permiso de la Dirección de Obras Municipales, salvo que se trate de obras de infraestructura sanitaria ejecutadas por el Estado, que el mismo artículo exime.",
+   "razon_auditoria": "El art. 116 exime de permiso a las obras de infraestructura sanitaria que ejecute el Estado; la exigencia depende de quién ejecuta la obra y no aplica a todo proyecto de la tipología."
+  },
+  {
+   "tip": "vial-portuario",
+   "id": "ds-43-2015-minsal",
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "art": "3 y 5",
+   "motivo": "Solo para bodegas de sustancias peligrosas ubicadas fuera del recinto portuario (por ejemplo en instalaciones de faena de la obra vial) que superen 10 t de inflamables o 30 t de otras clases; el almacenamiento dentro de recintos portuarios y los combustibles de uso energético están excluidos del reglamento.",
+   "razon_auditoria": "El art. 3 excluye expresamente el almacenamiento en recintos portuarios (regido por el DL 2.222 y el DS 618/1970 de Defensa) y los combustibles líquidos y gaseosos usados como energético; el motivo aplicaba el reglamento justamente a puertos, terminales y combustibles."
+  }
+ ],
+ "pas": [
+  {
+   "tip": "forestal",
+   "art": 148,
+   "accion": "eliminar",
+   "razon_auditoria": "El art. 148 del DS 40 otorga este permiso a los proyectos del art. 3 'con excepción de los proyectos a que se refiere el literal m.1', que es precisamente esta tipología; la corta se autoriza por la vía sectorial (plan de manejo o plan de trabajo ante CONAF), no como PAS."
+  },
+  {
+   "tip": "forestal",
+   "art": 149,
+   "accion": "eliminar",
+   "razon_auditoria": "El art. 149 del DS 40 otorga este permiso a los proyectos del art. 3 'con excepción de los proyectos a que se refiere el literal m.1', que es precisamente esta tipología; la corta se autoriza por la vía sectorial (plan de manejo o plan de trabajo ante CONAF), no como PAS."
+  },
+  {
+   "tip": "forestal",
+   "art": 151,
+   "accion": "eliminar",
+   "razon_auditoria": "El art. 151 del DS 40 otorga este permiso a los proyectos del art. 3 'con excepción de los proyectos a que se refiere el literal m.1', que es precisamente esta tipología; la corta se autoriza por la vía sectorial (plan de manejo o plan de trabajo ante CONAF), no como PAS."
+  },
+  {
+   "tip": "forestal",
+   "art": 152,
+   "accion": "eliminar",
+   "razon_auditoria": "El art. 152 cubre el manejo de bosque nativo de preservación, que solo puede tener por objetivo resguardar la diversidad biológica; es incompatible con la cosecha final o la tala rasa que definen la tipología (art. 3 m, inciso 2°)."
+  },
+  {
+   "tip": "forestal",
+   "art": 127,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Solo si hay alerce y la corta persigue investigación científica, obras públicas, defensa nacional o planes de manejo de organismos forestales del Estado; la explotación comercial no puede obtener este permiso y debe excluir a la especie.",
+   "razon_auditoria": "El art. 127 fija como requisito de otorgamiento esos fines taxativos; el motivo 'presencia de alerce' hacía creer que el permiso está disponible para el proyecto forestal."
+  },
+  {
+   "tip": "forestal",
+   "art": 128,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Solo si hay araucaria y la corta persigue investigación científica, obras públicas o de defensa, o planes estatales cuyo único objeto sea conservar la especie; la explotación comercial no puede obtener este permiso.",
+   "razon_auditoria": "El art. 128 limita el permiso a esos fines; no procede para la cosecha comercial que define la tipología."
+  },
+  {
+   "tip": "forestal",
+   "art": 129,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Solo si hay queule, pitao, ruil o bellotos y la corta persigue investigación científica, obras públicas o de defensa, o planes estatales de conservación de esas especies; la explotación comercial no puede obtener este permiso.",
+   "razon_auditoria": "El art. 129 limita el permiso a esos fines; no procede para la cosecha comercial que define la tipología."
+  },
+  {
+   "tip": "forestal",
+   "art": 150,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Si el bosque a intervenir contiene especies nativas clasificadas en peligro crítico, en peligro o vulnerables: la regla es la prohibición; el permiso es excepcional y solo procede para investigación científica, fines sanitarios u obras y actividades de interés nacional del art. 7 inciso 4° de la Ley 20.283.",
+   "razon_auditoria": "El art. 19 de la Ley 20.283 y el art. 150 del DS 40 exigen que la intervención sea imprescindible y tenga uno de esos objetos; la explotación maderera no figura entre ellos, de modo que el motivo original omitía que normalmente el permiso no es obtenible."
+  },
+  {
+   "tip": "central-solar-eolica",
+   "art": 140,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Sitios de acopio de residuos de construcción (embalajes de paneles, pallets, chatarra) y domiciliarios de las faenas, cuando el proyecto habilite un lugar de acumulación.",
+   "razon_auditoria": "Habilitar un lugar de acumulación de residuos es un hecho del proyecto, no un elemento de la tipología; en línea de transmisión e inmobiliario el mismo supuesto figura como 'segun_caso'. Además el art. 140 solo opera si no corresponde otro permiso por la misma acción."
+  },
+  {
+   "tip": "mineria",
+   "art": 138,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Planta o sistema particular de aguas servidas del campamento e instalaciones, cuando no hay conexión a alcantarillado público.",
+   "razon_auditoria": "Depende de que el proyecto construya un sistema propio de aguas servidas; en las otras nueve tipologías el mismo supuesto es 'segun_caso'."
+  },
+  {
+   "tip": "mineria",
+   "art": 140,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Sitios de acopio y disposición de residuos sólidos no peligrosos de la faena y del campamento, cuando el proyecto los contemple y no corresponda otro permiso por la misma acción.",
+   "razon_auditoria": "Depende de un hecho del proyecto y el art. 140 es residual frente a otros permisos (por ejemplo los PAS 135 y 136 para residuos mineros masivos)."
+  },
+  {
+   "tip": "mineria",
+   "art": 142,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Bodega o sitio de almacenamiento de residuos peligrosos de la faena.",
+   "razon_auditoria": "El motivo original ('presente en toda faena de esta escala') describe una práctica habitual, no una consecuencia de la tipología; coherente con la corrección del DS 148/2003."
+  },
+  {
+   "tip": "mineria",
+   "art": 155,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Embalses, acueductos o sifones de agua del proyecto que alcancen los umbrales del art. 294 del Código de Aguas. La Ley 21.770 dispuso sustituir ese artículo (el texto nuevo exceptúa depósitos de relaves, relaveductos, concentraductos y mineroductos), con vigencia sujeta a la modificación del DS 50/2015 del MOP.",
+   "razon_auditoria": "El motivo daba la norma fundante por ya reemplazada; el XML 5605 aún muestra el art. 294 con umbrales en su propio texto y el art. décimo noveno transitorio de la Ley 21.770 difiere la vigencia del N° 18 del art. 85."
+  },
+  {
+   "tip": "industrial",
+   "art": 140,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Lugares de acumulación de residuos sólidos industriales no peligrosos, cuando la planta los contemple y no corresponda otro permiso por la misma acción.",
+   "razon_auditoria": "Depende de un hecho del proyecto; el art. 140 es residual frente a otros permisos."
+  },
+  {
+   "tip": "industrial",
+   "art": 142,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Sitio de almacenamiento de residuos peligrosos de la operación, si esta los genera.",
+   "razon_auditoria": "La generación de residuos peligrosos no forma parte de la definición de la tipología; coherente con la corrección del DS 148/2003."
+  },
+  {
+   "tip": "hidraulico",
+   "art": 155,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Embalses, acueductos, sifones o canoas que alcancen los umbrales del art. 294 del Código de Aguas. La Ley 21.770 dispuso sustituir ese artículo, con vigencia sujeta a la modificación del DS 50/2015 del MOP; el art. 155 del reglamento sigue remitiendo al art. 294.",
+   "razon_auditoria": "Mismo defecto que en minería: el reemplazo del art. 294 está dispuesto pero su vigencia es diferida y el XML leído no lo refleja."
+  },
+  {
+   "tip": "hidraulico",
+   "art": 156,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Presas, bocatomas, restituciones y desvíos que modifican un cauce. No corresponde cuando la obra es de regularización o defensa de un cauce natural (PAS 157) ni cuando el embalse o acueducto se construye fuera de cauce.",
+   "razon_auditoria": "El art. 156 excluye las obras de regularización o defensa de cauces naturales, que son parte de la tipología (art. 3 a.4); el propio motivo reconocía la excepción, por lo que 'siempre' es contradictorio. El art. 294 contempla además embalses fuera de cauce natural."
+  },
+  {
+   "tip": "saneamiento",
+   "art": 140,
+   "accion": "corregir",
+   "fuerza": "segun_caso",
+   "motivo": "Lugar de acumulación o disposición de residuos sólidos y de cribado de la planta de aguas, o instalaciones de residuos distintas del relleno; el relleno sanitario se tramita por el PAS 141.",
+   "razon_auditoria": "El art. 140 solo procede si no corresponde otro permiso por la misma acción; para el relleno rige el PAS 141 y para una planta de aguas depende de que habilite un lugar de acumulación. No es 'siempre'."
+  }
+ ]
+}

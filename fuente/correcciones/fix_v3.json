@@ -1,0 +1,1165 @@
+{
+ "cambios": [
+  {
+   "id": "ds-40-2012-mma",
+   "campo": "modificaciones",
+   "valor": [
+    {
+     "norma": "DS 8/2014 MMA",
+     "id": "ds-8-2014-mma",
+     "fecha_publicacion": "2014-03-27",
+     "alcance": "Artículo único: reemplaza los literales a.1 (presas), ñ.3 (sustancias inflamables), o.8 (residuos industriales sólidos) y o.9 (residuos peligrosos) del art. 3 y sustituye el art. 162 (notificaciones)."
+    },
+    {
+     "norma": "DS 63/2014 MMA",
+     "id": "ds-63-2014-mma",
+     "fecha_publicacion": "2014-10-06",
+     "alcance": "Artículo único: reemplaza los literales h.1, l.1 y ñ.3 del art. 3, incisos de los arts. 29, 36, 38 y 48, y los arts. 87 y 94 completos."
+    },
+    {
+     "norma": "DS 30/2023 MMA",
+     "id": "ds-30-2023-mma",
+     "fecha_publicacion": "2024-02-01",
+     "alcance": "Reforma amplia (cambio climático y Acuerdo de Escazú) en 24 numerales: arts. 2 (g bis y g ter), 6, 7, 12 bis (nuevo), 13, 18, 19, 20, 21, 29, 33, 34, 74 (reemplazado), 82, 83, 84, 88, 93, 94, 96, 97, 102, 105 y 162. El nuevo art. 74 solo rige para DIA ingresadas después del 01-02-2024."
+    },
+    {
+     "norma": "DS 17/2025 MMA",
+     "id": "ds-17-2025-mma",
+     "fecha_publicacion": "2026-01-21",
+     "alcance": "Artículo único: art. 2 literal g.1; art. 3 (b.1, e.6, g.1.2, g.2, i, i.1, i.6, n.1, n.2, ñ.1 a ñ.5, encabezado de la letra o, o.3, o.4, o.5, o.7, o.8, o.9 y o.10) y nuevo literal d.7 del art. 60. No tocó el Título VII (PAS)."
+    }
+   ],
+   "motivo": "Cotejado con los XML BCN de los cuatro decretos (idNorma 1060523, 1067876, 1200689 y 1220588): el DS 8/2014 no toca o.10 y sí ñ.3 y o.8; el DS 63/2014 no toca l.2; el DS 30/2023 modifica el art. 29 (N° 10), no el 30."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "campo": "estructura",
+   "valor": [
+    {
+     "titulo": "Título I",
+     "nombre": "Disposiciones generales",
+     "articulos": "1-3",
+     "parrafos": []
+    },
+    {
+     "titulo": "Título II",
+     "nombre": "De la generación o presencia de efectos, características o circunstancias que dan origen a la necesidad de presentar un Estudio de Impacto Ambiental",
+     "articulos": "4-11",
+     "parrafos": []
+    },
+    {
+     "titulo": "Título III",
+     "nombre": "De los contenidos de los Estudios y Declaraciones de Impacto Ambiental",
+     "articulos": "12-19",
+     "parrafos": [
+      {
+       "parrafo": "1°",
+       "nombre": "Contenidos mínimos comunes de los Estudios y Declaraciones de Impacto Ambiental",
+       "articulos": "12-17"
+      },
+      {
+       "parrafo": "2°",
+       "nombre": "Del contenido mínimo de los Estudios de Impacto Ambiental",
+       "articulos": "18"
+      },
+      {
+       "parrafo": "3°",
+       "nombre": "Del contenido mínimo de las Declaraciones de Impacto Ambiental",
+       "articulos": "19"
+      }
+     ]
+    },
+    {
+     "titulo": "Título IV",
+     "nombre": "Del procedimiento de evaluación de impacto ambiental",
+     "articulos": "20-81",
+     "parrafos": [
+      {
+       "parrafo": "1°",
+       "nombre": "Normas comunes",
+       "articulos": "20-27"
+      },
+      {
+       "parrafo": "2°",
+       "nombre": "De la iniciación del procedimiento de Evaluación de Impacto Ambiental",
+       "articulos": "28-34"
+      },
+      {
+       "parrafo": "3°",
+       "nombre": "De la instrucción del procedimiento de evaluación de los Estudios de Impacto Ambiental",
+       "articulos": "35-46"
+      },
+      {
+       "parrafo": "4°",
+       "nombre": "De la instrucción del procedimiento de evaluación de las Declaraciones de Impacto Ambiental",
+       "articulos": "47-58"
+      },
+      {
+       "parrafo": "5°",
+       "nombre": "De la finalización del procedimiento de evaluación ambiental",
+       "articulos": "59-66"
+      },
+      {
+       "parrafo": "6°",
+       "nombre": "Procedimientos especiales",
+       "articulos": "67-70"
+      },
+      {
+       "parrafo": "7°",
+       "nombre": "De la ejecución de la Resolución de Calificación Ambiental",
+       "articulos": "71-76"
+      },
+      {
+       "parrafo": "8°",
+       "nombre": "De las reclamaciones",
+       "articulos": "77-81"
+      }
+     ]
+    },
+    {
+     "titulo": "Título V",
+     "nombre": "De la participación de la comunidad en el proceso de evaluación de impacto ambiental",
+     "articulos": "82-96",
+     "parrafos": [
+      {
+       "parrafo": "1°",
+       "nombre": "Normas generales",
+       "articulos": "82-87"
+      },
+      {
+       "parrafo": "2°",
+       "nombre": "Participación ciudadana en los Estudios de Impacto Ambiental",
+       "articulos": "88-92"
+      },
+      {
+       "parrafo": "3°",
+       "nombre": "Participación ciudadana en las Declaraciones de Impacto Ambiental",
+       "articulos": "93-96"
+      }
+     ]
+    },
+    {
+     "titulo": "Título VI",
+     "nombre": "De los planes de medidas, seguimiento y fiscalización ambientales",
+     "articulos": "97-106",
+     "parrafos": [
+      {
+       "parrafo": "1°",
+       "nombre": "Del Plan de Medidas de Mitigación, Reparación y Compensación Ambiental",
+       "articulos": "97-101"
+      },
+      {
+       "parrafo": "2°",
+       "nombre": "Del Plan de Prevención de Contingencias y del Plan de Emergencias",
+       "articulos": "102-104"
+      },
+      {
+       "parrafo": "3°",
+       "nombre": "Del Plan de Seguimiento de las variables ambientales",
+       "articulos": "105"
+      },
+      {
+       "parrafo": "4°",
+       "nombre": "De la Fiscalización",
+       "articulos": "106"
+      }
+     ]
+    },
+    {
+     "titulo": "Título VII",
+     "nombre": "De los permisos y pronunciamientos ambientales sectoriales",
+     "articulos": "107-161",
+     "parrafos": [
+      {
+       "parrafo": "1°",
+       "nombre": "Normas generales",
+       "articulos": "107-110"
+      },
+      {
+       "parrafo": "2°",
+       "nombre": "De los permisos ambientales sectoriales de contenidos únicamente ambientales",
+       "articulos": "111-130"
+      },
+      {
+       "parrafo": "3°",
+       "nombre": "De los permisos ambientales sectoriales mixtos",
+       "articulos": "131-160"
+      },
+      {
+       "parrafo": "4°",
+       "nombre": "De los pronunciamientos",
+       "articulos": "161"
+      }
+     ]
+    },
+    {
+     "titulo": "Título Final",
+     "nombre": "(sin denominación en el texto oficial)",
+     "articulos": "162-170",
+     "parrafos": []
+    },
+    {
+     "titulo": "Artículo segundo y transitorios",
+     "nombre": "Derogación de los DS 30/1997 y 95/2001 MINSEGPRES; arts. 1° a 6° transitorios",
+     "articulos": "transitorios 1-6",
+     "parrafos": []
+    }
+   ],
+   "motivo": "Títulos, párrafos y rangos confirmados en el XML BCN idNorma 1053563 (versión 21-01-2026): los Párrafos 5° (arts. 59-66) y 6° (arts. 67-70) del Título IV ya no son inferidos; el Título Final carece de epígrafe propio."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "campo": "notas_verificacion",
+   "valor": "Auditoría v3 (10-11-2026): articulado, estructura y Título VII cotejados contra el XML oficial BCN (idNorma 1053563, versión vigente de 21-01-2026). Modificaciones confirmadas en los XML de los DS 8/2014, 63/2014, 30/2023 y 17/2025. El artículo habilitante es el art. 13 de la Ley 19.300. Hay un nuevo anteproyecto de modificación en trámite (Res. Ex. 4157 MMA, D.O. 31-07-2026, idNorma 1226552). Por la Ley 21.850 (art. 13° transitorio) deben dictarse nuevos reglamentos del SEIA y de EAE antes del 17-10-2027; hasta entonces rige el DS 40, con el literal c) del art. 3 (centrales mayores a 3 MW) plenamente aplicable porque el cambio legal de ese literal solo entra en vigor con el nuevo reglamento.",
+   "motivo": "Reemplaza notas que declaraban no haber podido abrir la versión BCN vigente."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "3",
+   "campo": "resumen",
+   "valor": "Desarrolla con umbrales la lista del art. 10 de la ley, letras a) a t): obras hidráulicas y acueductos (a); líneas sobre 23 kV y más de 2 km, y subestaciones (b); centrales de más de 3 MW (c); instalaciones nucleares (d); aeropuertos, terminales, vías, estaciones de servicio (e); puertos y astilleros (f); desarrollo urbano y turístico (g); inmobiliarios e industriales en zonas latentes o saturadas (h); minería, hidrocarburos y áridos (i); ductos (j); industria manufacturera (k); agroindustria y planteles (l); proyectos forestales e industria de celulosa y madera (m); recursos hidrobiológicos (n); sustancias peligrosas (ñ); saneamiento y residuos (o); obras en áreas bajo protección oficial (p); aplicación masiva de químicos (q); organismos genéticamente modificados (r); humedales urbanos (s) y otras (t).",
+   "motivo": "El literal c) dice centrales 'mayores a 3 MW', no desde 3 MW (XML BCN idNorma 1053563 (versión 21-01-2026))."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "74",
+   "campo": "resumen",
+   "valor": "Desarrolla el art. 25 quinquies de la ley: la RCA puede revisarse, de oficio o a petición del titular, del directamente afectado o de la SMA, cuando las variables seguidas evolucionan de forma sustantivamente distinta a lo previsto. El DS 30/2023 reemplazó el artículo, lo extendió a las DIA y sumó la variable climática; el nuevo texto solo se aplica a DIA ingresadas después del 01-02-2024.",
+   "motivo": "El art. 74 vigente también legitima a la SMA; precisión del art. segundo del DS 30/2023."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1060523,
+   "motivo": "Ficha BCN: Decreto 8 MMA, publicado 27-03-2014."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1060523",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "titulo_oficial",
+   "valor": "Modifica Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título según BCN."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "fecha_promulgacion",
+   "valor": "2014-02-03",
+   "motivo": "Ficha BCN."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "resumen",
+   "valor": "Decreto de artículo único que ajustó el Reglamento del SEIA a poco de su entrada en vigencia: reemplazó los umbrales de presas (a.1), sustancias inflamables (ñ.3), residuos industriales sólidos (o.8) y residuos peligrosos (o.9) del art. 3 y sustituyó el art. 162 sobre notificaciones.",
+   "motivo": "El texto oficial no modifica o.10 y sí ñ.3 y o.8."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "art": "único",
+   "campo": "resumen",
+   "valor": "Reemplaza los literales a.1, ñ.3, o.8 y o.9 del art. 3 y el art. 162 del reglamento (cinco numerales).",
+   "motivo": "Cotejado con XML BCN 1060523."
+  },
+  {
+   "id": "ds-8-2014-mma",
+   "campo": "notas_verificacion",
+   "valor": "Texto leído en XML BCN (idNorma 1060523): promulgado 03-02-2014, publicado 27-03-2014.",
+   "motivo": "Datos antes no verificados."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1067876,
+   "motivo": "Ficha BCN: Decreto 63 MMA, publicado 06-10-2014."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1067876",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "titulo_oficial",
+   "valor": "Modifica Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título según BCN."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "fecha_promulgacion",
+   "valor": "2014-07-31",
+   "motivo": "Ficha BCN."
+  },
+  {
+   "id": "ds-63-2014-mma",
+   "campo": "notas_verificacion",
+   "valor": "Numerales cotejados con XML BCN (idNorma 1067876): N° 1-3 literales h.1, l.1 y ñ.3 del art. 3; N° 4-7 arts. 29, 36, 38 y 48; N° 8-9 arts. 87 y 94. Promulgado 31-07-2014, publicado 06-10-2014. No se releyó el detalle sustantivo de cada reemplazo.",
+   "motivo": "Actualiza verificación."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1200689,
+   "motivo": "Ficha BCN: Decreto 30 MMA, promulgado 22-08-2023, publicado 01-02-2024."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1200689",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba modificación al decreto supremo N° 40, de 2012, del Ministerio del Medio Ambiente, que establece el Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título según BCN (dice 'que establece', no 'que aprueba')."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "fecha_promulgacion",
+   "valor": "2023-08-22",
+   "motivo": "Ficha BCN."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "art": "primero N° 8-12",
+   "campo": "resumen",
+   "valor": "Actualiza el procedimiento y el expediente electrónicos (arts. 20 y 21), ajusta el art. 29 sobre copias y antecedentes de la presentación, y exige que los informes de compatibilidad territorial y de planes consideren los instrumentos climáticos (arts. 33 y 34).",
+   "motivo": "El N° 10 modifica el art. 29, que el resumen omitía (XML BCN 1200689)."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "campo": "notas_verificacion",
+   "valor": "Texto leído en XML BCN (idNorma 1200689): 24 numerales en el artículo primero y un artículo segundo sobre aplicación temporal del art. 74.",
+   "motivo": "Actualiza verificación."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1220588,
+   "motivo": "ERROR: el idNorma 1222128 corresponde a la Res. Ex. 202699101205 del SEA (D.O. 09-03-2026) que adecua documentos por la entrada en vigencia del DS 17; el decreto es el idNorma 1220588 (Decreto 17 MMA, promulgado 17-06-2025, publicado 21-01-2026)."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1220588",
+   "motivo": "Sigue al idNorma corregido."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba modificación al decreto supremo N° 40, de 2012, del Ministerio del Medio Ambiente, que establece el Reglamento del Sistema de Evaluación de Impacto Ambiental",
+   "motivo": "Título completo según BCN."
+  },
+  {
+   "id": "ds-17-2025-mma",
+   "campo": "notas_verificacion",
+   "valor": "Texto leído en XML BCN (idNorma 1220588): artículo único con tres numerales, sin transitorios. El idNorma 1222128 que figuraba antes es una resolución del SEA dictada con motivo de este decreto.",
+   "motivo": "Corrige identificación."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1076437,
+   "motivo": "Ficha BCN: Decreto 78 MMA, reglamento del registro de consultores certificados."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1076437",
+   "motivo": "Enlace canónico."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "fecha_publicacion",
+   "valor": "2015-04-17",
+   "motivo": "Ficha BCN."
+  },
+  {
+   "id": "ds-78-2014-mma",
+   "campo": "fecha_promulgacion",
+   "valor": "2014-10-22",
+   "motivo": "Ficha BCN."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "id_norma_bcn",
+   "valor": 1176903,
+   "motivo": "Buscador BCN: Ley 21.449, publicada 02-06-2022, modifica el art. 30 bis de la Ley 19.300."
+  },
+  {
+   "id": "ley-21449",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1176903",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "organismo",
+   "valor": "Ministerio de Hacienda",
+   "motivo": "Organismo según ficha BCN (XML BCN idNorma 1229250). Aplica al registro de r3 (en r2 ya figura)."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "id_norma_bcn",
+   "valor": 1229250,
+   "motivo": "idNorma confirmado en XML BCN idNorma 1229250; el registro de r2 lo tenía en null."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1229250",
+   "motivo": "Enlace canónico."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "fecha_promulgacion",
+   "valor": "2026-10-09",
+   "motivo": "Ficha BCN."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Todo el articulado ambiental fue cotejado con el texto oficial."
+  },
+  {
+   "id": "ley-21850",
+   "campo": "notas_verificacion",
+   "valor": "Auditoría v3: texto oficial leído en XML BCN (idNorma 1229250, promulgada 09-10-2026, publicada 17-10-2026, Ministerio de Hacienda). Numeración confirmada: art. 4 (Ley 19.880 art. 53), art. 5 (Ley 20.434), art. 6 (Ley de Pesca: arts. 67, 84, 87 ter suprimido, 122 bis y 142), art. 11 (Ley 19.300: arts. 10, 18 quáter, 19, 20, 24 bis, 25 septies, 29, 30 bis y 81 letra a), arts. 12 y 13 (restos del mecanismo de indemnización por RCA anulada, que remiten a un artículo anterior que no figura en el texto publicado), art. 14 (Ley 20.600), art. 15 (Ley 21.600, transitorios 8°, 10° y 12°), art. 16 (Ley 17.288: arts. 6 N° 6, 22, 26 y 26 bis) y art. 17 (Ley 21.045). Vigencia general: 01-11-2026 (art. 9° transitorio). El reemplazo del literal c) del art. 10 de la Ley 19.300 solo rige al publicarse el nuevo reglamento del SEIA (art. 13° transitorio). El recurso del art. 20 se interpone en 30 días y la reclamación judicial en 20 días. No se verificó en fuente oficial la sentencia del Tribunal Constitucional.",
+   "motivo": "Sustituye notas basadas en alertas legales; resuelve la discrepancia de plazos anotada en r2 (son 30 días)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 21.600 art. 15 y transitorios",
+   "campo": "num",
+   "valor": "15 (modifica transitorios 8°, 10° y 12° de la Ley 21.600)",
+   "motivo": "El art. 15 es de la Ley 21.850, no de la Ley 21.600; lo modificado son tres artículos transitorios de esta última."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Ley 21.600 art. 15 y transitorios",
+   "campo": "resumen",
+   "valor": "Fija en cuatro años desde la publicación de la Ley 21.600 (hasta el 06-09-2027) el plazo para dictar sus reglamentos; da cinco años al MMA para el decreto de sitios prioritarios, que además exige tener dictado antes el reglamento del art. 29; y permite relocalizar concesiones de acuicultura hacia reservas o áreas de múltiples usos aunque no tengan plan de manejo.",
+   "motivo": "Texto del art. 15 de la Ley 21.850: el plazo de sitios prioritarios es de cinco años y hay un tercer cambio (art. 10° transitorio) omitido."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 10",
+   "campo": "resumen",
+   "valor": "Reemplaza el literal c) del art. 10 por la mención genérica a centrales generadoras, dejando el umbral al nuevo reglamento (que no podrá bajar de 3 MW); este cambio aún no rige, pues depende de la publicación de ese reglamento. Agrega que las modificaciones de proyectos con RCA ejecutadas en la misma área evaluada solo se reevalúan si alteran sustantivamente la magnitud o extensión de los impactos, y que las meras mejoras tecnológicas no requieren nueva evaluación.",
+   "motivo": "Precisa vigencia diferida (art. 13° transitorio) y el requisito de misma área evaluada (art. 11 N° 1). Aplica al registro de r2."
+  },
+  {
+   "id": "ley-21850",
+   "art": "15",
+   "campo": "resumen",
+   "valor": "Fija en cuatro años el plazo para dictar los reglamentos de la Ley 21.600, da cinco años para el decreto de sitios prioritarios y lo supedita a la dictación previa del reglamento del art. 29.",
+   "motivo": "Art. 15 de la Ley 21.850 (registro de r2)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 10",
+   "campo": "num",
+   "valor": "11 N° 1 (modifica Ley 19.300 art. 10)",
+   "motivo": "Numeración propia de la ley verificada (registro r2)."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 arts. 20, 24 bis, 29 y 30 bis",
+   "campo": "num",
+   "valor": "11 N° 4, 5, 7 y 8 (modifica Ley 19.300 arts. 20, 24 bis, 29 y 30 bis)",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 25 septies",
+   "campo": "num",
+   "valor": "11 N° 6 (agrega art. 25 septies a la Ley 19.300)",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 19.300 art. 81",
+   "campo": "num",
+   "valor": "11 N° 9 (modifica Ley 19.300 art. 81 letra a)",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 20.600 arts. 17, 18, 24 y 26",
+   "campo": "num",
+   "valor": "14 (modifica Ley 20.600 arts. 17, 18, 24 y 26)",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ley-21850",
+   "art": "Modif. Ley 17.288 arts. 26 y 26 bis",
+   "campo": "num",
+   "valor": "16 (modifica Ley 17.288 arts. 6, 22, 26 y 26 bis)",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ley-20417",
+   "art": "LOSMA 35",
+   "campo": "resumen",
+   "valor": "Enumera las infracciones de competencia exclusiva de la SMA: incumplir la RCA, ejecutar sin RCA o desoír un requerimiento de ingreso, infringir planes, normas de calidad o de emisión (incluidas las de gases de efecto invernadero), normas sobre riles, instrucciones generales, requerimientos de información, medidas urgentes o provisionales y planes de manejo de la Ley 19.300, más una cláusula residual para normas ambientales sin sanción específica. La letra i) figura suprimida en el texto vigente.",
+   "motivo": "Redacción vigente verificada en XML BCN 1010459: letra i) suprimida, letra k) (planes de manejo) subsiste, letra h) incluye normas de emisión de GEI."
+  },
+  {
+   "id": "ley-20417",
+   "art": "LOSMA 37 bis",
+   "campo": "resumen",
+   "valor": "Sanciona con presidio menor en sus grados mínimo a medio y multa de 100 a 1.000 UTM a quien maliciosamente oculte o altere impactos en la evaluación, fraccione proyectos para eludir el SEIA o variar la vía de ingreso, o entregue a la SMA información falsa o incompleta sobre el cumplimiento de sus obligaciones.",
+   "motivo": "Completa las tres hipótesis del art. 37 bis (incluye el fraccionamiento)."
+  },
+  {
+   "id": "ley-20417",
+   "art": "LOSMA 37 bis",
+   "campo": "epigrafe",
+   "valor": "Delitos de información falsa y fraccionamiento",
+   "motivo": "El artículo no se limita a información falsa."
+  },
+  {
+   "id": "ley-20417",
+   "campo": "notas_verificacion",
+   "valor": "Auditoría v3: los 26 artículos resumidos fueron cotejados con el XML BCN (idNorma 1010459, versión 06-09-2023, que es la vigente a 10-11-2026: BCN no registra modificaciones posteriores). Art. 35: la letra i) aparece suprimida y la letra k) sobre planes de manejo subsiste. Los arts. 37 bis y 37 ter (delitos) están incorporados al texto. La Ley 21.850 no modifica la LOSMA.",
+   "motivo": "Reemplaza dudas ya resueltas."
+  },
+  {
+   "id": "ley-20600",
+   "art": "17 N° 5",
+   "campo": "resumen",
+   "valor": "Conocen los reclamos contra lo resuelto por el Comité de Ministros o el Director Ejecutivo conforme a los arts. 20 y 25 quinquies de la Ley 19.300; es competente el tribunal del lugar donde se evaluó el proyecto.",
+   "motivo": "El numeral también cubre la revisión de la RCA (art. 25 quinquies)."
+  },
+  {
+   "id": "ley-20600",
+   "campo": "notas_verificacion",
+   "valor": "Auditoría v3: artículos 1, 2, 5, 17 (N° 1 a 11), 18, 20, 24, 25, 26, 27, 29, 30, 33 y 44 cotejados con el XML BCN (idNorma 1041361, versión 17-10-2026, que incorpora la Ley 21.850). Confirmado: N° 6 y párrafo primero del N° 8 del art. 17 reemplazados; N° 5 del art. 18 reemplazado; cautelares que suspenden una RCA con máximo de 30 días corridos prorrogables y tope de seis meses; apelación en 10 días. No se cotejó el art. 45 completo.",
+   "motivo": "Sustituye notas basadas en fuentes secundarias."
+  },
+  {
+   "id": "ley-21600",
+   "art": "125 y 135",
+   "campo": "num",
+   "valor": "125, 134 y 135",
+   "motivo": "La reclamación ante el Tribunal Ambiental está en el art. 134; el 135 solo fija la competencia territorial."
+  },
+  {
+   "id": "ley-21600",
+   "art": "Transitorio 8°",
+   "campo": "resumen",
+   "valor": "Los sitios identificados en la estrategia nacional y en las regionales de biodiversidad conservan sus efectos legales; el MMA tiene cinco años desde la publicación de la ley para determinarlos por decreto, previa dictación del reglamento del art. 29 (texto fijado por la Ley 21.850).",
+   "motivo": "Texto vigente del art. octavo transitorio (XML BCN 1195666)."
+  },
+  {
+   "id": "ley-21600",
+   "campo": "notas_verificacion",
+   "valor": "Auditoría v3: los artículos resumidos fueron cotejados con el XML BCN (idNorma 1195666, versión 17-10-2026). Confirmado: art. 154 suprime el N° 2 del art. 17 del Código de Minería (base del PAS 121); art. 152 deroga el art. 31 de la Ley 17.288, pero según el art. cuarto transitorio letra h) eso solo rige al concluir la reclasificación de los santuarios (plazo de cinco años desde el inicio de funciones del Servicio); art. 149 exige autorización conjunta SAG-SBAP en el art. 25 de la Ley de Caza. Transitorios 8°, 10° y 12° en su texto posterior a la Ley 21.850. No se verificó en fuente oficial la fecha de inicio de funciones del SBAP (01-02-2026) ni el estado de los reglamentos pendientes.",
+   "motivo": "Actualiza verificación."
+  },
+  {
+   "id": "ds-38-2012-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Derogado por el DS 6/2024 MMA (D.O. 26-06-2025); BCN registra la derogación con fecha 26-09-2025",
+   "motivo": "Fecha de derogación vista en la ficha BCN (idNorma 1053036)."
+  },
+  {
+   "id": "ds-38-2012-mma",
+   "campo": "notas_verificacion",
+   "valor": "BCN marca el decreto como derogado con fecha 26-09-2025 (idNorma 1053036). Artículos 2, 3, 10, 12, 20, 28 y 40 cotejados con el texto histórico.",
+   "motivo": "Fecha antes calculada, ahora verificada."
+  },
+  {
+   "id": "ds-6-2024-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1214493,
+   "motivo": "Ficha BCN: Decreto 6 MMA, promulgado 11-01-2024, publicado 26-06-2025, no derogado."
+  },
+  {
+   "id": "ds-6-2024-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1214493",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-6-2024-mma",
+   "campo": "notas_verificacion",
+   "valor": "Artículos 1, 2, 4, 7, 21, 27, 30, 32, 46 y 54 cotejados con XML BCN (idNorma 1214493). La entrada en vigencia coincide con la fecha de derogación del DS 38/2012 que registra BCN: 26-09-2025.",
+   "motivo": "Actualiza verificación."
+  },
+  {
+   "id": "ds-39-2012-mma",
+   "campo": "notas_verificacion",
+   "valor": "BCN lo muestra sin derogar y en versión única de 22-07-2013 al 10-11-2026 (idNorma 1053037); el buscador BCN no arroja un reglamento posterior de planes. Artículos 1, 2, 7, 8, 11 a 14, 18, 20 y 21 cotejados. Sigue pendiente el reglamento de reemplazo derivado de la Ley 21.562.",
+   "motivo": "Vigencia confirmada en fuente oficial."
+  },
+  {
+   "id": "ds-39-2012-mma",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Vigencia y articulado verificados en BCN."
+  },
+  {
+   "id": "ds-32-2015-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1083574,
+   "motivo": "Ficha BCN: Decreto 32 MMA, promulgado 17-08-2015, publicado 04-11-2015."
+  },
+  {
+   "id": "ds-32-2015-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1083574",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-29-2011-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1039460,
+   "motivo": "Ficha BCN: Decreto 29 MMA, publicado 27-04-2012, no derogado."
+  },
+  {
+   "id": "ds-29-2011-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1039460",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-30-2012-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1048783,
+   "motivo": "Ficha BCN: Decreto 30 MMA, publicado 11-02-2013, versión única."
+  },
+  {
+   "id": "ds-30-2012-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1048783",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-31-2012-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1048784,
+   "motivo": "Ficha BCN: Decreto 31 MMA."
+  },
+  {
+   "id": "ds-31-2012-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1048784",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-31-2012-mma",
+   "campo": "fecha_publicacion",
+   "valor": "2013-02-11",
+   "motivo": "Ficha BCN (promulgado 20-08-2012)."
+  },
+  {
+   "id": "ds-25-2011-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1031470,
+   "motivo": "Ficha BCN: Decreto 25 MMA, publicado 20-10-2011, versión única (no consta modificación ni reemplazo)."
+  },
+  {
+   "id": "ds-25-2011-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1031470",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1060366,
+   "motivo": "Ficha BCN: Decreto 38 MMA (2013)."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1060366",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "campo": "fecha_publicacion",
+   "valor": "2014-03-18",
+   "motivo": "Ficha BCN (promulgado 15-10-2013)."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "art": "15 letra j)",
+   "campo": "num",
+   "valor": "15 letra g)",
+   "motivo": "El contenido atribuido a la letra j) no está allí: la letra j) es una cláusula de cierre. La remisión de resultados e informes firmados con valor de declaración jurada está en la letra g)."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "art": "15 letra j)",
+   "campo": "epigrafe",
+   "valor": "Remisión de resultados e informes",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "art": "15 letra j)",
+   "campo": "resumen",
+   "valor": "Obliga a enviar a la SMA los resultados e informes en la forma y plazos que esta instruya, firmados por el representante legal o un inspector ambiental con valor de declaración jurada.",
+   "motivo": "Texto de la letra g) del art. 15 (XML BCN 1060366)."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "art": "15 letra g) y 16",
+   "campo": "num",
+   "valor": "15 letra i) y 16",
+   "motivo": "La independencia e imparcialidad están en la letra i); los conflictos de interés en el art. 16."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "art": "15 letra g) y 16",
+   "campo": "epigrafe",
+   "valor": "Independencia y conflictos de interés",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ds-38-2013-mma",
+   "art": "15 letra g) y 16",
+   "campo": "resumen",
+   "valor": "Exige actuar con independencia, imparcialidad e integridad y somete a entidades e inspectores a incompatibilidades destinadas a evitar conflictos de interés mientras dure la autorización.",
+   "motivo": "Idem."
+  },
+  {
+   "id": "ds-39-2013-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1060367,
+   "motivo": "Ficha BCN: Decreto 39 MMA (2013), publicado 18-03-2014."
+  },
+  {
+   "id": "ds-39-2013-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1060367",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-39-2013-mma",
+   "campo": "ultima_modificacion",
+   "valor": "DS 50 MMA publicado el 31-12-2015 (antes, Decreto 77 MMA publicado el 05-02-2015), según versión y buscador BCN",
+   "motivo": "BCN muestra versión vigente de 31-12-2015; el registro decía que no tenía modificaciones."
+  },
+  {
+   "id": "ds-15-2020-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1152029,
+   "motivo": "Ficha BCN: Decreto 15 MMA, publicado 24-11-2020, versión única."
+  },
+  {
+   "id": "ds-15-2020-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1152029",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "id_norma_bcn",
+   "valor": 1227602,
+   "motivo": "Ficha BCN: Decreto 10 MMA, promulgado 22-04-2025, publicado 28-08-2026."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "url",
+   "valor": "https://www.bcn.cl/leychile/navegar?idNorma=1227602",
+   "motivo": "Enlace canónico del idNorma verificado."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "titulo_oficial",
+   "valor": "Aprueba reglamento que regula el Registro Público de Sanciones de conformidad con lo mandatado por el artículo 140 de la ley N° 21.600, que crea el Servicio de Biodiversidad y Áreas Protegidas y el Sistema Nacional de Áreas Protegidas",
+   "motivo": "Título según BCN."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Texto oficial leído."
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "campo": "notas_verificacion",
+   "valor": "Texto leído en XML BCN (idNorma 1227602): diez artículos, vigente desde su publicación. La regla de eliminación a los cinco años (art. 8) rige desde el 01-12-2026 por el alcance con que Contraloría cursó el decreto.",
+   "motivo": "Sustituye notas basadas en fuentes secundarias."
+  },
+  {
+   "id": "ds-1-2013-mma",
+   "art": "26-28 (texto original)",
+   "campo": "num",
+   "valor": "25-27",
+   "motivo": "En el texto vigente (XML BCN 1050536, versión 11-12-2018) las declaraciones de residuos están en los arts. 25 (generadores), 26 (municipalidades) y 27 (destinatarios); el art. 28 es de vigencia."
+  },
+  {
+   "id": "ds-1-2013-mma",
+   "art": "17 y 22",
+   "campo": "num",
+   "valor": "17",
+   "motivo": "El art. 22 trata de la publicidad de la información y sus restricciones, no de la Ventanilla Única."
+  },
+  {
+   "id": "ds-1-2013-mma",
+   "art": "16",
+   "campo": "epigrafe",
+   "valor": "Informe consolidado y declaración jurada",
+   "motivo": "El art. 16 regula principalmente el informe consolidado anual del Ministerio; la declaración jurada va en su parte final."
+  },
+  {
+   "id": "ds-1-2013-mma",
+   "campo": "notas_verificacion",
+   "valor": "Numeración cotejada con la versión BCN vigente (idNorma 1050536, versión 11-12-2018): 31 artículos y uno transitorio. Existe un proyecto de nuevo reglamento RETC (agosto de 2025), sin evidencia de publicación.",
+   "motivo": "La numeración ya fue cotejada."
+  },
+  {
+   "id": "ds-66-2013-mds",
+   "art": "4",
+   "campo": "resumen",
+   "valor": "Se aplica a ministerios, intendencias, gobiernos regionales, gobernaciones (hoy delegaciones presidenciales) y servicios públicos; los órganos autónomos pueden sujetarse voluntariamente.",
+   "motivo": "El texto del art. 4 menciona intendencias y gobernaciones."
+  },
+  {
+   "id": "ley-21202",
+   "campo": "fecha_publicacion",
+   "valor": "2020-01-23",
+   "motivo": "Ficha BCN (idNorma 1141461); el registro de r2 la tenía en null."
+  }
+ ],
+ "art_eliminar": [
+  {
+   "id": "ds-10-2025-mma",
+   "art": null,
+   "motivo": "Los tres artículos venían sin número (num null); se reemplazan por los mismos contenidos con su numeración oficial."
+  }
+ ],
+ "art_agregar": [
+  {
+   "id": "ley-20417",
+   "articulo": {
+    "num": "LOSMA 37 ter",
+    "epigrafe": "Delito de incumplimiento de clausura y obstrucción",
+    "resumen": "Castiga con presidio menor en su grado mínimo y multa de 50 a 500 UTM a quien incumpla una clausura o ciertas medidas provisionales de la SMA, o entorpezca significativamente su fiscalización.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "articulo": {
+    "num": "3, 4 y 7",
+    "epigrafe": "Administración, publicidad y actualización",
+    "resumen": "El SBAP administra el registro, que es público, se redacta en lenguaje claro, se publica en su sitio electrónico y se actualiza cada mes dentro de los primeros cinco días.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "articulo": {
+    "num": "5 y 6",
+    "epigrafe": "Contenido y orden de las inscripciones",
+    "resumen": "Se anotan, en orden cronológico, las sanciones del Título V de la Ley 21.600 una vez firme la resolución, con la identificación del sancionado y los datos de la infracción.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ds-10-2025-mma",
+   "articulo": {
+    "num": "8",
+    "epigrafe": "Eliminación de inscripciones",
+    "resumen": "La anotación se elimina de oficio o a petición de parte a los cinco años de incluida; según el alcance de Contraloría, esta regla opera desde el 1 de diciembre de 2026.",
+    "obliga_titular": false
+   }
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ds-40-2012-mma",
+   "tipo": "reglamenta",
+   "destino": "ley-19300",
+   "motivo": "Se reemplaza para indicar el artículo habilitante."
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "tipo": "modifica",
+   "destino": "ds-40-2012-mma",
+   "motivo": "La lista incluía el art. 30, que el decreto no toca; el N° 10 modifica el art. 29."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-21600",
+   "motivo": "Artículo de origen o de destino mal identificado; se reemplaza por la relación verificada en XML BCN idNorma 1229250."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-17288",
+   "motivo": "Artículo de origen o de destino mal identificado; se reemplaza por la relación verificada en XML BCN idNorma 1229250."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ds-430-1991-economia",
+   "motivo": "Artículo de origen o de destino mal identificado; se reemplaza por la relación verificada en XML BCN idNorma 1229250."
+  },
+  {
+   "id": "ds-39-2012-mma",
+   "tipo": "reglamenta",
+   "destino": "ley-19300",
+   "motivo": "Se precisa el artículo habilitante."
+  },
+  {
+   "id": "ds-32-2015-mma",
+   "tipo": "reglamenta",
+   "destino": "ley-19300",
+   "motivo": "Se precisa el artículo habilitante."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-19300",
+   "motivo": "Se reemplaza por la misma relación con el artículo de origen verificado (evita duplicado con rel_agregar)."
+  },
+  {
+   "id": "ley-21850",
+   "tipo": "modifica",
+   "destino": "ley-20600",
+   "motivo": "Se reemplaza por la misma relación con el artículo de origen verificado (evita duplicado con rel_agregar)."
+  }
+ ],
+ "rel_agregar": [
+  {
+   "id": "ds-40-2012-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": "1",
+    "art_destino": "13",
+    "nota": "El art. 13 de la Ley 19.300 ordena dictar por decreto del MMA el reglamento del SEIA, incluida la lista de permisos ambientales sectoriales (verificado en XML BCN 30667)."
+   }
+  },
+  {
+   "id": "ds-30-2023-mma",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ds-40-2012-mma",
+    "art_origen": "primero",
+    "art_destino": "2, 6, 7, 12 bis, 13, 18, 19, 20, 21, 29, 33, 34, 74, 82-84, 88, 93, 94, 96, 97, 102, 105 y 162",
+    "nota": "Reforma Fase 1 (24 numerales); el art. segundo limita el nuevo art. 74 a DIA ingresadas tras la publicación."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-21600",
+    "art_origen": "15",
+    "art_destino": "octavo, décimo y duodécimo transitorios",
+    "nota": "Plazos reglamentarios, decreto de sitios prioritarios y relocalización de concesiones de acuicultura."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-17288",
+    "art_origen": "16",
+    "art_destino": "6 N° 6, 22, 26 y 26 bis",
+    "nota": "Hallazgos, excavaciones e intervenciones menores (incide en el PAS 132); el art. 17 modifica la Ley 21.045, no la Ley 17.288."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ds-430-1991-economia",
+    "art_origen": "6",
+    "art_destino": "67, 84, 87 ter, 122 bis y 142",
+    "nota": "Concesiones de acuicultura y patentes; el art. 5 modifica la Ley 20.434, no el DS 430."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-19300",
+    "art_origen": "11",
+    "art_destino": "10, 18 quáter, 19, 20, 24 bis, 25 septies, 29, 30 bis y 81",
+    "nota": "Añade el artículo de origen (11) a la relación existente, que lo tenía en null."
+   }
+  },
+  {
+   "id": "ley-21850",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-20600",
+    "art_origen": "14",
+    "art_destino": "17 N° 6 y N° 8, 18 N° 5, 24 y 26",
+    "nota": "Añade el artículo de origen (14) a la relación existente."
+   }
+  },
+  {
+   "id": "ds-39-2012-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": "1",
+    "art_destino": "44",
+    "nota": "El art. 1 del decreto invoca el art. 44 de la ley; en su texto vigente (tras la Ley 21.562) el art. 44 remite al procedimiento y etapas del art. 32 inciso tercero."
+   }
+  },
+  {
+   "id": "ds-32-2015-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": "1",
+    "art_destino": "7 ter",
+    "nota": "El art. 7 ter de la ley es el que ordena dictar el reglamento de procedimiento y plazos de la EAE; los arts. 7 bis y 7 quáter fijan los instrumentos sujetos y la etapa de aprobación."
+   }
+  }
+ ],
+ "pas_cambios": [
+  {
+   "art": 111,
+   "campo": "organismo",
+   "valor": "DIRECTEMAR",
+   "motivo": "Confirmado en la norma fundante: el artículo citado del DS 1/1992 exige permiso o aprobación de la Dirección General del Territorio Marítimo y de Marina Mercante (XML BCN 7232). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 112,
+   "campo": "organismo",
+   "valor": "DIRECTEMAR",
+   "motivo": "Confirmado en la norma fundante: el artículo citado del DS 1/1992 exige permiso o aprobación de la Dirección General del Territorio Marítimo y de Marina Mercante (XML BCN 7232). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 113,
+   "campo": "organismo",
+   "valor": "DIRECTEMAR",
+   "motivo": "Confirmado en la norma fundante: el artículo citado del DS 1/1992 exige permiso o aprobación de la Dirección General del Territorio Marítimo y de Marina Mercante (XML BCN 7232). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 115,
+   "campo": "organismo",
+   "valor": "DIRECTEMAR",
+   "motivo": "Confirmado en la norma fundante: el artículo citado del DS 1/1992 exige permiso o aprobación de la Dirección General del Territorio Marítimo y de Marina Mercante (XML BCN 7232). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 114,
+   "campo": "organismo",
+   "valor": "DIRECTEMAR (Autoridad Marítima)",
+   "motivo": "El art. 117 del DS 1/1992 entrega la aprobación a la Autoridad Marítima. Marcar organismo_verificado=true."
+  },
+  {
+   "art": 116,
+   "campo": "organismo",
+   "valor": "Subsecretaría de Pesca y Acuicultura (pronunciamiento sobre el proyecto); la concesión de acuicultura la otorga el Ministerio de Defensa Nacional",
+   "motivo": "El art. 87 inc. 3° de la LGPA exige la caracterización preliminar del sitio para evaluar ambientalmente la solicitud, sin nombrar al otorgante; el art. 80 radica el otorgamiento de la concesión en Defensa. La identificación de SUBPESCA como órgano del PAS no surge del artículo citado: mantener organismo_verificado=false salvo guía del SEA."
+  },
+  {
+   "art": 117,
+   "campo": "nombre",
+   "valor": "Autorización para realizar repoblación y siembra de especies hidrobiológicas con fines de pesca recreativa",
+   "motivo": "El art. 117 habla de 'autorización', no de permiso."
+  },
+  {
+   "art": 117,
+   "campo": "organismo",
+   "valor": "Subsecretaría de Pesca y Acuicultura o Director Zonal de Pesca, según corresponda",
+   "motivo": "Art. 11 inc. 2° de la Ley 20.256 (XML BCN 270429). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 118,
+   "campo": "norma_fundante",
+   "valor": "Art. 7 del DS 314/2004 del Ministerio de Economía, Fomento y Reconstrucción (derogado: lo dejó sin efecto el DS 96/2015 de Economía, D.O. 27-01-2016, cuyo art. 9 regula hoy la solicitud)",
+   "motivo": "Ministerio emisor confirmado y derogación constatada en BCN (idNorma 239850, derogado el 27-01-2016; reemplazo idNorma 1086973). El DS 40 sigue citando la norma derogada."
+  },
+  {
+   "art": 118,
+   "campo": "organismo",
+   "valor": "Subsecretaría de Pesca y Acuicultura (o Director Zonal, según el DS 96/2015)",
+   "motivo": "Art. 7 del DS 314/2004 y arts. 9 y 13 del DS 96/2015. Marcar organismo_verificado=true."
+  },
+  {
+   "art": 119,
+   "campo": "organismo",
+   "valor": "Subsecretaría de Pesca y Acuicultura",
+   "motivo": "Arts. 98 y 99 de la LGPA: la solicitud se presenta a la Subsecretaría, que autoriza por resolución (XML BCN 13315). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 120,
+   "campo": "organismo",
+   "valor": "SBAP",
+   "motivo": "El inciso tercero del art. 31 de la Ley 17.288 exige autorización previa 'del Servicio' y el art. 6° transitorio del DS 40 solo reservaba la potestad al CMN mientras no se publicara la ley del SBAP (publicada el 06-09-2023). El art. 31 será derogado cuando concluya la reclasificación de santuarios (Ley 21.600, arts. 152 y cuarto transitorio)."
+  },
+  {
+   "art": 121,
+   "campo": "norma_fundante",
+   "valor": "Art. 17 N° 2 de la Ley 18.248, Código de Minería (numeral suprimido por el art. 154 de la Ley 21.600)",
+   "motivo": "El texto vigente del art. 17 muestra el N° 2 como suprimido (XML BCN 29668) y el art. 154 de la Ley 21.600 ordena esa supresión."
+  },
+  {
+   "art": 121,
+   "campo": "organismo",
+   "valor": "Sin órgano otorgante vigente (antes, el Intendente, hoy Delegado Presidencial Regional): el numeral fue suprimido",
+   "motivo": "Verificado en texto oficial, no solo en el anteproyecto del MMA."
+  },
+  {
+   "art": 122,
+   "campo": "organismo",
+   "valor": "Presidente de la República",
+   "motivo": "Art. 17 N° 6 del Código de Minería (XML BCN 29668). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 123,
+   "campo": "organismo",
+   "valor": "SAG, en conjunto con el SBAP",
+   "motivo": "Art. 25 de la Ley de Caza, modificado por el art. 149 N° 5 de la Ley 21.600: la autorización es conjunta y el inciso segundo exige 'igual autorización'."
+  },
+  {
+   "art": 126,
+   "campo": "organismo",
+   "valor": "SEREMI de Salud (Autoridad Sanitaria)",
+   "motivo": "Art. 9 del DS 4/2009 (XML BCN 1007456). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 130,
+   "campo": "organismo",
+   "valor": "DGA",
+   "motivo": "Arts. 63 y 64 del Código de Aguas (XML BCN 5605). Marcar organismo_verificado=true."
+  },
+  {
+   "art": 153,
+   "campo": "organismo",
+   "valor": "CONAF (se pronuncia en el SEIA); el art. 4 de la Ley 18.378 radica la potestad en el Ministerio de Agricultura",
+   "motivo": "El artículo fundante no menciona a CONAF: dispone que la explotación se hará en la forma y condiciones que fije el Ministerio de Agricultura."
+  },
+  {
+   "art": 157,
+   "campo": "organismo",
+   "valor": "DGA, con aprobación adicional de la DOH",
+   "motivo": "Art. 171 vigente del Código de Aguas: el proyecto se presenta a la DGA y las obras de regularización o defensa requieren además aprobación de la DOH."
+  },
+  {
+   "art": 158,
+   "campo": "norma_fundante",
+   "valor": "Art. 66 del DFL 1.122/1981, Código de Aguas (cita del reglamento; en el Código vigente la recarga artificial está regulada en los arts. 66 bis a 66 quáter)",
+   "motivo": "El art. 66 vigente trata de áreas de restricción y derechos provisionales; la recarga artificial pasó al art. 66 bis (XML BCN 5605)."
+  },
+  {
+   "art": 159,
+   "campo": "organismo",
+   "valor": "Municipalidad respectiva, previo informe favorable de la Dirección General de Obras Públicas del MOP (hoy DOH)",
+   "motivo": "Art. 11 de la Ley 11.402: el permiso lo dan las municipalidades; el MOP informa. El registro invertía los roles."
+  }
+ ],
+ "alias": {
+  "trat-acuerdo-de-escazu": "trat-escazu"
+ }
+}

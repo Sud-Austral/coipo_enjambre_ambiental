@@ -1,0 +1,310 @@
+{
+ "etapas": [
+  {
+   "id": "ds-38-2013-mma",
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 21 inc. final: el sujeto fiscalizado obligado a medir, muestrear o reportar a la SMA debe contratar una ETFA autorizada"
+   },
+   "motivo": "Estaba como marco. El art. 21 impone directamente al fiscalizado la contratación de una ETFA con autorización vigente para sus mediciones y reportes periódicos."
+  },
+  {
+   "id": "ds-22-2009-minsegpres",
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 13: quienes mantienen estaciones por el DS 185 o por su RCA reportan los resultados cada mes al fiscalizador"
+   },
+   "motivo": "Estaba como marco. Su art. 13 contiene la misma carga de reporte que justificó clasificar como directa a las siete normas primarias de aire, y aquí alcanza expresamente a titulares de RCA."
+  },
+  {
+   "id": "ds-8-2017-mma",
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 38, 40 y 48: los productores cumplen la REP mediante un sistema de gestión autorizado, con plan de gestión y garantía"
+   },
+   "motivo": "Estaba como marco. Además del procedimiento de los decretos de metas, el Título de sistemas de gestión (arts. 38-48) fija exigencias directas a los productores."
+  },
+  {
+   "id": "ley-20417",
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "LOSMA art. 35 letras a) y b): es infracción ejecutar el proyecto sin RCA o incumpliendo sus condiciones",
+    "operacion": "LOSMA arts. 2, 3 y 35: fiscalización de RCA, normas y planes por la SMA, deberes de información e infracciones"
+   },
+   "motivo": "El art. 43 (plan de reparación tras la sanción) no regula la fase de cierre del proyecto; se retira esa etapa. Faltaba construcción: las infracciones del art. 35 a) y b) rigen desde el inicio de las obras."
+  },
+  {
+   "id": "dl-2222-1978",
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "art. 142: prohibición absoluta de arrojar o derramar materias nocivas en aguas de jurisdicción nacional"
+   },
+   "motivo": "Los arts. 144 y 147 tratan la responsabilidad civil por derrames, que nace durante la operación; no contienen obligaciones de cierre."
+  },
+  {
+   "id": "ds-30-2012-mma",
+   "rol": "directa",
+   "etapas": [
+    "operacion"
+   ],
+   "sustento": {
+    "operacion": "arts. 6, 10 y 16-17: programa de cumplimiento dentro de 10 días de los cargos y, tras la sanción, plan de reparación voluntario"
+   },
+   "motivo": "El plan de reparación (arts. 16-17 y 29) es consecuencia de un sancionatorio, no una exigencia de la fase de cierre; se traslada a operación."
+  },
+  {
+   "id": "codigo-penal",
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "operacion"
+   ],
+   "sustento": {
+    "diseno": "art. 305: es delito verter, emitir o extraer sabiendo que el proyecto debía evaluarse y no se sometió al SEIA",
+    "operacion": "art. 306: pena a quien, ya sancionado administrativamente, vuelve a contravenir normas de emisión, planes o su RCA"
+   },
+   "motivo": "Fuera de la muestra, mismo patrón: el art. 312 faculta al tribunal para imponer condiciones de reparación en el proceso penal; no regula el cierre del proyecto."
+  },
+  {
+   "id": "ley-20600",
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 17 N° 5 y 6: reclamaciones contra lo resuelto sobre la RCA y por observaciones ciudadanas",
+    "operacion": "art. 17 N° 2 y 3: demanda de reparación por daño ambiental y reclamación contra las resoluciones de la SMA"
+   },
+   "motivo": "Fuera de la muestra, mismo patrón: la demanda por daño ambiental (arts. 17 N° 2 y 33) no es una carga de la fase de cierre; se integra a operación."
+  },
+  {
+   "id": "ley-19300",
+   "rol": "directa",
+   "etapas": [
+    "diseno",
+    "evaluacion",
+    "construccion",
+    "operacion",
+    "cierre"
+   ],
+   "sustento": {
+    "diseno": "arts. 8, 10 y 11 bis: los proyectos listados solo se ejecutan previa evaluación y no pueden fraccionarse",
+    "evaluacion": "arts. 9, 12, 12 bis y 20: presentar DIA o EIA con sus contenidos mínimos y reclamar contra la RCA",
+    "construccion": "arts. 25 bis y 25 ter: sin RCA acreditada no hay recepción municipal; la RCA caduca si no se inicia la ejecución en cinco años",
+    "operacion": "arts. 24, 46, 51 y 64: sujeción a la RCA, a los planes de la zona y a la fiscalización de la SMA; deber de reparar el daño ambiental",
+    "cierre": "art. 10 (encabezado): la evaluación comprende los impactos del proyecto en cualquiera de sus fases, lo que incluye su cierre"
+   },
+   "motivo": "Fuera de la muestra, mismo patrón: los arts. 3, 51 y 53 (responsabilidad por daño) no tratan del cierre. Se conserva la etapa, pero apoyada en el encabezado del art. 10; la ley no menciona la palabra cierre, de modo que el sustento es por alcance general."
+  },
+  {
+   "id": "ds-4-2009-minsegpres",
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "art. 9: la planta requiere proyecto de ingeniería aprobado y sus instalaciones de lodos, autorización sanitaria antes de operar",
+    "operacion": "arts. 9 y 13: la planta debe tener proyecto de manejo de lodos aprobado y respetar los topes de almacenamiento"
+   },
+   "motivo": "Etapa faltante: el art. 9 exige aprobación del proyecto y autorización previa a la entrada en operación (es la base del PAS 126, de construcción)."
+  },
+  {
+   "id": "dfl-4-2006",
+   "rol": "directa",
+   "etapas": [
+    "evaluacion",
+    "operacion"
+   ],
+   "sustento": {
+    "evaluacion": "art. 97: el adjudicatario de una obra nueva de transmisión sujeta a Estudio de Franja debe someter el proyecto al SEIA",
+    "operacion": "art. 150 bis: quienes retiran energía para comercializarla deben acreditar la cuota renovable"
+   },
+   "motivo": "Etapa faltante: el art. 97 impone el ingreso al SEIA conforme a la Ley 19.300. El visor solo lista los arts. 149, 150 bis y 225 de la LGSE."
+  },
+  {
+   "id": "ds-594-1999-minsal",
+   "rol": "directa",
+   "etapas": [
+    "construccion",
+    "operacion"
+   ],
+   "sustento": {
+    "construccion": "arts. 1, 15 y 24: rige en todo lugar de trabajo; en faenas transitorias o temporales exige agua potable y baños químicos o letrinas",
+    "operacion": "arts. 18 a 20: acumular o disponer residuos industriales exige autorización sanitaria y declaración del destino"
+   },
+   "motivo": "Se confirma la etapa construcción, pero con texto expreso: los arts. 15 y 24 regulan faenas y campamentos transitorios, lo que evita apoyarla en una inferencia."
+  }
+ ],
+ "etapas_pas": [
+  {
+   "art": 144,
+   "etapas": [
+    "evaluacion",
+    "construccion",
+    "operacion"
+   ],
+   "motivo": "El art. 44 del DS 148 exige proyecto de ingeniería aprobado antes de levantar la instalación de eliminación, y el art. 144 del RSEIA pide su diseño; el permiso alcanza la construcción, igual que el PAS 142."
+  }
+ ],
+ "vinculos": [
+  {
+   "k": 5,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "complementa",
+   "nota": "La Política Nacional de Uso del Borde Costero se dictó invocando el DFL 340/1960 sobre concesiones marítimas entre sus fundamentos.",
+   "razon_auditoria": "El DFL 340 solo aparece en los Vistos del DS 475; ningún artículo de las dos normas cita o nombra a la otra."
+  },
+  {
+   "k": 30,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "complementa",
+   "nota": "La Política Nacional de Uso del Borde Costero invoca el DFL 340/1960 sobre concesiones marítimas entre sus fundamentos.",
+   "razon_auditoria": "El DFL 340 solo aparece en los Vistos del DS 475; ningún artículo de las dos normas cita o nombra a la otra."
+  },
+  {
+   "k": 31,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "complementa",
+   "nota": "La Ley 21.074 encarga al gobierno regional proponer la zonificación del borde costero en concordancia con la política nacional de la materia (alude al DS 475 por descripción, sin número).",
+   "razon_auditoria": "La Ley 21.074 habla de \"la política nacional existente en la materia\": descripción de materia, sin número, nombre ni órgano exclusivo. El DS 475 no cita la ley."
+  },
+  {
+   "k": 91,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "remite",
+   "nota": "El gobierno regional propone la zonificación del borde costero ajustándose a la política nacional del ramo.",
+   "razon_auditoria": "La Ley 21.074 habla de \"la política nacional existente en la materia\": descripción de materia, sin número, nombre ni órgano exclusivo. El DS 475 no cita la ley."
+  },
+  {
+   "k": 36,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "complementa",
+   "nota": "La ley orgánica de la SMA le entrega la fiscalización de las normas de emisión, categoría a la que pertenece el DS 90 (dictado según el art. 40 de la Ley 19.300). El texto del DS 90 aún nombra a la SISS, Directemar y Salud.",
+   "razon_auditoria": "El art. 2° de la LOSMA menciona las normas de emisión como categoría; no cita el DS 90 ni un sistema que este regule en exclusiva. El DS 90 no nombra a la SMA."
+  },
+  {
+   "k": 41,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "complementa",
+   "nota": "La ley orgánica de la SMA le entrega la fiscalización de las normas de emisión, categoría a la que pertenece el DS 46. El art. 27 del DS 46 aún nombra a la SISS y a los Servicios de Salud.",
+   "razon_auditoria": "El art. 2° de la LOSMA menciona las normas de emisión como categoría; no cita el DS 46. El DS 46 (art. 27) nombra a la SISS y a Salud, no a la SMA."
+  },
+  {
+   "k": 39,
+   "accion": "eliminar",
+   "norma_que_cita": null,
+   "articulo": null,
+   "tipo_corregido": "complementa",
+   "nota": "La norma de descargas a alcantarillado deja a la norma de descargas a aguas superficiales (DS 90) la calidad del efluente del servicio público; la alude por su materia, sin número.",
+   "razon_auditoria": "El punto 1.1 del DS 609 alude a \"la norma que regula las descargas a aguas superficiales\": descripción de materia. El DS 90 no cita el DS 609."
+  },
+  {
+   "k": 13,
+   "accion": "corregir",
+   "norma_que_cita": "dfl-458-1975",
+   "articulo": "art. 55",
+   "tipo_corregido": "remite",
+   "nota": "La LGUC exige informe favorable del Servicio Agrícola para subdividir y urbanizar terrenos rurales; el art. 46 de la Ley 18.755 regula ese informe.",
+   "razon_auditoria": "El vínculo duplicaba el sustento del k 18 (art. 46 de la Ley 18.755). En esta dirección existe cita propia: el art. 55 de la LGUC exige informe favorable del Servicio Agrícola."
+  },
+  {
+   "k": 121,
+   "accion": "corregir",
+   "norma_que_cita": "ley-21595",
+   "articulo": "art. 57 (delito de fraccionamiento que incorpora a la LOSMA)",
+   "tipo_corregido": "complementa",
+   "nota": "La ley tipifica como delito fraccionar proyectos para eludir el SEIA o variar la vía de ingreso; no menciona el reglamento.",
+   "razon_auditoria": "El art. 57 existe y nombra el sistema de evaluación de impacto ambiental (tipo penal de fraccionamiento que incorpora a la LOSMA), pero no remite al reglamento: por coherencia con los demás vínculos por mención del sistema, el tipo es complementa."
+  },
+  {
+   "k": 143,
+   "accion": "corregir",
+   "norma_que_cita": "ds-14-2024-mma",
+   "articulo": "art. 13 (y art. 31)",
+   "tipo_corregido": "complementa",
+   "nota": "La norma de ruido adelanta su vigencia para los proyectos que ingresan a evaluación ambiental.",
+   "razon_auditoria": "El art. 31 dice \"Sistema de Evaluación de Impacto\" (nombre truncado); la mención completa e inequívoca está en el art. 13. Se invierte el orden de la cita."
+  },
+  {
+   "k": 50,
+   "accion": "restituir",
+   "norma_que_cita": "dfl-4-2006",
+   "articulo": "art. 97",
+   "tipo_corregido": "complementa",
+   "nota": "La LGSE obliga al adjudicatario de obras nuevas de transmisión sujetas a Estudio de Franja a someter el proyecto al SEIA, conforme a la Ley 19.300; no cita el DS 40 por número.",
+   "razon_auditoria": "Aplicando el criterio definitivo: el art. 97 de la LGSE nombra el sistema de evaluación de impacto ambiental en un artículo, igual que los planes cuyos vínculos al DS 40 se confirmaron. La cita por número es a la Ley 19.300 (vínculo que ya existe y debe recibir este artículo de origen)."
+  }
+ ],
+ "vinculos_nuevos": [
+  {
+   "origen": "dfl-4-2006",
+   "destino": "ley-19300",
+   "tipo": "remite",
+   "art_origen": "97",
+   "art_destino": null,
+   "nota": "Actualiza un vínculo que ya existe en data.json (hoy complementa, sin artículo de origen): la LGSE ordena someter al SEIA, conforme a la Ley 19.300, las obras nuevas de transmisión sujetas a Estudio de Franja. Resuelve el hallazgo del k 50."
+  },
+  {
+   "origen": "ley-19473",
+   "destino": "trat-cms",
+   "tipo": "implementa_tratado",
+   "art_origen": "7 y 22",
+   "art_destino": null,
+   "nota": "Actualiza un vínculo que ya existe en data.json (sin artículo de origen): la Ley de Caza cita por su nombre el Convenio sobre Especies Migratorias (aves protegidas y Anexos I y II; DS 868/1981). Resuelve el k 12: no hay cita a CITES en el texto vigente."
+  },
+  {
+   "origen": "ds-5-1998-minagri",
+   "destino": "ley-19300",
+   "tipo": "remite",
+   "art_origen": "27",
+   "art_destino": null,
+   "nota": "Establecer un coto de caza exige declaración o estudio de impacto ambiental según el procedimiento de la Ley 19.300; los arts. 18 y 19 citan además su art. 37. Surge de la revisión del k 34."
+  },
+  {
+   "origen": "ds-203-2013-mop",
+   "destino": "ley-19300",
+   "tipo": "remite",
+   "art_origen": "5",
+   "art_destino": "10 letra p)",
+   "nota": "La solicitud de exploración debe identificar las áreas bajo protección oficial del art. 10 letra p) de la Ley 19.300. Surge de la revisión del k 66."
+  },
+  {
+   "origen": "ds-211-1991-mtt",
+   "destino": "ley-20417",
+   "tipo": "remite",
+   "art_origen": "13",
+   "art_destino": null,
+   "nota": "La norma deja a salvo las atribuciones de la Superintendencia del Medio Ambiente al asignar la fiscalización a Transportes. Surge de la revisión del k 23."
+  }
+ ]
+}

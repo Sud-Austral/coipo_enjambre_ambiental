@@ -1,0 +1,217 @@
+{
+ "cambios": [
+  {
+   "id": "ley-17288",
+   "campo": "aviso",
+   "valor": "La Ley 21.850 modificó los arts. 6, 22 y 26 y agregó el 26 bis (en vigor desde el 01-11-2026, según la regla general de su art. noveno transitorio). La Ley 21.600 (art. 152) ordenó derogar el art. 31, sobre santuarios de la naturaleza, pero esa derogación solo regirá cuando termine la reclasificación de los santuarios (art. cuarto transitorio, letra h); por eso BCN mantiene el art. 31 en el texto vigente.",
+   "motivo": "El aviso presentaba el art. 31 como ya derogado y atribuía su presencia a un rezago de BCN; el art. cuarto transitorio letra h) de la Ley 21.600 difiere la vigencia del art. 152 hasta concluir la reclasificación."
+  },
+  {
+   "id": "ley-19300",
+   "campo": "aviso",
+   "valor": "Texto actualizado al 17-10-2026. La Ley 21.850, en vigor en esta parte desde el 01-11-2026, cambió el régimen de reclamación de la RCA (art. 20), agregó los arts. 24 bis y 25 septies y ordenó dictar un nuevo Reglamento del SEIA antes del 17-10-2027. La letra c) del art. 10 sigue diciendo «mayores a 3 MW» hasta que ese reglamento se publique.",
+   "motivo": "Precisión: el art. noveno transitorio de la Ley 21.850 fija la vigencia general el primer día del mes siguiente a la publicación (01-11-2026). El resto del aviso fue confirmado (art. décimo tercero transitorio)."
+  },
+  {
+   "id": "ds-38-2012-mma",
+   "campo": "aviso",
+   "valor": "Reemplazado por el DS 6/2024 del MMA (Diario Oficial de 26-06-2025), que lo deroga desde su entrada en vigencia; BCN lo registra derogado desde el 26-09-2025.",
+   "motivo": "El DS 6/2024 (art. 57 y artículo segundo) difiere su vigencia tres meses; la fecha de derogación BCN es 26-09-2025, no la de publicación."
+  },
+  {
+   "id": "__raiz__",
+   "campo": "novedades",
+   "valor": [
+    {
+     "hecho": "Ley 21.850 (17-10-2026): ley miscelánea de reconstrucción y desarrollo económico que, entre otras materias, reforma el SEIA desde el 01-11-2026. Recurso especial de reclamación único y previo contra la RCA (30 días), 20 días para reclamar después ante el Tribunal Ambiental, plazo general de invalidación administrativa reducido a un año (art. 53 de la Ley 19.880) y nuevo Reglamento del SEIA antes del 17-10-2027.",
+     "id": "ley-21850"
+    },
+    {
+     "hecho": "Ley 21.770 (29-09-2025): Ley Marco de Autorizaciones Sectoriales. Modifica el Código de Aguas, el Código Sanitario, la Ley 20.283 y otras leyes; excluye de su ámbito las autorizaciones tramitadas íntegramente dentro del SEIA.",
+     "id": "ley-21770"
+    },
+    {
+     "hecho": "Ley 21.744 (23-05-2025): crea el Servicio Nacional Forestal, continuador legal de CONAF.",
+     "id": "ley-21744"
+    },
+    {
+     "hecho": "DS 14/2024 MMA (27-02-2026): nueva norma de ruido, con vigencia diferida a 2027-2028.",
+     "id": "ds-14-2024-mma"
+    },
+    {
+     "hecho": "DS 17/2025 MMA (21-01-2026): última modificación del Reglamento del SEIA (umbrales del art. 3).",
+     "id": "ds-17-2025-mma"
+    },
+    {
+     "hecho": "DS 12/2025 MMA (13-08-2026): plan de descontaminación del lago Villarrica.",
+     "id": "ds-12-2025-mma"
+    },
+    {
+     "hecho": "En trámite, sin ser ley: reforma al SEIA (boletín 16552-12, segundo trámite en la Cámara) y ley de incendios forestales y rurales (no publicada al 10-11-2026).",
+     "id": null
+    }
+   ],
+   "motivo": "Ítem ley-21850: no es una ley exclusiva del SEIA (título BCN: para la reconstrucción nacional y el desarrollo económico y social), faltaba el plazo de 30 días del recurso previo y la vigencia 01-11-2026; el plazo de un año es la regla general del art. 53 de la Ley 19.880. Ítem ley-21770: la exclusión alcanza solo a las autorizaciones tramitadas íntegramente en el SEIA (art. 4 letra a). Los otros cinco ítems quedaron conformes."
+  },
+  {
+   "id": "res-2547-2021-sma",
+   "campo": "titulo_oficial",
+   "valor": "Establece instrucciones generales sobre deberes de remisión de información para fuentes reguladas por normas de emisión de contaminantes a la atmósfera y planes de prevención y/o descontaminación atmosférica en Sistema de Seguimiento Atmosférico (SISAT) de la SMA y revoca Resolución Exenta N° 1.227/2015",
+   "motivo": "Título BCN completo; el registrado omitía la parte final."
+  },
+  {
+   "id": "ley-11402",
+   "campo": "ultima_modificacion",
+   "valor": "Versión BCN de 30-12-1984 (norma modificatoria no identificada)",
+   "motivo": "fechaVersion BCN 1984-12-30; el campo estaba vacío."
+  },
+  {
+   "id": "ley-19253",
+   "campo": "ultima_modificacion",
+   "valor": "Ley 21.770 (29-09-2025), art. 104, que modifica el art. 39; antes Ley 21.273 (17-10-2020), que reconoce al pueblo chango",
+   "motivo": "fechaVersion BCN 2025-09-29; el art. 104 de la Ley 21.770 modifica el art. 39 de la Ley 19.253."
+  },
+  {
+   "id": "cpr-1980",
+   "campo": "ultima_modificacion",
+   "valor": "Versión BCN de 16-04-2026 (norma modificatoria no identificada); dato anterior registrado: Ley 21.448 (29-04-2022) es la última vista en la ficha consultada; puede haber reformas posteriores no verificadas",
+   "motivo": "fechaVersion BCN 2026-04-16 es posterior a lo declarado."
+  },
+  {
+   "id": "ley-20285",
+   "campo": "ultima_modificacion",
+   "valor": "Versión BCN de 11-07-2025 (norma modificatoria no identificada); dato anterior registrado: Ley 21.210 (24-02-2020), última vista en la ficha consultada",
+   "motivo": "fechaVersion BCN 2025-07-11 es posterior a lo declarado."
+  },
+  {
+   "id": "ds-9-2018-defensa",
+   "campo": "ultima_modificacion",
+   "valor": "Versión BCN de 01-09-2020 (norma modificatoria no identificada); dato anterior registrado: Decreto 183 de 2019 (publicado 2020-03-04), ajustado por Decreto 190 (publicado 2020-08-13), ambos de Defensa",
+   "motivo": "fechaVersion BCN 2020-09-01 es posterior a lo declarado."
+  },
+  {
+   "id": "ley-20173",
+   "campo": "ultima_modificacion",
+   "valor": "Versión BCN de 06-12-2007 (norma modificatoria no identificada)",
+   "motivo": "fechaVersion BCN 2007-12-06; el campo estaba vacío."
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ds-146-1997-minsegpres",
+   "tipo": "remite",
+   "destino": "ds-38-2011-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-59-1998-minsegpres",
+   "tipo": "remite",
+   "destino": "ds-12-2021-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-136-2000-minsegpres",
+   "tipo": "remite",
+   "destino": "ds-43-2025-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-113-2002-minsegpres",
+   "tipo": "remite",
+   "destino": "ds-104-2018-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-114-2002-minsegpres",
+   "tipo": "remite",
+   "destino": "ds-40-2023-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-37-2012-mma",
+   "tipo": "remite",
+   "destino": "ds-50-2024-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-43-2012-mma",
+   "tipo": "remite",
+   "destino": "ds-1-2022-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-15-2013-mma",
+   "tipo": "remite",
+   "destino": "ds-1-2021-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "ds-8-2015-mma",
+   "tipo": "remite",
+   "destino": "ds-8-2023-mma",
+   "motivo": "Sin sustento textual: la norma reemplazada no cita a su sucesora. Es duplicado invertido de la relación «reemplaza» que ya existe en la norma nueva y que la aplicación muestra como «Reemplazada por»."
+  },
+  {
+   "id": "trat-convencion-washington",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "motivo": "El tratado no cita la Ley 19.300; vínculo solo conceptual."
+  },
+  {
+   "id": "trat-marpol",
+   "tipo": "complementa",
+   "destino": "ds-1-1992-defensa",
+   "motivo": "El tratado no cita el reglamento y la propia nota reconoce que el reglamento cita otro convenio."
+  },
+  {
+   "id": "ley-21455",
+   "tipo": "complementa",
+   "destino": "ley-20780",
+   "motivo": "El art. 37 de la Ley 21.455 no menciona el impuesto de la Ley 20.780 ni la ley la cita."
+  },
+  {
+   "id": "ley-20285",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "motivo": "La Ley 20.285 no cita la Ley 19.300; el vínculo con sustento es el inverso (art. 31 bis de la Ley 19.300), que ya existe."
+  },
+  {
+   "id": "ley-21202",
+   "tipo": "remite",
+   "destino": "ds-40-2012-mma",
+   "motivo": "La Ley 21.202 no remite al Reglamento del SEIA; su vínculo es la modificación del art. 10 de la Ley 19.300, ya registrada."
+  }
+ ],
+ "rel_agregar": [
+  {
+   "id": "ley-21600",
+   "relacion": {
+    "tipo": "modifica",
+    "destino": "ley-20256",
+    "art_origen": "148",
+    "art_destino": "7 (inciso quinto nuevo) y otros",
+    "nota": "Excluye de la pesca recreativa a las especies clasificadas como amenazadas."
+   }
+  }
+ ],
+ "pas_cambios": [
+  {
+   "art": 155,
+   "campo": "nota",
+   "valor": "La Ley 21.770 (art. 85 N° 18) sustituyó el art. 294 del Código de Aguas con nuevos umbrales de embalses. Ese numeral tiene regla especial de vigencia (art. décimo noveno transitorio: primer día del mes subsiguiente a la publicación de la modificación del DS 50/2015 del MOP) y BCN ya muestra el art. 294 con versión de 02-03-2026; el texto del art. 155 del reglamento no ha sido adecuado.",
+   "motivo": "La nota fijaba la vigencia en 29-09-2026, que es la regla general del art. 85 y no la del N° 18; BCN registra el art. 294 con fechaVersion 2026-03-02."
+  },
+  {
+   "art": 116,
+   "campo": "nota",
+   "valor": "Cuenta con guía trámite del SEA (2021). La Ley 21.850 suprimió el art. 87 ter y modificó otras normas de concesiones de acuicultura (arts. 67, 84, 122 bis y 142).",
+   "motivo": "El art. 6 N° 3 de la Ley 21.850 suprime el art. 87 ter; no lo modifica."
+  },
+  {
+   "art": 120,
+   "campo": "nota",
+   "valor": "El art. 6° transitorio del DS 40 mantenía la potestad del Consejo de Monumentos Nacionales solo hasta la publicación de la ley que crea el SBAP (Ley 21.600, de 06-09-2023). El art. 31 de la Ley 17.288 sigue rigiendo hasta que concluya la reclasificación de los santuarios (art. cuarto transitorio, letra h, de la Ley 21.600).",
+   "motivo": "El transitorio condiciona la potestad del CMN a la publicación de la ley, no a la entrada en operación del Servicio; se agrega la vigencia diferida de la derogación del art. 31."
+  }
+ ]
+}

@@ -1,0 +1,2371 @@
+{
+ "meta": {
+  "codigo": "e1",
+  "corte": "10-11-2026",
+  "criterio": "Aplicabilidad por tipo de proyecto, sin considerar ubicación. 'siempre' = por la naturaleza de la tipología; 'segun_caso' = depende de un hecho frecuente del proyecto.",
+  "notas": [
+   "Se excluyeron deliberadamente las normas y permisos que dependen de la ubicación (zona latente o saturada, humedales, áreas protegidas, borde costero como localización, pueblos indígenas, patrimonio arqueológico y suelo rural). Por eso no figuran el PAS 160 (art. 55 LGUC), los PAS 120, 121, 122, 130 a 133, 153 y 154, ni el DL 3.516 ni el art. 46 de la Ley 18.755.",
+   "No se incluyeron guías ni instructivos del SEA (sin artículo que imponga obligación), tratados, normas de calidad ambiental, planes de descontaminación ni el Código Penal y la Ley 21.770 como normas transversales, por el criterio estricto de artículo concreto que alcance a la actividad.",
+   "Letra c) del art. 10 de la Ley 19.300: texto vigente leído en el XML 30667 dice 'mayores a 3 MW'; el art. 3 c) del DS 40 repite el umbral.",
+   "El art. 294 del Código de Aguas leído no menciona depósitos de relaves; el PAS 155 se asignó a minería solo para embalses o acueductos de agua del proyecto."
+  ]
+ },
+ "tipologias": [
+  {
+   "id": "linea-transmision",
+   "nombre": "Línea de transmisión eléctrica de alto voltaje y subestación",
+   "descripcion": "Tendido eléctrico de más de 23 kV y más de 2 km de trazado, con las subestaciones que mantienen el voltaje a nivel de transporte.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 b)",
+     "texto": "La ley somete al SEIA las líneas de transmisión de alto voltaje y sus subestaciones, sin fijar umbral."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 b.1)",
+     "texto": "El reglamento considera de alto voltaje la línea con tensión superior a 23 kV cuyo trazado supere los 2 km de longitud."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 b.2)",
+     "texto": "Ingresan también las subestaciones asociadas a una o más líneas de transporte cuyo objeto sea mantener el voltaje a nivel de transporte."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 b) y 24",
+     "motivo": "La línea de alto voltaje con sus subestaciones figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 b); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a la línea de alto voltaje con sus subestaciones y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de la línea de alto voltaje con sus subestaciones y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "El montaje de torres y la subestación son faenas constructivas e infraestructura energética que emiten ruido hacia receptores del trazado."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "dfl-4-2006",
+     "fuerza": "siempre",
+     "art": "2 N° 1 b) y c) y N° 4, 11, 25, 51 y 72°-17",
+     "motivo": "Ley sectorial propia: regula la concesión de líneas de transporte y subestaciones, las servidumbres de tendido y la declaración en construcción previa a la interconexión; la concesión no exime de la normativa ambiental."
+    },
+    {
+     "id": "ley-21721",
+     "fuerza": "segun_caso",
+     "art": "único N° 2 y 3",
+     "motivo": "Modifica las reglas de expansión de la transmisión; incide cuando la línea es obra del plan de expansión o se origina en un proyecto de generación o almacenamiento."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "5, 7, 19, 21 y 60",
+     "motivo": "La faja de servidumbre suele requerir corta de bosque nativo o de formaciones xerofíticas; el plan de manejo lo presenta el titular de la servidumbre o concesión eléctrica."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "segun_caso",
+     "art": "3 y 19",
+     "motivo": "Detalla el plan de manejo de corta para obras y para el ejercicio de concesiones o servidumbres, que es el aplicable a la faja de la línea."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "segun_caso",
+     "art": "1, 3, 4 y 13",
+     "motivo": "Si la faja corta vegetación nativa junto a cursos de agua o manantiales rigen zonas de exclusión, cobertura mínima y prohibición de tránsito de maquinaria por cauces."
+    },
+    {
+     "id": "dl-701-1974",
+     "fuerza": "segun_caso",
+     "art": "21 y 22",
+     "motivo": "Cuando el trazado cruza plantaciones en terrenos de aptitud preferentemente forestal, la corta exige plan de manejo y reforestación equivalente."
+    },
+    {
+     "id": "ds-4363-1931-mintierras",
+     "fuerza": "segun_caso",
+     "art": "5",
+     "motivo": "La apertura de faja puede caer en las distancias de protección de manantiales y pendientes donde se veda cortar árboles y arbustos nativos."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3 y 9",
+     "motivo": "El despeje de faja y fundaciones puede exigir captura y relocalización de fauna protegida, que requiere autorización previa del SAG."
+    },
+    {
+     "id": "ds-5-1998-minagri",
+     "fuerza": "segun_caso",
+     "art": "4 y 16",
+     "motivo": "Lista las especies de captura prohibida y regula el permiso para relocalizar fauna durante la construcción del trazado."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41 y 171",
+     "motivo": "Las torres, accesos y atraviesos en quebradas o cauces son modificaciones de cauce que la DGA debe aprobar antes de ejecutarse."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Aceites dieléctricos de transformadores y residuos de mantención de la subestación son residuos peligrosos que exigen bodega autorizada y seguimiento."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Las instalaciones de faenas y la subestación con personal requieren solución particular de aguas servidas aprobada por la autoridad sanitaria."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "El alumbrado exterior de la subestación es alumbrado industrial sujeto a los límites de la norma lumínica en todo el país."
+    }
+   ],
+   "pas": [
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo en la faja de servidumbre y en accesos."
+    },
+    {
+     "art": 149,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de plantaciones en terrenos de aptitud preferentemente forestal atravesados por el trazado."
+    },
+    {
+     "art": 150,
+     "fuerza": "segun_caso",
+     "motivo": "Intervención de especies nativas en categoría de conservación que formen parte de un bosque nativo dentro de la faja."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas en tramos de zona árida o semiárida."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Captura y relocalización de fauna protegida de baja movilidad en fundaciones y caminos de acceso."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Atraviesos y obras en cauces o quebradas a lo largo del trazado."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Sistema particular de aguas servidas en instalación de faenas o subestación."
+    },
+    {
+     "art": 140,
+     "fuerza": "segun_caso",
+     "motivo": "Sitios de acopio de residuos de construcción y domiciliarios de las faenas."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos de la subestación y de las faenas."
+    }
+   ]
+  },
+  {
+   "id": "central-solar-eolica",
+   "nombre": "Central de generación solar o eólica",
+   "descripcion": "Parque fotovoltaico o eólico de más de 3 MW, con su subestación elevadora y, a menudo, almacenamiento en baterías.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 c)",
+     "texto": "La ley somete al SEIA las centrales generadoras de energía mayores a 3 MW. La Ley 21.850 suprime el umbral de la letra c) en la ley, pero ese cambio solo rige cuando se publique el nuevo Reglamento del SEIA; hoy el texto vigente mantiene los 3 MW."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 c)",
+     "texto": "El reglamento repite el umbral legal de más de 3 MW de potencia, sin distinguir tecnología de generación."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 b.1) y b.2)",
+     "texto": "La línea de evacuación ingresa además por la letra b) si supera 23 kV y 2 km de trazado, junto con su subestación."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 c) y 24",
+     "motivo": "La central generadora de más de 3 MW figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 c); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a la central generadora de más de 3 mw y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de la central generadora de más de 3 mw y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "La construcción del parque y, en eólicos, el giro de los aerogeneradores constituyen fuente emisora de ruido frente a receptores normalmente rurales."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 11, 13, 17 y 31",
+     "motivo": "Trae un método de medición propio para parques eólicos y reglas para receptores rurales de proyectos con RCA; vigencia diferida: 27-08-2027 para proyectos que ingresen al SEIA desde el 27-02-2026 y 27-08-2028 como regla general."
+    },
+    {
+     "id": "dfl-4-2006",
+     "fuerza": "siempre",
+     "art": "8° bis, 72°-17 y 149",
+     "motivo": "Ley sectorial propia: quien explote una central interconectada debe constituir sociedad de giro de generación, obtener la declaración en construcción antes de conectarse y se rige por las reglas de inyección y transferencias."
+    },
+    {
+     "id": "ley-21505",
+     "fuerza": "segun_caso",
+     "art": "único N° 3 y 4",
+     "motivo": "Aplica cuando el parque incorpora baterías: el almacenamiento queda sujeto a las reglas de coordinación e inyección de los generadores."
+    },
+    {
+     "id": "ley-21721",
+     "fuerza": "segun_caso",
+     "art": "único N° 3",
+     "motivo": "Regula las obras de transmisión propuestas a raíz de proyectos de generación o almacenamiento aún no declarados en construcción."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "5, 19, 21 y 60",
+     "motivo": "El despeje de grandes superficies suele afectar formaciones xerofíticas o bosque nativo, lo que exige plan de trabajo o plan de manejo de corta para obras."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "segun_caso",
+     "art": "3 y 19",
+     "motivo": "Fija el contenido del plan de manejo de corta por construcción de obras aplicable al área de paneles, aerogeneradores y caminos."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "segun_caso",
+     "art": "1, 3, 4 y 13",
+     "motivo": "Si la corta de vegetación nativa ocurre junto a quebradas o cursos de agua rigen las zonas de protección y la prohibición de circular con maquinaria por cauces."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3 y 9",
+     "motivo": "El escarpe del sitio obliga con frecuencia a rescatar reptiles y micromamíferos protegidos, lo que requiere permiso del SAG."
+    },
+    {
+     "id": "ds-5-1998-minagri",
+     "fuerza": "segun_caso",
+     "art": "4 y 16",
+     "motivo": "Identifica las especies de captura prohibida y regula el permiso de relocalización de fauna previo al movimiento de tierras."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41 y 171",
+     "motivo": "Cruces de quebradas con caminos internos, zanjas de cableado u obras de drenaje son modificaciones de cauce sujetas a aprobación de la DGA."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Baterías, aceites de transformadores y lubricantes de aerogeneradores generan residuos peligrosos que requieren bodega autorizada y, sobre el umbral, plan de manejo."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Las instalaciones de faena y la sala de control requieren un sistema particular de aguas servidas aprobado."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Si se usan grupos electrógenos de 19 kW o más en la obra o como respaldo, su propietario debe reportar anualmente horas de uso y consumo."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "La iluminación exterior de la subestación y de las instalaciones del parque queda sujeta a los límites de alumbrado industrial."
+    }
+   ],
+   "pas": [
+    {
+     "art": 140,
+     "fuerza": "siempre",
+     "motivo": "Acopio de residuos sólidos de construcción (embalajes de paneles, pallets, chatarra) y domiciliarios en toda obra de esta escala."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos (aceites, baterías, envases contaminados)."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Solución particular de aguas servidas de la faena y de la sala de control."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Rescate y relocalización de fauna protegida de baja movilidad antes del escarpe."
+    },
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo en el área de emplazamiento."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas, frecuente en parques del norte y centro."
+    },
+    {
+     "art": 150,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de especies nativas en categoría de conservación dentro de un bosque nativo a intervenir."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Atraviesos de quebradas y obras de drenaje dentro del parque."
+    }
+   ]
+  },
+  {
+   "id": "inmobiliario",
+   "nombre": "Proyecto inmobiliario o loteo",
+   "descripcion": "Conjunto habitacional, loteo o proyecto de equipamiento con obras de edificación y urbanización.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 g)",
+     "texto": "La ley somete al SEIA los proyectos de desarrollo urbano o turístico en zonas no cubiertas por planes evaluados estratégicamente."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 g.1.1) a g.1.3)",
+     "texto": "Ingresan los conjuntos de 80 o más viviendas (160 si son sociales, progresivas o de infraestructura sanitaria); el equipamiento con 5.000 m² construidos, 20.000 m² de predio, 800 personas o 200 estacionamientos; y los loteos industriales de 30.000 m² o más."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 h)",
+     "texto": "También ingresan los proyectos inmobiliarios ejecutados en zonas declaradas latentes o saturadas (hipótesis que depende de la ubicación)."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 h.1)",
+     "texto": "En zona latente o saturada basta alguna de estas condiciones: 7 ha o 300 viviendas, sistemas propios de agua potable o aguas servidas en área rural o de extensión urbana, vías expresas o troncales, o edificios públicos para 5.000 personas o 1.000 estacionamientos."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 g) y 24",
+     "motivo": "El proyecto de desarrollo urbano figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 g); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a el proyecto de desarrollo urbano y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de el proyecto de desarrollo urbano y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "Excavaciones, demolición y edificación son faenas constructivas con receptores habitacionales cercanos; es la principal fuente de reclamos del rubro."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "siempre",
+     "art": "116",
+     "motivo": "Ley sectorial propia: toda urbanización y construcción requiere permiso de la Dirección de Obras Municipales."
+    },
+    {
+     "id": "ds-47-1992-minvu",
+     "fuerza": "siempre",
+     "art": "2.1.17 y 2.1.18",
+     "motivo": "Ordenanza que rige las condiciones de urbanización y edificación y el respeto a las áreas de riesgo y de protección fijadas por el plan regulador."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Si el loteo no se conecta a red pública necesita aprobar su propio sistema de agua potable y de aguas servidas; es además uno de los supuestos de ingreso de h.1.1."
+    },
+    {
+     "id": "dfl-382-1988",
+     "fuerza": "segun_caso",
+     "art": "1, 4 y 45",
+     "motivo": "Cuando el proyecto produce y distribuye agua potable o recolecta aguas servidas como servicio público queda bajo el régimen de concesiones sanitarias."
+    },
+    {
+     "id": "ley-21075",
+     "fuerza": "segun_caso",
+     "art": "3, 8 y 9",
+     "motivo": "Si el conjunto incorpora reutilización de aguas grises, el sistema requiere aprobación de proyecto y autorización sanitaria de funcionamiento."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41 y 171",
+     "motivo": "Abovedamientos, entubamientos y cruces viales sobre esteros, canales o quebradas del loteo son modificaciones de cauce sujetas a aprobación previa de la DGA."
+    },
+    {
+     "id": "ley-11402",
+     "fuerza": "segun_caso",
+     "art": "1",
+     "motivo": "Las defensas fluviales que el urbanizador ejecute por su cuenta deben ser autorizadas y vigiladas por Obras Públicas."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "5, 19, 21 y 60",
+     "motivo": "La habilitación del terreno con cambio de uso de suelo puede implicar corta de bosque nativo o de formaciones xerofíticas, sujeta a plan de manejo o de trabajo."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "segun_caso",
+     "art": "3 y 19",
+     "motivo": "Regula el plan de manejo de corta por cambio de uso de suelo y construcción de obras que aplica al despeje del loteo."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3 y 9",
+     "motivo": "El escarpe de terrenos con fauna protegida obliga a su captura y relocalización con permiso del SAG."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "El alumbrado de calles, áreas comunes y estacionamientos del conjunto es alumbrado de exteriores sujeto a certificación y límites."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Excedentes de pinturas, solventes y suelos contaminados de la obra pueden calificar como residuos peligrosos con exigencia de almacenamiento autorizado."
+    }
+   ],
+   "pas": [
+    {
+     "art": 140,
+     "fuerza": "segun_caso",
+     "motivo": "Sitios de acopio de escombros y residuos de construcción."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Planta o sistema particular de aguas servidas cuando no hay conexión a red pública."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Abovedamiento, entubamiento o cruce de cauces dentro del loteo."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Defensas fluviales para proteger el loteo."
+    },
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo para habilitar el terreno."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas en el predio."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Rescate y relocalización de fauna protegida antes del escarpe."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos de la obra."
+    }
+   ]
+  },
+  {
+   "id": "mineria",
+   "nombre": "Faena minera con depósito de relaves",
+   "descripcion": "Extracción y beneficio de minerales sobre 5.000 t/mes, con botaderos de estériles y depósito de relaves.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 i)",
+     "texto": "La ley somete al SEIA los proyectos de desarrollo minero, con sus prospecciones, explotaciones, plantas de proceso y disposición de residuos y estériles."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 i.1)",
+     "texto": "Es proyecto de desarrollo minero el que extrae o beneficia yacimientos con capacidad de extracción superior a 5.000 toneladas mensuales."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 i.3)",
+     "texto": "Ingresa la disposición de residuos masivos (relaves, estériles, ripios de lixiviación, escorias) provenientes de faenas que alcancen ese umbral."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 i.2)",
+     "texto": "Las prospecciones ingresan con 40 o más plataformas entre Arica y Parinacota y Coquimbo, y con 20 o más desde Valparaíso al sur."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 j)",
+     "texto": "Los ductos mineros (relaveductos, mineroductos) son tipología autónoma; el reglamento (art. 3 j) excluye solo los ductos internos de los centros de producción."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 i) y 24",
+     "motivo": "El proyecto de desarrollo minero figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 i); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a el proyecto de desarrollo minero y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de el proyecto de desarrollo minero y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "Tronaduras, chancado y transporte son actividad productiva extractiva expresamente comprendida como fuente emisora de ruido."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "ley-18248",
+     "fuerza": "siempre",
+     "art": "14, 15 y 17",
+     "motivo": "Código sectorial: regula la facultad de ejecutar labores mineras y los permisos previos que exige en determinados lugares."
+    },
+    {
+     "id": "ds-132-2002-mineria",
+     "fuerza": "siempre",
+     "art": "21, 22, 23 y 339",
+     "motivo": "Reglamento propio de la faena: aviso de inicio, aprobación del método de explotación y proyecto aprobado para botaderos de estériles."
+    },
+    {
+     "id": "ds-248-2006-mineria",
+     "fuerza": "siempre",
+     "art": "9, 10, 13 y 14",
+     "motivo": "Todo depósito de relaves, cualquiera sea su tamaño, requiere proyecto aprobado antes de construirse y operar."
+    },
+    {
+     "id": "ley-20551",
+     "fuerza": "siempre",
+     "art": "2, 4, 6 y 49",
+     "motivo": "Toda empresa minera debe tener plan de cierre aprobado y coherente con la RCA; el régimen general exige garantía. La reforma del art. 4 por la Ley 21.770 aún no rige (depende de la modificación del DS 41/2012)."
+    },
+    {
+     "id": "ds-41-2012-mineria",
+     "fuerza": "siempre",
+     "art": "13 y 16",
+     "motivo": "Desarrolla el contenido del plan de cierre que debe presentarse antes de iniciar operaciones."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "siempre",
+     "art": "71 letra b), 73 y 74",
+     "motivo": "Las obras de disposición de residuos mineros requieren aprobación sanitaria; además se prohíbe descargarlos sin depurar y se restringen labores donde se han alumbrado aguas."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41, 56 bis, 58, 171 y 294",
+     "motivo": "Desvíos de quebradas, canales de contorno y embalses de aguas del proyecto requieren aprobación de la DGA; las aguas halladas en las labores deben informarse dentro de 90 días."
+    },
+    {
+     "id": "ds-203-2013-mop",
+     "fuerza": "segun_caso",
+     "art": "5, 20 y 42",
+     "motivo": "El abastecimiento desde pozos se rige por las reglas de exploración, constitución de derechos y cambio de punto de captación de aguas subterráneas."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3.7 y 4.1 a 4.4",
+     "motivo": "Si la faena descarga aguas de proceso, de contacto o de drenaje a un cauce o al mar, queda sujeta a los límites según cuerpo receptor."
+    },
+    {
+     "id": "ds-46-2002-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "2, 8 y 10-11",
+     "motivo": "Aplica a la infiltración de residuos líquidos de otras instalaciones de la faena; el propio depósito de relaves está excluido de esta norma."
+    },
+    {
+     "id": "dl-3557-1980",
+     "fuerza": "siempre",
+     "art": "11",
+     "motivo": "Impone expresamente a los establecimientos mineros el deber de impedir la contaminación de la agricultura."
+    },
+    {
+     "id": "ds-144-1961-minsal",
+     "fuerza": "siempre",
+     "art": "1",
+     "motivo": "Polvo de chancado, correas, caminos y relaves secos son emanaciones del lugar de trabajo que deben captarse o controlarse."
+    },
+    {
+     "id": "ds-138-2005-minsal",
+     "fuerza": "segun_caso",
+     "art": "1 y 2",
+     "motivo": "Calderas, fundiciones y equipos electrógenos de la faena están entre las fuentes fijas obligadas a declarar emisiones."
+    },
+    {
+     "id": "ds-28-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 4 y 8",
+     "motivo": "Solo si el proyecto incluye fundición de cobre u otra fuente industrial de arsénico: límites de SO2, arsénico y material particulado."
+    },
+    {
+     "id": "ley-20780",
+     "fuerza": "segun_caso",
+     "art": "8",
+     "motivo": "Si calderas o turbinas del establecimiento superan 100 t/año de MP o 25.000 t/año de CO2, quedan afectas al impuesto a las emisiones."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "siempre",
+     "art": "25, 29, 43 y 80-81",
+     "motivo": "Aceites usados, baterías, borras y envases de reactivos se generan en toda faena de esta escala y exigen plan de manejo y bodega autorizada."
+    },
+    {
+     "id": "ds-43-2015-minsal",
+     "fuerza": "siempre",
+     "art": "5 y 190",
+     "motivo": "El almacenamiento de ácido sulfúrico, reactivos y combustibles supera normalmente los umbrales que exigen autorización sanitaria y plan de emergencias."
+    },
+    {
+     "id": "ds-1-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "17 y 18",
+     "motivo": "Por generar más de 12 toneladas anuales de residuos y estar sujeto a normas de emisión, el establecimiento debe declarar por Ventanilla Única."
+    },
+    {
+     "id": "ley-21305",
+     "fuerza": "segun_caso",
+     "art": "2",
+     "motivo": "Las mineras con consumo final igual o superior a 50 teracalorías anuales deben reportar consumos e implementar un sistema de gestión de energía."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Los grupos electrógenos de 19 kW o más de la faena obligan a su propietario a reportar anualmente horas de funcionamiento y combustible."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "5, 19, 21 y 60",
+     "motivo": "Rajos, botaderos y depósitos pueden requerir corta de bosque nativo o de formaciones xerofíticas, sujeta a plan de manejo de obras o plan de trabajo."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3 y 9",
+     "motivo": "La ocupación de grandes superficies obliga con frecuencia a relocalizar fauna protegida, con permiso del SAG."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "La iluminación exterior de rajo, planta y depósitos es alumbrado industrial sujeto a la norma lumínica de alcance nacional."
+    }
+   ],
+   "pas": [
+    {
+     "art": 135,
+     "fuerza": "siempre",
+     "motivo": "El depósito de relaves es parte definitoria de la tipología."
+    },
+    {
+     "art": 136,
+     "fuerza": "siempre",
+     "motivo": "Toda faena de extracción genera botaderos de estériles o acopios de mineral."
+    },
+    {
+     "art": 137,
+     "fuerza": "siempre",
+     "motivo": "El plan de cierre es obligatorio para toda empresa minera y debe ajustarse a la RCA."
+    },
+    {
+     "art": 139,
+     "fuerza": "siempre",
+     "motivo": "Obras de evacuación, tratamiento o disposición de residuos mineros."
+    },
+    {
+     "art": 142,
+     "fuerza": "siempre",
+     "motivo": "Bodega de residuos peligrosos, presente en toda faena de esta escala."
+    },
+    {
+     "art": 140,
+     "fuerza": "siempre",
+     "motivo": "Sitios de acopio y disposición de residuos sólidos no peligrosos de la faena y del campamento."
+    },
+    {
+     "art": 138,
+     "fuerza": "siempre",
+     "motivo": "Planta de aguas servidas del campamento e instalaciones."
+    },
+    {
+     "art": 161,
+     "fuerza": "segun_caso",
+     "motivo": "Calificación de la planta de beneficio y bodegas como instalación industrial."
+    },
+    {
+     "art": 155,
+     "fuerza": "segun_caso",
+     "motivo": "Embalses o acueductos del proyecto que alcancen los umbrales del art. 294 del Código de Aguas (norma fundante reemplazada por la Ley 21.770)."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Desvío de quebradas, canales de contorno y atraviesos."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Obras de defensa o regularización de cauces naturales para proteger instalaciones."
+    },
+    {
+     "art": 125,
+     "fuerza": "segun_caso",
+     "motivo": "Labores en sitios donde se han alumbrado aguas subterráneas o que puedan afectar caudal o calidad de fuentes de agua."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Rescate y relocalización de fauna protegida."
+    },
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo en el área de obras."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas."
+    },
+    {
+     "art": 143,
+     "fuerza": "segun_caso",
+     "motivo": "Transporte propio de residuos peligrosos."
+    },
+    {
+     "art": 144,
+     "fuerza": "segun_caso",
+     "motivo": "Depósito de seguridad o instalación de eliminación de residuos peligrosos dentro de la faena."
+    }
+   ]
+  },
+  {
+   "id": "industrial",
+   "nombre": "Planta industrial con emisiones y residuos líquidos",
+   "descripcion": "Instalación fabril de dimensiones industriales, con fuentes fijas de emisión al aire y sistema de tratamiento de riles.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 k)",
+     "texto": "La ley somete al SEIA las instalaciones fabriles de dimensiones industriales (metalúrgicas, químicas, textiles, materiales de construcción, curtiembres y otras)."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 k.1) y k.2)",
+     "texto": "Hay dimensión industrial con potencia instalada igual o superior a 2.000 kVA (sumando energías y combustibles equivalentes); en curtiembres, con 30 m² diarios de cueros. Si la planta se instala en suelo industrial de un plan evaluado ambientalmente, solo ingresa por h.2."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 o)",
+     "texto": "El sistema de tratamiento y disposición de residuos industriales líquidos o sólidos es tipología de saneamiento ambiental."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 o.7)",
+     "texto": "El sistema de riles ingresa si trata 160 m³/día o más, o si destina 50 m³/día o más de efluentes a riego, aspersión o humectación de terrenos o caminos."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 ñ.1) a ñ.4)",
+     "texto": "El almacenamiento o producción habitual de sustancias peligrosas ingresa sobre umbrales propios (por ejemplo, 1.000 t de inflamables o 2.500 t de tóxicas, corrosivas o reactivas almacenadas)."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 h.2)",
+     "texto": "En zona latente o saturada ingresa la instalación que aporte 5% o más de la emisión diaria del contaminante que motivó la declaración (hipótesis dependiente de la ubicación)."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 k) y o) y 24",
+     "motivo": "La instalación fabril de dimensiones industriales figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 k) y o.7); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a la instalación fabril de dimensiones industriales y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de la instalación fabril de dimensiones industriales y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "La industria es el caso típico de actividad productiva regulada como fuente emisora de ruido, en construcción y en operación."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "ds-47-1992-minvu",
+     "fuerza": "siempre",
+     "art": "4.14.2",
+     "motivo": "Todo establecimiento industrial o de bodegaje debe ser calificado caso a caso por la SEREMI de Salud según su riesgo; de ello depende su compatibilidad con el uso de suelo."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "siempre",
+     "art": "116",
+     "motivo": "Las edificaciones de la planta requieren permiso de la Dirección de Obras Municipales."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "siempre",
+     "art": "71 letra b) y 73",
+     "motivo": "La planta de tratamiento de residuos industriales requiere aprobación sanitaria de proyecto y no puede descargar sin depuración a aguas de bebida, riego o balneario."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3.7, 4.1 a 4.4 y 6.2-6.4",
+     "motivo": "Si el ril se descarga a río, lago o mar, la planta es fuente emisora sujeta a los límites de la tabla del cuerpo receptor y a autocontrol."
+    },
+    {
+     "id": "ds-46-2002-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "8, 9, 10-11 y 20",
+     "motivo": "Si el efluente se infiltra, los límites dependen de la vulnerabilidad del acuífero y se prohíbe la descarga directa a la zona saturada."
+    },
+    {
+     "id": "ds-609-1998-mop",
+     "fuerza": "segun_caso",
+     "art": "2.3, 2.4 y 4.2-4.3",
+     "motivo": "Si el ril se vierte al alcantarillado público rigen los límites de esta norma y la prohibición de diluir."
+    },
+    {
+     "id": "dfl-382-1988",
+     "fuerza": "segun_caso",
+     "art": "45",
+     "motivo": "Al descargar a la red de la concesionaria sanitaria, la planta no puede verter sustancias que dañen el sistema o incumplan las normas de efluentes."
+    },
+    {
+     "id": "ds-144-1961-minsal",
+     "fuerza": "siempre",
+     "art": "1",
+     "motivo": "Deber general de captar o eliminar gases, humos y polvos del establecimiento fabril para no dañar ni molestar al vecindario."
+    },
+    {
+     "id": "ds-138-2005-minsal",
+     "fuerza": "segun_caso",
+     "art": "1 y 2",
+     "motivo": "Calderas, grupos electrógenos y los rubros listados (cemento, vidrio, cerámica, siderurgia, petroquímica, celulosa, fundiciones, asfaltos) deben declarar emisiones cada año."
+    },
+    {
+     "id": "ley-20780",
+     "fuerza": "segun_caso",
+     "art": "8",
+     "motivo": "El establecimiento que alcance 100 t/año de material particulado o 25.000 t/año de CO2 paga el impuesto anual a las emisiones."
+    },
+    {
+     "id": "ds-4-2023-mma",
+     "fuerza": "segun_caso",
+     "art": "3",
+     "motivo": "Si queda afecto al impuesto verde puede compensar emisiones con certificados de reducción."
+    },
+    {
+     "id": "ds-29-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 5 y 13",
+     "motivo": "Solo si la planta incinera, coprocesa o coincinera residuos (por ejemplo hornos de cemento o cal): límites al aire e informe anual a la SMA."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "siempre",
+     "art": "25, 29 y 80-81",
+     "motivo": "La operación fabril genera residuos peligrosos que exigen bodega autorizada, plan de manejo sobre el umbral y declaración de cada traslado."
+    },
+    {
+     "id": "ds-43-2015-minsal",
+     "fuerza": "segun_caso",
+     "art": "5 y 190",
+     "motivo": "El almacenamiento de insumos peligrosos sobre 10 t de inflamables o 30 t de otras clases requiere autorización sanitaria y plan de emergencias."
+    },
+    {
+     "id": "ds-1-2013-mma",
+     "fuerza": "siempre",
+     "art": "17 y 18",
+     "motivo": "Un establecimiento sujeto a normas de emisión y generador de residuos debe reportar por Ventanilla Única del RETC."
+    },
+    {
+     "id": "ley-20920",
+     "fuerza": "siempre",
+     "art": "5",
+     "motivo": "Como generador debe entregar sus residuos a gestores autorizados o manejarlos por sí mismo conforme a la normativa."
+    },
+    {
+     "id": "dl-3557-1980",
+     "fuerza": "siempre",
+     "art": "11",
+     "motivo": "Obliga a los establecimientos industriales y fabriles a evitar la contaminación de la agricultura."
+    },
+    {
+     "id": "ley-21305",
+     "fuerza": "segun_caso",
+     "art": "2",
+     "motivo": "Las empresas con consumo final de 50 teracalorías anuales o más deben reportar consumos e implementar un sistema de gestión de energía."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Los grupos electrógenos de respaldo de 19 kW o más obligan a reportar horas de uso y combustible cada abril."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "La iluminación de patios y exteriores es alumbrado industrial sujeto a límites y certificación."
+    }
+   ],
+   "pas": [
+    {
+     "art": 161,
+     "fuerza": "siempre",
+     "motivo": "Toda instalación industrial o de bodegaje requiere el pronunciamiento de calificación de la autoridad sanitaria."
+    },
+    {
+     "art": 139,
+     "fuerza": "siempre",
+     "motivo": "La planta de tratamiento y disposición de residuos industriales líquidos define la tipología."
+    },
+    {
+     "art": 142,
+     "fuerza": "siempre",
+     "motivo": "Sitio de almacenamiento de residuos peligrosos de la operación."
+    },
+    {
+     "art": 140,
+     "fuerza": "siempre",
+     "motivo": "Lugares de acumulación de residuos sólidos industriales no peligrosos."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Sistema particular de aguas servidas cuando no hay conexión a alcantarillado."
+    },
+    {
+     "art": 115,
+     "fuerza": "segun_caso",
+     "motivo": "Descarga del efluente a aguas sometidas a la jurisdicción nacional (mar, puertos, ríos y lagos navegables)."
+    },
+    {
+     "art": 143,
+     "fuerza": "segun_caso",
+     "motivo": "Transporte propio de residuos peligrosos."
+    },
+    {
+     "art": 144,
+     "fuerza": "segun_caso",
+     "motivo": "Eliminación de residuos peligrosos dentro de la planta."
+    },
+    {
+     "art": 145,
+     "fuerza": "segun_caso",
+     "motivo": "Reciclaje de residuos peligrosos en la instalación."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Obra de descarga u otra modificación en un cauce."
+    }
+   ]
+  },
+  {
+   "id": "acuicultura",
+   "nombre": "Centro de cultivo acuícola",
+   "descripcion": "Centro de engorda en mar, lago o río, o piscicultura en tierra, que supera los umbrales de producción o superficie.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 n)",
+     "texto": "La ley somete al SEIA los proyectos de explotación intensiva, cultivo y plantas procesadoras de recursos hidrobiológicos."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 n.1) y n.2)",
+     "texto": "Macroalgas: 1.000 t anuales o 100.000 m² de cultivo. Moluscos filtradores y otros filtradores en sistema extensivo: 1.000 t anuales o 60.000 m²."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 n.3)",
+     "texto": "Peces, crustáceos, equinodermos y moluscos no filtradores en sistema intensivo: 35 t anuales o más."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 n.4)",
+     "texto": "Ríos navegables en zona sin influencia de marea: 15 t anuales; en ríos no navegables o lagos ingresa cualquiera sea la producción."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 n.5)",
+     "texto": "Peces con 8 t anuales o más, y cultivo de microalgas o juveniles que requieran suministro o evacuación de aguas, sin importar la producción (pisciculturas)."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 n) y 24",
+     "motivo": "El cultivo de recursos hidrobiológicos figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 n); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a el cultivo de recursos hidrobiológicos y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de el cultivo de recursos hidrobiológicos y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "Generadores, alimentadores y pontones de centros en mar o los equipos de una piscicultura son actividad productiva que emite ruido hacia receptores ribereños."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "ds-430-1991-economia",
+     "fuerza": "siempre",
+     "art": "67, 69, 87 y 118 ter",
+     "motivo": "Ley sectorial propia: el cultivo solo procede con concesión o autorización en áreas apropiadas, dentro de la capacidad de carga del cuerpo de agua y con sanciones por incumplimientos ambientales."
+    },
+    {
+     "id": "ds-320-2001-economia",
+     "fuerza": "siempre",
+     "art": "1, 4, 5, 15, 17 y 19",
+     "motivo": "Reglamento ambiental del rubro: exige caracterización preliminar de sitio, plan de contingencias, condiciones aeróbicas del fondo e información ambiental periódica."
+    },
+    {
+     "id": "ley-21850",
+     "fuerza": "segun_caso",
+     "art": "5 y 6",
+     "motivo": "Si se trata de relocalizar una concesión, el cambio debe pasar por el SEIA con plan de abandono y cierre; además rigen los ajustes a patentes y caducidad."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3.7 y 4.1 a 4.4",
+     "motivo": "Las pisciculturas en tierra descargan su efluente a ríos, lagos o estuarios y quedan sujetas a los límites del cuerpo receptor."
+    },
+    {
+     "id": "ds-30-2021-mma",
+     "fuerza": "segun_caso",
+     "art": "4, 8 y 20",
+     "motivo": "Aplica a pisciculturas: regula el manejo, la aplicación al suelo y la disposición de sus lodos, incluida la acreditación de ausencia de antibióticos."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41, 129 bis 1 y 171",
+     "motivo": "La piscicultura capta aguas continentales: las obras de captación y restitución en el cauce requieren aprobación de la DGA y el derecho queda sujeto a caudal ecológico."
+    },
+    {
+     "id": "ds-1-1992-defensa",
+     "fuerza": "segun_caso",
+     "art": "2 y 140",
+     "motivo": "La introducción de sustancias a aguas bajo jurisdicción marítima desde el centro requiere autorización de la autoridad marítima con condiciones."
+    },
+    {
+     "id": "dl-2222-1978",
+     "fuerza": "siempre",
+     "art": "142",
+     "motivo": "Prohibición absoluta de arrojar materias nocivas a las aguas jurisdiccionales, ríos y lagos, donde opera el centro."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Pontones habitables e instalaciones en tierra requieren sistema aprobado de aguas servidas y, las pisciculturas, de sus residuos industriales líquidos."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Aceites, combustibles, envases de fármacos y desinfectantes generan residuos peligrosos con exigencias de almacenamiento y traslado."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Los centros operan habitualmente con grupos electrógenos de 19 kW o más, cuyo propietario debe reportar horas y combustible."
+    },
+    {
+     "id": "ds-1-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "17 y 18",
+     "motivo": "El centro debe declarar residuos y emisiones por Ventanilla Única cuando supera 12 toneladas anuales de residuos o está sujeto a norma de emisión."
+    }
+   ],
+   "pas": [
+    {
+     "art": 116,
+     "fuerza": "siempre",
+     "motivo": "Permiso propio de toda actividad de acuicultura evaluada en el SEIA."
+    },
+    {
+     "art": 119,
+     "fuerza": "segun_caso",
+     "motivo": "Pesca de investigación para el seguimiento de poblaciones exigido en la evaluación."
+    },
+    {
+     "art": 115,
+     "fuerza": "segun_caso",
+     "motivo": "Descarga de materias o sustancias a aguas bajo jurisdicción nacional."
+    },
+    {
+     "art": 139,
+     "fuerza": "segun_caso",
+     "motivo": "Sistema de tratamiento del efluente de la piscicultura."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Sistema de aguas servidas de instalaciones en tierra o pontones."
+    },
+    {
+     "art": 140,
+     "fuerza": "segun_caso",
+     "motivo": "Acopio de residuos sólidos y de mortalidad."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Obras de captación y descarga en el cauce (pisciculturas)."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Defensas fluviales para proteger la piscicultura."
+    }
+   ]
+  },
+  {
+   "id": "forestal",
+   "nombre": "Proyecto de desarrollo o explotación forestal (plantaciones y bosque nativo)",
+   "descripcion": "Cosecha final de plantaciones en suelos frágiles o corta de regeneración por tala rasa en bosque nativo, de dimensiones industriales.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 m)",
+     "texto": "La ley somete al SEIA los proyectos de desarrollo o explotación forestal en suelos frágiles o en terrenos cubiertos de bosque nativo, cuando son de dimensiones industriales."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 m) inciso 2°",
+     "texto": "El reglamento acota la tipología a la cosecha final de plantaciones en suelos frágiles y a la corta de regeneración por tala rasa en bosque nativo, con su extracción, transporte y transformación en el predio."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 m.1)",
+     "texto": "Hay dimensión industrial sobre una superficie única o continua de corta anual de más de 20 ha (Arica y Parinacota a Coquimbo), 200 ha (Valparaíso y Metropolitana), 500 ha (O'Higgins a Aysén) o 1.000 ha (Magallanes)."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 m.1.1) y m.1.2)",
+     "texto": "Suelo frágil es el susceptible de erosión severa según los criterios del art. 22 del DS 193/1998; terreno cubierto de bosque nativo es el definido conforme a la Ley 20.283."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 m) y 24",
+     "motivo": "La explotación forestal de dimensiones industriales figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 m.1); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a la explotación forestal de dimensiones industriales y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de la explotación forestal de dimensiones industriales y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "La cosecha y el madereo son actividad productiva forestal, expresamente incluida entre las fuentes emisoras de ruido."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "siempre",
+     "art": "2, 5, 16, 17, 19, 51 y 54",
+     "motivo": "Ley sectorial propia: toda corta de bosque nativo exige plan de manejo aprobado, con justificación de métodos, protección de suelos y aguas y veda sobre especies clasificadas."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "siempre",
+     "art": "3, 4, 9 y 14",
+     "motivo": "Define contenido, calendarización y formularios del plan de manejo forestal y del plan de manejo de preservación."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "siempre",
+     "art": "1, 3, 4, 8 y 13",
+     "motivo": "Toda corta de bosque nativo debe respetar zonas de exclusión y de manejo limitado junto a cursos de agua, cobertura residual mínima y la prohibición de usar cauces como vía de maquinaria."
+    },
+    {
+     "id": "dl-701-1974",
+     "fuerza": "siempre",
+     "art": "2, 21, 22 y 31",
+     "motivo": "Ley sectorial propia: la corta de plantaciones o bosque nativo en terrenos de aptitud preferentemente forestal requiere plan de manejo previo y obliga a reforestar."
+    },
+    {
+     "id": "ds-193-1998-minagri",
+     "fuerza": "siempre",
+     "art": "22, 28, 29, 33 y 37",
+     "motivo": "Reglamenta el plan de manejo del DL 701 y contiene los criterios de suelo frágil a los que remite la tipología de ingreso."
+    },
+    {
+     "id": "ds-4363-1931-mintierras",
+     "fuerza": "siempre",
+     "art": "2, 5, 17 y 22",
+     "motivo": "Somete bosques y terrenos forestales a plan de manejo, veda la corta de nativas junto a manantiales y en pendientes y proscribe la roza a fuego en la explotación."
+    },
+    {
+     "id": "ds-68-2009-minagri",
+     "fuerza": "siempre",
+     "art": "único",
+     "motivo": "La nómina oficial de especies originarias determina si la formación a cortar califica como bosque nativo."
+    },
+    {
+     "id": "ley-21744",
+     "fuerza": "siempre",
+     "art": "2 y 4",
+     "motivo": "El Servicio Nacional Forestal, continuador de CONAF, es quien aplica la legislación forestal y aprueba y fiscaliza los planes de manejo."
+    },
+    {
+     "id": "ds-490-1976-minagri",
+     "fuerza": "segun_caso",
+     "art": "2",
+     "motivo": "Si el rodal contiene alerce: la corta o destrucción de la especie exige autorización excepcional."
+    },
+    {
+     "id": "ds-43-1990-minagri",
+     "fuerza": "segun_caso",
+     "art": "2",
+     "motivo": "Si el rodal contiene araucaria: la corta o explotación de ejemplares vivos exige autorización excepcional."
+    },
+    {
+     "id": "ds-13-1995-minagri",
+     "fuerza": "segun_caso",
+     "art": "2",
+     "motivo": "Si en el predio hay queule, pitao, ruil o bellotos: su corta exige autorización excepcional."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3, 5 y 9",
+     "motivo": "La faena puede destruir nidos y madrigueras o requerir captura de fauna protegida, conductas vedadas salvo autorización del SAG."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41 y 171",
+     "motivo": "Caminos forestales, alcantarillas y cruces de esteros son modificaciones de cauce sujetas a aprobación previa."
+    },
+    {
+     "id": "ley-11402",
+     "fuerza": "segun_caso",
+     "art": "11",
+     "motivo": "Si se extraen áridos de cauces para estabilizar caminos forestales se requiere permiso municipal con informe de Obras Públicas."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Aceites, lubricantes y envases de la maquinaria de cosecha son residuos peligrosos que deben almacenarse y trasladarse con seguimiento."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Los campamentos de faena necesitan solución sanitaria aprobada para sus aguas servidas."
+    }
+   ],
+   "pas": [
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo (corta de regeneración por tala rasa); es el permiso central cuando el proyecto interviene bosque nativo."
+    },
+    {
+     "art": 149,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de plantaciones en terrenos de aptitud preferentemente forestal (cosecha final en suelos frágiles)."
+    },
+    {
+     "art": 150,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de especies nativas en categoría de conservación dentro del bosque a intervenir."
+    },
+    {
+     "art": 152,
+     "fuerza": "segun_caso",
+     "motivo": "Manejo de bosque nativo de preservación."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas asociadas al proyecto."
+    },
+    {
+     "art": 127,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de alerce en el área de corta."
+    },
+    {
+     "art": 128,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de araucaria en el área de corta."
+    },
+    {
+     "art": 129,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de queule, pitao, ruil, belloto del sur o belloto del norte."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Captura y relocalización de fauna protegida."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Cruces de cauces de la red de caminos forestales."
+    },
+    {
+     "art": 159,
+     "fuerza": "segun_caso",
+     "motivo": "Extracción de áridos desde cauces para caminos."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Aguas servidas de campamentos."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos de la faena."
+    }
+   ]
+  },
+  {
+   "id": "hidraulico",
+   "nombre": "Embalse, central hidroeléctrica u obra en cauces",
+   "descripcion": "Presas, embalses y acueductos mayores, centrales hidroeléctricas de más de 3 MW y obras significativas de defensa o alteración de cauces.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 a)",
+     "texto": "La ley somete al SEIA los acueductos, embalses, tranques y sifones sujetos a la autorización del art. 294 del Código de Aguas, y las presas, drenajes, dragados y defensas o alteraciones significativas de cursos o cuerpos de agua."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 a.1)",
+     "texto": "Presa significativa: muro de más de 5 m de altura o embalse de más de 50.000 m³ de capacidad."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 a.3)",
+     "texto": "Dragado en aguas continentales: 20.000 m³ (Arica y Parinacota a Atacama) o 50.000 m³ (Coquimbo a Magallanes); en aguas marítimas, 50.000 m³."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 a.4)",
+     "texto": "Defensa o alteración de cauce: movilizar 50.000 m³ de material (Arica y Parinacota a Coquimbo) o 100.000 m³ (Valparaíso a Magallanes); en áreas preferenciales de pesca recreativa ingresa cualquiera sea el volumen."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 c)",
+     "texto": "Las centrales hidroeléctricas ingresan como centrales generadoras mayores a 3 MW. La Ley 21.850 suprime el umbral de la letra c) en la ley, pero ese cambio solo rige cuando se publique el nuevo Reglamento del SEIA; hoy el texto vigente mantiene los 3 MW."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 c)",
+     "texto": "El reglamento mantiene el umbral de más de 3 MW para toda central generadora."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 a) y c) y 24",
+     "motivo": "La obra hidráulica o central hidroeléctrica figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 a) y c); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a la obra hidráulica o central hidroeléctrica y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de la obra hidráulica o central hidroeléctrica y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "Excavaciones, tronaduras y hormigonado de presas y bocatomas son faenas constructivas prolongadas; la casa de máquinas es infraestructura energética emisora de ruido."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "siempre",
+     "art": "41, 129 bis 1, 129 bis 2, 171 y 294",
+     "motivo": "Código sectorial propio: aprobación de la DGA para modificaciones de cauce y obras hidráulicas mayores, caudal ecológico mínimo y facultad de paralizar obras. Los arts. 171 y 294 fueron reemplazados por la Ley 21.770."
+    },
+    {
+     "id": "ley-21770",
+     "fuerza": "segun_caso",
+     "art": "85",
+     "motivo": "Reemplazó los arts. 171 y 294 del Código de Aguas que fundan los permisos de estas obras; los nuevos umbrales de embalses tienen regla especial de vigencia ligada a la modificación del DS 50/2015 del MOP."
+    },
+    {
+     "id": "ley-11402",
+     "fuerza": "segun_caso",
+     "art": "1 y 11",
+     "motivo": "Las defensas y regularizaciones de riberas hechas por particulares deben ser autorizadas y vigiladas por Obras Públicas; la extracción de áridos del cauce requiere permiso municipal."
+    },
+    {
+     "id": "dfl-4-2006",
+     "fuerza": "segun_caso",
+     "art": "2 N° 1 a), 25 letra d) y 72°-17",
+     "motivo": "Si hay generación: la ley eléctrica contempla la concesión de centrales hidráulicas, exige indicar derechos de agua y obras hidráulicas autorizadas por la DGA y la declaración en construcción previa a interconectarse."
+    },
+    {
+     "id": "ds-203-2013-mop",
+     "fuerza": "segun_caso",
+     "art": "47",
+     "motivo": "Solo si el proyecto contempla recarga artificial de acuíferos, que requiere autorización del proyecto por la DGA."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "5, 16, 19 y 21",
+     "motivo": "El área de inundación y las obras suelen requerir corta de bosque nativo ribereño, sujeta a plan de manejo de corta para obras."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "segun_caso",
+     "art": "3 y 19",
+     "motivo": "Regula el plan de manejo de corta por construcción de obras aplicable al vaso del embalse y a los accesos."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "segun_caso",
+     "art": "1, 3, 4 y 13",
+     "motivo": "Las obras se ejecutan en el cauce y su ribera, justo donde rigen las zonas de protección de cursos de agua para la vegetación nativa."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3 y 9",
+     "motivo": "El llenado del embalse y las obras obligan a rescatar fauna protegida, lo que requiere autorización del SAG."
+    },
+    {
+     "id": "ds-430-1991-economia",
+     "fuerza": "segun_caso",
+     "art": "99 y 136",
+     "motivo": "El seguimiento de fauna íctica exige pesca de investigación autorizada, y la introducción de contaminantes que dañe recursos hidrobiológicos es delito."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3.7 y 4.1 a 4.3",
+     "motivo": "Las descargas de aguas de proceso de la construcción (lavado de áridos, hormigones) al cauce quedan sujetas a los límites de emisión."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Los campamentos de obras de larga duración requieren sistema aprobado de aguas servidas."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Aceites de turbinas y transformadores y residuos de la obra son residuos peligrosos con exigencias de bodega y seguimiento."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Los grupos electrógenos de obra o respaldo de 19 kW o más deben reportarse anualmente."
+    }
+   ],
+   "pas": [
+    {
+     "art": 155,
+     "fuerza": "segun_caso",
+     "motivo": "Embalses, acueductos o sifones que alcancen los umbrales del art. 294 del Código de Aguas; norma fundante reemplazada por la Ley 21.770 sin que el art. 155 del reglamento haya sido adecuado."
+    },
+    {
+     "art": 156,
+     "fuerza": "siempre",
+     "motivo": "Toda obra de la tipología interviene un cauce (presa, bocatoma, restitución, desvío); si es defensa o regularización de cauce natural corresponde en su lugar el PAS 157."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Obras de regularización o defensa de cauces naturales."
+    },
+    {
+     "art": 159,
+     "fuerza": "segun_caso",
+     "motivo": "Extracción de ripio y arena del cauce para la obra."
+    },
+    {
+     "art": 158,
+     "fuerza": "segun_caso",
+     "motivo": "Obras de recarga artificial de acuíferos."
+    },
+    {
+     "art": 119,
+     "fuerza": "segun_caso",
+     "motivo": "Pesca de investigación para línea de base y seguimiento de fauna íctica."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Rescate y relocalización de fauna protegida en el área de inundación y obras."
+    },
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo en el vaso del embalse y obras."
+    },
+    {
+     "art": 150,
+     "fuerza": "segun_caso",
+     "motivo": "Especies nativas en categoría de conservación dentro del bosque a cortar."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Aguas servidas de campamentos."
+    },
+    {
+     "art": 140,
+     "fuerza": "segun_caso",
+     "motivo": "Acopio de residuos de construcción y botaderos de excedentes no mineros."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos."
+    }
+   ]
+  },
+  {
+   "id": "saneamiento",
+   "nombre": "Planta de tratamiento de aguas servidas o relleno sanitario",
+   "descripcion": "Planta de tratamiento de aguas de origen domiciliario para 5.000 habitantes o más, o relleno sanitario que recibe 30 t/día o más.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 o)",
+     "texto": "La ley somete al SEIA los proyectos de saneamiento ambiental: alcantarillado y agua potable, plantas de tratamiento de aguas o de residuos sólidos domiciliarios, rellenos sanitarios y emisarios submarinos."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 o.4)",
+     "texto": "Planta de tratamiento de aguas de origen domiciliario que atienda a 5.000 habitantes o más."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 o.1) y o.6)",
+     "texto": "Alcantarillado de aguas servidas para 10.000 habitantes o más; los emisarios submarinos ingresan sin umbral."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 o.5.1) a o.5.3)",
+     "texto": "Rellenos sanitarios y otras plantas de eliminación de residuos domiciliarios desde 30 t/día; plantas de tratamiento (compostaje, biodigestión) desde 50 t/día; estaciones de transferencia desde 100 t/día."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 o.8.2)",
+     "texto": "Plantas que traten lodos de plantas de tratamiento de aguas residuales con ingreso de 30 t/día o más."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 o) y 24",
+     "motivo": "El proyecto de saneamiento ambiental figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 o.4) y o.5); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a el proyecto de saneamiento ambiental y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de el proyecto de saneamiento ambiental y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "Sopladores, bombas y maquinaria de compactación operan en forma continua y son fuente emisora de ruido, igual que la construcción."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "siempre",
+     "art": "71 letra b), 73, 79 y 80",
+     "motivo": "Código sectorial propio: aprobación sanitaria de las obras de tratamiento y disposición de aguas servidas y de toda planta o lugar de tratamiento o disposición final de basuras. Arts. 71, 79 y 80 modificados por la Ley 21.770."
+    },
+    {
+     "id": "ds-189-2005-minsal",
+     "fuerza": "segun_caso",
+     "art": "5, 10, 53 y 56",
+     "motivo": "Si es relleno sanitario: proyecto de ingeniería aprobado tras la calificación ambiental, distancias mínimas a captaciones y cursos de agua y obligación de cierre."
+    },
+    {
+     "id": "ds-4-2009-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "7, 9, 13 y 22",
+     "motivo": "Si es planta de aguas servidas: debe contar con proyecto aprobado para almacenar, tratar, transportar y disponer sus lodos, clasificados en A o B."
+    },
+    {
+     "id": "dfl-382-1988",
+     "fuerza": "segun_caso",
+     "art": "1, 4 y 7",
+     "motivo": "La planta que integra un servicio público de recolección y disposición de aguas servidas opera bajo concesión sanitaria."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3.7, 4.1 a 4.4 y 6.2-6.4",
+     "motivo": "El efluente tratado que se descarga a río, lago o mar debe cumplir la tabla del cuerpo receptor; la norma trae reglas especiales para servicios sanitarios."
+    },
+    {
+     "id": "ds-46-2002-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "8, 9 y 10-11",
+     "motivo": "Si el efluente o los líquidos tratados se infiltran, rigen los límites según vulnerabilidad del acuífero."
+    },
+    {
+     "id": "ds-1-1992-defensa",
+     "fuerza": "segun_caso",
+     "art": "140",
+     "motivo": "El emisario submarino descarga a aguas bajo jurisdicción marítima y requiere autorización de la autoridad marítima."
+    },
+    {
+     "id": "ley-20920",
+     "fuerza": "siempre",
+     "art": "5 y 6",
+     "motivo": "El operador del relleno o de la planta de lodos actúa como gestor de residuos: necesita autorizaciones y debe declarar sus operaciones en el RETC."
+    },
+    {
+     "id": "ds-1-2013-mma",
+     "fuerza": "siempre",
+     "art": "17, 18 y 25-27",
+     "motivo": "Los destinatarios de residuos y los establecimientos sujetos a norma de emisión están expresamente obligados a declarar por Ventanilla Única."
+    },
+    {
+     "id": "ds-144-1961-minsal",
+     "fuerza": "segun_caso",
+     "art": "1 y 3",
+     "motivo": "Gases y olores de la instalación deben captarse o eliminarse; si hay incineración de basuras el sistema requiere aprobación sanitaria."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41 y 171",
+     "motivo": "La obra de descarga al cauce, los desvíos de aguas lluvias y las defensas del recinto son modificaciones de cauce sujetas a aprobación de la DGA."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "siempre",
+     "art": "116",
+     "motivo": "Las edificaciones de la planta o del relleno requieren permiso de la Dirección de Obras Municipales."
+    },
+    {
+     "id": "ds-47-1992-minvu",
+     "fuerza": "segun_caso",
+     "art": "2.1.29 y 4.14.2",
+     "motivo": "La infraestructura sanitaria con proceso de transformación debe ser calificada por la SEREMI de Salud según su riesgo."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Residuos peligrosos de mantención y los que lleguen mezclados al relleno deben segregarse y almacenarse en sitio autorizado."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Los grupos electrógenos de respaldo de 19 kW o más deben reportarse cada año."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "La iluminación exterior del recinto es alumbrado industrial sujeto a la norma lumínica."
+    }
+   ],
+   "pas": [
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Permiso central de la planta de tratamiento de aguas servidas."
+    },
+    {
+     "art": 126,
+     "fuerza": "segun_caso",
+     "motivo": "Instalaciones de manejo de lodos de la planta de tratamiento de aguas servidas."
+    },
+    {
+     "art": 141,
+     "fuerza": "segun_caso",
+     "motivo": "Permiso central del relleno sanitario."
+    },
+    {
+     "art": 140,
+     "fuerza": "siempre",
+     "motivo": "Planta de tratamiento o lugar de acumulación o disposición de basuras: aplica al relleno (si no lo absorbe el PAS 141) y a los residuos sólidos y de cribado de la planta de aguas."
+    },
+    {
+     "art": 115,
+     "fuerza": "segun_caso",
+     "motivo": "Descarga por emisario u otra vía a aguas bajo jurisdicción nacional."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos."
+    },
+    {
+     "art": 161,
+     "fuerza": "segun_caso",
+     "motivo": "Calificación sanitaria de la instalación de infraestructura."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Obra de descarga, desvío de quebradas o canales perimetrales."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Defensas fluviales del recinto."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Rescate de fauna protegida en el área del relleno."
+    },
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo en el sitio."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas en el sitio."
+    }
+   ]
+  },
+  {
+   "id": "vial-portuario",
+   "nombre": "Carretera, puerto o terminal marítimo",
+   "descripcion": "Autopista o camino público que ingresa al SEIA, puerto para naves mayores o terminal marítimo de carga y descarga de líquidos.",
+   "ingreso": [
+    {
+     "norma": "ley-19300",
+     "art": "10 e)",
+     "texto": "La ley somete al SEIA las autopistas y los caminos públicos que puedan afectar áreas protegidas, junto a aeropuertos, terminales y vías férreas."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 e.7)",
+     "texto": "Es autopista la vía de dos o más pistas unidireccionales por calzada, separadas por mediana, con velocidad de diseño de 120 km/h o más, control total de accesos y segregada de su entorno."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 e.8)",
+     "texto": "Un camino público que no es autopista solo ingresa si se localiza en las áreas protegidas que define el art. 8 del reglamento (hipótesis dependiente de la ubicación)."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 f)",
+     "texto": "La ley somete al SEIA los puertos, vías de navegación, astilleros y terminales marítimos, sin umbral."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 f.1) y f.4)",
+     "texto": "Puerto es el conjunto de espacios e instalaciones para entrada, atraque y permanencia de naves mayores con fin comercial o productivo, salvo los de mera conectividad interna; terminal marítimo es el fondeadero de buques tanque con cañerías para combustibles o líquidos."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 a.3)",
+     "texto": "El dragado marítimo asociado ingresa además con 50.000 m³ o más de material."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8, 10 e) y f) y 24",
+     "motivo": "La autopista, el puerto o el terminal marítimo figura entre las tipologías de ingreso obligatorio, por lo que no puede ejecutarse sin RCA favorable y los permisos sectoriales quedan atados a ella."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 e) y f); 107-110",
+     "motivo": "Fija el umbral que hace ingresar a la autopista, el puerto o el terminal marítimo y el régimen de los permisos ambientales sectoriales que se resuelven en la evaluación."
+    },
+    {
+     "id": "ley-20417",
+     "fuerza": "siempre",
+     "art": "LOSMA 2, 3 y 35",
+     "motivo": "La SMA fiscaliza la RCA de la autopista, el puerto o el terminal marítimo y sanciona su incumplimiento o la ejecución sin calificación ambiental."
+    },
+    {
+     "id": "ley-21455",
+     "fuerza": "siempre",
+     "art": "40",
+     "motivo": "Como proyecto evaluado en el SEIA debe considerar la variable de cambio climático en los componentes que correspondan."
+    },
+    {
+     "id": "ds-594-1999-minsal",
+     "fuerza": "siempre",
+     "art": "3, 12 y 26",
+     "motivo": "Toda faena de construcción y operación es lugar de trabajo: exige agua potable, servicios higiénicos y manejo sanitario de aguas servidas y residuos."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "6 N° 13 y 7",
+     "motivo": "La construcción es fuente emisora de ruido; en operación la norma excluye el tránsito por la red vial, pero sí alcanza a las faenas e instalaciones del puerto o terminal."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 13 y 31",
+     "motivo": "Norma de ruido que reemplazará al DS 38/2011; vigencia diferida: rige desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026 y desde el 27-08-2028 para el resto."
+    },
+    {
+     "id": "dfl-340-1960",
+     "fuerza": "segun_caso",
+     "art": "2 y 3",
+     "motivo": "Componente portuario: el uso de playa, fondo de mar y porciones de agua para muelles y terminales requiere concesión marítima."
+    },
+    {
+     "id": "ds-9-2018-defensa",
+     "fuerza": "segun_caso",
+     "art": "3 y 5",
+     "motivo": "Componente portuario: no puede construirse ni instalarse nada en los bienes bajo tuición marítima sin concesión, destinación o permiso."
+    },
+    {
+     "id": "dl-2222-1978",
+     "fuerza": "segun_caso",
+     "art": "142, 144 y 147",
+     "motivo": "Puertos y terminales: prohibición absoluta de derramar materias nocivas y responsabilidad civil del dueño de instalaciones terrestres que dañen el medio marino."
+    },
+    {
+     "id": "ds-1-1992-defensa",
+     "fuerza": "segun_caso",
+     "art": "2, 108, 113, 116, 117 y 140",
+     "motivo": "Puertos y terminales: permisos de la autoridad marítima para vertimientos desde obras portuarias (dragado), instalaciones de recepción de mezclas oleosas, terminales con cañerías y descargas."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "41 y 171",
+     "motivo": "Componente vial: puentes, alcantarillas y pasos sobre o bajo nivel son modificaciones de cauce que aprueba la DGA; el art. 171 exceptúa del trámite a los servicios dependientes del MOP."
+    },
+    {
+     "id": "ley-11402",
+     "fuerza": "segun_caso",
+     "art": "1 y 11",
+     "motivo": "Las defensas fluviales de puentes y la extracción de áridos de cauces para la obra requieren autorización de Obras Públicas y permiso municipal."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "5, 7, 19 y 21",
+     "motivo": "El trazado suele exigir corta de bosque nativo; el plan de manejo de obras lo presenta el concesionario o ejecutor."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "segun_caso",
+     "art": "3 y 19",
+     "motivo": "Regula expresamente el plan de manejo de corta por construcción de caminos y ejercicio de concesiones."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "segun_caso",
+     "art": "1, 3, 4 y 13",
+     "motivo": "En los cruces de cursos de agua rigen las zonas de protección para la vegetación nativa y la prohibición de usar cauces como vía de maquinaria."
+    },
+    {
+     "id": "dl-701-1974",
+     "fuerza": "segun_caso",
+     "art": "21 y 22",
+     "motivo": "Si la faja atraviesa plantaciones en terrenos de aptitud forestal, su corta requiere plan de manejo y reforestación."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3 y 9",
+     "motivo": "El despeje de la faja obliga a menudo a relocalizar fauna protegida con permiso del SAG."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3.7 y 4.4",
+     "motivo": "Las descargas de aguas de lavado o de proceso del puerto al mar quedan sujetas a las tablas de descarga marina."
+    },
+    {
+     "id": "ds-43-2015-minsal",
+     "fuerza": "segun_caso",
+     "art": "5 y 190",
+     "motivo": "Terminales y puertos que almacenan combustibles u otras sustancias peligrosas sobre los umbrales requieren autorización sanitaria y plan de emergencias."
+    },
+    {
+     "id": "ds-148-2003-minsal",
+     "fuerza": "segun_caso",
+     "art": "25, 29 y 80-81",
+     "motivo": "Mezclas oleosas, aceites y residuos de mantención de equipos portuarios o de la obra vial son residuos peligrosos."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "71 letra b)",
+     "motivo": "Instalaciones de faenas, plazas de peaje, áreas de servicio y recintos portuarios sin alcantarillado requieren sistema aprobado de aguas servidas."
+    },
+    {
+     "id": "ds-144-1961-minsal",
+     "fuerza": "segun_caso",
+     "art": "1",
+     "motivo": "El polvo de movimientos de tierra, plantas de áridos y acopios de graneles debe controlarse para no afectar al vecindario."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "2, 5 y 11",
+     "motivo": "La iluminación vial y la de patios portuarios está expresamente regulada como alumbrado vial e industrial."
+    },
+    {
+     "id": "ds-38-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Los grupos electrógenos de obra o respaldo de 19 kW o más deben reportarse cada año."
+    }
+   ],
+   "pas": [
+    {
+     "art": 111,
+     "fuerza": "segun_caso",
+     "motivo": "Vertimiento al mar de material de dragado u otros desde obras portuarias."
+    },
+    {
+     "art": 112,
+     "fuerza": "segun_caso",
+     "motivo": "Instalaciones terrestres de recepción de mezclas oleosas en puertos y terminales."
+    },
+    {
+     "art": 113,
+     "fuerza": "segun_caso",
+     "motivo": "Planta de tratamiento de esas instalaciones cuyas aguas tratadas se descarguen."
+    },
+    {
+     "art": 114,
+     "fuerza": "segun_caso",
+     "motivo": "Terminal marítimo y cañerías conductoras de sustancias contaminantes."
+    },
+    {
+     "art": 115,
+     "fuerza": "segun_caso",
+     "motivo": "Descargas del puerto o terminal a aguas bajo jurisdicción nacional."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Puentes, alcantarillas y atraviesos de cauce del trazado vial."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Defensas fluviales de puentes y terraplenes."
+    },
+    {
+     "art": 159,
+     "fuerza": "segun_caso",
+     "motivo": "Extracción de áridos desde cauces para la obra."
+    },
+    {
+     "art": 148,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de bosque nativo en la faja."
+    },
+    {
+     "art": 149,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de plantaciones en terrenos de aptitud preferentemente forestal."
+    },
+    {
+     "art": 150,
+     "fuerza": "segun_caso",
+     "motivo": "Especies nativas en categoría de conservación dentro del bosque a cortar."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta o descepado de formaciones xerofíticas en la faja."
+    },
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Rescate y relocalización de fauna protegida."
+    },
+    {
+     "art": 138,
+     "fuerza": "segun_caso",
+     "motivo": "Aguas servidas de faenas, peajes y recintos."
+    },
+    {
+     "art": 140,
+     "fuerza": "segun_caso",
+     "motivo": "Botaderos y acopios de residuos de construcción."
+    },
+    {
+     "art": 142,
+     "fuerza": "segun_caso",
+     "motivo": "Bodega de residuos peligrosos."
+    },
+    {
+     "art": 161,
+     "fuerza": "segun_caso",
+     "motivo": "Calificación de bodegas e instalaciones industriales del recinto portuario."
+    }
+   ]
+  }
+ ],
+ "fuera_del_visor": [
+  {
+   "norma": "DS 50/2015 del Ministerio de Obras Públicas (reglamento de obras hidráulicas mayores del art. 295 del Código de Aguas)",
+   "tipologias": [
+    "hidraulico",
+    "mineria"
+   ],
+   "fuente": "Citado en la nota del PAS 155 (pas.json) como norma cuya modificación gatilla la vigencia del nuevo art. 294.",
+   "verificado": "referencia vista en insumos; texto no leído"
+  },
+  {
+   "norma": "Ley 20.434 (modifica la LGPA en materia de acuicultura; relocalización de concesiones)",
+   "tipologias": [
+    "acuicultura"
+   ],
+   "fuente": "Citada en el art. 5 de la Ley 21.850 según data.json.",
+   "verificado": "referencia vista en insumos; texto no leído"
+  },
+  {
+   "norma": "DS 96/2015 del Ministerio de Economía (acuicultura en áreas de manejo; sucede al DS 314/2004 que funda el PAS 118)",
+   "tipologias": [
+    "acuicultura"
+   ],
+   "fuente": "Nota del PAS 118 en pas.json.",
+   "verificado": "referencia vista en insumos; texto no leído"
+  },
+  {
+   "norma": "Ley 18.410 (Superintendencia de Electricidad y Combustibles)",
+   "tipologias": [
+    "linea-transmision",
+    "central-solar-eolica",
+    "hidraulico"
+   ],
+   "fuente": "Citada en el art. 72°-17 de la LGSE y en el art. 2 de la Ley 21.305, leídos en XML.",
+   "verificado": "referencia vista en texto oficial; texto no leído"
+  },
+  {
+   "norma": "Ley 18.902 (Superintendencia de Servicios Sanitarios)",
+   "tipologias": [
+    "industrial",
+    "saneamiento"
+   ],
+   "fuente": "Citada en el punto 6.1 del DS 609/1998 según data.json.",
+   "verificado": "referencia vista en insumos; texto no leído"
+  },
+  {
+   "norma": "DS 12/1985 del Ministerio de Minería (límites A1 y A2 de material radiactivo) y NCh 382:2013 (clasificación de sustancias peligrosas)",
+   "tipologias": [
+    "industrial",
+    "mineria"
+   ],
+   "fuente": "Citados en el art. 3 letra ñ) del DS 40/2012, leído en XML.",
+   "verificado": "referencia vista en texto oficial; texto no leído"
+  },
+  {
+   "norma": "Normativa sectorial de caminos públicos y de concesiones de obras públicas del MOP; legislación de puertos estatales",
+   "tipologias": [
+    "vial-portuario"
+   ],
+   "fuente": "El catálogo no contiene ninguna norma sectorial vial ni portuaria distinta de las marítimas; vacío detectado al armar la tipología.",
+   "verificado": "no verificado en esta sesión: no se identifican número ni artículos"
+  },
+  {
+   "norma": "Reglamentos técnicos de seguridad de instalaciones eléctricas y de almacenamiento de combustibles (SEC)",
+   "tipologias": [
+    "linea-transmision",
+    "central-solar-eolica",
+    "industrial",
+    "mineria"
+   ],
+   "fuente": "El art. 2 N° 6 de la LGSE remite a condiciones de seguridad reglamentarias que el catálogo no incluye.",
+   "verificado": "no verificado en esta sesión: no se identifican número ni artículos"
+  }
+ ]
+}

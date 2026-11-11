@@ -1,0 +1,2007 @@
+{
+ "meta": {
+  "fecha": "2026-11-10",
+  "criterio_fuerza": "siempre: la norma o permiso se activa con solo marcar la condición, suponiendo que el proyecto interviene el elemento descrito; segun_caso: depende del subtipo de área, del territorio o de la acción concreta que indica el motivo.",
+  "fuentes": "Textos oficiales BCN (XML) de la Ley 19.300 y del DS 40/2012 leídos el 10-11-2026; artículos de las demás normas leídos en XML o tomados de los resúmenes de data.json."
+ },
+ "condiciones": [
+  {
+   "id": "zona-saturada",
+   "nombre": "Zona saturada o latente, o con plan de prevención o descontaminación",
+   "descripcion": "El proyecto se emplaza en un territorio declarado saturado o latente por decreto supremo, cuente o no con plan vigente.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letra h)",
+     "texto": "Obliga a ingresar al SEIA, pero solo a los proyectos industriales o inmobiliarios que se ejecuten en una zona declarada latente o saturada; la declaración no arrastra por sí sola a otros tipos de proyecto."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra h) (h.1 y h.2)",
+     "texto": "Precisa el umbral: inmobiliarios en extensión urbana o área rural con sistemas propios de agua o alcantarillado, con vías expresas o troncales, de 7 ha o 300 viviendas o más, o con edificios de uso público para 5.000 personas o 1.000 estacionamientos; industriales con loteos de 20 ha o más, o con una emisión diaria del contaminante que causó la declaración igual o superior al 5% del total de la zona para ese tipo de fuente."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra a) e inciso final",
+     "texto": "Puede exigir EIA en vez de DIA si las emisiones generan riesgo para la salud de la población; ese riesgo se mide contra las normas de calidad y de emisión vigentes."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "5 letra a)",
+     "texto": "El riesgo para la salud se configura, entre otros casos, cuando hay población en el área de influencia expuesta a la superación de una norma primaria de calidad o a un aumento significativo de concentraciones."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "46",
+     "texto": "Donde rige un plan solo pueden desarrollarse actividades que cumplan sus requisitos; la SMA verifica. El texto vigente en BCN aún no incorpora la compensación obligatoria que la Ley 21.562 agregó a este artículo."
+    },
+    {
+     "norma": "ley-21562",
+     "art": "artículo único y segundo transitorio",
+     "texto": "La regla que hará obligatorio el EIA para emisiones significativas en zonas declaradas sin plan, y el rechazo por impacto crítico, todavía no rige: depende de la publicación de las modificaciones reglamentarias. El art. 11 vigente en BCN no contiene ese inciso."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 bis y 11 ter",
+     "texto": "No se puede fraccionar el proyecto para quedar bajo los umbrales de la letra h); en las modificaciones se evalúa la suma de impactos con el proyecto existente."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "10 h), 11 a), 43, 44, 45 y 46",
+     "motivo": "Define la declaración de zona, la obligatoriedad de los planes y la regla de que solo operan actividades que los cumplan."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 h) y 5",
+     "motivo": "Fija los umbrales de ingreso de proyectos industriales e inmobiliarios y los criterios de riesgo para la salud."
+    },
+    {
+     "id": "ley-21562",
+     "fuerza": "segun_caso",
+     "art": "artículo único (arts. 2, 11, 16, 43, 43 bis, 44 y 46 de la Ley 19.300); transitorios 2° y 3°",
+     "motivo": "Solo rigen las definiciones, las medidas provisionales del art. 43 bis y la revisión quinquenal del art. 44; el resto tiene vigencia condicionada a reglamentos."
+    },
+    {
+     "id": "ds-39-2012-mma",
+     "fuerza": "segun_caso",
+     "art": "2 y 18",
+     "motivo": "Reglamento que distingue plan de prevención y de descontaminación y fija su contenido mínimo; sirve para anticipar exigencias de un plan en elaboración."
+    },
+    {
+     "id": "ds-12-2011-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 4 y 9",
+     "motivo": "Norma primaria de MP2,5 cuya superación sustenta la mayoría de las declaraciones de zona y la gestión de episodios."
+    },
+    {
+     "id": "ds-12-2021-mma",
+     "fuerza": "segun_caso",
+     "art": "3, 4, 5, 9 y 18",
+     "motivo": "Norma primaria de MP10; mantiene las declaraciones de zona fundadas en la norma anterior."
+    },
+    {
+     "id": "ds-104-2018-mma",
+     "fuerza": "segun_caso",
+     "art": "3 a 5 y 21",
+     "motivo": "Norma primaria de SO2; conserva declaraciones de zona y planes anteriores."
+    },
+    {
+     "id": "ds-40-2023-mma",
+     "fuerza": "segun_caso",
+     "art": "3 a 5 y 20",
+     "motivo": "Norma primaria de NO2; conserva declaraciones de zona y planes previos."
+    },
+    {
+     "id": "ds-112-2002-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3",
+     "motivo": "Norma primaria de ozono, contaminante por el que está saturada la Región Metropolitana."
+    },
+    {
+     "id": "ds-115-2002-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3 y 4",
+     "motivo": "Norma primaria de CO, contaminante incluido en la saturación de la Región Metropolitana."
+    },
+    {
+     "id": "ds-19-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria del lago Villarrica, cuya superación originó la zona saturada de esa cuenca."
+    },
+    {
+     "id": "ds-70-2010-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "18-19",
+     "motivo": "Tocopilla y su zona circundante: los aumentos de MP de combustión de proyectos en el SEIA se compensan."
+    },
+    {
+     "id": "ds-59-2014-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "Andacollo y sectores aledaños: proyectos nuevos o modificados deben usar mejores tecnologías y compensar."
+    },
+    {
+     "id": "ds-47-2015-mma",
+     "fuerza": "segun_caso",
+     "art": "56",
+     "motivo": "Osorno: desde 1 t/año de MP sobre la situación base se compensa el 120%."
+    },
+    {
+     "id": "ds-48-2015-mma",
+     "fuerza": "segun_caso",
+     "art": "54",
+     "motivo": "Chillán y Chillán Viejo: desde 1 t/año de MP sobre la situación base se compensa el 120%."
+    },
+    {
+     "id": "ds-49-2015-mma",
+     "fuerza": "segun_caso",
+     "art": "47",
+     "motivo": "Talca y Maule: desde 1 t/año de MP sobre la situación base se compensa el 120%."
+    },
+    {
+     "id": "ds-25-2016-mma",
+     "fuerza": "segun_caso",
+     "art": "53",
+     "motivo": "Valdivia: desde 1 t/año de MP sobre la situación base se compensa el 120%."
+    },
+    {
+     "id": "ds-38-2016-mma",
+     "fuerza": "segun_caso",
+     "art": "12",
+     "motivo": "Huasco y su zona circundante (zona latente): aumentos de MP sobre 5 t/año se compensan en 100%."
+    },
+    {
+     "id": "ds-31-2016-mma",
+     "fuerza": "segun_caso",
+     "art": "64",
+     "motivo": "Región Metropolitana: superar la tabla de emisiones máximas obliga a compensar las emisiones totales, directas e indirectas."
+    },
+    {
+     "id": "ds-4-2017-mma",
+     "fuerza": "segun_caso",
+     "art": "48",
+     "motivo": "Los Ángeles: desde 1 t/año de MP se compensa el 120% y la estimación se informa en la DIA o el EIA."
+    },
+    {
+     "id": "ds-105-2018-mma",
+     "fuerza": "segun_caso",
+     "art": "42",
+     "motivo": "Concón, Quintero y Puchuncaví: aumentos de emisión sobre los umbrales del plan deben compensarse."
+    },
+    {
+     "id": "ds-7-2018-mma",
+     "fuerza": "segun_caso",
+     "art": "31",
+     "motivo": "Coyhaique y su zona circundante: desde 1 t/año de MP se compensan las emisiones totales anuales."
+    },
+    {
+     "id": "ds-6-2018-mma",
+     "fuerza": "segun_caso",
+     "art": "53",
+     "motivo": "Concepción Metropolitano: superar la Tabla 27 obliga a compensar el 120% del total anual."
+    },
+    {
+     "id": "ds-44-2017-mma",
+     "fuerza": "segun_caso",
+     "art": "28",
+     "motivo": "Valle Central de Curicó: desde 1 t/año de MP se compensa el 120%."
+    },
+    {
+     "id": "ds-1-2021-mma",
+     "fuerza": "segun_caso",
+     "art": "40",
+     "motivo": "Valle Central de O'Higgins: superar la Tabla 26 obliga a compensar el 120% del total anual."
+    },
+    {
+     "id": "ds-8-2023-mma",
+     "fuerza": "segun_caso",
+     "art": "52-53",
+     "motivo": "Temuco y Padre Las Casas: desde 1,0 t/año de MP10 o 0,5 t/año de MP2,5 se compensa el 120% con programa aprobado por la SEREMI."
+    },
+    {
+     "id": "ds-18-2023-mma",
+     "fuerza": "segun_caso",
+     "art": "67",
+     "motivo": "Provincia de Quillota, Catemu, Panquehue y Llaillay: aumentos sobre la Tabla 38 deben compensarse."
+    },
+    {
+     "id": "ds-12-2025-mma",
+     "fuerza": "segun_caso",
+     "art": "39 y 41",
+     "motivo": "Cuenca del lago Villarrica (plan de aguas, fósforo): aumentos de emisión sobre la situación base se compensan en 120%."
+    }
+   ],
+   "pas": [],
+   "organismos": [
+    "MMA",
+    "SEREMI del Medio Ambiente",
+    "SEA",
+    "SMA",
+    "SEREMI de Salud",
+    "Ministerio de Salud (firma en normas primarias)"
+   ],
+   "notas": [
+    "Ningún permiso de los arts. 111 a 161 del DS 40/2012 se gatilla por esta condición; la exigencia típica es el programa de compensación de emisiones que aprueba la SEREMI del Medio Ambiente.",
+    "Los decretos que declaran cada zona saturada o latente no forman parte del catálogo del visor."
+   ]
+  },
+  {
+   "id": "humedal",
+   "nombre": "Humedal urbano, sitio Ramsar o humedal en general",
+   "descripcion": "El proyecto se ubica dentro o cerca de un humedal, o puede alterar su régimen hídrico, su vegetación o su fauna.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letra p)",
+     "texto": "Obliga a ingresar toda obra, programa o actividad que se ejecute en un humedal urbano, igual que en las áreas del Sistema Nacional de Áreas Protegidas y demás áreas bajo protección oficial, cuando la legislación respectiva la permite."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 letra s)",
+     "texto": "Obliga a ingresar, cualquiera sea la superficie, las obras que puedan alterar física o químicamente un humedal situado total o parcialmente dentro del límite urbano y que impliquen relleno, drenaje, secado, extracción de caudales o áridos, o deterioro de su flora y fauna. No exige declaración previa del humedal."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 letra q)",
+     "texto": "La aplicación masiva de productos químicos en zonas próximas a humedales que puedan resultar afectados también es causal de ingreso."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra a.2)",
+     "texto": "Fuera del límite urbano el ingreso depende de umbrales de drenaje o desecación: cualquier superficie en vegas y bofedales de Arica y Parinacota, Tarapacá y Antofagasta y en turberas; 10, 20 o 30 ha según macrozona para otros humedales."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letras p) y q)",
+     "texto": "El reglamento vigente no ha recogido los humedales urbanos en su letra p), ni los humedales en la letra q), ni contiene una letra s); en esos puntos se aplica directamente la ley."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra d)",
+     "texto": "Puede exigir EIA la localización en o próxima a humedales protegidos susceptibles de ser afectados."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "Para efectos del EIA, humedal protegido es el incluido en la Lista de la Convención de Ramsar; basta que esté dentro del área de influencia y se pondera extensión, magnitud y duración de la intervención."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letra g) (g.3 y g.4)",
+     "texto": "También lleva a EIA el efecto adverso significativo por ascenso o descenso de niveles de agua en vegas, bofedales, humedales, estuarios y turberas."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 bis",
+     "texto": "No cabe fraccionar el proyecto para eludir los umbrales de drenaje o desecación."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "10 p), q) y s); 11 b) y d)",
+     "motivo": "Contiene las causales de ingreso por humedales y las de EIA por humedales protegidos."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 a.2); 6 g); 8",
+     "motivo": "Umbrales de drenaje o desecación y criterios de EIA para humedales."
+    },
+    {
+     "id": "ley-21202",
+     "fuerza": "segun_caso",
+     "art": "1, 2 y 4",
+     "motivo": "Aplica si el humedal está total o parcialmente dentro del límite urbano: declaración por el MMA, ordenanza municipal y nuevas causales de ingreso."
+    },
+    {
+     "id": "ds-15-2020-mma",
+     "fuerza": "segun_caso",
+     "art": "3",
+     "motivo": "Criterios mínimos de sustentabilidad (características ecológicas, conectividad, régimen hidrológico) que orientan la evaluación de un humedal urbano."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "segun_caso",
+     "art": "60 bis y 64",
+     "motivo": "Los instrumentos de planificación deben reconocer el humedal urbano declarado como área de protección de valor natural y condicionar los permisos de urbanización y construcción."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "siempre",
+     "art": "41, 37 y 29",
+     "motivo": "Prohíbe la alteración física de humedales que sean sitio prioritario, exige permiso previo del SBAP para los demás inventariados e incorpora los sitios Ramsar a una categoría de protección."
+    },
+    {
+     "id": "trat-ramsar",
+     "fuerza": "segun_caso",
+     "art": "2 y 3 (ejecutados por el art. 37 de la Ley 21.600 y el art. 8 del DS 40/2012)",
+     "motivo": "Solo si el humedal integra la Lista de Importancia Internacional; en ese caso es humedal protegido para efectos del EIA."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "47, 58, 63 y 129 bis 2",
+     "motivo": "Veda sistemas de drenaje en turberas inventariadas del sur austral, exploraciones y nuevas explotaciones en acuíferos que alimentan vegas, bofedales y humedales declarados, y restringe derechos de agua en sitios Ramsar."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "segun_caso",
+     "art": "10, 12 y 13",
+     "motivo": "Si hay vegetación nativa: prohíbe cortar vegetación hidrófila en humedales prioritarios o Ramsar, exige faja de 10 m y veda el tránsito de maquinaria por humedales."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "17",
+     "motivo": "Remite al reglamento la protección de suelos, cuerpos de agua y humedales al intervenir bosque nativo."
+    },
+    {
+     "id": "ley-21660",
+     "fuerza": "segun_caso",
+     "art": "2, 3 y 4",
+     "motivo": "Si el humedal es turbera: prohibición de extraer turba y plan de manejo para la cosecha de musgo."
+    },
+    {
+     "id": "codigo-penal",
+     "fuerza": "segun_caso",
+     "art": "308 y 310",
+     "motivo": "La afectación grave de humedales es delito, con pena mayor cuando se trata de un humedal de importancia internacional."
+    }
+   ],
+   "pas": [
+    {
+     "art": 130,
+     "fuerza": "segun_caso",
+     "motivo": "Solo en acuíferos que alimentan vegas y bofedales de las tres regiones del extremo norte, en zona de prohibición."
+    },
+    {
+     "art": 154,
+     "fuerza": "segun_caso",
+     "motivo": "Exploración de aguas subterráneas en zonas que alimentan vegas o bofedales de esas mismas regiones."
+    },
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Si la obra modifica un cauce natural o artificial asociado al humedal."
+    },
+    {
+     "art": 159,
+     "fuerza": "segun_caso",
+     "motivo": "Si se extraen áridos desde el cauce de un río o estero."
+    }
+   ],
+   "organismos": [
+    "MMA",
+    "SBAP",
+    "Municipalidad",
+    "SEA",
+    "SMA",
+    "DGA",
+    "MINVU / Dirección de Obras Municipales",
+    "CONAF",
+    "SAG (turberas)"
+   ],
+   "notas": [
+    "El permiso del SBAP para alterar humedales inventariados (art. 41 de la Ley 21.600) no figura entre los permisos de los arts. 111 a 161 del DS 40/2012.",
+    "En el texto vigente de la LGUC la regla sobre humedales urbanos en los instrumentos de planificación está en el art. 60 bis, no en el art. 60."
+   ]
+  },
+  {
+   "id": "area-protegida",
+   "nombre": "Área protegida, sitio prioritario o santuario de la naturaleza",
+   "descripcion": "El proyecto se emplaza dentro o en la proximidad de un área bajo protección oficial, un sitio prioritario para la conservación o un santuario de la naturaleza.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letra p)",
+     "texto": "Obliga a ingresar cualquier obra, programa o actividad que se ejecute en áreas del Sistema Nacional de Áreas Protegidas o en otras áreas bajo protección oficial, sin umbral de tamaño y siempre que la legislación respectiva la permita."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra p)",
+     "texto": "Enumera parques y reservas nacionales, monumentos naturales, reservas de zonas vírgenes, santuarios de la naturaleza, parques y reservas marinas y cualquier otra área bajo protección oficial; el texto reglamentario conserva las categorías anteriores a la Ley 21.600."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 letra e)",
+     "texto": "Los caminos públicos ingresan cuando pueden afectar áreas protegidas."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra d)",
+     "texto": "Puede exigir EIA la localización en o próxima a recursos y áreas protegidas o sitios prioritarios susceptibles de ser afectados, y el valor ambiental del territorio."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "Hay proximidad cuando el área o el sitio prioritario queda dentro del área de influencia; se evalúa extensión, magnitud y duración de la intervención frente a los objetos de protección. El sitio prioritario no es causal de ingreso, pero sí de EIA."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "9",
+     "texto": "La alteración significativa del valor paisajístico o turístico de la zona es una causal independiente de EIA."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 bis y 11 ter",
+     "texto": "Prohibición de fraccionar y evaluación acumulada de las modificaciones."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "10 p) y e); 11 d); 34, 35 y 36",
+     "motivo": "Causal de ingreso y de EIA; el Sistema Nacional de Áreas Protegidas lo administra el SBAP e incluye las aguas, playas, glaciares y humedales situados en su perímetro."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 p); 8; 9",
+     "motivo": "Listado reglamentario de áreas y criterios de localización y valor ambiental."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "siempre",
+     "art": "53, 56, 63, 93, 94 y 108; 29; transitorios 4° y 8°",
+     "motivo": "Exige compatibilidad con la categoría, el objeto de protección y el plan de manejo; prohíbe concesiones extractivas comerciales en reservas de región virgen, parques nacionales y monumentos naturales; los sitios prioritarios preexistentes mantienen efectos."
+    },
+    {
+     "id": "ley-17288",
+     "fuerza": "segun_caso",
+     "art": "31",
+     "motivo": "Solo si es santuario de la naturaleza: autorización previa para construir, excavar o alterar su estado natural. El artículo sigue vigente hasta que concluya la reclasificación de los santuarios ordenada por la Ley 21.600."
+    },
+    {
+     "id": "ley-21744",
+     "fuerza": "segun_caso",
+     "art": "octavo transitorio",
+     "motivo": "SERNAFOR (hoy CONAF) continúa administrando parques, reservas y monumentos naturales hasta el traspaso al SBAP; no se halló el DFL que fija su entrada en funcionamiento."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "129 bis 1 y 129 bis 2",
+     "motivo": "Restringe el otorgamiento de derechos de aprovechamiento de aguas en áreas bajo protección oficial de la biodiversidad y permite fijar caudal ecológico a derechos existentes en ellas."
+    },
+    {
+     "id": "ds-430-1991-economia",
+     "fuerza": "segun_caso",
+     "art": "158",
+     "motivo": "Excluye pesca extractiva y acuicultura de las zonas lacustres, fluviales y marítimas de áreas protegidas, con excepciones acotadas."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "7",
+     "motivo": "Prohíbe cazar o capturar dentro de las áreas del Sistema."
+    },
+    {
+     "id": "ds-4363-1931-mintierras",
+     "fuerza": "segun_caso",
+     "art": "22 bis",
+     "motivo": "Prohíbe encender fuego en lugares no habilitados de áreas silvestres protegidas."
+    },
+    {
+     "id": "codigo-penal",
+     "fuerza": "segun_caso",
+     "art": "310",
+     "motivo": "Delito de afectación grave de reserva de región virgen, parque nacional, monumento natural, reserva nacional o humedal de importancia internacional."
+    }
+   ],
+   "pas": [
+    {
+     "art": 120,
+     "fuerza": "segun_caso",
+     "motivo": "Únicamente si el área es santuario de la naturaleza; lo otorga el SBAP y su base (art. 31 de la Ley 17.288) rige hasta la reclasificación de los santuarios."
+    },
+    {
+     "art": 152,
+     "fuerza": "segun_caso",
+     "motivo": "Si dentro del área se maneja bosque nativo de preservación."
+    }
+   ],
+   "organismos": [
+    "SBAP",
+    "MMA",
+    "CONAF / SERNAFOR (administración transitoria)",
+    "SEA",
+    "SMA",
+    "Consejo de Monumentos Nacionales (informe en santuarios)",
+    "SUBPESCA y SERNAPESCA (áreas marinas)",
+    "DGA"
+   ],
+   "notas": [
+    "PAS 121 (labores mineras en parques, reservas y monumentos naturales): sigue en el texto del DS 40/2012, pero el N° 2 del art. 17 del Código de Minería figura como suprimido; quedó sin base legal ni órgano otorgante y no se incluye como permiso exigible.",
+    "El permiso del art. 94 de la Ley 21.600 (actividades transitorias en áreas protegidas del Estado) solo cubre actividades ajenas al art. 10 de la Ley 19.300 y no es un PAS del DS 40/2012.",
+    "El reglamento de sitios prioritarios del art. 29 de la Ley 21.600 aún no consta en el catálogo; el plazo para determinarlos por decreto fue extendido por la Ley 21.850."
+   ]
+  },
+  {
+   "id": "borde-costero",
+   "nombre": "Borde costero, playa o mar territorial",
+   "descripcion": "El proyecto ocupa playa, terreno de playa, fondo de mar o porción de agua, o descarga o vierte en aguas sometidas a jurisdicción nacional.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letras f), n) y o)",
+     "texto": "El borde costero no es causal de ingreso por sí mismo: ingresan por tipología los puertos, vías de navegación, astilleros y terminales marítimos, el cultivo de recursos hidrobiológicos y los emisarios submarinos."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra a.3)",
+     "texto": "El dragado de cursos o cuerpos de aguas marítimas ingresa desde 50.000 m3 de material a extraer o remover."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 letra p)",
+     "texto": "Si el sector es parque marino, reserva marina u otra área bajo protección oficial, toda obra o actividad en él debe ingresar."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "8 inciso tercero",
+     "texto": "En la evaluación siempre se pide informe de compatibilidad territorial a la autoridad marítima competente, cuando corresponde, además del gobierno regional y el municipio."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letras b), d) y e)",
+     "texto": "Puede exigir EIA por efectos significativos sobre recursos naturales renovables, por cercanía a áreas o recursos protegidos y por alteración del valor paisajístico o turístico."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 y 9",
+     "texto": "Se consideran la capacidad de dilución y dispersión del medio receptor, el cumplimiento de normas de emisión y calidad, y la obstrucción de visibilidad o acceso a zonas con valor paisajístico o turístico."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8; 10 f), n), o) y p); 11 b), d) y e)",
+     "motivo": "Informe de la autoridad marítima y tipologías de ingreso costeras."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 a.3); 6; 9",
+     "motivo": "Umbral de dragado marítimo y criterios de EIA."
+    },
+    {
+     "id": "dfl-340-1960",
+     "fuerza": "siempre",
+     "art": "2 y 3",
+     "motivo": "El uso particular de playas, terrenos de playa fiscales, fondos de mar y porciones de agua exige concesión marítima del Ministerio de Defensa."
+    },
+    {
+     "id": "ds-9-2018-defensa",
+     "fuerza": "siempre",
+     "art": "3 y 5",
+     "motivo": "Sin concesión, destinación, autorización o permiso no puede construirse ni instalarse nada en esos bienes."
+    },
+    {
+     "id": "dl-2222-1978",
+     "fuerza": "siempre",
+     "art": "142, 143, 144 y 147",
+     "motivo": "Prohibición absoluta de arrojar o derramar materias nocivas en aguas jurisdiccionales y responsabilidad civil de las instalaciones terrestres que dañen el medio marino."
+    },
+    {
+     "id": "ds-1-1992-defensa",
+     "fuerza": "segun_caso",
+     "art": "2, 108, 113, 116, 117, 140 y 142",
+     "motivo": "Permisos de la autoridad marítima para vertimientos, descargas, terminales, cañerías e instalaciones de recepción; base de los PAS 111 a 115."
+    },
+    {
+     "id": "trat-convenio-londres",
+     "fuerza": "segun_caso",
+     "art": "IV y VI (ejecutados por el art. 143 del DL 2.222 y el art. 108 del DS 1/1992)",
+     "motivo": "Solo si hay vertimiento deliberado de desechos al mar: DIRECTEMAR aplica la prohibición y otorga los permisos del Convenio."
+    },
+    {
+     "id": "ds-475-1994-defensa",
+     "fuerza": "segun_caso",
+     "art": "1 y 2",
+     "motivo": "La política y la zonificación de uso del borde costero orientan el otorgamiento de concesiones."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "4.4",
+     "motivo": "Si descarga residuos líquidos al mar: Tabla 4 dentro de la zona de protección litoral y Tabla 5 fuera de ella."
+    },
+    {
+     "id": "ds-144-2008-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "3 y 4",
+     "motivo": "Norma primaria para aguas marinas y estuarinas con uso recreativo de contacto directo; relevante frente a playas y balnearios."
+    },
+    {
+     "id": "ds-430-1991-economia",
+     "fuerza": "segun_caso",
+     "art": "67, 87, 136 y 158",
+     "motivo": "Acuicultura solo en áreas apropiadas, delito de contaminación de aguas con daño a recursos hidrobiológicos y exclusiones en áreas protegidas."
+    },
+    {
+     "id": "ds-320-2001-economia",
+     "fuerza": "segun_caso",
+     "art": "4, 15 y 17",
+     "motivo": "Si es acuicultura: caracterización preliminar de sitio y condición aeróbica para obtener el permiso ambiental sectorial."
+    },
+    {
+     "id": "ley-20249",
+     "fuerza": "segun_caso",
+     "art": "3 y 10",
+     "motivo": "Una solicitud de espacio costero marino de pueblos originarios suspende la tramitación de otras afectaciones sobre la misma área y prevalece si se acredita uso consuetudinario."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "segun_caso",
+     "art": "64",
+     "motivo": "En áreas urbanas, las concesiones sobre terrenos de playa o riberas requieren informe previo favorable de la Dirección de Obras Municipales."
+    },
+    {
+     "id": "ley-18248",
+     "fuerza": "segun_caso",
+     "art": "17 N° 1",
+     "motivo": "Las labores mineras en playas de puertos habilitados necesitan permiso escrito de la autoridad que indica ese numeral."
+    }
+   ],
+   "pas": [
+    {
+     "art": 111,
+     "fuerza": "segun_caso",
+     "motivo": "Vertimiento desde naves, artefactos navales, construcciones u obras portuarias."
+    },
+    {
+     "art": 112,
+     "fuerza": "segun_caso",
+     "motivo": "Instalaciones terrestres de recepción de mezclas oleosas en puertos y terminales."
+    },
+    {
+     "art": 113,
+     "fuerza": "segun_caso",
+     "motivo": "Plantas de tratamiento de esas instalaciones con descarga a aguas jurisdiccionales."
+    },
+    {
+     "art": 114,
+     "fuerza": "segun_caso",
+     "motivo": "Terminal marítimo y cañerías conductoras de sustancias contaminantes."
+    },
+    {
+     "art": 115,
+     "fuerza": "segun_caso",
+     "motivo": "Introducción o descarga de materias, energía o sustancias a las aguas jurisdiccionales (emisarios, descargas)."
+    },
+    {
+     "art": 116,
+     "fuerza": "segun_caso",
+     "motivo": "Actividades de acuicultura."
+    },
+    {
+     "art": 118,
+     "fuerza": "segun_caso",
+     "motivo": "Acuicultura en áreas de manejo de recursos bentónicos; su norma fundante fue reemplazada por el DS 96/2015 de Economía."
+    },
+    {
+     "art": 119,
+     "fuerza": "segun_caso",
+     "motivo": "Pesca de investigación, habitual en líneas de base y seguimiento marino."
+    }
+   ],
+   "organismos": [
+    "Subsecretaría para las Fuerzas Armadas",
+    "DIRECTEMAR / Capitanía de Puerto",
+    "SUBPESCA",
+    "SERNAPESCA",
+    "Comisión Regional de Uso del Borde Costero",
+    "Gobierno Regional",
+    "Municipalidad",
+    "SEREMI de Salud",
+    "CONADI (espacios costeros de pueblos originarios)",
+    "SEA",
+    "SMA"
+   ],
+   "notas": [
+    "El Convenio MARPOL está en el catálogo, pero ninguna norma chilena del visor leída lo ejecuta respecto del emplazamiento costero de un proyecto; el art. 143 del DL 2.222 cita el convenio de hidrocarburos de 1954 y el de Londres de 1972."
+   ]
+  },
+  {
+   "id": "pueblos-indigenas",
+   "nombre": "Cercanía a comunidades o tierras indígenas, o espacios costeros de pueblos originarios",
+   "descripcion": "El proyecto se emplaza en tierras indígenas, áreas de desarrollo indígena, espacios costeros de pueblos originarios o en las cercanías de grupos humanos indígenas.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10",
+     "texto": "La presencia de pueblos indígenas no es causal de ingreso; el proyecto ingresa por su tipología."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "4 inciso segundo",
+     "texto": "Los órganos del Estado deben propender a conservar y fortalecer identidad, instituciones y tradiciones de pueblos, comunidades y personas indígenas al aplicar los instrumentos de gestión ambiental."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letras c), d) y f)",
+     "texto": "Puede exigir EIA por reasentamiento o alteración significativa de sistemas de vida y costumbres, por localización en o próxima a poblaciones protegidas y por alteración del patrimonio cultural."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "Las poblaciones protegidas son los pueblos indígenas, cualquiera sea su forma de organización; se pondera extensión, magnitud o duración de la intervención en las áreas donde habitan."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "7",
+     "texto": "El traslado de grupos indígenas solo procede con su consentimiento libre e informado; además se evalúa la alteración de sus formas de organización social."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "5, 6, 9 y 10 (incisos finales)",
+     "texto": "Si el riesgo para la salud, el efecto sobre recursos naturales, el paisaje o el patrimonio se produce respecto de grupos indígenas o en lugares con su presencia, se entiende que el proyecto es susceptible de afectarlos."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "85",
+     "texto": "Cuando se generan los efectos de los arts. 7, 8 o 10 con afectación directa a grupos indígenas, el SEA debe realizar un proceso de consulta de buena fe; no alcanzar acuerdo no invalida la consulta."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "86",
+     "texto": "Si el proyecto está en tierras indígenas, áreas de desarrollo indígena o sus cercanías y no reconoce esos efectos, el SEA sostiene reuniones con los grupos (hasta 30 días en EIA y 20 en DIA) que pueden fundar el término anticipado."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "4; 11 c), d) y f)",
+     "motivo": "Deber estatal hacia los pueblos indígenas y causales de EIA asociadas."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "7, 8, 10, 85 y 86",
+     "motivo": "Criterios de afectación, consulta indígena y reuniones con grupos humanos indígenas."
+    },
+    {
+     "id": "trat-convenio-169-oit",
+     "fuerza": "siempre",
+     "art": "6 N° 1 letra a) y N° 2 (ejecutado por el art. 8 del DS 66/2013 y el art. 85 del DS 40/2012)",
+     "motivo": "Deber de consultar las medidas administrativas susceptibles de afectar directamente a los pueblos indígenas."
+    },
+    {
+     "id": "ds-66-2013-mds",
+     "fuerza": "siempre",
+     "art": "8 y 16",
+     "motivo": "La consulta de proyectos en el SEIA se rige por la normativa y plazos del sistema, respetando las etapas del reglamento general."
+    },
+    {
+     "id": "ley-19253",
+     "fuerza": "siempre",
+     "art": "12, 13, 26, 34 y 64",
+     "motivo": "Protección de tierras indígenas, áreas de desarrollo indígena, deber de oír a las organizaciones y resguardo de aguas aimaras y atacameñas."
+    },
+    {
+     "id": "ley-19253",
+     "fuerza": "segun_caso",
+     "art": "19 y 29 letra c)",
+     "motivo": "Sitios ceremoniales en terrenos fiscales y excavación de cementerios históricos indígenas con consentimiento de la comunidad e informe de CONADI."
+    },
+    {
+     "id": "ley-20249",
+     "fuerza": "segun_caso",
+     "art": "3 y 10",
+     "motivo": "En el litoral, las solicitudes de espacio costero marino de pueblos originarios suspenden otras afectaciones sobre la misma área."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "5",
+     "motivo": "En territorios indígenas el Estado debe velar por la integridad entre tierra y agua y proteger las aguas existentes en beneficio de las comunidades."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "segun_caso",
+     "art": "56 y 108 letra l)",
+     "motivo": "Existe la categoría Área de Conservación de Pueblos Indígenas y se prohíbe alterar elementos con significación para comunidades que habitan áreas protegidas."
+    },
+    {
+     "id": "of-2025991021114-2025-sea",
+     "fuerza": "segun_caso",
+     "art": "sin articulado propio; desarrolla el art. 85 del DS 40/2012",
+     "motivo": "Instructivo del SEA sobre cómo se implementa la consulta a pueblos indígenas en la evaluación."
+    },
+    {
+     "id": "of-202499102834-2024-sea",
+     "fuerza": "segun_caso",
+     "art": "sin articulado propio; desarrolla el art. 86 del DS 40/2012",
+     "motivo": "Instructivo del SEA para las reuniones con grupos humanos indígenas cuando no procede consulta."
+    }
+   ],
+   "pas": [],
+   "organismos": [
+    "SEA",
+    "CONADI",
+    "Ministerio de Desarrollo Social y Familia",
+    "SUBPESCA (espacios costeros)",
+    "Comisión Regional de Uso del Borde Costero",
+    "DGA",
+    "Consejo de Monumentos Nacionales",
+    "Tribunales Ambientales"
+   ],
+   "notas": [
+    "Ningún permiso de los arts. 111 a 161 del DS 40/2012 se activa por esta condición; el efecto es procedimental (consulta, reuniones) y de vía de ingreso (EIA).",
+    "La norma ley-19253 aparece dos veces porque sus artículos tienen fuerza distinta."
+   ]
+  },
+  {
+   "id": "bosque-nativo",
+   "nombre": "Presencia de bosque nativo, formaciones xerofíticas o especies en categoría de conservación",
+   "descripcion": "El proyecto corta, descepa o interviene bosque nativo o formaciones xerofíticas, o afecta flora nativa clasificada o declarada monumento natural.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letra m)",
+     "texto": "La sola presencia de bosque nativo no obliga a ingresar: la causal cubre proyectos de desarrollo o explotación forestal en terrenos cubiertos de bosque nativo, de dimensiones industriales."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra m.1)",
+     "texto": "Es de dimensión industrial la corta de regeneración por tala rasa en una superficie única o continua superior a 20, 200, 500 o 1.000 ha anuales según la macrozona."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra b)",
+     "texto": "Cualquier proyecto que ingrese por otra tipología puede requerir EIA si la corta o intervención produce efectos adversos significativos sobre recursos naturales renovables."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letras a) y b)",
+     "texto": "Se pondera la superficie de vegetación intervenida, la diversidad biológica y la presencia de especies en categoría de conservación o con plan de recuperación; también la pérdida de suelo."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "Los recursos protegidos por acto de autoridad, como las especies declaradas monumento natural, pueden configurar la causal de localización."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 bis",
+     "texto": "No se puede dividir la superficie de corta para eludir los umbrales de la letra m)."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "10 m); 11 b); 37 y 41",
+     "motivo": "Causal forestal de ingreso, causal de EIA y clasificación de especies según estado de conservación."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 m); 6 a) y b)",
+     "motivo": "Umbrales de tala rasa y criterios sobre flora, vegetación y especies clasificadas."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "siempre",
+     "art": "5, 7, 19, 21 y 60",
+     "motivo": "Toda corta de bosque nativo exige plan de manejo aprobado; las obras, concesiones y servidumbres tienen plan específico con reforestación; las formaciones xerofíticas requieren plan de trabajo."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "17",
+     "motivo": "Prohíbe intervenir árboles y arbustos nativos a menos de 500 m de glaciares."
+    },
+    {
+     "id": "ds-93-2008-minagri",
+     "fuerza": "siempre",
+     "art": "3, 4 y 19",
+     "motivo": "Reglamenta el plan de manejo forestal, el de preservación y el de corta por obras, caminos, concesiones o servidumbres."
+    },
+    {
+     "id": "ds-68-2009-minagri",
+     "fuerza": "siempre",
+     "art": "artículo único",
+     "motivo": "Nómina oficial de especies que permite determinar si la formación califica como bosque nativo."
+    },
+    {
+     "id": "ds-82-2010-minagri",
+     "fuerza": "segun_caso",
+     "art": "1, 3, 4 y 8",
+     "motivo": "Zonas de exclusión y de manejo limitado junto a manantiales, cursos de agua y humedales, y cobertura mínima residual."
+    },
+    {
+     "id": "dl-701-1974",
+     "fuerza": "segun_caso",
+     "art": "21 y 22",
+     "motivo": "Si el terreno es de aptitud preferentemente forestal: plan de manejo previo y obligación de reforestar al menos la superficie cortada."
+    },
+    {
+     "id": "ds-193-1998-minagri",
+     "fuerza": "segun_caso",
+     "art": "29 y 33",
+     "motivo": "Contenido mínimo del plan de manejo y condiciones para reforestar en otro terreno."
+    },
+    {
+     "id": "ds-4363-1931-mintierras",
+     "fuerza": "segun_caso",
+     "art": "5",
+     "motivo": "Prohíbe cortar árboles y arbustos nativos en torno a manantiales y en pendientes superiores a 45%, salvo plan de manejo aprobado."
+    },
+    {
+     "id": "ley-18378",
+     "fuerza": "segun_caso",
+     "art": "4",
+     "motivo": "Permite prohibir la corta de árboles junto a caminos, ríos, lagos y en quebradas; base del PAS 153."
+    },
+    {
+     "id": "ds-490-1976-minagri",
+     "fuerza": "segun_caso",
+     "art": "primero y segundo",
+     "motivo": "Si hay alerce: monumento natural, corta solo con autorización expresa y fundada de CONAF."
+    },
+    {
+     "id": "ds-43-1990-minagri",
+     "fuerza": "segun_caso",
+     "art": "1 y 2",
+     "motivo": "Si hay araucaria: la corta de ejemplares vivos solo se autoriza para investigación, obras públicas o de defensa, o planes estatales de conservación."
+    },
+    {
+     "id": "ds-13-1995-minagri",
+     "fuerza": "segun_caso",
+     "art": "1 y 2",
+     "motivo": "Si hay queule, pitao, belloto del sur, belloto del norte o ruil: corta restringida a las actividades que el decreto enumera."
+    },
+    {
+     "id": "trat-convencion-washington",
+     "fuerza": "segun_caso",
+     "art": "I (ejecutada por los decretos de monumento natural DS 490/1976, DS 43/1990 y DS 13/1995)",
+     "motivo": "Solo para las especies declaradas monumento natural conforme a su definición."
+    },
+    {
+     "id": "ds-29-2011-mma",
+     "fuerza": "segun_caso",
+     "art": "5",
+     "motivo": "Categorías de conservación que determinan cuándo opera la prohibición del art. 19 de la Ley 20.283; sigue aplicándose mientras no se dicte el nuevo reglamento."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "segun_caso",
+     "art": "42 a 45; 145 a 154",
+     "motivo": "Planes de recuperación de especies, declaración de especies como monumento natural e informe favorable del SBAP para ciertas intervenciones de la Ley 20.283."
+    },
+    {
+     "id": "ley-21770",
+     "fuerza": "segun_caso",
+     "art": "119",
+     "motivo": "Modificó el art. 19 de la Ley 20.283, fundamento del PAS 150."
+    },
+    {
+     "id": "ley-21744",
+     "fuerza": "segun_caso",
+     "art": "1, 2 y 4",
+     "motivo": "SERNAFOR es el sucesor legal de CONAF en la aplicación de la legislación forestal; no se encontró el DFL que fija su entrada en funcionamiento."
+    },
+    {
+     "id": "res-1010-2015-sea",
+     "fuerza": "segun_caso",
+     "art": "sin articulado propio; guías de trámite de los arts. 148 y 149 del DS 40/2012",
+     "motivo": "Requisitos y contenidos técnicos de los permisos forestales en la evaluación."
+    }
+   ],
+   "pas": [
+    {
+     "art": 148,
+     "fuerza": "siempre",
+     "motivo": "Corta de bosque nativo, cualquiera sea la superficie y el tipo de terreno."
+    },
+    {
+     "art": 151,
+     "fuerza": "segun_caso",
+     "motivo": "Corta, destrucción o descepado de formaciones xerofíticas."
+    },
+    {
+     "art": 150,
+     "fuerza": "segun_caso",
+     "motivo": "Intervención de especies nativas clasificadas que formen parte de un bosque nativo, o alteración de su hábitat."
+    },
+    {
+     "art": 152,
+     "fuerza": "segun_caso",
+     "motivo": "Manejo de bosque nativo de preservación."
+    },
+    {
+     "art": 153,
+     "fuerza": "segun_caso",
+     "motivo": "Corta de árboles o arbustos aislados en áreas declaradas de protección."
+    },
+    {
+     "art": 127,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de alerce."
+    },
+    {
+     "art": 128,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de araucarias vivas."
+    },
+    {
+     "art": 129,
+     "fuerza": "segun_caso",
+     "motivo": "Presencia de queule, pitao, belloto del sur, ruil o belloto del norte."
+    }
+   ],
+   "organismos": [
+    "CONAF / SERNAFOR",
+    "SBAP",
+    "MMA",
+    "SAG",
+    "Ministerio de Agricultura",
+    "SEA",
+    "Juzgados de Policía Local (infracciones)"
+   ],
+   "notas": [
+    "El PAS 149 (corta de plantaciones en terrenos de aptitud preferentemente forestal) no se activa por bosque nativo; corresponde a plantaciones.",
+    "La fauna en categoría de conservación se trata en la condición glaciares-turberas-fauna."
+   ]
+  },
+  {
+   "id": "cauces-aguas",
+   "nombre": "Intervención de cauces, extracción de aguas o afectación de acuíferos, vegas y bofedales",
+   "descripcion": "El proyecto modifica o defiende cauces, construye obras hidráulicas, extrae áridos o aguas superficiales o subterráneas, o puede alterar acuíferos que sustentan vegas y bofedales.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letra a)",
+     "texto": "Obliga a ingresar acueductos, embalses, tranques y sifones sujetos a la autorización del art. 294 del Código de Aguas, y las presas, drenajes, desecaciones, dragados, defensas o alteraciones significativas de cuerpos o cursos naturales de agua."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra a) (a.1 a a.5)",
+     "texto": "Lo significativo se mide por umbrales: presas con muro sobre 5 m o embalse sobre 50.000 m3; dragado continental desde 20.000 o 50.000 m3 según región; defensa o alteración que movilice 50.000 o 100.000 m3; drenaje de vegas y bofedales del extremo norte en cualquier superficie; y toda obra que altere un glaciar inventariado."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra a.4) inciso final",
+     "texto": "La alteración del lecho o la ribera dentro de un área preferencial para la pesca recreativa ingresa sin importar el volumen movilizado."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 letra i)",
+     "texto": "La extracción industrial de áridos es causal de ingreso propia."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra b)",
+     "texto": "Puede exigir EIA el efecto adverso significativo sobre la cantidad y calidad del agua."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letra g)",
+     "texto": "Se evalúa siempre el volumen o caudal a intervenir, el trasvase entre cuencas y la variación de niveles en aguas fósiles, cuerpos con fluctuaciones, vegas y bofedales, humedales, estuarios, turberas y glaciares."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letra d)",
+     "texto": "La superación de normas secundarias de calidad, o un aumento significativo de concentraciones, configura el efecto adverso."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 bis",
+     "texto": "No cabe fraccionar obras para quedar bajo los umbrales de volumen o altura de muro."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "10 a) e i); 11 b)",
+     "motivo": "Causales de ingreso por obras hidráulicas y áridos, y de EIA por efectos sobre el agua."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 a); 6 d) y g)",
+     "motivo": "Umbrales de obras en cauces y criterios sobre caudales, niveles y normas secundarias."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "siempre",
+     "art": "41, 171, 129 bis 1 y 129 bis 2",
+     "motivo": "Las modificaciones de cauces requieren aprobación previa de la DGA, que además fija caudal ecológico y puede paralizar obras sin habilitación."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "294; 58 y 63; 47; 56 bis; 5 bis",
+     "motivo": "Obras hidráulicas mayores, zonas de prohibición y exploración en acuíferos que alimentan vegas y bofedales, drenaje, aguas del minero y prioridad del consumo humano."
+    },
+    {
+     "id": "ley-21770",
+     "fuerza": "segun_caso",
+     "art": "85",
+     "motivo": "Reemplazó los arts. 171 y 294 del Código de Aguas, base de los PAS 155, 156 y 157; el texto de esos permisos en el DS 40/2012 no ha sido adecuado."
+    },
+    {
+     "id": "ley-21435",
+     "fuerza": "segun_caso",
+     "art": "1",
+     "motivo": "Reforma que hizo temporales los nuevos derechos y reforzó la preservación ecosistémica y las facultades de la DGA."
+    },
+    {
+     "id": "ds-203-2013-mop",
+     "fuerza": "segun_caso",
+     "art": "1, 20, 42 y 47",
+     "motivo": "Si capta aguas subterráneas: exploración, constitución del derecho, cambio de punto de captación y recarga artificial."
+    },
+    {
+     "id": "ley-11402",
+     "fuerza": "segun_caso",
+     "art": "1 y 11",
+     "motivo": "Obras de defensa y regularización de riberas y permiso municipal para extraer ripio y arena de cauces, previo informe favorable de Obras Públicas."
+    },
+    {
+     "id": "ds-90-2000-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "4.2 y 4.3",
+     "motivo": "Si descarga residuos líquidos a ríos o lagos."
+    },
+    {
+     "id": "ds-46-2002-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "8 a 11",
+     "motivo": "Si infiltra residuos líquidos: los límites dependen de la vulnerabilidad del acuífero que determina la DGA."
+    },
+    {
+     "id": "dfl-725-1967",
+     "fuerza": "segun_caso",
+     "art": "73 y 74",
+     "motivo": "Prohibición de descargar sin depuración en aguas de bebida, riego o balneario y autorización sanitaria para labores mineras que afecten caudal o calidad del agua."
+    },
+    {
+     "id": "ley-19253",
+     "fuerza": "segun_caso",
+     "art": "64",
+     "motivo": "En territorios aimaras y atacameños no se otorgan nuevos derechos sin garantizar el abastecimiento de las comunidades."
+    },
+    {
+     "id": "codigo-penal",
+     "fuerza": "segun_caso",
+     "art": "307 y 308",
+     "motivo": "Delitos de extracción ilegal de aguas y de afectación grave de recursos hídricos."
+    },
+    {
+     "id": "ds-53-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la cuenca del río Maipo; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    },
+    {
+     "id": "ds-9-2015-mma",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la cuenca del río Biobío; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    },
+    {
+     "id": "ds-41-2021-mma",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la cuenca del río Aconcagua; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    },
+    {
+     "id": "ds-21-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la cuenca del río Valdivia; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    },
+    {
+     "id": "ds-75-2009-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la cuenca del río Serrano; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    },
+    {
+     "id": "ds-122-2009-minsegpres",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la lago Llanquihue; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    },
+    {
+     "id": "ds-19-2013-mma",
+     "fuerza": "segun_caso",
+     "art": "4 y 5",
+     "motivo": "Norma secundaria de calidad aplicable solo en la lago Villarrica; su superación configura efecto adverso (art. 6 letra d del DS 40/2012)."
+    }
+   ],
+   "pas": [
+    {
+     "art": 156,
+     "fuerza": "segun_caso",
+     "motivo": "Modificación de cauce natural o artificial."
+    },
+    {
+     "art": 157,
+     "fuerza": "segun_caso",
+     "motivo": "Obras de regularización o defensa de cauces naturales; requiere además aprobación de la DOH."
+    },
+    {
+     "art": 155,
+     "fuerza": "segun_caso",
+     "motivo": "Obras hidráulicas mayores (embalses, acueductos, sifones) del art. 294 del Código de Aguas."
+    },
+    {
+     "art": 159,
+     "fuerza": "segun_caso",
+     "motivo": "Extracción de ripio y arena en cauces de ríos y esteros."
+    },
+    {
+     "art": 158,
+     "fuerza": "segun_caso",
+     "motivo": "Obras de recarga artificial de acuíferos."
+    },
+    {
+     "art": 130,
+     "fuerza": "segun_caso",
+     "motivo": "Nuevas explotaciones o mayores extracciones en acuíferos que alimentan vegas y bofedales del extremo norte."
+    },
+    {
+     "art": 154,
+     "fuerza": "segun_caso",
+     "motivo": "Exploraciones en zonas que alimentan vegas o bofedales de esas regiones."
+    },
+    {
+     "art": 125,
+     "fuerza": "segun_caso",
+     "motivo": "Labores mineras donde se han alumbrado aguas subterráneas o que puedan afectar caudal o calidad del agua."
+    }
+   ],
+   "organismos": [
+    "DGA",
+    "DOH / MOP",
+    "Municipalidad (áridos)",
+    "SEREMI de Salud",
+    "SMA",
+    "SEA",
+    "MMA",
+    "SISS",
+    "CONADI (aguas indígenas)"
+   ],
+   "notas": [
+    "Los PAS 155, 156 y 157 siguen en el reglamento, pero los arts. 171 y 294 del Código de Aguas que los fundan fueron reemplazados por la Ley 21.770."
+   ]
+  },
+  {
+   "id": "patrimonio",
+   "nombre": "Sitios arqueológicos, paleontológicos o monumentos nacionales",
+   "descripcion": "El área del proyecto contiene o colinda con monumentos históricos, zonas típicas, o sitios y hallazgos arqueológicos o paleontológicos.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10",
+     "texto": "El patrimonio cultural no es causal de ingreso para monumentos históricos, zonas típicas ni sitios arqueológicos; el proyecto ingresa por su tipología."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra f)",
+     "texto": "Puede exigir EIA la alteración de monumentos y de sitios con valor antropológico, arqueológico o histórico y, en general, del patrimonio cultural."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "10",
+     "texto": "Se considera la magnitud en que se remueva, excave, traslade, deteriore o modifique de forma permanente un Monumento Nacional de la Ley 17.288; el deterioro de construcciones o sitios patrimoniales, incluido el patrimonio indígena; y la afectación de lugares de manifestaciones culturales habituales."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "9",
+     "texto": "El valor turístico de una zona puede derivar de su valor patrimonial, lo que abre otra causal de EIA."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "85",
+     "texto": "Si la alteración del art. 10 afecta directamente a grupos indígenas, procede consulta."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "11 f)",
+     "motivo": "Causal de EIA por alteración del patrimonio cultural."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "10",
+     "motivo": "Criterios para calificar la alteración de monumentos y sitios patrimoniales."
+    },
+    {
+     "id": "ley-17288",
+     "fuerza": "siempre",
+     "art": "21, 22, 26 y 38",
+     "motivo": "Los sitios arqueológicos y paleontológicos son monumentos por el solo ministerio de la ley; excavar exige autorización del Consejo, los hallazgos deben avisarse de inmediato y el daño es delito."
+    },
+    {
+     "id": "ley-17288",
+     "fuerza": "segun_caso",
+     "art": "11, 12, 30 y 26 bis",
+     "motivo": "Autorización previa para intervenir monumentos históricos, sus alrededores y zonas típicas; las intervenciones menores quedarán exentas según un reglamento aún pendiente."
+    },
+    {
+     "id": "ds-484-1990-mineduc",
+     "fuerza": "siempre",
+     "art": "5, 20 y 23",
+     "motivo": "Prospecciones y excavaciones requieren autorización del Consejo; regula salvataje y denuncia de hallazgos fortuitos."
+    },
+    {
+     "id": "ley-21850",
+     "fuerza": "segun_caso",
+     "art": "16 y noveno transitorio",
+     "motivo": "Modificó el régimen de excavaciones y hallazgos de la Ley 17.288 con vigencia desde el 1 de noviembre de 2026."
+    },
+    {
+     "id": "ley-19253",
+     "fuerza": "segun_caso",
+     "art": "29 letra c)",
+     "motivo": "La excavación de cementerios históricos indígenas requiere informe de CONADI y consentimiento de la comunidad."
+    },
+    {
+     "id": "ley-18248",
+     "fuerza": "segun_caso",
+     "art": "17 N° 6",
+     "motivo": "Labores mineras en lugares declarados de interés histórico o científico para efectos mineros requieren permiso del Presidente de la República."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "segun_caso",
+     "art": "60 bis",
+     "motivo": "En inmuebles o zonas de conservación histórica del plan regulador no se puede demoler ni refaccionar sin autorización de la SEREMI."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "segun_caso",
+     "art": "108 letra m)",
+     "motivo": "Dentro de áreas protegidas se prohíbe alterar o extraer piezas con significación histórica o arqueológica."
+    }
+   ],
+   "pas": [
+    {
+     "art": 132,
+     "fuerza": "segun_caso",
+     "motivo": "Excavaciones arqueológicas, antropológicas o paleontológicas, incluidas las de caracterización y rescate."
+    },
+    {
+     "art": 131,
+     "fuerza": "segun_caso",
+     "motivo": "Trabajos en monumentos históricos o remoción de objetos que les pertenezcan."
+    },
+    {
+     "art": 133,
+     "fuerza": "segun_caso",
+     "motivo": "Construcciones nuevas u obras en zona típica o pintoresca."
+    },
+    {
+     "art": 122,
+     "fuerza": "segun_caso",
+     "motivo": "Labores mineras en covaderas o en lugares de interés histórico o científico."
+    }
+   ],
+   "organismos": [
+    "Consejo de Monumentos Nacionales y su Secretaría Técnica",
+    "Ministerio de las Culturas, las Artes y el Patrimonio",
+    "SEA",
+    "CONADI",
+    "SEREMI MINVU (zonas de conservación histórica)",
+    "Presidente de la República (PAS 122)"
+   ],
+   "notas": [
+    "La Convención del Patrimonio Mundial está en el catálogo, pero no se identificó una norma chilena del visor que la ejecute respecto de proyectos de inversión; no se incluye.",
+    "Los santuarios de la naturaleza, aunque regulados en la Ley 17.288, se tratan en la condición area-protegida."
+   ]
+  },
+  {
+   "id": "suelo-rural",
+   "nombre": "Emplazamiento en suelo rural fuera del límite urbano",
+   "descripcion": "El proyecto subdivide, urbaniza o construye fuera de los límites urbanos fijados por los planes reguladores.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10 letra g)",
+     "texto": "El suelo rural no es causal autónoma de ingreso; ingresan los proyectos de desarrollo urbano o turístico en zonas no cubiertas por planes evaluados estratégicamente."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra g.1)",
+     "texto": "Umbrales de desarrollo urbano: 80 viviendas (160 si son sociales), equipamientos de 5.000 m2 construidos, 20.000 m2 de predio, 800 personas o 200 estacionamientos, y loteos industriales desde 30.000 m2."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra h.1.1)",
+     "texto": "En zona latente o saturada, el proyecto inmobiliario en área rural que requiera sistemas propios de agua potable o alcantarillado debe ingresar."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "8 inciso tercero y 9 ter",
+     "texto": "En toda evaluación se exige informe de compatibilidad territorial del gobierno regional y del municipio, y el titular debe describir la relación del proyecto con los planes regionales y comunales."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra b)",
+     "texto": "Puede exigir EIA el efecto adverso significativo sobre el suelo."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letra a)",
+     "texto": "Se evalúa la pérdida de suelo o de su capacidad para sustentar biodiversidad por degradación, erosión, impermeabilización o compactación."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "El territorio con nula o baja intervención antrópica que provee servicios ecosistémicos locales tiene valor ambiental y puede fundar un EIA."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "8 y 9 ter; 10 g); 11 b); 39",
+     "motivo": "Compatibilidad territorial, causal de desarrollo urbano o turístico y protección del suelo."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 g) y h.1.1); 6 a); 8",
+     "motivo": "Umbrales de desarrollo urbano y criterios sobre suelo y valor ambiental del territorio."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "siempre",
+     "art": "55 y 116",
+     "motivo": "Fuera del límite urbano las construcciones industriales, de infraestructura, equipamiento, turismo y poblaciones requieren informe favorable de la SEREMI MINVU y del servicio agrícola antes del permiso municipal."
+    },
+    {
+     "id": "dfl-458-1975",
+     "fuerza": "segun_caso",
+     "art": "56",
+     "motivo": "Prohíbe construir en la franja de 35 m a cada lado de caminos públicos nacionales en área rural."
+    },
+    {
+     "id": "ds-47-1992-minvu",
+     "fuerza": "siempre",
+     "art": "2.1.19 y 3.1.7",
+     "motivo": "Reglas y procedimiento para subdivisiones, urbanizaciones y edificaciones del art. 55 de la LGUC."
+    },
+    {
+     "id": "ley-18755",
+     "fuerza": "siempre",
+     "art": "46",
+     "motivo": "El cambio de uso de suelo rural requiere informe previo, fundado y público del SAG, emitido en 30 días."
+    },
+    {
+     "id": "dl-3516-1980",
+     "fuerza": "segun_caso",
+     "art": "1, 2 y 3",
+     "motivo": "Si se subdivide el predio: lotes mínimos de 0,5 ha y prohibición de destino urbano o habitacional, con nulidad y multa."
+    },
+    {
+     "id": "ds-47-1992-minvu",
+     "fuerza": "segun_caso",
+     "art": "2.1.29",
+     "motivo": "Define el uso de suelo infraestructura y su emplazamiento."
+    },
+    {
+     "id": "ley-21074",
+     "fuerza": "segun_caso",
+     "art": "1",
+     "motivo": "El plan regional de ordenamiento territorial orienta el uso del territorio rural donde esté aprobado."
+    },
+    {
+     "id": "dl-3557-1980",
+     "fuerza": "segun_caso",
+     "art": "11",
+     "motivo": "Establecimientos industriales, fabriles y mineros deben impedir la contaminación de la agricultura."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "segun_caso",
+     "art": "9",
+     "motivo": "En zonas rurales el límite de ruido es el menor entre ruido de fondo más 10 dB(A) y el nivel de la Zona III."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "21",
+     "motivo": "Si el cambio de uso de suelo rural implica corta de bosque nativo, el plan de manejo debe incluir reforestación."
+    }
+   ],
+   "pas": [
+    {
+     "art": 160,
+     "fuerza": "siempre",
+     "motivo": "Subdividir y urbanizar terrenos rurales o construir fuera de los límites urbanos (art. 55 de la LGUC)."
+    },
+    {
+     "art": 161,
+     "fuerza": "segun_caso",
+     "motivo": "Solo si el proyecto es una instalación industrial o de bodegaje que requiere calificación de la SEREMI de Salud."
+    }
+   ],
+   "organismos": [
+    "SEREMI MINVU",
+    "SEREMI de Agricultura",
+    "SAG",
+    "Gobierno Regional",
+    "Municipalidad / Dirección de Obras Municipales",
+    "SEA",
+    "SEREMI de Salud (calificación industrial)"
+   ],
+   "notas": [
+    "Según la nota del PAS 160, el SEA actualizó su guía en 2023 por el traspaso de competencias del art. 55 a los gobiernos regionales; la resolución respectiva no está en el catálogo."
+   ]
+  },
+  {
+   "id": "glaciares-turberas-fauna",
+   "nombre": "Turberas, fauna protegida o caza y captura",
+   "descripcion": "El proyecto interviene turberas o glaciares, o requiere capturar, relocalizar o controlar fauna silvestre protegida.",
+   "efecto_seia": [
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letra a.2.3)",
+     "texto": "El drenaje o desecación de turberas obliga a ingresar sin umbral de superficie."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "10 letra s)",
+     "texto": "Extraer la cubierta vegetal de turberas en humedales situados total o parcialmente dentro del límite urbano es causal de ingreso."
+    },
+    {
+     "norma": "ley-21660",
+     "art": "3 y 7",
+     "texto": "La extracción de turba ya no es una tipología evaluable: está prohibida en todo el país y fue retirada de la letra i) del art. 10 de la Ley 19.300."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "3 letras a) y a.5)",
+     "texto": "Las obras o actividades que alteren las características de un glaciar incorporado al inventario público de la DGA deben ingresar."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra d)",
+     "texto": "Puede exigir EIA la localización en o próxima a glaciares y a recursos protegidos susceptibles de ser afectados."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra b)",
+     "texto": "También el efecto adverso significativo sobre recursos naturales renovables, donde se pondera la fauna."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letras b), e), g.4), g.5) y h)",
+     "texto": "Se evalúa la fauna en categoría de conservación, el ruido sobre hábitats de nidificación, reproducción o alimentación, la variación de niveles de agua en turberas, la superficie o volumen de glaciar modificable y la introducción de especies exóticas."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "Los glaciares y los recursos protegidos por acto de autoridad dentro del área de influencia configuran la causal de localización."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "10 a) y s); 11 b) y d); 37 y 41",
+     "motivo": "Causales de ingreso y de EIA por turberas, glaciares y especies clasificadas."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "3 a.2.3) y a.5); 6 b), e), g) y h); 8",
+     "motivo": "Umbrales y criterios sobre turberas, glaciares y fauna."
+    },
+    {
+     "id": "ley-21660",
+     "fuerza": "segun_caso",
+     "art": "2, 3, 4 y 6",
+     "motivo": "Si hay turbera: prohibición de extraer turba, plan de manejo aprobado por el SAG con informe del SBAP para cosechar musgo y fiscalización del SBAP."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "47",
+     "motivo": "Prohíbe sistemas de drenaje en turberas inventariadas de Chiloé, Aysén y Magallanes."
+    },
+    {
+     "id": "dfl-1122-1981",
+     "fuerza": "segun_caso",
+     "art": "5",
+     "motivo": "No pueden constituirse derechos de aprovechamiento de aguas en glaciares."
+    },
+    {
+     "id": "ley-20283",
+     "fuerza": "segun_caso",
+     "art": "17",
+     "motivo": "Prohíbe intervenir árboles y arbustos nativos a menos de 500 m de glaciares."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "segun_caso",
+     "art": "41; 42 a 45; 108 letras b) y c)",
+     "motivo": "Extraer cubierta vegetal de turberas es alteración física de humedal sujeta a permiso o prohibición; planes de especies y prohibiciones sobre fauna en áreas protegidas."
+    },
+    {
+     "id": "ley-19473",
+     "fuerza": "segun_caso",
+     "art": "3, 5, 7, 9 y 25",
+     "motivo": "Si hay fauna protegida: prohibición de caza y captura, de destruir nidos y madrigueras, áreas vedadas y autorización del SAG para captura o introducción de especies."
+    },
+    {
+     "id": "ds-5-1998-minagri",
+     "fuerza": "segun_caso",
+     "art": "4 y 16",
+     "motivo": "Nómina de especies de caza prohibida y permiso del SAG para captura con fines de investigación, incluida la relocalización."
+    },
+    {
+     "id": "ds-29-2011-mma",
+     "fuerza": "segun_caso",
+     "art": "5",
+     "motivo": "Categorías de conservación que definen qué fauna está protegida."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "3 letra k)",
+     "motivo": "Las zonas de reproducción de especies amenazadas por la luminosidad artificial pueden ser áreas de protección especial con límites lumínicos más estrictos."
+    }
+   ],
+   "pas": [
+    {
+     "art": 146,
+     "fuerza": "segun_caso",
+     "motivo": "Captura de fauna protegida para investigación, rescate y relocalización; es el permiso habitual en planes de rescate."
+    },
+    {
+     "art": 124,
+     "fuerza": "segun_caso",
+     "motivo": "Caza o captura de especies protegidas para controlar animales que causen graves perjuicios al ecosistema."
+    },
+    {
+     "art": 147,
+     "fuerza": "segun_caso",
+     "motivo": "Recolección de huevos y crías con fines científicos o de reproducción."
+    },
+    {
+     "art": 123,
+     "fuerza": "segun_caso",
+     "motivo": "Introducción de fauna silvestre o material reproductivo en áreas donde no tiene presencia."
+    }
+   ],
+   "organismos": [
+    "SAG",
+    "SBAP",
+    "MMA",
+    "DGA (glaciares y drenaje)",
+    "CONAF / SERNAFOR",
+    "SEA",
+    "SMA"
+   ],
+   "notas": [
+    "El plan de manejo de musgo Sphagnum (art. 4 de la Ley 21.660) no es un PAS del DS 40/2012.",
+    "El catálogo no contiene una ley específica de glaciares; su protección proviene de la Ley 19.300, el DS 40/2012, el Código de Aguas y la Ley 20.283.",
+    "CITES, su ley de implementación y la Convención sobre Especies Migratorias están en el catálogo, pero regulan comercio internacional o carecen de norma chilena ejecutora leída para esta condición; no se incluyen."
+   ]
+  },
+  {
+   "id": "cielos-ruido",
+   "nombre": "Áreas con protección de cielos nocturnos o receptores sensibles de ruido y olores",
+   "descripcion": "El proyecto se ubica en un área con valor para la observación astronómica u otra de protección lumínica, o tiene receptores de ruido u olores en su entorno.",
+   "efecto_seia": [
+    {
+     "norma": "ley-19300",
+     "art": "10",
+     "texto": "Ni la protección de cielos ni la presencia de receptores obligan a ingresar; el proyecto ingresa por su tipología."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra d)",
+     "texto": "Puede exigir EIA la localización en o próxima a áreas con valor para la observación astronómica con fines de investigación científica susceptibles de ser afectadas."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "8",
+     "texto": "El reglamento vigente no menciona las áreas astronómicas entre los supuestos de localización; esa causal se aplica directamente desde la ley."
+    },
+    {
+     "norma": "ley-19300",
+     "art": "11 letra a)",
+     "texto": "Puede exigir EIA el riesgo para la salud de la población por la cantidad y calidad de las emisiones."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "5 letra b)",
+     "texto": "Hay riesgo para la salud cuando se superan los valores de ruido de la normativa ambiental vigente respecto de población en el área de influencia; a falta de norma se usan las de Estados de referencia."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "6 letra e)",
+     "texto": "También se evalúa la diferencia entre el ruido con proyecto y el ruido de fondo donde se concentra fauna nativa en hábitats de nidificación, reproducción o alimentación."
+    },
+    {
+     "norma": "ds-40-2012-mma",
+     "art": "7 letra c) y 9",
+     "texto": "Los olores no tienen criterio propio en los arts. 5 a 10; se evalúan a través del riesgo para la salud, la calidad de vida de grupos humanos y las normas de emisión sectoriales."
+    }
+   ],
+   "normas": [
+    {
+     "id": "ley-19300",
+     "fuerza": "siempre",
+     "art": "11 a) y d); 2 letra d)",
+     "motivo": "La luminosidad artificial es contaminante y las áreas de observación astronómica son causal de EIA."
+    },
+    {
+     "id": "ds-40-2012-mma",
+     "fuerza": "siempre",
+     "art": "5 b); 6 e)",
+     "motivo": "Criterios de ruido sobre población y sobre fauna."
+    },
+    {
+     "id": "ley-21162",
+     "fuerza": "segun_caso",
+     "art": "1",
+     "motivo": "Incorporó la luminosidad artificial como contaminante y la causal astronómica del art. 11 letra d)."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "siempre",
+     "art": "2, 5, 8, 11 y 12",
+     "motivo": "Rige en todo el país para el alumbrado de exteriores: límites por tipo de alumbrado y luminarias certificadas."
+    },
+    {
+     "id": "ds-1-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "3 letras j) y k); 6",
+     "motivo": "En áreas astronómicas y demás áreas de protección especial los límites son más estrictos (luminancia reflejada de 5 cd/m2 y temperatura de color máxima de 2.200 K)."
+    },
+    {
+     "id": "ds-38-2011-mma",
+     "fuerza": "siempre",
+     "art": "7, 9 y 10",
+     "motivo": "Norma de ruido aplicable hoy: el límite es el de la zona donde está el receptor, con regla especial rural. Será derogada cuando entre en vigor el DS 14/2024."
+    },
+    {
+     "id": "ds-14-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "6, 11, 13, 17 y 31",
+     "motivo": "Nueva norma de ruido con vigencia diferida: rige desde el 27-08-2028 y desde el 27-08-2027 para proyectos que ingresen al SEIA a partir del 27-02-2026."
+    },
+    {
+     "id": "ds-9-2022-mma",
+     "fuerza": "segun_caso",
+     "art": "4, 5 y 7",
+     "motivo": "Solo planteles porcinos: límites de olor y coexistencia con los fijados en una RCA."
+    },
+    {
+     "id": "ds-23-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "4 a 8",
+     "motivo": "Solo plantas de harina y aceite de pescado y de alimento para peces: límites de olor o acreditación de impacto máximo en receptores."
+    },
+    {
+     "id": "ds-50-2024-mma",
+     "fuerza": "segun_caso",
+     "art": "5, 9 y 10",
+     "motivo": "Solo celulosa kraft: límites de TRS y aviso de venteos a la SMA y a los municipios afectados."
+    },
+    {
+     "id": "ds-144-1961-minsal",
+     "fuerza": "segun_caso",
+     "art": "1",
+     "motivo": "Deber sanitario general de captar o eliminar emanaciones para que no causen daños o molestias al vecindario."
+    },
+    {
+     "id": "ley-21600",
+     "fuerza": "segun_caso",
+     "art": "108 letra h)",
+     "motivo": "Dentro de áreas protegidas se prohíbe provocar contaminación acústica, lumínica o atmosférica."
+    }
+   ],
+   "pas": [],
+   "organismos": [
+    "SMA",
+    "MMA",
+    "SEC (certificación de luminarias)",
+    "SEREMI de Salud",
+    "Municipalidad / Dirección de Obras Municipales (zonificación del receptor)",
+    "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación (áreas astronómicas)",
+    "SEA"
+   ],
+   "notas": [
+    "Ningún permiso de los arts. 111 a 161 del DS 40/2012 se activa por esta condición.",
+    "El catálogo solo contiene normas de olor sectoriales (porcinos, sector pesquero, celulosa); no hay una norma general de olores.",
+    "Las áreas astronómicas se crean conforme al art. 4 letra r) de la Ley 21.105, que no está en el catálogo."
+   ]
+  }
+ ],
+ "planes_por_zona": [
+  {
+   "id": "ds-31-2016-mma",
+   "territorio": "Región Metropolitana de Santiago",
+   "tipo": "PPDA",
+   "contaminantes": "MP10, MP2,5, ozono y CO",
+   "art_compensacion": "64"
+  },
+  {
+   "id": "ds-105-2018-mma",
+   "territorio": "Concón, Quintero y Puchuncaví (Región de Valparaíso)",
+   "tipo": "PPDA",
+   "contaminantes": "material particulado",
+   "art_compensacion": "42"
+  },
+  {
+   "id": "ds-18-2023-mma",
+   "territorio": "Provincia de Quillota y comunas de Catemu, Panquehue y Llaillay (Región de Valparaíso)",
+   "tipo": "PPDA",
+   "contaminantes": "MP10 y SO2",
+   "art_compensacion": "67"
+  },
+  {
+   "id": "ds-1-2021-mma",
+   "territorio": "Valle Central de la Región de O'Higgins",
+   "tipo": "PDA",
+   "contaminantes": "MP2,5 y MP10",
+   "art_compensacion": "40"
+  },
+  {
+   "id": "ds-44-2017-mma",
+   "territorio": "Valle Central de la Provincia de Curicó (Región del Maule)",
+   "tipo": "PDA",
+   "contaminantes": "material particulado",
+   "art_compensacion": "28"
+  },
+  {
+   "id": "ds-49-2015-mma",
+   "territorio": "Talca y Maule (Región del Maule)",
+   "tipo": "PDA",
+   "contaminantes": "MP10",
+   "art_compensacion": "47"
+  },
+  {
+   "id": "ds-48-2015-mma",
+   "territorio": "Chillán y Chillán Viejo (Región de Ñuble)",
+   "tipo": "PPDA",
+   "contaminantes": "MP10 y MP2,5",
+   "art_compensacion": "54"
+  },
+  {
+   "id": "ds-6-2018-mma",
+   "territorio": "Comunas del Concepción Metropolitano (Región del Biobío)",
+   "tipo": "PPDA",
+   "contaminantes": "MP2,5 y MP10",
+   "art_compensacion": "53"
+  },
+  {
+   "id": "ds-4-2017-mma",
+   "territorio": "Los Ángeles (Región del Biobío)",
+   "tipo": "PDA",
+   "contaminantes": "MP10 y MP2,5",
+   "art_compensacion": "48"
+  },
+  {
+   "id": "ds-8-2023-mma",
+   "territorio": "Temuco y Padre Las Casas (Región de La Araucanía)",
+   "tipo": "PDA",
+   "contaminantes": "MP2,5 y MP10",
+   "art_compensacion": "52-53"
+  },
+  {
+   "id": "ds-12-2025-mma",
+   "territorio": "Cuenca del lago Villarrica (Región de La Araucanía)",
+   "tipo": "PDA de aguas",
+   "contaminantes": "fósforo (norma secundaria del lago)",
+   "art_compensacion": "39 y 41"
+  },
+  {
+   "id": "ds-25-2016-mma",
+   "territorio": "Valdivia (Región de Los Ríos)",
+   "tipo": "PDA",
+   "contaminantes": "material particulado",
+   "art_compensacion": "53"
+  },
+  {
+   "id": "ds-47-2015-mma",
+   "territorio": "Osorno (Región de Los Lagos)",
+   "tipo": "PDA",
+   "contaminantes": "MP10 y MP2,5",
+   "art_compensacion": "56"
+  },
+  {
+   "id": "ds-7-2018-mma",
+   "territorio": "Coyhaique y su zona circundante (Región de Aysén)",
+   "tipo": "PDA",
+   "contaminantes": "MP10 y MP2,5",
+   "art_compensacion": "31"
+  },
+  {
+   "id": "ds-70-2010-minsegpres",
+   "territorio": "Tocopilla y su zona circundante (Región de Antofagasta)",
+   "tipo": "PDA",
+   "contaminantes": "material particulado",
+   "art_compensacion": "18-19"
+  },
+  {
+   "id": "ds-38-2016-mma",
+   "territorio": "Huasco y su zona circundante (Región de Atacama)",
+   "tipo": "Plan de prevención",
+   "contaminantes": "material particulado",
+   "art_compensacion": "12"
+  },
+  {
+   "id": "ds-59-2014-mma",
+   "territorio": "Andacollo y sectores aledaños (Región de Coquimbo)",
+   "tipo": "PDA",
+   "contaminantes": "material particulado",
+   "art_compensacion": "9"
+  }
+ ],
+ "fuera_del_visor": [
+  {
+   "norma": "Decretos supremos que declaran cada zona saturada o latente (art. 43 de la Ley 19.300)",
+   "condicion": "zona-saturada",
+   "motivo": "Delimitan el territorio y son el presupuesto del art. 10 letra h); el catálogo solo contiene los planes."
+  },
+  {
+   "norma": "Ley 21.105, que crea el Ministerio de Ciencia (art. 4 letra r)",
+   "condicion": "cielos-ruido",
+   "motivo": "Base de las áreas con valor científico para la observación astronómica, citada por el art. 3 letra j) del DS 1/2022 MMA."
+  },
+  {
+   "norma": "DS 96/2015 del Ministerio de Economía (acuicultura en áreas de manejo)",
+   "condicion": "borde-costero",
+   "motivo": "Según pas.json reemplazó al DS 314/2004, norma fundante del PAS 118."
+  },
+  {
+   "norma": "Reglamento de sitios prioritarios (art. 29 de la Ley 21.600) y decreto que los determina",
+   "condicion": "area-protegida",
+   "motivo": "Previsto en la ley; no consta en el catálogo y su plazo fue extendido por la Ley 21.850."
+  },
+  {
+   "norma": "Reglamento de permisos en áreas protegidas (art. 94 de la Ley 21.600)",
+   "condicion": "area-protegida",
+   "motivo": "Previsto en la ley; no consta en el catálogo."
+  },
+  {
+   "norma": "Ordenanzas municipales de protección de humedales (art. 2 de la Ley 21.202)",
+   "condicion": "humedal",
+   "motivo": "Norma local exigible en comunas con humedales urbanos; fuera del alcance del catálogo."
+  },
+  {
+   "norma": "Inventario público de glaciares de la DGA e Inventario Nacional de Humedales del MMA",
+   "condicion": "glaciares-turberas-fauna",
+   "motivo": "Registros de los que dependen el art. 3 letra a) del DS 40/2012, el art. 47 del Código de Aguas y el art. 41 de la Ley 21.600."
+  },
+  {
+   "norma": "Res. Ex. 202399101279/2023 del SEA (actualización de la guía del PAS 160)",
+   "condicion": "suelo-rural",
+   "motivo": "Mencionada en pas.json por el traspaso de competencias del art. 55 de la LGUC a los gobiernos regionales."
+  },
+  {
+   "norma": "DL 1.939 de 1977 (bienes nacionales protegidos)",
+   "condicion": "area-protegida",
+   "motivo": "La Ley 21.600 lo modifica y reconoce los bienes nacionales protegidos dentro del Sistema; no está en el catálogo."
+  },
+  {
+   "norma": "Reglamento de intervenciones menores (art. 26 bis de la Ley 17.288)",
+   "condicion": "patrimonio",
+   "motivo": "Debe dictarlo el Ministerio de las Culturas dentro de seis meses según la Ley 21.850; aún no consta."
+  }
+ ]
+}

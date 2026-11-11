@@ -1,0 +1,55 @@
+{
+ "cambios": [
+  {
+   "id": "ds-40-2012-mma",
+   "art": "86",
+   "campo": "resumen",
+   "valor": "En Estudios que declaran no generar los efectos de los arts. 7, 8 o 10, y en toda Declaración, si el proyecto se emplaza en tierras o áreas de desarrollo indígena o en las cercanías de grupos indígenas, el SEA se reúne con ellos para recoger y analizar sus opiniones: por hasta treinta días desde la admisibilidad en los Estudios y por hasta veinte en las Declaraciones. Las actas pueden fundar el término anticipado (arts. 36 y 48) o la RCA.",
+   "motivo": "Precisión (no error de fondo): la condición de 'descartar esos efectos' solo figura en el inciso 1° (Estudios); el inciso 2° (Declaraciones) no la exige. Plazos de 30 y 20 días verificados."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "70",
+   "campo": "resumen",
+   "valor": "Cuando la empresa de menor tamaño con compromiso de certificación de conformidad se ubica fuera de un área regulada por instrumentos de planificación territorial y no genera cargas ambientales, se abre participación ciudadana con una audiencia especial, a la que se cita al menos a tres organizaciones ciudadanas con personalidad jurídica vigente domiciliadas en las comunas de emplazamiento y que debe realizarse dentro de diez días desde la resolución que decreta ese período. Luego se registra la Declaración, incluyendo los compromisos asumidos con la comunidad.",
+   "motivo": "Precisión (no error de fondo): los diez días son el plazo para realizar la audiencia, contado desde la resolución que decreta la participación; la redacción auditada permitía leerlos como plazo de citación."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "2",
+   "campo": "obliga_titular",
+   "valor": false,
+   "motivo": "Coherencia (no error de fondo): es un artículo de definiciones y no impone por sí mismo una carga al titular; las definiciones equivalentes de la Ley 20.283 (art. 2) y del DL 701 (art. 2) están marcadas false."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "72",
+   "campo": "obliga_titular",
+   "valor": false,
+   "motivo": "Coherencia (no error de fondo): la norma se dirige a las Direcciones de Obras Municipales (no otorgar recepción definitiva sin RCA favorable); no establece una conducta del titular. Mantener true solo si el criterio del visor es 'afecta al titular'."
+  },
+  {
+   "id": "ds-40-2012-mma",
+   "art": "81",
+   "campo": "obliga_titular",
+   "valor": false,
+   "motivo": "Coherencia (no error de fondo): regula cómo y en qué plazo la autoridad resuelve la reclamación y la vía ante el Tribunal Ambiental; no impone obligación al titular (el art. 78, análogo, está en false)."
+  },
+  {
+   "id": "ley-20283",
+   "art": "40",
+   "campo": "obliga_titular",
+   "valor": false,
+   "motivo": "Coherencia (no error de fondo): el destinatario es el acreditador forestal (sanción penal por certificar hechos falsos), no el interesado o titular del plan de manejo."
+  },
+  {
+   "id": "ley-20283",
+   "art": "41",
+   "campo": "obliga_titular",
+   "valor": false,
+   "motivo": "Coherencia (no error de fondo): sanciones administrativas a acreditadores forestales; no impone obligación al interesado o titular."
+  }
+ ],
+ "art_eliminar": [],
+ "art_agregar": []
+}

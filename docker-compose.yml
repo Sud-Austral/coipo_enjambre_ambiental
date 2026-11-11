@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - "127.0.0.1:${APP_PORT:?APP_PORT debe definirse en .env}:8080"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/health"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+    mem_limit: 64m
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"

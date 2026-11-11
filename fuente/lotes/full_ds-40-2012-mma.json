@@ -1,0 +1,1608 @@
+{
+ "id": "ds-40-2012-mma",
+ "articulos": [
+  {
+   "num": "primero",
+   "epigrafe": "Aprobación del Reglamento (decreto aprobatorio)",
+   "resumen": "Artículo primero del decreto: aprueba el Reglamento del Sistema de Evaluación de Impacto Ambiental, cuyo articulado (arts. 1 a 170) se inserta a continuación.",
+   "obliga_titular": false,
+   "titulo": "Decreto aprobatorio (fuera del articulado del Reglamento)",
+   "derogado": false
+  },
+  {
+   "num": "1",
+   "epigrafe": "Ámbito de aplicación",
+   "resumen": "Delimita el objeto del Reglamento: las reglas del SEIA y de la participación de la comunidad en la evaluación, en conformidad con la Ley 19.300.",
+   "obliga_titular": false,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "2",
+   "epigrafe": "Definiciones",
+   "resumen": "Fija el vocabulario del sistema: área de influencia, Comisión de Evaluación, ejecución, emisión, impacto ambiental, modificación de proyecto, monitoreo participativo (g bis), observación ciudadana (g ter), pueblos indígenas, Servicio y Superintendencia. La letra g) considera que hay cambio de consideración cuando lo nuevo calza por sí solo en una tipología del art. 3, salvo aquellas por las que el proyecto ya fue calificado (g.1); cuando la suma de lo no calificado alcanza una tipología (g.2); cuando cambian sustantivamente extensión, magnitud o duración de los impactos (g.3); o cuando se alteran sustantivamente las medidas frente a impactos significativos (g.4). Para ello se suman los cambios sucesivos desde la vigencia del SEIA.",
+   "obliga_titular": true,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "3",
+   "epigrafe": "Tipos de proyectos o actividades",
+   "resumen": "Obras hidráulicas y energía (a-d): acueductos, embalses y sifones sujetos al art. 294 del Código de Aguas; presas con muro sobre 5 m o embalse sobre 50.000 m³; drenaje de turberas y de vegas y bofedales entre Arica y Antofagasta sin umbral, de ñadis desde 200 ha y de otros cuerpos de agua desde 10, 20 o 30 ha según macrozona; dragados desde 20.000 o 50.000 m³; defensas o alteraciones de cauce desde 50.000 o 100.000 m³; toda alteración de glaciares; líneas de más de 23 kV con trazado superior a 2 km y sus subestaciones; centrales de más de 3 MW; reactores y establecimientos nucleares. Transporte, puertos y desarrollo urbano (e-h): aeropuertos, terminales de buses o camiones con 50 o más sitios, terminales y vías ferroviarias, estaciones de servicio con 850.000 L o más de almacenamiento, autopistas y caminos públicos que puedan afectar áreas protegidas; puertos, vías de navegación, astilleros y terminales marítimos; fuera de planes evaluados estratégicamente, conjuntos de 80 o más viviendas (160 si son sociales), equipamiento desde 5.000 m² construidos, 20.000 m² de predio, 800 personas o 200 estacionamientos, loteos industriales desde 30.000 m² y proyectos turísticos desde 5.000 m² construidos, 15.000 m² de predio, 300 personas o 100 camas; en zonas latentes o saturadas, inmobiliarios desde 7 ha o 300 viviendas e industriales desde 20 ha o que aporten 5% o más de la emisión diaria del contaminante. Minería, ductos e industria (i-k): extracción o beneficio sobre 5.000 t/mes (con excepción acotada para reprocesamiento de relaves y valorización de residuos masivos con RCA vigente); prospecciones con 40 o más plataformas entre Arica y Coquimbo o 20 o más desde Valparaíso al sur; disposición de residuos masivos mineros; petróleo y gas después del primer pozo exploratorio; áridos o greda desde 10.000 m³/mes, 100.000 m³ totales o 5 ha en pozos y canteras, 20.000 o 50.000 m³ en cauces y 50.000 m³ de arena de playa; oleoductos, gasoductos, ductos mineros y análogos; fábricas con 2.000 kVA o más de potencia instalada y curtiembres desde 30 m²/día. Agro, forestal y acuícola (l-n): agroindustrias con 8 t/día o más de residuos sólidos, mataderos desde 500 t/mes, planteles desde 300 unidades animal de bovino de carne, 200 de leche, 750 cerdos mayores de 25 kg, 85.000 pollos o 60.000 gallinas; cosecha final en suelos frágiles o tala rasa en bosque nativo sobre 20, 200, 500 o 1.000 ha/año según región; astilladoras, aserraderos y elaboradoras de madera desde 30 m³ ssc/h y toda industria de celulosa, pasta de papel y papel; acuicultura con umbrales por grupo (1.000 t/año en macroalgas y filtradores, 35 t en cultivo intensivo, 8 t en peces) y plantas procesadoras desde 500 t/mes. Sustancias peligrosas y saneamiento (ñ-o): manejo habitual de sustancias tóxicas (10.000 kg/día o 2.500 t almacenadas), explosivas (2.500 kg/día o 30 t), inflamables (80.000 kg/día o 1.000 t), corrosivas o reactivas (120.000 kg/día o 2.500 t) y su transporte terrestre desde 2.500 t/día; alcantarillado para 10.000 habitantes o más, agua potable para 15.000, plantas de aguas servidas para 5.000, eliminación de residuos domiciliarios o industriales desde 30 t/día, tratamiento desde 50 t/día, estaciones de transferencia desde 100 t/día, emisarios submarinos, riles desde 160 m³/día (50 m³/día si se usan en riego o humectación), residuos peligrosos desde 1 t/día en eliminación (25 kg/día los tóxicos agudos) y 5 t/día en tratamiento, residuos de establecimientos de salud desde 500 kg/día y recuperación de áreas contaminadas de 10.000 m² o más. Otras (p-t): obras, programas o actividades en áreas bajo protección oficial; aplicación aérea masiva de químicos sobre 1.000 ha o más a menos de 5 km de centros poblados o aguas; organismos genéticamente modificados con fines productivos en áreas no confinadas; cotos de caza; y concesiones para construir y explotar el subsuelo de bienes nacionales de uso público.",
+   "obliga_titular": true,
+   "titulo": "Título I",
+   "derogado": false
+  },
+  {
+   "num": "4",
+   "epigrafe": "Vía de Evaluación",
+   "resumen": "La regla general de ingreso es la Declaración; el titular debe presentar un Estudio cuando su proyecto genera alguno de los efectos, características o circunstancias del art. 11 de la Ley, desarrollados en este Título. Los criterios técnicos que uniforme el SEA (art. 81 letra d de la Ley) son de observancia obligatoria.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "5",
+   "epigrafe": "Riesgo para la salud de la población",
+   "resumen": "Obliga a ingresar por Estudio cuando efluentes, emisiones o residuos generan riesgo para la salud de la población del área de influencia. El riesgo se mide por superación de normas primarias de calidad o de ruido (o, a falta de ellas, de las de referencia del art. 11) y por exposición a contaminantes, atendiendo cantidad, composición, peligrosidad, frecuencia, duración y efectos combinados. Si el riesgo recae en grupos indígenas, se entiende que el proyecto es susceptible de afectarlos en los términos del art. 8.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "6",
+   "epigrafe": "Efecto adverso significativo sobre recursos naturales renovables",
+   "resumen": "Exige Estudio cuando el proyecto afecta la permanencia, la capacidad de regeneración o las condiciones que sostienen especies y ecosistemas, con énfasis en recursos escasos, únicos, representativos o que sean sumideros naturales. Se pondera pérdida de suelo, biota intervenida, normas secundarias, ruido sobre fauna nativa, uso de recursos hídricos (aguas fósiles, vegas, bofedales, humedales, turberas, glaciares), especies exóticas y pérdida de resiliencia climática. Deben usarse los antecedentes de los sistemas de información de la Ley 21.455.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "7",
+   "epigrafe": "Reasentamiento de comunidades humanas, o alteración significativa de los sistemas de vida y costumbres de grupos humanos",
+   "resumen": "Corresponde Estudio si el proyecto desplaza y reubica comunidades o altera significativamente sus sistemas de vida: acceso a recursos de sustento o uso tradicional, circulación y tiempos de desplazamiento, acceso a bienes y servicios básicos, y ejercicio de tradiciones. El traslado de grupos indígenas solo procede con su consentimiento libre e informado o, en su defecto, tras procedimientos adecuados con representación efectiva. Debe analizarse, cuando sea pertinente, la vulnerabilidad al cambio climático.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "8",
+   "epigrafe": "Localización y valor ambiental del territorio",
+   "resumen": "Exige Estudio cuando en el área de influencia existen pueblos indígenas, recursos o áreas protegidas, sitios prioritarios para la conservación, humedales protegidos (Ramsar), glaciares o territorios con valor ambiental susceptibles de ser afectados. La susceptibilidad se evalúa según extensión, magnitud o duración de la intervención y los objetos de protección comprometidos.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "9",
+   "epigrafe": "Valor paisajístico o turístico",
+   "resumen": "Obliga a Estudio si el proyecto altera significativamente, por magnitud o duración, el valor paisajístico (obstrucción de visibilidad o alteración de atributos) o turístico (obstrucción de acceso o alteración de la zona). Con presencia de pueblos indígenas, se presume susceptibilidad de afectación y debe analizarse el efecto sobre sus sistemas de vida.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "10",
+   "epigrafe": "Alteración del patrimonio cultural",
+   "resumen": "Corresponde Estudio cuando el proyecto altera monumentos o sitios de valor antropológico, arqueológico o histórico. Se considera la magnitud de la intervención permanente sobre Monumentos Nacionales de la Ley 17.288, sobre construcciones o sitios del patrimonio cultural (incluido el indígena) y la afectación de lugares donde se realizan manifestaciones culturales habituales.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "11",
+   "epigrafe": "Normas de referencia",
+   "resumen": "A falta de norma chilena, se usan como referencia las normas de calidad y emisión de catorce Estados (Alemania, Argentina, Australia, Brasil, Canadá, España, México, Estados Unidos, Nueva Zelandia, Países Bajos, Italia, Japón, Suecia y Suiza). El proponente debe justificar la elección del Estado por similitud de componentes ambientales y acompañar un ejemplar íntegro y vigente de la norma extranjera.",
+   "obliga_titular": true,
+   "titulo": "Título II",
+   "derogado": false
+  },
+  {
+   "num": "12",
+   "epigrafe": "Modificación de un proyecto o actividad",
+   "resumen": "El titular debe declarar si lo que somete a evaluación modifica un proyecto existente y qué RCA se ven alteradas y cómo. La calificación recae solo sobre la modificación, pero la evaluación suma sus impactos a los del proyecto existente.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "12 bis",
+   "epigrafe": "Consideración del cambio climático en Estudios y Declaraciones",
+   "resumen": "Todo Estudio o Declaración debe incorporar los efectos adversos del cambio climático sobre los componentes ambientales y las acciones de adaptación y resiliencia. Cuando corresponda, debe abordar la mitigación de gases de efecto invernadero y forzantes climáticos e incluir indicadores de monitoreo, reporte y verificación para toda la vida útil.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "13",
+   "epigrafe": "Relación con las políticas, planes y programas de desarrollo",
+   "resumen": "El proponente debe describir cómo se vincula el proyecto con las políticas, planes y programas de desarrollo regional y comunal y con los instrumentos climáticos, hídricos y de gestión del riesgo de desastres vigentes en el área de influencia. Debe indicar si su tipología está reconocida en ellos, qué objetivos favorece o perjudica y si su diseño y compromisos voluntarios son compatibles.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "14",
+   "epigrafe": "Desarrollo de proyectos o actividades por etapas",
+   "resumen": "Prohíbe fraccionar a sabiendas un proyecto para cambiar de instrumento o eludir el ingreso; la Superintendencia determina la infracción y exige el ingreso adecuado, previo informe del SEA. La prohibición no aplica si se acredita ejecución por etapas, caso en que el Estudio o Declaración debe describir cada etapa, su objetivo, obras y duración estimada.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "15",
+   "epigrafe": "Relación con las políticas y planes evaluados estratégicamente",
+   "resumen": "El proponente debe identificar las políticas y planes sometidos a evaluación ambiental estratégica que sean atingentes y demostrar la compatibilidad del proyecto con el uso del territorio y los objetivos ambientales de esos instrumentos.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "16",
+   "epigrafe": "Establecimiento del inicio de ejecución de proyecto",
+   "resumen": "El Estudio o Declaración debe señalar la gestión, acto o faena mínima que marcará el inicio de ejecución sistemático y permanente; ese hito es el que se usa para computar la caducidad del art. 25 ter de la Ley.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "17",
+   "epigrafe": "Información de negociaciones",
+   "resumen": "El proponente debe informar las negociaciones con interesados sobre medidas de mitigación o compensación, antes o durante la evaluación, individualizando contrapartes, contenido y resultado. Los acuerdos no vinculan la calificación ambiental.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "18",
+   "epigrafe": "Contenido mínimo de los Estudios",
+   "resumen": "Detalla el contenido del Estudio: índice, resumen de hasta 30 páginas, descripción del proyecto por fases (incluidas emisiones de gases de efecto invernadero y riesgo climático de la zona), área de influencia, línea de base, predicción y evaluación de impactos, efectos del art. 11, planes de medidas, contingencias, seguimiento y cumplimiento normativo, compromisos voluntarios, monitoreos participativos, fichas resumen y apéndice. Si no existe norma primaria aplicable, exige un capítulo de riesgo para la salud. La cartografía va en Datum WGS84 y, si una obra no tiene ubicación exacta, se define un polígono de intervención máxima evaluado en la condición más desfavorable.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "19",
+   "epigrafe": "Contenidos mínimos de las Declaraciones",
+   "resumen": "La Declaración se presenta como declaración jurada de cumplimiento normativo e incluye descripción del proyecto por fases, antecedentes que descartan los efectos del art. 11 en el escenario más desfavorable y con cambio climático, plan de cumplimiento de la legislación, compromisos voluntarios, fichas y un resumen de hasta 20 páginas. Si hay tierras o grupos indígenas cercanos, debe justificar que no son susceptibles de afectación. Cuando se compromete certificación de conformidad, una entidad certificadora debe suscribirla.",
+   "obliga_titular": true,
+   "titulo": "Título III, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "20",
+   "epigrafe": "El procedimiento electrónico",
+   "resumen": "La evaluación puede tramitarse por medios electrónicos y se presume que el titular los acepta salvo petición expresa en contrario. Quien ingresa en papel sin pedir esa exclusión tiene cinco días para suscribir con firma electrónica o la presentación se tiene por no ingresada. El titular debe indicar un correo electrónico para notificaciones.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "21",
+   "epigrafe": "El expediente de evaluación ambiental",
+   "resumen": "Cada evaluación genera un expediente físico o electrónico, foliado y ordenado por fecha de ingreso, que queda disponible para consulta en el sitio web del SEA o en sus oficinas. Las piezas reservadas o que no puedan agregarse se archivan aparte, dejando constancia.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "22",
+   "epigrafe": "Reserva de información",
+   "resumen": "El expediente es público, salvo los antecedentes técnicos o financieros cuya reserva pida fundadamente el interesado por confidencialidad comercial, industrial o protección de invenciones; se resuelve en cinco días y deben acompañarse en anexo separado. Nunca puede reservarse la información sobre los efectos del art. 11 ni, en las Declaraciones, la relativa a cargas ambientales.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "23",
+   "epigrafe": "Cómputo de los plazos",
+   "resumen": "Los plazos de días del Reglamento son hábiles (no cuentan sábados, domingos ni festivos) y corren desde el día siguiente a la notificación, publicación o silencio administrativo.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "24",
+   "epigrafe": "Órganos que participan en la evaluación de impacto ambiental",
+   "resumen": "Participan obligatoriamente en la evaluación los órganos con atribuciones sobre permisos o pronunciamientos ambientales sectoriales del proyecto; los demás con competencias ambientales pueden excusarse por escrito dentro del plazo para informar. Siempre se pide pronunciamiento al Gobierno Regional, municipalidades y autoridad marítima, y los informes se rigen por el art. 38 de la Ley 19.880.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "25",
+   "epigrafe": "Comité Técnico",
+   "resumen": "Cada Dirección Regional del SEA conforma un Comité Técnico presidido por el Seremi del Medio Ambiente, con los directores regionales de servicios con competencia ambiental, el Gobernador Marítimo y el Consejo de Monumentos Nacionales. Debe reunirse y levantar un acta de evaluación antes del Informe Consolidado de Evaluación.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "26",
+   "epigrafe": "Consulta de pertinencia de ingreso",
+   "resumen": "Los proponentes pueden pedir al Director Regional o Ejecutivo del SEA que se pronuncie sobre si un proyecto o su modificación debe ingresar al SEIA; la respuesta se comunica a la Superintendencia, que conserva su facultad de requerir el ingreso.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "27",
+   "epigrafe": "Análisis de ingreso por susceptibilidad de afectación directa a grupos humanos pertenecientes a pueblos indígenas",
+   "resumen": "Antes de ingresar un Estudio por los efectos de los arts. 7, 8 o 10 que afecte o pueda afectar a grupos indígenas, el proponente puede pedir orientación al SEA sobre los requisitos de su presentación y la eventual consulta. El SEA se reúne con los grupos del área para recoger opiniones y puede pedir colaboración a otros órganos.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "28",
+   "epigrafe": "Presentación",
+   "resumen": "La evaluación comienza con la presentación del Estudio o Declaración ante la Comisión de Evaluación o el Director Ejecutivo, en oficina de partes o plataforma electrónica. El titular debe acompañar el extracto, el texto de los avisos radiales (o la solicitud fundada de reemplazo) y la acreditación de la personería, con vigencia no superior a seis meses. Ingresada la presentación, no se admiten partes o anexos pendientes.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "29",
+   "epigrafe": "Copias necesarias",
+   "resumen": "Quien se excluye de la tramitación electrónica debe entregar copia digital y ejemplares suficientes para los órganos evaluadores, el Gobierno Regional, el municipio y la autoridad marítima. En tramitación electrónica solo se exigen las copias, físicas o digitales, necesarias para la participación ciudadana.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "30",
+   "epigrafe": "Incompetencia",
+   "resumen": "Si la presentación se hace ante un órgano incompetente, este la remite de inmediato al que corresponde e informa al interesado; el plazo de admisión corre desde que la recibe el órgano competente.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "31",
+   "epigrafe": "Admisión a trámite",
+   "resumen": "El SEA verifica en cinco días el tipo de proyecto, la vía de evaluación y los contenidos del Título III y de los arts. 28 y 29. Si se cumplen, admite a trámite; si falta alguna exigencia, declara la inadmisibilidad sin más trámite.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "32",
+   "epigrafe": "Iniciación del procedimiento",
+   "resumen": "Admitida la presentación, el SEA la distribuye a los órganos evaluadores, al Gobierno Regional, municipios y autoridad marítima, y dispone que el titular publique el extracto visado (Estudios) y transmita los avisos radiales, además de las actividades de información a la comunidad. El Estudio o Declaración se entiende presentado desde la resolución de admisión.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "33",
+   "epigrafe": "Pronunciamientos sobre compatibilidad territorial",
+   "resumen": "Gobierno Regional, municipalidades y autoridad marítima deben informar fundadamente la compatibilidad territorial del proyecto, dentro de los plazos de los arts. 35 o 47, solo sobre la base de instrumentos de planificación y ordenamiento vigentes de su competencia.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "34",
+   "epigrafe": "Pronunciamientos sobre políticas, planes y programas de desarrollo regional y planes de desarrollo comunal e instrumentos de gestión del cambio climático",
+   "resumen": "En los mismos plazos, el Gobierno Regional y los municipios informan la relación del proyecto con sus políticas y planes de desarrollo, y los órganos competentes lo hacen respecto de los instrumentos de gestión del cambio climático, hídricos y de riesgo de desastres. Se revisa si la tipología está recogida, qué objetivos se favorecen o perjudican y la compatibilidad del diseño y de los compromisos voluntarios.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "35",
+   "epigrafe": "Pronunciamientos sectoriales para la evaluación",
+   "resumen": "En los Estudios, los órganos participantes informan en un máximo de treinta días, solo dentro de su competencia, si se cumple la normativa ambiental y los permisos sectoriales y si las medidas abordan los efectos del art. 11. Las solicitudes de aclaración deben ser claras y fundadas, y la falta de información relevante o esencial debe advertirse de inmediato.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "36",
+   "epigrafe": "Término anticipado del procedimiento",
+   "resumen": "Si el Estudio carece de información relevante o esencial no subsanable por Adenda, el SEA pone término anticipado al procedimiento y devuelve los antecedentes, solo dentro de los primeros cuarenta días desde la presentación. El titular puede reponer en cinco días y el recurso se resuelve en veinte.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "37",
+   "epigrafe": "Elaboración inmediata del Informe Consolidado de Evaluación",
+   "resumen": "Si no se requieren aclaraciones, o si hay infracción manifiesta a la normativa no subsanable por Adenda, el SEA elabora directamente el Informe Consolidado de Evaluación del Estudio, con los pronunciamientos sectoriales, la evaluación de las observaciones ciudadanas y la recomendación de aprobación o rechazo.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "38",
+   "epigrafe": "Informe consolidado de solicitud de aclaraciones, rectificaciones o ampliaciones",
+   "resumen": "El SEA consolida (ICSARA), dentro de los treinta días siguientes al plazo del art. 35, las solicitudes de aclaración, rectificación o ampliación y las observaciones ciudadanas admisibles, ordenadas por materia. Se notifica al titular con un plazo de respuesta, durante el cual la evaluación queda suspendida; puede pedir hasta dos extensiones dentro del plazo original. Si no responde, se emite el ICE y se califica con lo que hay.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "39",
+   "epigrafe": "Presentación de la Adenda",
+   "resumen": "El proponente responde mediante una Adenda, sujeta a las reglas de copias del art. 29, que se remite a los órganos evaluadores; debe anexar la actualización de las fichas del art. 18 letra n) cuando corresponda.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "40",
+   "epigrafe": "Pronunciamientos sectoriales sobre el contenido de la Adenda",
+   "resumen": "Los órganos evaluadores del Estudio disponen de quince días para informar la Adenda, indicando si se subsanaron errores y omisiones, si se abordaron las observaciones ciudadanas y si hubo cambios sustantivos al proyecto. Nuevas solicitudes solo pueden referirse a lo presentado en la Adenda.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "41",
+   "epigrafe": "Informe consolidado complementario de solicitud de aclaraciones, rectificaciones o ampliaciones",
+   "resumen": "Si tras la Adenda aún faltan antecedentes para recomendar, el SEA emite dentro de quince días un informe consolidado complementario que precisa lo faltante e incluye nuevas observaciones ciudadanas. El plazo de evaluación se suspende mientras el titular responde, con hasta dos extensiones solicitadas dentro del plazo original; sin respuesta, se elabora el ICE.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "42",
+   "epigrafe": "Presentación de la Adenda Complementaria",
+   "resumen": "El proponente contesta el informe complementario mediante una Adenda Complementaria, con las copias del art. 29 y la actualización de fichas si procede.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "43",
+   "epigrafe": "Pronunciamientos sectoriales sobre el contenido de la Adenda Complementaria",
+   "resumen": "Los órganos evaluadores informan la Adenda Complementaria del Estudio en un máximo de quince días, señalando si se subsanaron las deficiencias y se abordaron las observaciones ciudadanas. Solo en casos justificados pueden pedirse nuevas aclaraciones, limitadas a lo presentado en ella.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "44",
+   "epigrafe": "Informe Consolidado de Evaluación",
+   "resumen": "Define el contenido del Informe Consolidado de Evaluación del Estudio: antecedentes y hito de inicio de ejecución, síntesis de la evaluación, impactos, efectos del art. 11, medidas, planes, permisos aplicables, observaciones ciudadanas y recomendación fundada con condiciones. Debe publicarse en el sitio web del SEA al menos cinco días antes de la calificación y los órganos tienen cuatro días para visarlo.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "45",
+   "epigrafe": "Ampliación del plazo de evaluación",
+   "resumen": "En casos calificados y fundados, el SEA puede ampliar una sola vez, hasta por sesenta días, el plazo de evaluación del Estudio (art. 15 de la Ley), notificando al titular.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "46",
+   "epigrafe": "Omisión de pronunciamiento sectorial necesario para calificar",
+   "resumen": "Si falta un permiso o pronunciamiento sectorial para calificar el Estudio, se requiere al órgano responsable para que lo emita en quince días; vencido el plazo, se tiene por otorgado favorablemente. Si la autoridad sanitaria no emite el pronunciamiento del art. 161, se resuelve con los antecedentes disponibles.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "47",
+   "epigrafe": "Pronunciamientos sectoriales para la evaluación",
+   "resumen": "En las Declaraciones, los órganos participantes informan en un máximo de quince días si se cumple la normativa ambiental y los permisos y si el proyecto genera efectos del art. 11. Deben advertir de inmediato la falta de información relevante o esencial o la necesidad de un Estudio.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "48",
+   "epigrafe": "Término anticipado del procedimiento",
+   "resumen": "El SEA termina anticipadamente la evaluación de una Declaración que carece de información relevante o esencial no subsanable, o cuyo proyecto requiere Estudio, solo dentro de los primeros treinta días desde la presentación. Procede reposición en cinco días, que se resuelve en veinte.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "49",
+   "epigrafe": "Elaboración inmediata del Informe Consolidado de Evaluación",
+   "resumen": "Sin necesidad de aclaraciones, o ante infracción manifiesta no subsanable por Adenda, el SEA elabora de inmediato el Informe Consolidado de Evaluación de la Declaración, con pronunciamientos sectoriales, evaluación de observaciones y recomendación.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "50",
+   "epigrafe": "Informe consolidado de solicitud de aclaraciones, rectificaciones o ampliaciones",
+   "resumen": "Para las Declaraciones, el ICSARA se emite dentro de los quince días siguientes al plazo del art. 47, ordenado por materias (descripción del proyecto, descarte de efectos del art. 11, contingencias, normativa y permisos). Notificado, suspende el plazo de evaluación mientras el titular responde, con hasta dos extensiones pedidas en el plazo original; sin respuesta, se emite el ICE y se califica.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "51",
+   "epigrafe": "Presentación de la Adenda",
+   "resumen": "El proponente responde con una Adenda, sujeta al art. 29, que se envía a los órganos evaluadores de la Declaración, anexando la actualización de las fichas del art. 19 letra f) si corresponde.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "52",
+   "epigrafe": "Pronunciamientos sectoriales sobre el contenido de la Adenda",
+   "resumen": "Los órganos evaluadores de la Declaración tienen diez días para informar la Adenda, indicando si se subsanaron las deficiencias, si se abordaron las observaciones ciudadanas y si hubo cambios sustantivos en los impactos. Las nuevas solicitudes se limitan a lo presentado en la Adenda.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "53",
+   "epigrafe": "Informe consolidado complementario de solicitud de aclaraciones, rectificaciones o ampliaciones",
+   "resumen": "Si persisten vacíos tras la Adenda de una Declaración, el SEA emite en quince días un informe consolidado complementario y amplía el plazo de evaluación conforme al art. 19 inciso 2° de la Ley. El titular responde dentro del plazo fijado, con hasta dos extensiones; de no hacerlo, se elabora el ICE con lo disponible.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "54",
+   "epigrafe": "Presentación de la Adenda Complementaria",
+   "resumen": "El proponente responde el informe complementario con una Adenda Complementaria, con las copias del art. 29 y la actualización de las fichas del art. 19 letra f) cuando corresponda.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "55",
+   "epigrafe": "Pronunciamientos sectoriales sobre el contenido de la Adenda Complementaria",
+   "resumen": "De ser necesario, la Adenda Complementaria de la Declaración se remite a los órganos evaluadores, que informan en un máximo de diez días si se subsanaron las deficiencias y se abordaron las observaciones de la comunidad.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "56",
+   "epigrafe": "Informe Consolidado de Evaluación",
+   "resumen": "Fija el contenido del Informe Consolidado de Evaluación de la Declaración: antecedentes e hito de inicio de ejecución, impactos, justificación de que no se requiere Estudio, contingencias, normativa, permisos aplicables, compromisos voluntarios, observaciones ciudadanas, recomendación y ficha de fiscalización. Debe estar en el sitio web del SEA al menos cinco días antes de la calificación.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "57",
+   "epigrafe": "Ampliación del plazo de evaluación",
+   "resumen": "En casos calificados y fundados, el SEA puede ampliar una sola vez, hasta por treinta días, el plazo de evaluación de la Declaración (art. 18 de la Ley), notificando al titular.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "58",
+   "epigrafe": "Omisión de pronunciamiento sectorial necesario para calificar",
+   "resumen": "Si falta un permiso o pronunciamiento sectorial para calificar la Declaración, el órgano responsable es requerido para emitirlo en diez días; vencido el plazo, se tiene por otorgado. Ante silencio de la autoridad sanitaria respecto del art. 161, se resuelve con los antecedentes disponibles.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "59",
+   "epigrafe": "Calificación ambiental",
+   "resumen": "Publicado el ICE, la Comisión de Evaluación sesiona para calificar, dejando acta con votos y fundamentos. En los aspectos normados de la legislación ambiental (materias regladas, sin discrecionalidad) solo puede aprobar o rechazar en virtud del ICE. La RCA debe dictarse dentro de los diez días siguientes a la calificación.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "60",
+   "epigrafe": "Contenido mínimo de la Resolución de Calificación Ambiental",
+   "resumen": "La RCA debe contener sus fundamentos, la consideración de las observaciones ciudadanas y la decisión; si aprueba, las normas aplicables, condiciones y exigencias, medidas de mitigación, reparación y compensación, datos de seguimiento que el titular debe entregar, el hito de inicio de ejecución, las fichas y las tipologías del art. 3. Para proyectos del sector público es obligatoria y se pondera en la evaluación socioeconómica del Ministerio de Desarrollo Social.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "61",
+   "epigrafe": "Notificación de la Resolución de Calificación Ambiental",
+   "resumen": "La RCA se notifica al titular y a quienes formularon observaciones, y se comunica a la Superintendencia y a los órganos participantes. Si hubo consulta indígena, el SEA se reúne con los grupos participantes para explicar cómo incidieron sus observaciones y qué recursos proceden.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "62",
+   "epigrafe": "Calificación ambiental favorable del Estudio",
+   "resumen": "La RCA favorable de un Estudio certifica que se cumplen los requisitos ambientales aplicables, incluidos los de los permisos del Título VII, y que las medidas propuestas son apropiadas para hacerse cargo de los efectos del art. 11.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "63",
+   "epigrafe": "Calificación ambiental favorable de la Declaración",
+   "resumen": "La RCA favorable de una Declaración certifica que el proyecto no genera los efectos del art. 11 y que cumple la normativa ambiental, incluidos los requisitos ambientales de los permisos sectoriales del Título VII.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "64",
+   "epigrafe": "Calificación ambiental desfavorable",
+   "resumen": "Con RCA desfavorable el proyecto no puede ejecutarse ni modificarse, y los órganos con competencia ambiental deben denegar las autorizaciones o permisos por su impacto ambiental mientras no se les notifique un pronunciamiento en contrario.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "65",
+   "epigrafe": "Nueva presentación",
+   "resumen": "Rechazado un Estudio o Declaración, el responsable puede presentar uno nuevo, pero solo una vez resuelta la reclamación del art. 20 de la Ley, ejecutoriada la sentencia respectiva o vencidos los plazos sin que se hayan interpuesto recursos.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "66",
+   "epigrafe": "Silencio Administrativo",
+   "resumen": "Si la autoridad no se pronuncia dentro de los plazos legales y se cumplen los requisitos del art. 64 de la Ley 19.880, el Estudio o Declaración, con sus Adendas, se entiende aprobado. El certificado respectivo debe individualizar los documentos sobre los que recae la aprobación.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 5°",
+   "derogado": false
+  },
+  {
+   "num": "67",
+   "epigrafe": "Calificación de Urgencia de Estudios de Impacto Ambiental",
+   "resumen": "Los Estudios de proyectos urgentes por calamidad pública o de servicios que no pueden paralizarse sin grave perjuicio para el país se evalúan en la mitad del plazo. El proponente debe pedir la urgencia junto con el ingreso, identificando el proyecto y su vinculación con la emergencia; resuelve el Director Ejecutivo. El plazo de observaciones ciudadanas también se reduce a la mitad.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 6°",
+   "derogado": false
+  },
+  {
+   "num": "68",
+   "epigrafe": "Declaraciones de Impacto Ambiental sujetas a Evaluación y Certificación de Conformidad",
+   "resumen": "El titular de una Declaración puede comprometer, a su costo, una evaluación y certificación de conformidad, caso en que debe calificarse en un máximo de treinta días; omitir el compromiso expreso acarrea inadmisibilidad. Los órganos informan en diez días desde la admisión y el ICE incorpora indicadores y periodicidad de la certificación.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 6°",
+   "derogado": false
+  },
+  {
+   "num": "69",
+   "epigrafe": "Declaraciones de empresas de menor tamaño dentro de un área regulada por instrumento de planificación territorial que no generan cargas ambientales",
+   "resumen": "Las empresas de menor tamaño (Ley 20.416) pueden comprometer certificación de conformidad, acreditando esa calidad en su presentación; la autoridad verifica requisitos en diez días. Si el proyecto se emplaza en un área regulada por un instrumento de planificación vigente, es concordante con el uso de suelo y no genera cargas ambientales, la Declaración se registra y su copia visada hace las veces de RCA. Si genera cargas ambientales, sigue el procedimiento del art. 68.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 6°",
+   "derogado": false
+  },
+  {
+   "num": "70",
+   "epigrafe": "Declaraciones de empresas de menor tamaño fuera de un área regulada por un instrumento de planificación territorial y que no generan cargas ambientales",
+   "resumen": "Cuando la empresa de menor tamaño con certificación de conformidad se ubica fuera de un área regulada y no genera cargas ambientales, se abre participación ciudadana con una audiencia especial a la que se cita al menos a tres organizaciones con personalidad jurídica de las comunas involucradas, dentro de diez días. Luego se registra la Declaración, incluyendo los compromisos asumidos con la comunidad.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 6°",
+   "derogado": false
+  },
+  {
+   "num": "71",
+   "epigrafe": "Cumplimiento de la Resolución de Calificación Ambiental",
+   "resumen": "El titular debe ceñirse estrictamente al contenido de su RCA durante todas las fases del proyecto.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 7°",
+   "derogado": false
+  },
+  {
+   "num": "72",
+   "epigrafe": "Obligaciones de las Direcciones de Obras Municipales",
+   "resumen": "Las Direcciones de Obras Municipales no pueden otorgar la recepción definitiva a proyectos del art. 3 que no acrediten contar con RCA favorable.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 7°",
+   "derogado": false
+  },
+  {
+   "num": "73",
+   "epigrafe": "Caducidad de la Resolución de Calificación Ambiental",
+   "resumen": "La RCA favorable caduca si transcurren más de cinco años desde su notificación sin que se inicie la ejecución; la Superintendencia lo constata y requiere al SEA la declaración. El inicio exige gestiones, actos u obras sistemáticos, ininterrumpidos y permanentes de la etapa de construcción, y el titular debe informar a la Superintendencia la realización del hito mínimo.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 7°",
+   "derogado": false
+  },
+  {
+   "num": "74",
+   "epigrafe": "Revisión de la Resolución de Calificación Ambiental",
+   "resumen": "El SEA puede revisar excepcionalmente una RCA, por iniciativa propia o a solicitud del titular, de un directamente afectado o de la Superintendencia, cuando las variables del plan de seguimiento varían sustantivamente respecto de lo proyectado, no se verifican o un impacto no significativo pasa a serlo, incluso por efecto del cambio climático. El procedimiento es electrónico, con audiencia del interesado, informes sectoriales e información pública; la petición de parte debe cumplir el art. 30 de la Ley 19.880 y el acto final es reclamable según el art. 20 de la Ley.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 7°",
+   "derogado": false
+  },
+  {
+   "num": "75",
+   "epigrafe": "Texto refundido de una Resolución de Calificación Ambiental",
+   "resumen": "Cuando una RCA ha sido modificada por otras resoluciones, el SEA puede, de oficio o a petición del proponente, fijar su texto refundido, coordinado y sistematizado, con cambios solo formales que no alteren su sentido y alcance.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 7°",
+   "derogado": false
+  },
+  {
+   "num": "76",
+   "epigrafe": "Interpretación de las Resoluciones de Calificación Ambiental",
+   "resumen": "El SEA puede interpretar administrativamente las RCA, previo informe de los órganos sectoriales que participaron en la evaluación, del Ministerio del Medio Ambiente y de la Superintendencia. El informe sectorial es vinculante en los aspectos normados sujetos a la potestad interpretativa del organismo respectivo.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 7°",
+   "derogado": false
+  },
+  {
+   "num": "77",
+   "epigrafe": "Reclamación del proponente",
+   "resumen": "El titular puede reclamar, dentro de treinta días desde la notificación, contra la resolución que rechaza o impone condiciones: ante el Director Ejecutivo si es Declaración, o ante el Comité de Ministros (Medio Ambiente, Salud, Economía, Agricultura, Energía y Minería) si es Estudio. La admisión se resuelve en cinco días y el fondo en un plazo fatal de treinta o sesenta días, respectivamente.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 8°",
+   "derogado": false
+  },
+  {
+   "num": "78",
+   "epigrafe": "Reclamación de la comunidad",
+   "resumen": "Quienes formularon observaciones y estimen que no fueron debidamente consideradas en la RCA pueden reclamar conforme al art. 20 de la Ley. El recurso debe precisar qué observaciones no se consideraron y sus fundamentos, bajo sanción de inadmisibilidad; la admisión se resuelve en cinco días y se notifica también al titular.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 8°",
+   "derogado": false
+  },
+  {
+   "num": "79",
+   "epigrafe": "Tramitación",
+   "resumen": "En reclamaciones de Estudios, el Comité de Ministros debe pedir siempre informe a los organismos sectoriales que participaron en la evaluación; en las de Declaraciones, el Director Ejecutivo puede hacerlo. La interposición se rige por el art. 57 de la Ley 19.880.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 8°",
+   "derogado": false
+  },
+  {
+   "num": "80",
+   "epigrafe": "Informe de terceros",
+   "resumen": "Para resolver las reclamaciones puede pedirse un informe independiente a terceros con calificación técnica acreditada, objetivos y sin vínculos con los interesados, precisando la consulta y el plazo de entrega.",
+   "obliga_titular": false,
+   "titulo": "Título IV, Párrafo 8°",
+   "derogado": false
+  },
+  {
+   "num": "81",
+   "epigrafe": "Resolución de las reclamaciones",
+   "resumen": "Vencido el plazo de los informes, la reclamación se resuelve dentro del remanente de los sesenta o treinta días, sobre el mérito del expediente, lo aportado por el reclamante y los informes recibidos. La decisión se notifica a reclamante, titular y comunidad, y puede impugnarse ante el Tribunal Ambiental dentro de treinta días.",
+   "obliga_titular": true,
+   "titulo": "Título IV, Párrafo 8°",
+   "derogado": false
+  },
+  {
+   "num": "82",
+   "epigrafe": "Objetivos de la participación",
+   "resumen": "La participación ciudadana comprende acceder al expediente, formular observaciones y recibir respuesta fundada. El SEA puede adoptar medidas de gestión y coordinación para garantizarla, en concordancia con el Acuerdo de Escazú.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "83",
+   "epigrafe": "Obligaciones y facultades del Servicio",
+   "resumen": "El SEA debe asegurar la participación informada: realiza actividades de información adecuadas a las características de género, sociales, culturales y geográficas de la población, organiza el encuentro entre titular y comunidad, avisa por correo electrónico a organizaciones de la sociedad civil y responde fundadamente toda observación admisible en el ICE. Son admisibles las observaciones con nombre, RUT y domicilio o correo; las de personas jurídicas requieren representante legal acreditado. Puede exigir al titular la forma de presentar y distribuir la información.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "84",
+   "epigrafe": "Obligaciones de los titulares",
+   "resumen": "A solicitud de la autoridad, el titular debe informar a la comunidad, en lenguaje sencillo y con pertinencia de género, social y cultural, las características del proyecto, sus impactos y las medidas propuestas, entregando la información por medios idóneos. Debe además distribuir las copias del art. 29 y comunicar los acuerdos que alcance con la comunidad durante la evaluación.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "85",
+   "epigrafe": "Consulta a Pueblos Indígenas",
+   "resumen": "Si el proyecto genera los efectos de los arts. 7, 8 o 10 y afecta directamente a grupos indígenas, el SEA debe diseñar y ejecutar una consulta de buena fe, con mecanismos apropiados y a través de sus instituciones representativas, orientada a lograr acuerdo o consentimiento. No alcanzar ese fin no vulnera el derecho a consulta, que se extiende a la evaluación de las Adendas.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "86",
+   "epigrafe": "Reunión con grupos humanos pertenecientes a pueblos indígenas",
+   "resumen": "Cuando un proyecto que descarta esos efectos se emplaza en tierras o áreas de desarrollo indígena o cerca de grupos indígenas, el SEA se reúne con ellos para recoger opiniones: hasta treinta días desde la admisibilidad en Estudios y hasta veinte en Declaraciones. Las actas pueden fundar el término anticipado (arts. 36 y 48) o la RCA.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "87",
+   "epigrafe": "Aviso radial",
+   "resumen": "El proponente debe difundir a su costa al menos cinco avisos radiales en emisoras locales del área de influencia, en horario de 9:00 a 21:00, cada uno en un día diferente y con un plazo de cinco días desde que se publica el extracto o el listado. Debe acreditarlos con grabación y certificado de la radio dentro de diez días desde el último aviso; puede pedir un medio alternativo si la radiodifusión es en extremo onerosa o técnicamente inviable. El incumplimiento que afecte la participación permite suspender la evaluación y ordenar repetir publicaciones y avisos.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "88",
+   "epigrafe": "Publicación del extracto",
+   "resumen": "Dentro de los diez días siguientes a la presentación del Estudio, el titular debe publicar a su costa, en el Diario Oficial y en un diario regional o nacional, un extracto visado por el SEA con los datos del proyecto, sus principales efectos y medidas, y los plazos y lugares para observar. En igual plazo debe instalar carteles informativos visibles en el sitio del proyecto, mantenerlos durante toda la evaluación y remitir copia de la publicación y fotografías.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "89",
+   "epigrafe": "Derecho a acceder y conocer el expediente",
+   "resumen": "Cualquier persona puede conocer el Estudio y sus documentos en toda etapa, salvo lo reservado, y pedir a su costa reproducciones totales o parciales. El extracto se exhibe en la municipalidad y en las oficinas del SEA.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "90",
+   "epigrafe": "Derecho a formular observaciones",
+   "resumen": "Toda persona natural o jurídica puede formular observaciones al Estudio dentro de sesenta días desde la última publicación del extracto. Deben presentarse por escrito, fundadas, referidas a la evaluación ambiental e identificar al observante y su domicilio o correo electrónico; las personas jurídicas acreditan personería con vigencia máxima de seis meses.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "91",
+   "epigrafe": "Derecho a obtener respuesta fundada",
+   "resumen": "Las observaciones presentadas en plazo y forma se evalúan técnicamente en el ICE, disponible al menos cinco días antes de la calificación, y deben considerarse en los fundamentos de la RCA, que se notifica a los observantes; si son muy numerosos, puede publicarse un aviso.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "92",
+   "epigrafe": "Derecho a participar cuando existan modificaciones al Estudio",
+   "resumen": "Si la Adenda modifica sustantivamente el proyecto o sus impactos, se abre una nueva etapa de participación ciudadana por treinta días, con suspensión del plazo de evaluación; lo mismo ocurre con la consulta indígena cuando la hubo. El interesado debe publicar nuevamente en las condiciones del art. 88, individualizando las aclaraciones, rectificaciones y ampliaciones.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "93",
+   "epigrafe": "Publicación del listado de Declaraciones de Impacto Ambiental que se hubieren presentado a tramitación",
+   "resumen": "El primer día hábil de cada mes se publica el listado de las Declaraciones ingresadas el mes anterior, que informa la posibilidad de solicitar participación ciudadana y se remite a los municipios. El titular debe instalar carteles informativos en el sitio del proyecto, conforme al art. 88, indicando la fecha límite para pedir ese proceso.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "94",
+   "epigrafe": "Derecho a la participación",
+   "resumen": "En Declaraciones de proyectos con cargas ambientales para comunidades próximas, el SEA puede abrir participación ciudadana por veinte días si lo piden por escrito al menos dos organizaciones con personalidad jurídica o diez personas naturales directamente afectadas, dentro de treinta días desde la publicación en el Diario Oficial. La resolución se publica a costa del titular; en evaluaciones con certificación de conformidad el plazo es de diez días. Hay carga ambiental cuando el proyecto genera beneficios sociales y externalidades negativas.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "95",
+   "epigrafe": "Derechos derivados de la participación ciudadana",
+   "resumen": "Quienes intervienen en la participación ciudadana de una Declaración tienen los derechos y obligaciones de los arts. 90 y 91 y pueden reclamar según el art. 78 si sus observaciones no fueron debidamente consideradas.",
+   "obliga_titular": false,
+   "titulo": "Título V, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "96",
+   "epigrafe": "Derecho a participar cuando existan modificaciones sustantivas a la Declaración",
+   "resumen": "Si la Adenda de una Declaración con participación ciudadana altera sustantivamente el proyecto o sus impactos, se abre de oficio una nueva etapa por diez días, ampliable hasta en cinco, con suspensión del plazo de evaluación. El proponente debe publicar los contenidos del art. 93, identificando claramente los cambios.",
+   "obliga_titular": true,
+   "titulo": "Título V, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "97",
+   "epigrafe": "Plan de Medidas Ambientales",
+   "resumen": "El Plan de Medidas se compone, según proceda, de planes de mitigación, reparación y compensación. Para cada fase debe indicar componente, impacto, tipo, objetivo, descripción y justificación de la medida considerando la adaptación al cambio climático, lugar, forma y oportunidad de implementación e indicador de cumplimiento. Cumplir la normativa no constituye por sí solo una medida.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "98",
+   "epigrafe": "Medidas de mitigación ambiental",
+   "resumen": "Las medidas de mitigación buscan evitar o disminuir los efectos adversos; el plan debe contemplar al menos una: no ejecutar una obra o parte de ella, limitar su extensión, magnitud o duración, o aplicar medidas tecnológicas o de gestión en el diseño.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "99",
+   "epigrafe": "Medidas de reparación ambiental",
+   "resumen": "Las medidas de reparación buscan devolver los componentes afectados a una calidad similar a la previa al impacto o, si no es posible, restablecer sus propiedades básicas.",
+   "obliga_titular": false,
+   "titulo": "Título VI, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "100",
+   "epigrafe": "Medidas de compensación ambiental",
+   "resumen": "Las medidas de compensación generan un efecto positivo alternativo y equivalente al efecto adverso que no pudo mitigarse ni repararse, por ejemplo sustituyendo los recursos afectados por otros de similares características, calidad y función.",
+   "obliga_titular": false,
+   "titulo": "Título VI, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "101",
+   "epigrafe": "Lugares en donde se adoptan las medidas",
+   "resumen": "Mitigación y reparación deben surtir efecto en el lugar donde se producen los impactos significativos; la compensación se ejecuta en ese mismo lugar o, si no es posible, en otro donde resulte efectiva.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "102",
+   "epigrafe": "Procedencia de estos planes",
+   "resumen": "Si de la descripción del proyecto o de su emplazamiento se deducen situaciones de riesgo para el medio ambiente o el propio proyecto, el titular debe proponer un plan de prevención de contingencias y uno de emergencias, considerando el cambio climático y el aumento de vulnerabilidad y exposición de ecosistemas y comunidades.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "103",
+   "epigrafe": "Plan de prevención de contingencias",
+   "resumen": "El plan de prevención de contingencias debe identificar las situaciones de riesgo para el medio ambiente o la población y describir las acciones para evitarlas o reducir su probabilidad.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "104",
+   "epigrafe": "Plan de emergencias",
+   "resumen": "El plan de emergencias describe las acciones para controlar una emergencia y minimizar sus efectos, e indica cuándo y por qué vía se comunicará su activación a la Superintendencia.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "105",
+   "epigrafe": "Plan de seguimiento de las variables ambientales de las declaraciones y estudios",
+   "resumen": "El plan de seguimiento verifica que las variables ambientales evaluadas evolucionen según lo proyectado, considerando el cambio climático, y se elabora conforme a las instrucciones generales de la Superintendencia. Debe precisar, por fase, componente, impacto y medida asociada, puntos de control, parámetros, límites, métodos, frecuencia y plazos de entrega de informes.",
+   "obliga_titular": true,
+   "titulo": "Título VI, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "106",
+   "epigrafe": "Fiscalización",
+   "resumen": "La Superintendencia del Medio Ambiente fiscaliza el cumplimiento permanente de las condiciones, normas y medidas de la RCA y aplica las sanciones de su Ley Orgánica.",
+   "obliga_titular": false,
+   "titulo": "Título VI, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "107",
+   "epigrafe": "Permisos ambientales sectoriales",
+   "resumen": "Todo permiso de carácter ambiental que deba emitir un órgano del Estado respecto de un proyecto sometido al SEIA se otorga a través del sistema. El Título VII fija los permisos, sus requisitos y los contenidos para acreditarlos, sobre los cuales se pronuncian los órganos en sus informes.",
+   "obliga_titular": false,
+   "titulo": "Título VII, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "108",
+   "epigrafe": "Otorgamiento de los permisos ambientales sectoriales",
+   "resumen": "Distingue permisos de contenido únicamente ambiental, que el órgano otorga sin más trámite con la sola exhibición de la RCA favorable, y permisos mixtos, en que la RCA certifica los requisitos ambientales y el órgano no puede denegarlos ni añadir exigencias por esa causa. En los mixtos el titular puede adelantar los antecedentes no ambientales, pero el permiso solo se otorga exhibiendo la RCA favorable; con RCA desfavorable deben denegarse.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "109",
+   "epigrafe": "Información a la Superintendencia",
+   "resumen": "Los órganos que otorgan permisos ambientales sectoriales informan a la Superintendencia cada solicitud; si esta detecta un proyecto sin la RCA exigible, el órgano debe abstenerse de otorgarlo. No se requiere tramitar por el SEIA los permisos necesarios para levantar la línea de base o los antecedentes de una Declaración, lo que el titular debe acreditar justificadamente.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "110",
+   "epigrafe": "Guías trámite de permisos ambientales sectoriales",
+   "resumen": "El SEA dicta guías trámite que uniforman criterios y exigencias técnicas de cada permiso ambiental sectorial; su observancia es obligatoria.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 1°",
+   "derogado": false
+  },
+  {
+   "num": "111",
+   "epigrafe": "Permiso para el vertimiento en las aguas sometidas a jurisdicción nacional desde naves, aeronaves, artefactos navales, construcciones y obras portuarias",
+   "resumen": "Permiso para verter en aguas de jurisdicción nacional desde naves, aeronaves, artefactos navales, construcciones y obras portuarias, fundado en el artículo 108 del D.S. N° 1 de 1992 del Ministerio de Defensa Nacional (control de la contaminación acuática). Exige que el vertimiento no dañe especies hidrobiológicas ni el ecosistema acuático, acreditado con la composición de la materia, el lugar y método de depósito y el análisis de efectos y de alternativas en tierra.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "112",
+   "epigrafe": "Permiso para emplazar instalaciones terrestres de recepción de mezclas oleosas, en los puertos y terminales del país",
+   "resumen": "Permiso para emplazar instalaciones terrestres de recepción de mezclas oleosas en puertos y terminales, fundado en el artículo 113 del D.S. N° 1 de 1992 del Ministerio de Defensa Nacional. Requiere que no se afecten especies ni ecosistemas acuáticos, lo que se acredita con la capacidad de los tanques, la tecnología de tratamiento, el diseño de tuberías y conexiones y un plan de seguridad.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "113",
+   "epigrafe": "Permiso para la instalación de plantas de tratamiento de instalaciones terrestres de recepción de mezclas oleosas cuyas aguas tratadas sean descargadas en las aguas sometidas a la jurisdicción nacional",
+   "resumen": "Permiso para instalar plantas de tratamiento de instalaciones terrestres de recepción de mezclas oleosas que descargan aguas tratadas al mar, fundado en el artículo 116 del D.S. N° 1 de 1992 del Ministerio de Defensa Nacional. Exige ausencia de efectos adversos en especies y ecosistemas acuáticos, acreditada con volúmenes y caudales antes y después del tratamiento, el equipo utilizado, los medios de vigilancia de las descargas y el sistema de eliminación de residuos.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "114",
+   "epigrafe": "Permiso para la instalación de un terminal marítimo y de las cañerías conductoras para transporte de sustancias contaminantes o que sean susceptibles de contaminar",
+   "resumen": "Permiso para instalar un terminal marítimo y las cañerías de transporte de sustancias contaminantes, fundado en el artículo 117 del D.S. N° 1 de 1992 del Ministerio de Defensa Nacional. Requiere garantizar operación y mantención seguras sin efectos adversos en especies o ecosistemas acuáticos, mediante un estudio de seguridad para prevenir la contaminación.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "115",
+   "epigrafe": "Permiso para introducir o descargar materias, energía o sustancias nocivas o peligrosas de cualquier especie a las aguas sometidas a la jurisdicción nacional",
+   "resumen": "Permiso para introducir o descargar materias, energía o sustancias nocivas o peligrosas en aguas de jurisdicción nacional, fundado en el artículo 140 del D.S. N° 1 de 1992 del Ministerio de Defensa Nacional. La descarga no debe dañar especies ni ecosistemas acuáticos, lo que se acredita describiendo la instalación y su sistema de evacuación, el punto de descarga, la composición y nocividad de los desechos y el medio marino receptor.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "116",
+   "epigrafe": "Permiso para realizar actividades de acuicultura",
+   "resumen": "Permiso para realizar acuicultura, fundado en el inciso 3° del artículo 87 de la Ley General de Pesca y Acuicultura (D.S. N° 430 de 1991, Economía). Exige no dañar la vida acuática y prevenir condiciones anaeróbicas en las áreas de cultivo, acreditado con la caracterización preliminar del sitio (CPS) o la información ambiental (INFA) según la Resolución Exenta N° 3.612 de 2009 de la Subsecretaría de Pesca.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "117",
+   "epigrafe": "Autorización para realizar repoblación y siembra de especies hidrobiológicas con fines de pesca recreativa",
+   "resumen": "Autorización para repoblar y sembrar especies hidrobiológicas con fines de pesca recreativa, fundada en el inciso 2° del artículo 11 de la Ley N° 20.256. Requiere no afectar el patrimonio sanitario y ambiental, en especial la biodiversidad, mediante un proyecto técnico con justificación, caracterización del cuerpo de agua y su fauna íctica (antecedentes de no más de dos años), especie y origen de los ejemplares, centro de cultivo autorizado, cronograma y plan de seguimiento.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "118",
+   "epigrafe": "Permiso para realizar actividades de acuicultura en áreas de manejo y explotación de recursos bentónicos",
+   "resumen": "Permiso para realizar acuicultura en áreas de manejo y explotación de recursos bentónicos, fundado en el artículo 7 del D.S. N° 314 de 2004 del Ministerio de Economía. Exige no afectar las especies naturales del área ni la vida acuática y prevenir condiciones anaeróbicas, acreditado con el proyecto técnico y la CPS o INFA de la Resolución Exenta N° 3.612 de 2009.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "119",
+   "epigrafe": "Permiso para realizar pesca de investigación",
+   "resumen": "Permiso para pesca de investigación necesaria para el seguimiento de poblaciones hidrobiológicas, fundado en el artículo 99 de la Ley General de Pesca y Acuicultura (D.S. N° 430 de 1991). Requiere preservar los recursos hidrobiológicos, acreditando especies objetivo, área, objetivos, arte de pesca, metodología con soporte estadístico, resultados esperados y cronograma.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "120",
+   "epigrafe": "Permiso para iniciar trabajos de construcción, excavación, o para desarrollar actividades que pudieran alterar el estado natural de un Santuario de la Naturaleza",
+   "resumen": "Permiso para construir, excavar o desarrollar actividades que puedan alterar el estado natural de un Santuario de la Naturaleza, fundado en el inciso 3° del artículo 31 de la Ley N° 17.288. Exige preservar ese estado natural, identificando el santuario y la zona a intervenir, las obras o actividades, los componentes ambientales alterables, el tipo y duración de la alteración y las medidas de preservación.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "121",
+   "epigrafe": "Permiso para ejecutar labores mineras en lugares declarados parques nacionales, reservas nacionales o monumentos naturales",
+   "resumen": "Permiso para ejecutar labores mineras en parques nacionales, reservas nacionales o monumentos naturales, fundado en el artículo 17 N° 2 del Código de Minería (Ley N° 18.248). Requiere preservar los ecosistemas intervenidos, acreditando ubicación y superficie, accesos y transporte, labores a realizar, manejo de residuos mineros y líquidos, de combustibles, químicos y explosivos, y control de emisiones.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "122",
+   "epigrafe": "Permiso para ejecutar labores mineras en covaderas o en lugares que hayan sido declarados de interés histórico o científico",
+   "resumen": "Permiso para ejecutar labores mineras en covaderas o en lugares declarados de interés histórico o científico, fundado en el artículo 17 N° 6 del Código de Minería (Ley N° 18.248). Exige conservar el ecosistema asociado, con los mismos antecedentes del art. 121: ubicación y superficie, accesos, labores, manejo de residuos, combustibles y explosivos, y control de emisiones.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "123",
+   "epigrafe": "Permiso para la introducción en el medio natural de especies de fauna silvestre, sea ésta del país o aclimatada, semen, embriones, huevos para incubar y larvas en regiones o áreas del territorio nacional donde no tengan presencia y puedan perturbar el equilibrio ecológico y la conservación del patrimonio ambiental",
+   "resumen": "Permiso para introducir en el medio natural fauna silvestre, semen, embriones, huevos o larvas en zonas donde no tienen presencia, fundado en el inciso 2° del artículo 25 de la Ley de Caza (artículo primero de la Ley N° 19.473). La introducción no debe perturbar el equilibrio ecológico ni la conservación del patrimonio ambiental, lo que se acredita con el propósito, el lugar y ecosistema receptor, antecedentes de la especie y de introducciones previas, métodos de transporte y liberación, medidas de resguardo y cronograma.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "124",
+   "epigrafe": "Permiso para la caza o captura de ejemplares de animales de especies protegidas para controlar la acción de animales que causen graves perjuicios al ecosistema",
+   "resumen": "Permiso para cazar o capturar ejemplares de especies protegidas con el fin de controlar animales que causan graves perjuicios al ecosistema, fundado en el inciso 1° del artículo 9° de la Ley de Caza (artículo primero de la Ley N° 19.473). Exige que la caza o captura sea adecuada para la especie y necesaria, acreditando la gravedad de los perjuicios y un programa de control con especies, número de ejemplares, área, metodología, destino y cronograma.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "125",
+   "epigrafe": "Permiso para la ejecución de labores mineras en sitios donde se han alumbrado aguas subterráneas en terrenos particulares o en aquellos lugares cuya explotación pueda afectar un caudal o la calidad natural del agua",
+   "resumen": "Permiso para labores mineras donde se han alumbrado aguas subterráneas en terrenos particulares o cuya explotación pueda afectar el caudal o la calidad natural del agua, fundado en el artículo 74 del Código Sanitario (D.F.L. N° 725 de 1967). Requiere no afectar caudal ni calidad, identificando usos actuales y previstos del agua, su caracterización físico-química y biológica y la alteración que producirían las labores.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "126",
+   "epigrafe": "Permiso para la construcción, reparación, modificación y ampliación de toda instalación diseñada para el manejo de lodos de plantas de tratamiento de aguas servidas",
+   "resumen": "Permiso para construir, reparar, modificar o ampliar instalaciones de manejo de lodos de plantas de tratamiento de aguas servidas, fundado en el artículo 9° del D.S. N° 4 de 2009 del Ministerio Secretaría General de la Presidencia. Exige garantizar que no habrá riesgos para la salud ni para la calidad del aire, agua y suelo, con la caracterización y clasificación sanitaria de los lodos, el diseño de las unidades, un programa de control de parámetros críticos y planes de contingencia y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "127",
+   "epigrafe": "Permiso para la corta y destrucción del Alerce",
+   "resumen": "Permiso para la corta y destrucción de alerce, fundado en el artículo segundo del D.S. N° 490 de 1976 del Ministerio de Agricultura, que lo declara monumento natural. Solo procede para investigación científica autorizada, obras públicas, defensa nacional o planes de manejo de organismos forestales del Estado, sin afectar la continuidad de la especie; se acredita con antecedentes prediales, tipo y justificación de la intervención, número de ejemplares, medidas de protección y cartografía georreferenciada.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "128",
+   "epigrafe": "Permiso para la corta o explotación de araucarias vivas",
+   "resumen": "Permiso para la corta o explotación de araucarias vivas, fundado en el artículo 2° del D.S. N° 43 de 1990 del Ministerio de Agricultura (declaratoria de la Araucaria araucana como monumento natural). Procede solo para investigación científica autorizada, obras públicas, defensa nacional o planes de manejo estatales destinados a conservar y mejorar la especie, sin afectar su continuidad; exige antecedentes prediales, justificación, número de ejemplares, medidas de protección y cartografía georreferenciada.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "129",
+   "epigrafe": "Permiso para la corta o explotación de Queule -Gomortega keule (Mol.) Baillon-, Pitao -Pitavia punctata (Mol.)-, Belloto del Sur -Beilschmiedia berteroana (Gay) Kostern-, Ruil -Nothofagus alessandrii Espinoza-, Belloto del Norte -Beilschmiedia miersii (Gay) Kostern",
+   "resumen": "Permiso para la corta o explotación de queule, pitao, belloto del sur, belloto del norte y ruil, fundado en el artículo 2 del D.S. N° 13 de 1995 del Ministerio de Agricultura, que los declara monumento natural. Se otorga únicamente para investigación científica autorizada, obras públicas o de defensa nacional, o planes de manejo estatales orientados a mejorar su estado de conservación, sin afectar la continuidad de la especie; requiere antecedentes prediales, justificación, número de ejemplares, medidas de protección y cartografía.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "130",
+   "epigrafe": "Permiso para realizar nuevas explotaciones o mayores extracciones de aguas subterráneas que las autorizadas, en zonas de prohibición que corresponden a acuíferos que alimentan vegas y bofedales en las Regiones de Arica y Parinacota, de Tarapacá y de Antofagasta",
+   "resumen": "Permiso para nuevas explotaciones o mayores extracciones de aguas subterráneas en zonas de prohibición de acuíferos que alimentan vegas y bofedales de Arica y Parinacota, Tarapacá y Antofagasta, fundado en los incisos 3° y 4° del artículo 63 y en el artículo 64 del Código de Aguas (D.F.L. N° 1.122 de 1981). Exige preservar el entorno ecológico de esos humedales y proteger sus acuíferos, acreditando captación, caudal y volumen anual, caracterización de las vegas y del sistema hidrogeológico, efecto esperado, medidas de resguardo y plan de seguimiento.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 2°",
+   "derogado": false
+  },
+  {
+   "num": "131",
+   "epigrafe": "Permiso para realizar trabajos de conservación, reparación o restauración de Monumentos Históricos; para remover objetos que formen parte o pertenezcan a un Monumento Histórico; para destruir, transformar o reparar un Monumento Histórico, o hacer construcciones en sus alrededores; o para excavar o edificar si el Monumento Histórico fuere un lugar o sitio eriazo",
+   "resumen": "Permiso para conservar, reparar, restaurar, transformar o destruir Monumentos Históricos, remover sus objetos, construir en sus alrededores o excavar o edificar en ellos, fundado en los artículos 11 y 12 de la Ley N° 17.288. Exige resguardar los valores que motivaron la declaratoria, con identificación y planos del inmueble, memoria explicativa, antecedentes planimétricos y gráficos, anteproyecto de arquitectura y, si hay demolición, levantamiento y justificación con informe de daños.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "132",
+   "epigrafe": "Permiso para hacer excavaciones de tipo arqueológico, antropológico y paleontológico",
+   "resumen": "Permiso para excavaciones arqueológicas, antropológicas y paleontológicas, fundado en los artículos 22 y 23 de la Ley N° 17.288. Requiere proteger o conservar el patrimonio arqueológico, describiendo sitios o yacimientos y las obras que pueden afectarlos, su caracterización superficial y estratigráfica, los análisis previstos, la propuesta de conservación y el plan de traslado y depósito final de los materiales.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "133",
+   "epigrafe": "Permiso para hacer construcciones nuevas en una zona declarada típica o pintoresca, o para ejecutar obras de reconstrucción o de mera conservación",
+   "resumen": "Permiso para construcciones nuevas u obras de reconstrucción o mera conservación en zonas típicas o pintorescas, fundado en el artículo 30 N° 1 de la Ley N° 17.288. La obra debe guardar relación con el estilo arquitectónico general de la zona y mantener su valor ambiental, lo que se acredita con planos de ubicación y de conjunto, memoria explicativa, antecedentes planimétricos e iconográficos y anteproyecto de arquitectura.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "134",
+   "epigrafe": "Permiso para el emplazamiento de instalaciones nucleares y radiactivas",
+   "resumen": "Permiso para el emplazamiento de instalaciones nucleares y radiactivas, fundado en los artículos 4° y 67 inciso 3° de la Ley N° 18.302, de Seguridad Nuclear. Exige que la exposición a radiaciones ionizantes se mantenga dentro de límites seguros para la salud, con caracterización del sitio, evaluación del impacto radiológico en todas las fases, y medidas para combustible gastado, desechos radiactivos, cierre y desmantelamiento.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "135",
+   "epigrafe": "Permiso para la construcción y operación de depósitos de relaves",
+   "resumen": "Permiso para construir y operar depósitos de relaves, fundado en el artículo 9° del D.S. N° 248 de 2006 del Ministerio de Minería. Requiere asegurar la estabilidad física y química del depósito y su entorno, acreditando ubicación, capacidad, dimensiones y plan de crecimiento, antecedentes geológicos, geotécnicos, hidrológicos y sísmicos, área de riesgo ante colapso del muro y manual de emergencias.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "136",
+   "epigrafe": "Permiso para establecer un botadero de estériles o acumulación de mineral",
+   "resumen": "Permiso para establecer un botadero de estériles o una acumulación de mineral, fundado en el inciso 1° del artículo 339 del Reglamento de Seguridad Minera (D.S. N° 132 de 2002, Minería). Exige estabilidad física y química y máximas medidas de seguridad en construcción y crecimiento, con ubicación, capacidad, cronograma, antecedentes geológicos, geotécnicos e hidrogeológicos, generación de aguas de contacto o ácidas y parámetros de estabilidad.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "137",
+   "epigrafe": "Permiso para la aprobación del plan de cierre de una faena minera",
+   "resumen": "Permiso relativo al plan de cierre de una faena minera, fundado en el artículo 6° de la Ley N° 20.551. Requiere velar por la estabilidad física y química de la faena para resguardar la vida, la salud y el medio ambiente, indicando superficie y ubicación, descripción del entorno y área de influencia, y las medidas y obras destinadas a evitar o eliminar los impactos potenciales.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "138",
+   "epigrafe": "Permiso para la construcción, reparación, modificación y ampliación de cualquier obra pública o particular destinada a la evacuación, tratamiento o disposición final de desagües, aguas servidas de cualquier naturaleza",
+   "resumen": "Permiso para construir, reparar, modificar o ampliar obras de evacuación, tratamiento o disposición final de desagües y aguas servidas, fundado en el artículo 71 letra b) primera parte del Código Sanitario (D.F.L. N° 725 de 1967). La disposición no debe amenazar la salud de la población; se acredita con la descripción y planos del sistema de recolección y tratamiento, generación y características de las aguas, disposición del efluente, manejo de lodos, programa de monitoreo y planes de contingencia y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "139",
+   "epigrafe": "Permiso para la construcción, reparación, modificación y ampliación de cualquier obra pública o particular destinada a la evacuación, tratamiento o disposición final de residuos industriales o mineros",
+   "resumen": "Permiso para construir, reparar, modificar o ampliar obras de evacuación, tratamiento o disposición final de residuos industriales o mineros, fundado en el artículo 71 letra b) segunda parte del Código Sanitario. Exige que la descarga no deteriore el cuerpo receptor al punto de arriesgar la salud de la población, con caracterización de los residuos líquidos y caudales, diseño del sistema de tratamiento, monitoreo de parámetros críticos, descripción del cuerpo receptor y sus usos, efecto esperado de la descarga, manejo de lodos y planes de contingencia y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "140",
+   "epigrafe": "Permiso para la construcción, reparación, modificación y ampliación de cualquier planta de tratamiento de basuras y desperdicios de cualquier clase o para la instalación de todo lugar destinado a la acumulación, selección, industrialización, comercio o disposición final de basuras y desperdicios de cualquier clase",
+   "resumen": "Permiso para plantas de tratamiento de basuras y desperdicios o lugares de acumulación, selección, industrialización, comercio o disposición final, fundado en los artículos 79 y 80 del Código Sanitario, siempre que no aplique otro permiso sectorial por la misma acción. Requiere condiciones de saneamiento y seguridad que eviten riesgo para la salud, con descripción del sitio, caracterización de residuos, diseño de la planta, control de emisiones, planes de verificación, contingencia y emergencia, más exigencias específicas para estaciones de transferencia, residuos orgánicos, incineración y almacenamiento.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "141",
+   "epigrafe": "Permiso para la construcción, reparación, modificación y ampliación de relleno sanitario",
+   "resumen": "Permiso para construir, reparar, modificar o ampliar un relleno sanitario, fundado en el artículo 5° del D.S. N° 189 de 2005 del Ministerio de Salud. Exige que la instalación no afecte la salud, el bienestar ni la seguridad de la población, mediante descripción del sitio, diseño de ingeniería y planes de operación, contingencias, cierre, y monitoreo y control.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "142",
+   "epigrafe": "Permiso para todo sitio destinado al almacenamiento de residuos peligrosos",
+   "resumen": "Permiso para sitios de almacenamiento de residuos peligrosos, fundado en el artículo 29 del D.S. N° 148 de 2003 del Ministerio de Salud. El almacenamiento no debe afectar aguas, suelo ni aire de modo que arriesgue la salud; se acredita con descripción y características constructivas del sitio, clases y cantidades de residuos, capacidad y período de almacenamiento, retención de derrames y planes de contingencia y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "143",
+   "epigrafe": "Permiso para el transporte e instalaciones necesarias para la operación del sistema de transporte de residuos peligrosos",
+   "resumen": "Permiso para el transporte de residuos peligrosos y las instalaciones necesarias para operar el sistema, fundado en el artículo 36 del D.S. N° 148 de 2003 del Ministerio de Salud. Requiere que no se afecte la calidad de aguas, suelo y aire con riesgo para la salud, identificando vehículos, clases y cantidades de residuos, instalaciones y equipos de limpieza y descontaminación georreferenciados, y planes de contingencia y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "144",
+   "epigrafe": "Permiso para instalaciones de eliminación de residuos peligrosos",
+   "resumen": "Permiso para instalaciones de eliminación de residuos peligrosos, fundado en el artículo 44 del D.S. N° 148 de 2003 del Ministerio de Salud. Exige que la instalación no afecte agua, aire ni suelo con riesgo para la salud, con antecedentes generales (sitio, impermeabilización, residuos, procesos, medidas de control, planes de operación, verificación, contingencias y cierre) y requisitos adicionales para rellenos de seguridad, incineración, minas subterráneas y residuos especiales.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "145",
+   "epigrafe": "Permiso para el sitio de reciclaje de residuos peligrosos",
+   "resumen": "Permiso para el sitio de reciclaje de residuos peligrosos, fundado en el artículo 52 del D.S. N° 148 de 2003 del Ministerio de Salud. Requiere que el reciclaje no genere riesgo para la salud, acreditando diseño de unidades y equipos, tipos y cantidades de residuos admitidos, operaciones de manejo, plan de verificación, plan de contingencias, manual de procedimientos y plan de cierre.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "146",
+   "epigrafe": "Permiso para la caza o captura de ejemplares de animales de especies protegidas para fines de investigación, para el establecimiento de centros de reproducción o criaderos y para la utilización sustentable del recurso",
+   "resumen": "Permiso para cazar o capturar ejemplares de especies protegidas con fines de investigación, de centros de reproducción o criaderos, o de utilización sustentable, fundado en el inciso 1° del artículo 9° de la Ley N° 4.601 sobre Caza, modificada por la Ley N° 19.473. La caza o captura debe ser adecuada para la especie y necesaria para esos fines, acreditada con el proyecto respectivo (especies y número de ejemplares, estado de las poblaciones, metodologías, lugares, transporte, cautiverio y cronograma) y, para uso sustentable, un estudio poblacional censal.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "147",
+   "epigrafe": "Permiso para la recolección de huevos y crías con fines científicos o de reproducción",
+   "resumen": "Permiso para recolectar huevos y crías con fines científicos o de reproducción, fundado en el artículo 5° de la Ley de Caza (artículo primero de la Ley N° 19.473). Exige acreditar ese fin y que la recolección sea adecuada para la especie, mediante un proyecto con especies y número de ejemplares, estado de las poblaciones, metodologías, lugares de captura y destino, condiciones de transporte y cautiverio y cronograma.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "148",
+   "epigrafe": "Permiso para corta de bosque nativo",
+   "resumen": "Permiso para la corta de bosque nativo necesaria para ejecutar un proyecto del art. 3 (salvo los del literal m.1), fundado en el artículo 5° de la Ley N° 20.283. Exige reforestar o regenerar al menos una superficie igual a la cortada, con especies del mismo tipo forestal, acreditando antecedentes prediales, obras asociadas, área y especies a intervenir, condiciones de la reforestación, medidas de protección y cartografía georreferenciada.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "149",
+   "epigrafe": "Permiso para la corta de plantaciones en terrenos de aptitud preferentemente forestal",
+   "resumen": "Permiso para la corta de plantaciones en terrenos de aptitud preferentemente forestal necesaria para un proyecto del art. 3 (salvo los del literal m.1), fundado en el artículo 21 del Decreto Ley N° 701 de 1974. Requiere reforestar una superficie al menos igual a la cortada o explotada, con antecedentes prediales, descripción de obras, área y especies, condiciones de la reforestación, medidas de protección y cartografía georreferenciada.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "150",
+   "epigrafe": "Permiso para la intervención de especies vegetales nativas clasificadas de conformidad con el artículo 37 de la Ley Nº 19.300, que formen parte de un bosque nativo, o alteración de su hábitat",
+   "resumen": "Permiso para intervenir especies vegetales nativas clasificadas según el artículo 37 de la Ley N° 19.300 que formen parte de un bosque nativo, o alterar su hábitat, fundado en el artículo 19 de la Ley N° 20.283. La intervención debe ser imprescindible y no amenazar la continuidad de la especie a nivel de cuenca; se acredita el fin científico o sanitario o la declaratoria de interés nacional, la justificación, las especies e individuos afectados con su estado de conservación, un informe de experto con medidas de continuidad, cartografía y condiciones de reforestación.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "151",
+   "epigrafe": "Permiso para la corta, destrucción o descepado de formaciones xerofíticas",
+   "resumen": "Permiso para la corta, destrucción o descepado de formaciones xerofíticas necesaria para un proyecto del art. 3 (salvo el literal m.1), fundado en el artículo 60 de la Ley N° 20.283 y en el artículo 3° del D.S. N° 93 de 2008 del Ministerio de Agricultura. Exige asegurar la diversidad biológica, con antecedentes prediales, descripción de obras, del área y de la formación a intervenir, medidas de protección y de resguardo de la biodiversidad y cartografía georreferenciada.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "152",
+   "epigrafe": "Permiso para el manejo de bosque nativo de preservación que corresponda a ambientes únicos o representativos de la diversidad biológica natural del país",
+   "resumen": "Permiso para el manejo de bosque nativo de preservación en ambientes únicos o representativos de la diversidad biológica del país, fundado en el artículo 2° número 4 de la Ley N° 20.283 y en el artículo 4° del D.S. N° 93 de 2008 del Ministerio de Agricultura. El manejo solo puede tener por objeto resguardar esa diversidad, la calidad de las aguas y los suelos, y se acredita con antecedentes prediales, objetivos de preservación, tratamiento silvícola, programa de actividades, medidas de protección, monitoreo y cartografía.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "153",
+   "epigrafe": "Permiso para la corta de árboles y/o arbustos aislados ubicados en áreas declaradas de protección",
+   "resumen": "Permiso para la corta de árboles o arbustos aislados en áreas declaradas de protección, fundado en el artículo 4° de la Ley N° 18.378. Requiere no afectar el valor paisajístico y asegurar la protección de quebradas cuando corresponda, con antecedentes prediales, descripción de las obras, del área y de las especies a intervenir, medidas de protección y cartografía georreferenciada.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "154",
+   "epigrafe": "Permiso para realizar exploraciones en terrenos públicos o privados de zonas que alimenten vegas o bofedales en las Regiones de Arica y Parinacota, Tarapacá y de Antofagasta",
+   "resumen": "Permiso para exploraciones de aguas subterráneas en terrenos que alimentan vegas o bofedales de Arica y Parinacota, Tarapacá y Antofagasta, fundado en el inciso 5° del artículo 58 del Código de Aguas (D.F.L. N° 1.122 de 1981). Exige preservar el entorno ecológico de esos humedales y proteger sus acuíferos, acreditando plano y extensión a explorar, identificación y características de las vegas, su régimen de alimentación, el efecto esperado y las medidas de resguardo.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "155",
+   "epigrafe": "Permiso para la construcción de ciertas obras hidráulicas",
+   "resumen": "Permiso para la construcción de ciertas obras hidráulicas, fundado en el artículo 294 del Código de Aguas (D.F.L. N° 1.122 de 1981). Requiere no contaminar las aguas, con descripción de la obra, estudios de topografía, geología, hidrología e hidráulica, análisis de calidad de aguas con y sin proyecto, medidas preventivas y planes de seguimiento, contingencia, prevención y acción.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "156",
+   "epigrafe": "Permiso para efectuar modificaciones de cauce",
+   "resumen": "Permiso para modificaciones de cauce que no sean obras de regularización o defensa, fundado en el artículo 41 y en el inciso 1° del artículo 171 del Código de Aguas. Exige no afectar la vida o salud de los habitantes evitando contaminar las aguas, con descripción del lugar, de la obra y sus fases, plazos de construcción, medidas para proteger la calidad aguas abajo y plan de seguimiento durante la construcción.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "157",
+   "epigrafe": "Permiso para efectuar obras de regularización o defensa de cauces naturales",
+   "resumen": "Permiso para obras de regularización o defensa de cauces naturales, fundado en los incisos 1° y 2° del artículo 171 del Código de Aguas. Requiere no alterar significativamente el escurrimiento ni los procesos erosivos del cauce y no contaminar las aguas, acreditado con croquis y plano topográfico georreferenciado, memoria de cálculo hidrológico, hidráulico, de sedimentos y socavaciones, plan de monitoreo y planes de contingencia y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "158",
+   "epigrafe": "Permiso para ejecutar obras para la recarga artificial de acuíferos",
+   "resumen": "Permiso para obras de recarga artificial de acuíferos, fundado en el artículo 66 del Código de Aguas. Exige conservar y proteger el acuífero, describiendo las obras de recarga, la calidad física y química de las aguas a infiltrar y del sector influenciado, las características geológicas e hidrogeológicas, y planes de monitoreo y de acción.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "159",
+   "epigrafe": "Permiso para extracción de ripio y arena en los cauces de los ríos y esteros",
+   "resumen": "Permiso para extraer ripio y arena de cauces de ríos y esteros, fundado en el artículo 11 de la Ley N° 11.402. La extracción no debe provocar erosiones ni aluviones en terrenos ribereños por cambio de curso de las aguas; se acredita con plano topográfico georreferenciado, memoria de cálculo hidrológico, hidráulico y de sedimentos, programa de explotación y planes de monitoreo, contingencias y emergencia.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "160",
+   "epigrafe": "Permiso para subdividir y urbanizar terrenos rurales o para construcciones fuera de los límites urbanos",
+   "resumen": "Permiso para subdividir y urbanizar terrenos rurales o construir fuera de los límites urbanos (viviendas complementarias a industria, equipamiento, balnearios, viviendas sociales o de hasta 1.000 UF con subsidio, y construcciones industriales o turísticas), fundado en los incisos 3° y 4° del artículo 55 de la Ley General de Urbanismo y Construcciones (D.F.L. N° 458 de 1975). Exige no originar núcleos urbanos al margen de la planificación ni degradar el suelo, con objeto y destino, planos de ubicación, subdivisión y emplazamiento, plantas esquemáticas, superficie y caracterización del suelo.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 3°",
+   "derogado": false
+  },
+  {
+   "num": "161",
+   "epigrafe": "Calificación de instalaciones industriales y de bodegaje",
+   "resumen": "Pronunciamiento de la autoridad sanitaria sobre la calificación de instalaciones industriales y de bodegaje, fundado en el artículo 4.14.2 de la Ordenanza General de Urbanismo y Construcciones, que debe emitirse durante la evaluación considerando solo las exigencias ambientales. El titular presenta memorias técnicas de construcción y de procesos productivos, plano de planta, anteproyecto de control de contaminación, caracterización de sustancias peligrosas y medidas de control de riesgos; solo es exigible en áreas cuyo instrumento de planificación restringe el uso de suelo según esa calificación.",
+   "obliga_titular": true,
+   "titulo": "Título VII, Párrafo 4°",
+   "derogado": false
+  },
+  {
+   "num": "162",
+   "epigrafe": "Notificaciones",
+   "resumen": "Las notificaciones por carta certificada se dirigen al domicilio de la primera presentación; a proponentes en procedimiento electrónico y a observantes por medios electrónicos se les notifica por correo electrónico, entendiéndose practicada al día siguiente del envío. Los titulares deben informar al SEA los cambios de domicilio o correo, que se comunican a la Superintendencia.",
+   "obliga_titular": true,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "163",
+   "epigrafe": "Cambio de titularidad",
+   "resumen": "Los titulares deben informar los cambios de titularidad o de representación, con antecedentes de vigencia no superior a seis meses; el SEA los comunica a la Superintendencia. En proyectos del art. 18 quáter de la Ley, la titularidad solo puede traspasarse a otra empresa de menor tamaño.",
+   "obliga_titular": true,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "164",
+   "epigrafe": "Ingreso voluntario",
+   "resumen": "Quien somete voluntariamente un proyecto al SEIA queda sujeto a todas las cargas y obligaciones de la Ley y del Reglamento.",
+   "obliga_titular": true,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "165",
+   "epigrafe": "Lugar de presentaciones",
+   "resumen": "Las presentaciones dirigidas a la Comisión de Evaluación o al Comité de Ministros se reciben en la oficina de partes de la Dirección Regional o de la Dirección Ejecutiva del SEA, o por sistema electrónico.",
+   "obliga_titular": false,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "166",
+   "epigrafe": "Funciones del Secretario de la Comisión de Evaluación",
+   "resumen": "El Director Regional del SEA, como Secretario de la Comisión de Evaluación, levanta actas, registra y numera resoluciones, archiva la documentación, certifica y visa, despacha notificaciones y prepara los informes.",
+   "obliga_titular": false,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "167",
+   "epigrafe": "Resoluciones de mero trámite",
+   "resumen": "Previo acuerdo de la Comisión de Evaluación, las resoluciones de mero trámite de los procesos que se sigan ante ella las dicta el Director Regional en su calidad de Secretario.",
+   "obliga_titular": false,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "168",
+   "epigrafe": "Tramitación consecutiva",
+   "resumen": "Si los órganos con competencia ambiental no entregan sus informes dentro de los plazos del Título IV, el procedimiento continúa con los actos siguientes.",
+   "obliga_titular": false,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "169",
+   "epigrafe": "Informes Adicionales",
+   "resumen": "El SEA puede pedir a los organismos del Estado informes adicionales a los previstos en el Reglamento, conforme al art. 37 de la Ley 19.880, para asegurar eficiencia, eficacia, coordinación y unidad de acción.",
+   "obliga_titular": false,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "170",
+   "epigrafe": "Vigencia",
+   "resumen": "El Reglamento entra en vigencia noventa días después de su publicación en el Diario Oficial.",
+   "obliga_titular": false,
+   "titulo": "Título Final",
+   "derogado": false
+  },
+  {
+   "num": "segundo",
+   "epigrafe": "Derogación de los reglamentos anteriores (decreto aprobatorio)",
+   "resumen": "Artículo segundo del decreto: deroga, desde la plena vigencia del nuevo Reglamento, los D.S. N° 30 de 1997 y N° 95 de 2001 del Ministerio Secretaría General de la Presidencia, que contenían el reglamento anterior del SEIA.",
+   "obliga_titular": false,
+   "titulo": "Decreto aprobatorio (fuera del articulado del Reglamento)",
+   "derogado": false
+  },
+  {
+   "num": "1° transitorio",
+   "epigrafe": "Proyectos en evaluación a la entrada en vigencia",
+   "resumen": "Los proyectos cuya evaluación estaba en trámite al entrar en vigencia el decreto continúan bajo el procedimiento vigente a la fecha de su ingreso, incluida la etapa recursiva.",
+   "obliga_titular": false,
+   "titulo": "Artículos transitorios",
+   "derogado": false
+  },
+  {
+   "num": "2° transitorio",
+   "epigrafe": "Planes que se consideran evaluados estratégicamente",
+   "resumen": "Para la letra g) del art. 3 y el art. 15, se tienen por evaluados estratégicamente los planes calificados en el SEIA antes de la Ley 20.417 y los vigentes desde antes de la dictación de la Ley 19.300.",
+   "obliga_titular": false,
+   "titulo": "Artículos transitorios",
+   "derogado": false
+  },
+  {
+   "num": "3° transitorio",
+   "epigrafe": "Permisos sectoriales de proyectos aprobados o en evaluación",
+   "resumen": "A los proyectos ya aprobados o en evaluación al entrar en vigencia el Reglamento se les aplican los permisos ambientales sectoriales, requisitos y contenidos del D.S. N° 30 de 1997 (texto refundido por el D.S. N° 95 de 2001), sin perjuicio de la tramitación sectorial que corresponda.",
+   "obliga_titular": false,
+   "titulo": "Artículos transitorios",
+   "derogado": false
+  },
+  {
+   "num": "4° transitorio",
+   "epigrafe": "Acreditación de inicio de ejecución de proyectos anteriores",
+   "resumen": "Los proyectos calificados favorablemente antes del 26 de enero de 2010 y no ejecutados debían acreditar ante el SEA, antes del 26 de enero de 2015, las gestiones o faenas mínimas de inicio de ejecución, bajo las consecuencias del art. 25 ter de la Ley. Los calificados entre esa fecha y la vigencia del Reglamento deben hacerlo dentro de cinco años desde la notificación de su RCA.",
+   "obliga_titular": true,
+   "titulo": "Artículos transitorios",
+   "derogado": false
+  },
+  {
+   "num": "5° transitorio",
+   "epigrafe": "Organismos genéticamente modificados de bajo riesgo",
+   "resumen": "Mientras no se dicte el reglamento de la letra r) del art. 10 de la Ley, se consideran de comprobado bajo riesgo ambiental, y excluidos del SEIA, los organismos genéticamente modificados con autorización e informe favorable del SAG conforme a la Resolución Exenta N° 1.523 de 2001 o la que la reemplace.",
+   "obliga_titular": false,
+   "titulo": "Artículos transitorios",
+   "derogado": false
+  },
+  {
+   "num": "6° transitorio",
+   "epigrafe": "Competencia transitoria sobre Santuarios de la Naturaleza",
+   "resumen": "Hasta la publicación de la ley del Servicio de Biodiversidad y Áreas Protegidas, el Consejo de Monumentos Nacionales conserva la potestad de autorizar las obras o actividades que puedan alterar un santuario de la naturaleza en los términos del art. 120.",
+   "obliga_titular": false,
+   "titulo": "Artículos transitorios",
+   "derogado": false
+  }
+ ],
+ "estructura": [
+  {
+   "titulo": "Título I",
+   "nombre": "Disposiciones generales",
+   "arts": "1-3",
+   "parrafos": []
+  },
+  {
+   "titulo": "Título II",
+   "nombre": "De la generación o presencia de efectos, características o circunstancias que dan origen a la necesidad de presentar un Estudio de Impacto Ambiental",
+   "arts": "4-11",
+   "parrafos": []
+  },
+  {
+   "titulo": "Título III",
+   "nombre": "De los contenidos de los Estudios y Declaraciones de Impacto Ambiental",
+   "arts": "12-19",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Contenidos Mínimos Comunes de los Estudios y Declaraciones de Impacto Ambiental",
+     "arts": "12-17"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "Del contenido mínimo de los Estudios de Impacto Ambiental",
+     "arts": "18"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Del contenido mínimo de las Declaraciones de Impacto Ambiental",
+     "arts": "19"
+    }
+   ]
+  },
+  {
+   "titulo": "Título IV",
+   "nombre": "Del procedimiento de evaluación de impacto ambiental",
+   "arts": "20-81",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Normas comunes",
+     "arts": "20-27"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De la iniciación del procedimiento de Evaluación de Impacto Ambiental",
+     "arts": "28-34"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "De la instrucción del procedimiento de evaluación de los Estudios de Impacto Ambiental",
+     "arts": "35-46"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "De la instrucción del procedimiento de evaluación de las Declaraciones de Impacto Ambiental",
+     "arts": "47-58"
+    },
+    {
+     "parrafo": "Párrafo 5°",
+     "nombre": "De la finalización del procedimiento de evaluación ambiental",
+     "arts": "59-66"
+    },
+    {
+     "parrafo": "Párrafo 6°",
+     "nombre": "Procedimientos Especiales",
+     "arts": "67-70"
+    },
+    {
+     "parrafo": "Párrafo 7°",
+     "nombre": "De la ejecución de la Resolución de Calificación Ambiental",
+     "arts": "71-76"
+    },
+    {
+     "parrafo": "Párrafo 8°",
+     "nombre": "De las Reclamaciones",
+     "arts": "77-81"
+    }
+   ]
+  },
+  {
+   "titulo": "Título V",
+   "nombre": "De la participación de la comunidad en el proceso de evaluación de impacto ambiental",
+   "arts": "82-96",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Normas generales",
+     "arts": "82-87"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "Participación ciudadana en los Estudios de Impacto Ambiental",
+     "arts": "88-92"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Participación ciudadana en las Declaraciones de Impacto Ambiental",
+     "arts": "93-96"
+    }
+   ]
+  },
+  {
+   "titulo": "Título VI",
+   "nombre": "De los planes de medidas, seguimiento y fiscalización ambientales",
+   "arts": "97-106",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Del Plan de Medidas de Mitigación, Reparación y Compensación Ambiental",
+     "arts": "97-101"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "Del Plan de Prevención de Contingencias y del Plan de Emergencias",
+     "arts": "102-104"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "Del Plan de Seguimiento de las variables ambientales",
+     "arts": "105"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "De la Fiscalización",
+     "arts": "106"
+    }
+   ]
+  },
+  {
+   "titulo": "Título VII",
+   "nombre": "De los permisos y pronunciamientos ambientales sectoriales",
+   "arts": "107-161",
+   "parrafos": [
+    {
+     "parrafo": "Párrafo 1°",
+     "nombre": "Normas generales",
+     "arts": "107-110"
+    },
+    {
+     "parrafo": "Párrafo 2°",
+     "nombre": "De los permisos ambientales sectoriales de contenidos únicamente ambientales",
+     "arts": "111-130"
+    },
+    {
+     "parrafo": "Párrafo 3°",
+     "nombre": "De los permisos ambientales sectoriales mixtos",
+     "arts": "131-160"
+    },
+    {
+     "parrafo": "Párrafo 4°",
+     "nombre": "De los pronunciamientos",
+     "arts": "161"
+    }
+   ]
+  },
+  {
+   "titulo": "Título Final",
+   "nombre": "Título Final (sin denominación propia)",
+   "arts": "162-170",
+   "parrafos": []
+  },
+  {
+   "titulo": "Artículos transitorios",
+   "nombre": "Disposiciones transitorias",
+   "arts": "1° transitorio-6° transitorio",
+   "parrafos": []
+  }
+ ]
+}

@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enjambre Regulatorio Ambiental</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Plan: aplicación de una pantalla. Barra superior institucional, filtros a la izquierda,
+   lienzo central (grafo / línea de tiempo / ley / permisos / listado) y ficha de la norma a la derecha.
+   Motivo propio: celdas hexagonales (panal) para la Ley 19.300 y para la marca. */
+:root{
+  --navy:#0B2A4A; --verde:#1B7A4B; --verde-2:#0F5C37; --ambar:#D99A00;
+  --fondo:#F2F6F3; --panel:#FFFFFF; --panel-2:#E9F0EB; --linea:#CFDBD3;
+  --texto:#13251C; --texto-2:#4A5D53; --texto-3:#5E7067; --sobre-navy:#F3F8F5;
+  --foco:#D99A00; --malo:#B3412E; --ok:#1B7A4B; --celda-t:#FFFFFF;
+  --f-display:"Archivo","Arial Narrow",Arial,sans-serif; --f-body:"Open Sans",Arial,Helvetica,sans-serif;
+  --c-nucleo:#D99A00; --c-inst:#2F5FA8; --c-seia:#7B4FB3; --c-calidad:#1590A8; --c-bio:#2E8B57;
+  --c-residuos:#A8632A; --c-clima:#D0503F; --c-territorio:#5E7480; --c-tratados:#BF3F86;
+  --sombra:0 1px 2px rgba(11,42,74,.08),0 6px 20px rgba(11,42,74,.07);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --navy:#081C31; --verde:#3FB57A; --verde-2:#2A8F5E; --ambar:#F0B429;
+    --fondo:#0D1713; --panel:#14211B; --panel-2:#1B2C24; --linea:#2B4035;
+    --texto:#E6EFE9; --texto-2:#A9BCB1; --texto-3:#8FA398; --sobre-navy:#E6EFE9; --ok:#56BA82; --malo:#EC7A6A; --celda-t:#0D1713;
+    --c-nucleo:#F0B429; --c-inst:#6C97DC; --c-seia:#A886DC; --c-calidad:#44BAD0; --c-bio:#56BA82;
+    --c-residuos:#D18F58; --c-clima:#EC7A6A; --c-territorio:#92A8B4; --c-tratados:#E272B0;
+    --sombra:0 1px 2px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --navy:#081C31; --verde:#3FB57A; --verde-2:#2A8F5E; --ambar:#F0B429;
+  --fondo:#0D1713; --panel:#14211B; --panel-2:#1B2C24; --linea:#2B4035;
+  --texto:#E6EFE9; --texto-2:#A9BCB1; --texto-3:#8FA398; --sobre-navy:#E6EFE9; --ok:#56BA82; --malo:#EC7A6A; --celda-t:#0D1713;
+  --c-nucleo:#F0B429; --c-inst:#6C97DC; --c-seia:#A886DC; --c-calidad:#44BAD0; --c-bio:#56BA82;
+  --c-residuos:#D18F58; --c-clima:#EC7A6A; --c-territorio:#92A8B4; --c-tratados:#E272B0;
+  --sombra:0 1px 2px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--fondo);color:var(--texto);font-family:var(--f-body);font-size:14px;line-height:1.45;display:flex;flex-direction:column;overflow:hidden}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--verde)}
+:focus-visible{outline:2px solid var(--foco);outline-offset:2px}
+h1,h2,h3,h4{font-family:var(--f-display);margin:0;text-wrap:balance}
+
+/* Barra superior */
+.top{background:var(--navy);color:var(--sobre-navy);display:flex;align-items:center;gap:16px;padding:10px 16px;flex-wrap:wrap}
+.marca{display:flex;align-items:center;gap:10px;min-width:0}
+.marca svg{flex:none}
+.marca h1{font-size:19px;font-weight:800;letter-spacing:.2px;line-height:1.1}
+.marca p{margin:0;font-size:12px;opacity:.8}
+.buscador{position:relative;flex:1 1 260px;max-width:520px;margin-left:auto}
+.buscador input{width:100%;padding:8px 12px 8px 34px;border-radius:8px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1);color:var(--sobre-navy)}
+.buscador input::placeholder{color:rgba(243,248,245,.65)}
+.buscador svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);opacity:.7}
+.resultados{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--panel);color:var(--texto);border:1px solid var(--linea);border-radius:10px;box-shadow:var(--sombra);max-height:60vh;overflow:auto;z-index:50;display:none}
+.resultados.abierto{display:block}
+.resultados button{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--linea);padding:8px 12px}
+.resultados button:hover,.resultados button:focus-visible{background:var(--panel-2)}
+.resultados .r-t{font-weight:600}
+.resultados .r-s{font-size:12px;color:var(--texto-2)}
+.resultados .vacio{padding:12px;color:var(--texto-2)}
+
+.tabs{background:var(--panel);border-bottom:1px solid var(--linea);display:flex;gap:2px;padding:0 12px;overflow-x:auto;flex:none}
+.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;font-family:var(--f-display);font-weight:600;font-size:14px;color:var(--texto-2);white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--verde);border-bottom-color:var(--verde)}
+.tabs .sep{flex:1}
+.tabs .btn-filtros{display:none}
+
+.cuerpo{--wl:248px;--wf:410px;flex:1;min-height:0;display:grid;grid-template-columns:var(--wl) minmax(0,1fr) var(--wf)}
+.cuerpo.sin-lateral{--wl:0px}
+.cuerpo.sin-ficha{--wf:0px}
+.cuerpo.sin-lateral .lateral,.cuerpo.sin-ficha .ficha{padding:0;border:0;overflow:hidden;visibility:hidden}
+.asa{position:absolute;top:50%;transform:translateY(-50%);z-index:30;background:var(--panel);border:1px solid var(--linea);box-shadow:var(--sombra);padding:12px 6px;display:flex;flex-direction:column;align-items:center;gap:8px;font-family:var(--f-display);font-weight:600;font-size:12.5px;color:var(--texto)}
+.asa:hover{background:var(--panel-2)}
+.asa .t{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
+.asa .f{font-size:15px;line-height:1}
+.asa-izq{left:0;border-left:0;border-radius:0 10px 10px 0}
+.asa-der{right:0;border-right:0;border-radius:10px 0 0 10px}
+.lateral{background:var(--panel);border-right:1px solid var(--linea);overflow:auto;padding:14px}
+.lateral h3{font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:var(--texto-3);margin:14px 0 6px}
+.lateral h3:first-child{margin-top:0}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kpi{background:var(--panel-2);border-radius:8px;padding:8px 10px}
+.kpi b{display:block;font-family:var(--f-display);font-size:22px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.kpi span{font-size:11px;color:var(--texto-2)}
+.fam{display:flex;align-items:center;gap:8px;width:100%;background:none;border:0;padding:5px 6px;border-radius:6px;text-align:left}
+.fam:hover{background:var(--panel-2)}
+.fam .p{width:12px;height:12px;border-radius:50%;flex:none}
+.fam .n{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--texto-3);font-size:12px}
+.fam[aria-pressed="false"]{opacity:.38}
+.lateral select{width:100%;padding:6px 8px;border:1px solid var(--linea);border-radius:6px;background:var(--panel)}
+.lateral label.chk{display:flex;gap:8px;align-items:flex-start;padding:4px 0}
+.aviso-filtros{background:var(--panel-2);border-left:3px solid var(--ambar);border-radius:0 8px 8px 0;padding:7px 9px;font-size:12px;color:var(--texto-2);margin:0 0 12px}
+.filtros-on{font-size:12.5px;color:var(--texto-2);background:var(--panel-2);border-radius:8px;padding:6px 10px;margin:0 0 12px;display:inline-block}
+.linkbtn{background:none;border:0;color:var(--verde);padding:4px 0;text-decoration:underline}
+.rel-ley{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--texto-2);padding:2px 0}
+.rel-ley i{width:22px;height:0;border-top:2px solid;display:inline-block}
+
+.lienzo{position:relative;min-width:0;min-height:0;overflow:hidden}
+.vista{position:absolute;inset:0;display:none;overflow:auto}
+.vista.activa{display:block}
+#v-enjambre{overflow:hidden}
+#grafo{width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+#grafo:active{cursor:grabbing}
+.nodo circle,.nodo polygon{stroke:var(--panel);stroke-width:1.5}
+.nodo.derogada circle{stroke-dasharray:3 2;stroke:var(--texto-3);fill-opacity:.45}
+.nodo text{font-family:var(--f-body);font-size:10.5px;fill:var(--texto);paint-order:stroke;stroke:var(--fondo);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.nodo{cursor:pointer}
+.nodo.sel circle,.nodo.sel polygon{stroke:var(--texto);stroke-width:3}
+.arista{stroke-opacity:.28;fill:none;vector-effect:non-scaling-stroke}
+.atenuado{opacity:.08}
+.arista.viva{stroke-opacity:.95;stroke-width:2}
+.flot{position:absolute;background:var(--panel);border:1px solid var(--linea);border-radius:10px;box-shadow:var(--sombra)}
+.tiempo-ctl{left:12px;right:12px;bottom:12px;padding:10px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.tiempo-ctl input[type=range]{flex:1 1 180px;accent-color:var(--verde)}
+.tiempo-ctl .anio{font-family:var(--f-display);font-weight:800;font-size:22px;font-variant-numeric:tabular-nums;min-width:56px}
+.tiempo-ctl .cta{font-size:12px;color:var(--texto-2);flex:1 1 200px}
+.btn{background:var(--verde);color:#fff;border:0;border-radius:8px;padding:7px 12px;font-weight:600}
+.btn.sec{background:var(--panel-2);color:var(--texto);border:1px solid var(--linea)}
+.zoom-ctl{right:12px;top:12px;display:flex;flex-direction:column;overflow:hidden}
+.zoom-ctl button{background:none;border:0;border-bottom:1px solid var(--linea);width:34px;height:34px;font-size:18px}
+.zoom-ctl button:last-child{border-bottom:0}
+.ayuda{left:44px;top:12px;padding:8px 12px;font-size:12px;color:var(--texto-2);max-width:340px}
+.tip{position:fixed;pointer-events:none;background:var(--navy);color:var(--sobre-navy);padding:6px 10px;border-radius:6px;font-size:12px;max-width:300px;z-index:80;display:none}
+.tip b{display:block}
+
+/* Línea de tiempo */
+.pad{padding:18px 20px 40px}
+.pad h2{font-size:20px;margin-bottom:4px}
+.pad .bajada{color:var(--texto-2);max-width:70ch;margin:0 0 14px}
+#svg-tiempo{display:block}
+.eje text{font-size:11px;fill:var(--texto-2);font-family:var(--f-body)}
+.eje line,.eje path{stroke:var(--linea)}
+.carril-t{font-family:var(--f-display);font-size:12px;font-weight:600;fill:var(--texto-2)}
+.hito line{stroke:var(--texto-3);stroke-dasharray:4 3}
+.hito text{font-size:11px;fill:var(--texto-2);font-weight:600}
+
+/* Ley 19.300 */
+.ley-grid{display:flex;flex-direction:column;gap:12px}
+.ley-sec{background:var(--panel);border:1px solid var(--linea);border-radius:12px;padding:12px 14px}
+.ley-sec h3{font-size:13.5px;margin-bottom:8px}
+.ley-tit{font-size:16px;margin:10px 0 -6px;color:var(--verde)}
+.ley-sec h3 small{font-family:var(--f-body);font-weight:400;color:var(--texto-3);margin-left:6px}
+.celdas{display:flex;flex-wrap:wrap;gap:6px}
+.celda{position:relative;min-width:52px;height:46px;padding:0 8px;border:0;color:var(--celda-t);font-family:var(--f-display);font-weight:700;font-size:13px;clip-path:polygon(12% 0,88% 0,100% 50%,88% 100%,12% 100%,0 50%);display:grid;place-items:center}
+.celda.derog{opacity:.4;text-decoration:line-through}
+.celda.hab::after{content:"";position:absolute;top:6px;right:14%;width:7px;height:7px;border-radius:50%;background:var(--celda-t)}
+.celda.sel{filter:brightness(1.25);transform:scale(1.12)}
+.celda:hover{filter:brightness(1.15)}
+.leyenda{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 14px;font-size:12px;color:var(--texto-2)}
+.leyenda span{display:inline-flex;align-items:center;gap:6px}
+.leyenda i{width:11px;height:11px;border-radius:3px;display:inline-block}
+
+/* Permisos */
+.pas-grupo{margin-bottom:18px}
+.pas-grupo h3{font-size:14px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.pas-grupo h3 .n{background:var(--panel-2);border-radius:20px;padding:1px 9px;font-size:12px;font-family:var(--f-body)}
+.pas-lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
+.pas{background:var(--panel);border:1px solid var(--linea);border-left:4px solid var(--c-seia);border-radius:8px;padding:9px 11px;text-align:left;display:flex;flex-direction:column;gap:4px}
+.pas.mixto{border-left-color:var(--c-territorio)}
+.pas:hover{box-shadow:var(--sombra)}
+.pas .a{font-family:var(--f-display);font-weight:700;font-size:12px;color:var(--texto-3)}
+.pas .nf{font-size:12px;color:var(--texto-2)}
+.pill{display:inline-block;border-radius:20px;padding:1px 8px;font-size:11px;font-weight:600;background:var(--panel-2);color:var(--texto-2);border:1px solid var(--linea)}
+.pill.ok{color:var(--ok);border-color:var(--ok)}
+.pill.mal{color:var(--malo);border-color:var(--malo)}
+.pill.oblig{color:var(--ambar);border-color:var(--ambar)}
+
+@media (min-width:921px){ .vista .pad{padding-left:46px;padding-right:46px} .sim-barra{margin-left:-46px;margin-right:-46px;padding-left:46px;padding-right:46px} }
+.vacio-vista{background:var(--panel);border:1px dashed var(--linea);border-radius:12px;padding:18px;color:var(--texto-2);margin:12px 0;max-width:560px}
+.vacio-vista .btn{margin-top:10px}
+#vacio-grafo{left:50%;top:40%;transform:translate(-50%,-50%);padding:16px 18px;max-width:420px;display:none;color:var(--texto-2)}
+.limpiar-f{width:100%;margin:0 0 12px}
+.lst td{overflow-wrap:break-word}
+#tabla{font-size:13px}
+#tabla th,#tabla td{padding:6px 6px}
+.mat.estrecha th,.mat.estrecha td{padding:6px 5px;font-size:12.5px}
+.mat.estrecha th{letter-spacing:0}
+#tabla .pill{white-space:nowrap}
+#tabla td.num{white-space:nowrap}
+#tabla td:first-child{white-space:normal;max-width:150px}
+.lst th[aria-sort]::after{content:" ▲";font-size:10px}
+.lst th[aria-sort="descending"]::after{content:" ▼"}
+.lst tbody tr.sel{background:color-mix(in srgb,var(--verde) 12%,var(--panel))}
+.mat{table-layout:auto}
+.mat td:first-child,.mat th:first-child{position:sticky;left:0;background:var(--panel);z-index:1}
+.mat th:first-child{background:var(--panel-2)}
+.mat td.c.nulo{cursor:default;color:var(--texto-3)}
+.mat td.c.nulo:hover{outline:0}
+.saltos{display:flex;gap:6px;flex-wrap:wrap;margin:-4px 0 12px}
+.saltos button{background:var(--panel-2);border:1px solid var(--linea);border-radius:20px;padding:3px 10px;font-size:12px}
+.pas.dest{box-shadow:0 0 0 3px var(--ambar)}
+.resultados .r-g{padding:6px 12px 3px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--texto-3);background:var(--panel-2)}
+.resultados button.act{background:var(--panel-2)}
+.lateral .cerrar-lat{display:none}
+@media (max-width:920px){ .lateral .cerrar-lat{display:block;margin:0 0 10px auto} .fam{min-height:40px} }
+/* Simulador */
+h3.sub{font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:var(--texto-3);margin:18px 0 8px}
+h3.sub small{text-transform:none;letter-spacing:0;font-family:var(--f-body);font-weight:400;margin-left:6px}
+.sim-tipos{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.sim-t{background:var(--panel);border:1.5px solid var(--linea);border-radius:10px;padding:10px 12px;text-align:left;font-weight:600;line-height:1.3}
+.sim-t small{display:block;font-weight:400;color:var(--texto-2);font-size:12px;margin-top:3px}
+.sim-t[aria-pressed="true"]{border-color:var(--verde);background:color-mix(in srgb,var(--verde) 12%,var(--panel));box-shadow:0 0 0 1px var(--verde) inset}
+.sim-conds{display:flex;flex-wrap:wrap;gap:8px}
+.sim-c{background:var(--panel);border:1.5px solid var(--linea);border-radius:20px;padding:6px 13px}
+.sim-c[aria-pressed="true"]{border-color:var(--ambar);background:color-mix(in srgb,var(--ambar) 16%,var(--panel));font-weight:600}
+.sim-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0 12px}
+.sim-kpis .kpi{background:var(--navy);color:var(--sobre-navy)}
+.sim-kpis .kpi span{color:var(--sobre-navy);opacity:.8}
+.sim-caja{background:var(--panel);border:1px solid var(--linea);border-radius:12px;padding:12px 14px;margin-bottom:12px}
+.sim-caja h4{font-family:var(--f-display);font-size:14px;margin:0 0 8px}
+.sim-caja ul{margin:0;padding-left:18px;color:var(--texto-2)}
+.sim-fam{display:flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:700;font-size:13px;margin:14px 0 6px}
+.sim-fam i{width:11px;height:11px;border-radius:50%}
+.sim-n{display:block;width:100%;text-align:left;background:var(--panel);border:1px solid var(--linea);border-radius:8px;padding:8px 11px;margin-bottom:5px}
+.sim-n:hover{box-shadow:var(--sombra)}
+.sim-n .cab{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.sim-n .mot{display:block;font-size:12.5px;color:var(--texto-2);margin-top:3px}
+.sim-n .mot b{color:var(--texto)}
+.pill.siempre{color:#fff;background:var(--verde);border-color:var(--verde)}
+.sim-vacio{background:var(--panel);border:1px dashed var(--linea);border-radius:12px;padding:18px;color:var(--texto-2);margin-top:16px}
+.chip-sim{left:44px;top:12px;padding:7px 10px;display:none;align-items:center;gap:8px;font-size:12.5px;z-index:5}
+.chip-sim.on{display:flex}
+h3.sub:first-of-type{margin-top:6px}
+.sim-barra{position:sticky;bottom:0;margin:18px -20px -40px;padding:12px 20px;background:var(--navy);color:var(--sobre-navy);display:flex;align-items:center;gap:14px;flex-wrap:wrap;box-shadow:0 -4px 16px rgba(11,42,74,.18);z-index:6}
+.sim-barra .res{flex:1 1 260px;font-size:13.5px}
+.sim-barra .res b{font-family:var(--f-display);font-size:19px;font-weight:800;margin-right:3px}
+.sim-barra .btn[disabled]{opacity:.45;cursor:not-allowed}
+.sim-barra .btn.sec{background:transparent;color:var(--sobre-navy);border-color:rgba(255,255,255,.4)}
+.modal{position:fixed;inset:0;z-index:90;background:rgba(8,28,49,.55);display:grid;place-items:center;padding:16px}
+.modal[hidden]{display:none}
+.modal-caja{background:var(--fondo);color:var(--texto);border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.35);width:min(980px,100%);max-height:calc(100% - 8px);display:flex;flex-direction:column;overflow:hidden}
+.modal-caja header{background:var(--navy);color:var(--sobre-navy);padding:12px 18px;display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.modal-caja header .btn{white-space:nowrap;flex:none}
+.modal-caja header small{opacity:.75;font-size:12px;text-transform:uppercase;letter-spacing:.7px}
+.modal-caja header h3{font-size:17px;line-height:1.25;margin-top:2px}
+.modal-cuerpo{padding:4px 18px 20px;overflow:auto}
+/* Carga */
+.etapas-barras{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.etb{background:var(--panel);border:1px solid var(--linea);border-radius:10px;padding:10px 12px}
+.etb b{font-family:var(--f-display);font-size:24px;font-weight:800;display:block;line-height:1.1}
+.etb span{font-size:12px;color:var(--texto-2)}
+.etb .barra{height:6px;border-radius:3px;background:var(--verde);margin-top:8px}
+.mat td.c{text-align:center;cursor:pointer;font-variant-numeric:tabular-nums;font-weight:600}
+.mat td.c:hover{outline:2px solid var(--foco);outline-offset:-2px}
+.mat td.c.sel{outline:2px solid var(--texto);outline-offset:-2px}
+.mat th{cursor:default}
+.mat .orgb{background:none;border:0;padding:0;font-weight:700;color:var(--verde);text-decoration:underline;text-align:left}
+.mat .orgb:hover{color:var(--texto)}
+.mat tbody tr{cursor:default}
+@media (max-width:700px){.etapas-barras{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.art-grupo{font-family:var(--f-display);font-size:12.5px;font-weight:700;color:var(--verde);margin:10px 0 2px}
+.art .ver{font-size:12px;margin-left:auto;white-space:nowrap}
+/* Método */
+.prosa{max-width:860px}
+.prosa h3{font-size:15px;margin:20px 0 6px}
+.prosa p,.prosa li{color:var(--texto-2)}
+.prosa li{margin-bottom:6px}
+.met-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:8px 0}
+.met-grid .kpi{background:var(--panel);border:1px solid var(--linea)}
+/* Listado */
+table.lst{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--linea);border-radius:10px;overflow:hidden}
+.lst th,.lst td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--linea);vertical-align:top}
+.lst th{font-family:var(--f-display);font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--texto-3);background:var(--panel-2);cursor:pointer;white-space:nowrap;position:sticky;top:0}
+.lst tbody tr{cursor:pointer}
+.lst tbody tr:hover{background:var(--panel-2)}
+.lst td.num{font-variant-numeric:tabular-nums}
+.tabla-wrap{overflow-x:auto}
+
+/* Ficha */
+.ficha{background:var(--panel);border-left:1px solid var(--linea);overflow:auto;padding:16px}
+.ficha .cerrar{display:none}
+.ficha .vac{color:var(--texto-2)}
+.ficha .vac h2{font-size:17px;color:var(--texto);margin-bottom:6px}
+.f-cab{border-left:5px solid var(--verde);padding-left:12px;margin-bottom:12px}
+.f-cab .ident{font-family:var(--f-display);font-weight:800;font-size:21px;line-height:1.15}
+.f-cab .tit{font-size:12.5px;color:var(--texto-2);margin-top:4px}
+.f-meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
+.f-acc{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.f-acc a{display:inline-flex;align-items:center;gap:6px;background:var(--verde);color:#fff;text-decoration:none;border-radius:8px;padding:7px 12px;font-weight:600}
+.f-acc a.sec{background:var(--panel-2);color:var(--texto);border:1px solid var(--linea)}
+.ficha h4{font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:var(--texto-3);margin:16px 0 6px}
+.ficha p{margin:0 0 8px}
+.aviso{background:color-mix(in srgb,var(--malo) 10%,var(--panel));border-left:3px solid var(--malo);border-radius:0 8px 8px 0;padding:8px 10px}
+.titular{background:var(--panel-2);border-left:3px solid var(--ambar);border-radius:0 8px 8px 0;padding:8px 10px}
+.arts{display:flex;flex-direction:column;gap:6px}
+.art{border:1px solid var(--linea);border-radius:8px;padding:8px 10px}
+.art .h{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.art .h b{font-family:var(--f-display);white-space:nowrap}
+.art .h span.e{font-weight:600}
+.art p{margin:4px 0 0;color:var(--texto-2)}
+.art .hab{font-size:12px;margin-top:4px;color:var(--verde)}
+.art.derog{opacity:.55}
+.art.dest{border-color:var(--ambar);box-shadow:0 0 0 2px var(--ambar) inset}
+.filtro-art{width:100%;padding:6px 8px;border:1px solid var(--linea);border-radius:6px;background:var(--panel);margin-bottom:8px}
+.rels{display:flex;flex-direction:column;gap:4px}
+.rel{display:flex;flex-direction:column;gap:1px;align-items:flex-start;background:none;border:1px solid var(--linea);border-radius:8px;padding:6px 9px;text-align:left;width:100%}
+.rel:hover{background:var(--panel-2)}
+.rel .t{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.rel .d{min-width:0}
+.rel .d small{display:block;color:var(--texto-2)}
+.rel.ext{cursor:default;border-style:dashed}
+.fuentes{font-size:12px;word-break:break-all;margin:0;padding-left:18px}
+.nota{font-size:12px;color:var(--texto-3);margin-top:14px;border-top:1px solid var(--linea);padding-top:10px}
+
+@media (max-width:1180px){ .cuerpo{--wl:220px;--wf:340px} }
+@media (max-width:920px){
+  .cuerpo,.cuerpo.sin-lateral,.cuerpo.sin-ficha{grid-template-columns:minmax(0,1fr)}
+  .cuerpo.sin-lateral .lateral,.cuerpo.sin-ficha .ficha{padding:14px;visibility:visible;overflow:auto}
+  .asa{display:none}
+  .lateral{position:absolute;z-index:40;left:0;top:0;bottom:0;width:min(300px,86vw);transform:translateX(-102%);transition:transform .2s}
+  .lateral.abierto{transform:none;box-shadow:var(--sombra)}
+  .cuerpo{position:relative}
+  .ficha{position:absolute;z-index:45;inset:0;transform:translateY(102%);transition:transform .2s;border-left:0}
+  .ficha.abierto{transform:none}
+  .ficha .cerrar{display:inline-block;float:right}
+  .tabs .btn-filtros{display:block}
+  .ayuda{display:none}
+}
+@media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="marca">
+    <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><polygon points="20,3 34.7,11.5 34.7,28.5 20,37 5.3,28.5 5.3,11.5" fill="none" stroke="#D99A00" stroke-width="2.5"/><circle cx="20" cy="20" r="5" fill="#D99A00"/><circle cx="20" cy="9" r="2.2" fill="#56BA82"/><circle cx="29.5" cy="14.5" r="2.2" fill="#6C97DC"/><circle cx="29.5" cy="25.5" r="2.2" fill="#44BAD0"/><circle cx="20" cy="31" r="2.2" fill="#E272B0"/><circle cx="10.5" cy="25.5" r="2.2" fill="#A886DC"/><circle cx="10.5" cy="14.5" r="2.2" fill="#EC7A6A"/></svg>
+    <div><h1>Enjambre Regulatorio Ambiental</h1><p id="bajada-marca">Chile · de la Ley 19.300 a la regulación acumulada sobre los proyectos de inversión</p></div>
+  </div>
+  <div class="buscador">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="Buscar norma, número, materia o artículo…" autocomplete="off" aria-label="Buscar en normas y artículos">
+    <div id="resultados" class="resultados" role="listbox"></div>
+  </div>
+</header>
+<nav class="tabs" role="tablist" aria-label="Vistas">
+  <button class="btn-filtros" id="btn-filtros" type="button">☰ Filtros</button>
+  <button role="tab" data-v="enjambre" aria-selected="true">Enjambre</button>
+  <button role="tab" data-v="simulador" aria-selected="false">Simulador de proyecto</button>
+  <button role="tab" data-v="tiempo" aria-selected="false">Línea de tiempo</button>
+  <button role="tab" data-v="ley-19300" aria-selected="false">Ley 19.300 por artículo</button>
+  <button role="tab" data-v="permisos" aria-selected="false">Permisos sectoriales</button>
+  <button role="tab" data-v="carga" aria-selected="false">Organismos y etapas</button>
+  <button role="tab" data-v="listado" aria-selected="false">Listado</button>
+  <button role="tab" data-v="metodo" aria-selected="false">Método y fuentes</button>
+</nav>
+<div class="cuerpo" id="cuerpo">
+  <aside class="lateral" id="lateral">
+    <button class="btn sec cerrar-lat" type="button" id="cerrar-lat">Cerrar ✕</button>
+    <p class="aviso-filtros" id="aviso-filtros" hidden></p>
+    <button class="btn sec limpiar-f" type="button" id="limpiar-f" hidden>Limpiar filtros</button>
+    <h3>El enjambre en cifras</h3>
+    <div class="kpis" id="kpis"></div>
+    <h3>Familias temáticas</h3>
+    <div id="familias"></div>
+    <button class="linkbtn" id="fam-todas" type="button">Mostrar todas</button>
+    <h3>Tipo de norma</h3>
+    <select id="f-tipo" aria-label="Tipo de norma"><option value="">Todos los tipos</option></select>
+    <h3>Organismo competente</h3>
+    <div id="f-orgs"></div>
+    <button class="linkbtn" id="org-mas" type="button">Ver más organismos</button>
+    <h3>Opciones</h3>
+    <label class="chk"><input type="checkbox" id="f-vig"> <span>Ocultar normas derogadas o reemplazadas</span></label>
+    <label class="chk"><input type="checkbox" id="f-cita"> <span>Mostrar solo vínculos con sustento textual</span></label>
+    <label class="chk"><input type="checkbox" id="f-etq" checked> <span>Mostrar nombres en el grafo</span></label>
+    <h3>Cómo leer el grafo</h3>
+    <div class="rel-ley"><svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><polygon points="11,1 18,4.5 18,11.5 11,15 4,11.5 4,4.5" fill="var(--c-nucleo)"/></svg>Ley 19.300, origen del enjambre</div>
+    <div class="rel-ley"><svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><circle cx="11" cy="8" r="6" fill="var(--texto-3)" fill-opacity=".4" stroke="var(--texto-3)" stroke-dasharray="3 2"/></svg>Norma derogada, reemplazada o anulada</div>
+    <h3>Tipos de vínculo</h3>
+    <div id="ley-rel"></div>
+    <p class="nota" id="nota-datos"></p>
+  </aside>
+  <main class="lienzo">
+    <button class="asa asa-izq" id="asa-izq" type="button" aria-controls="lateral" aria-expanded="true"><span class="f">‹</span><span class="t">Filtros</span></button>
+    <button class="asa asa-der" id="asa-der" type="button" aria-controls="ficha" aria-expanded="true"><span class="f">›</span><span class="t">Ficha de la norma</span></button>
+    <section class="vista activa" id="v-enjambre" aria-label="Grafo del enjambre">
+      <svg id="grafo" role="img" aria-label="Grafo de normas ambientales relacionadas"></svg>
+      <div class="flot ayuda">Cada círculo es una norma; su tamaño crece con sus vínculos. Haz clic para abrir su ficha y artículos. Arrastra para mover, rueda para acercar.</div>
+      <div class="flot chip-sim" id="chip-sim"><span id="chip-sim-t"></span><button class="btn sec" type="button" id="chip-sim-x">Quitar</button></div>
+      <div class="flot" id="vacio-grafo">Ninguna norma cumple los filtros activos.<br><button class="btn" type="button" data-limpiar="1" style="margin-top:10px">Limpiar filtros</button></div>
+      <div class="flot zoom-ctl"><button id="z-mas" type="button" aria-label="Acercar">+</button><button id="z-menos" type="button" aria-label="Alejar">−</button><button id="z-cen" type="button" aria-label="Centrar" title="Centrar">⌂</button></div>
+      <div class="flot tiempo-ctl">
+        <button class="btn" id="play" type="button">▶ Ver cómo creció</button>
+        <span class="anio" id="anio-v"></span>
+        <input type="range" id="anio" aria-label="Año de corte">
+        <span class="cta" id="anio-cta"></span>
+      </div>
+    </section>
+    <section class="vista" id="v-tiempo"><div class="pad">
+      <h2>La acumulación normativa, año a año</h2>
+      <p class="bajada">Cada punto es una norma ubicada en su año de publicación y en su familia temática. La curva superior cuenta las normas acumuladas del visor. El tramo anterior a 1990 está comprimido para dar espacio al período posterior a la Ley 19.300.</p>
+      <div class="tabla-wrap"><svg id="svg-tiempo"></svg></div>
+    </div></section>
+    <section class="vista" id="v-ley-19300"><div class="pad">
+      <h2>Ley 19.300, artículo por artículo</h2>
+      <p class="bajada">Cada celda es un artículo del texto vigente. El punto en la esquina marca los artículos que ordenan dictar un reglamento u otra norma: de ahí nace buena parte del enjambre. Haz clic en una celda para leer su resumen y ver las normas que derivan de ella.</p>
+      <div class="leyenda" id="ley-leyenda"></div>
+      <div class="ley-grid" id="ley-grid"></div>
+    </div></section>
+    <section class="vista" id="v-permisos"><div class="pad">
+      <h2>Permisos ambientales sectoriales del Reglamento del SEIA</h2>
+      <p class="bajada" id="pas-bajada"></p>
+      <div id="pas-cont"></div>
+    </div></section>
+    <section class="vista" id="v-listado"><div class="pad">
+      <h2>Listado de normas</h2>
+      <p class="bajada" id="lst-bajada"></p>
+      <div class="tabla-wrap"><table class="lst" id="tabla"><thead><tr>
+        <th data-k="ident">Norma</th><th data-k="sub">Nombre</th><th data-k="anio">Año</th><th data-k="familia">Familia</th><th data-k="estado">Estado</th><th data-k="grado">Vínc.</th><th data-k="nart">Arts.</th>
+      </tr></thead><tbody></tbody></table></div>
+    </div></section>
+    <section class="vista" id="v-simulador"><div class="pad">
+      <h2>¿Qué normas tocan a mi proyecto?</h2>
+      <p class="bajada">Elige un tipo de proyecto y las condiciones del lugar. El resultado dice cuántas normas, permisos y organismos le caen encima, y por qué artículo. Es una orientación general: no reemplaza una consulta de pertinencia.</p>
+      <h3 class="sub">Prueba con un caso</h3>
+      <div class="sim-conds" id="sim-ej"></div>
+      <h3 class="sub">1. Tipo de proyecto</h3>
+      <div class="sim-tipos" id="sim-tipos"></div>
+      <h3 class="sub">2. Condiciones del lugar <small>puedes marcar varias</small></h3>
+      <div class="sim-conds" id="sim-conds"></div>
+      <div class="sim-barra" id="sim-barra"></div>
+    </div></section>
+    <section class="vista" id="v-carga"><div class="pad">
+      <h2>Carga regulatoria por organismo y etapa del proyecto</h2>
+      <p class="bajada">Cada celda cuenta las normas con obligaciones directas para el titular en que interviene ese organismo durante esa etapa. Una norma con varios organismos o etapas se cuenta en cada uno. Haz clic en el nombre de un organismo para ver todas sus normas y los permisos que otorga, o en una celda para ver solo esa etapa.</p>
+      <div class="etapas-barras" id="carga-etapas"></div>
+      <div class="tabla-wrap"><table class="lst mat" id="carga-mat"></table></div>
+      <div id="carga-det"></div>
+    </div></section>
+    <section class="vista" id="v-metodo"><div class="pad prosa">
+      <h2>Método y fuentes</h2>
+      <p class="bajada" id="met-bajada"></p>
+      <div class="met-grid" id="met-kpis"></div>
+      <h3>Qué contiene el visor</h3>
+      <p>El punto de partida es la Ley 19.300 sobre Bases Generales del Medio Ambiente, con todos los artículos de su texto vigente. Desde ella se siguen cuatro hilos: las leyes que la han modificado, los reglamentos y normas que sus artículos ordenan dictar, la legislación sectorial cuyos permisos se tramitan dentro del Sistema de Evaluación de Impacto Ambiental y los tratados internacionales que esa legislación ejecuta.</p>
+      <p>Seis cuerpos legales tienen su articulado completo: la Ley 19.300, el Reglamento del SEIA, la Ley 20.417 con la ley orgánica de la Superintendencia del Medio Ambiente, la Ley 21.600, la Ley 20.283 y el DL 701. El resto muestra sus artículos clave. Sobre esa base operan dos capas de análisis: el simulador, que cruza diez tipos de proyecto con once condiciones del lugar, y la clasificación de cada norma según la etapa del proyecto en que pesa.</p>
+      <h3>Cómo se verificó</h3>
+      <ol>
+        <li><b>Identidad de cada norma.</b> Número, organismo, fecha de publicación y vigencia se contrastaron uno a uno con la ficha oficial de la Biblioteca del Congreso Nacional (BCN). Cada ficha del visor enlaza al texto oficial.</li>
+        <li><b>Articulado.</b> Los resúmenes de artículos se redactaron a partir del texto oficial vigente y luego fueron auditados por revisores independientes, que leyeron el artículo citado y corrigieron numeración, contenido y plazos.</li>
+        <li><b>Vínculos.</b> Las relaciones de reglamentación, modificación, reemplazo, derogación y permiso sectorial se apoyan en una disposición concreta: el artículo que ordena el reglamento, el que modifica o deroga, o el artículo del Reglamento del SEIA que cita la norma fundante. Las relaciones de complemento o remisión se conservan solo cuando un artículo de una de las dos normas cita a la otra o nombra de forma inequívoca el sistema u órgano que ella regula; las demás se eliminaron.</li>
+        <li><b>Simulador y etapas.</b> Cada norma o permiso que el simulador declara aplicable lleva el artículo que lo sustenta. Un auditor independiente leyó ese artículo en el texto oficial, entrada por entrada, y un segundo auditor revisó el resultado ya integrado. Las etapas de cada norma se apoyan en un artículo identificado y también fueron auditadas.</li>
+        <li><b>Auditoría final.</b> Sobre el conjunto consolidado se revisó una muestra aleatoria de 90 artículos, sin errores de fondo, además de todas las relaciones de modificación, reemplazo y derogación y todos los avisos de vigencia.</li>
+      </ol>
+      <h3>Límites que conviene tener presentes</h3>
+      <ul id="met-limites"></ul>
+      <h3>Fuentes</h3>
+      <ul>
+        <li><a href="https://www.bcn.cl/leychile/" target="_blank" rel="noopener">Ley Chile, Biblioteca del Congreso Nacional ↗</a>: texto oficial y actualizado de leyes, decretos y tratados.</li>
+        <li><a href="https://www.sea.gob.cl/instructivos-para-la-evaluacion-del-impacto-ambiental" target="_blank" rel="noopener">Servicio de Evaluación Ambiental ↗</a>: instructivos y guías de evaluación.</li>
+        <li><a href="https://www.diariooficial.interior.gob.cl/" target="_blank" rel="noopener">Diario Oficial ↗</a>: publicación de las normas.</li>
+      </ul>
+    </div></section>
+  </main>
+  <aside class="ficha" id="ficha" aria-live="polite"></aside>
+</div>
+<div class="tip" id="tip"></div>
+<div class="modal" id="org-modal" hidden><div class="modal-caja" role="dialog" aria-modal="true" aria-labelledby="org-mt"><header><div><small id="org-ms"></small><h3 id="org-mt"></h3></div><button class="btn sec" type="button" id="org-mx">Cerrar ✕</button></header><div class="modal-cuerpo" id="org-res"></div></div></div>
+<div class="modal" id="sim-modal" hidden><div class="modal-caja" role="dialog" aria-modal="true" aria-labelledby="sim-mt"><header><div><small>Resultado del simulador</small><h3 id="sim-mt"></h3></div><button class="btn sec" type="button" id="sim-mx">Cerrar ✕</button></header><div class="modal-cuerpo" id="sim-res"></div></div></div>
+
+<script id="datos" type="application/json">__DATA__</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById('datos').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = s => String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+const FAMILIAS = [
+  {k:'nucleo',n:'Ley 19.300, Constitución y reformas directas',c:'--c-nucleo',cats:['nucleo']},
+  {k:'inst',n:'Institucionalidad, fiscalización y justicia',c:'--c-inst',cats:['institucionalidad','fiscalizacion-justicia']},
+  {k:'seia',n:'Evaluación ambiental y participación',c:'--c-seia',cats:['seia','participacion-indigena']},
+  {k:'calidad',n:'Calidad, emisión y planes',c:'--c-calidad',cats:['aire','agua','ruido-luz-olores','planes']},
+  {k:'bio',n:'Biodiversidad, bosques y suelo',c:'--c-bio',cats:['biodiversidad-areas','bosques-suelo']},
+  {k:'residuos',n:'Residuos y sustancias',c:'--c-residuos',cats:['residuos-sustancias']},
+  {k:'clima',n:'Clima y energía',c:'--c-clima',cats:['clima-energia']},
+  {k:'territorio',n:'Territorio, patrimonio, minería y costa',c:'--c-territorio',cats:['territorio-patrimonio','mineria','pesca-costa']},
+  {k:'tratados',n:'Tratados internacionales',c:'--c-tratados',cats:['tratados']}
+];
+const famDe = {}; FAMILIAS.forEach(f=>f.cats.forEach(c=>famDe[c]=f));
+const REL = {
+  reglamenta:{n:'Reglamenta',c:'--c-seia'}, modifica:{n:'Modifica',c:'--c-clima'}, crea_organo:{n:'Crea órgano',c:'--c-inst'},
+  deroga:{n:'Deroga',c:'--malo'}, reemplaza:{n:'Reemplaza',c:'--malo'}, remite:{n:'Remite a',c:'--c-territorio'},
+  complementa:{n:'Complementa',c:'--c-calidad'}, tematico:{n:'Vínculo temático',c:'--texto-3'}, implementa_tratado:{n:'Implementa tratado',c:'--c-tratados'}, pas:{n:'Permiso sectorial',c:'--c-bio'}
+};
+const REL_INV = {reglamenta:'Reglamentada por',modifica:'Modificada por',crea_organo:'Órgano creado por',deroga:'Derogada por',reemplaza:'Reemplazada por',remite:'Citada por',complementa:'Complementada por',tematico:'Vínculo temático',implementa_tratado:'Implementado por',pas:'Fundamento de permiso en'};
+const ORIGEN = 'ley-19300';
+function rotuloId(id){ let m; if((m=/^ley-(\d+)$/.exec(id))) return 'Ley '+(+m[1]).toLocaleString('es-CL'); if((m=/^(ds|dfl|dl|res|of)-([\w]+)-(\d{4})(?:-(\w+))?$/.exec(id))) return ({ds:'DS',dfl:'DFL',dl:'DL',res:'Res.',of:'Of. Ord.'}[m[1]])+' '+m[2]+'/'+m[3]+(m[4]?' ('+m[4].toUpperCase()+')':''); return id; }
+
+/* ---------- Modelo ---------- */
+const N = D.normas, porId = new Map(N.map(n=>[n.id,n]));
+N.forEach(n=>{
+  n.fam = famDe[n.categoria] || FAMILIAS[7];
+  const corto = n.nombre_corto || n.titulo_oficial || n.id;
+  if(['Tratado','Código','Constitución','Oficio/Guía'].includes(n.tipo) || !n.numero) { n.ident = corto; n.sub = ''; }
+  else {
+    const pref = {'Decreto Supremo':'DS','Decreto Ley':'DL','Resolución':'Res.','DFL':'DFL','Ley':'Ley'}[n.tipo] || n.tipo;
+    let num = String(n.numero); if(n.tipo==='Resolución'){ num = num.replace(/^res(oluci[oó]n|\.)?\s*(exenta|ex\.?)?\s*(n[°ºo]\.?)?\s*/i,'').replace(/\s*\(?exenta\)?/i,'').trim(); }
+    n.ident = (n.tipo==='Resolución'?'Res. Ex.':pref)+' '+num + (n.tipo!=='Ley' && (n.anioDecretoSrc||n.anio) ? '/'+n.anio : '');
+    n.sub = corto===n.ident ? '' : corto;
+  }
+  n.etq = n.ident.length>26 ? n.ident.slice(0,24).trim()+'…' : n.ident;
+  n.anioDecreto = n.anio; if(n.fecha_publicacion && /^\d{4}/.test(n.fecha_publicacion)) n.anio = +n.fecha_publicacion.slice(0,4);
+  n.vigente = n.estado==='vigente';
+  n.nart = (n.articulos||[]).length;
+  n.buscable = norm([n.ident,n.numero,n.nombre_corto,n.titulo_oficial,n.resumen,n.relevancia_titulares,n.organismo].join(' '));
+});
+const E = [], externas = new Map();
+N.forEach(n=>(n.relaciones||[]).forEach(r=>{
+  if(r.destino===n.id) return;
+  if(porId.has(r.destino)) E.push({source:n.id,target:r.destino,tipo:((r.tipo==='complementa'||r.tipo==='remite')&&r.cita!==true)?'tematico':r.tipo,art_origen:r.art_origen,art_destino:r.art_destino,nota:r.nota});
+  else { if(!externas.has(n.id)) externas.set(n.id,[]); externas.get(n.id).push(r); }
+}));
+const sal = new Map(), ent = new Map();
+N.forEach(n=>{sal.set(n.id,[]);ent.set(n.id,[])});
+E.forEach(e=>{sal.get(e.source).push(e);ent.get(e.target).push(e)});
+N.forEach(n=>{ n.grado = new Set([...sal.get(n.id).map(e=>e.target),...ent.get(n.id).map(e=>e.source)]).size; });
+const anios = N.map(n=>n.anio).filter(Boolean);
+const ANIO_MIN = 1994, ANIO_MAX = Math.max(2026, d3.max(anios));
+
+/* ---------- Estado ---------- */
+const S = {vista:'enjambre', fams:new Set(FAMILIAS.map(f=>f.k)), tipo:'', org:'', soloVig:false, etq:true, anio:ANIO_MAX, sel:null, artSel:null, orden:{k:'anio',d:1}};
+const pasa = n => S.fams.has(n.fam.k) && (!S.tipo||n.tipo===S.tipo) && (!S.org||(n.organismos_competentes||[]).includes(S.org)) && (!S.soloVig||n.vigente);
+const visibles = () => N.filter(pasa);
+
+/* ---------- Lateral ---------- */
+function pintarKpis(){
+  const v = visibles(), ids = new Set(v.map(n=>n.id));
+  const arts = d3.sum(v,n=>n.nart), vinc = E.filter(e=>ids.has(e.source.id||e.source)&&ids.has(e.target.id||e.target)).length;
+  const post = v.filter(n=>n.anio>1994).length;
+  $('#kpis').innerHTML = [[v.length,hayFiltros()?'normas según filtros':'normas en el visor'],[vinc,'vínculos entre normas'],[arts,'artículos resumidos'],[post,'posteriores a 1994']]
+    .map(([a,b])=>`<div class="kpi"><b>${a.toLocaleString('es-CL')}</b><span>${b}</span></div>`).join('');
+}
+function pintarFamilias(){
+  const base = N.filter(n=>(!S.tipo||n.tipo===S.tipo)&&(!S.org||(n.organismos_competentes||[]).includes(S.org))&&(!S.soloVig||n.vigente));
+  $('#familias').innerHTML = FAMILIAS.map(f=>`<button class="fam" type="button" data-f="${f.k}" aria-pressed="${S.fams.has(f.k)}"><span class="p" style="background:var(${f.c})"></span><span>${f.n}</span><span class="n">${base.filter(n=>n.fam===f).length}</span></button>`).join('');
+}
+$('#familias').addEventListener('click',ev=>{
+  const b = ev.target.closest('.fam'); if(!b) return; const k=b.dataset.f;
+  if(S.fams.size===FAMILIAS.length){ S.fams = new Set([k]); } else if(S.fams.has(k)){ S.fams.delete(k); if(!S.fams.size) S.fams=new Set(FAMILIAS.map(f=>f.k)); } else S.fams.add(k);
+  refrescar();
+});
+$('#fam-todas').onclick=()=>{S.fams=new Set(FAMILIAS.map(f=>f.k));refrescar()};
+(function(){
+  const tipos=[...new Set(N.map(n=>n.tipo))].sort(); $('#f-tipo').insertAdjacentHTML('beforeend',tipos.map(t=>`<option>${esc(t)}</option>`).join(''));
+  $('#ley-rel').innerHTML = Object.entries(REL).map(([k,r])=>`<div class="rel-ley"><i style="border-color:var(${r.c});border-top-style:${k==='tematico'?'dotted':'solid'}"></i>${r.n}</div>`).join('');
+  $('#nota-datos').textContent = D.meta && D.meta.nota || '';
+})();
+$('#f-tipo').onchange=e=>{S.tipo=e.target.value;refrescar()};
+S.orgMas=false;
+function pintarOrgs(){
+  const base=N.filter(n=>S.fams.has(n.fam.k)&&(!S.tipo||n.tipo===S.tipo)&&(!S.soloVig||n.vigente));
+  const tot=new Map(); N.forEach(n=>(n.organismos_competentes||[]).forEach(o=>tot.set(o,(tot.get(o)||0)+1)));
+  const c=new Map(); base.forEach(n=>(n.organismos_competentes||[]).forEach(o=>c.set(o,(c.get(o)||0)+1)));
+  let l=[...tot].filter(x=>x[1]>=3).sort((a,b)=>b[1]-a[1]).map(x=>x[0]);
+  const corte=12; if(!S.orgMas){ l=l.slice(0,corte); if(S.org&&!l.includes(S.org)) l.push(S.org); }
+  $('#f-orgs').innerHTML=l.map(o=>`<button class="fam" type="button" data-o="${esc(o)}" aria-pressed="${!S.org||S.org===o}"><span class="p" style="background:var(--navy);border-radius:3px"></span><span>${esc(o)}</span><span class="n">${c.get(o)||0}</span></button>`).join('')+(S.org?'<button class="linkbtn" type="button" data-o="">Mostrar todos</button>':'');
+  $('#org-mas').textContent=S.orgMas?'Ver menos organismos':'Ver más organismos';
+}
+$('#f-orgs').addEventListener('click',ev=>{const b=ev.target.closest('[data-o]'); if(!b) return; S.org=(S.org===b.dataset.o)?'':b.dataset.o; refrescar();});
+$('#org-mas').onclick=()=>{S.orgMas=!S.orgMas;pintarOrgs();};
+const hayFiltros=()=>S.fams.size<FAMILIAS.length||!!S.tipo||!!S.org||S.soloVig;
+const nFiltros=()=>(S.fams.size<FAMILIAS.length?1:0)+(S.tipo?1:0)+(S.org?1:0)+(S.soloVig?1:0);
+function limpiarFiltros(){ S.fams=new Set(FAMILIAS.map(f=>f.k)); S.tipo=''; S.org=''; S.soloVig=false; $('#f-tipo').value=''; $('#f-vig').checked=false; refrescar(); }
+document.addEventListener('click',ev=>{ if(ev.target.closest('[data-limpiar]')||ev.target.id==='limpiar-f') limpiarFiltros(); });
+const VACIO='<div class="vacio-vista">Ninguna norma cumple los filtros activos.<br><button class="btn" type="button" data-limpiar="1">Limpiar filtros</button></div>';
+function estadoFiltros(){ $('#limpiar-f').hidden=!hayFiltros(); const a=$('#asa-izq'); if(a){ const ab=a.getAttribute('aria-expanded')==='true', n=nFiltros(); a.querySelector('.t').textContent=(ab?'Filtros':'Mostrar filtros')+(n?` (${n} ${n===1?'activo':'activos'})`:''); } }
+$('#cerrar-lat').onclick=()=>$('#lateral').classList.remove('abierto');
+const orgIgual=(g,o)=>!!g&&(g===o||(/pesca/i.test(g)&&/pesca/i.test(o))||(/salud/i.test(g)&&/seremi salud/i.test(o))||(/minvu/i.test(g)&&/minvu/i.test(o))||(/municip/i.test(g)&&/municip/i.test(o)));
+$('#f-vig').onchange=e=>{S.soloVig=e.target.checked;refrescar()};
+$('#f-cita').onchange=e=>{S.soloCita=e.target.checked;aplicarGrafo()};
+$('#f-etq').onchange=e=>{S.etq=e.target.checked;aplicarGrafo()};
+$('#btn-filtros').onclick=()=>$('#lateral').classList.toggle('abierto');
+
+/* ---------- Grafo ---------- */
+const svg = d3.select('#grafo'), gRaiz = svg.append('g'), gA = gRaiz.append('g'), gN = gRaiz.append('g');
+const radio = n => n.id===ORIGEN ? 30 : 5.5 + Math.sqrt(n.grado)*2.6;
+let sim, selN, selA, W=800, H=600;
+S.sc=1; S._tk=0;
+const posN = d=>`translate(${d.x},${d.y}) scale(${S.sc})`;
+const zoom = d3.zoom().scaleExtent([.3,10]).on('zoom',ev=>{ const k=ev.transform.k; gRaiz.attr('transform',ev.transform); S.sc = k>=1 ? Math.pow(k,-0.72) : Math.pow(k,-0.4); if(selN) selN.attr('transform',posN); etiquetas(); });
+svg.call(zoom).on('click',ev=>{ if(ev.target===svg.node()) seleccionar(null); });
+function hexa(r){ return d3.range(6).map(i=>{const a=Math.PI/3*i-Math.PI/2;return [r*Math.cos(a),r*Math.sin(a)].join(',')}).join(' '); }
+function iniciarGrafo(){
+  const box = svg.node().getBoundingClientRect(); W = box.width||800; H = box.height||600;
+  const R = Math.min(W,H)*0.36, cx=W/2, cy=H/2-20;
+  const centros = {}; const fs = FAMILIAS.filter(f=>f.k!=='nucleo');
+  fs.forEach((f,i)=>{const a = -Math.PI/2 + i*2*Math.PI/fs.length; centros[f.k]=[cx+R*1.25*Math.cos(a), cy+R*Math.sin(a)];});
+  centros.nucleo=[cx,cy];
+  N.forEach(n=>{ if(n.x==null){ const c=centros[n.fam.k]; n.x=c[0]+(Math.random()-.5)*80; n.y=c[1]+(Math.random()-.5)*80; } });
+  const o = porId.get(ORIGEN); if(o){o.fx=cx;o.fy=cy;}
+  selA = gA.selectAll('line').data(E).join('line').attr('class','arista').attr('stroke',e=>css((REL[e.tipo]||REL.remite).c)).attr('stroke-width',1.1).attr('stroke-dasharray',e=>e.tipo==='tematico'?'2 3':null);
+  selN = gN.selectAll('g').data(N,d=>d.id).join('g').attr('class',d=>'nodo'+(d.vigente?'':' derogada'))
+    .call(d3.drag().on('start',(ev,d)=>{if(!ev.active)sim.alphaTarget(.25).restart();d.fx=d.x;d.fy=d.y})
+      .on('drag',(ev,d)=>{d.fx=ev.x;d.fy=ev.y}).on('end',(ev,d)=>{if(!ev.active)sim.alphaTarget(0); if(d.id!==ORIGEN){d.fx=null;d.fy=null}}))
+    .on('click',(ev,d)=>{ev.stopPropagation();seleccionar(d.id)})
+    .on('mousemove',(ev,d)=>tip(ev,`<b>${esc(d.ident)}${d.anio?' · '+d.anio:''}</b>${esc(d.sub)}`)).on('mouseleave',()=>tip());
+  selN.sort((a,b)=>(a.id===ORIGEN)-(b.id===ORIGEN)||a.grado-b.grado);
+  selN.each(function(d){
+    const g=d3.select(this);
+    if(d.id===ORIGEN) g.append('polygon').attr('points',hexa(radio(d)+4)).attr('fill',css(d.fam.c));
+    else g.append('circle').attr('r',radio(d)).attr('fill',css(d.fam.c));
+    g.append('text').attr('text-anchor','middle').attr('dy',d.id===ORIGEN?4:radio(d)+11).text(d.id===ORIGEN?'Ley 19.300':d.etq).style('font-weight',d.id===ORIGEN?800:500).style('font-size',d.id===ORIGEN?'11px':null);
+  });
+  sim = d3.forceSimulation([]).alphaDecay(0.045)
+    .on('tick',()=>{
+      selA.attr('x1',e=>e.source.x).attr('y1',e=>e.source.y).attr('x2',e=>e.target.x).attr('y2',e=>e.target.y);
+      if(S.vista!=='enjambre') return;
+      selN.attr('transform',posN); if((++S._tk)%10===0){ if(S.ajustando) centrar(false); else etiquetas(); }
+    }).on('end',()=>{ if(S.ajustando){ S.ajustando=false; centrar(true); } etiquetas(); });
+  reorganizar(true);
+}
+/* Redistribuye el grafo según las normas que pasan los filtros y el tamaño disponible del recuadro */
+function claveDisposicion(){ return [[...S.fams].sort().join(','),S.tipo,S.org,S.soloVig?1:0,S.soloCita?1:0,Math.round(W/40),Math.round(H/40)].join('|'); }
+function reorganizar(inicial){
+  const box=svg.node().getBoundingClientRect(); if(!box.width){ S.pendiente=true; return; } W=box.width; H=box.height; S.pendiente=false;
+  S.clave=claveDisposicion();
+  const nodos=N.filter(pasa), ids=new Set(nodos.map(n=>n.id));
+  const o=porId.get(ORIGEN); if(o&&!ids.has(ORIGEN)){ nodos.push(o); ids.add(ORIGEN); }
+  const enl=E.filter(e=>ids.has(e.source.id||e.source)&&ids.has(e.target.id||e.target)&&!(S.soloCita&&e.tipo==='tematico'));
+  const altoUtil=Math.max(200,H-90), cx=W/2, cy=altoUtil/2+10;
+  const fams=FAMILIAS.filter(f=>f.k!=='nucleo'&&nodos.some(n=>n.fam===f));
+  const paso=Math.sqrt(W*altoUtil/Math.max(nodos.length,6));           // espacio disponible por norma
+  const rx=Math.min(W*0.36,paso*Math.sqrt(nodos.length)*0.42), ry=Math.min(altoUtil*0.36,rx*altoUtil/W*1.15);
+  const centros={nucleo:[cx,cy]};
+  fams.forEach((f,i)=>{ const a=-Math.PI/2+i*2*Math.PI/fams.length; centros[f.k]= fams.length===1 ? [cx+rx*0.45,cy] : [cx+rx*Math.cos(a),cy+ry*Math.sin(a)]; });
+  nodos.forEach(n=>{ const c=centros[n.fam.k]||[cx,cy]; if(n.x==null||inicial){ n.x=c[0]+(Math.random()-.5)*paso; n.y=c[1]+(Math.random()-.5)*paso; } });
+  if(o){ o.fx=cx; o.fy=cy; }
+  const dEnl=Math.max(34,Math.min(150,paso*0.6)), fuerza=fams.length<=2?0.07:0.15;
+  sim.nodes(nodos)
+    .force('link',d3.forceLink(enl).id(d=>d.id).distance(e=>(e.source.id===ORIGEN||e.target.id===ORIGEN)?Math.max(rx,ry)*0.75:dEnl).strength(e=>(e.source.id===ORIGEN||e.target.id===ORIGEN)?.03:.2))
+    .force('charge',d3.forceManyBody().strength(-Math.max(60,Math.min(520,paso*1.5))).distanceMax(Math.max(260,paso*5)))
+    .force('col',d3.forceCollide().radius(d=>radio(d)+Math.max(5,Math.min(22,paso*0.16))).iterations(2))
+    .force('x',d3.forceX(d=>(centros[d.fam.k]||[cx,cy])[0]).strength(fuerza))
+    .force('y',d3.forceY(d=>(centros[d.fam.k]||[cx,cy])[1]).strength(fuerza*W/altoUtil));
+  if(inicial){ sim.alpha(1); for(let i=0;i<160;i++) sim.tick(); sim.alpha(.05).restart(); centrar(false); }
+  else { S.ajustando=true; sim.alpha(.9).restart(); }
+}
+function centrar(anim){
+  if(!W||!H||S.vista!=='enjambre') return;
+  const v=N.filter(n=>n._vis!==false&&n.x!=null&&isFinite(n.x)&&pasa(n)); if(!v.length) return;
+  const xs=v.map(n=>n.x), ys=v.map(n=>n.y); const x0=d3.min(xs)-60,x1=d3.max(xs)+60,y0=d3.min(ys)-45,y1=d3.max(ys)+55;
+  const altoUtil=Math.max(200,H-90), k=Math.min(W/(x1-x0),altoUtil/(y1-y0),2.2);
+  const t=d3.zoomIdentity.translate(W/2-k*(x0+x1)/2,altoUtil/2+8-k*(y0+y1)/2).scale(k);
+  (anim?svg.transition().duration(450):svg).call(zoom.transform,t);
+}
+function etiquetas(){
+  if(!selN) return; const t=d3.zoomTransform(svg.node()), ap=t.k*S.sc, fs=10.5*ap, hayVec=N.some(n=>n._vec);
+  const cand=N.filter(d=>d._vis!==false&&(d.id===ORIGEN||(S.etq&&(!hayVec||d._vec))));
+  const prio=d=>(d.id===S.sel?1e6:0)+(d.id===ORIGEN?1e5:0)+(d._vec?1e3:0)+d.grado;
+  cand.sort((a,b)=>prio(b)-prio(a)); const cajas=[]; N.forEach(d=>d._lab=false);
+  const discos=N.filter(d=>d._vis!==false).map(d=>{const x=t.applyX(d.x),y=t.applyY(d.y),r=(d.id===ORIGEN?radio(d)+4:radio(d))*ap; return {d,c:[x-r,y-r,x+r,y+r]};});
+  const minG = t.k<0.55?12:t.k<0.8?7:0;
+  for(const d of cand){
+    const cx=t.applyX(d.x), cy=t.applyY(d.y)+(d.id===ORIGEN?0:(radio(d)+11)*ap);
+    if(cx<-80||cx>W+80||cy<-30||cy>H+30) continue;
+    const txt=d.id===ORIGEN?'Ley 19.300':d.etq, w=txt.length*fs*0.58+8, h=fs*1.35;
+    const c=[cx-w/2,cy-h*0.8,cx+w/2,cy+h*0.35];
+    if(d.id!==S.sel&&d.id!==ORIGEN){ if(d.grado<minG&&!d._vec) continue; const choca=o=>c[0]<o[2]&&c[2]>o[0]&&c[1]<o[3]&&c[3]>o[1]; if(cajas.some(choca)||(d.grado<12&&discos.some(o=>o.d!==d&&choca(o.c)))) continue; }
+    cajas.push(c); d._lab=true;
+  }
+  selN.select('text').style('display',d=>d._lab?null:'none');
+}
+function aplicarGrafo(){
+  if(!selN) return;
+  const vis = new Set(N.filter(n=>pasa(n)&&(!n.anio||n.anio<=S.anio||n.id===ORIGEN)).map(n=>n.id));
+  let vec=null;
+  if(S.sel&&vis.has(S.sel)){ vec=new Set([S.sel]); sal.get(S.sel).forEach(e=>vec.add(e.target.id||e.target)); ent.get(S.sel).forEach(e=>vec.add(e.source.id||e.source)); }
+  if(!vec && S.resaltar) vec = new Set([...S.resaltar, ORIGEN]);
+  const modoSim = !S.sel && !!S.resaltar;
+  N.forEach(n=>n._vec=!!(vec&&vec.has(n.id)));
+  $('#chip-sim').classList.toggle('on',!!S.resaltar); document.querySelector('#v-enjambre .ayuda').style.display=(S.resaltar||S.sel||hayFiltros())?'none':'';
+  if(S.resaltar) $('#chip-sim-t').textContent=`Resaltadas las ${S.resaltar.size} normas del simulador`;
+  N.forEach(n=>n._vis=vis.has(n.id));
+  $('#vacio-grafo').style.display = N.some(pasa)?'none':'block';
+  if(sim&&claveDisposicion()!==S.clave) reorganizar(false);
+  selN.style('display',d=>vis.has(d.id)?null:'none').classed('sel',d=>d.id===S.sel).classed('atenuado',d=>vec&&!vec.has(d.id));
+  selA.style('display',e=>vis.has(e.source.id)&&vis.has(e.target.id)&&!(S.soloCita&&e.tipo==='tematico')?null:'none')
+      .classed('viva',e=>S.sel&&(e.source.id===S.sel||e.target.id===S.sel)).classed('atenuado',e=>vec&&!(modoSim?(vec.has(e.source.id)&&vec.has(e.target.id)):(e.source.id===S.sel||e.target.id===S.sel)));
+  etiquetas();
+  const nv = N.filter(n=>pasa(n)&&n.anio&&n.anio<=S.anio).length;
+  $('#anio-v').textContent = S.anio;
+  $('#anio-cta').textContent = `${nv} normas del visor ya estaban publicadas a ${S.anio}`;
+}
+const rango = $('#anio'); rango.min=ANIO_MIN; rango.max=ANIO_MAX; rango.value=ANIO_MAX;
+rango.oninput=()=>{S.anio=+rango.value;aplicarGrafo()};
+let timer=null;
+$('#play').onclick=()=>{
+  if(timer){clearInterval(timer);timer=null;$('#play').textContent='▶ Ver cómo creció';return;}
+  S.anio=ANIO_MIN; rango.value=S.anio; aplicarGrafo(); $('#play').textContent='❚❚ Pausar';
+  timer=setInterval(()=>{ if(S.anio>=ANIO_MAX){clearInterval(timer);timer=null;$('#play').textContent='▶ Ver cómo creció';return;} S.anio++; rango.value=S.anio; aplicarGrafo(); },450);
+};
+$('#chip-sim-x').onclick=()=>{S.resaltar=null;aplicarGrafo()};
+$('#z-mas').onclick=()=>svg.transition().duration(200).call(zoom.scaleBy,1.4);
+$('#z-menos').onclick=()=>svg.transition().duration(200).call(zoom.scaleBy,1/1.4);
+$('#z-cen').onclick=()=>centrar(true);
+function tip(ev,html){ const t=$('#tip'); if(!html){t.style.display='none';return;} t.innerHTML=html; t.style.display='block'; t.style.left=Math.min(ev.clientX+14,innerWidth-310)+'px'; t.style.top=(ev.clientY+14)+'px'; }
+
+/* ---------- Línea de tiempo ---------- */
+function pintarTiempo(){
+  const v = visibles().filter(n=>n.anio), el=d3.select('#svg-tiempo'); el.selectAll('*').remove();
+  const cont = $('#v-tiempo .tabla-wrap'), w = Math.max(340,(cont.clientWidth||900)-2), angosto = w<640, mL=angosto?36:190, mR=16, hAc=120, r=angosto?4.5:6;
+  if(!v.length){ el.attr('width',0).attr('height',0); let m=document.getElementById('vacio-tiempo'); if(!m){ cont.insertAdjacentHTML('beforebegin','<div id="vacio-tiempo"></div>'); m=document.getElementById('vacio-tiempo'); } m.innerHTML=VACIO; return; } { const m=document.getElementById('vacio-tiempo'); if(m) m.innerHTML=''; }
+  const a0 = Math.min(1930,d3.min(v,n=>n.anio)||1930);
+  const x = d3.scaleLinear().domain([a0,1990,ANIO_MAX+1]).range([mL,mL+(w-mL-mR)*(angosto?.12:.17),w-mR]);
+  const fams = FAMILIAS.filter(f=>v.some(n=>n.fam===f));
+  // apilado sin solapes por carril
+  const carriles=[]; let y=hAc+50;
+  fams.forEach(f=>{
+    const ns=v.filter(n=>n.fam===f).sort((a,b)=>a.anio-b.anio||a.id.localeCompare(b.id)); const puestos=[]; let maxOff=0;
+    ns.forEach(n=>{ const px=x(n.anio+.5); let k=0,off=0;
+      while(puestos.some(p=>Math.hypot(p.x-px,p.o-off)<r*2+1.5)){k++;off=(k%2?1:-1)*Math.ceil(k/2)*(r*2+1.5);}
+      puestos.push({x:px,o:off,n}); maxOff=Math.max(maxOff,Math.abs(off)); });
+    const alto=maxOff*2+r*2+16+(angosto?16:0); carriles.push({f,puestos,y0:y,alto}); y+=alto;
+  });
+  const h=y+34; el.attr('width',w).attr('height',h).attr('viewBox',`0 0 ${w} ${h}`);
+  // acumulado
+  const porAnio=d3.rollup(v,a=>a.length,n=>n.anio); let ac=0; const serie=[];
+  for(let a=a0;a<=ANIO_MAX;a++){ac+=porAnio.get(a)||0;serie.push({a,ac});}
+  const yA=d3.scaleLinear().domain([0,ac||1]).nice().range([hAc+14,14]);
+  el.append('path').attr('d',d3.area().x(d=>x(d.a+.5)).y0(yA(0)).y1(d=>yA(d.ac)).curve(d3.curveStepAfter)(serie)).attr('fill',css('--verde')).attr('fill-opacity',.18);
+  el.append('path').attr('d',d3.line().x(d=>x(d.a+.5)).y(d=>yA(d.ac)).curve(d3.curveStepAfter)(serie)).attr('fill','none').attr('stroke',css('--verde')).attr('stroke-width',2);
+  el.append('g').attr('class','eje').attr('transform',`translate(${mL-6},0)`).call(d3.axisLeft(yA).ticks(4));
+  el.append('text').attr('class','carril-t').attr('x',angosto?mL+6:10).attr('y',26).text('Normas acumuladas');
+  const en94 = serie.find(d=>d.a===1994); if(en94) el.append('text').attr('class','carril-t').attr('x',angosto?mL+6:10).attr('y',44).style('font-weight',400).text(`${en94.ac} a 1994 → ${ac} a ${ANIO_MAX}`);
+  const ticks=(angosto?[a0,1994,2005,2015,2025]:[a0,1970,1994,2000,2005,2010,2015,2020,2025]).filter(t=>t>=a0);
+  el.append('g').attr('class','eje').attr('transform',`translate(0,${h-26})`).call(d3.axisBottom(x).tickValues(ticks).tickFormat(d3.format('d')));
+  [[1994,'1994 · Ley 19.300'],[2010,'2010 · Ley 20.417']].forEach(([a,t])=>{ const g=el.append('g').attr('class','hito'); g.append('line').attr('x1',x(a+.5)).attr('x2',x(a+.5)).attr('y1',hAc+22).attr('y2',h-26); g.append('text').attr('x',x(a+.5)+4).attr('y',hAc+34).text(t); });
+  carriles.forEach((c,i)=>{
+    if(i%2===0) el.append('rect').attr('x',0).attr('y',c.y0).attr('width',w).attr('height',c.alto).attr('fill',css('--panel-2')).attr('fill-opacity',.55);
+    if(angosto){ el.append('text').attr('class','carril-t').attr('x',6).attr('y',c.y0+13).text(c.f.n); c.y0+=8; }
+    else { const palabras=c.f.n.split(' '); const lineas=['']; palabras.forEach(p=>{ if((lineas[lineas.length-1]+' '+p).length>26) lineas.push(p); else lineas[lineas.length-1]=(lineas[lineas.length-1]+' '+p).trim(); });
+      const t=el.append('text').attr('class','carril-t').attr('x',10).attr('y',c.y0+c.alto/2-(lineas.length-1)*7+4); lineas.forEach((l,j)=>t.append('tspan').attr('x',10).attr('dy',j?14:0).text(l)); }
+    el.append('g').selectAll('circle').data(c.puestos).join('circle').attr('cx',p=>p.x).attr('cy',p=>c.y0+c.alto/2+p.o).attr('r',r)
+      .attr('fill',css(c.f.c)).attr('fill-opacity',p=>p.n.vigente?1:.35).attr('stroke',p=>p.n.id===S.sel?css('--texto'):css('--panel')).attr('stroke-width',p=>p.n.id===S.sel?2.5:1).style('cursor','pointer')
+      .on('click',(ev,p)=>seleccionar(p.n.id)).on('mousemove',(ev,p)=>tip(ev,`<b>${esc(p.n.ident)} · ${p.n.anio}</b>${esc(p.n.sub)}`)).on('mouseleave',()=>tip());
+  });
+}
+
+/* ---------- Ley 19.300 ---------- */
+const INSTR = {'principios-definiciones':['Principios y definiciones','--c-territorio'],'educacion':['Educación e investigación','--c-residuos'],'EAE':['Evaluación ambiental estratégica','--c-tratados'],'SEIA':['SEIA','--c-seia'],'participacion':['Participación ciudadana','--c-clima'],'informacion':['Acceso a la información','--c-calidad'],'normas-calidad-emision':['Normas de calidad y emisión','--c-calidad'],'planes':['Planes de manejo, prevención y descontaminación','--c-inst'],'biodiversidad':['Biodiversidad y áreas protegidas','--c-bio'],'responsabilidad-dano':['Responsabilidad por daño ambiental','--malo'],'fiscalizacion':['Fiscalización','--c-nucleo'],'fondo':['Fondo de Protección Ambiental','--c-residuos'],'institucionalidad':['Institucionalidad','--c-inst'],'otros':['Otras disposiciones','--texto-3']};
+const artKey = s => norm(s).replace(/art(iculo|\.)?s?/g,'').replace(/[°º.]/g,'').replace(/\s+/g,' ').trim();
+function tokensArt(s){ const o=[]; const re=/(\d+)\s*(bis|ter|quater|quinquies|sexies|septies|octies)?/g; let m; const t=norm(s); while((m=re.exec(t))) o.push(m[1]+(m[2]?' '+m[2]:'')); return o; }
+function derivadasDe(num){ const k=artKey(num); return ent.get(ORIGEN).filter(e=>e.art_destino && tokensArt(e.art_destino).includes(k)); }
+function pintarLey(){
+  const ley = porId.get(ORIGEN); if(!ley) return;
+  const usados=[...new Set(ley.articulos.map(a=>a.instrumento||'otros'))];
+  $('#ley-leyenda').innerHTML = usados.map(k=>{const i=INSTR[k]||INSTR.otros;return `<span><i style="background:var(${i[1]})"></i>${i[0]}</span>`}).join('')+'<span><i style="background:var(--panel);border:1.5px solid var(--texto);border-radius:50%;width:9px;height:9px"></i>Punto en la celda: ordena dictar otra norma o tiene normas derivadas</span><span><i style="background:var(--texto-3);opacity:.45"></i><s>Tachado</s>: artículo derogado</span>';
+  const nomT={}, nomP={}; (D.estructura_19300||[]).forEach(t=>{ nomT[t.titulo]=t.nombre; (t.parrafos||[]).forEach(p=>nomP[t.titulo+', '+p.parrafo]=p.nombre); });
+  const grupos=[]; ley.articulos.forEach(a=>{ const t=a.titulo||'Otros'; let g=grupos.find(x=>x.t===t); if(!g){g={t,a:[]};grupos.push(g);} g.a.push(a); });
+  grupos.sort((a,b)=>(/transitor|anterior/i.test(a.t)-/transitor|anterior/i.test(b.t)));
+  let tPrev=null;
+  $('#ley-grid').innerHTML = grupos.map(g=>{
+    const tit=g.t.split(',')[0].trim(), par=g.t.includes(',')?g.t.slice(g.t.indexOf(',')+1).trim():'';
+    const cab = tit!==tPrev && nomT[tit] ? `<h3 class="ley-tit">${esc(tit)} · ${esc(nomT[tit])}</h3>` : ''; tPrev=tit;
+    const nombre = par ? `${esc(par)}${nomP[g.t]?' · '+esc(nomP[g.t]):''}` : (nomT[tit]?'Artículos del título':esc(g.t));
+    return `${cab}<div class="ley-sec"><h3>${nombre}<small>${g.a.length} ${g.a.length===1?'artículo':'artículos'}</small></h3><div class="celdas">${g.a.map(a=>{
+    const i=INSTR[a.instrumento]||INSTR.otros, der=!!a.derogado || /derogad|suprimid/i.test(a.epigrafe||'') || /^\s*(art[ií]culo\s+)?(derogad|suprimid)/i.test(a.resumen||''), hab=a.habilita||derivadasDe(a.num).length;
+    return `<button type="button" class="celda${der?' derog':''}${hab?' hab':''}${S.artSel===a.num?' sel':''}" style="background:var(${i[1]})" data-a="${esc(a.num)}" title="Art. ${esc(a.num)} · ${esc(a.epigrafe||'')}">${esc(a.num)}</button>`}).join('')}</div></div>`}).join('');
+}
+$('#ley-grid').addEventListener('click',ev=>{const b=ev.target.closest('.celda'); if(!b) return; S.artSel=b.dataset.a; S.sel=ORIGEN; pintarLey(); pintarFicha(); aplicarGrafo(); abrirFicha();});
+
+/* ---------- Permisos ---------- */
+function pintarPas(){
+  let P = D.pas||[]; const ds40 = porId.get('ds-40-2012-mma'); const PT=P;
+  $('#pas-bajada').innerHTML = `El Reglamento del SEIA (DS 40/2012) lista ${PT.filter(p=>!/pronunciamiento/i.test(p.tipo||'')).length} permisos ambientales sectoriales (arts. 111 a 160) y un pronunciamiento (art. 161). Cada uno nace de otra ley o reglamento y se tramita dentro de la evaluación ambiental. Están agrupados por el organismo que los otorga.` + (ds40?` <button class="linkbtn" type="button" data-n="ds-40-2012-mma">Abrir la ficha del Reglamento</button>`:'');
+  const todos=P; const sinFam=S.fams.size===FAMILIAS.length&&!S.tipo&&!S.soloVig;
+  P = P.filter(p=>{ const nf=porId.get(p.norma_fundante_id); if(S.org&&!orgIgual(p.grupo,S.org)) return false; if(sinFam) return true; return !!nf&&S.fams.has(nf.fam.k)&&(!S.tipo||nf.tipo===S.tipo)&&(!S.soloVig||nf.vigente); });
+  if(hayFiltros()) $('#pas-bajada').insertAdjacentHTML('beforeend',`<br><span class="filtros-on" style="margin-top:8px">Filtros activos: ${P.length} de ${todos.length} permisos, según el organismo que los otorga y la norma que los funda.</span>`);
+  const g = d3.groups(P,p=>p.grupo||'Sin organismo único').sort((a,b)=>b[1].length-a[1].length);
+  $('#pas-cont').innerHTML = !P.length ? VACIO : g.map(([o,ps])=>`<div class="pas-grupo"><h3>${esc(o)} <span class="n">${ps.length}</span></h3><div class="pas-lista">${ps.sort((a,b)=>a.art-b.art).map(p=>{
+    const nf=porId.get(p.norma_fundante_id), mixto=/mixto/i.test(p.tipo||''), pron=/pronunciamiento/i.test(p.tipo||'');
+    return `<button type="button" class="pas${mixto?' mixto':''}${S.pasSel==p.art?' dest':''}" data-pas="${p.art}" ${nf?`data-n="${nf.id}"`:''}><span class="a">Art. ${esc(p.art)} · ${pron?'Pronunciamiento':mixto?'Permiso mixto':'Contenido únicamente ambiental'}</span><span>${esc(p.nombre)}</span><span class="nf"><b>Otorga:</b> ${esc(p.organismo||'no determinado en la norma')}</span><span class="nf"><b>Fundamento:</b> ${esc(p.norma_fundante||'')}${nf?' · ver ficha →':''}</span>${p.nota?`<span class="nf">${esc(p.nota)}</span>`:''}</button>`}).join('')}</div></div>`).join('');
+}
+$('#v-permisos').addEventListener('click',ev=>{const b=ev.target.closest('[data-n]'); if(b) seleccionar(b.dataset.n);});
+
+/* ---------- Listado ---------- */
+function pintarLista(){
+  const v=visibles().slice(), k=S.orden.k, d=S.orden.d, estrecha=($('#v-listado .tabla-wrap').clientWidth||900)<700;
+  const thF=document.querySelector('#tabla th[data-k=familia]'); if(thF) thF.textContent=estrecha?'Fam.':'Familia';
+  const val=n=>k==='familia'?n.fam.n:n[k];
+  v.sort((a,b)=>{const x=val(a),y=val(b); return (typeof x==='number'&&typeof y==='number'?x-y:String(x||'').localeCompare(String(y||''),'es',{numeric:true}))*d;});
+  $('#lst-bajada').textContent = `${v.length} normas según los filtros activos. Haz clic en un encabezado para ordenar y en una fila para abrir la ficha.`;
+  document.querySelectorAll('#tabla thead th').forEach(th=>{ th.tabIndex=0; if(th.dataset.k===k) th.setAttribute('aria-sort',d>0?'ascending':'descending'); else th.removeAttribute('aria-sort'); });
+  if(!v.length){ $('#tabla tbody').innerHTML=`<tr><td colspan="7">Ninguna norma cumple los filtros activos. <button class="btn" type="button" data-limpiar="1">Limpiar filtros</button></td></tr>`; return; }
+  $('#tabla tbody').innerHTML = v.map(n=>`<tr data-n="${n.id}" tabindex="0" class="${n.id===S.sel?'sel':''}"><td class="num"><b>${esc(n.ident)}</b></td><td>${esc(n.sub||n.titulo_oficial||'')}</td><td class="num">${n.anio||''}</td><td title="${esc(n.fam.n)}"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(${n.fam.c});margin-right:6px"></span>${estrecha?'':esc(n.fam.n)}</td><td><span class="pill ${n.vigente?'ok':'mal'}">${esc(n.estado)}</span></td><td class="num">${n.grado}</td><td class="num">${n.nart}</td></tr>`).join('');
+}
+$('#tabla thead').addEventListener('click',ev=>{const th=ev.target.closest('th'); if(!th) return; const k=th.dataset.k; S.orden={k,d:S.orden.k===k?-S.orden.d:1}; pintarLista();});
+$('#tabla tbody').addEventListener('click',ev=>{const tr=ev.target.closest('tr'); if(tr&&tr.dataset.n) seleccionar(tr.dataset.n);});
+
+/* ---------- Ficha ---------- */
+function fechaCL(f){ if(!f) return ''; const m=/^(\d{4})-(\d{2})-(\d{2})/.exec(f); return m?`${m[3]}-${m[2]}-${m[1]}`:f; }
+function pintarFicha(){
+  const el=$('#ficha'), n=porId.get(S.sel);
+  if(!n){
+    const top=N.slice().sort((a,b)=>b.grado-a.grado).slice(0,8);
+    el.innerHTML = `<div class="vac"><h2>Elige una norma</h2><p>Haz clic en cualquier círculo del enjambre, punto de la línea de tiempo o fila del listado para ver su ficha, su articulado clave, sus vínculos y el enlace al texto oficial.</p>
+    <h4>Normas con más vínculos</h4><div class="rels">${top.map(t=>`<button class="rel" type="button" data-n="${t.id}"><span class="t" style="color:var(${t.fam.c})">${t.grado} vínc.</span><span class="d"><b>${esc(t.ident)}</b><small>${esc(t.sub)}</small></span></button>`).join('')}</div>
+    ${(D.novedades||[]).length?`<h4>Novedades 2025-2026</h4><div class="rels">${D.novedades.map(x=>x.id&&porId.has(x.id)?`<button class="rel" type="button" data-n="${x.id}"><span class="d">${esc(x.hecho)}</span></button>`:`<div class="rel ext"><span class="d">${esc(x.hecho)}</span></div>`).join('')}</div>`:''}</div>`;
+    return;
+  }
+  const arts=n.articulos||[], S_=sal.get(n.id), E_=ent.get(n.id), ext=externas.get(n.id)||[];
+  const relBtn=(e,inv)=>{ const o=porId.get(inv?(e.source.id||e.source):(e.target.id||e.target)); const r=REL[e.tipo]||REL.remite;
+    const arts=[e.art_origen?`art. ${e.art_origen} de ${inv?o.ident:n.ident}`:'', e.art_destino?`art. ${e.art_destino} de ${inv?n.ident:o.ident}`:''].filter(Boolean).join(' → ');
+    return `<button class="rel" type="button" data-n="${o.id}"><span class="t" style="color:var(${r.c})">${inv?REL_INV[e.tipo]||r.n:r.n}</span><span class="d"><b>${esc(o.ident)}</b> ${esc(o.sub)}<small>${esc([arts,e.nota].filter(Boolean).join(' · '))}</small></span></button>`; };
+  const volver=S.volver; S.volver=null;
+  el.innerHTML = `<button class="btn sec cerrar" type="button" id="cerrar-ficha">Cerrar ✕</button>${volver?`<p><button class="btn sec" type="button" id="volver-res">← Volver al resultado</button></p>`:''}
+  <div class="f-cab" style="border-color:var(${n.fam.c})"><div class="ident">${esc(n.ident)}${n.sub?` <span style="font-weight:600;font-size:15px">· ${esc(n.sub)}</span>`:''}</div><div class="tit">${esc(n.titulo_oficial||'')}</div></div>
+  <div class="f-meta"><span class="pill ${n.vigente?'ok':'mal'}">${esc(n.estado||'')}</span>${n.fecha_publicacion?`<span class="pill">Publicada ${fechaCL(n.fecha_publicacion)}</span>`:''}${n.organismo?`<span class="pill">${esc(n.organismo)}</span>`:''}<span class="pill" style="border-color:var(${n.fam.c});color:var(${n.fam.c})">${esc(n.fam.n)}</span></div>
+  <div class="f-acc">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">Texto oficial ${/bcn\.cl/.test(n.url)?'en BCN':''} ↗</a>`:''}</div>
+  ${arts.length>12?`<div class="saltos"><button type="button" data-ir="f-arts">Artículos (${arts.length})</button>${(S_.length+E_.length)?`<button type="button" data-ir="f-vinc">Vínculos (${S_.length+E_.length})</button>`:''}${(n.fuentes_consultadas||[]).length?'<button type="button" data-ir="f-fuen">Fuentes</button>':''}</div>`:''}
+  ${n.aviso?`<p class="aviso"><b>Atención a la vigencia.</b> ${esc(n.aviso)}</p>`:''}
+  ${n.ultima_modificacion?`<p><b>Última modificación registrada:</b> ${esc(n.ultima_modificacion)}</p>`:''}
+  <h4>Qué regula</h4><p>${esc(n.resumen||'')}</p>
+  ${n.relevancia_titulares?`<h4>Qué exige al titular de un proyecto</h4><p class="titular">${esc(n.relevancia_titulares)}</p>`:''}
+  ${(n.etapas||[]).length?`<h4>Etapas del proyecto en que pesa</h4><div class="f-meta">${n.etapas.map(e=>`<span class="pill" title="${esc((n.etapas_sustento||{})[e]||'')}">${esc(ETAPA[e]||e)}</span>`).join('')}</div>`:(n.rol==='marco'?`<h4>Etapas del proyecto en que pesa</h4><p>Norma de marco: organiza instituciones o fija reglas para el Estado, sin cargas directas para el titular.</p>`:'')}
+  ${(n.organismos_competentes||[]).length?`<h4>Organismos competentes</h4><div class="f-meta">${n.organismos_competentes.map(o=>`<span class="pill">${esc(o)}${(n.organismos_nota||{})[o]?' · '+esc(n.organismos_nota[o]):''}</span>`).join('')}</div>`:''}
+  ${arts.length?`<h4 id="f-arts">Articulado ${(n.id===ORIGEN||n.completo)?'completo del texto vigente':'clave'} (${arts.length})</h4>${arts.length>8?`<input class="filtro-art" id="filtro-art" type="search" placeholder="Filtrar artículos de esta norma…" aria-label="Filtrar artículos">`:''}<div class="arts" id="arts"></div>`:''}
+  <span id="f-vinc"></span>${S_.length?`<h4>Esta norma se vincula con (${S_.length})</h4><div class="rels">${S_.map(e=>relBtn(e,false)).join('')}</div>`:''}
+  ${E_.length?`<h4>Normas que apuntan a esta (${E_.length})</h4><div class="rels">${E_.slice().sort((a,b)=>a.tipo.localeCompare(b.tipo)).map(e=>relBtn(e,true)).join('')}</div>`:''}
+  ${ext.length?`<h4>Vínculos con normas que no tienen ficha en el visor</h4><div class="rels">${ext.map(r=>`<div class="rel ext"><span class="t">${esc((REL[r.tipo]||REL.remite).n)}</span><span class="d"><b>${esc(rotuloId(r.destino))}</b><small>${esc([r.art_destino?'art. '+r.art_destino:'',r.nota].filter(Boolean).join(' · '))}</small></span></div>`).join('')}</div>`:''}
+  ${(n.fuentes_consultadas||[]).length?`<h4 id="f-fuen">Fuentes consultadas para verificar</h4><ul class="fuentes">${n.fuentes_consultadas.filter(u=>!/obtxml/i.test(u)).map(u=>/^https?:\/\//.test(u)?`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,'').slice(0,70))}</a></li>`:`<li>${esc(u)}</li>`).join('')}</ul>`:''}
+  <p class="nota">Los resúmenes son una síntesis para orientación y no reemplazan el texto oficial. Verifica siempre la versión vigente en el enlace.</p>`;
+  pintarArts('');
+  const fa=$('#filtro-art'); if(fa) fa.oninput=()=>pintarArts(fa.value);
+  const c=$('#cerrar-ficha'); if(c) c.onclick=()=>$('#ficha').classList.remove('abierto');
+  const vr=$('#volver-res'); if(vr) vr.onclick=()=>{ document.getElementById(volver).hidden=false; };
+  el.querySelectorAll('.saltos [data-ir]').forEach(b=>b.onclick=()=>{ const d=document.getElementById(b.dataset.ir); if(d) d.scrollIntoView({block:'start'}); });
+  el.scrollTop=0;
+  if(n.id===ORIGEN&&S.artSel){ const d=el.querySelector('.art.dest'); if(d) d.scrollIntoView({block:'center'}); }
+}
+function pintarArts(q){
+  const n=porId.get(S.sel), cont=$('#arts'); if(!n||!cont) return; const k=norm(q);
+  const lista=(n.articulos||[]).filter(a=>!k||norm([a.num,a.epigrafe,a.resumen,a.habilita].join(' ')).includes(k));
+  let gPrev=null; const agrupa = n.id!==ORIGEN && lista.some(a=>a.titulo);
+  cont.innerHTML = lista.map(a=>{
+    const dest = n.id===ORIGEN && S.artSel===a.num; const der = n.id===ORIGEN ? derivadasDe(a.num) : [];
+    const cab = agrupa && a.titulo!==gPrev ? `<div class="art-grupo">${esc(a.titulo||'')}</div>` : ''; gPrev=a.titulo;
+    const url = a.id_parte && n.id_norma_bcn ? `https://www.bcn.cl/leychile/navegar?idNorma=${n.id_norma_bcn}&idParte=${a.id_parte}` : '';
+    return `${cab}<div class="art${dest?' dest':''}${a.derogado?' derog':''}"><div class="h"><b>Art. ${esc(a.num)}</b><span class="e">${esc(a.epigrafe||'')}</span>${a.obliga_titular?'<span class="pill oblig">Obliga al titular</span>':''}${url?`<a class="ver" href="${url}" target="_blank" rel="noopener">Ver en BCN ↗</a>`:''}</div><p>${esc(a.resumen||'')}</p>${a.habilita?`<div class="hab">→ Origina: ${esc(a.habilita)}</div>`:''}${der.length?`<div class="rels" style="margin-top:6px">${der.map(e=>{const o=porId.get(e.source.id||e.source);return `<button class="rel" type="button" data-n="${o.id}"><span class="t" style="color:var(${(REL[e.tipo]||REL.remite).c})">${REL_INV[e.tipo]||'Vínculo'}</span><span class="d"><b>${esc(o.ident)}</b> ${esc(o.sub)}</span></button>`}).join('')}</div>`:''}</div>`;
+  }).join('') || '<p class="vac">Ningún artículo coincide con el filtro.</p>';
+}
+$('#ficha').addEventListener('click',ev=>{const b=ev.target.closest('[data-n]'); if(b){S.artSel=null;seleccionar(b.dataset.n);}});
+function ajustarLienzo(){ const b=svg.node().getBoundingClientRect(); if(b.width){W=b.width;H=b.height; if(sim&&claveDisposicion()!==S.clave) reorganizar(false);} if(S.vista==='tiempo') pintarTiempo(); if(S.vista==='listado') pintarLista(); if(S.vista==='carga') pintarCarga(); }
+function panel(lado,abierto){
+  const c=$('#cuerpo'), cls=lado==='izq'?'sin-lateral':'sin-ficha', asa=$('#asa-'+lado);
+  c.classList.toggle(cls,!abierto); asa.setAttribute('aria-expanded',abierto);
+  asa.querySelector('.f').textContent = lado==='izq' ? (abierto?'‹':'›') : (abierto?'›':'‹');
+  if(lado==='der') asa.querySelector('.t').textContent = abierto?'Ficha de la norma':'Mostrar ficha'; else estadoFiltros();
+  try{ localStorage.setItem('enjambre-panel-'+lado, abierto?'1':'0'); }catch(e){}
+  setTimeout(ajustarLienzo,30);
+}
+$('#asa-izq').onclick=()=>panel('izq',$('#cuerpo').classList.contains('sin-lateral'));
+$('#asa-der').onclick=()=>panel('der',$('#cuerpo').classList.contains('sin-ficha'));
+try{ if(localStorage.getItem('enjambre-panel-izq')==='0') panel('izq',false); if(localStorage.getItem('enjambre-panel-der')==='0') panel('der',false); }catch(e){}
+function abrirFicha(){ $('#ficha').classList.add('abierto'); if($('#cuerpo').classList.contains('sin-ficha')) panel('der',true); }
+function seleccionar(id,art){
+  tip();
+  S.sel=id; if(art!==undefined) S.artSel=art; else if(id!==ORIGEN) S.artSel=null;
+  pintarFicha(); aplicarGrafo(); if(S.vista==='tiempo') pintarTiempo(); if(S.vista==='ley-19300') pintarLey();
+  if(id) abrirFicha(); else $('#ficha').classList.remove('abierto');
+}
+
+/* ---------- Buscador ---------- */
+const q=$('#q'), res=$('#resultados');
+const normQ = t => norm(t).replace(/(\d)\.(?=\d{3}\b)/g,'$1').replace(/\b(ds|dfl|dl|ley|art|pas)\.?(?=\d)/g,'$1 ');
+N.forEach(n=>{ n.buscable = normQ([n.ident,n.numero,n.nombre_corto,n.titulo_oficial,n.resumen,n.relevancia_titulares,n.organismo].join(' ')); });
+function buscar(){
+  const k=normQ(q.value.trim()); if(k.length<2){res.classList.remove('abierto');res.innerHTML='';return;}
+  const pal=k.split(/\s+/); const ok=t=>pal.every(p=>t.includes(p));
+  const hn=N.filter(n=>ok(n.buscable)).sort((a,b)=>(normQ(b.ident+' '+b.sub).includes(k)-normQ(a.ident+' '+a.sub).includes(k))||b.grado-a.grado).slice(0,12);
+  const ha=[]; for(const n of N){ for(const a of (n.articulos||[])){ if(ok(normQ([a.epigrafe,a.resumen,a.habilita].join(' ')))){ha.push([n,a]); if(ha.length>=18) break;} } if(ha.length>=18) break; }
+  const mNum=/^(?:pas|permiso|art(?:iculo)?)?\s*(\d{3})$/.exec(k), P=D.pas||[];
+  const exacto=mNum?P.filter(p=>String(p.art)===mNum[1]):[];
+  const hp=[...exacto,...P.filter(p=>!exacto.includes(p)&&ok(normQ('permiso pas art '+p.art+' '+p.nombre+' '+p.norma_fundante+' '+p.organismo)))].slice(0,6);
+  const bN=hn.map(n=>`<button type="button" data-n="${n.id}"><div class="r-t">${esc(n.ident)}${n.sub?' · '+esc(n.sub):''}</div><div class="r-s">${esc(n.fam.n)} · ${n.anio||''}</div></button>`).join('');
+  const bA=ha.map(([n,a])=>`<button type="button" data-n="${n.id}" data-a="${esc(a.num)}"><div class="r-t">Art. ${esc(a.num)} · ${esc(a.epigrafe||'')}</div><div class="r-s">${esc(n.ident)} · ${esc((a.resumen||'').slice(0,110))}</div></button>`).join('');
+  const bP=hp.map(p=>`<button type="button" data-pas="${p.art}"><div class="r-t">Permiso art. ${esc(p.art)} · ${esc(p.nombre)}</div><div class="r-s">Permiso ambiental sectorial · ${esc(p.organismo||'')}</div></button>`).join('');
+  const g=(t,h,n)=>h?`<div class="r-g">${t} · ${n}</div>${h}`:'';
+  res.innerHTML = (exacto.length?g('Permisos sectoriales',bP,hp.length)+g('Normas',bN,hn.length)+g('Artículos',bA,ha.length):g('Normas',bN,hn.length)+g('Artículos',bA,ha.length)+g('Permisos sectoriales',bP,hp.length))
+    || '<div class="vacio">Sin coincidencias. Prueba con el número de la norma o una materia, por ejemplo: ruido, humedales, plan de manejo.</div>';
+  res.classList.add('abierto');
+}
+q.addEventListener('input',buscar); q.addEventListener('focus',buscar);
+q.addEventListener('keydown',ev=>{
+  const bs=[...res.querySelectorAll('button')]; if(!bs.length) return; let i=bs.findIndex(b=>b.classList.contains('act'));
+  if(ev.key==='ArrowDown'||ev.key==='ArrowUp'){ ev.preventDefault(); if(i>=0) bs[i].classList.remove('act'); i=ev.key==='ArrowDown'?Math.min(bs.length-1,i+1):Math.max(0,i-1); bs[i].classList.add('act'); bs[i].scrollIntoView({block:'nearest'}); }
+  else if(ev.key==='Enter'){ ev.preventDefault(); (bs[i>=0?i:0]).click(); }
+  else if(ev.key==='Escape'){ res.classList.remove('abierto'); }
+});
+res.addEventListener('click',ev=>{const b=ev.target.closest('button'); if(!b) return; res.classList.remove('abierto');
+  if(b.dataset.pas){ if(hayFiltros()) limpiarFiltros(); S.pasSel=b.dataset.pas; irA('permisos'); const c=document.querySelector(`#pas-cont [data-pas="${b.dataset.pas}"]`); if(c) c.scrollIntoView({block:'center'}); return; }
+  const id=b.dataset.n; if(b.dataset.a){ S.sel=id; pintarFicha(); const fa=$('#filtro-art'); if(id===ORIGEN){S.artSel=b.dataset.a; pintarFicha();} else if(fa){fa.value='';}
+    aplicarGrafo(); abrirFicha(); const cards=[...document.querySelectorAll('#arts .art')]; const c=cards.find(x=>x.querySelector('b').textContent==='Art. '+b.dataset.a); if(c){c.classList.add('dest');c.scrollIntoView({block:'center'});} }
+  else seleccionar(id);
+});
+document.addEventListener('click',ev=>{ if(!ev.target.closest('.buscador')) res.classList.remove('abierto'); });
+
+/* ---------- Vistas y enrutamiento ---------- */
+const ETAPAS=[['diseno','Diseño y localización'],['evaluacion','Evaluación ambiental'],['construccion','Construcción'],['operacion','Operación'],['cierre','Cierre y reparación']];
+const ETAPA=Object.fromEntries(ETAPAS);
+const SIM=D.sim||{tipologias:[],condiciones:[]};
+S.simT=null; S.simC=new Set(); S.resaltar=null; S.carga=null;
+const PLANES=new Set((SIM.planes||[]).map(p=>p.id)); S.simPlan='';
+const SIN_ORG={'SEREMI de Salud':'SEREMI Salud','Municipalidad':'Municipalidades','Municipalidad respectiva':'Municipalidades','SEREMI del Medio Ambiente':'SEREMI Medio Ambiente','SEREMI de Agricultura':'SEREMI Agricultura','SEREMI Vivienda y Urbanismo':'SEREMI MINVU','SUBPESCA':'Subsecretaría de Pesca y Acuicultura','Consejo de Monumentos Nacionales':'CMN','Gobierno Regional':'Gobiernos Regionales'};
+function canonOrg(o){ return String(o).split(/\s+y\s+(?=SEREMI|SERNAPESCA|SAG|Agricultura)/).map(x=>{ let b=x.split(' (')[0].split(' / ')[0].trim(); if(b==='Agricultura') b='SEREMI Agricultura'; return SIN_ORG[b]||b; }).filter(Boolean); }
+function simCalc(){
+  const nm=new Map(), pm=new Map(), ing=[], orgs=new Set();
+  const suma=(bloque,rotulo)=>{ if(!bloque) return;
+    (bloque.normas||[]).forEach(x=>{ if(!porId.has(x.id)) return; if(PLANES.has(x.id)&&x.id!==S.simPlan) return; const o=nm.get(x.id)||{fuerza:'segun_caso',mot:[]}; if(x.fuerza==='siempre') o.fuerza='siempre'; o.mot.push({rotulo,art:x.art,motivo:x.motivo}); nm.set(x.id,o); });
+    (bloque.pas||[]).forEach(x=>{ const o=pm.get(String(x.art))||{fuerza:'segun_caso',mot:[]}; if(x.fuerza==='siempre') o.fuerza='siempre'; o.mot.push({rotulo,motivo:x.motivo}); pm.set(String(x.art),o); });
+    (bloque.ingreso||bloque.efecto_seia||[]).forEach(x=>ing.push({rotulo,...x}));
+    (bloque.organismos||[]).forEach(o=>canonOrg(o).forEach(x=>orgs.add(x))); };
+  const t=SIM.tipologias.find(x=>x.id===S.simT); suma(t, t&&t.nombre);
+  SIM.condiciones.filter(c=>S.simC.has(c.id)).forEach(c=>suma(c,c.nombre));
+  (D.pas||[]).forEach(p=>{ if(pm.has(String(p.art))&&p.grupo&&!/sin base/i.test(p.grupo)) canonOrg(p.grupo).forEach(x=>orgs.add(x)); });
+  return {nm,pm,ing,orgs,t};
+}
+function pintarSim(){
+  $('#sim-tipos').innerHTML=SIM.tipologias.map(t=>`<button type="button" class="sim-t" data-t="${t.id}" aria-pressed="${S.simT===t.id}">${esc(t.nombre)}<small>${esc(t.descripcion||'')}</small></button>`).join('');
+  $('#sim-conds').innerHTML=SIM.condiciones.map(c=>`<button type="button" class="sim-c" data-c="${c.id}" aria-pressed="${S.simC.has(c.id)}" title="${esc(c.descripcion||'')}">${esc(c.nombre)}</button>`).join('');
+  const chipZ=document.querySelector('#sim-conds [data-c="zona-saturada"]');
+  if(S.simC.has('zona-saturada')&&(SIM.planes||[]).length&&chipZ) chipZ.insertAdjacentHTML('afterend',`<div style="flex-basis:100%"><label for="sim-plan" style="font-size:12.5px;color:var(--texto-2)">Territorio con plan de prevención o descontaminación: </label><select id="sim-plan" style="padding:5px 8px;border:1px solid var(--linea);border-radius:6px;background:var(--panel);max-width:100%"><option value="">Elige el territorio para sumar su plan…</option>${SIM.planes.slice().sort((a,b)=>String(a.territorio).localeCompare(String(b.territorio),'es')).map(p=>`<option value="${p.id}" ${S.simPlan===p.id?'selected':''}>${esc(p.territorio)} · ${esc(porId.get(p.id).ident)}</option>`).join('')}</select></div>`);
+  const sp=$('#sim-plan'); if(sp) sp.onchange=()=>{S.simPlan=sp.value;pintarSim();};
+  $('#sim-ej').innerHTML=EJ.map((e,i)=>`<button type="button" class="sim-c" data-ej="${i}">${esc(e.n)}</button>`).join('');
+  const el=$('#sim-res'), barra=$('#sim-barra');
+  if(!S.simT&&!S.simC.size){ el.innerHTML=''; $('#sim-modal').hidden=true; barra.innerHTML='<span class="res">Elige un tipo de proyecto para ver su carga normativa.</span><button class="btn" type="button" disabled>Ver resultado</button>'; return; }
+  const {nm,pm,ing,orgs}=simCalc(); const ids=[...nm.keys()];
+  const siempre=ids.filter(i=>nm.get(i).fuerza==='siempre').length;
+  const fam=FAMILIAS.map(f=>[f,ids.filter(i=>porId.get(i).fam===f).sort((a,b)=>(nm.get(a).fuerza==='siempre'?0:1)-(nm.get(b).fuerza==='siempre'?0:1)||porId.get(b).grado-porId.get(a).grado)]).filter(x=>x[1].length);
+  const pas=(D.pas||[]).filter(p=>pm.has(String(p.art)));
+  el.innerHTML=`<div class="sim-kpis">${[[ids.length,'normas aplicables'],[siempre,'aplican siempre'],[ids.length-siempre,'según el caso'],[pas.length,'permisos sectoriales'],[orgs.size,'organismos que intervienen']].map(([a,b])=>`<div class="kpi"><b>${a}</b><span>${b}</span></div>`).join('')}</div>
+  <p><button class="btn" type="button" id="sim-ver">Ver estas normas en el enjambre</button> <button class="btn sec" type="button" id="sim-limpiar">Limpiar selección</button></p>
+  ${ing.length?`<div class="sim-caja"><h4>Cómo entra al Sistema de Evaluación de Impacto Ambiental</h4><ul>${ing.map(x=>`<li><b>${esc(porId.has(x.norma)?porId.get(x.norma).ident:x.norma||'')}${x.art?', '+(/^art/i.test(x.art)?'':'art. ')+esc(x.art):''}.</b> ${esc(x.texto||'')}</li>`).join('')}</ul></div>`:''}
+  ${orgs.size?`<div class="sim-caja"><h4>Organismos que intervienen</h4><div class="f-meta" style="margin:0">${[...orgs].sort().map(o=>`<span class="pill">${esc(o)}</span>`).join('')}</div></div>`:''}
+  ${pas.length?`<h3 class="sub">Permisos ambientales sectoriales <small>${pas.length}</small></h3>${pas.map(p=>{const o=pm.get(String(p.art));const nf=porId.get(p.norma_fundante_id);return `<button type="button" class="sim-n" ${nf?`data-n="${nf.id}"`:''}><span class="cab"><b>Art. ${esc(p.art)}</b><span>${esc(p.nombre)}</span><span class="pill ${o.fuerza==='siempre'?'siempre':''}">${o.fuerza==='siempre'?'Siempre':'Según el caso'}</span></span><span class="mot"><b>Otorga:</b> ${esc(p.organismo||'')}</span>${o.mot.map(m=>`<span class="mot"><b>${esc(m.rotulo)}:</b> ${esc(m.motivo||'')}</span>`).join('')}</button>`}).join('')}`:''}
+  <h3 class="sub">Normas aplicables <small>${ids.length}</small></h3>
+  ${fam.map(([f,l])=>`<div class="sim-fam"><i style="background:var(${f.c})"></i>${esc(f.n)} · ${l.length}</div>${l.map(i=>{const n=porId.get(i),o=nm.get(i);return `<button type="button" class="sim-n" data-n="${i}"><span class="cab"><b>${esc(n.ident)}</b><span>${esc(n.sub)}</span><span class="pill ${o.fuerza==='siempre'?'siempre':''}">${o.fuerza==='siempre'?'Siempre':'Según el caso'}</span></span>${o.mot.map(m=>`<span class="mot"><b>${esc(m.rotulo)}${m.art?' · '+(/^art/i.test(m.art)?'':'art. ')+esc(m.art):''}:</b> ${esc(m.motivo||'')}</span>`).join('')}</button>`}).join('')}`).join('')}`;
+  const tt=SIM.tipologias.find(x=>x.id===S.simT), cc=SIM.condiciones.filter(c=>S.simC.has(c.id));
+  $('#sim-mt').textContent=[tt?tt.nombre:'Cualquier proyecto',...cc.map(c=>c.nombre)].join(' + ');
+  barra.innerHTML=`<span class="res"><b>${ids.length}</b> normas · <b>${pas.length}</b> permisos · <b>${orgs.size}</b> organismos</span><button class="btn" type="button" id="sim-abrir">Ver resultado</button><button class="btn sec" type="button" id="sim-limpiar2">Limpiar</button>`;
+  $('#sim-abrir').onclick=()=>{$('#sim-modal').hidden=false;$('#sim-res').scrollTop=0;$('#sim-mx').focus();};
+  const limpiar=()=>{S.simT=null;S.simC=new Set();S.simPlan='';S.resaltar=null;pintarSim();};
+  $('#sim-limpiar2').onclick=limpiar;
+  $('#sim-ver').onclick=()=>{$('#sim-modal').hidden=true;S.resaltar=new Set(ids);S.sel=null;pintarFicha();irA('enjambre');aplicarGrafo();};
+  $('#sim-limpiar').onclick=limpiar;
+}
+const EJ=[{n:'Línea de transmisión que cruza bosque nativo y un cauce',t:'linea-transmision',c:['bosque-nativo','cauces-aguas']},{n:'Faena minera que extrae aguas cerca de comunidades indígenas',t:'mineria',c:['cauces-aguas','pueblos-indigenas']},{n:'Loteo en suelo rural junto a un humedal',t:'inmobiliario',c:['suelo-rural','humedal']}];
+$('#sim-mx').onclick=()=>$('#sim-modal').hidden=true;
+$('#sim-modal').addEventListener('click',ev=>{ if(ev.target.id==='sim-modal'){ev.currentTarget.hidden=true;return;} const n=ev.target.closest('[data-n]'); if(n){ $('#sim-modal').hidden=true; S.volver='sim-modal'; seleccionar(n.dataset.n); } });
+document.addEventListener('keydown',ev=>{ if(ev.key==='Escape') $('#sim-modal').hidden=true; });
+$('#v-simulador').addEventListener('click',ev=>{
+  const ej=ev.target.closest('[data-ej]');
+  if(ej){ const e=EJ[+ej.dataset.ej]; S.simT=e.t; S.simC=new Set(e.c); S.simPlan=''; pintarSim(); $('#sim-modal').hidden=false; return; }
+  const t=ev.target.closest('.sim-t'), c=ev.target.closest('.sim-c'), n=ev.target.closest('[data-n]');
+  if(t){S.simT=S.simT===t.dataset.t?null:t.dataset.t;pintarSim();}
+  else if(c){S.simC.has(c.dataset.c)?S.simC.delete(c.dataset.c):S.simC.add(c.dataset.c);pintarSim();}
+  else if(n) seleccionar(n.dataset.n);
+});
+function pasFiltrados(conOrg){ const sinFam=S.fams.size===FAMILIAS.length&&!S.tipo&&!S.soloVig; return (D.pas||[]).filter(p=>{ const nf=porId.get(p.norma_fundante_id); if(conOrg&&S.org&&!orgIgual(p.grupo,S.org)) return false; if(sinFam) return true; return !!nf&&S.fams.has(nf.fam.k)&&(!S.tipo||nf.tipo===S.tipo)&&(!S.soloVig||nf.vigente); }); }
+const plural=(n,s,p)=>`${n} ${n===1?s:p}`;
+function pintarCarga(){
+  const dir=N.filter(n=>(n.etapas||[]).length&&n.vigente&&S.fams.has(n.fam.k)&&(!S.tipo||n.tipo===S.tipo)), P=pasFiltrados(false);
+  const dirO=S.org?dir.filter(n=>(n.organismos_competentes||[]).includes(S.org)):dir, PO=S.org?P.filter(p=>orgIgual(p.grupo,S.org)):P;
+  const mx=Math.max(1,...ETAPAS.map(([k])=>dirO.filter(n=>n.etapas.includes(k)).length));
+  $('#carga-etapas').innerHTML=ETAPAS.map(([k,nm])=>{const c=dirO.filter(n=>n.etapas.includes(k)).length,p=PO.filter(x=>(x.etapas||[]).includes(k)).length;return `<div class="etb"><span>${nm}</span><b>${c}</b><span>${c===1?'norma':'normas'} · ${plural(p,'permiso','permisos')}</span><div class="barra" style="width:${Math.round(c/mx*100)}%"></div></div>`}).join('');
+  const cnt=new Map(); dir.forEach(n=>(n.organismos_competentes||[]).forEach(o=>cnt.set(o,(cnt.get(o)||0)+1)));
+  let orgs=[...cnt].filter(x=>x[1]>=(hayFiltros()?1:4)).sort((a,b)=>b[1]-a[1]).map(x=>x[0]).slice(0,24); if(S.org) orgs=orgs.filter(o=>o===S.org);
+  if(S.carga&&S.org&&S.carga.o!==S.org) S.carga=null;
+  const val=(o,k)=>dir.filter(n=>n.etapas.includes(k)&&(n.organismos_competentes||[]).includes(o));
+  const pasDe=o=>P.filter(p=>orgIgual(p.grupo,o)).length;
+  const top=Math.max(1,...orgs.flatMap(o=>ETAPAS.map(([k])=>val(o,k).length)));
+  $('#carga-mat').insertAdjacentHTML('beforebegin','');
+  const cf=document.getElementById('carga-f'); if(cf) cf.remove(); if(hayFiltros()) $('#carga-etapas').insertAdjacentHTML('afterend',`<span class="filtros-on" id="carga-f">Filtros activos: se consideran ${dirO.length} normas con obligaciones directas${S.org?' en que interviene '+esc(S.org):''}.</span>`);
+  if(!orgs.length){ $('#carga-mat').innerHTML=''; $('#carga-det').innerHTML=VACIO; S._carga={dir,P,val}; return; }
+  const estr=($('#v-carga .tabla-wrap').clientWidth||900)<700, AB={diseno:'Dis.',evaluacion:'Eval.',construccion:'Constr.',operacion:'Oper.',cierre:'Cierre'}; $('#carga-mat').classList.toggle('estrecha',estr);
+  $('#carga-mat').innerHTML=`<thead><tr><th>Organismo</th>${ETAPAS.map(([k,n])=>`<th title="${n}">${estr?AB[k]:n.split(' ')[0]}</th>`).join('')}<th title="Normas distintas con obligaciones directas para el titular en que interviene">${estr?'Oblig.':'Con obligación directa'}</th><th title="Permisos sectoriales que otorga dentro del SEIA">${estr?'Perm.':'Permisos SEIA'}</th></tr></thead><tbody>${orgs.map(o=>`<tr><td><button type="button" class="orgb" data-org="${esc(o)}">${esc(o)}</button></td>${ETAPAS.map(([k])=>{const v=val(o,k).length;const sel=S.carga&&S.carga.o===o&&S.carga.k===k;return `<td class="c${sel?' sel':''}${v?'':' nulo'}" ${v?'tabindex="0"':''} data-o="${esc(o)}" data-k="${k}" style="background:color-mix(in srgb,var(--verde) ${Math.round(v/top*55)}%,var(--panel))">${v||'·'}</td>`}).join('')}<td class="c" tabindex="0" data-o="${esc(o)}" data-k="">${cnt.get(o)}</td><td class="c${pasDe(o)?'':' nulo'}" ${pasDe(o)?'tabindex="0"':''} data-o="${esc(o)}" data-k="">${pasDe(o)||'·'}</td></tr>`).join('')}</tbody>`;
+  $('#carga-det').innerHTML='';
+  S._carga={dir,P,val};
+}
+function modalOrg(o,k){
+  const {dir,P}=S._carga||{}; if(!dir) return;
+  const mias=dir.filter(n=>(n.organismos_competentes||[]).includes(o)), pas=P.filter(p=>orgIgual(p.grupo,o)&&(!k||(p.etapas||[]).includes(k)));
+  const etapas=k?ETAPAS.filter(e=>e[0]===k):ETAPAS;
+  const bloques=etapas.map(([kk,nm])=>[kk,nm,mias.filter(n=>n.etapas.includes(kk)).sort((a,b)=>b.grado-a.grado)]).filter(b=>b[2].length);
+  const nNorm=new Set(bloques.flatMap(b=>b[2].map(n=>n.id))).size, nTot=N.filter(n=>(n.organismos_competentes||[]).includes(o)).length;
+  $('#org-ms').textContent = k ? 'Organismo y etapa' : 'Organismo';
+  $('#org-mt').textContent = k ? `${o} · ${ETAPA[k]}` : o;
+  $('#org-res').innerHTML=`<div class="sim-kpis">${[[nNorm,k?'normas en esta etapa':`normas con obligaciones directas, de ${nTot} en que es competente`],[pas.length,k?'permisos del SEIA en esta etapa':'permisos que otorga en el SEIA'],...(k?[]:ETAPAS.map(([kk,nm])=>[mias.filter(n=>n.etapas.includes(kk)).length,nm.toLowerCase()]))].map(([a,b])=>`<div class="kpi"><b>${a}</b><span>${b}</span></div>`).join('')}</div>
+  ${hayFiltros()?'<span class="filtros-on">Hay filtros activos en el panel: el detalle considera solo las normas que los cumplen.</span>':''}
+  ${pas.length?`<h3 class="sub">Permisos sectoriales que otorga dentro del SEIA <small>${pas.length}</small></h3>${pas.sort((a,b)=>a.art-b.art).map(p=>{const nf=porId.get(p.norma_fundante_id);return `<button type="button" class="sim-n" ${nf?`data-n="${nf.id}"`:''}><span class="cab"><b>Art. ${esc(p.art)}</b><span>${esc(p.nombre)}</span></span><span class="mot"><b>Fundamento:</b> ${esc(p.norma_fundante||'')}</span><span class="mot"><b>Etapas:</b> ${(p.etapas||[]).map(e=>ETAPA[e]).join(', ')}</span></button>`}).join('')}`:''}
+  ${bloques.map(([kk,nm,l])=>`<h3 class="sub">${k?'Normas':'Normas en '+nm.toLowerCase()} <small>${l.length}</small></h3>${l.map(n=>`<button type="button" class="sim-n" data-n="${n.id}"><span class="cab"><span style="width:10px;height:10px;border-radius:50%;background:var(${n.fam.c});align-self:center"></span><b>${esc(n.ident)}</b><span>${esc(n.sub)}</span></span><span class="mot">${esc((n.etapas_sustento||{})[kk]||'')}</span></button>`).join('')}`).join('')}
+  ${!pas.length&&!bloques.length?'<div class="sim-vacio">No hay normas ni permisos para esta combinación.</div>':''}`;
+  $('#org-modal').hidden=false; $('#org-res').scrollTop=0; $('#org-mx').focus();
+}
+$('#org-mx').onclick=()=>$('#org-modal').hidden=true;
+$('#org-modal').addEventListener('click',ev=>{ if(ev.target.id==='org-modal'){ev.currentTarget.hidden=true;return;} const n=ev.target.closest('[data-n]'); if(n){ $('#org-modal').hidden=true; S.volver='org-modal'; seleccionar(n.dataset.n); } });
+document.addEventListener('keydown',ev=>{ if(ev.key==='Escape') $('#org-modal').hidden=true; });
+$('#v-carga').addEventListener('click',ev=>{const c=ev.target.closest('td.c'), b=ev.target.closest('.orgb'); if(b) modalOrg(b.dataset.org,''); else if(c&&!c.classList.contains('nulo')){S.carga={o:c.dataset.o,k:c.dataset.k};pintarCarga();modalOrg(c.dataset.o,c.dataset.k);} });
+const VISTAS=['enjambre','simulador','tiempo','ley-19300','permisos','carga','listado','metodo'];
+function pintarMetodo(){ const m=D.meta||{}; const narts=d3.sum(N,n=>n.nart);
+  $('#met-bajada').textContent=`Información contrastada con fuentes oficiales al ${m.corte}.`;
+  $('#met-kpis').innerHTML=[[N.length,'normas con ficha'],[m.con_bcn,'enlazadas a su texto oficial en BCN'],[narts,'artículos resumidos'],[(m.mejoras||{}).articulos_enlazados,'artículos con enlace directo a BCN'],[E.filter(e=>e.tipo!=='tematico').length,'vínculos con sustento textual'],[E.filter(e=>e.tipo==='tematico').length,'vínculos temáticos'],[(D.pas||[]).length,'permisos y pronunciamientos del Reglamento del SEIA']].map(([a,b])=>`<div class="kpi"><b>${(a||0).toLocaleString('es-CL')}</b><span>${b}</span></div>`).join('');
+  $('#met-limites').innerHTML=[`Los resúmenes orientan, no reemplazan el texto oficial. Antes de usar un artículo en un acto o informe, ábrelo en el enlace de su ficha.`,`La auditoría final contrastó el inicio de cada artículo muestreado; un matiz en los incisos finales de artículos extensos puede no estar recogido en el resumen.`,`La anulación judicial de tres decretos (plan de Calama, norma del río Valdivia de 2015 y metas de aceites lubricantes) consta en BCN como derogación; el tribunal y la fecha de cada sentencia provienen de fuentes secundarias.`,`${m.sin_bcn} documentos del Servicio de Evaluación Ambiental (instructivos y guías) no están en BCN y enlazan al sitio del Servicio.`,`${(m.tematicos||0)} vínculos quedan como temáticos y se dibujan con línea punteada: parten de instructivos y guías del Servicio de Evaluación Ambiental cuyo texto no está en BCN, por lo que la cita no pudo comprobarse.`,`El simulador orienta, no resuelve un caso: trabaja con diez tipologías y once condiciones generales. «Siempre» indica que la norma alcanza a todo proyecto de ese tipo; «según el caso», que depende de un hecho del proyecto. No reemplaza una consulta de pertinencia.`,`El enlace «Ver en BCN» lleva al artículo exacto en ${(m.mejoras||{}).articulos_enlazados||0} de los ${narts} artículos; en tratados y documentos sin estructura de artículos lleva a la norma completa.`,`De los tratados internacionales BCN publica el decreto promulgatorio; el resumen de sus cláusulas se basa en ese texto.`,`La etapa de cierre agrupa obligaciones de cierre y abandono; la reparación del daño ambiental no se cuenta como etapa.`,`El visor reúne las normas de alcance general más relevantes para un proyecto de inversión. No incluye resoluciones de calificación ambiental, ordenanzas municipales ni instrumentos de planificación territorial.`,`La regulación ambiental cambia con frecuencia: las fichas con cambios recientes o vigencia diferida llevan un aviso destacado.`].map(t=>`<li>${t}</li>`).join(''); }
+function irA(v){ if(!VISTAS.includes(v)) v='enjambre'; S.vista=v;
+  document.querySelectorAll('.tabs [role=tab]').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===v));
+  document.querySelectorAll('.vista').forEach(s=>s.classList.toggle('activa',s.id==='v-'+v));
+  const av=$('#aviso-filtros'), sinF={'ley-19300':'Esta vista muestra siempre la Ley 19.300 completa; los filtros no la modifican.','metodo':'Los filtros no aplican a esta vista.','simulador':'El simulador muestra siempre el resultado completo; los filtros no lo modifican.'}[v]; av.hidden=!sinF; av.textContent=sinF||'';
+  if(v==='tiempo') pintarTiempo(); if(v==='ley-19300') pintarLey(); if(v==='permisos') pintarPas(); if(v==='listado') pintarLista(); if(v==='metodo') pintarMetodo(); if(v==='simulador') pintarSim(); if(v==='carga') pintarCarga();
+  if(v==='enjambre'&&!sim) iniciarGrafo(), aplicarGrafo();
+  else if(v==='enjambre'&&sim){ const b=svg.node().getBoundingClientRect(); if(b.width){ W=b.width; H=b.height; if(S.pendiente||claveDisposicion()!==S.clave) reorganizar(false); } }
+  if(v!=='enjambre'){ if(sim){ sim.stop(); if(S.ajustando){ S.ajustando=false; S.pendiente=true; } } if(timer){ clearInterval(timer); timer=null; $('#play').textContent='▶ Ver cómo creció'; } }
+  if(v!=='permisos') S.pasSel=null;
+  try{ if(location.hash.slice(1)!==v) location.hash=v; }catch(e){}
+}
+document.addEventListener('keydown',ev=>{ if((ev.key==='Enter'||ev.key===' ')&&ev.target.matches&&ev.target.matches('tr[tabindex],th[tabindex],td[tabindex]')){ ev.preventDefault(); ev.target.click(); } });
+document.querySelector('.tabs').addEventListener('click',ev=>{const b=ev.target.closest('[role=tab]'); if(b) irA(b.dataset.v);});
+window.addEventListener('hashchange',()=>irA(location.hash.slice(1)));
+function refrescar(){ pintarKpis(); pintarFamilias(); pintarOrgs(); estadoFiltros(); aplicarGrafo(); if(S.vista==='tiempo') pintarTiempo(); if(S.vista==='listado') pintarLista(); if(S.vista==='permisos') pintarPas(); if(S.vista==='carga') pintarCarga(); }
+let rz; window.addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(ajustarLienzo,200);});
+const mq=window.matchMedia('(prefers-color-scheme: dark)'); const recolor=()=>{ if(selN){ selN.select('circle,polygon').attr('fill',d=>css(d.fam.c)); selA.attr('stroke',e=>css((REL[e.tipo]||REL.remite).c)); } if(S.vista==='tiempo') pintarTiempo(); };
+if(mq.addEventListener) mq.addEventListener('change',recolor); new MutationObserver(recolor).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+$('#bajada-marca').textContent = `Chile · de la Ley 19.300 (1994) a ${N.length} normas (${N.filter(n=>n.vigente).length} vigentes) que pesan sobre un proyecto de inversión`;
+pintarKpis(); pintarFamilias(); pintarOrgs(); pintarFicha();
+irA(location.hash.slice(1)||'enjambre');
+})();
+</script>
+</body>
+</html>

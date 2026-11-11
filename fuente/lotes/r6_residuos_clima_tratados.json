@@ -1,0 +1,4003 @@
+{
+ "normas": [
+  {
+   "id": "ley-20920",
+   "tipo": "Ley",
+   "numero": "20.920",
+   "anio": 2016,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Establece marco para la gestión de residuos, la responsabilidad extendida del productor y fomento al reciclaje",
+   "nombre_corto": "Ley REP (gestión de residuos y reciclaje)",
+   "fecha_publicacion": "2016-06-01",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1090894,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090894",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1090894",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1090894",
+    "https://www.prieto.cl/ley-rep-aplicacion-2025-y-lo-que-viene-en-2026/"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Fija el marco general de gestión de residuos del país: jerarquía de manejo, deberes de generadores y gestores, e instrumentos de prevención y valorización. Crea la responsabilidad extendida del productor (REP), que obliga a quienes introducen productos prioritarios al mercado a organizar y financiar la recolección y valorización de sus residuos mediante sistemas de gestión autorizados.",
+   "relevancia_titulares": "El titular que genera residuos debe entregarlos a gestores autorizados y declararlos en el RETC; si además introduce productos prioritarios al mercado, debe inscribirse, integrarse a un sistema de gestión y cumplir metas. Los consumidores industriales pueden valorizar por su cuenta informando al MMA.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA",
+    "SEREMI Salud",
+    "Municipalidades",
+    "Servicio Nacional de Aduanas",
+    "Tribunales Ambientales"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Busca reducir la generación de residuos y promover su reutilización, reciclaje y valorización mediante la REP y otros instrumentos, protegiendo la salud y el medio ambiente.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Prevención y valorización",
+     "resumen": "Todo residuo valorizable debe destinarse a ese fin y no a eliminación; el MMA puede dictar por decreto instrumentos como ecodiseño, certificación, etiquetado y sistemas de depósito y reembolso.",
+     "obliga_titular": true
+    },
+    {
+     "num": "5",
+     "epigrafe": "Obligaciones de generadores",
+     "resumen": "El generador debe entregar sus residuos a un gestor autorizado, salvo que los maneje por sí mismo cumpliendo la normativa; el almacenamiento también queda sujeto a ella.",
+     "obliga_titular": true
+    },
+    {
+     "num": "6",
+     "epigrafe": "Obligaciones de gestores",
+     "resumen": "El gestor debe manejar los residuos de forma ambientalmente racional, contar con las autorizaciones respectivas y declarar sus operaciones en el RETC.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8",
+     "epigrafe": "Importadores y exportadores",
+     "resumen": "La importación y exportación de residuos se rige por el Convenio de Basilea y demás normas aplicables; un reglamento debe regular el movimiento transfronterizo.",
+     "obliga_titular": true
+    },
+    {
+     "num": "9",
+     "epigrafe": "Responsabilidad extendida del productor",
+     "resumen": "Régimen especial en que el productor de productos prioritarios debe inscribirse en el registro, organizar y financiar la recolección y tratamiento de los residuos y cumplir las metas a través de un sistema de gestión.",
+     "obliga_titular": true
+    },
+    {
+     "num": "10",
+     "epigrafe": "Productos prioritarios",
+     "resumen": "Enumera los productos sujetos a REP: aceites lubricantes, aparatos eléctricos y electrónicos, baterías, envases y embalajes, neumáticos y pilas; el MMA puede sumar otros por decreto.",
+     "obliga_titular": false
+    },
+    {
+     "num": "12-13",
+     "epigrafe": "Metas y obligaciones asociadas",
+     "resumen": "Las metas de recolección y valorización se fijan por decreto supremo en función de lo introducido al mercado; pueden añadirse deberes de etiquetado, información, ecodiseño y puntos de recepción.",
+     "obliga_titular": true
+    },
+    {
+     "num": "19-22",
+     "epigrafe": "Sistemas de gestión",
+     "resumen": "Las obligaciones REP se cumplen mediante sistemas individuales o colectivos; los colectivos son personas jurídicas sin reparto de utilidades y deben rendir garantía e informar su cumplimiento.",
+     "obliga_titular": true
+    },
+    {
+     "num": "26",
+     "epigrafe": "Autorización de sistemas de gestión",
+     "resumen": "El MMA autoriza cada sistema previa presentación, vía RETC, de un plan de gestión con productores, metas, financiamiento y mecanismos de trazabilidad.",
+     "obliga_titular": true
+    },
+    {
+     "num": "34",
+     "epigrafe": "Consumidores industriales",
+     "resumen": "Los consumidores deben entregar el residuo al sistema de gestión; los industriales pueden valorizarlo por sí o mediante gestores registrados, informando al MMA por el RETC.",
+     "obliga_titular": true
+    },
+    {
+     "num": "37",
+     "epigrafe": "Registro en el RETC",
+     "resumen": "El Registro de Emisiones y Transferencias de Contaminantes administra la información de productores, sistemas de gestión, gestores e instalaciones de recepción.",
+     "obliga_titular": false
+    },
+    {
+     "num": "38-40",
+     "epigrafe": "Fiscalización, infracciones y sanciones",
+     "resumen": "La SMA fiscaliza metas y sistemas de gestión; las infracciones gravísimas, como no inscribirse o no contar con sistema autorizado, admiten multas de hasta 10.000 UTA.",
+     "obliga_titular": true
+    },
+    {
+     "num": "44",
+     "epigrafe": "Tráfico de residuos peligrosos",
+     "resumen": "Tipifica como delito exportar, importar o manejar residuos peligrosos prohibidos o sin autorización, con pena agravada si hay impacto ambiental.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "remite",
+     "destino": "ley-19300",
+     "art_origen": "37",
+     "art_destino": "70 letra p)",
+     "nota": "El registro REP se aloja en el RETC previsto en la Ley 19.300."
+    },
+    {
+     "tipo": "remite",
+     "destino": "ley-20417",
+     "art_origen": "39",
+     "art_destino": "Título III párrafo 3°",
+     "nota": "Las infracciones se sancionan según el procedimiento de la ley orgánica de la SMA."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ds-40-2012-mma",
+     "art_origen": "6",
+     "art_destino": null,
+     "nota": "Las instalaciones de manejo y valorización de residuos pueden requerir ingreso al SEIA; la autorización del gestor presupone la RCA cuando corresponde."
+    },
+    {
+     "tipo": "remite",
+     "destino": "trat-basilea",
+     "art_origen": "8",
+     "art_destino": null,
+     "nota": "Importación y exportación de residuos sujetas al Convenio de Basilea."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ds-148-2003-minsal",
+     "art_origen": "5",
+     "art_destino": null,
+     "nota": "El manejo de residuos peligrosos sigue regido por el reglamento sanitario."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Metadatos y articulado leídos del XML oficial BCN (versión única de 2016-06-01, sin modificaciones registradas). El reglamento de movimiento transfronterizo del art. 8 (referido por el coordinador como DS 9/2017 MMA) NO aparece publicado en BCN y un informe de feb-2026 (Prieto) lo da por pendiente; por eso no se incluyó como norma. La vinculación con tipologías del SEIA es contextual, no surge del texto de la ley."
+  },
+  {
+   "id": "ds-8-2017-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "8",
+   "anio": 2017,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Reglamento que regula el procedimiento de elaboración de los decretos supremos establecidos en la Ley N° 20.920",
+   "nombre_corto": "Reglamento de procedimiento REP",
+   "fecha_publicacion": "2017-11-30",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1111512,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1111512",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1111512",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1111512"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Regula cómo se elaboran los decretos de instrumentos de prevención y valorización y los decretos de metas REP: expediente público, recepción de antecedentes, análisis de impacto económico y social, consulta pública y pronunciamiento del Consejo de Ministros. También contiene reglas sobre auditores externos y sistemas de gestión.",
+   "relevancia_titulares": "Permite a productores y gremios aportar antecedentes y observar los anteproyectos de metas, y define la vía de reclamación contra el decreto final ante el Tribunal Ambiental.",
+   "organismos_competentes": [
+    "MMA",
+    "Consejo de Ministros para la Sustentabilidad",
+    "Tribunales Ambientales"
+   ],
+   "articulos": [
+    {
+     "num": "1-3",
+     "epigrafe": "Ámbito e instrumentos",
+     "resumen": "Cubre el procedimiento para dictar los decretos de instrumentos de prevención/valorización y los de metas y obligaciones asociadas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5-7",
+     "epigrafe": "Inicio y análisis de impacto",
+     "resumen": "El proceso parte por resolución, abre un plazo para que cualquier persona aporte antecedentes y exige un análisis general de impacto económico y social.",
+     "obliga_titular": false
+    },
+    {
+     "num": "13",
+     "epigrafe": "Consejo de Ministros",
+     "resumen": "La propuesta de decreto se somete al pronunciamiento del Consejo de Ministros para la Sustentabilidad.",
+     "obliga_titular": false
+    },
+    {
+     "num": "21",
+     "epigrafe": "Auditores externos",
+     "resumen": "Fija exigencias para quienes certifican los informes de cumplimiento de metas.",
+     "obliga_titular": true
+    },
+    {
+     "num": "34",
+     "epigrafe": "Reclamación",
+     "resumen": "El decreto de metas puede reclamarse judicialmente, sin perjuicio de los recursos administrativos.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "4 y 14",
+     "nota": "Desarrolla el procedimiento de los arts. 4, 12 y 14 de la Ley REP."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 30-11-2017 según BCN (promulgado 17-03-2017). Sin modificaciones registradas."
+  },
+  {
+   "id": "ds-8-2019-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "8",
+   "anio": 2019,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Establece metas de recolección y valorización y otras obligaciones asociadas de neumáticos",
+   "nombre_corto": "Decreto de metas REP neumáticos",
+   "fecha_publicacion": "2021-01-20",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1154847,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1154847",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1154847",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1154847",
+    "https://www.prieto.cl/ley-rep-aplicacion-2025-y-lo-que-viene-en-2026/"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Primer decreto de metas REP. Fija metas crecientes de recolección y valorización de neumáticos fuera de uso (NFU), distinguiendo categoría A (uso general) y categoría B (grandes, propios de minería), y regula sistemas de gestión, garantías y acreditación.",
+   "relevancia_titulares": "Quien importe o fabrique neumáticos, incluidos los que vienen montados en vehículos y maquinaria, debe integrar un sistema de gestión y cumplir metas; faenas mineras y otros consumidores industriales deben entregar sus NFU al sistema o valorizarlos por su cuenta e informar.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA"
+   ],
+   "articulos": [
+    {
+     "num": "3",
+     "epigrafe": "Ámbito",
+     "resumen": "Se aplica a los neumáticos introducidos en el mercado; los NFU se tratan como residuos no domiciliarios.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5-7",
+     "epigrafe": "Productores obligados",
+     "resumen": "La REP recae en quien introduce neumáticos al mercado nacional; debe inscribirse en el RETC e integrar un sistema de gestión.",
+     "obliga_titular": true
+    },
+    {
+     "num": "20",
+     "epigrafe": "Metas categoría A",
+     "resumen": "Establece porcentajes anuales de recolección y valorización para neumáticos categoría A.",
+     "obliga_titular": true
+    },
+    {
+     "num": "21",
+     "epigrafe": "Metas categoría B",
+     "resumen": "Establece metas de valorización para neumáticos categoría B.",
+     "obliga_titular": true
+    },
+    {
+     "num": "22",
+     "epigrafe": "Operaciones de valorización",
+     "resumen": "Reconoce como valorización el recauchaje, el reciclaje material, el coprocesamiento y otras operaciones que indica.",
+     "obliga_titular": false
+    },
+    {
+     "num": "23",
+     "epigrafe": "Consumidores industriales",
+     "resumen": "Deben optar entre entregar los NFU a un sistema de gestión o valorizarlos directamente con gestores autorizados.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "12",
+     "nota": "Decreto de metas dictado conforme a los arts. 10 y 12 de la Ley REP."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 20-01-2021 (BCN). La vigencia íntegra desde 20-01-2023 proviene de fuente secundaria (Prieto)."
+  },
+  {
+   "id": "ds-12-2020-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "12",
+   "anio": 2020,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Establece metas de recolección y valorización y otras obligaciones asociadas de envases y embalajes",
+   "nombre_corto": "Decreto de metas REP envases y embalajes",
+   "fecha_publicacion": "2021-03-16",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1157019,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1157019",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1157019",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1157019",
+    "https://www.prieto.cl/ley-rep-aplicacion-2025-y-lo-que-viene-en-2026/"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Fija metas de recolección y valorización para envases domiciliarios y no domiciliarios por material (cartón para líquidos, metal, papel y cartón, plástico, vidrio), y regula sistemas de gestión, garantías, ecodiseño y recolección domiciliaria.",
+   "relevancia_titulares": "Empresas que ponen en el mercado bienes envasados deben adherir a un sistema de gestión y financiarlo; quienes introducen menos de 300 kg anuales solo informan. Los consumidores industriales pueden gestionar por su cuenta los envases no domiciliarios.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA",
+    "Municipalidades"
+   ],
+   "articulos": [
+    {
+     "num": "5",
+     "epigrafe": "Subcategorías",
+     "resumen": "Clasifica los envases domiciliarios según material.",
+     "obliga_titular": false
+    },
+    {
+     "num": "7",
+     "epigrafe": "Productores obligados",
+     "resumen": "La REP alcanza a quien introduce al mercado bienes de consumo envasados.",
+     "obliga_titular": true
+    },
+    {
+     "num": "10",
+     "epigrafe": "Entrega de información",
+     "resumen": "Productores bajo 300 kg anuales de envases quedan eximidos de metas pero deben informar por el RETC.",
+     "obliga_titular": true
+    },
+    {
+     "num": "19",
+     "epigrafe": "Garantía",
+     "resumen": "Los sistemas colectivos deben caucionar el cumplimiento de metas.",
+     "obliga_titular": true
+    },
+    {
+     "num": "21",
+     "epigrafe": "Metas domiciliarias",
+     "resumen": "Establece porcentajes anuales de recolección y valorización por material.",
+     "obliga_titular": true
+    },
+    {
+     "num": "44",
+     "epigrafe": "Consumidores",
+     "resumen": "Todo consumidor debe entregar los residuos de envases al sistema de gestión bajo las condiciones informadas.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "12",
+     "nota": "Decreto de metas dictado conforme a los arts. 10 y 12 de la Ley REP."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 16-03-2021 (BCN). Vigencia plena desde 16-09-2023 según fuente secundaria (Prieto)."
+  },
+  {
+   "id": "ds-47-2023-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "47",
+   "anio": 2023,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Establece metas de recolección y valorización y otras obligaciones asociadas de aceites lubricantes",
+   "nombre_corto": "Decreto de metas REP aceites lubricantes (anulado)",
+   "fecha_publicacion": "2024-11-11",
+   "estado": "derogada",
+   "ultima_modificacion": "Anulado por sentencia del Segundo Tribunal Ambiental de 2026-08-06; Res. Ex. MMA 5.193 publicada 2026-09-24",
+   "id_norma_bcn": 1208163,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1208163",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1208163",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1208163",
+    "https://www.diariooficial.interior.gob.cl/publicaciones/2026/09/24/44557/01/2873948.pdf",
+    "https://www.diarioconstitucional.cl/2026/08/09/segundo-tribunal-ambiental-anulo-decreto-que-fija-metas-de-recoleccion-y-valorizacion-de-aceites-lubricantes/"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Fijaba metas REP para aceites lubricantes usados. El Segundo Tribunal Ambiental lo anuló totalmente por sentencia de 6 de agosto de 2026 (rol R-490-2024 y acumulados) y el MMA retrotrajo el procedimiento a la etapa de propuesta de decreto.",
+   "relevancia_titulares": "Hoy no hay metas REP exigibles para aceites lubricantes; los titulares deben seguir el nuevo procedimiento y mantener el manejo de aceites usados como residuo peligroso.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA",
+    "Tribunales Ambientales"
+   ],
+   "articulos": [
+    {
+     "num": "-",
+     "epigrafe": "Anulación judicial",
+     "resumen": "La Res. Ex. MMA 5.193 de 11-09-2026 (D.O. 24-09-2026) deja constancia de la anulación total y ordena rehacer la propuesta de decreto.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "12",
+     "nota": "Decreto de metas del producto prioritario aceites lubricantes (sin efecto)."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ds-148-2003-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Los aceites usados siguen sujetos al reglamento de residuos peligrosos."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "BCN lo marca como 'derogado'. En rigor es una anulación judicial; no se verificó si existe recurso de casación pendiente."
+  },
+  {
+   "id": "ds-22-2025-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "22",
+   "anio": 2025,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Establece metas de recolección, valorización y otras obligaciones asociadas de pilas y aparatos eléctricos y electrónicos",
+   "nombre_corto": "Decreto de metas REP pilas y AEE",
+   "fecha_publicacion": "2026-05-07",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1223902,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1223902",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1223902",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1223902",
+    "https://www.prieto.cl/ley-rep-aplicacion-2025-y-lo-que-viene-en-2026/"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Decreto de metas REP para pilas y aparatos eléctricos y electrónicos, con una meta específica para aparatos de intercambio de temperatura y reglas para grandes sistemas colectivos (GRANSIC) e instalaciones de recepción.",
+   "relevancia_titulares": "Importadores y fabricantes de equipos eléctricos, electrónicos y pilas, incluidos los adquiridos para uso propio según el alcance del decreto, deberán inscribirse e integrar un sistema de gestión. Las metas y obligaciones de los Títulos III y IV rigen 24 meses después de la publicación.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA"
+   ],
+   "articulos": [
+    {
+     "num": "3",
+     "epigrafe": "Ámbito",
+     "resumen": "Se aplica a pilas y AEE introducidos al mercado nacional, con las exclusiones que señala.",
+     "obliga_titular": false
+    },
+    {
+     "num": "6 y 8",
+     "epigrafe": "Productores y obligaciones",
+     "resumen": "Define a los productores sujetos a REP y sus deberes de inscripción, integración a un sistema de gestión y cumplimiento de metas.",
+     "obliga_titular": true
+    },
+    {
+     "num": "23",
+     "epigrafe": "Meta para AIT",
+     "resumen": "Añade una meta específica de recolección y valorización para aparatos de intercambio de temperatura.",
+     "obliga_titular": true
+    },
+    {
+     "num": "31",
+     "epigrafe": "Rol de los GRANSIC",
+     "resumen": "Obliga a los grandes sistemas colectivos a diseñar y operar una red de instalaciones de recepción y almacenamiento.",
+     "obliga_titular": true
+    },
+    {
+     "num": "49",
+     "epigrafe": "Entrada en vigencia",
+     "resumen": "Rige desde su publicación, salvo los Títulos III y IV, que comienzan a los 24 meses, o el 1 de enero siguiente si ese plazo vence después del 1 de octubre.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "12",
+     "nota": "Decreto de metas de los productos prioritarios pilas y AEE."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "trat-minamata",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Contribuye a la gestión de productos con mercurio añadido."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 07-05-2026 (BCN; promulgado 17-07-2025). El año del decreto se tomó de la fecha de promulgación. El decreto de metas de baterías sigue en elaboración (anteproyecto Res. Ex. 821 de 2026) y textiles fue declarado producto prioritario en 2025, ambos sin decreto de metas publicado."
+  },
+  {
+   "id": "ds-29-2024-minsal",
+   "tipo": "Decreto Supremo",
+   "numero": "29",
+   "anio": 2024,
+   "organismo": "Ministerio de Salud",
+   "titulo_oficial": "Aprueba reglamento sanitario sobre labores de recepción y almacenamiento de residuos de productos prioritarios",
+   "nombre_corto": "Reglamento sanitario de instalaciones REP",
+   "fecha_publicacion": "2026-01-14",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1220286,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1220286",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1220286",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1220286",
+    "https://www.prieto.cl/ley-rep-aplicacion-2025-y-lo-que-viene-en-2026/"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Crea un procedimiento simplificado de autorización sanitaria para instalaciones que reciben y almacenan residuos de productos prioritarios, y fija condiciones de contenedores, operación y control de riesgos.",
+   "relevancia_titulares": "Quien opere puntos limpios, centros de acopio u otras instalaciones de recepción de residuos REP debe obtener la autorización sanitaria simplificada y cumplir las condiciones de operación; rige desde el 14-07-2026 con plazos de adecuación.",
+   "organismos_competentes": [
+    "SEREMI Salud",
+    "MINSAL"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Regula el procedimiento simplificado de autorización sanitaria de la recepción y almacenamiento de residuos de productos prioritarios.",
+     "obliga_titular": true
+    },
+    {
+     "num": "2",
+     "epigrafe": "Fiscalización",
+     "resumen": "Entrega el control a la SEREMI de Salud respectiva.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4 y 6",
+     "epigrafe": "Condiciones de operación",
+     "resumen": "Exige contenedores resistentes y un manejo que controle riesgos sanitarios y ambientales.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "35",
+     "nota": "Cumple el mandato del art. 35 de la Ley REP."
+    },
+    {
+     "tipo": "remite",
+     "destino": "dfl-725-1967",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Se dicta en ejercicio de las potestades sanitarias del Código Sanitario."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Publicación y título verificados en BCN; la entrada en vigencia (14-07-2026) coincide con la fecha de versión BCN y con Prieto. Los plazos transitorios para instalaciones existentes provienen solo de la fuente secundaria."
+  },
+  {
+   "id": "ley-21100",
+   "tipo": "Ley",
+   "numero": "21.100",
+   "anio": 2018,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Prohíbe la entrega de bolsas plásticas de comercio en todo el territorio nacional",
+   "nombre_corto": "Ley de bolsas plásticas",
+   "fecha_publicacion": "2018-08-03",
+   "estado": "vigente",
+   "ultima_modificacion": "Sin modificaciones; texto con vigencia diferida completada (versión BCN 2019-02-03)",
+   "id_norma_bcn": 1121380,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1121380",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1121380",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1121380"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Prohíbe a los establecimientos de comercio entregar bolsas plásticas, con excepción del envase primario de alimentos a granel. La fiscalización es municipal y las multas se aplican por cada bolsa entregada.",
+   "relevancia_titulares": "Afecta a titulares con locales de venta al público: no pueden entregar bolsas plásticas a ningún título, bajo multa de hasta 5 UTM por bolsa.",
+   "organismos_competentes": [
+    "Municipalidades",
+    "Juzgados de Policía Local",
+    "MMA"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Protege el medio ambiente mediante la prohibición de entrega de bolsas plásticas de comercio.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Prohibición",
+     "resumen": "Ningún establecimiento de comercio puede entregar bolsas plásticas, salvo las que sean envase primario de alimentos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "4",
+     "epigrafe": "Fiscalización",
+     "resumen": "Corresponde a las municipalidades.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Multa",
+     "resumen": "Sanciona con hasta 5 UTM por cada bolsa entregada, a beneficio municipal.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ley-21368",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ambas leyes limitan la entrega de plásticos desechables en el comercio."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Instrumento de prevención de residuos coherente con la Ley REP."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": ""
+  },
+  {
+   "id": "ley-21368",
+   "tipo": "Ley",
+   "numero": "21.368",
+   "anio": 2021,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Regula la entrega de plásticos de un solo uso y las botellas plásticas, y modifica los cuerpos legales que indica",
+   "nombre_corto": "Ley de plásticos de un solo uso (PUSU)",
+   "fecha_publicacion": "2021-08-13",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 21.847, publicada 2026-11-09 (antes: Ley 21.794 de 2026-01-24 y Ley 21.691 de 2024-08-12)",
+   "id_norma_bcn": 1163603,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1163603",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1163603",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1163603",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1229890",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1220676",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1205724"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Limita la entrega de productos de un solo uso en establecimientos de expendio de alimentos, exige certificación de plásticos, contenido reciclado en botellas desechables y oferta de botellas retornables. Fue ajustada en 2024 y dos veces en 2026 para prorrogar plazos y flexibilizar materiales permitidos.",
+   "relevancia_titulares": "Casinos, restaurantes y expendios de alimentos (incluidos los de faenas y organismos públicos) deben restringir desechables; comercializadores de bebestibles deben ofrecer formatos retornables y fabricantes cumplir porcentajes de plástico reciclado certificado.",
+   "organismos_competentes": [
+    "MMA",
+    "Municipalidades",
+    "Juzgados de Policía Local",
+    "SMA"
+   ],
+   "articulos": [
+    {
+     "num": "3",
+     "epigrafe": "Consumo dentro del local",
+     "resumen": "Prohíbe entregar productos de un solo uso para consumo en el establecimiento, salvo los de madera, papel o cartón (texto fijado por la Ley 21.847).",
+     "obliga_titular": true
+    },
+    {
+     "num": "4",
+     "epigrafe": "Consumo fuera del local",
+     "resumen": "Permite desechables de materiales distintos del plástico o de plástico certificado y obliga a acciones de sensibilización.",
+     "obliga_titular": true
+    },
+    {
+     "num": "5",
+     "epigrafe": "Organismos públicos",
+     "resumen": "Extiende las prohibiciones al expendio de comida preparada en dependencias públicas.",
+     "obliga_titular": true
+    },
+    {
+     "num": "6 y 10",
+     "epigrafe": "Certificación de plásticos",
+     "resumen": "El fabricante o importador debe contar con certificado del MMA que acredite los requisitos legales del producto plástico.",
+     "obliga_titular": true
+    },
+    {
+     "num": "7",
+     "epigrafe": "Botellas desechables",
+     "resumen": "Exige que las botellas plásticas desechables incorporen plástico reciclado en los porcentajes que fija el reglamento.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8",
+     "epigrafe": "Retornabilidad",
+     "resumen": "Los comercializadores de bebestibles deben ofrecer botellas retornables y recibir los envases de los consumidores.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ley-21100",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Complementa la prohibición de bolsas plásticas."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Se articula con las metas REP de envases y embalajes."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "La Ley 21.847 (un día antes de esta revisión) sustituye el art. 3°, amplía un plazo transitorio de seis meses a dos años y permite acreditar requisitos con antecedentes técnicos mientras la certificación no sea exigible. No se revisó el detalle de cada plazo transitorio vigente."
+  },
+  {
+   "id": "ds-30-2024-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "30",
+   "anio": 2024,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba reglamento de la Ley N° 21.368, que regula la entrega de plásticos de un solo uso y las botellas plásticas, y modifica los cuerpos legales que indica",
+   "nombre_corto": "Reglamento de la Ley de plásticos de un solo uso",
+   "fecha_publicacion": "2026-01-07",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1220112,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1220112",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1220112",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1220112"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Regula los requisitos y el procedimiento para certificar productos de plástico, así como otras materias operativas de la Ley 21.368, como rotulación y porcentajes de retornables.",
+   "relevancia_titulares": "Fabricantes e importadores de productos plásticos deben certificar sus productos según este reglamento; la exigibilidad de varias obligaciones quedó diferida por la Ley 21.847.",
+   "organismos_competentes": [
+    "MMA"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Fija requisitos y procedimientos para otorgar los certificados que exige la ley.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Requisitos del plástico certificado",
+     "resumen": "Detalla las condiciones copulativas que debe cumplir un producto para certificarse.",
+     "obliga_titular": true
+    },
+    {
+     "num": "5",
+     "epigrafe": "Procedimiento de certificación",
+     "resumen": "Regula la solicitud y tramitación del certificado ante el MMA.",
+     "obliga_titular": true
+    },
+    {
+     "num": "20",
+     "epigrafe": "Vigencia",
+     "resumen": "Rige desde su publicación, sin perjuicio de los plazos diferidos de la ley.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-21368",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Reglamento de ejecución de la ley."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Publicado 07-01-2026 (promulgado 10-10-2024). BCN muestra versiones futuras hasta 2028, lo que indica entradas en vigencia escalonadas no analizadas en detalle."
+  },
+  {
+   "id": "ley-20096",
+   "tipo": "Ley",
+   "numero": "20.096",
+   "anio": 2006,
+   "organismo": "Ministerio Secretaría General de la Presidencia",
+   "titulo_oficial": "Establece mecanismos de control aplicables a las sustancias agotadoras de la capa de ozono",
+   "nombre_corto": "Ley de protección de la capa de ozono",
+   "fecha_publicacion": "2006-03-23",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 248323,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=248323",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=248323",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=248323"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Implementa el Protocolo de Montreal: controla importación, exportación y uso de sustancias agotadoras del ozono, fija volúmenes máximos de consumo y establece deberes de información y protección frente a la radiación ultravioleta.",
+   "relevancia_titulares": "Quien importe o use refrigerantes y otras sustancias controladas debe ajustarse a cuotas y prohibiciones; todo empleador con trabajadores expuestos al sol debe adoptar medidas de protección UV.",
+   "organismos_competentes": [
+    "MMA",
+    "Servicio Nacional de Aduanas",
+    "MINSAL",
+    "SAG"
+   ],
+   "articulos": [
+    {
+     "num": "5-6",
+     "epigrafe": "Sustancias controladas",
+     "resumen": "Remite al Protocolo de Montreal para definir las sustancias y ajusta el consumo nacional a volúmenes máximos anuales.",
+     "obliga_titular": true
+    },
+    {
+     "num": "9",
+     "epigrafe": "Importación y exportación",
+     "resumen": "El comercio exterior de sustancias y productos controlados debe sujetarse a las condiciones y restricciones reglamentarias.",
+     "obliga_titular": true
+    },
+    {
+     "num": "19",
+     "epigrafe": "Protección de trabajadores",
+     "resumen": "Los empleadores deben proteger a los trabajadores expuestos a radiación ultravioleta.",
+     "obliga_titular": true
+    },
+    {
+     "num": "23",
+     "epigrafe": "Sanciones",
+     "resumen": "Multa a quien importe o exporte sustancias controladas infringiendo la ley o sus reglamentos.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": "44",
+     "nota": "La Ley Marco de Cambio Climático coordina las acciones de ozono con la gestión climática."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Versión única en BCN (2006-03-23)."
+  },
+  {
+   "id": "ds-7-2024-minsegpres",
+   "tipo": "Decreto Supremo",
+   "numero": "7",
+   "anio": 2024,
+   "organismo": "Ministerio Secretaría General de la Presidencia",
+   "titulo_oficial": "Reglamento que establece normas aplicables a las importaciones y exportaciones de las sustancias controladas por el Protocolo de Montreal",
+   "nombre_corto": "Reglamento de sustancias controladas (ozono y HFC)",
+   "fecha_publicacion": "2026-04-14",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1223094,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1223094",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1223094",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1223094",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1140643"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Reglamento vigente de la Ley 20.096: fija volúmenes máximos de importación de sustancias de los anexos del Protocolo de Montreal, incluido el anexo F (HFC), y su distribución entre importadores. Reemplaza al DS 3/2019.",
+   "relevancia_titulares": "Importadores de refrigerantes y equipos que los contienen operan bajo cuotas administradas por Aduanas; se prohíbe la producción nacional de sustancias controladas.",
+   "organismos_competentes": [
+    "Servicio Nacional de Aduanas",
+    "MMA",
+    "MINSAL"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Ámbito",
+     "resumen": "Se aplica a importaciones y exportaciones de sustancias de los anexos A, B, C, E y F del Protocolo.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Prohibición de producción",
+     "resumen": "Prohíbe producir sustancias controladas, exceptuando su recuperación, reciclaje y regeneración.",
+     "obliga_titular": true
+    },
+    {
+     "num": "5-6",
+     "epigrafe": "Volúmenes máximos",
+     "resumen": "Limita las importaciones anuales totales y encarga a Aduanas el mecanismo de distribución.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20096",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Reglamento de importaciones y exportaciones."
+    },
+    {
+     "tipo": "reemplaza",
+     "destino": "ds-3-2019-minsegpres",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "BCN registra el DS 3/2019 como derogado desde 2026-04-14."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "BCN atribuye el decreto a MINSEGPRES; el año se tomó de la promulgación (02-04-2024). La derogación del DS 3/2019 (idNorma 1140643) se infiere del estado 'derogado' en BCN."
+  },
+  {
+   "id": "ds-57-2019-minsal",
+   "tipo": "Decreto Supremo",
+   "numero": "57",
+   "anio": 2019,
+   "organismo": "Ministerio de Salud",
+   "titulo_oficial": "Aprueba reglamento de clasificación, etiquetado y notificación de sustancias químicas y mezclas peligrosas",
+   "nombre_corto": "Reglamento GHS de sustancias químicas",
+   "fecha_publicacion": "2021-02-09",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1155752,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1155752",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1155752",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1155752"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Adopta el Sistema Globalmente Armonizado: obliga a fabricantes e importadores a clasificar, etiquetar y elaborar hojas de datos de seguridad de sustancias y mezclas peligrosas, y a notificarlas a la autoridad.",
+   "relevancia_titulares": "Titulares que importan o fabrican insumos químicos deben clasificarlos y etiquetarlos según GHS y notificarlos en los plazos fijados; los usuarios deben exigir etiquetas y fichas de seguridad conformes.",
+   "organismos_competentes": [
+    "MINSAL",
+    "SEREMI Salud",
+    "MMA"
+   ],
+   "articulos": [
+    {
+     "num": "1-2",
+     "epigrafe": "Objeto y exclusiones",
+     "resumen": "Fija criterios de clasificación, etiquetado, notificación y evaluación de riesgo, excluyendo entre otros sustancias nucleares y fármacos.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Deber de clasificar",
+     "resumen": "Fabricantes e importadores deben clasificar las sustancias y mezclas con peligros físicos, para la salud o el ambiente.",
+     "obliga_titular": true
+    },
+    {
+     "num": "6",
+     "epigrafe": "Listado oficial",
+     "resumen": "El MINSAL aprueba por resolución el listado oficial de clasificación.",
+     "obliga_titular": false
+    },
+    {
+     "num": "14",
+     "epigrafe": "Requerimiento de antecedentes",
+     "resumen": "La autoridad sanitaria o ambiental puede pedir los respaldos de la clasificación.",
+     "obliga_titular": true
+    },
+    {
+     "num": "291",
+     "epigrafe": "Notificación",
+     "resumen": "Fabricantes e importadores deben notificar las sustancias peligrosas que produzcan o internen.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ds-43-2015-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "La clasificación determina las exigencias de almacenamiento."
+    },
+    {
+     "tipo": "remite",
+     "destino": "dfl-725-1967",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Se dicta al amparo del Código Sanitario."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 09-02-2021 (promulgado 26-11-2019). Versión única en BCN; existen resoluciones anuales de listados y prórrogas de notificación no detalladas."
+  },
+  {
+   "id": "ds-148-2003-minsal",
+   "tipo": "Decreto Supremo",
+   "numero": "148",
+   "anio": 2003,
+   "organismo": "Ministerio de Salud",
+   "titulo_oficial": "Aprueba reglamento sanitario sobre manejo de residuos peligrosos",
+   "nombre_corto": "Reglamento de residuos peligrosos (DS 148)",
+   "fecha_publicacion": "2004-06-16",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 226458,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=226458",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=226458",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=226458"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Establece las condiciones sanitarias y de seguridad mínimas para generar, almacenar, transportar, tratar, reciclar y eliminar residuos peligrosos, y crea el sistema de declaración y seguimiento.",
+   "relevancia_titulares": "Todo titular que genere residuos peligrosos debe identificarlos, almacenarlos en sitios autorizados, entregarlos a transportistas y destinatarios autorizados y declararlos en el sistema de seguimiento.",
+   "organismos_competentes": [
+    "SEREMI Salud",
+    "MINSAL"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Fija condiciones sanitarias y de seguridad para todo el ciclo de manejo de residuos peligrosos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "80",
+     "epigrafe": "Declaración y seguimiento",
+     "resumen": "Sujeta a los tenedores de residuos peligrosos a un sistema nacional de declaración y seguimiento.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "pas",
+     "destino": "ds-40-2012-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Varias autorizaciones sanitarias de este reglamento operan como permisos ambientales sectoriales en el SEIA."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "5",
+     "nota": "La Ley REP mantiene su vigencia para residuos peligrosos."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "trat-basilea",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Régimen interno de manejo ambientalmente racional de desechos peligrosos."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Solo se leyeron los arts. 1 y 80 del XML BCN; no se verificaron otros artículos de uso frecuente (plan de manejo, almacenamiento). Los artículos específicos del DS 40/2012 que recogen sus permisos no fueron verificados en este lote. Versión única en BCN."
+  },
+  {
+   "id": "ds-43-2015-minsal",
+   "tipo": "Decreto Supremo",
+   "numero": "43",
+   "anio": 2015,
+   "organismo": "Ministerio de Salud",
+   "titulo_oficial": "Aprueba el reglamento de almacenamiento de sustancias peligrosas",
+   "nombre_corto": "Reglamento de almacenamiento de sustancias peligrosas",
+   "fecha_publicacion": "2016-03-29",
+   "estado": "vigente",
+   "ultima_modificacion": "DS 60/2021 MINSAL, publicado 2022-08-17",
+   "id_norma_bcn": 1088802,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1088802",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1088802",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1088802",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1180050"
+   ],
+   "categoria": "residuos-sustancias",
+   "resumen": "Fija las condiciones de seguridad de las instalaciones que almacenan sustancias peligrosas, según cantidad y clase, con exigencias de diseño, distancias, autorización sanitaria y planes de emergencia.",
+   "relevancia_titulares": "Bodegas de proyectos que superen los umbrales (10 t de inflamables o 30 t de otras clases) requieren autorización sanitaria y deben respetar restricciones de emplazamiento.",
+   "organismos_competentes": [
+    "SEREMI Salud",
+    "MINSAL"
+   ],
+   "articulos": [
+    {
+     "num": "1-3",
+     "epigrafe": "Ámbito y exclusiones",
+     "resumen": "Regula el almacenamiento de sustancias peligrosas, excluyendo radiactivas, explosivos y otras con normativa propia.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Autorización sanitaria",
+     "resumen": "Las instalaciones sobre 10 t de inflamables o 30 t de otras sustancias peligrosas requieren autorización de la autoridad sanitaria.",
+     "obliga_titular": true
+    },
+    {
+     "num": "10",
+     "epigrafe": "Emplazamiento",
+     "resumen": "Prohíbe ubicar estas instalaciones en sitios con salas cuna o jardines infantiles.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ds-57-2019-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Usa la clasificación de peligrosidad de las sustancias."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ds-40-2012-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "El almacenamiento de sustancias peligrosas sobre ciertos umbrales es tipología de ingreso al SEIA."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "El año del decreto modificatorio (DS 60) no fue confirmado; BCN lo publica el 17-08-2022. La letra del art. 10 de la Ley 19.300 aplicable no se verificó en este lote."
+  },
+  {
+   "id": "ley-21455",
+   "tipo": "Ley",
+   "numero": "21.455",
+   "anio": 2022,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Ley Marco de Cambio Climático",
+   "nombre_corto": "Ley Marco de Cambio Climático",
+   "fecha_publicacion": "2022-06-13",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 21.755, publicada 2025-07-11 (modifica art. 12 y art. primero transitorio)",
+   "id_norma_bcn": 1177286,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1177286",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1177286",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1177286",
+    "https://faolex.fao.org/docs/pdf/chi210301.pdf",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1214890"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Fija la meta de carbono neutralidad a más tardar en 2050 y organiza la gestión climática mediante la Estrategia Climática de Largo Plazo, la NDC, planes sectoriales, regionales y comunales. Habilita normas de emisión de gases de efecto invernadero con certificados de reducción y obliga a incorporar el cambio climático en el SEIA y la planificación territorial.",
+   "relevancia_titulares": "Los proyectos que ingresan al SEIA deben considerar la variable de cambio climático y explicar su relación con los planes sectoriales; los establecimientos que declaran en el RETC deben reportar anualmente sus emisiones de GEI y podrán quedar afectos a normas de emisión.",
+   "organismos_competentes": [
+    "MMA",
+    "SEA",
+    "SMA",
+    "Ministerios sectoriales",
+    "Gobiernos Regionales",
+    "Municipalidades",
+    "Tribunales Ambientales"
+   ],
+   "articulos": [
+    {
+     "num": "4",
+     "epigrafe": "Meta de mitigación",
+     "resumen": "Chile debe alcanzar la neutralidad de emisiones de GEI a más tardar en 2050, con revisión quinquenal por el MMA.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Estrategia Climática de Largo Plazo",
+     "resumen": "Instrumento a 30 años que fija presupuestos nacionales y sectoriales de emisiones y lineamientos de adaptación.",
+     "obliga_titular": false
+    },
+    {
+     "num": "7",
+     "epigrafe": "NDC",
+     "resumen": "Contiene los compromisos internacionales de mitigación y adaptación del país, actualizados conforme al Acuerdo de París.",
+     "obliga_titular": false
+    },
+    {
+     "num": "8-9",
+     "epigrafe": "Planes sectoriales",
+     "resumen": "Cada autoridad sectorial debe dictar planes de mitigación para no exceder su presupuesto de emisiones y planes de adaptación para los sectores más vulnerables.",
+     "obliga_titular": false
+    },
+    {
+     "num": "11-12",
+     "epigrafe": "Planes regionales y comunales",
+     "resumen": "Los comités regionales elaboran planes de acción regional y las municipalidades planes comunales, dentro del plazo que la Ley 21.755 amplió a cuatro años.",
+     "obliga_titular": false
+    },
+    {
+     "num": "14",
+     "epigrafe": "Normas de emisión de GEI",
+     "resumen": "El MMA puede fijar límites de emisión de GEI o forzantes climáticos de vida corta por establecimiento, fuente o grupo de fuentes.",
+     "obliga_titular": true
+    },
+    {
+     "num": "15",
+     "epigrafe": "Certificados de reducción",
+     "resumen": "Permite cumplir las normas de emisión con certificados de reducción o absorción de proyectos nacionales adicionales, medibles y verificables.",
+     "obliga_titular": true
+    },
+    {
+     "num": "37",
+     "epigrafe": "Instrumentos económicos",
+     "resumen": "Define los mecanismos fiscales, financieros o de mercado para internalizar los costos de las emisiones.",
+     "obliga_titular": false
+    },
+    {
+     "num": "40",
+     "epigrafe": "Cambio climático en el SEIA",
+     "resumen": "Los proyectos evaluados deben considerar la variable climática en los componentes pertinentes y describir su relación con planes sectoriales e instrumentos regionales y locales.",
+     "obliga_titular": true
+    },
+    {
+     "num": "41 y 45",
+     "epigrafe": "Reporte de GEI en el RETC",
+     "resumen": "Los establecimientos obligados a declarar en ventanilla única deben informar cada año sus emisiones de GEI; el incumplimiento lo sanciona la SMA.",
+     "obliga_titular": true
+    },
+    {
+     "num": "43",
+     "epigrafe": "Ordenamiento territorial",
+     "resumen": "Los instrumentos de planificación territorial deben integrar mitigación y adaptación, lo que se revisa en la evaluación ambiental estratégica.",
+     "obliga_titular": false
+    },
+    {
+     "num": "46",
+     "epigrafe": "Modificaciones a la Ley 19.300",
+     "resumen": "Introduce cambios en la Ley 19.300, comenzando por la definición de desarrollo sustentable del art. 2 letra g).",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "ley-19300",
+     "art_origen": "46",
+     "art_destino": "2 letra g) y otros",
+     "nota": "Enmiendas a la Ley de Bases, entre ellas la definición de desarrollo sustentable."
+    },
+    {
+     "tipo": "modifica",
+     "destino": "ley-20417",
+     "art_origen": "47",
+     "art_destino": "artículo segundo, art. 3",
+     "nota": "Agrega atribuciones a la SMA en la ley orgánica contenida en la Ley 20.417."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ds-40-2012-mma",
+     "art_origen": "40",
+     "art_destino": null,
+     "nota": "La consideración de cambio climático en la evaluación se concreta en el Reglamento del SEIA."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "trat-acuerdo-paris",
+     "art_origen": "5 y 7",
+     "art_destino": "4",
+     "nota": "ECLP y NDC son los instrumentos del Acuerdo de París."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-20780",
+     "art_origen": "37",
+     "art_destino": "8",
+     "nota": "El impuesto a emisiones es uno de los instrumentos económicos de la gestión climática."
+    },
+    {
+     "tipo": "remite",
+     "destino": "ley-20096",
+     "art_origen": "44",
+     "art_destino": null,
+     "nota": "Coordina las acciones del Protocolo de Montreal con la gestión climática."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Articulado leído del XML BCN (versión 2025-07-11). No se revisó el listado completo de enmiendas del art. 46 a la Ley 19.300; solo su primer numeral."
+  },
+  {
+   "id": "ds-16-2023-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "16",
+   "anio": 2023,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba reglamento que establece procedimientos asociados a los instrumentos de gestión del cambio climático",
+   "nombre_corto": "Reglamento de instrumentos de gestión climática",
+   "fecha_publicacion": "2023-12-21",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1199418,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1199418",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1199418",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1199418"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Regula la elaboración, implementación, seguimiento y actualización de la ECLP, la NDC y los planes sectoriales y regionales, incluyendo consulta ciudadana y pronunciamiento de órganos de apoyo.",
+   "relevancia_titulares": "No impone deberes directos, pero define las instancias de consulta donde los titulares pueden observar planes sectoriales que luego condicionan la evaluación de sus proyectos.",
+   "organismos_competentes": [
+    "MMA",
+    "Ministerios sectoriales",
+    "Gobiernos Regionales"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Ámbito",
+     "resumen": "Cubre las fases de elaboración, implementación, seguimiento, evaluación y actualización de los instrumentos climáticos.",
+     "obliga_titular": false
+    },
+    {
+     "num": "12",
+     "epigrafe": "Consulta ciudadana",
+     "resumen": "La autoridad responsable debe evaluar la admisibilidad y responder las observaciones recibidas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "28",
+     "epigrafe": "Entidades de apoyo",
+     "resumen": "El MMA requiere el pronunciamiento de los equipos técnicos interministeriales y la opinión de los órganos asesores.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Procedimientos de los instrumentos de gestión del Título II."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 21-12-2023 (promulgado 06-06-2023). Versión única."
+  },
+  {
+   "id": "ds-12-2024-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "12",
+   "anio": 2024,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba reglamento para la elaboración de normas de emisión para gases de efecto invernadero y forzantes climáticos de vida corta",
+   "nombre_corto": "Reglamento de normas de emisión de GEI",
+   "fecha_publicacion": "2025-07-26",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1215209,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1215209",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1215209",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1215209",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=61 (buscador BCN, consultado 2026-11-10)"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Fija el procedimiento para dictar normas de emisión de GEI y forzantes climáticos de vida corta: ámbito territorial, coordinación con autoridades sectoriales, comité operativo ampliado y análisis de sinergias. En enero de 2026 el MMA inició la elaboración de las normas de metano y de hidrofluorocarbonos.",
+   "relevancia_titulares": "Anticipa límites de emisión de GEI por establecimiento o fuente; los titulares pueden participar en comités y consultas de cada norma.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA",
+    "Ministerios sectoriales"
+   ],
+   "articulos": [
+    {
+     "num": "1-2",
+     "epigrafe": "Objeto y contenido",
+     "resumen": "Regula el procedimiento de dictación de las normas de emisión de GEI y forzantes de vida corta.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Ámbito de aplicación",
+     "resumen": "Cada norma define si rige a nivel nacional, regional o local.",
+     "obliga_titular": false
+    },
+    {
+     "num": "20",
+     "epigrafe": "Comité Operativo Ampliado",
+     "resumen": "El MMA convoca a personas naturales y jurídicas interesadas para integrar el comité de cada norma.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": "14",
+     "nota": "Procedimiento de las normas de emisión de GEI."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 26-07-2025 (promulgado 20-03-2024). El inicio de las normas de metano y HFC consta en resoluciones exentas 9.633 y 9.634 publicadas el 17-01-2026 (resultado del buscador BCN)."
+  },
+  {
+   "id": "ds-32-2024-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "32",
+   "anio": 2024,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba reglamento que establece las condiciones y requisitos relativos a los certificados de reducción o absorción de emisiones de gases de efecto invernadero",
+   "nombre_corto": "Reglamento de certificados de reducción y Art. 6 París",
+   "fecha_publicacion": "2025-12-13",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1219471,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1219471",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1219471",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1219471"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Regula los certificados de reducción o absorción de GEI y la participación de Chile en los mecanismos de cooperación del artículo 6 del Acuerdo de París, creando un comité nacional y reglas de validación y verificación.",
+   "relevancia_titulares": "Desarrolladores de proyectos de mitigación, incluidos forestales, deben validar y verificar sus actividades con entidades operacionales y obtener autorización del MMA para transferencias internacionales.",
+   "organismos_competentes": [
+    "MMA",
+    "Comité Nacional Art. 6",
+    "SMA"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Fija condiciones y requisitos de los certificados de reducción o absorción de emisiones.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Rol del MMA",
+     "resumen": "El Ministerio es la autoridad responsable de desarrollar e implementar los mecanismos del artículo 6.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Comité Nacional",
+     "resumen": "Crea el comité nacional para la implementación del artículo 6 del Acuerdo de París.",
+     "obliga_titular": false
+    },
+    {
+     "num": "20",
+     "epigrafe": "Validación y verificación",
+     "resumen": "Las entidades operacionales validan y verifican las actividades de mitigación.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": "15",
+     "nota": "Certificados de reducción o absorción."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "trat-acuerdo-paris",
+     "art_origen": null,
+     "art_destino": "6",
+     "nota": "Mecanismos de cooperación voluntaria."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 13-12-2025 (promulgado 10-10-2024). Título abreviado respecto del texto completo de BCN, que continúa con la referencia al artículo 6 del Acuerdo de París."
+  },
+  {
+   "id": "ds-17-2023-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "17",
+   "anio": 2023,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba reglamento que establece los sistemas de información sobre cambio climático que indica",
+   "nombre_corto": "Reglamento de sistemas de información climática",
+   "fecha_publicacion": "2024-12-03",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1208999,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1208999",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1208999",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1208999"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Regula el Sistema Nacional de Acceso a la Información y Participación Ciudadana sobre Cambio Climático y la entrega de información entre órganos del Estado.",
+   "relevancia_titulares": "Sin obligaciones directas para titulares; ordena la información pública de inventarios, prospectiva y certificación que sustenta exigencias de reporte.",
+   "organismos_competentes": [
+    "MMA"
+   ],
+   "articulos": [
+    {
+     "num": "1-2",
+     "epigrafe": "Ámbito y objetivos",
+     "resumen": "Regula el sistema nacional de acceso a información y participación en materia climática.",
+     "obliga_titular": false
+    },
+    {
+     "num": "10",
+     "epigrafe": "Entrega de información entre órganos",
+     "resumen": "Establece cómo los órganos del Estado comunican información climática al sistema.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Sistemas de información del Título V."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Publicado 03-12-2024 (promulgado 06-06-2023). Solo se revisaron los primeros artículos."
+  },
+  {
+   "id": "ds-28-2025-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "28",
+   "anio": 2025,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba actualización de la Contribución Determinada a Nivel Nacional de Chile 2025",
+   "nombre_corto": "NDC de Chile 2025",
+   "fecha_publicacion": "2025-09-20",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1216833,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1216833",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1216833",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1216833"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Aprueba por decreto supremo la NDC actualizada de Chile, que fija los compromisos de mitigación y adaptación a presentar ante la Convención y orienta los presupuestos sectoriales.",
+   "relevancia_titulares": "No es directamente exigible a particulares, pero sus metas, incluidas las forestales y de uso de suelo, se traducen en planes sectoriales y normas que sí alcanzan a los proyectos.",
+   "organismos_competentes": [
+    "MMA",
+    "Ministerios sectoriales",
+    "CONAF"
+   ],
+   "articulos": [
+    {
+     "num": "único",
+     "epigrafe": "Aprobación de la NDC",
+     "resumen": "Aprueba el documento de actualización 2025 de la contribución nacional.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": "7",
+     "nota": "Instrumento del art. 7 de la Ley Marco."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "trat-acuerdo-paris",
+     "art_origen": null,
+     "art_destino": "4",
+     "nota": "Comunicación de la contribución nacional."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Existencia, número y fecha verificados en BCN; no se leyó el contenido de las metas."
+  },
+  {
+   "id": "ley-20780",
+   "tipo": "Ley",
+   "numero": "20.780",
+   "anio": 2014,
+   "organismo": "Ministerio de Hacienda",
+   "titulo_oficial": "Reforma tributaria que modifica el sistema de tributación de la renta e introduce diversos ajustes en el sistema tributario",
+   "nombre_corto": "Impuestos verdes (art. 8° Ley 20.780)",
+   "fecha_publicacion": "2014-09-29",
+   "estado": "vigente",
+   "ultima_modificacion": "Versión BCN de 2026-02-05 (norma modificatoria no identificada); el art. 8° fue reformulado por la Ley 21.210 de 2020",
+   "id_norma_bcn": 1067194,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1067194",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1067194",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1067194"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Su artículo 8° crea el impuesto anual a las emisiones de fuentes fijas: grava material particulado, NOx, SO2 y CO2 de establecimientos que emitan 100 o más toneladas anuales de MP o 25.000 o más de CO2. El CO2 paga 5 dólares por tonelada y los contaminantes locales según costo social y población comunal; se admite compensar con proyectos de reducción.",
+   "relevancia_titulares": "Establecimientos sobre los umbrales deben medir, reportar y pagar el impuesto, y pueden rebajarlo con certificados de reducción adicionales, medibles, verificables y permanentes.",
+   "organismos_competentes": [
+    "SII",
+    "MMA",
+    "SMA",
+    "Tesorería General de la República"
+   ],
+   "articulos": [
+    {
+     "num": "8 inc. 1°",
+     "epigrafe": "Hecho gravado y umbrales",
+     "resumen": "Grava emisiones al aire de MP, NOx, SO2 y CO2 de establecimientos que alcancen 100 t/año de MP o 25.000 t/año de CO2.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8 (tasa local)",
+     "epigrafe": "MP, NOx y SO2",
+     "resumen": "El impuesto equivale a 0,1 por tonelada multiplicado por el costo social per cápita del contaminante y la población de la comuna.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8 (tasa CO2)",
+     "epigrafe": "Dióxido de carbono",
+     "resumen": "Cinco dólares por tonelada de CO2, con exención para generación con biomasa.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8 (compensación)",
+     "epigrafe": "Compensación de emisiones",
+     "resumen": "Los contribuyentes pueden compensar todo o parte de sus emisiones gravadas con proyectos de reducción del mismo contaminante.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ley-21455",
+     "art_origen": "8",
+     "art_destino": "37",
+     "nota": "Instrumento económico de la gestión climática."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-19300",
+     "art_origen": "8",
+     "art_destino": null,
+     "nota": "Las reducciones compensables deben ser adicionales a planes, normas de emisión y RCA."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Texto del art. 8° leído en XML BCN vigente. No se identificó la norma que originó la versión de 05-02-2026 ni si afecta al art. 8°."
+  },
+  {
+   "id": "ley-21210",
+   "tipo": "Ley",
+   "numero": "21.210",
+   "anio": 2020,
+   "organismo": "Ministerio de Hacienda",
+   "titulo_oficial": "Moderniza la legislación tributaria",
+   "nombre_corto": "Modernización tributaria (ajuste impuesto verde)",
+   "fecha_publicacion": "2020-02-24",
+   "estado": "vigente",
+   "ultima_modificacion": "Versión BCN de 2024-10-24 (norma modificatoria no identificada)",
+   "id_norma_bcn": 1142667,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1142667",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1142667",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1142667"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Reforma tributaria de 2020 que, entre otras materias, reformuló el impuesto a emisiones del art. 8° de la Ley 20.780: cambió el criterio de afectación a umbrales de emisión e incorporó la compensación con proyectos de reducción.",
+   "relevancia_titulares": "Explica por qué el impuesto verde se aplica por toneladas emitidas y no por potencia térmica instalada, y habilita el uso de compensaciones.",
+   "organismos_competentes": [
+    "SII",
+    "MMA",
+    "SMA"
+   ],
+   "articulos": [
+    {
+     "num": "-",
+     "epigrafe": "Modificación del art. 8° Ley 20.780",
+     "resumen": "Sustituye el criterio de sujeción por umbrales anuales de emisión y permite compensar emisiones gravadas.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "ley-20780",
+     "art_origen": null,
+     "art_destino": "8",
+     "nota": "Reformula el impuesto a emisiones de fuentes fijas."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "No se ubicó en el XML el artículo exacto de la Ley 21.210 que modifica el art. 8° de la Ley 20.780; el contenido de la modificación se infiere del texto vigente del art. 8°."
+  },
+  {
+   "id": "ds-4-2023-mma",
+   "tipo": "Decreto Supremo",
+   "numero": "4",
+   "anio": 2023,
+   "organismo": "Ministerio del Medio Ambiente",
+   "titulo_oficial": "Aprueba reglamento de proyectos de reducción de emisiones de contaminantes para compensar emisiones gravadas conforme a lo dispuesto en el artículo 8° de la Ley N° 20.780",
+   "nombre_corto": "Reglamento de compensaciones del impuesto verde",
+   "fecha_publicacion": "2023-09-29",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1196414,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1196414",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1196414",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1196414",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=61 (buscador BCN, consultado 2026-11-10)"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Regula el sistema de compensación del impuesto verde: requisitos de los proyectos de reducción o absorción, metodologías, auditores externos, verificación por la SMA y emisión de certificados. En 2024-2026 el MMA ha reconocido programas externos de certificación.",
+   "relevancia_titulares": "Contribuyentes afectos pueden rebajar el impuesto con certificados; titulares de proyectos de reducción o absorción (incluidos forestales) pueden registrarlos y vender certificados cumpliendo metodologías y verificación.",
+   "organismos_competentes": [
+    "MMA",
+    "SMA",
+    "SII"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objeto",
+     "resumen": "Establece requisitos, procedimientos y registros de los proyectos de reducción de emisiones para compensar.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Derecho a compensar",
+     "resumen": "Los contribuyentes afectos pueden compensar total o parcialmente con certificados de reducción.",
+     "obliga_titular": false
+    },
+    {
+     "num": "9",
+     "epigrafe": "Metodologías",
+     "resumen": "Cualquier persona puede proponer al MMA la validación de nuevas metodologías.",
+     "obliga_titular": false
+    },
+    {
+     "num": "27",
+     "epigrafe": "Verificación y certificado",
+     "resumen": "Con el informe del auditor externo autorizado, la SMA verifica las reducciones y da lugar al certificado.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "reglamenta",
+     "destino": "ley-20780",
+     "art_origen": null,
+     "art_destino": "8",
+     "nota": "Reglamento de la compensación de emisiones gravadas."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": "15",
+     "nota": "Se relaciona con los certificados del art. 15 de la Ley Marco."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 29-09-2023 (promulgado 25-01-2023). Los reconocimientos de programas externos (Cercarbono, BioCarbon, Climate Action Reserve, mecanismo del Acuerdo de París) aparecen como resoluciones exentas 2024-2026 en el buscador BCN."
+  },
+  {
+   "id": "ley-21305",
+   "tipo": "Ley",
+   "numero": "21.305",
+   "anio": 2021,
+   "organismo": "Ministerio de Energía",
+   "titulo_oficial": "Sobre eficiencia energética",
+   "nombre_corto": "Ley de Eficiencia Energética",
+   "fecha_publicacion": "2021-02-13",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1155887,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1155887",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1155887",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1155887"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Ordena un Plan Nacional de Eficiencia Energética quinquenal, obliga a reportar consumos a las empresas que determine el Ministerio de Energía, crea la calificación energética de edificaciones y regula la interoperabilidad de la recarga de vehículos eléctricos.",
+   "relevancia_titulares": "Empresas con consumo final de 50 teracalorías o más al año deben reportar su información energética y, si califican como grandes consumidores, gestionar activamente su energía; las edificaciones nuevas requieren etiqueta de eficiencia.",
+   "organismos_competentes": [
+    "Ministerio de Energía",
+    "SEC",
+    "MINVU"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Plan Nacional de Eficiencia Energética",
+     "resumen": "El Ministerio de Energía debe elaborarlo cada cinco años con metas de reducción de intensidad energética.",
+     "obliga_titular": false
+    },
+    {
+     "num": "2",
+     "epigrafe": "Reporte de grandes consumidores",
+     "resumen": "Las empresas con consumo final igual o superior a 50 teracalorías anuales deben reportar cada año sus consumos e intensidad energética; un decreto cuatrienal fija los criterios para determinar a los consumidores con capacidad de gestión de energía.",
+     "obliga_titular": true
+    },
+    {
+     "num": "3-4",
+     "epigrafe": "Calificación energética",
+     "resumen": "Crea la etiqueta de eficiencia de edificaciones y el registro de evaluadores energéticos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "6",
+     "epigrafe": "Recarga de vehículos eléctricos",
+     "resumen": "Habilita al Ministerio para normar la interoperabilidad de los sistemas de recarga.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Aporta a los presupuestos sectoriales de energía."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Versión única en BCN. El umbral de reporte (50 teracalorías) se leyó en el art. 2; no se verificaron las obligaciones específicas de los sistemas de gestión de energía."
+  },
+  {
+   "id": "dfl-4-2006",
+   "tipo": "DFL",
+   "numero": "4 (4/20.018)",
+   "anio": 2006,
+   "organismo": "Ministerio de Economía, Fomento y Reconstrucción",
+   "titulo_oficial": "Fija texto refundido, coordinado y sistematizado del decreto con fuerza de ley Nº 1, de Minería, de 1982, Ley General de Servicios Eléctricos, en materia de energía eléctrica",
+   "nombre_corto": "Ley General de Servicios Eléctricos (LGSE)",
+   "fecha_publicacion": "2007-02-05",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 21.833 (Ley de protección tarifaria eléctrica), publicada 2026-07-31",
+   "id_norma_bcn": 258171,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=258171",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=258171",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=258171",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1226550"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Marco de generación, transmisión, distribución y almacenamiento de electricidad: concesiones y servidumbres, coordinación del sistema, planificación de la transmisión y cuota de energías renovables no convencionales.",
+   "relevancia_titulares": "Proyectos de generación, almacenamiento y líneas deben obtener concesiones o servidumbres eléctricas y conectarse según las reglas del Coordinador; las líneas y centrales suelen además ingresar al SEIA.",
+   "organismos_competentes": [
+    "Ministerio de Energía",
+    "CNE",
+    "SEC",
+    "Coordinador Eléctrico Nacional",
+    "Panel de Expertos"
+   ],
+   "articulos": [
+    {
+     "num": "149",
+     "epigrafe": "Venta de energía e inyecciones",
+     "resumen": "Regula las transferencias de energía de quienes poseen medios de generación, sistemas de almacenamiento u otras instalaciones que inyectan al sistema.",
+     "obliga_titular": true
+    },
+    {
+     "num": "150 bis",
+     "epigrafe": "Cuota ERNC",
+     "resumen": "Obliga a las empresas que retiran energía para comercializarla a acreditar un porcentaje proveniente de fuentes renovables no convencionales.",
+     "obliga_titular": true
+    },
+    {
+     "num": "225 letra aa)",
+     "epigrafe": "Definición de ERNC",
+     "resumen": "Define los medios de generación renovable no convencional, entre ellos la biomasa.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ds-40-2012-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Centrales y líneas de transmisión son tipologías de ingreso al SEIA."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-19300",
+     "art_origen": null,
+     "art_destino": "10",
+     "nota": "Las obras eléctricas quedan sujetas a evaluación ambiental según el art. 10."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "La atribución de la última versión (31-07-2026) a la Ley 21.833 se infiere por coincidencia de fecha de publicación. Solo se verificaron indirectamente los arts. 149, 150 bis y 225 (citados en leyes modificatorias); no se leyó el articulado de concesiones y servidumbres. Las letras del art. 10 de la Ley 19.300 aplicables no se verificaron en este lote."
+  },
+  {
+   "id": "ley-20257",
+   "tipo": "Ley",
+   "numero": "20.257",
+   "anio": 2008,
+   "organismo": "Ministerio de Economía",
+   "titulo_oficial": "Introduce modificaciones a la Ley General de Servicios Eléctricos respecto de la generación de energía eléctrica con fuentes de energías renovables no convencionales",
+   "nombre_corto": "Ley ERNC (cuota renovable)",
+   "fecha_publicacion": "2008-04-01",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 20.698, publicada 2013-10-22",
+   "id_norma_bcn": 270212,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=270212",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=270212",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=270212"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Incorporó a la LGSE la obligación de que un porcentaje de la energía comercializada provenga de fuentes renovables no convencionales, acreditable con inyecciones propias o contratadas.",
+   "relevancia_titulares": "Generadoras que efectúan retiros deben acreditar la cuota ERNC o pagar el cargo por incumplimiento; da valor comercial al atributo renovable de los proyectos.",
+   "organismos_competentes": [
+    "Ministerio de Energía",
+    "CNE",
+    "Coordinador Eléctrico Nacional"
+   ],
+   "articulos": [
+    {
+     "num": "único",
+     "epigrafe": "Art. 150 bis LGSE",
+     "resumen": "Agrega la obligación de acreditar una cuota de energía renovable no convencional, originalmente de 10%.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "dfl-4-2006",
+     "art_origen": null,
+     "art_destino": "150 bis",
+     "nota": "Incorpora el art. 150 bis."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "El porcentaje original (10%) se deduce de la Ley 20.698, que lo reemplaza por 20%."
+  },
+  {
+   "id": "ley-20698",
+   "tipo": "Ley",
+   "numero": "20.698",
+   "anio": 2013,
+   "organismo": "Ministerio de Energía",
+   "titulo_oficial": "Propicia la ampliación de la matriz energética, mediante fuentes renovables no convencionales",
+   "nombre_corto": "Ley 20/25 de energías renovables",
+   "fecha_publicacion": "2013-10-22",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1055402,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1055402",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1055402",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1055402"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Eleva de 10% a 20% la cuota ERNC del art. 150 bis de la LGSE, crea un registro público de certificados ERNC y agrega licitaciones públicas de bloques de energía renovable (art. 150 ter).",
+   "relevancia_titulares": "Aumenta la exigencia de respaldo renovable para comercializadores y abre licitaciones para proyectos ERNC.",
+   "organismos_competentes": [
+    "Ministerio de Energía",
+    "CNE"
+   ],
+   "articulos": [
+    {
+     "num": "único N° 1",
+     "epigrafe": "Cuota de 20%",
+     "resumen": "Sustituye el guarismo 10% por 20% en el art. 150 bis y ordena un registro público de transferencias de certificados.",
+     "obliga_titular": true
+    },
+    {
+     "num": "único N° 2",
+     "epigrafe": "Licitaciones ERNC",
+     "resumen": "Incorpora el art. 150 ter para licitar bloques anuales de energía renovable.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "dfl-4-2006",
+     "art_origen": null,
+     "art_destino": "150 bis y 150 ter",
+     "nota": "Modifica el art. 150 bis y agrega el 150 ter."
+    },
+    {
+     "tipo": "modifica",
+     "destino": "ley-20257",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Aumenta la cuota que esa ley introdujo."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Versión única en BCN."
+  },
+  {
+   "id": "ley-21505",
+   "tipo": "Ley",
+   "numero": "21.505",
+   "anio": 2022,
+   "organismo": "Ministerio de Energía",
+   "titulo_oficial": "Promueve el almacenamiento de energía eléctrica y la electromovilidad",
+   "nombre_corto": "Ley de almacenamiento y electromovilidad",
+   "fecha_publicacion": "2022-11-21",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1184572,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1184572",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1184572",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1184572"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Modifica la LGSE para reconocer los sistemas de almacenamiento como actores del mercado eléctrico, habilitados para inyectar y ser remunerados junto a los medios de generación, y contiene incentivos a la electromovilidad.",
+   "relevancia_titulares": "Permite desarrollar proyectos de almacenamiento, aislados o asociados a generación, con acceso a los mercados de energía y potencia.",
+   "organismos_competentes": [
+    "Ministerio de Energía",
+    "CNE",
+    "Coordinador Eléctrico Nacional",
+    "SEC"
+   ],
+   "articulos": [
+    {
+     "num": "1 (arts. 72°-18 y 149 LGSE)",
+     "epigrafe": "Almacenamiento en el mercado",
+     "resumen": "Agrega los sistemas de almacenamiento a las reglas de coordinación, inyección y transferencias aplicables a los generadores.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "dfl-4-2006",
+     "art_origen": null,
+     "art_destino": "72°-18 y 149",
+     "nota": "Incorpora el almacenamiento en diversos artículos de la LGSE."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Verificada como ley de almacenamiento y electromovilidad (no es norma de residuos). Solo se leyó parte del artículo que modifica la LGSE; los incentivos a vehículos eléctricos no fueron revisados."
+  },
+  {
+   "id": "ley-21721",
+   "tipo": "Ley",
+   "numero": "21.721",
+   "anio": 2024,
+   "organismo": "Ministerio de Energía",
+   "titulo_oficial": "Modifica la Ley General de Servicios Eléctricos, en materia de transmisión eléctrica",
+   "nombre_corto": "Ley de transición energética (transmisión)",
+   "fecha_publicacion": "2024-12-27",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1209692,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209692",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1209692",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1209692"
+   ],
+   "categoria": "clima-energia",
+   "resumen": "Reforma la planificación y expansión de la transmisión: criterios diferenciados para transmisión zonal, tratamiento de obras asociadas a proyectos de generación o almacenamiento aún no declarados en construcción y reglas para almacenamiento conectado en distribución.",
+   "relevancia_titulares": "Desarrolladores de generación y almacenamiento pueden promover obras de transmisión vinculadas a sus proyectos y deben atender las nuevas reglas de conexión.",
+   "organismos_competentes": [
+    "Ministerio de Energía",
+    "CNE",
+    "Coordinador Eléctrico Nacional"
+   ],
+   "articulos": [
+    {
+     "num": "único N° 1",
+     "epigrafe": "Art. 77 LGSE",
+     "resumen": "Incluye a los sistemas de almacenamiento conectados a través de redes de distribución.",
+     "obliga_titular": false
+    },
+    {
+     "num": "único N° 2",
+     "epigrafe": "Art. 87 LGSE",
+     "resumen": "Permite criterios diferenciados para expandir la transmisión zonal.",
+     "obliga_titular": false
+    },
+    {
+     "num": "único N° 3",
+     "epigrafe": "Art. 91 LGSE",
+     "resumen": "Regula las propuestas de obras originadas en proyectos de generación o almacenamiento no declarados en construcción.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "dfl-4-2006",
+     "art_origen": null,
+     "art_destino": "77, 87 y 91",
+     "nota": "Reforma del régimen de transmisión."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Es la ley conocida como de transición energética; no existe en BCN una ley de hidrógeno verde: el fomento al hidrógeno seguía como proyecto de ley según las búsquedas realizadas. Solo se leyeron los primeros numerales."
+  },
+  {
+   "id": "ley-21595",
+   "tipo": "Ley",
+   "numero": "21.595",
+   "anio": 2023,
+   "organismo": "Ministerio de Justicia y Derechos Humanos",
+   "titulo_oficial": "Ley de Delitos Económicos",
+   "nombre_corto": "Ley de delitos económicos y ambientales",
+   "fecha_publicacion": "2023-08-17",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 21.770 (Ley Marco de Autorizaciones Sectoriales), publicada 2025-09-29, modifica el art. 2",
+   "id_norma_bcn": 1195119,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1195119",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1195119",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1195119",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1216930"
+   ],
+   "categoria": "fiscalizacion-justicia",
+   "resumen": "Crea el estatuto de delitos económicos en cuatro categorías, con reglas especiales de penas, multas y comiso, y sustituye el párrafo del Código Penal sobre atentados contra el medio ambiente (arts. 305 a 312). Incorpora delitos en la ley orgánica de la SMA y amplía la responsabilidad penal de las personas jurídicas.",
+   "relevancia_titulares": "Operar sin evaluación ambiental debiendo tenerla, contaminar infringiendo normas o instrumentos habiendo sido sancionado, o entregar información falsa al SEA o a la SMA puede acarrear cárcel para ejecutivos y penas para la empresa, lo que exige modelos de prevención de delitos.",
+   "organismos_competentes": [
+    "Ministerio Público",
+    "Tribunales penales",
+    "SMA",
+    "SEA"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Primera categoría",
+     "resumen": "Delitos que siempre son económicos, como los del mercado de valores y la colusión.",
+     "obliga_titular": false
+    },
+    {
+     "num": "2",
+     "epigrafe": "Segunda categoría",
+     "resumen": "Delitos que son económicos si se cometen en ejercicio de un cargo o en beneficio de una empresa; incluye los arts. 305 a 310 del Código Penal, delitos de la ley de bosques, pesca, caza y los arts. 37 bis y 37 ter de la ley de la SMA.",
+     "obliga_titular": true
+    },
+    {
+     "num": "3",
+     "epigrafe": "Tercera categoría",
+     "resumen": "Delitos funcionarios en que interviene alguien desde una empresa.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Cuarta categoría",
+     "resumen": "Receptación y lavado de activos vinculados a delitos económicos.",
+     "obliga_titular": false
+    },
+    {
+     "num": "48",
+     "epigrafe": "Modificaciones al Código Penal",
+     "resumen": "Introduce el comiso de ganancias y sustituye los atentados contra el medio ambiente por los nuevos arts. 305 a 312.",
+     "obliga_titular": true
+    },
+    {
+     "num": "50",
+     "epigrafe": "Modificaciones a la Ley 20.393",
+     "resumen": "Reemplaza el catálogo de delitos y los presupuestos de responsabilidad penal de la persona jurídica.",
+     "obliga_titular": true
+    },
+    {
+     "num": "57",
+     "epigrafe": "Delitos en la ley de la SMA",
+     "resumen": "Agrega el art. 37 bis, que castiga a quien maliciosamente entregue información falsa o incompleta en la evaluación ambiental o ante la SMA, o altere la vía de ingreso al SEIA; y el art. 37 ter, que pena el incumplimiento de clausuras o medidas de la SMA y la obstaculización grave de la fiscalización.",
+     "obliga_titular": true
+    },
+    {
+     "num": "transitorios",
+     "epigrafe": "Vigencia diferida",
+     "resumen": "Las modificaciones a la Ley 20.393 comenzaron a regir el primer día del decimotercer mes posterior a la publicación.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "modifica",
+     "destino": "codigo-penal",
+     "art_origen": "48",
+     "art_destino": "305 a 312",
+     "nota": "Nuevo párrafo de atentados contra el medio ambiente."
+    },
+    {
+     "tipo": "modifica",
+     "destino": "ley-20393",
+     "art_origen": "50",
+     "art_destino": "1 y siguientes",
+     "nota": "Nuevo régimen de responsabilidad penal de personas jurídicas."
+    },
+    {
+     "tipo": "modifica",
+     "destino": "ley-20417",
+     "art_origen": "57",
+     "art_destino": "artículo segundo, arts. 37 bis y 37 ter",
+     "nota": "Incorpora delitos de información falsa y elusión en la ley orgánica de la SMA."
+    },
+    {
+     "tipo": "remite",
+     "destino": "ley-19300",
+     "art_origen": "48",
+     "art_destino": "8 y 10",
+     "nota": "Los tipos penales se construyen sobre el deber de someterse al SEIA y sobre RCA, normas y planes."
+    },
+    {
+     "tipo": "remite",
+     "destino": "ds-40-2012-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "La obligación de ingreso que presupone el art. 305 CP se determina con el Reglamento del SEIA."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Articulado leído del XML BCN (versión 2025-09-29). La letra b) del art. 37 bis se leyó solo parcialmente."
+  },
+  {
+   "id": "codigo-penal",
+   "tipo": "Código",
+   "numero": "Código Penal",
+   "anio": 1874,
+   "organismo": "Ministerio de Justicia",
+   "titulo_oficial": "Código Penal",
+   "nombre_corto": "Código Penal: delitos ambientales (arts. 291, 305-312)",
+   "fecha_publicacion": "1874-11-12",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 21.834, publicada 2026-08-20 (art. 304 bis; no altera los arts. 305-312)",
+   "id_norma_bcn": 1984,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1984",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1984",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1984",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1227289"
+   ],
+   "categoria": "fiscalizacion-justicia",
+   "resumen": "El párrafo 13 del Título VI del Libro II (arts. 305 a 312), incorporado por la Ley 21.595, tipifica los atentados contra el medio ambiente: contaminación o extracción eludiendo el SEIA, infracción reiterada de normas e instrumentos, extracción ilegal de aguas, afectación grave de componentes ambientales y daño en áreas protegidas. El art. 291 castiga la propagación indebida de agentes peligrosos para la salud animal o vegetal.",
+   "relevancia_titulares": "La elusión consciente del SEIA con vertidos, extracciones o emisiones es delito; también lo es reincidir en infracciones sancionadas y causar afectación grave, con penas mayores en parques, reservas, monumentos naturales y humedales Ramsar.",
+   "organismos_competentes": [
+    "Ministerio Público",
+    "Tribunales penales",
+    "SMA",
+    "DGA",
+    "CONAF",
+    "SBAP"
+   ],
+   "articulos": [
+    {
+     "num": "291",
+     "epigrafe": "Propagación indebida",
+     "resumen": "Sanciona con presidio menor en grado máximo a quien propague organismos o agentes químicos, virales, bacteriológicos o radiactivos que pongan en peligro la salud animal o vegetal o el abastecimiento.",
+     "obliga_titular": true
+    },
+    {
+     "num": "305",
+     "epigrafe": "Contaminación con elusión del SEIA",
+     "resumen": "Castiga a quien, sabiendo que debía someterse a evaluación ambiental, vierta contaminantes en aguas, suelo o aire, o extraiga aguas o componentes del suelo; la pena sube si correspondía un estudio de impacto ambiental.",
+     "obliga_titular": true
+    },
+    {
+     "num": "306",
+     "epigrafe": "Infracción reiterada de instrumentos",
+     "resumen": "Aplica las mismas penas a quien, teniendo autorización, contraviene normas de emisión o calidad, planes, RCA u otros instrumentos, cuando ya ha sido sancionado administrativamente.",
+     "obliga_titular": true
+    },
+    {
+     "num": "307",
+     "epigrafe": "Extracción ilegal de aguas",
+     "resumen": "Castiga extraer aguas infringiendo reglas de distribución en situaciones como reducción temporal de derechos, zonas de prohibición o escasez hídrica.",
+     "obliga_titular": true
+    },
+    {
+     "num": "308",
+     "epigrafe": "Afectación grave dolosa",
+     "resumen": "Pena a quien, vertiendo contaminantes o extrayendo aguas o suelo, afecte gravemente aguas, suelo, aire, salud animal o vegetal, recursos hídricos o humedales.",
+     "obliga_titular": true
+    },
+    {
+     "num": "309",
+     "epigrafe": "Afectación grave imprudente",
+     "resumen": "Sanciona los mismos hechos cometidos por imprudencia o negligencia con infracción de reglamentos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "310",
+     "epigrafe": "Áreas protegidas",
+     "resumen": "Presidio mayor en grado mínimo para quien afecte gravemente una reserva de región virgen, parque nacional, monumento natural, reserva nacional o humedal de importancia internacional; igual pena en ciertos casos de infracción de RCA o elusión.",
+     "obliga_titular": true
+    },
+    {
+     "num": "310 bis",
+     "epigrafe": "Concepto de afectación grave",
+     "resumen": "Define la afectación grave por extensión espacial, duración, irreparabilidad u otros criterios.",
+     "obliga_titular": false
+    },
+    {
+     "num": "310 ter",
+     "epigrafe": "Multas",
+     "resumen": "Añade multas de 120 a 120.000 UTM según la gravedad de la pena asignada al delito.",
+     "obliga_titular": true
+    },
+    {
+     "num": "311",
+     "epigrafe": "Casos de menor entidad",
+     "resumen": "Reduce la sanción a multa cuando el exceso no es significativo y el infractor actuó conforme a ciertas condiciones.",
+     "obliga_titular": false
+    },
+    {
+     "num": "311 sexies",
+     "epigrafe": "Validez de la autorización",
+     "resumen": "Se entiende autorizado quien tenía el permiso al momento del hecho, salvo que lo obtuviera con engaño, coacción o cohecho o supiera de su improcedencia manifiesta.",
+     "obliga_titular": true
+    },
+    {
+     "num": "312",
+     "epigrafe": "Condiciones de reparación",
+     "resumen": "El tribunal puede imponer medidas para evitar o reparar el daño ambiental, consultando a los organismos técnicos y oficiando a la autoridad fiscalizadora.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "remite",
+     "destino": "ley-19300",
+     "art_origen": "305 y 310",
+     "art_destino": "8, 10 y 11",
+     "nota": "Los arts. 305 y 310 se construyen sobre el deber de evaluación ambiental y la RCA."
+    },
+    {
+     "tipo": "remite",
+     "destino": "ds-40-2012-mma",
+     "art_origen": "305",
+     "art_destino": "3",
+     "nota": "La obligación de ingreso al SEIA se concreta en su reglamento."
+    },
+    {
+     "tipo": "remite",
+     "destino": "ley-20417",
+     "art_origen": "306",
+     "art_destino": null,
+     "nota": "El art. 306 exige sanciones administrativas previas, que impone la SMA."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "trat-ramsar",
+     "art_origen": "310",
+     "art_destino": null,
+     "nota": "El art. 310 protege penalmente los humedales de importancia internacional."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "ley-21600",
+     "art_origen": "310",
+     "art_destino": null,
+     "nota": "Las categorías de áreas protegidas del art. 310 son administradas bajo el sistema de la Ley 21.600."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "El tipo 'Código' no figura en la enumeración del esquema; se usó por fidelidad a BCN y el id 'codigo-penal' queda fuera de la convención. La atribución de la última versión a la Ley 21.834 es por coincidencia de fechas."
+  },
+  {
+   "id": "ley-20393",
+   "tipo": "Ley",
+   "numero": "20.393",
+   "anio": 2009,
+   "organismo": "Ministerio de Hacienda",
+   "titulo_oficial": "Establece la responsabilidad penal de las personas jurídicas en los delitos que indica",
+   "nombre_corto": "Responsabilidad penal de personas jurídicas",
+   "fecha_publicacion": "2009-12-02",
+   "estado": "vigente",
+   "ultima_modificacion": "Ley 21.595, publicada 2023-08-17 (modificaciones en vigor desde septiembre de 2024)",
+   "id_norma_bcn": 1008668,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1008668",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1008668",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1008668"
+   ],
+   "categoria": "fiscalizacion-justicia",
+   "resumen": "Regula cuándo una persona jurídica responde penalmente por delitos cometidos en el marco de su actividad, las penas aplicables y el efecto eximente de un modelo de prevención de delitos efectivamente implementado. Desde la Ley 21.595 abarca los delitos económicos y ambientales.",
+   "relevancia_titulares": "La empresa titular responde penalmente por delitos ambientales de quienes actúan por ella si no cuenta con un modelo de prevención adecuado; arriesga multas, pérdida de beneficios fiscales, inhabilitación para contratar con el Estado, supervisión o incluso extinción.",
+   "organismos_competentes": [
+    "Ministerio Público",
+    "Tribunales penales"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Contenido y delitos",
+     "resumen": "Regula la responsabilidad penal de personas jurídicas por los delitos que enumera, incluidos los de la Ley de Delitos Económicos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "3",
+     "epigrafe": "Presupuestos",
+     "resumen": "La persona jurídica responde por delitos perpetrados en su actividad por quien ocupa un cargo o le presta servicios, cuando el hecho se ve favorecido por la falta de un modelo de prevención adecuado.",
+     "obliga_titular": true
+    },
+    {
+     "num": "4",
+     "epigrafe": "Modelo de prevención",
+     "resumen": "Exime de responsabilidad un modelo efectivamente implementado, proporcional al giro, tamaño y riesgos, con identificación de actividades riesgosas, protocolos, responsables y evaluaciones periódicas.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8",
+     "epigrafe": "Penas",
+     "resumen": "Extinción de la persona jurídica, inhabilitación para contratar con el Estado, pérdida de beneficios fiscales, supervisión, multa, comiso y publicación de la sentencia.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "ley-21595",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Su régimen actual proviene del art. 50 de la Ley 21.595."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "codigo-penal",
+     "art_origen": null,
+     "art_destino": "305 a 310",
+     "nota": "Se aplica a los atentados contra el medio ambiente."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Versión BCN de 2023-08-17. La fecha exacta de entrada en vigor (01-09-2024) se calcula a partir de la regla transitoria de la Ley 21.595, no fue leída como fecha expresa."
+  },
+  {
+   "id": "trat-escazu",
+   "tipo": "Tratado",
+   "numero": "DS 209/2022 MINREL",
+   "anio": 2022,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Acuerdo Regional sobre el Acceso a la Información, la Participación Pública y el Acceso a la Justicia en Asuntos Ambientales en América Latina y el Caribe",
+   "nombre_corto": "Acuerdo de Escazú",
+   "fecha_publicacion": "2022-10-25",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1183363,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1183363",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1183363",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1183363",
+    "https://www.sea.gob.cl/noticias/consejo-de-ministros-aprueba-plan-nacional-de-implementacion-participativa-del-acuerdo-de"
+   ],
+   "categoria": "tratados",
+   "resumen": "Tratado regional que garantiza los derechos de acceso a la información ambiental, participación pública en decisiones ambientales y acceso a la justicia, y protege a los defensores ambientales. Chile lo implementa mediante el Plan Nacional de Implementación Participativa 2024-2030, sin ley especial de implementación.",
+   "relevancia_titulares": "Eleva el estándar de transparencia y participación exigible en la evaluación de proyectos: información accesible, participación temprana y efectiva y vías de impugnación amplias.",
+   "organismos_competentes": [
+    "MMA",
+    "SEA",
+    "SMA",
+    "Tribunales Ambientales",
+    "Consejo para la Transparencia"
+   ],
+   "articulos": [
+    {
+     "num": "5",
+     "epigrafe": "Acceso a la información",
+     "resumen": "Cada Parte debe garantizar el acceso del público a la información ambiental en su poder, bajo máxima publicidad.",
+     "obliga_titular": false
+    },
+    {
+     "num": "6",
+     "epigrafe": "Generación y divulgación",
+     "resumen": "Las autoridades deben generar y difundir información ambiental de forma sistemática y accesible.",
+     "obliga_titular": false
+    },
+    {
+     "num": "7",
+     "epigrafe": "Participación pública",
+     "resumen": "Debe asegurarse participación abierta e inclusiva desde etapas iniciales en decisiones sobre proyectos con impacto ambiental significativo.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8",
+     "epigrafe": "Acceso a la justicia",
+     "resumen": "Garantiza instancias para impugnar decisiones, acciones u omisiones ambientales.",
+     "obliga_titular": false
+    },
+    {
+     "num": "9",
+     "epigrafe": "Defensores ambientales",
+     "resumen": "Obliga a garantizar un entorno seguro para personas y organizaciones que defienden derechos humanos en asuntos ambientales.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19300",
+     "art_origen": "5 y 7",
+     "art_destino": "26 a 31 quáter",
+     "nota": "Participación ciudadana en el SEIA y acceso a información ambiental."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-40-2012-mma",
+     "art_origen": "7",
+     "art_destino": null,
+     "nota": "Procedimientos de participación en la evaluación ambiental."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-20600",
+     "art_origen": "8",
+     "art_destino": null,
+     "nota": "Acceso a la justicia ambiental ante los Tribunales Ambientales."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-17-2023-mma",
+     "art_origen": "5 y 6",
+     "art_destino": null,
+     "nota": "Sistema de acceso a información y participación en materia climática."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Decreto 209 promulgado 06-07-2022 y publicado 25-10-2022 (BCN). El PIPE 2024-2030 fue aprobado por el Consejo de Ministros para la Sustentabilidad y el Cambio Climático en abril de 2024 según nota del SEA. Los artículos de la Ley 19.300 sobre participación se citan por conocimiento general y no fueron verificados en este lote. No se encontró ley de implementación."
+  },
+  {
+   "id": "trat-convencion-washington",
+   "tipo": "Tratado",
+   "numero": "DS 531/1967 MINREL",
+   "anio": 1967,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Convención para la protección de la flora, la fauna y las bellezas escénicas naturales de América",
+   "nombre_corto": "Convención de Washington (1940)",
+   "fecha_publicacion": "1967-10-04",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 125338,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=125338",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=125338",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=125338"
+   ],
+   "categoria": "tratados",
+   "resumen": "Compromete a los Estados americanos a crear y resguardar parques nacionales, reservas nacionales, monumentos naturales y reservas de regiones vírgenes, y a proteger especies listadas. Es la base jurídica histórica de los monumentos naturales y de la intangibilidad de los parques en Chile.",
+   "relevancia_titulares": "Restringe severamente proyectos en parques nacionales y prohíbe afectar especies declaradas monumento natural, como araucaria o alerce, salvo las excepciones acotadas de la propia Convención.",
+   "organismos_competentes": [
+    "CONAF",
+    "SBAP",
+    "MMA",
+    "SAG"
+   ],
+   "articulos": [
+    {
+     "num": "I",
+     "epigrafe": "Definiciones",
+     "resumen": "Define parques nacionales, reservas nacionales, monumentos naturales y reservas de regiones vírgenes.",
+     "obliga_titular": false
+    },
+    {
+     "num": "III",
+     "epigrafe": "Intangibilidad de parques",
+     "resumen": "Los límites de los parques nacionales solo pueden alterarse por la autoridad legislativa y sus riquezas no pueden explotarse con fines comerciales.",
+     "obliga_titular": true
+    },
+    {
+     "num": "V",
+     "epigrafe": "Legislación protectora",
+     "resumen": "Los gobiernos deben adoptar leyes que protejan flora, fauna y paisajes fuera de las áreas declaradas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "VIII",
+     "epigrafe": "Especies del anexo",
+     "resumen": "Las especies incluidas en el anexo tienen protección urgente y su caza o recolección requiere autorización.",
+     "obliga_titular": false
+    },
+    {
+     "num": "IX",
+     "epigrafe": "Control de comercio",
+     "resumen": "Exige vigilar importaciones, exportaciones y tránsito de especies protegidas.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21600",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Categorías de áreas protegidas y su régimen."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19300",
+     "art_origen": null,
+     "art_destino": "10 letra p)",
+     "nota": "Ingreso al SEIA de obras en áreas bajo protección oficial."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-20283",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protección de especies forestales declaradas monumento natural."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 04-10-1967 (promulgado 23-08-1967) según BCN."
+  },
+  {
+   "id": "trat-ramsar",
+   "tipo": "Tratado",
+   "numero": "DS 771/1981 MINREL",
+   "anio": 1981,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga la Convención sobre zonas húmedas de importancia internacional especialmente como hábitat de las aves acuáticas, suscrito en Irán el 2 de febrero de 1971",
+   "nombre_corto": "Convención de Ramsar (humedales)",
+   "fecha_publicacion": "1981-11-11",
+   "estado": "vigente",
+   "ultima_modificacion": "Enmiendas promulgadas por DS 1.338/1995 MINREL (arts. 6 y 7); versión BCN 1987-02-24",
+   "id_norma_bcn": 15511,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=15511",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=15511",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=15511"
+   ],
+   "categoria": "tratados",
+   "resumen": "Obliga a designar humedales para la Lista de Importancia Internacional, promover su conservación y uso racional y crear reservas en zonas húmedas.",
+   "relevancia_titulares": "Los proyectos en sitios Ramsar o próximos a ellos ingresan al SEIA y normalmente requieren estudio de impacto ambiental; su afectación grave es delito.",
+   "organismos_competentes": [
+    "MMA",
+    "SBAP",
+    "CONAF",
+    "SEA",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Lista de humedales",
+     "resumen": "Cada Parte designa humedales de su territorio para la Lista de Importancia Internacional.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Conservación y uso racional",
+     "resumen": "Las Partes deben planificar para favorecer la conservación de los humedales listados e informar cambios en sus condiciones ecológicas.",
+     "obliga_titular": true
+    },
+    {
+     "num": "4",
+     "epigrafe": "Reservas",
+     "resumen": "Promueve crear reservas naturales en humedales, estén o no en la Lista, y compensar la pérdida de sitios.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21202",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protección de humedales urbanos."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19300",
+     "art_origen": null,
+     "art_destino": "10 letra p) y 11 letra d)",
+     "nota": "Ingreso al SEIA de proyectos en humedales protegidos y criterio de localización para exigir estudio."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21600",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Los sitios Ramsar se integran a la gestión del SBAP."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "codigo-penal",
+     "art_origen": null,
+     "art_destino": "310",
+     "nota": "Tutela penal de humedales de importancia internacional."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21660",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protección ambiental de las turberas."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 11-11-1981 (BCN). Los artículos de la Ley 19.300 son los indicados por el coordinador."
+  },
+  {
+   "id": "trat-cites",
+   "tipo": "Tratado",
+   "numero": "DL 873/1975 y DS 141/1975 MINREL",
+   "anio": 1975,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Aprueba Convención sobre el comercio internacional de especies amenazadas de fauna y flora silvestres",
+   "nombre_corto": "Convención CITES",
+   "fecha_publicacion": "1975-03-25",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 188514,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=188514",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=188514",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=188514",
+    "https://www.bcn.cl/leychile/navegar?idNorma=199552"
+   ],
+   "categoria": "tratados",
+   "resumen": "Regula el comercio internacional de especímenes de especies listadas en tres apéndices mediante permisos y certificados. Chile la aprobó por DL 873 (D.O. 28-01-1975) y la promulgó por DS 141 de 1975; se ejecuta mediante la Ley 20.962.",
+   "relevancia_titulares": "Exportar, importar o reexportar especímenes o productos de especies listadas (por ejemplo alerce, araucaria o ciprés de las Guaitecas) exige permisos CITES de la autoridad administrativa respectiva.",
+   "organismos_competentes": [
+    "SAG",
+    "CONAF",
+    "SERNAPESCA",
+    "Servicio Nacional de Aduanas",
+    "MMA"
+   ],
+   "articulos": [
+    {
+     "num": "II",
+     "epigrafe": "Principios",
+     "resumen": "El Apéndice I reúne especies en peligro cuyo comercio es excepcional; el II, especies que podrían estarlo sin control; el III, las protegidas por una Parte.",
+     "obliga_titular": false
+    },
+    {
+     "num": "III",
+     "epigrafe": "Apéndice I",
+     "resumen": "Su comercio requiere permisos de exportación e importación y no puede tener fines primordialmente comerciales.",
+     "obliga_titular": true
+    },
+    {
+     "num": "IV",
+     "epigrafe": "Apéndice II",
+     "resumen": "Requiere permiso de exportación basado en un dictamen de extracción no perjudicial.",
+     "obliga_titular": true
+    },
+    {
+     "num": "VIII",
+     "epigrafe": "Medidas de las Partes",
+     "resumen": "Obliga a sancionar el comercio ilegal y a confiscar especímenes.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-20962",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de aplicación de CITES: autoridades, permisos, infracciones y delitos."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19473",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de caza, respecto de fauna terrestre."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-18892",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de pesca, respecto de especies hidrobiológicas."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Se usa como idNorma el del DS 141 (188514), que contiene el texto de la Convención; el DL 873 aprobatorio tiene idNorma 199552. BCN titula ambos como 'Aprueba'. La versión BCN del DS 141 es de 30-04-1975."
+  },
+  {
+   "id": "ley-20962",
+   "tipo": "Ley",
+   "numero": "20.962",
+   "anio": 2016,
+   "organismo": "Ministerio de Agricultura",
+   "titulo_oficial": "Aplica Convención sobre el comercio internacional de especies amenazadas de flora y fauna silvestre",
+   "nombre_corto": "Ley de aplicación de CITES",
+   "fecha_publicacion": "2016-11-16",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1096714,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1096714",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1096714",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1096714"
+   ],
+   "categoria": "biodiversidad-areas",
+   "resumen": "Designa las autoridades administrativas, científicas y de observancia de CITES en Chile y establece infracciones, sanciones y delitos por comercio ilegal de especies listadas.",
+   "relevancia_titulares": "Quien comercialice internacionalmente especímenes CITES debe obtener permisos y registrarse; el tráfico ilegal tiene sanción penal.",
+   "organismos_competentes": [
+    "SAG",
+    "CONAF",
+    "SERNAPESCA",
+    "Servicio Nacional de Aduanas",
+    "MMA"
+   ],
+   "articulos": [
+    {
+     "num": "-",
+     "epigrafe": "Autoridades y sanciones",
+     "resumen": "Fija autoridades por tipo de especie y el régimen sancionatorio aplicable.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "trat-cites",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley nacional de ejecución de la Convención."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Solo se verificaron metadatos en BCN (versión única); el articulado no fue leído. Es probable que otro lote (biodiversidad) la trate con mayor detalle."
+  },
+  {
+   "id": "trat-cdb",
+   "tipo": "Tratado",
+   "numero": "DS 1.963/1994 MINREL",
+   "anio": 1994,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio sobre la Diversidad Biológica",
+   "nombre_corto": "Convenio sobre Diversidad Biológica (CDB)",
+   "fecha_publicacion": "1995-05-06",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 18766,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=18766",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=18766",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=18766"
+   ],
+   "categoria": "tratados",
+   "resumen": "Sus objetivos son conservar la biodiversidad, usar sosteniblemente sus componentes y repartir equitativamente los beneficios de los recursos genéticos. Exige sistemas de áreas protegidas, estrategias nacionales y evaluación de impacto de proyectos.",
+   "relevancia_titulares": "Sustenta la exigencia de evaluar y compensar impactos sobre biodiversidad en el SEIA y el sistema de áreas protegidas que condiciona la localización de proyectos.",
+   "organismos_competentes": [
+    "MMA",
+    "SBAP",
+    "SEA",
+    "CONAF",
+    "SAG"
+   ],
+   "articulos": [
+    {
+     "num": "1",
+     "epigrafe": "Objetivos",
+     "resumen": "Conservación, uso sostenible y participación justa en los beneficios de los recursos genéticos.",
+     "obliga_titular": false
+    },
+    {
+     "num": "6",
+     "epigrafe": "Estrategias nacionales",
+     "resumen": "Cada Parte elabora estrategias y planes e integra la biodiversidad en sus políticas sectoriales.",
+     "obliga_titular": false
+    },
+    {
+     "num": "8",
+     "epigrafe": "Conservación in situ",
+     "resumen": "Obliga a establecer un sistema de áreas protegidas y a proteger ecosistemas y especies amenazadas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "14",
+     "epigrafe": "Evaluación de impacto",
+     "resumen": "Exige procedimientos de evaluación de impacto ambiental para proyectos con efectos adversos importantes sobre la biodiversidad.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21600",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Crea el SBAP y el Sistema Nacional de Áreas Protegidas."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19300",
+     "art_origen": "14",
+     "art_destino": "10, 11 y 37",
+     "nota": "Evaluación de impacto ambiental y clasificación de especies."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-40-2012-mma",
+     "art_origen": "14",
+     "art_destino": null,
+     "nota": "Evaluación de efectos sobre recursos naturales renovables."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 06-05-1995 (promulgado 28-12-1994). Protocolo de Nagoya: no se encontró decreto promulgatorio en BCN; Chile no figura como Parte según las búsquedas, por lo que no se incluyó. El texto del Convenio en el XML BCN aparece incompleto (no se halló el art. 15)."
+  },
+  {
+   "id": "trat-cmnucc",
+   "tipo": "Tratado",
+   "numero": "DS 123/1995 MINREL",
+   "anio": 1995,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga la Convención Marco de las Naciones Unidas sobre el Cambio Climático",
+   "nombre_corto": "Convención Marco sobre Cambio Climático",
+   "fecha_publicacion": "1995-04-13",
+   "estado": "vigente",
+   "ultima_modificacion": "Rectificaciones promulgadas por DS 378/2001 MINREL (versión BCN 2001-06-12)",
+   "id_norma_bcn": 9635,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=9635",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=9635",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=9635"
+   ],
+   "categoria": "tratados",
+   "resumen": "Fija el objetivo de estabilizar las concentraciones de gases de efecto invernadero y los compromisos generales de inventarios, programas de mitigación y adaptación y comunicación de información.",
+   "relevancia_titulares": "Fundamento internacional de los inventarios y reportes de emisiones que hoy se exigen a los establecimientos.",
+   "organismos_competentes": [
+    "MMA",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Objetivo",
+     "resumen": "Estabilizar las concentraciones de GEI a un nivel que impida interferencias peligrosas en el sistema climático.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Principios",
+     "resumen": "Responsabilidades comunes pero diferenciadas, precaución y desarrollo sostenible.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Compromisos",
+     "resumen": "Las Partes deben elaborar inventarios nacionales, programas de mitigación y adaptación y cooperar en tecnología.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley marco que ejecuta los compromisos climáticos."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": ""
+  },
+  {
+   "id": "trat-protocolo-kioto",
+   "tipo": "Tratado",
+   "numero": "DS 349/2004 MINREL",
+   "anio": 2004,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Protocolo de Kyoto de la Convención Marco de las Naciones Unidas sobre el Cambio Climático y sus anexos A y B",
+   "nombre_corto": "Protocolo de Kioto",
+   "fecha_publicacion": "2005-02-16",
+   "estado": "vigente",
+   "ultima_modificacion": "Enmienda de Doha promulgada por DS 289/2022 MINREL, publicada 2023-06-20",
+   "id_norma_bcn": 235585,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=235585",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=235585",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=235585",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1193623"
+   ],
+   "categoria": "tratados",
+   "resumen": "Estableció metas cuantificadas de reducción para países del Anexo I y creó el Mecanismo de Desarrollo Limpio, bajo el cual proyectos chilenos generaron certificados de reducción. Chile promulgó además la Enmienda de Doha en 2023.",
+   "relevancia_titulares": "Relevancia hoy residual: es el antecedente de los proyectos MDL y de los mercados de carbono que continúan bajo el Acuerdo de París.",
+   "organismos_competentes": [
+    "MMA",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "3",
+     "epigrafe": "Compromisos cuantificados",
+     "resumen": "Las Partes del Anexo I deben limitar sus emisiones agregadas conforme a las cantidades asignadas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "12",
+     "epigrafe": "Mecanismo de Desarrollo Limpio",
+     "resumen": "Permite a países no incluidos en el Anexo I albergar proyectos que generan reducciones certificadas.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "complementa",
+     "destino": "trat-cmnucc",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protocolo de la Convención Marco."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-4-2023-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Las reglas nacionales de certificados recogen la experiencia de los mecanismos de mercado."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": ""
+  },
+  {
+   "id": "trat-acuerdo-paris",
+   "tipo": "Tratado",
+   "numero": "DS 30/2017 MINREL",
+   "anio": 2017,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Acuerdo de París, adoptado en la vigésimo primera reunión de la Conferencia de las Partes de la Convención Marco de las Naciones Unidas sobre el Cambio Climático",
+   "nombre_corto": "Acuerdo de París",
+   "fecha_publicacion": "2017-05-23",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1103158,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1103158",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1103158",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1103158"
+   ],
+   "categoria": "tratados",
+   "resumen": "Fija el objetivo de limitar el calentamiento global, obliga a comunicar contribuciones determinadas a nivel nacional cada vez más ambiciosas, promueve sumideros, adaptación y un marco de transparencia, y habilita mecanismos de cooperación con transferencia de resultados de mitigación.",
+   "relevancia_titulares": "Origina la meta de carbono neutralidad y los presupuestos sectoriales que se traducen en exigencias a proyectos; su artículo 6 abre mercados para certificados de proyectos de mitigación, incluidos los forestales.",
+   "organismos_competentes": [
+    "MMA",
+    "MINREL",
+    "Ministerios sectoriales",
+    "CONAF"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Objetivo",
+     "resumen": "Reforzar la respuesta mundial al cambio climático, manteniendo el aumento de temperatura muy por debajo de 2 °C y procurando limitarlo a 1,5 °C.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "NDC",
+     "resumen": "Cada Parte debe preparar, comunicar y mantener contribuciones nacionales sucesivas y progresivas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Sumideros y bosques",
+     "resumen": "Llama a conservar y aumentar sumideros y depósitos de GEI, incluidos los bosques.",
+     "obliga_titular": false
+    },
+    {
+     "num": "6",
+     "epigrafe": "Cooperación y mercados",
+     "resumen": "Permite cooperar voluntariamente mediante resultados de mitigación transferidos internacionalmente y un mecanismo de acreditación.",
+     "obliga_titular": false
+    },
+    {
+     "num": "13",
+     "epigrafe": "Transparencia",
+     "resumen": "Crea un marco reforzado de transparencia para medidas y apoyo.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21455",
+     "art_origen": "4",
+     "art_destino": "4, 5 y 7",
+     "nota": "ECLP, NDC y meta 2050."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-28-2025-mma",
+     "art_origen": "4",
+     "art_destino": null,
+     "nota": "NDC 2025 de Chile."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-32-2024-mma",
+     "art_origen": "6",
+     "art_destino": null,
+     "nota": "Reglamento de certificados y artículo 6."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "trat-cmnucc",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Acuerdo adoptado bajo la Convención Marco."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 23-05-2017 (promulgado 13-02-2017). En enero de 2026 se promulgó además un acuerdo bilateral de implementación del art. 6 (DS 135/2025 MINREL, idNorma 1220130), cuya contraparte no se verificó."
+  },
+  {
+   "id": "trat-basilea",
+   "tipo": "Tratado",
+   "numero": "DS 685/1992 MINREL",
+   "anio": 1992,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio de Basilea sobre el control de los movimientos transfronterizos de los desechos peligrosos y su eliminación",
+   "nombre_corto": "Convenio de Basilea",
+   "fecha_publicacion": "1992-10-13",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 87460,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=87460",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=87460",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=87460",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1014982"
+   ],
+   "categoria": "tratados",
+   "resumen": "Somete los movimientos transfronterizos de desechos peligrosos a notificación y consentimiento previo, exige su manejo ambientalmente racional y califica de ilícito el tráfico sin esos requisitos.",
+   "relevancia_titulares": "Exportar o importar residuos peligrosos (baterías, aceites, residuos electrónicos) requiere notificación, consentimiento del Estado de destino y autorizaciones nacionales; hacerlo sin ellas es delito.",
+   "organismos_competentes": [
+    "MMA",
+    "SEREMI Salud",
+    "Servicio Nacional de Aduanas",
+    "DIRECTEMAR",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "4",
+     "epigrafe": "Obligaciones generales",
+     "resumen": "Las Partes deben reducir la generación de desechos peligrosos, asegurar su manejo racional y prohibir exportaciones a Estados que las hayan vetado.",
+     "obliga_titular": true
+    },
+    {
+     "num": "6",
+     "epigrafe": "Movimientos entre Partes",
+     "resumen": "El Estado de exportación debe notificar por escrito y obtener el consentimiento del Estado de importación antes del traslado.",
+     "obliga_titular": true
+    },
+    {
+     "num": "9",
+     "epigrafe": "Tráfico ilícito",
+     "resumen": "Es ilícito el movimiento sin notificación, sin consentimiento o con documentos falsos; el desecho debe devolverse o eliminarse adecuadamente.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-20920",
+     "art_origen": null,
+     "art_destino": "8 y 44",
+     "nota": "Régimen de importadores y exportadores de residuos y delito de tráfico."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-148-2003-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Manejo interno de residuos peligrosos."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-2-2010-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Autorización de movimientos transfronterizos de baterías de plomo usadas."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "El reglamento general de movimiento transfronterizo previsto en el art. 8 de la Ley 20.920 no figura publicado en BCN. El DS 2/2010 (idNorma 1014982) se identificó en el buscador BCN; su ministerio de origen no fue confirmado."
+  },
+  {
+   "id": "trat-estocolmo",
+   "tipo": "Tratado",
+   "numero": "DS 38/2005 MINREL",
+   "anio": 2005,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio de Estocolmo sobre contaminantes orgánicos persistentes y sus anexos",
+   "nombre_corto": "Convenio de Estocolmo (COP)",
+   "fecha_publicacion": "2005-05-19",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 238174,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=238174",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=238174",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=238174"
+   ],
+   "categoria": "tratados",
+   "resumen": "Obliga a eliminar o restringir la producción y uso de contaminantes orgánicos persistentes, a reducir sus liberaciones no intencionales y a gestionar existencias y desechos, como los PCB.",
+   "relevancia_titulares": "Titulares con equipos que contengan PCB u otros COP deben inventariarlos y eliminarlos; los procesos de combustión deben aplicar mejores técnicas para minimizar dioxinas y furanos.",
+   "organismos_competentes": [
+    "MMA",
+    "MINSAL",
+    "SAG",
+    "SEC"
+   ],
+   "articulos": [
+    {
+     "num": "3",
+     "epigrafe": "Producción y uso intencionales",
+     "resumen": "Las Partes deben prohibir o restringir la producción, uso, importación y exportación de los COP de los anexos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "5",
+     "epigrafe": "Liberaciones no intencionales",
+     "resumen": "Exige planes de acción y mejores técnicas disponibles para fuentes que generan COP como subproducto.",
+     "obliga_titular": true
+    },
+    {
+     "num": "6",
+     "epigrafe": "Existencias y desechos",
+     "resumen": "Obliga a identificar y gestionar de forma segura existencias y desechos con COP.",
+     "obliga_titular": true
+    },
+    {
+     "num": "7",
+     "epigrafe": "Planes de aplicación",
+     "resumen": "Cada Parte elabora y actualiza un plan nacional de implementación.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-148-2003-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Gestión de desechos con COP como residuos peligrosos."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-57-2019-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Clasificación y control de sustancias peligrosas."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 19-05-2005 (promulgado 02-03-2005). No se verificaron en este lote las resoluciones sectoriales (SAG, SEC) que prohíben plaguicidas COP y PCB."
+  },
+  {
+   "id": "trat-rotterdam",
+   "tipo": "Tratado",
+   "numero": "DS 37/2005 MINREL",
+   "anio": 2005,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio de Rotterdam para la aplicación del procedimiento de consentimiento fundamentado previo a ciertos plaguicidas y productos químicos peligrosos objeto de comercio internacional",
+   "nombre_corto": "Convenio de Rotterdam (PIC)",
+   "fecha_publicacion": "2005-05-19",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 238168,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=238168",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=238168",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=238168"
+   ],
+   "categoria": "tratados",
+   "resumen": "Establece el consentimiento fundamentado previo para el comercio internacional de plaguicidas y químicos peligrosos del anexo III, con deberes de notificación de exportación e intercambio de información.",
+   "relevancia_titulares": "Importadores y exportadores de químicos listados deben respetar las decisiones de importación de cada país y acompañar información de seguridad.",
+   "organismos_competentes": [
+    "SAG",
+    "MINSAL",
+    "MMA",
+    "Servicio Nacional de Aduanas"
+   ],
+   "articulos": [
+    {
+     "num": "5",
+     "epigrafe": "Químicos prohibidos o restringidos",
+     "resumen": "La Parte que prohíbe o restringe severamente un químico debe notificarlo a la Secretaría.",
+     "obliga_titular": false
+    },
+    {
+     "num": "10",
+     "epigrafe": "Importación",
+     "resumen": "Cada Parte adopta y comunica su decisión sobre la importación de los químicos del anexo III.",
+     "obliga_titular": false
+    },
+    {
+     "num": "11",
+     "epigrafe": "Exportación",
+     "resumen": "Las Partes exportadoras deben asegurar que sus exportadores respeten las decisiones de importación.",
+     "obliga_titular": true
+    },
+    {
+     "num": "12",
+     "epigrafe": "Notificación de exportación",
+     "resumen": "La exportación de un químico prohibido o restringido en origen debe notificarse a la Parte importadora.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-57-2019-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Notificación y control de sustancias peligrosas."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 19-05-2005 (promulgado 02-03-2005)."
+  },
+  {
+   "id": "trat-minamata",
+   "tipo": "Tratado",
+   "numero": "DS 269/2018 MINREL",
+   "anio": 2018,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio de Minamata sobre el Mercurio",
+   "nombre_corto": "Convenio de Minamata (mercurio)",
+   "fecha_publicacion": "2018-10-18",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1124341,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1124341",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1124341",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1124341"
+   ],
+   "categoria": "tratados",
+   "resumen": "Busca proteger la salud y el ambiente de las emisiones y liberaciones de mercurio: controla suministro y comercio, elimina gradualmente productos y procesos con mercurio, regula la minería aurífera artesanal y exige controlar emisiones de fuentes como fundiciones y termoeléctricas.",
+   "relevancia_titulares": "Fundiciones, centrales a carbón, cementeras e incineradores deben controlar sus emisiones de mercurio; se restringe el uso de mercurio en procesos y la comercialización de productos que lo contienen.",
+   "organismos_competentes": [
+    "MMA",
+    "MINSAL",
+    "Ministerio de Minería",
+    "Servicio Nacional de Aduanas"
+   ],
+   "articulos": [
+    {
+     "num": "3",
+     "epigrafe": "Suministro y comercio",
+     "resumen": "Limita la extracción primaria y condiciona la exportación de mercurio al consentimiento del importador.",
+     "obliga_titular": true
+    },
+    {
+     "num": "4",
+     "epigrafe": "Productos con mercurio",
+     "resumen": "Prohíbe fabricar, importar y exportar los productos del anexo A tras su fecha de eliminación.",
+     "obliga_titular": true
+    },
+    {
+     "num": "5",
+     "epigrafe": "Procesos de fabricación",
+     "resumen": "Elimina o restringe el uso de mercurio en los procesos del anexo B.",
+     "obliga_titular": true
+    },
+    {
+     "num": "7",
+     "epigrafe": "Minería de oro artesanal",
+     "resumen": "Obliga a reducir y, si es viable, eliminar el uso de mercurio en la extracción artesanal de oro.",
+     "obliga_titular": false
+    },
+    {
+     "num": "8",
+     "epigrafe": "Emisiones",
+     "resumen": "Exige controlar y reducir las emisiones atmosféricas de las fuentes del anexo D.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-22-2025-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Recolección de pilas y aparatos con mercurio."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-148-2003-minsal",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Manejo de desechos de mercurio como residuos peligrosos."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 18-10-2018 (promulgado 29-08-2018). Las normas de emisión para fundiciones y termoeléctricas que regulan mercurio pertenecen a otro lote y no se enlazaron por no haberse verificado sus identificadores."
+  },
+  {
+   "id": "trat-protocolo-montreal",
+   "tipo": "Tratado",
+   "numero": "DS 238/1990 MINREL",
+   "anio": 1990,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga Protocolo de Montreal relativo a las sustancias agotadoras de la capa de ozono, de 16 de septiembre de 1987",
+   "nombre_corto": "Protocolo de Montreal (y Convenio de Viena)",
+   "fecha_publicacion": "1990-04-28",
+   "estado": "vigente",
+   "ultima_modificacion": "Enmienda de Kigali promulgada por DS 32/2018 MINREL, publicada 2018-04-17 (enmiendas previas: DS 483/1996, DS 387/2000 y DS 179/2002)",
+   "id_norma_bcn": 11389,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=11389",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=11389",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=11389",
+    "https://www.bcn.cl/leychile/navegar?idNorma=15251",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1117481"
+   ],
+   "categoria": "tratados",
+   "resumen": "Protocolo del Convenio de Viena (DS 719/1989, D.O. 08-03-1990) que establece calendarios de reducción y eliminación de sustancias agotadoras del ozono, controla su comercio y exige reportes. La Enmienda de Kigali, promulgada por DS 32/2018, añade la reducción gradual de los HFC.",
+   "relevancia_titulares": "Determina las cuotas y prohibiciones de refrigerantes, agentes extintores y fumigantes que usan los proyectos industriales, mineros y agroforestales.",
+   "organismos_competentes": [
+    "MMA",
+    "Servicio Nacional de Aduanas",
+    "SAG",
+    "MINSAL"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Medidas de control",
+     "resumen": "Cada Parte debe limitar y reducir su consumo y producción de las sustancias controladas según el calendario.",
+     "obliga_titular": true
+    },
+    {
+     "num": "4",
+     "epigrafe": "Comercio con no Partes",
+     "resumen": "Prohíbe el comercio de sustancias controladas con Estados que no son Parte.",
+     "obliga_titular": false
+    },
+    {
+     "num": "7",
+     "epigrafe": "Presentación de datos",
+     "resumen": "Obliga a informar estadísticas de producción, importación y exportación.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-20096",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley nacional de control de sustancias agotadoras del ozono."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-7-2024-minsegpres",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Reglamento de importaciones y exportaciones, incluidos los HFC del anexo F."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21455",
+     "art_origen": null,
+     "art_destino": "44",
+     "nota": "Coordinación con la gestión climática."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "idNorma del Convenio de Viena: 15251; de la Enmienda de Kigali: 1117481. Los números y fechas de las enmiendas intermedias provienen del buscador BCN."
+  },
+  {
+   "id": "trat-patrimonio-mundial",
+   "tipo": "Tratado",
+   "numero": "DS 259/1980 MINREL",
+   "anio": 1980,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga la Convención sobre la protección del patrimonio mundial, cultural y natural, suscrita en UNESCO, París, el 16 de noviembre de 1972",
+   "nombre_corto": "Convención del Patrimonio Mundial (UNESCO)",
+   "fecha_publicacion": "1980-05-12",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 265641,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=265641",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=265641",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=265641",
+    "https://www.bcn.cl/leychile/navegar?idNorma=166877"
+   ],
+   "categoria": "tratados",
+   "resumen": "Obliga a identificar, proteger y conservar el patrimonio cultural y natural de valor universal excepcional y crea la Lista del Patrimonio Mundial. Fue aprobada por DL 3.056 de 1980.",
+   "relevancia_titulares": "Proyectos en sitios de Patrimonio Mundial o sus zonas de amortiguamiento enfrentan un estándar reforzado de evaluación de impactos patrimoniales y paisajísticos.",
+   "organismos_competentes": [
+    "CMN",
+    "Ministerio de las Culturas",
+    "SBAP",
+    "CONAF",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Patrimonio natural",
+     "resumen": "Define como tal los monumentos naturales, formaciones geológicas y lugares naturales de valor universal excepcional.",
+     "obliga_titular": false
+    },
+    {
+     "num": "4",
+     "epigrafe": "Deber de protección",
+     "resumen": "Cada Estado reconoce su obligación de identificar, proteger, conservar y transmitir ese patrimonio.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Medidas nacionales",
+     "resumen": "Compromete a adoptar políticas, servicios y medidas jurídicas y técnicas de protección.",
+     "obliga_titular": false
+    },
+    {
+     "num": "11",
+     "epigrafe": "Lista del Patrimonio Mundial",
+     "resumen": "Los Estados presentan inventarios de bienes para su inscripción en la Lista.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-17288",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de Monumentos Nacionales."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19300",
+     "art_origen": null,
+     "art_destino": "11 letras d) y f)",
+     "nota": "Evaluación de efectos sobre patrimonio cultural y áreas protegidas."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21600",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protección de los sitios naturales."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "idNorma del DL 3.056 aprobatorio: 166877 (buscador BCN). Las letras del art. 11 de la Ley 19.300 se citan por conocimiento general y no fueron verificadas en este lote."
+  },
+  {
+   "id": "trat-cms",
+   "tipo": "Tratado",
+   "numero": "DS 868/1981 MINREL",
+   "anio": 1981,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio sobre la conservación de especies migratorias de la fauna salvaje",
+   "nombre_corto": "Convención sobre Especies Migratorias (CMS)",
+   "fecha_publicacion": "1981-12-12",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 16008,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=16008",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=16008",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=16008"
+   ],
+   "categoria": "tratados",
+   "resumen": "Protege las especies migratorias en toda su área de distribución: prohíbe la captura de las especies en peligro del Anexo I y promueve acuerdos para las del Anexo II.",
+   "relevancia_titulares": "Refuerza la protección de aves, cetáceos y otros migrantes cuya presencia condiciona líneas de base, medidas y seguimiento en proyectos eólicos, costeros y de transmisión.",
+   "organismos_competentes": [
+    "SAG",
+    "SERNAPESCA",
+    "MMA",
+    "SBAP"
+   ],
+   "articulos": [
+    {
+     "num": "II",
+     "epigrafe": "Principios",
+     "resumen": "Las Partes reconocen la necesidad de conservar las especies migratorias y de actuar para evitar que pasen a estar en peligro.",
+     "obliga_titular": false
+    },
+    {
+     "num": "III",
+     "epigrafe": "Anexo I",
+     "resumen": "Exige proteger estrictamente a las especies en peligro, conservar sus hábitats y prohibir su captura.",
+     "obliga_titular": true
+    },
+    {
+     "num": "IV",
+     "epigrafe": "Anexo II",
+     "resumen": "Promueve acuerdos internacionales para especies con estado de conservación desfavorable.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-19473",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de caza: protección de fauna silvestre."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-18892",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protección de cetáceos y especies hidrobiológicas."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21600",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Planes de recuperación y conservación de especies."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 12-12-1981 (promulgado 14-10-1981)."
+  },
+  {
+   "id": "trat-marpol",
+   "tipo": "Tratado",
+   "numero": "DS 1.689/1994 MINREL",
+   "anio": 1994,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Protocolo relativo al Convenio Internacional para prevenir la contaminación por los buques, de 1973",
+   "nombre_corto": "Convenio MARPOL 73/78",
+   "fecha_publicacion": "1995-05-04",
+   "estado": "vigente",
+   "ultima_modificacion": "Enmiendas a anexos promulgadas, entre otras, por DS 83/2005 y DS 248/2011 MINREL",
+   "id_norma_bcn": 18373,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=18373",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=18373",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=18373"
+   ],
+   "categoria": "tratados",
+   "resumen": "Chile adhirió al Protocolo de 1978 del Convenio MARPOL, que previene la contaminación por buques mediante anexos técnicos sobre hidrocarburos, sustancias nocivas, aguas sucias, basuras y emisiones. Al adherir, Chile declaró no aceptar el Anexo facultativo V.",
+   "relevancia_titulares": "Naves y terminales marítimos asociados a proyectos (puertos, transferencia de combustibles y graneles) deben cumplir las reglas de descarga y contar con instalaciones de recepción según lo fiscalice la autoridad marítima.",
+   "organismos_competentes": [
+    "DIRECTEMAR",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "único (decreto)",
+     "epigrafe": "Adhesión y declaración",
+     "resumen": "Promulga el Protocolo de 1978 con la declaración de no aceptación del Anexo V; el instrumento se depositó el 10-10-1994.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "dl-2222-1978",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de Navegación: prevención de la contaminación acuática."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-1-1992-defensa",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Reglamento para el control de la contaminación acuática."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "BCN solo contiene el decreto promulgatorio (sin el texto del Convenio), por lo que no se resumen artículos sustantivos. No se verificó si Chile aceptó posteriormente el Anexo V ni el Anexo VI; los identificadores de las normas nacionales de destino (DL 2.222 y DS 1/1992 Defensa) no fueron verificados en este lote."
+  },
+  {
+   "id": "trat-convenio-londres",
+   "tipo": "Tratado",
+   "numero": "DS 476/1977 MINREL",
+   "anio": 1977,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Convenio sobre prevención de la contaminación del mar por vertimiento de desechos y otras materias, con sus anexos I, II y III, del año 1972",
+   "nombre_corto": "Convenio de Londres (vertimientos al mar)",
+   "fecha_publicacion": "1977-10-11",
+   "estado": "vigente",
+   "ultima_modificacion": "Protocolo de 1996 promulgado por DS 136/2011 MINREL, publicado 2012-04-11",
+   "id_norma_bcn": 265636,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=265636",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=265636",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=265636",
+    "https://www.bcn.cl/leychile/navegar?idNorma=1038856"
+   ],
+   "categoria": "tratados",
+   "resumen": "Prohíbe o sujeta a permiso el vertimiento deliberado de desechos en el mar desde buques, aeronaves y plataformas. Chile promulgó además el Protocolo de 1996 (DS 136/2011), que invierte la regla: todo vertimiento queda prohibido salvo las materias expresamente permitidas.",
+   "relevancia_titulares": "El vertimiento al mar de material de dragado u otros desechos de un proyecto requiere permiso de la autoridad marítima y solo procede para materias admitidas.",
+   "organismos_competentes": [
+    "DIRECTEMAR",
+    "MINREL",
+    "SEA"
+   ],
+   "articulos": [
+    {
+     "num": "I",
+     "epigrafe": "Compromiso general",
+     "resumen": "Las Partes deben controlar todas las fuentes de contaminación marina y prevenir la causada por vertimientos.",
+     "obliga_titular": false
+    },
+    {
+     "num": "IV",
+     "epigrafe": "Prohibición y permisos",
+     "resumen": "Prohíbe verter las materias del anexo I y exige permiso especial o general para las demás.",
+     "obliga_titular": true
+    },
+    {
+     "num": "VI",
+     "epigrafe": "Autoridad competente",
+     "resumen": "Cada Parte designa la autoridad que otorga permisos y lleva registros.",
+     "obliga_titular": false
+    },
+    {
+     "num": "Protocolo 1996, art. 4",
+     "epigrafe": "Lista inversa",
+     "resumen": "Las Partes prohíben el vertimiento de cualquier desecho, salvo los enumerados en su anexo 1, que requieren permiso.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "dl-2222-1978",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Ley de Navegación: prohibición de vertimientos y permisos de la autoridad marítima."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ds-40-2012-mma",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "El permiso de vertimiento opera como permiso ambiental sectorial en el SEIA."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "idNorma del Protocolo de 1996: 1038856; del DL 1.809 aprobatorio: 180809. El artículo del DS 40/2012 que recoge el permiso de vertimiento no se verificó en este lote."
+  },
+  {
+   "id": "trat-tratado-antartico",
+   "tipo": "Tratado",
+   "numero": "DS 361/1961 MINREL",
+   "anio": 1961,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Tratado Antártico",
+   "nombre_corto": "Tratado Antártico",
+   "fecha_publicacion": "1961-07-14",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 185805,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=185805",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=185805",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=185805"
+   ],
+   "categoria": "tratados",
+   "resumen": "Reserva la Antártica para fines pacíficos y la cooperación científica, prohíbe explosiones nucleares y la eliminación de desechos radiactivos, y crea el sistema de inspección y de reuniones consultivas.",
+   "relevancia_titulares": "Toda actividad chilena en la Antártica queda sujeta al sistema del Tratado y a autorización estatal previa.",
+   "organismos_competentes": [
+    "MINREL",
+    "INACH",
+    "Ministerio de Defensa"
+   ],
+   "articulos": [
+    {
+     "num": "I",
+     "epigrafe": "Uso pacífico",
+     "resumen": "La Antártica se utiliza solo con fines pacíficos; se prohíben medidas de carácter militar.",
+     "obliga_titular": false
+    },
+    {
+     "num": "II",
+     "epigrafe": "Libertad científica",
+     "resumen": "Garantiza la libertad de investigación científica y la cooperación.",
+     "obliga_titular": false
+    },
+    {
+     "num": "V",
+     "epigrafe": "Prohibición nuclear",
+     "resumen": "Prohíbe explosiones nucleares y la eliminación de desechos radiactivos.",
+     "obliga_titular": true
+    },
+    {
+     "num": "VII",
+     "epigrafe": "Inspecciones",
+     "resumen": "Los observadores designados pueden inspeccionar libremente instalaciones y equipos.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21255",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Estatuto Chileno Antártico."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "BCN registra publicación 14-07-1961 y promulgación 24-06-1961, con versión de 02-12-1961; la secuencia de fechas es la que entrega BCN y parece invertida respecto de lo habitual."
+  },
+  {
+   "id": "trat-protocolo-madrid",
+   "tipo": "Tratado",
+   "numero": "DS 396/1995 MINREL",
+   "anio": 1995,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Protocolo al Tratado Antártico sobre protección del medio ambiente",
+   "nombre_corto": "Protocolo de Madrid (ambiente antártico)",
+   "fecha_publicacion": "1998-02-18",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 96678,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=96678",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=96678",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=96678"
+   ],
+   "categoria": "tratados",
+   "resumen": "Designa la Antártica como reserva natural consagrada a la paz y la ciencia, prohíbe las actividades sobre recursos minerales distintas de la investigación científica y exige evaluación de impacto ambiental previa para toda actividad.",
+   "relevancia_titulares": "Cualquier proyecto o expedición en territorio antártico debe someterse a evaluación ambiental previa bajo las reglas del Protocolo y la ley chilena antártica; la minería está prohibida.",
+   "organismos_competentes": [
+    "MINREL",
+    "INACH",
+    "MMA",
+    "SEA"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Reserva natural",
+     "resumen": "Las Partes se comprometen a la protección global del medio ambiente antártico y lo designan reserva natural.",
+     "obliga_titular": false
+    },
+    {
+     "num": "3",
+     "epigrafe": "Principios ambientales",
+     "resumen": "Las actividades deben planificarse para limitar impactos adversos sobre el ambiente y sus valores.",
+     "obliga_titular": true
+    },
+    {
+     "num": "7",
+     "epigrafe": "Prohibición minera",
+     "resumen": "Prohíbe cualquier actividad relacionada con recursos minerales, salvo la investigación científica.",
+     "obliga_titular": true
+    },
+    {
+     "num": "8",
+     "epigrafe": "Evaluación de impacto",
+     "resumen": "Las actividades propuestas se someten a procedimientos de evaluación previa según la magnitud de su impacto.",
+     "obliga_titular": true
+    },
+    {
+     "num": "15",
+     "epigrafe": "Emergencias",
+     "resumen": "Exige planes de respuesta rápida ante emergencias ambientales.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21255",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Estatuto Chileno Antártico: evaluación ambiental y delitos antárticos."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "trat-tratado-antartico",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Protocolo del Tratado Antártico."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Publicado 18-02-1998 (promulgado 03-04-1995)."
+  },
+  {
+   "id": "trat-bbnj",
+   "tipo": "Tratado",
+   "numero": "DS 157/2025 MINREL",
+   "anio": 2025,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga el Acuerdo en el marco de la Convención de las Naciones Unidas sobre el Derecho del Mar relativo a la conservación y el uso sostenible de la diversidad biológica marina de las zonas situadas fuera de la jurisdicción nacional",
+   "nombre_corto": "Acuerdo BBNJ (tratado de alta mar)",
+   "fecha_publicacion": "2026-03-04",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 1221938,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1221938",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=1221938",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=1221938"
+   ],
+   "categoria": "tratados",
+   "resumen": "Regula la conservación y el uso sostenible de la biodiversidad marina en alta mar y en la Zona: recursos genéticos marinos, áreas marinas protegidas y otras herramientas de gestión por área, evaluación de impacto ambiental y transferencia de tecnología. Chile lo ratificó el 20-02-2024 y está promulgado.",
+   "relevancia_titulares": "Las actividades bajo jurisdicción o control chileno que se realicen en alta mar deberán someterse a evaluación de impacto ambiental cuando puedan causar efectos más que menores.",
+   "organismos_competentes": [
+    "MINREL",
+    "MMA",
+    "SUBPESCA",
+    "DIRECTEMAR"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Objetivo",
+     "resumen": "Asegurar la conservación y el uso sostenible de la biodiversidad marina fuera de la jurisdicción nacional.",
+     "obliga_titular": false
+    },
+    {
+     "num": "7",
+     "epigrafe": "Principios",
+     "resumen": "Incluye quien contamina paga, patrimonio común de la humanidad, precaución y enfoque ecosistémico.",
+     "obliga_titular": false
+    },
+    {
+     "num": "11",
+     "epigrafe": "Recursos genéticos marinos",
+     "resumen": "Regula las actividades relativas a recursos genéticos marinos y la distribución de sus beneficios.",
+     "obliga_titular": true
+    },
+    {
+     "num": "17",
+     "epigrafe": "Áreas marinas protegidas",
+     "resumen": "Fija los objetivos de los mecanismos de gestión basados en áreas.",
+     "obliga_titular": false
+    },
+    {
+     "num": "28 y 30",
+     "epigrafe": "Evaluación de impacto ambiental",
+     "resumen": "Las Partes deben asegurar que se evalúen los impactos de las actividades proyectadas bajo su jurisdicción o control cuando superen el umbral de efecto mínimo o transitorio.",
+     "obliga_titular": true
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-21600",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Marco nacional de biodiversidad y áreas marinas protegidas."
+    },
+    {
+     "tipo": "complementa",
+     "destino": "trat-cdb",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Complementa el régimen global de biodiversidad en áreas fuera de jurisdicción nacional."
+    }
+   ],
+   "confianza": "alta",
+   "notas_verificacion": "Adoptado el 19-06-2023; aprobado por el Congreso según oficio de 17-01-2024; ratificación depositada el 20-02-2024; BCN indica vigencia internacional 17-01-2026 y publicación del decreto el 04-03-2026 (promulgado 22-10-2025). No existe aún ley chilena de implementación específica; la relación con la Ley 21.600 es contextual."
+  },
+  {
+   "id": "trat-desertificacion",
+   "tipo": "Tratado",
+   "numero": "DS 2.065/1997 MINREL",
+   "anio": 1997,
+   "organismo": "Ministerio de Relaciones Exteriores",
+   "titulo_oficial": "Promulga la Convención de las Naciones Unidas de lucha contra la desertificación en los países afectados por sequía grave o desertificación, en particular en África",
+   "nombre_corto": "Convención contra la Desertificación (CNULD)",
+   "fecha_publicacion": "1998-02-13",
+   "estado": "vigente",
+   "ultima_modificacion": null,
+   "id_norma_bcn": 96299,
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=96299",
+   "fuentes_consultadas": [
+    "https://www.bcn.cl/leychile/navegar?idNorma=96299",
+    "https://www.bcn.cl/leychile/Consulta/obtxml?opt=7&idNorma=96299"
+   ],
+   "categoria": "tratados",
+   "resumen": "Compromete a los países afectados a combatir la desertificación y mitigar la sequía mediante programas de acción nacionales, con enfoque participativo y de manejo sostenible de tierras y aguas.",
+   "relevancia_titulares": "No impone deberes directos a titulares, pero orienta programas públicos de recuperación de suelos, forestación y manejo de cuencas en que CONAF es punto focal y que pueden vincularse a compromisos de proyectos.",
+   "organismos_competentes": [
+    "CONAF",
+    "Ministerio de Agricultura",
+    "MMA",
+    "MINREL"
+   ],
+   "articulos": [
+    {
+     "num": "2",
+     "epigrafe": "Objetivo",
+     "resumen": "Luchar contra la desertificación y mitigar los efectos de la sequía con medidas eficaces en todos los niveles.",
+     "obliga_titular": false
+    },
+    {
+     "num": "5",
+     "epigrafe": "Obligaciones de países afectados",
+     "resumen": "Deben dar prioridad a la lucha contra la desertificación, atacar sus causas y promover la participación local.",
+     "obliga_titular": false
+    },
+    {
+     "num": "10",
+     "epigrafe": "Programas de acción nacionales",
+     "resumen": "Deben identificar los factores de la desertificación y las medidas prácticas para combatirla.",
+     "obliga_titular": false
+    }
+   ],
+   "relaciones": [
+    {
+     "tipo": "implementa_tratado",
+     "destino": "ley-20283",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Fomento y recuperación del bosque nativo."
+    },
+    {
+     "tipo": "implementa_tratado",
+     "destino": "dl-701-1974",
+     "art_origen": null,
+     "art_destino": null,
+     "nota": "Fomento forestal y recuperación de suelos degradados."
+    }
+   ],
+   "confianza": "media",
+   "notas_verificacion": "Publicado 13-02-1998 (promulgado 20-11-1997); el id usa el año de promulgación. El rol de CONAF como punto focal y las relaciones con leyes forestales se indican por conocimiento general, no por texto verificado en este lote."
+  }
+ ]
+}

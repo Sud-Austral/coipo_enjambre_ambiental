@@ -1,0 +1,540 @@
+{
+ "cambios": [
+  {
+   "id": "ds-1-2015-mma",
+   "campo": "estado",
+   "valor": "derogada",
+   "motivo": "No fue reemplazada sino anulada judicialmente: BCN idNorma 1106261 (D.O. 2017-08-09) publica la parte resolutiva de la sentencia del Tercer Tribunal Ambiental de 29-09-2016, Rol R-25-2016, que anula el DS 1/2015. Mismo tratamiento que el JSON da al DS 20/2013 (anulado = 'derogada')."
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Anulada por sentencia del Tercer Tribunal Ambiental de 2016-09-29 (Rol R-25-2016 y acumuladas), cuya parte resolutiva se publicó en el D.O. el 2017-08-09",
+   "motivo": "Acto verificado en BCN idNorma 1106261."
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "campo": "nombre_corto",
+   "valor": "Norma río Valdivia de 2015 (anulada)",
+   "motivo": "Coherencia con el estado verificado."
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "campo": "resumen",
+   "valor": "Primera norma secundaria para la cuenca del río Valdivia. El Tercer Tribunal Ambiental la anuló en 2016, junto con el anteproyecto de 2012, por falta de motivación suficiente derivada de deficiencias del análisis de impacto económico y social, y ordenó al MMA reanudar el procedimiento. La cuenca volvió a tener norma con el DS 21/2024, publicado en enero de 2025.",
+   "motivo": "El JSON presumía una sentencia sin verificarla; ahora consta en BCN idNorma 1106261."
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "art": "-",
+   "campo": "resumen",
+   "valor": "Anulada judicialmente; BCN registra la pérdida de vigencia el 09-08-2017, fecha de publicación de la parte resolutiva de la sentencia.",
+   "motivo": "Precisión del motivo."
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Acto anulatorio verificado."
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "campo": "notas_verificacion",
+   "valor": "Anulación verificada en BCN idNorma 1106261 (Sentencia S/N, Tercer Tribunal Ambiental, D.O. 09-08-2017). El DS 21/2024 no contiene artículo derogatorio del DS 1/2015.",
+   "motivo": "Actualiza nota."
+  },
+  {
+   "id": "ds-5-2021-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Anulado por sentencia del Primer Tribunal Ambiental de 2023-06-07 (Rol R-65-2022), cuya parte resolutiva se publicó en el D.O. el 2024-02-14",
+   "motivo": "Verificado en BCN idNorma 1201025 (Aviso S/N, Primer Tribunal Ambiental)."
+  },
+  {
+   "id": "ds-5-2021-mma",
+   "campo": "resumen",
+   "valor": "Plan para Calama por MP10, publicado en mayo de 2022 y anulado por el Primer Tribunal Ambiental (sentencia de 07-06-2023, publicada el 14-02-2024), que ordenó al MMA iniciar un nuevo proceso de elaboración considerando todas las estaciones de monitoreo representativas de la población y, entretanto, disponer medidas para mejorar la calidad del aire. Calama no cuenta con plan vigente.",
+   "motivo": "Se incorpora el contenido leído de la parte resolutiva (idNorma 1201025)."
+  },
+  {
+   "id": "ds-5-2021-mma",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Se leyó la parte resolutiva de la sentencia en BCN."
+  },
+  {
+   "id": "ds-5-2021-mma",
+   "campo": "notas_verificacion",
+   "valor": "Anulación verificada en BCN idNorma 1201025, que identifica el decreto como 'DS 5 de 2022' aunque fue promulgado el 29-01-2021 (año correcto del id: 2021). Res. Ex. 150 (D.O. 26-02-2024) sobre nuevo proceso: tomada del JSON original, no releída.",
+   "motivo": "Actualiza nota."
+  },
+  {
+   "id": "ds-38-2011-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Sin modificaciones. Quedará derogada por el art. 32 del DS 14/2024 MMA al entrar este en vigencia: 2028-08-27 (30 meses desde su publicación el 2026-02-27) como regla general, y 2027-08-27 (18 meses) respecto de proyectos que ingresen al SEIA desde el 2026-02-27",
+   "motivo": "Fechas exactas calculadas del art. 31 del DS 14/2024 (XML 1221783); el JSON solo indicaba el plazo general."
+  },
+  {
+   "id": "ds-14-2024-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Res. 5/2026 MMA (D.O. 2026-04-09), rectifica la letra bb) del art. 4 (definición de respuesta rápida)",
+   "motivo": "Acto identificado en BCN idNorma 1222995; el JSON no lo había identificado."
+  },
+  {
+   "id": "ds-14-2024-mma",
+   "art": "31",
+   "campo": "resumen",
+   "valor": "Rige a los 30 meses de su publicación (27-08-2028); se adelanta a los 18 meses (27-08-2027) para los proyectos que ingresen al SEIA desde el 27-02-2026.",
+   "motivo": "Agrega fechas exactas derivadas del art. 31."
+  },
+  {
+   "id": "ds-14-2024-mma",
+   "campo": "notas_verificacion",
+   "valor": "Publicada el 27-02-2026 con vigencia diferida (art. 31): 27-08-2028 general y 27-08-2027 para proyectos que ingresen al SEIA desde la publicación. A nov-2026 aún NO es exigible y el DS 38/2011 sigue rigiendo (art. 32). La versión BCN de 09-04-2026 proviene de la Res. 5/2026 MMA, que rectifica la letra bb) del art. 4. El estado 'vigente' debe leerse como 'publicada, aún no exigible' (el esquema no tiene valor propio para vigencia diferida).",
+   "motivo": "Precisa vigencia y origen de la versión."
+  },
+  {
+   "id": "ds-105-2018-mma",
+   "campo": "ultima_modificacion",
+   "valor": "DS 39/2023 MMA (D.O. 2024-03-18), modifica art. 47 (gestión de episodios críticos)",
+   "motivo": "Identificado en BCN idNorma 1201896 (promulgado 28-09-2023); el art. 47 es el único con fechaVersion 2024-03-18."
+  },
+  {
+   "id": "ds-105-2018-mma",
+   "campo": "notas_verificacion",
+   "valor": "Vigente. Última modificación: DS 39/2023 MMA (BCN idNorma 1201896). BCN registra además el inicio de revisión del plan (Res. Ex. 313, D.O. 04-04-2024).",
+   "motivo": "Actualiza nota."
+  },
+  {
+   "id": "ds-47-2015-mma",
+   "campo": "ultima_modificacion",
+   "valor": "DS 30/2019 MMA (D.O. 2022-11-03), modifica art. 40",
+   "motivo": "Identificado en BCN idNorma 1183758 (promulgado 01-10-2019), que modifica arts. 40, 39 y 36 de los DS 47, 48 y 49 de 2015."
+  },
+  {
+   "id": "ds-48-2015-mma",
+   "campo": "ultima_modificacion",
+   "valor": "DS 30/2019 MMA (D.O. 2022-11-03), modifica art. 39",
+   "motivo": "Identificado en BCN idNorma 1183758."
+  },
+  {
+   "id": "ds-211-1991-mtt",
+   "campo": "ultima_modificacion",
+   "valor": "DS 41/2019 MMA (D.O. 2020-09-30)",
+   "motivo": "El decreto modificatorio es del Ministerio del Medio Ambiente, no del MTT (BCN idNorma 1149886, promulgado 27-11-2019)."
+  },
+  {
+   "id": "ds-609-1998-mop",
+   "campo": "ultima_modificacion",
+   "valor": "DS 601/2004 MOP (D.O. 2004-09-08)",
+   "motivo": "Año verificado en BCN idNorma 230064 (promulgado 15-07-2004)."
+  },
+  {
+   "id": "ds-3-2012-mma",
+   "campo": "ultima_modificacion",
+   "valor": "DS 49/2021 MMA (D.O. 2022-05-20)",
+   "motivo": "Año verificado en BCN idNorma 1176356 (promulgado 29-10-2021)."
+  },
+  {
+   "id": "ds-6-2009-minsal",
+   "campo": "ultima_modificacion",
+   "valor": "DS 43/2016 MINSAL (D.O. 2017-03-10)",
+   "motivo": "Año verificado en BCN idNorma 1100862 (promulgado 09-11-2016)."
+  },
+  {
+   "id": "ds-43-2015-minsal",
+   "campo": "ultima_modificacion",
+   "valor": "DS 60/2022 MINSAL (D.O. 2022-08-17)",
+   "motivo": "Año verificado en BCN idNorma 1180050 (promulgado 03-06-2022)."
+  },
+  {
+   "id": "ds-15-2013-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Derogado por el art. 69 del DS 1/2021 MMA (D.O. 2023-03-29), que solo dejó subsistentes sus arts. 34 y siguientes (episodios críticos) para la hipótesis del artículo único transitorio del nuevo plan",
+   "motivo": "Texto del art. 69 y del artículo único transitorio del DS 1/2021 (XML 1190758). BCN sigue mostrando la ficha como 'no derogado'."
+  },
+  {
+   "id": "ds-43-2015-minsal",
+   "campo": "confianza",
+   "valor": "alta",
+   "motivo": "Artículo derogatorio (193) leído en XML 1088802."
+  },
+  {
+   "id": "ds-43-2015-minsal",
+   "campo": "notas_verificacion",
+   "valor": "Derogación del DS 78/2009 MINSAL verificada en el art. 193. Última modificación: DS 60/2022 MINSAL (BCN idNorma 1180050).",
+   "motivo": "Actualiza nota."
+  },
+  {
+   "id": "ds-28-2013-mma",
+   "art": "18",
+   "campo": "resumen",
+   "valor": "Las fuentes sujetas al DS 165/1998 siguen cumpliéndolo hasta que les sean exigibles los límites anuales de la Tabla 1; desde entonces se entiende derogado, salvo su Título III (arts. 15 a 29) sobre metodologías de medición y control.",
+   "motivo": "El resumen afirmaba una sustitución íntegra e inmediata; el art. 18 establece derogación diferida y parcial."
+  },
+  {
+   "id": "ds-28-2013-mma",
+   "art": "18",
+   "campo": "epigrafe",
+   "valor": "Derogación diferida del DS 165/1998",
+   "motivo": "Coherencia con el texto."
+  },
+  {
+   "id": "ds-31-2016-mma",
+   "art": "54",
+   "campo": "resumen",
+   "valor": "Calderas y procesos con combustión de 20 MWt o más deben implementar monitoreo continuo de MP, NOx y SO2, según corresponda, dentro de 24 meses desde la vigencia del plan y con aprobación de la SMA; entretanto acreditan emisiones con mediciones cada 12 meses.",
+   "motivo": "La exigencia de instrumentación para fuentes de 10 a 20 MWt no está en el art. 54 sino en el art. 53."
+  },
+  {
+   "id": "ds-31-2016-mma",
+   "art": "96",
+   "campo": "resumen",
+   "valor": "Prohíbe la quema de rastrojos y de vegetación viva o muerta en terrenos agrícolas, ganaderos o de aptitud preferentemente forestal de la región, según un cronograma. Fiscalizan el SAG y CONAF; esta última puede autorizar quemas excepcionales por resolución fundada, por emergencia fitosanitaria o para manejo de combustible vegetal preventivo de incendios.",
+   "motivo": "Precisión relevante para CONAF: el art. 96 le asigna fiscalización y la facultad de autorizar excepciones (no era error, estaba incompleto)."
+  },
+  {
+   "id": "ds-8-2023-mma",
+   "art": "52",
+   "campo": "resumen",
+   "valor": "Proyectos o modificaciones que se sometan al SEIA y generen 1,0 t/año o más de MP10, o 0,5 t/año o más de MP2,5, deben compensar el 120% de sus emisiones mediante un programa por toda la vida útil del proyecto.",
+   "motivo": "Umbrales exactos del art. 52; el plazo de 60 días hábiles no está en el art. 52 sino en el art. 53."
+  },
+  {
+   "id": "ds-50-2024-mma",
+   "art": "22",
+   "campo": "resumen",
+   "valor": "Rige a los seis meses de su publicación, esto es, desde el 2 de junio de 2026.",
+   "motivo": "La derogación del DS 37/2012 no está en el art. 22 sino en el artículo segundo del decreto."
+  },
+  {
+   "id": "ds-12-2021-mma",
+   "art": "18",
+   "campo": "resumen",
+   "valor": "Deja sin efecto el DS 59/1998 de MINSEGPRES desde su entrada en vigencia, manteniendo las declaraciones de zona basadas en él y las resoluciones dictadas para su cumplimiento mientras no se dicten nuevas declaraciones.",
+   "motivo": "El art. 18 no menciona planes: conserva declaraciones de zona y resoluciones."
+  },
+  {
+   "id": "ds-211-1991-mtt",
+   "art": "4 bis y ss.",
+   "campo": "num",
+   "valor": "4 bis",
+   "motivo": "Número no normalizado ('4 bis y ss.'); el contenido resumido corresponde al art. 4 bis y a los agregados que le siguen."
+  },
+  {
+   "id": "ds-90-2000-minsegpres",
+   "art": "7",
+   "campo": "resumen",
+   "valor": "El texto encomienda la fiscalización a la SISS, a la DIRECTEMAR y a los Servicios de Salud, según corresponda; hoy la ejerce la SMA con apoyo sectorial.",
+   "motivo": "Precisión: el punto 7 nombra a los tres organismos."
+  },
+  {
+   "id": "ds-1-2021-mma",
+   "art": "69",
+   "campo": "resumen",
+   "valor": "Deroga el plan de 2013 (DS 15/2013 MMA), conservando las resoluciones dictadas para su cumplimiento y, solo para la hipótesis del artículo único transitorio, sus arts. 34 y siguientes sobre episodios críticos.",
+   "motivo": "El art. 69 mantiene además parte del plan antiguo en un supuesto transitorio."
+  },
+  {
+   "id": "ds-43-2012-mma",
+   "campo": "resumen",
+   "valor": "Norma lumínica anterior, aplicable solo a las regiones de Antofagasta, Atacama y Coquimbo. Fue reemplazada por una norma de alcance nacional.",
+   "motivo": "El JSON decía 'Antofagasta, Atacama y otra'; el art. 2 (XML 1050704) nombra a Coquimbo."
+  },
+  {
+   "id": "ds-41-2021-mma",
+   "campo": "notas_verificacion",
+   "valor": "Vigente sin modificaciones en BCN. El art. 4 establece dieciséis áreas de vigilancia (verificado en el XML).",
+   "motivo": "Se levanta la reserva del JSON sobre el número de áreas."
+  },
+  {
+   "id": "ds-9-2022-mma",
+   "campo": "ultima_modificacion",
+   "valor": "Versión BCN de 2023-02-20 (solo cambia el art. 4; acto no identificado en el buscador BCN)",
+   "motivo": "Precisión: el único artículo con fechaVersion 2023-02-20 es el 4."
+  }
+ ],
+ "art_agregar": [
+  {
+   "id": "ds-31-2016-mma",
+   "articulo": {
+    "num": "53",
+    "epigrafe": "Instrumentación en fuentes medianas",
+    "resumen": "Calderas y procesos con combustión de 10 MWt o más y menos de 20 MWt deben contar con instrumentación que registre en forma continua y en línea con la SMA variables para estimar indirectamente sus emisiones.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ds-8-2023-mma",
+   "articulo": {
+    "num": "53",
+    "epigrafe": "Programa de compensación",
+    "resumen": "El programa de compensación de emisiones debe presentarse dentro de 60 días hábiles desde la dictación de la RCA y requiere aprobación de la SEREMI del Medio Ambiente.",
+    "obliga_titular": true
+   }
+  },
+  {
+   "id": "ds-8-2023-mma",
+   "articulo": {
+    "num": "85",
+    "epigrafe": "Derogación",
+    "resumen": "Deroga el plan de 2015 (DS 8/2015 MMA), sin perjuicio de lo previsto en los artículos transitorios, y mantiene las resoluciones dictadas para su cumplimiento en lo que no se opongan al nuevo plan.",
+    "obliga_titular": false
+   }
+  },
+  {
+   "id": "ds-50-2024-mma",
+   "articulo": {
+    "num": "segundo",
+    "epigrafe": "Derogación",
+    "resumen": "El artículo segundo del decreto deroga el DS 37/2012 MMA desde la entrada en vigencia de la nueva norma, sin perjuicio del artículo único transitorio.",
+    "obliga_titular": false
+   }
+  }
+ ],
+ "rel_eliminar": [
+  {
+   "id": "ds-21-2024-mma",
+   "tipo": "reemplaza",
+   "destino": "ds-1-2015-mma",
+   "motivo": "El DS 21/2024 (14 artículos) no deroga ni menciona al DS 1/2015 en su articulado; este había sido anulado en 2016-2017. No hay reemplazo normativo sino nueva dictación."
+  },
+  {
+   "id": "ds-8-2023-mma",
+   "tipo": "reemplaza",
+   "destino": "ds-8-2015-mma",
+   "motivo": "Falta el artículo derogatorio."
+  },
+  {
+   "id": "ds-43-2015-minsal",
+   "tipo": "reemplaza",
+   "destino": "ds-78-2009-minsal",
+   "motivo": "Falta el artículo derogatorio, que el JSON declaraba no leído."
+  },
+  {
+   "id": "ds-28-2013-mma",
+   "tipo": "reemplaza",
+   "destino": "ds-165-1998-minsegpres",
+   "motivo": "La derogación es parcial y diferida, no un reemplazo íntegro."
+  },
+  {
+   "id": "ds-211-1991-mtt",
+   "tipo": "reglamenta",
+   "destino": "ley-19300",
+   "motivo": "Decreto del MTT de 1991, anterior a la Ley 19.300 (1994); su encabezado no la cita. No puede 'reglamentarla'."
+  },
+  {
+   "id": "ds-211-1991-mtt",
+   "tipo": "complementa",
+   "destino": "ds-31-2016-mma",
+   "motivo": "El art. 9 del DS 31/2016 se refiere al DS 149/2006 MTT, no al DS 211/1991."
+  },
+  {
+   "id": "ds-144-1961-minsal",
+   "tipo": "complementa",
+   "destino": "ley-19300",
+   "motivo": "El art. 40 no es su norma habilitante: es un decreto sanitario de 1961 cuyo texto no cita la Ley 19.300."
+  }
+ ],
+ "rel_agregar": [
+  {
+   "id": "ds-21-2024-mma",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ds-1-2015-mma",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Norma dictada tras la anulación judicial del DS 1/2015 (sentencia publicada el 09-08-2017); no lo deroga expresamente."
+   }
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "32",
+    "nota": "Norma secundaria de calidad ambiental (sus Vistos citan los arts. 2 letra ñ), 32 y 48 bis)."
+   }
+  },
+  {
+   "id": "ds-1-2015-mma",
+   "relacion": {
+    "tipo": "remite",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "50",
+    "nota": "Anulada por reclamación ante el Tribunal Ambiental."
+   }
+  },
+  {
+   "id": "ds-8-2023-mma",
+   "relacion": {
+    "tipo": "reemplaza",
+    "destino": "ds-8-2015-mma",
+    "art_origen": "85",
+    "art_destino": null,
+    "nota": "El art. 85 deroga el plan de 2015, sin perjuicio de los artículos transitorios y manteniendo las resoluciones dictadas para su cumplimiento."
+   }
+  },
+  {
+   "id": "ds-43-2015-minsal",
+   "relacion": {
+    "tipo": "reemplaza",
+    "destino": "ds-78-2009-minsal",
+    "art_origen": "193",
+    "art_destino": null,
+    "nota": "El art. 193 deroga el DS 78/2009 MINSAL desde la entrada en vigencia del reglamento (180 días corridos tras su publicación)."
+   }
+  },
+  {
+   "id": "ds-28-2013-mma",
+   "relacion": {
+    "tipo": "deroga",
+    "destino": "ds-165-1998-minsegpres",
+    "art_origen": "18",
+    "art_destino": null,
+    "nota": "Derogación diferida y parcial: el DS 165/1998 siguió rigiendo hasta que fueron exigibles los límites de la Tabla 1, y subsiste su Título III (arts. 15 a 29) sobre metodologías de medición y control."
+   }
+  },
+  {
+   "id": "ds-211-1991-mtt",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "40",
+    "nota": "Norma de emisión vehicular preexistente; sus modificaciones recientes (p. ej. DS 41/2019 MMA) se tramitan como normas de emisión del art. 40."
+   }
+  },
+  {
+   "id": "ds-211-1991-mtt",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ds-31-2016-mma",
+    "art_origen": null,
+    "art_destino": "17",
+    "nota": "El plan de la Región Metropolitana menciona a los vehículos del DS 211/1991 en su art. 17 (etiqueta informativa en la primera venta)."
+   }
+  },
+  {
+   "id": "ds-144-1961-minsal",
+   "relacion": {
+    "tipo": "complementa",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": null,
+    "nota": "Norma sanitaria preexistente (Código Sanitario) que convive con las normas de emisión; no fue dictada al amparo de la Ley 19.300."
+   }
+  },
+  {
+   "id": "ds-3-2012-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "70 letra g)",
+    "nota": "Sus Vistos invocan el art. 70 letra g): atribución del MMA para formular normas en materia de residuos."
+   }
+  },
+  {
+   "id": "ds-30-2021-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "70 letra g)",
+    "nota": "Sus Vistos invocan el art. 70 letra g): atribución del MMA para formular normas en materia de residuos."
+   }
+  },
+  {
+   "id": "ds-113-2002-minsegpres",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "32",
+    "nota": "Norma primaria de calidad (sus Vistos citan el art. 32)."
+   }
+  },
+  {
+   "id": "ds-114-2002-minsegpres",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "32",
+    "nota": "Norma primaria de calidad (sus Vistos citan el art. 32)."
+   }
+  },
+  {
+   "id": "ds-136-2000-minsegpres",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "32",
+    "nota": "Norma primaria de calidad (sus Vistos citan el art. 32)."
+   }
+  },
+  {
+   "id": "ds-20-2013-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "32",
+    "nota": "Norma primaria de calidad."
+   }
+  },
+  {
+   "id": "ds-146-1997-minsegpres",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "40",
+    "nota": "Norma de emisión."
+   }
+  },
+  {
+   "id": "ds-43-2012-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "40",
+    "nota": "Norma de emisión."
+   }
+  },
+  {
+   "id": "ds-37-2012-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "40",
+    "nota": "Norma de emisión."
+   }
+  },
+  {
+   "id": "ds-8-2015-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "44",
+    "nota": "Plan de descontaminación."
+   }
+  },
+  {
+   "id": "ds-15-2013-mma",
+   "relacion": {
+    "tipo": "reglamenta",
+    "destino": "ley-19300",
+    "art_origen": null,
+    "art_destino": "44",
+    "nota": "Plan de descontaminación (sus Vistos citan los arts. 44 y 70 letra n)."
+   }
+  }
+ ]
+}

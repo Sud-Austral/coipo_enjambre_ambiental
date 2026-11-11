@@ -1,0 +1,27 @@
+{
+ "cambios": [
+  {
+   "id": "ley-21600",
+   "art": "120",
+   "campo": "resumen",
+   "valor": "Gravísimas: multa de hasta 15.000 UTM, restitución total de los beneficios de área protegida privada, extinción o caducidad de la concesión o permiso sin indemnización y prohibición de ingreso por cinco a quince años. Graves: multa de hasta 10.000 UTM, restitución parcial de esos beneficios, suspensión de la concesión o permiso por no más de la mitad de su plazo y prohibición de ingreso por cinco a diez años. Leves: multa de hasta 1.000 UTM o, si el infractor consiente, servicios en beneficio de un área protegida. Puede sumarse el decomiso de los medios y productos de la infracción. La sanción se gradúa, entre otros criterios, por gravedad, beneficio y capacidad económica, intencionalidad, colaboración, conducta anterior, reparación, categoría del área y vulnerabilidad de lo afectado.",
+   "motivo": "Precisión (no error de fondo): el resumen vigente da un solo rango de prohibición de ingreso (5 a 15 años), que el art. 120 reserva a las gravísimas; para las graves es de 5 a 10 años. Además omite la sanción alternativa de las leves y el tope de la suspensión."
+  },
+  {
+   "id": "ley-21600",
+   "art": "83",
+   "campo": "resumen",
+   "valor": "Excepcional y fundadamente pueden otorgarse concesiones gratuitas de investigación científica o de educación a municipalidades, organismos estatales con patrimonio distinto del Fisco o con aporte o participación estatal, y personas jurídicas privadas sin fines de lucro. A estas concesiones no se les aplica la regla de transferencia del art. 88, y el Servicio puede extinguirlas por su sola voluntad cuando existan razones fundadas.",
+   "motivo": "Precisión (no error de fondo): la frase vigente 'no son transferibles conforme al art. 88' puede leerse como si el art. 88 prohibiera transferir; el texto dice que el art. 88 (que permite transferir) no se aplica a las gratuitas."
+  },
+  {
+   "id": "ley-21600",
+   "art": "62",
+   "campo": "obliga_titular",
+   "valor": true,
+   "motivo": "Coherencia interna: el art. 62 condiciona las actividades a no poner en riesgo los servicios ecosistémicos, con la misma cláusula que los arts. 60 y 61, marcados true; hoy está en false."
+  }
+ ],
+ "art_eliminar": [],
+ "art_agregar": []
+}
