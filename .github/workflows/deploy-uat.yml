@@ -23,3 +23,9 @@ jobs:
     with:
       app_name: ${{ github.event.repository.name }}
       esperar_salud: true
+
+  resumen:
+    uses: Sud-Austral/coipo_jueces/.github/workflows/resumen.yml@v2
+    permissions:
+      contents: read
+      id-token: write
